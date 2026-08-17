@@ -1,0 +1,48 @@
+name: Veille Vinted
+
+on:
+  schedule:
+    # toutes les 15 minutes (heure UTC ; GitHub peut décaler de quelques minutes)
+    - cron: "*/15 * * * *"
+  workflow_dispatch: {} # permet de lancer un test à la main
+
+# nécessaire pour que le job puisse enregistrer les annonces déjà signalées
+permissions:
+  contents: write
+
+concurrency:
+  group: veille
+  cancel-in-progress: false
+
+jobs:
+  scanner:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Installer les dépendances
+        run: npm install --no-audit --no-fund
+
+      - name: Installer Chrome
+        run: npx playwright install chrome --with-deps
+
+      - name: Chercher les bonnes affaires
+        env:
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+        run: npm run scan
+
+      - name: Mémoriser les annonces déjà signalées
+        run: |
+          if [[ -n "$(git status --porcelain etat.json)" ]]; then
+            git config user.name "veille-vinted"
+            git config user.email "actions@github.com"
+            git add etat.json
+            git commit -m "veille : mise à jour de l'état"
+            git push
+          fi

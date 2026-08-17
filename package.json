@@ -1,0 +1,13 @@
+{
+  "name": "vinted-alertes",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Veille Vinted : detecte les montres nettement sous leur cote et alerte sur Discord.",
+  "scripts": {
+    "scan": "node scan.mjs"
+  },
+  "dependencies": {
+    "playwright-core": "^1.49.0"
+  }
+}

@@ -1,5 +1,5 @@
 /** Tests des trois filtres. `npm test`. Aucun reseau, aucune dependance. */
-import { normaliser, marqueHorlogere, etatAcceptable, motRedhibitoire, motifDeRefus, texteResume, estAccessoire, estLuxe, requeteModele, estPepite, merite, estLot, nombreDansLot, comparable, etatProche, jetonsModele } from "./scan.mjs";
+import { normaliser, marqueHorlogere, etatAcceptable, motRedhibitoire, motifDeRefus, texteResume, estAccessoire, estLuxe, requeteModele, estPepite, merite, estLot, nombreDansLot, article, comparable, etatProche, jetonsModele } from "./scan.mjs";
 
 let ok = 0;
 const echecs = [];
@@ -298,6 +298,10 @@ verifier("état inconnu ne compare rien", etatProche("Bon état", "Pourri"), fal
 verifier("45 € de marge sur cote modèle", merite(100, 145, false, true), true);
 verifier("45 € de marge sur cote marque", merite(100, 145, false, false), false);
 verifier("70 € de marge sur cote marque", merite(100, 170, false, false), true);
+
+verifier("article : marque", article("marque"), "de la marque");
+verifier("article : modèle", article("modèle"), "du modèle");
+verifier("article : lot", article("lot de 3"), "du lot de 3");
 
 // --- Le verdict : le bénéfice à la revente ----------------------------------
 verifier("marge de 70 € sur une petite montre", merite(30, 100, false), true);

@@ -447,6 +447,9 @@ async function coteMarque(page, marque, cache) {
 
 const rechercheUrl = (params) => `/api/v2/catalog/items?${new URLSearchParams(params)}`;
 
+/** "du modèle", "de la marque", "du lot de 3" : l'article suit le niveau. */
+export const article = (niveau) => (String(niveau) === "marque" ? "de la marque" : `du ${niveau}`);
+
 /** Envoi d'une alerte Discord, avec la photo, l'etat et un extrait de la description. */
 async function alerter(annonce) {
   const ecart = annonce.cote ? Math.round((1 - annonce.prix / annonce.cote) * 100) : 0;
@@ -473,7 +476,7 @@ async function alerter(annonce) {
         color: annonce.pepite ? 0x9b59b6 : 0x2ecc71,
         description:
           (annonce.cote
-            ? `**${annonce.prix} €** — cote du ${annonce.niveau} : **${annonce.cote} €** ` +
+            ? `**${annonce.prix} €** — cote ${article(annonce.niveau)} : **${annonce.cote} €** ` +
               `(médiane sur ${annonce.echantillon} annonces).\n` +
               `**Bénéfice à la revente : ~${Math.round(annonce.cote - annonce.prix)} €** (−${ecart} %).\n\n`
             : `**${annonce.prix} €** — pièce de collection, aucune cote fiable à ce jour.\n\n`) +

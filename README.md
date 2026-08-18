@@ -69,7 +69,7 @@ requêtes :
 6. **Description propre.** Lue sur la fiche publique, elle est refusée si elle
    contient un mot rédhibitoire : « pour pièces », « ne fonctionne plus », « HS »,
    « réplique », « style Rolex », « il manque »… en français, espagnol, italien,
-   anglais et allemand.
+   anglais, allemand et néerlandais.
 
    Certains défauts se disent avec le même mot que leur absence : « verre
    plexiglas fissuré » disqualifie, « aucune fissure » non. Ceux-là ne comptent
@@ -94,7 +94,7 @@ finalistes**, soit une poignée par passage.
 
     npm test
 
-237 tests, sans réseau : normalisation, liste blanche des marques, états, mots
+248 tests, sans réseau : normalisation, liste blanche des marques, états, mots
 rédhibitoires et pièges de négation.
 
 ## Installation
@@ -207,7 +207,7 @@ prouvent d'elles-mêmes que ça tourne.
 | `ratioAvantCoteModele` | au-delà, on ne paie pas la requête de cote précise |
 | `coteMinAnnonces` | nombre d'annonces requis pour oser une cote |
 | `maxAlertesParPassage` | évite d'inonder Discord |
-| `bouclerSecondes` | durée de la boucle interne d'un job |
+| `bouclerSecondes` | durée de la boucle interne d'un job. Court = état enregistré plus souvent |
 | `intervalleSecondes` | délai entre deux relevés (`40` = une montre est vue dans la minute) |
 | `resumeSiRienMinutes` | fréquence du message « Rien à signaler » |
 | `marquesMontres` | liste blanche des maisons horlogères |
@@ -244,3 +244,8 @@ poussée est retentée trois fois si le dépôt bouge entre-temps.
   activité**. Un commit suffit à les relancer.
 - Les horaires de `cron` ne sont pas garantis à la minute près chez GitHub, et
   c'est maintenant la principale source de latence.
+- **Une même annonce peut être signalée deux fois.** L'état n'est enregistré
+  qu'à la fin d'un job, et deux jobs se chevauchent parfois de quelques dizaines
+  de secondes au moment de la relève — observé : l'un démarre à 21:44:32 quand le
+  précédent ne se termine qu'à 21:45:16. Le job qui démarre récupère alors un
+  état périmé. Raccourcir la boucle réduit la fenêtre sans la supprimer.

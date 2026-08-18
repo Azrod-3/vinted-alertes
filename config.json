@@ -7,7 +7,7 @@
   "coteMinimum": 60,
   "coteMinAnnonces": 8,
   "maxAlertesParPassage": 5,
-  "bouclerSecondes": 1500,
+  "bouclerSecondes": 600,
   "intervalleSecondes": 40,
   "resumeSiRienMinutes": 60,
   "etatsAcceptes": [
@@ -133,7 +133,18 @@
     "senza cinturino",
     "lotto di",
     "venduto come visto",
-    "come da foto difetti"
+    "come da foto difetti",
+    "kapot",
+    "defect",
+    "werkt niet",
+    "loopt niet",
+    "niet werkend",
+    "voor onderdelen",
+    "gebarsten",
+    "gebroken",
+    "namaak",
+    "beschadigd",
+    "onderdelen"
   ],
   "marquesMontres": [
     "Seiko",
@@ -429,7 +440,22 @@
     "funda",
     "cajita",
     "case",
-    "koffer"
+    "koffer",
+    "horlogeband",
+    "horlogebandje",
+    "bandje",
+    "schakelband",
+    "band",
+    "kast",
+    "glas",
+    "wijzers",
+    "kroon",
+    "uurwerk",
+    "doosje",
+    "horlogedoos",
+    "gesp",
+    "schakels",
+    "oplader"
   ],
   "motsAccessoireTitre": [
     "maglie",
@@ -492,7 +518,15 @@
     "box",
     "case",
     "koffer",
-    "etui"
+    "etui",
+    "horlogeband",
+    "horlogebandje",
+    "schakelband",
+    "horlogedoos",
+    "eindschakels",
+    "bandpennen",
+    "voor horloge",
+    "voor horloges"
   ],
   "prixMinimumLuxe": 250,
   "marquesLuxe": [
@@ -749,7 +783,9 @@
     "bundle",
     "job lot",
     "collezione",
-    "coleccion"
+    "coleccion",
+    "partij",
+    "verzameling"
   ],
   "motsAmbigus": [
     "fissure",
@@ -772,7 +808,8 @@
     "ruggine",
     "oxido",
     "rost",
-    "moisissure"
+    "moisissure",
+    "roest"
   ],
   "negations": [
     "sans",
@@ -792,7 +829,10 @@
     "keine",
     "kein",
     "no",
-    "without"
+    "without",
+    "geen",
+    "zonder",
+    "niet"
   ],
   "accepterLots": true,
   "lotMaxMontres": 10,

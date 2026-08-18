@@ -153,11 +153,17 @@ for (const titre of ["Cartellino originale per orologi Universal Geneve",
                      // Boites et ecrins dans les cinq langues.
                      "Scatola Orologio Certina Vintage - Full Set",
                      "Astuccio orologio Omega", "Estuche reloj Seiko",
-                     "Uhrenkoffer Leder", "Watch case Seiko"]) {
+                     "Uhrenkoffer Leder", "Watch case Seiko",
+                     // Neerlandais : « horlogeband » est un bracelet. Une alerte
+                     // reelle est partie faute de connaitre la langue.
+                     "Seiko titanium horlogeband 20mm", "Horlogebandje leer 20mm",
+                     "Schakelband Seiko", "Horlogedoos hout"]) {
   verifier(`objet pour montre : « ${titre} »`, estAccessoire(titre), true);
 }
 // Piège : "tag" est dans "TAG Heuer". Ce mot seul ne doit jamais bloquer.
-for (const titre of ["TAG Heuer Monaco", "Tag Heuer Formula 1", "Montre TAG Heuer"]) {
+for (const titre of ["TAG Heuer Monaco", "Tag Heuer Formula 1", "Montre TAG Heuer",
+                     // « horloge » tout court veut dire montre en neerlandais.
+                     "Seiko horloge automatisch", "Zenith horloge vintage"]) {
   verifier(`TAG Heuer intacte : « ${titre} »`, estAccessoire(titre), false);
 }
 // Retirees du plancher luxe : ce sont des maisons a pepites, et une Longines
@@ -234,6 +240,9 @@ for (const [texte, mot] of [
   ["Vetro incrinato", "incrinato"],
   ["Boîtier rouillé, à nettoyer", "rouille"],
   ["Glass is cracked", "cracked"],
+  ["Horloge werkt niet", "werkt niet"],
+  ["Kapot horloge, voor onderdelen", "kapot"],
+  ["Beetje roest op de kast", "roest"],
 ]) {
   verifier(`défaut : « ${texte} »`, motRedhibitoire(texte), mot);
 }
@@ -243,6 +252,8 @@ for (const texte of [
   "Sans fissure ni trace de rouille",
   "Aucune trace de rouille, très propre",
   "Senza incrinature",
+  "Geen roest, mooi horloge",
+  "Loopt nog. Wel al oud. Moet schoongemaakt worden.",
   // L'usure normale d'une vintage ne doit rien déclencher.
   "Montre Tissot très bon état, quelques micro-rayures d'usage sur le fond",
   "Petites rayures d'usage, rien de méchant",

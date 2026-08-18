@@ -53,8 +53,10 @@ const PEPITE_MARQUES = CONFIG.marquesPepite.map((m) => ` ${normaliser(m)} `);
 const PEPITE_SIGNAUX = CONFIG.signauxPepite.map((m) => ` ${normaliser(m)} `);
 const MOTS_VIDES = new Set(CONFIG.motsVides.map(normaliser));
 const MOTS_LOT = CONFIG.motsLot.map((m) => ` ${normaliser(m)} `);
-/** "2 Orologi Swatch", "3 montres" : un lot, compare a tort a une montre seule. */
+/** "2 Orologi Swatch", "3 montres" : un lot, a ne jamais comparer a une seule. */
 const LOT_CHIFFRE = /(^|\s)([2-9]|\d{2})\s+(orologi|montres|relojes|uhren|watches|orologio)/;
+/** "lot de 3", "lotto di 5", "set di 4" : le nombre suit le mot. */
+const LOT_COMPTE = /(?:lot|lotto|lote|set|konvolut|stock|blocco|paquet)\s+(?:de\s+|di\s+|of\s+|von\s+)?(\d{1,2})(?!\d)/;
 const PAS_LUXE = CONFIG.marquesLuxeExceptions.map((m) => ` ${normaliser(m)} `);
 
 /** Compteurs du tunnel, remis a zero a chaque resume envoye. */
@@ -165,7 +167,9 @@ export function motifDeRefus(item, vues = new Set()) {
   if (!marqueHorlogere(item.brand_title)) return "marque";
   if (!etatAcceptable(item.status)) return "etat";
   if (estAccessoire(item.title)) return "accessoire";
-  if (estLot(item.title)) return "lot";
+  // Un lot est accepte quand son nombre de montres est annonce : on peut alors
+  // le valoriser. Sans chiffre, on ignore ce qu'on achete.
+  if (estLot(item.title) && !(CONFIG.accepterLots && nombreDansLot(item.title))) return "lot";
   if (estLuxe(item.brand_title) && prix < CONFIG.prixMinimumLuxe) return "fausse";
   // Un professionnel vend au prix du marche, jamais en dessous : 9 % des
   // annonces, autant de calculs de cote economises.
@@ -248,6 +252,19 @@ export function estPepite(titre, description, marque) {
   if (PEPITE_SIGNAUX.some((m) => texte.includes(m))) return true;
   const nom = ` ${normaliser(marque)} `;
   return PEPITE_MARQUES.some((m) => nom.includes(m));
+}
+
+/**
+ * Combien de montres dans ce lot ? Zero si ce n'est pas un lot, ou si le nombre
+ * n'est pas annonce — un "Konvolut Uhren" sans chiffre est invendable a
+ * l'aveugle, on ne sait pas ce qu'on achete.
+ */
+export function nombreDansLot(titre) {
+  const propre = normaliser(titre);
+  const parMot = propre.match(LOT_COMPTE);
+  const parChiffre = propre.match(LOT_CHIFFRE);
+  const n = Number((parMot && parMot[1]) || (parChiffre && parChiffre[2]) || 0);
+  return n >= 2 && n <= CONFIG.lotMaxMontres ? n : 0;
 }
 
 /**
@@ -393,7 +410,7 @@ async function alerter(annonce) {
   const corps = {
     embeds: [
       {
-        title: `${annonce.pepite ? "💎 " : ""}${annonce.titre.slice(0, 240)}`,
+        title: `${annonce.pepite ? "💎 " : ""}${annonce.lot ? `📦 ` : ""}${annonce.titre.slice(0, 235)}`,
         url: annonce.lien,
         color: annonce.pepite ? 0x9b59b6 : 0x2ecc71,
         description:
@@ -407,6 +424,9 @@ async function alerter(annonce) {
           { name: "Marque", value: annonce.marque || "inconnue", inline: true },
           { name: "État", value: annonce.etat || "non précisé", inline: true },
           ...(annonce.pepite ? [{ name: "Signal", value: "montre de collection", inline: true }] : []),
+          ...(annonce.lot
+            ? [{ name: "Lot", value: `${annonce.lot} montres, comptées à ${Math.round(CONFIG.facteurLot * 100)} % de la cote`, inline: false }]
+            : []),
         ],
         thumbnail: annonce.photo ? { url: annonce.photo } : undefined,
         footer: { text: "Veille Vinted" },
@@ -556,9 +576,20 @@ async function unPassage(page, vues, cotes, bilan, vendeurs) {
     // n'est pas manifestement hors de prix — sans quoi chaque passage
     // interrogerait Vinted trois cents fois.
     let cote = await coteMarque(page, marque, cotes);
-    const vautLeDetour = !cote.mediane || prix / cote.mediane <= CONFIG.ratioAvantCoteModele;
 
-    if (vautLeDetour) {
+    const lot = CONFIG.accepterLots ? nombreDansLot(item.title) : 0;
+    if (lot) {
+      // Un lot ne se compare pas a une montre seule. Chaque piece n'est comptee
+      // qu'a `facteurLot` de la cote : un lot contient presque toujours du
+      // dechet, et mieux vaut rater un lot que faire acheter un carton de pieces.
+      if (cote.mediane) {
+        cote = {
+          ...cote,
+          mediane: Math.round(cote.mediane * lot * CONFIG.facteurLot),
+          niveau: `lot de ${lot}`,
+        };
+      }
+    } else if (!cote.mediane || prix / cote.mediane <= CONFIG.ratioAvantCoteModele) {
       const requete = requeteModele(item.title, marque);
       const precise = requete ? await coteModele(page, requete, cotes) : null;
       if (precise && precise.mediane) cote = precise;
@@ -601,6 +632,7 @@ async function unPassage(page, vues, cotes, bilan, vendeurs) {
       cote: cote.mediane,
       echantillon: cote.echantillon,
       niveau: cote.niveau || "marque",
+      lot,
       pepite: estPepite(item.title, description || "", marque),
       lien,
       photo: (item.photo && (item.photo.url || item.photo.thumbnail_url)) || "",

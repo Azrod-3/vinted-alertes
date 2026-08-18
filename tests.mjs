@@ -1,5 +1,5 @@
 /** Tests des trois filtres. `npm test`. Aucun reseau, aucune dependance. */
-import { normaliser, marqueHorlogere, etatAcceptable, motRedhibitoire, motifDeRefus, texteResume, estAccessoire, estLuxe, requeteModele, estPepite, merite, estLot } from "./scan.mjs";
+import { normaliser, marqueHorlogere, etatAcceptable, motRedhibitoire, motifDeRefus, texteResume, estAccessoire, estLuxe, requeteModele, estPepite, merite, estLot, nombreDansLot } from "./scan.mjs";
 
 let ok = 0;
 const echecs = [];
@@ -251,6 +251,18 @@ for (const titre of ["2 Orologi Swatch Nuovi Vintage", "2 Orologi in Blocco Swat
                      "Stock 12 orologi", "Job lot watches"]) {
   verifier(`lot : « ${titre} »`, estLot(titre), true);
 }
+// Un lot n'est accepté que si son nombre est annoncé : sans chiffre, on ignore
+// ce qu'on achète.
+for (const [titre, n] of [["2 Orologi Swatch Nuovi Vintage", 2], ["Lot de 3 montres Seiko", 3],
+                          ["Lotto di 5 orologi", 5], ["Set di 4 orologi", 4],
+                          ["Konvolut Uhren", 0], ["Stock 12 orologi", 0]]) {
+  verifier(`lot de ${n || "?"} : « ${titre} »`, nombreDansLot(titre), n);
+}
+verifier("une montre seule n'est pas un lot", nombreDansLot("Seiko 5 sports"), 0);
+// Un lot de 3 Seiko cotées 100 € vaut 3 x 100 x 0,6 = 180 €, pas 100 €.
+verifier("lot de 3 à 90 € vaut le coup", merite(90, 180, false), true);
+verifier("le même lot à 150 € non", merite(150, 180, false), false);
+
 // Un chiffre dans le titre ne fait pas un lot.
 for (const titre of ["Seiko 5 sports", "Montre 2 aiguilles", "Casio F-91W",
                      "Tissot Seastar cuarzo", "Montre Seiko automatique"]) {

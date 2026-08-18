@@ -82,7 +82,7 @@ finalistes**, soit une poignée par passage.
 
     npm test
 
-209 tests, sans réseau : normalisation, liste blanche des marques, états, mots
+215 tests, sans réseau : normalisation, liste blanche des marques, états, mots
 rédhibitoires et pièges de négation.
 
 ## Installation
@@ -126,6 +126,17 @@ Ces annonces obtiennent un seuil assoupli (`seuilPepite`, −20 % suffit) et son
 signalées d'un 💎. En dessous de `pepitePrixMax`, elles passent même sans cote
 exploitable : c'est exactement le cas où personne ne sait ce que c'est.
 
+## Les lots
+
+Un lot de trois montres comparé à la médiane d'**une seule** paraîtra toujours
+une affaire : « 2 Orologi Swatch » à 60 € ressortait à −54 %. Un lot est donc
+valorisé à son nombre de pièces, chacune comptée à `facteurLot` de la cote de sa
+marque — un lot contient presque toujours du déchet, et mieux vaut rater un lot
+que faire acheter un carton de pièces détachées.
+
+Sans nombre annoncé, le lot est écarté : « Konvolut Uhren » ne dit pas ce qu'on
+achète. Au-delà de `lotMaxMontres`, c'est un déstockage de revendeur.
+
 ## Les vendeurs
 
 Les comptes professionnels sont écartés d'office — le champ `business` est déjà
@@ -167,6 +178,7 @@ prouvent d'elles-mêmes que ça tourne.
 | `marquesPepite` / `signauxPepite` | maisons de niche et signaux de valeur |
 | `seuilPepite` / `pepitePrixMax` | seuil assoupli pour les montres de collection |
 | `vendeurMaxMontres` | au-delà, le vendeur est un revendeur |
+| `accepterLots` / `facteurLot` | lots de montres, et décote appliquée à chaque pièce |
 | `ratioAvantCoteModele` | au-delà, on ne paie pas la requête de cote précise |
 | `coteMinAnnonces` | nombre d'annonces requis pour oser une cote |
 | `maxAlertesParPassage` | évite d'inonder Discord |

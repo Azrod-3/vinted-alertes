@@ -1,5 +1,5 @@
 /** Tests des trois filtres. `npm test`. Aucun reseau, aucune dependance. */
-import { normaliser, marqueHorlogere, etatAcceptable, motRedhibitoire, motifDeRefus, texteResume } from "./scan.mjs";
+import { normaliser, marqueHorlogere, etatAcceptable, motRedhibitoire, motifDeRefus, texteResume, estAccessoire } from "./scan.mjs";
 
 let ok = 0;
 const echecs = [];
@@ -99,13 +99,47 @@ const annonce = (extra) => ({ id: 1, title: "Montre", brand_title: "Seiko",
 
 verifier("annonce valide", motifDeRefus(annonce({})), "");
 verifier("déjà vue", motifDeRefus(annonce({}), new Set(["1"])), "deja");
-verifier("trop bon marché", motifDeRefus(annonce({ price: { amount: "8.0" } })), "prix");
+verifier("trop bon marché", motifDeRefus(annonce({ price: { amount: "3.0" } })), "prix");
+verifier("15 € accepté depuis le nouveau plancher", motifDeRefus(annonce({ price: { amount: "15.0" } })), "");
 verifier("prix illisible", motifDeRefus(annonce({ price: null })), "prix");
 verifier("marque hors horlogerie", motifDeRefus(annonce({ brand_title: "Guess" })), "marque");
 verifier("marque vide", motifDeRefus(annonce({ brand_title: "" })), "marque");
 verifier("état satisfaisant", motifDeRefus(annonce({ status: "Satisfaisant" })), "etat");
 verifier("MoonSwatch acceptée", motifDeRefus(annonce({ brand_title: "Omega x Swatch" })), "");
 verifier("CASIO G-SHOCK acceptée", motifDeRefus(annonce({ brand_title: "CASIO G-SHOCK" })), "");
+
+// --- Accessoires : décidé sur le PREMIER mot du titre -----------------------
+for (const titre of ["Bracelet de montre Seiko cuir", "Cinturino Casio in pelle",
+                     "Correa para reloj", "Écrin 12 montres", "Lot de 3 piles",
+                     "Boîte de rangement montres", "Maillons Seiko", "Verre minéral 32 mm",
+                     // Pieces detachees annoncees en fin de titre.
+                     "Zenith museum maglie", "Seiko eslabones acero", "Rolex maillon or"]) {
+  verifier(`accessoire : « ${titre} »`, estAccessoire(titre), true);
+}
+// Le mot accessoire au MILIEU du titre ne doit rien changer : c'est une montre.
+for (const titre of ["Montre Seiko bracelet cuir noir", "Casio vintage bracelet acier",
+                     "Reloj Seiko Arabic Dial Azul", "Orologio Seiko cinturino pelle",
+                     "G-Shock avec sa boîte d'origine"]) {
+  verifier(`vraie montre : « ${titre} »`, estAccessoire(titre), false);
+}
+verifier("accessoire écarté par le filtre complet",
+  motifDeRefus({ id: 9, title: "Bracelet Seiko", brand_title: "Seiko",
+                 status: "Bon état", price: { amount: "12.0" } }), "accessoire");
+
+// --- Italien -----------------------------------------------------------------
+for (const [texte, mot] of [
+  ["Hamilton bracciale manca un finale", "manca un"],
+  ["Orologio non funzionante", "non funzionante"],
+  ["Vetro rotto, da riparare", "da riparare"],
+  ["Venduto per ricambi", "per ricambi"],
+  ["Replica di ottima qualità", "replica"],
+]) {
+  verifier(`italien : « ${texte} »`, motRedhibitoire(texte), mot);
+}
+for (const texte of ["Orologio Seiko automatico, perfettamente funzionante",
+                     "Bellissimo orologio, non manca nulla"]) {
+  verifier(`italien sain : « ${texte.slice(0, 35)}… »`, motRedhibitoire(texte), "");
+}
 
 // --- Résumé « rien à signaler » ----------------------------------------------
 const bilan = { passages: 28, nouvelles: 143, marque: 71, prix: 38, etat: 2,

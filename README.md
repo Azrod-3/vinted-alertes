@@ -30,9 +30,15 @@ requêtes :
    comparables en vente, valeurs aberrantes écartées. Le bas de gamme tombe tout
    seul grâce au **seuil de cote minimum** (60 €) : une marque dont les montres
    valent 15 € n'a pas de bonne affaire à offrir.
-4. **Description propre.** Lue sur la fiche publique, elle est refusée si elle
+4. **Pas un accessoire.** Sous 5 €, la catégorie Montres se remplit de bracelets,
+   d'écrins et de piles. Le premier mot du titre les trahit presque toujours
+   (« Bracelet de montre Seiko », « Cinturino Casio »), et quelques mots — maillon,
+   maglie, eslabones — suffisent où qu'ils soient : « Zenith museum maglie » à 10 €
+   passait pour une Zenith à −96 %.
+5. **Description propre.** Lue sur la fiche publique, elle est refusée si elle
    contient un mot rédhibitoire : « pour pièces », « ne fonctionne plus », « HS »,
-   « réplique », « style Rolex », « il manque »… Les mots ambigus ont été retirés
+   « réplique », « style Rolex », « il manque »… en français, espagnol, italien,
+   anglais et allemand. Les mots ambigus ont été retirés
    exprès — « il ne manque rien » ou « ce n'est pas un faux » sont des phrases
    saines, et une annonce bloquée à tort disparaît sans bruit.
 
@@ -51,7 +57,7 @@ finalistes**, soit une poignée par passage.
 
     npm test
 
-100 tests, sans réseau : normalisation, liste blanche des marques, états, mots
+125 tests, sans réseau : normalisation, liste blanche des marques, états, mots
 rédhibitoires et pièges de négation.
 
 ## Installation
@@ -104,7 +110,9 @@ prouvent d'elles-mêmes que ça tourne.
 | `categorieVinted` | `97` = Montres |
 | `seuilBonneAffaire` | rapport prix/cote maximum. `0.55` = le prix vaut au plus 55 % de la cote, soit une remise de **−45 %** |
 | `coteMinimum` | ignore les marques dont la cote est sous ce prix (bas de gamme) |
-| `prixMinimum` | ignore les annonces en dessous (souvent des accessoires) |
+| `prixMinimum` | ignore les annonces en dessous (`5` €) |
+| `motsAccessoire` | premiers mots de titre qui trahissent un accessoire |
+| `motsAccessoireTitre` | mots qui ne désignent qu'une pièce détachée, où qu'ils soient |
 | `coteMinAnnonces` | nombre d'annonces requis pour oser une cote |
 | `maxAlertesParPassage` | évite d'inonder Discord |
 | `bouclerSecondes` | durée de la boucle interne d'un job |

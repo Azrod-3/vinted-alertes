@@ -42,6 +42,8 @@ const MARQUES = CONFIG.marquesMontres.map((m) => ` ${normaliser(m)} `);
 const ETATS = new Set(CONFIG.etatsAcceptes.map(normaliser));
 /** Pre-normalises et entoures d'espaces : evite que "hs" matche "shs". */
 const MOTS = CONFIG.motsRedhibitoires.map((m) => ` ${normaliser(m)} `);
+const ACCESSOIRES = new Set(CONFIG.motsAccessoire.map(normaliser));
+const ACCESSOIRES_PARTOUT = CONFIG.motsAccessoireTitre.map((m) => ` ${normaliser(m)} `);
 
 /** Compteurs du tunnel, remis a zero a chaque resume envoye. */
 const nouveauBilan = () => ({
@@ -51,6 +53,7 @@ const nouveauBilan = () => ({
   marque: 0,
   etat: 0,
   prix: 0,
+  accessoire: 0,
   sansCote: 0,
   chere: 0,
   description: 0,
@@ -145,8 +148,26 @@ export function motifDeRefus(item, vues = new Set()) {
   // marque de vetements n'a pas de cote qui veuille dire quelque chose.
   if (!marqueHorlogere(item.brand_title)) return "marque";
   if (!etatAcceptable(item.status)) return "etat";
+  if (estAccessoire(item.title)) return "accessoire";
   return "";
 }
+
+/**
+ * Une annonce d'accessoire l'annonce des le premier mot du titre : "Bracelet de
+ * montre Seiko", "Cinturino Casio", "Ecrin 12 montres". On ne regarde que ce
+ * premier mot — chercher "bracelet" n'importe ou recalerait "Montre Seiko
+ * bracelet cuir", qui est une vraie montre.
+ *
+ * Ce filtre ne servait a rien tant que le prix plancher etait a 20 EUR ; il
+ * devient indispensable en dessous, ou la categorie se remplit d'accessoires.
+ */
+export const estAccessoire = (titre) => {
+  const propre = normaliser(titre);
+  if (ACCESSOIRES.has(propre.split(" ")[0])) return true;
+  // Quelques mots ne designent que des pieces detachees ou qu'ils soient :
+  // "Zenith museum maglie" a 10 EUR, ce sont des maillons, pas une montre.
+  return ACCESSOIRES_PARTOUT.some((m) => ` ${propre} `.includes(m));
+};
 
 /** Premier mot redhibitoire trouve dans le texte, ou "" si tout va bien. */
 export function motRedhibitoire(...textes) {
@@ -249,6 +270,7 @@ export function texteResume(bilan, ecoule) {
     [bilan.marque, "hors horlogerie"],
     [bilan.prix, "sous le prix plancher"],
     [bilan.etat, "état insuffisant"],
+    [bilan.accessoire, "accessoire, pas une montre"],
     [bilan.sansCote, "marque sans cote fiable"],
     [bilan.chere, "au prix du marché"],
     [bilan.description, "description rédhibitoire"],

@@ -1,5 +1,5 @@
 /** Tests des trois filtres. `npm test`. Aucun reseau, aucune dependance. */
-import { normaliser, marqueHorlogere, etatAcceptable, motRedhibitoire, motifDeRefus, texteResume, estAccessoire, estLuxe, requeteModele, estPepite, merite } from "./scan.mjs";
+import { normaliser, marqueHorlogere, etatAcceptable, motRedhibitoire, motifDeRefus, texteResume, estAccessoire, estLuxe, requeteModele, estPepite, merite, estLot } from "./scan.mjs";
 
 let ok = 0;
 const echecs = [];
@@ -221,15 +221,29 @@ for (const [titre, marque] of [["Montre Festina quartz", "Festina"], ["Casio F-9
 }
 verifier("signal lu dans la description", estPepite("Vieille montre", "mouvement Valjoux 72", "Inconnue"), true);
 
-// --- Le verdict --------------------------------------------------------------
-// Le cas qui a fuité : Citizen à 110 €, cote 164 €, soit -33 %. Marquée 💎 et
-// envoyée alors que le seuil pépite est à -50 %, au seul motif qu'elle valait
-// moins de 120 €.
-verifier("Citizen 110 € cotée 164 €", merite(110, 164, true), false);
-verifier("la cote tranche, même pour une pépite", merite(90, 164, true), false);
-verifier("vraie pépite à -50 %", merite(80, 164, true), true);
-verifier("montre normale à -70 %", merite(49, 164, false), true);
-verifier("montre normale à -60 %", merite(65, 164, false), false);
+// --- Lots : plusieurs montres comparées à la médiane d'une seule ------------
+for (const titre of ["2 Orologi Swatch Nuovi Vintage", "2 Orologi in Blocco Swatch",
+                     "Lot de 3 montres Seiko", "Konvolut Uhren", "Coppia orologi",
+                     "Stock 12 orologi", "Job lot watches"]) {
+  verifier(`lot : « ${titre} »`, estLot(titre), true);
+}
+// Un chiffre dans le titre ne fait pas un lot.
+for (const titre of ["Seiko 5 sports", "Montre 2 aiguilles", "Casio F-91W",
+                     "Tissot Seastar cuarzo", "Montre Seiko automatique"]) {
+  verifier(`pas un lot : « ${titre} »`, estLot(titre), false);
+}
+
+// --- Le verdict : le bénéfice à la revente ----------------------------------
+verifier("marge de 70 € sur une petite montre", merite(30, 100, false), true);
+verifier("marge de 70 € sur une montre chère", merite(130, 200, false), true);
+// -70 % sur une montre à 40 € ne rapporte que 28 € : le pourcentage flatte, la
+// marge dit la vérité.
+verifier("gros pourcentage, marge ridicule", merite(12, 40, false), false);
+// Garde-fou inverse : 40 € de marge sur 500 €, c'est 8 %, trop mince pour
+// absorber une cote imprécise.
+verifier("marge correcte, pourcentage trop mince", merite(460, 500, false), false);
+verifier("marge tout juste sous le seuil", merite(70, 100, false), false);
+verifier("marge tout juste au seuil", merite(65, 100, false), true);
 // Sans cote exploitable, et seulement là, le petit prix suffit.
 verifier("pépite sans cote sous 120 €", merite(80, null, true), true);
 verifier("pépite sans cote au-dessus", merite(200, null, true), false);

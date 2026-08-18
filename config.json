@@ -1,7 +1,7 @@
 {
   "categorieVinted": 97,
   "nouvellesAnnonces": 96,
-  "seuilBonneAffaire": 0.3,
+  "seuilBonneAffaire": 0.7,
   "prixMinimum": 5,
   "coteMinimum": 60,
   "coteMinAnnonces": 8,
@@ -739,8 +739,28 @@
     "plongee",
     "diver"
   ],
-  "seuilPepite": 0.5,
+  "seuilPepite": 0.8,
   "pepitePrixMax": 120,
   "vendeurMaxMontres": 5,
-  "ratioAvantCoteModele": 1.3
+  "ratioAvantCoteModele": 1.3,
+  "margeMinimum": 35,
+  "motsLot": [
+    "lot",
+    "lots",
+    "lotto",
+    "lotti",
+    "blocco",
+    "in blocco",
+    "stock",
+    "coppia",
+    "paire",
+    "pareja",
+    "konvolut",
+    "sammlung",
+    "set di",
+    "bundle",
+    "job lot",
+    "collezione",
+    "coleccion"
+  ]
 }

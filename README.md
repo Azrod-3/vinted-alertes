@@ -26,7 +26,14 @@ requêtes :
 2. **État déclaré.** Neuf avec/sans étiquette, très bon état, bon état. En
    pratique ce filtre mord rarement : sur 96 annonces relevées, aucune n'était en
    « Satisfaisant ».
-3. **Prix sous la cote — du modèle, pas de la marque.** La cote de marque était
+3. **Bénéfice à la revente — en euros, pas en pourcentage.** Le pourcentage
+   flatte les petits prix : −70 % sur une montre à 40 € ne rapporte que 28 € et ne
+   vaut pas le déplacement, là où −35 % sur une montre à 200 € en rapporte 70. Le
+   critère est donc `cote − prix ≥ margeMinimum`, avec un garde-fou en pourcentage
+   dans l'autre sens : 40 € de marge sur une montre à 500 €, c'est 8 %, trop mince
+   pour absorber une cote imprécise.
+
+   La cote de marque était
    la plus grosse fuite de pépites : toutes les Seiko partageaient la même médiane
    (~95 €), donc une *Seiko Solar Diver's 200M* à 115 € paraissait **au-dessus du
    marché** alors que son modèle se négocie 250 €. La requête de cote est donc
@@ -69,7 +76,7 @@ finalistes**, soit une poignée par passage.
 
     npm test
 
-175 tests, sans réseau : normalisation, liste blanche des marques, états, mots
+198 tests, sans réseau : normalisation, liste blanche des marques, états, mots
 rédhibitoires et pièges de négation.
 
 ## Installation
@@ -144,7 +151,8 @@ prouvent d'elles-mêmes que ça tourne.
 |---|---|
 | `recherches` | les huit recherches lancées à chaque passage |
 | `categorieVinted` | `97` = Montres |
-| `seuilBonneAffaire` | rapport prix/cote maximum. `0.30` = le prix vaut au plus 30 % de la cote, soit une remise de **−70 %** |
+| `margeMinimum` | bénéfice minimum à la revente, en euros |
+| `seuilBonneAffaire` | garde-fou en pourcentage : `0.70` = au moins −30 % |
 | `coteMinimum` | ignore les marques dont la cote est sous ce prix (bas de gamme) |
 | `prixMinimum` | ignore les annonces en dessous (`5` €) |
 | `motsAccessoire` | premiers mots de titre qui trahissent un accessoire |

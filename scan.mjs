@@ -48,6 +48,9 @@ const LUXE = CONFIG.marquesLuxe.map((m) => ` ${normaliser(m)} `);
 const PEPITE_MARQUES = CONFIG.marquesPepite.map((m) => ` ${normaliser(m)} `);
 const PEPITE_SIGNAUX = CONFIG.signauxPepite.map((m) => ` ${normaliser(m)} `);
 const MOTS_VIDES = new Set(CONFIG.motsVides.map(normaliser));
+const MOTS_LOT = CONFIG.motsLot.map((m) => ` ${normaliser(m)} `);
+/** "2 Orologi Swatch", "3 montres" : un lot, compare a tort a une montre seule. */
+const LOT_CHIFFRE = /(^|\s)([2-9]|\d{2})\s+(orologi|montres|relojes|uhren|watches|orologio)/;
 const PAS_LUXE = CONFIG.marquesLuxeExceptions.map((m) => ` ${normaliser(m)} `);
 
 /** Compteurs du tunnel, remis a zero a chaque resume envoye. */
@@ -59,6 +62,7 @@ const nouveauBilan = () => ({
   etat: 0,
   prix: 0,
   accessoire: 0,
+  lot: 0,
   fausse: 0,
   pro: 0,
   vendeurSpecialise: 0,
@@ -157,6 +161,7 @@ export function motifDeRefus(item, vues = new Set()) {
   if (!marqueHorlogere(item.brand_title)) return "marque";
   if (!etatAcceptable(item.status)) return "etat";
   if (estAccessoire(item.title)) return "accessoire";
+  if (estLot(item.title)) return "lot";
   if (estLuxe(item.brand_title) && prix < CONFIG.prixMinimumLuxe) return "fausse";
   // Un professionnel vend au prix du marche, jamais en dessous : 9 % des
   // annonces, autant de calculs de cote economises.
@@ -242,6 +247,16 @@ export function estPepite(titre, description, marque) {
 }
 
 /**
+ * Un lot de plusieurs montres compare a la mediane d'une seule paraitra toujours
+ * une affaire : "2 Orologi Swatch" a 60 EUR contre une cote de 130 EUR.
+ */
+export function estLot(titre) {
+  const propre = normaliser(titre);
+  if (LOT_CHIFFRE.test(propre)) return true;
+  return MOTS_LOT.some((m) => ` ${propre} `.includes(m));
+}
+
+/**
  * Le verdict, isole pour etre testable : cette annonce merite-t-elle une alerte ?
  *
  * La regle du petit prix ne s'applique QUE sans cote exploitable. Sans cette
@@ -250,8 +265,16 @@ export function estPepite(titre, description, marque) {
  * pepite est a -50 %.
  */
 export function merite(prix, cote, pepite) {
-  const seuil = pepite ? CONFIG.seuilPepite : CONFIG.seuilBonneAffaire;
-  if (cote) return prix / cote <= seuil;
+  if (cote) {
+    // Ce qui compte, c'est le benefice a la revente, pas le pourcentage : -70 %
+    // sur une montre a 40 EUR ne rapporte que 28 EUR et ne vaut pas le
+    // deplacement, la ou -35 % sur une montre a 200 EUR en rapporte 70.
+    if (cote - prix < CONFIG.margeMinimum) return false;
+    // Garde-fou : une marge de 40 EUR sur une montre a 500 EUR n'est que 8 %,
+    // trop mince pour absorber une cote imprecise.
+    const seuil = pepite ? CONFIG.seuilPepite : CONFIG.seuilBonneAffaire;
+    return prix / cote <= seuil;
+  }
   return pepite && prix <= CONFIG.pepitePrixMax;
 }
 
@@ -336,7 +359,9 @@ async function alerter(annonce) {
   if (ESSAI) {
     console.log(
       `  [essai]${annonce.pepite ? " 💎" : "  "} ${String(annonce.prix).padStart(4)} € — ` +
-        (annonce.cote ? `${String(ecart).padStart(3)} % sous la cote ${annonce.niveau} (${annonce.cote} €)` : "sans cote") +
+        (annonce.cote
+          ? `+${String(Math.round(annonce.cote - annonce.prix)).padStart(3)} € de marge (cote ${annonce.niveau} ${annonce.cote} €, −${ecart} %)`
+          : "sans cote") +
         ` — ${annonce.marque} — ${annonce.titre.slice(0, 45)}`
     );
     return;
@@ -354,8 +379,9 @@ async function alerter(annonce) {
         color: annonce.pepite ? 0x9b59b6 : 0x2ecc71,
         description:
           (annonce.cote
-            ? `**${annonce.prix} €** — soit **${ecart} % sous la cote** ` +
-              `du ${annonce.niveau} (médiane ${annonce.cote} € sur ${annonce.echantillon} annonces).\n\n`
+            ? `**${annonce.prix} €** — cote du ${annonce.niveau} : **${annonce.cote} €** ` +
+              `(médiane sur ${annonce.echantillon} annonces).\n` +
+              `**Bénéfice à la revente : ~${Math.round(annonce.cote - annonce.prix)} €** (−${ecart} %).\n\n`
             : `**${annonce.prix} €** — pièce de collection, aucune cote fiable à ce jour.\n\n`) +
           `> ${extrait}${annonce.description && annonce.description.length > 300 ? "…" : ""}`,
         fields: [
@@ -386,6 +412,7 @@ export function texteResume(bilan, ecoule) {
     [bilan.prix, "sous le prix plancher"],
     [bilan.etat, "état insuffisant"],
     [bilan.accessoire, "accessoire, pas une montre"],
+    [bilan.lot, "lot de plusieurs montres"],
     [bilan.fausse, "luxe à prix impossible"],
     [bilan.pro, "vendeur professionnel"],
     [bilan.vendeurSpecialise, "revendeur de montres"],

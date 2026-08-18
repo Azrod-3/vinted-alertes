@@ -43,12 +43,26 @@ const ETATS = new Set(CONFIG.etatsAcceptes.map(normaliser));
 /** Pre-normalises et entoures d'espaces : evite que "hs" matche "shs". */
 const MOTS = CONFIG.motsRedhibitoires.map((m) => ` ${normaliser(m)} `);
 
-/** Etat persistant : annonces deja signalees, et cotes en cache. */
+/** Compteurs du tunnel, remis a zero a chaque resume envoye. */
+const nouveauBilan = () => ({
+  depuis: Date.now(),
+  passages: 0,
+  nouvelles: 0,
+  marque: 0,
+  etat: 0,
+  prix: 0,
+  sansCote: 0,
+  chere: 0,
+  description: 0,
+  alertes: 0,
+});
+
+/** Etat persistant : annonces deja signalees, cotes en cache, bilan en cours. */
 async function lireEtat() {
   try {
     return JSON.parse(await readFile(ETAT, "utf8"));
   } catch (_) {
-    return { vues: [], cotes: {} };
+    return { vues: [], cotes: {}, bilan: nouveauBilan() };
   }
 }
 
@@ -228,24 +242,73 @@ async function alerter(annonce) {
   if (!reponse.ok) throw new Error(`Discord a répondu ${reponse.status}`);
 }
 
-async function main() {
-  if (!WEBHOOK && !ESSAI) {
-    console.error("DISCORD_WEBHOOK absent : ajoute-le dans les secrets du dépôt.");
-    process.exit(1);
+/** Le texte du resume : le tunnel en une phrase, motifs du plus gros au plus petit. */
+export function texteResume(bilan, ecoule) {
+  const duree = Math.round(ecoule / 60000);
+  const motifs = [
+    [bilan.marque, "hors horlogerie"],
+    [bilan.prix, "sous le prix plancher"],
+    [bilan.etat, "état insuffisant"],
+    [bilan.sansCote, "marque sans cote fiable"],
+    [bilan.chere, "au prix du marché"],
+    [bilan.description, "description rédhibitoire"],
+  ]
+    .filter(([n]) => n > 0)
+    .sort((a, b) => b[0] - a[0])
+    .map(([n, mot]) => `${n} ${mot}`);
+
+  return (
+    `Aucune bonne affaire depuis **${duree} min** ` +
+    `(${bilan.passages} passages, ${bilan.nouvelles} nouvelles annonces).\n\n` +
+    (bilan.nouvelles === 0
+      ? "Aucune nouvelle montre n'a été publiée sur cette période."
+      : `**Pourquoi :** ${motifs.join(" · ")}.`)
+  );
+}
+
+/**
+ * Resume periodique : un message quand il ne s'est rien passe, qui dit en
+ * quelques mots POURQUOI. Sans lui, le silence est ambigu — rien d'interessant
+ * et "Vinted nous bloque" se ressemblent exactement.
+ *
+ * Envoye au plus une fois par `resumeSiRienMinutes`, et jamais quand des
+ * alertes sont deja parties : elles prouvent d'elles-memes que ca tourne.
+ */
+async function resumer(bilan) {
+  const ecoule = Date.now() - bilan.depuis;
+  if (ecoule < CONFIG.resumeSiRienMinutes * 60000) return false;
+  if (bilan.alertes > 0 || ESSAI) return true; // on repart a zero, sans message
+
+  const corps = {
+    embeds: [
+      {
+        title: "Rien à signaler",
+        color: 0x95a5a6,
+        description: texteResume(bilan, ecoule),
+        footer: { text: "Veille Vinted" },
+        timestamp: new Date().toISOString(),
+      },
+    ],
+  };
+  const duree = Math.round(ecoule / 60000);
+
+  try {
+    const reponse = await fetch(WEBHOOK, {
+      method: "POST",
+      headers: { "content-type": "application/json" },
+      body: JSON.stringify(corps),
+    });
+    if (!reponse.ok) throw new Error(`Discord a répondu ${reponse.status}`);
+    console.log(`résumé envoyé : rien depuis ${duree} min`);
+  } catch (erreur) {
+    console.error(`résumé non envoyé (${erreur.message})`);
+    return false; // on garde le bilan, il repartira au prochain job
   }
+  return true;
+}
 
-  const etat = await lireEtat();
-  const vues = new Set(etat.vues || []);
-  const cotes = etat.cotes || {};
-
-  const navigateur = await chromium.launch({ channel: "chrome", headless: true });
-  const contexte = await navigateur.newContext({ userAgent: UA, locale: "fr-FR" });
-  const page = await contexte.newPage();
-
-  // Charger le site d'abord : c'est ce qui resout le challenge et pose les cookies.
-  await page.goto("https://www.vinted.fr/", { waitUntil: "domcontentloaded", timeout: 60000 });
-  await page.waitForTimeout(4000);
-
+/** Un passage : on relit les nouveautes et on alerte sur ce qui merite. */
+async function unPassage(page, vues, cotes, bilan) {
   const recentes = await api(
     page,
     rechercheUrl({
@@ -257,24 +320,24 @@ async function main() {
   );
 
   if (!recentes || !recentes.items) {
-    console.error("Vinted n'a pas répondu (challenge non franchi). Nouvelle tentative au prochain passage.");
-    await navigateur.close();
-    process.exit(0);
+    console.error("Vinted n'a pas répondu (challenge non franchi).");
+    return false;
   }
 
-  const ecarte = { deja: 0, prix: 0, marque: 0, etat: 0 };
+  bilan.passages += 1;
 
-  const candidates = recentes.items.filter((item) => {
+  const candidates = [];
+  for (const item of recentes.items) {
     const refus = motifDeRefus(item, vues);
-    if (refus) ecarte[refus] += 1;
-    return !refus;
-  });
-
-  console.log(
-    `${recentes.items.length} annonces récentes, ${candidates.length} à examiner ` +
-      `(écartées : ${ecarte.deja} déjà vues, ${ecarte.marque} hors horlogerie, ` +
-      `${ecarte.etat} mauvais état, ${ecarte.prix} trop bon marché).`
-  );
+    if (refus === "deja") continue;
+    // Memorisee des maintenant, quel que soit le sort : sans cela une annonce
+    // recalee sur la marque serait recomptee a chaque passage, et le resume
+    // annoncerait trois fois le nombre reel de nouveautes.
+    vues.add(String(item.id));
+    bilan.nouvelles += 1;
+    if (refus) bilan[refus] += 1;
+    else candidates.push(item);
+  }
 
   const alertes = [];
   for (const item of candidates) {
@@ -282,20 +345,26 @@ async function main() {
 
     const marque = item.brand_title.trim();
     const cote = await coteMarque(page, marque, cotes);
-    vues.add(String(item.id));
 
-    if (!cote.mediane) continue;
+    if (!cote.mediane) {
+      bilan.sansCote += 1;
+      continue;
+    }
 
     const prix = prixDe(item);
-    if (prix / cote.mediane > CONFIG.seuilBonneAffaire) continue;
+    if (prix / cote.mediane > CONFIG.seuilBonneAffaire) {
+      bilan.chere += 1;
+      continue;
+    }
 
     // La description ne se lit qu'ici : une requete par finaliste, pas par
-    // annonce. A ce stade il n'en reste qu'une poignee par passage.
+    // annonce. A ce stade il n'en reste qu'une poignee.
     const lien = item.url || `https://www.vinted.fr/items/${item.id}`;
     const description = await descriptionDe(page, lien);
 
     const probleme = motRedhibitoire(item.title, description || "");
     if (probleme) {
+      bilan.description += 1;
       console.log(`  écartée (« ${probleme} ») : ${item.title.slice(0, 45)} — ${prix} €`);
       continue;
     }
@@ -317,6 +386,7 @@ async function main() {
   for (const alerte of alertes) {
     try {
       await alerter(alerte);
+      bilan.alertes += 1;
       if (!ESSAI) console.log(`alerte envoyée : ${alerte.titre.slice(0, 40)} — ${alerte.prix} €`);
     } catch (erreur) {
       // Un envoi rate ne doit pas faire perdre le reste du passage : on retire
@@ -325,16 +395,64 @@ async function main() {
       console.error(`envoi impossible (${erreur.message}) — sera retentée.`);
     }
   }
-  if (!alertes.length) console.log("aucune bonne affaire ce passage.");
+  return true;
+}
+
+/**
+ * Un job GitHub coute 40 s de mise en route (installation de Chrome) pour 8 s de
+ * scan. Lancer le workflow plus souvent revient donc a payer surtout de
+ * l'attente. On boucle plutot DANS le job, en gardant le meme navigateur et la
+ * meme session Vinted : le delai entre deux relevés tombe a l'intervalle choisi
+ * au lieu de la periode du cron.
+ */
+async function main() {
+  if (!WEBHOOK && !ESSAI) {
+    console.error("DISCORD_WEBHOOK absent : ajoute-le dans les secrets du dépôt.");
+    process.exit(1);
+  }
+
+  const etat = await lireEtat();
+  const vues = new Set(etat.vues || []);
+  const cotes = etat.cotes || {};
+  const bilan = { ...nouveauBilan(), ...(etat.bilan || {}) };
+
+  const navigateur = await chromium.launch({ channel: "chrome", headless: true });
+  const contexte = await navigateur.newContext({ userAgent: UA, locale: "fr-FR" });
+  const page = await contexte.newPage();
+
+  // Charger le site d'abord : c'est ce qui resout le challenge et pose les
+  // cookies. Fait une seule fois pour toute la boucle.
+  await page.goto("https://www.vinted.fr/", { waitUntil: "domcontentloaded", timeout: 60000 });
+  await page.waitForTimeout(4000);
+
+  const fin = Date.now() + CONFIG.bouclerSecondes * 1000;
+  const avant = { ...bilan };
+  let passages = 0;
+
+  while (true) {
+    passages += 1;
+    const ok = await unPassage(page, vues, cotes, bilan);
+    if (!ok && passages === 1) break; // challenge non franchi : inutile d'insister
+    if (Date.now() + CONFIG.intervalleSecondes * 1000 >= fin) break;
+    await page.waitForTimeout(CONFIG.intervalleSecondes * 1000);
+  }
+
+  console.log(
+    `${passages} passages en ${Math.round((CONFIG.bouclerSecondes * 1000 - (fin - Date.now())) / 1000)} s : ` +
+      `${bilan.nouvelles - avant.nouvelles} nouvelles annonces, ` +
+      `${bilan.alertes - avant.alertes} alerte(s).`
+  );
 
   await navigateur.close();
 
-  // On ne garde que les 2000 dernieres annonces vues : suffisant pour ne pas
-  // realerter, et le fichier reste petit.
+  const remis = await resumer(bilan);
+
   if (!ESSAI) {
-    await writeFile(ETAT, JSON.stringify({ vues: [...vues].slice(-2000), cotes }, null, 1));
+    await writeFile(
+      ETAT,
+      JSON.stringify({ vues: [...vues].slice(-2000), cotes, bilan: remis ? nouveauBilan() : bilan }, null, 1)
+    );
   }
 }
 
-// Importe par les tests : on n'execute rien. Lance directement : on scanne.
 if (process.argv[1] && process.argv[1].endsWith("scan.mjs")) await main();

@@ -51,7 +51,7 @@ finalistes**, soit une poignée par passage.
 
     npm test
 
-93 tests, sans réseau : normalisation, liste blanche des marques, états, mots
+100 tests, sans réseau : normalisation, liste blanche des marques, états, mots
 rédhibitoires et pièges de négation.
 
 ## Installation
@@ -65,7 +65,36 @@ rédhibitoires et pièges de négation.
 4. Onglet **Actions** → autorise les workflows → lance « Veille Vinted » à la
    main une première fois pour vérifier.
 
-Ensuite, ça tourne tout seul toutes les 15 minutes.
+Ensuite, ça tourne tout seul.
+
+## Fréquence : pourquoi une boucle interne
+
+Mesuré sur un vrai job : **40 s de mise en route** (surtout l'installation de
+Chrome) pour **8 s de scan**. Lancer le workflow plus souvent revient donc à
+payer surtout de l'attente, et GitHub refuse de toute façon un cron plus court
+que 5 minutes.
+
+Le job boucle donc **à l'intérieur** : il garde le même navigateur et la même
+session Vinted, et relève les nouveautés toutes les `intervalleSecondes`
+pendant `bouclerSecondes`. On paie la mise en route une fois pour cinq ou six
+relevés. Le délai entre deux relevés tombe à **40 s** au lieu de 15 min.
+
+Reste le décalage de GitHub lui-même : le démarrage d'un job planifié n'est pas
+garanti à la minute près, surtout aux heures chargées. C'est désormais le
+facteur limitant, pas le script.
+
+## Le message « Rien à signaler »
+
+Sans lui, le silence est ambigu : « rien d'intéressant » et « Vinted nous
+bloque » se ressemblent exactement. Toutes les `resumeSiRienMinutes`, s'il n'y a
+eu **aucune** alerte, un message récapitule le tunnel :
+
+> Aucune bonne affaire depuis **60 min** (28 passages, 143 nouvelles annonces).
+> **Pourquoi :** 71 hors horlogerie · 38 sous le prix plancher · 21 au prix du
+> marché · 9 marque sans cote fiable · 2 description rédhibitoire.
+
+Dès qu'une alerte part, le compteur repart à zéro sans message : les alertes
+prouvent d'elles-mêmes que ça tourne.
 
 ## Réglages (`config.json`)
 
@@ -78,6 +107,9 @@ Ensuite, ça tourne tout seul toutes les 15 minutes.
 | `prixMinimum` | ignore les annonces en dessous (souvent des accessoires) |
 | `coteMinAnnonces` | nombre d'annonces requis pour oser une cote |
 | `maxAlertesParPassage` | évite d'inonder Discord |
+| `bouclerSecondes` | durée de la boucle interne d'un job |
+| `intervalleSecondes` | délai entre deux relevés (`40` = une montre est vue dans la minute) |
+| `resumeSiRienMinutes` | fréquence du message « Rien à signaler » |
 | `marquesMontres` | liste blanche des maisons horlogères |
 | `etatsAcceptes` | états Vinted autorisés |
 | `motsRedhibitoires` | mots qui disqualifient une annonce |
@@ -99,4 +131,5 @@ Ensuite, ça tourne tout seul toutes les 15 minutes.
   le script le signale dans les logs et réessaie au passage suivant.
 - GitHub désactive les workflows planifiés d'un dépôt resté **60 jours sans
   activité**. Un commit suffit à les relancer.
-- Les horaires de `cron` ne sont pas garantis à la minute près chez GitHub.
+- Les horaires de `cron` ne sont pas garantis à la minute près chez GitHub, et
+  c'est maintenant la principale source de latence.

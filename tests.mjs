@@ -1,5 +1,5 @@
 /** Tests des trois filtres. `npm test`. Aucun reseau, aucune dependance. */
-import { normaliser, marqueHorlogere, etatAcceptable, motRedhibitoire, motifDeRefus } from "./scan.mjs";
+import { normaliser, marqueHorlogere, etatAcceptable, motRedhibitoire, motifDeRefus, texteResume } from "./scan.mjs";
 
 let ok = 0;
 const echecs = [];
@@ -106,6 +106,21 @@ verifier("marque vide", motifDeRefus(annonce({ brand_title: "" })), "marque");
 verifier("état satisfaisant", motifDeRefus(annonce({ status: "Satisfaisant" })), "etat");
 verifier("MoonSwatch acceptée", motifDeRefus(annonce({ brand_title: "Omega x Swatch" })), "");
 verifier("CASIO G-SHOCK acceptée", motifDeRefus(annonce({ brand_title: "CASIO G-SHOCK" })), "");
+
+// --- Résumé « rien à signaler » ----------------------------------------------
+const bilan = { passages: 28, nouvelles: 143, marque: 71, prix: 38, etat: 2,
+                sansCote: 9, chere: 21, description: 2, alertes: 0 };
+const resume = texteResume(bilan, 3600000);
+verifier("durée", resume.includes("60 min"), true);
+verifier("passages", resume.includes("28 passages"), true);
+verifier("nouvelles", resume.includes("143 nouvelles"), true);
+verifier("motif dominant en tête", resume.indexOf("71 hors horlogerie") < resume.indexOf("38 sous le prix"), true);
+verifier("motif à zéro masqué", /(?:^|[^0-9])0 (?:hors|sous|état|marque|au prix|description)/.test(resume), false);
+
+const calme = texteResume({ ...bilan, nouvelles: 0, marque: 0, prix: 0, etat: 0,
+                            sansCote: 0, chere: 0, description: 0 }, 3600000);
+verifier("nuit calme", calme.includes("Aucune nouvelle montre"), true);
+verifier("pas de « Pourquoi » vide", calme.includes("Pourquoi"), false);
 
 console.log(`${ok} tests passés${echecs.length ? `, ${echecs.length} ÉCHECS` : ""}`);
 if (echecs.length) {

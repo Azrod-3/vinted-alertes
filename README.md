@@ -102,7 +102,7 @@ prouvent d'elles-mêmes que ça tourne.
 |---|---|
 | `recherche` | mot-clé de base (`montre`) |
 | `categorieVinted` | `97` = Montres |
-| `seuilBonneAffaire` | rapport prix/cote maximum. `0.45` = le prix vaut au plus 45 % de la cote, soit **−55 %** |
+| `seuilBonneAffaire` | rapport prix/cote maximum. `0.55` = le prix vaut au plus 55 % de la cote, soit une remise de **−45 %** |
 | `coteMinimum` | ignore les marques dont la cote est sous ce prix (bas de gamme) |
 | `prixMinimum` | ignore les annonces en dessous (souvent des accessoires) |
 | `coteMinAnnonces` | nombre d'annonces requis pour oser une cote |

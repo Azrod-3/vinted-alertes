@@ -141,6 +141,23 @@ for (const texte of ["Orologio Seiko automatico, perfettamente funzionante",
   verifier(`italien sain : « ${texte.slice(0, 35)}… »`, motRedhibitoire(texte), "");
 }
 
+// --- Objets VENDUS POUR une montre, qui ne sont pas des montres --------------
+// Quatre alertes réelles reçues en cinq minutes : « cartellino », c'est
+// l'étiquette en carton qui accompagne la montre.
+for (const titre of ["Cartellino originale per orologi Universal Geneve",
+                     "Tag originale per orologi Universal Genève",
+                     "Etichetta orologio Rolex", "Bracelet pour montre Seiko",
+                     "Correa para reloj Casio", "Lederband für Uhren",
+                     "Leather strap for watches", "Libretto Omega",
+                     "Depliant pubblicitario orologi"]) {
+  verifier(`objet pour montre : « ${titre} »`, estAccessoire(titre), true);
+}
+// Piège : "tag" est dans "TAG Heuer". Ce mot seul ne doit jamais bloquer.
+for (const titre of ["TAG Heuer Monaco", "Tag Heuer Formula 1", "Montre TAG Heuer"]) {
+  verifier(`TAG Heuer intacte : « ${titre} »`, estAccessoire(titre), false);
+}
+verifier("Universal Genève est du luxe", estLuxe("Universal Genève"), true);
+
 // --- Luxe à prix impossible : ce sont des faux, pas des affaires -------------
 // Toutes ces alertes sont reellement parties une nuit avant ce filtre.
 for (const [titre, marque, prix] of [

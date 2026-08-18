@@ -35,7 +35,12 @@ requêtes :
    (« Bracelet de montre Seiko », « Cinturino Casio »), et quelques mots — maillon,
    maglie, eslabones — suffisent où qu'ils soient : « Zenith museum maglie » à 10 €
    passait pour une Zenith à −96 %.
-5. **Description propre.** Lue sur la fiche publique, elle est refusée si elle
+5. **Prix plausible pour la maison.** Une Omega à 50 €, une Tudor à 145 €, une
+   Zenith à 110 € : ce ne sont pas des affaires, ce sont des contrefaçons. Sur 23
+   maisons de luxe, un plancher de 250 € s'applique — sans lui, plus la marque est
+   chère, plus la fausse passe pour une bonne affaire. La MoonSwatch fait
+   exception : son libellé porte « Omega » mais c'est une Swatch.
+6. **Description propre.** Lue sur la fiche publique, elle est refusée si elle
    contient un mot rédhibitoire : « pour pièces », « ne fonctionne plus », « HS »,
    « réplique », « style Rolex », « il manque »… en français, espagnol, italien,
    anglais et allemand. Les mots ambigus ont été retirés
@@ -57,7 +62,7 @@ finalistes**, soit une poignée par passage.
 
     npm test
 
-125 tests, sans réseau : normalisation, liste blanche des marques, états, mots
+139 tests, sans réseau : normalisation, liste blanche des marques, états, mots
 rédhibitoires et pièges de négation.
 
 ## Installation
@@ -113,6 +118,7 @@ prouvent d'elles-mêmes que ça tourne.
 | `prixMinimum` | ignore les annonces en dessous (`5` €) |
 | `motsAccessoire` | premiers mots de titre qui trahissent un accessoire |
 | `motsAccessoireTitre` | mots qui ne désignent qu'une pièce détachée, où qu'ils soient |
+| `marquesLuxe` / `prixMinimumLuxe` | maisons où un prix trop bas trahit un faux |
 | `coteMinAnnonces` | nombre d'annonces requis pour oser une cote |
 | `maxAlertesParPassage` | évite d'inonder Discord |
 | `bouclerSecondes` | durée de la boucle interne d'un job |
@@ -121,6 +127,16 @@ prouvent d'elles-mêmes que ça tourne.
 | `marquesMontres` | liste blanche des maisons horlogères |
 | `etatsAcceptes` | états Vinted autorisés |
 | `motsRedhibitoires` | mots qui disqualifient une annonce |
+
+## L'état n'est pas fusionné par git
+
+Deux jobs qui réécrivent le même JSON entier donnent un conflit que `git rebase`
+ne sait pas résoudre : l'étape échouait, l'état n'était jamais enregistré, et le
+job suivant réalertait tout. Observé en vrai — une même annonce envoyée sept fois.
+
+`fusionner-etat.mjs` repart donc de la version du dépôt et y verse la nôtre :
+l'union des annonces vues est la bonne opération, il n'y a rien à arbitrer. La
+poussée est retentée trois fois si le dépôt bouge entre-temps.
 
 ## Limites, sans détour
 

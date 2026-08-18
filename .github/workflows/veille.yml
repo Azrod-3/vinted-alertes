@@ -56,12 +56,27 @@ jobs:
 
       - name: Mémoriser les annonces déjà signalées
         run: |
-          if [[ -n "$(git status --porcelain etat.json)" ]]; then
-            git config user.name "veille-vinted"
-            git config user.email "actions@github.com"
+          # On ne demande pas à git de fusionner ce JSON : il n'y arrive pas et
+          # l'étape échouait, ce qui faisait perdre l'état et réalerter tout.
+          # On repart de la version du dépôt et on y verse la nôtre.
+          cp etat.json "$RUNNER_TEMP/etat-local.json"
+          git config user.name "veille-vinted"
+          git config user.email "actions@github.com"
+
+          for essai in 1 2 3; do
+            git fetch -q origin main
+            git reset -q --hard origin/main
+            node fusionner-etat.mjs "$RUNNER_TEMP/etat-local.json" etat.json
             git add etat.json
-            git commit -m "veille : mise à jour de l'état"
-            # Un job precedent a pu pousser entre-temps : on se replace dessus.
-            git pull --rebase --autostash
-            git push
-          fi
+            if git diff --cached --quiet; then
+              echo "rien de nouveau à enregistrer"
+              exit 0
+            fi
+            git commit -q -m "veille : mise à jour de l'état"
+            if git push -q origin HEAD:main; then
+              echo "état enregistré (essai $essai)"
+              exit 0
+            fi
+            echo "poussée refusée, le dépôt a bougé — nouvelle tentative"
+          done
+          echo "::warning::état non enregistré après 3 essais"

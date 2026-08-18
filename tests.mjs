@@ -1,5 +1,5 @@
 /** Tests des trois filtres. `npm test`. Aucun reseau, aucune dependance. */
-import { normaliser, marqueHorlogere, etatAcceptable, motRedhibitoire, motifDeRefus, texteResume, estAccessoire } from "./scan.mjs";
+import { normaliser, marqueHorlogere, etatAcceptable, motRedhibitoire, motifDeRefus, texteResume, estAccessoire, estLuxe } from "./scan.mjs";
 
 let ok = 0;
 const echecs = [];
@@ -139,6 +139,37 @@ for (const [texte, mot] of [
 for (const texte of ["Orologio Seiko automatico, perfettamente funzionante",
                      "Bellissimo orologio, non manca nulla"]) {
   verifier(`italien sain : « ${texte.slice(0, 35)}… »`, motRedhibitoire(texte), "");
+}
+
+// --- Luxe à prix impossible : ce sont des faux, pas des affaires -------------
+// Toutes ces alertes sont reellement parties une nuit avant ce filtre.
+for (const [titre, marque, prix] of [
+  ["Omega Eminyeeto Reeba", "Omega", 50],
+  ["Eshaaha ya dijitali eya Omega", "Omega", 50],
+  ["TUDOR", "Tudor", 145],
+  ["Zenith argento", "Zenith", 110],
+  ["Rolex Submariner", "Rolex", 200],
+]) {
+  verifier(`faux ${marque} à ${prix} €`,
+    motifDeRefus({ id: 7, title: titre, brand_title: marque, status: "Bon état",
+                   price: { amount: String(prix) } }), "fausse");
+}
+// Au-dessus du plancher, la maison de luxe repasse comme les autres.
+verifier("vraie Omega à 900 €",
+  motifDeRefus({ id: 7, title: "Omega Seamaster", brand_title: "Omega",
+                 status: "Bon état", price: { amount: "900" } }), "");
+// Le plancher luxe ne doit pas toucher les marques accessibles.
+verifier("Seiko à 45 € intacte",
+  motifDeRefus({ id: 7, title: "Montre Seiko automatique", brand_title: "Seiko",
+                 status: "Bon état", price: { amount: "45" } }), "");
+verifier("Seiko n'est pas du luxe", estLuxe("Seiko"), false);
+verifier("Grand Seiko l'est", estLuxe("Grand Seiko"), true);
+verifier("MoonSwatch n'est pas une Omega", estLuxe("Omega x Swatch"), false);
+
+// --- Accessoires en allemand -------------------------------------------------
+for (const titre of ["Uhrenbox Vintage Hamilton Bakelit", "Lederband Glashütte",
+                     "Uhrenarmband Leder 20mm", "Ersatzteile Uhr"]) {
+  verifier(`accessoire allemand : « ${titre} »`, estAccessoire(titre), true);
 }
 
 // --- Résumé « rien à signaler » ----------------------------------------------

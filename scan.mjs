@@ -44,6 +44,8 @@ const ETATS = new Set(CONFIG.etatsAcceptes.map(normaliser));
 const MOTS = CONFIG.motsRedhibitoires.map((m) => ` ${normaliser(m)} `);
 const ACCESSOIRES = new Set(CONFIG.motsAccessoire.map(normaliser));
 const ACCESSOIRES_PARTOUT = CONFIG.motsAccessoireTitre.map((m) => ` ${normaliser(m)} `);
+const LUXE = CONFIG.marquesLuxe.map((m) => ` ${normaliser(m)} `);
+const PAS_LUXE = CONFIG.marquesLuxeExceptions.map((m) => ` ${normaliser(m)} `);
 
 /** Compteurs du tunnel, remis a zero a chaque resume envoye. */
 const nouveauBilan = () => ({
@@ -54,6 +56,7 @@ const nouveauBilan = () => ({
   etat: 0,
   prix: 0,
   accessoire: 0,
+  fausse: 0,
   sansCote: 0,
   chere: 0,
   description: 0,
@@ -149,6 +152,7 @@ export function motifDeRefus(item, vues = new Set()) {
   if (!marqueHorlogere(item.brand_title)) return "marque";
   if (!etatAcceptable(item.status)) return "etat";
   if (estAccessoire(item.title)) return "accessoire";
+  if (estLuxe(item.brand_title) && prix < CONFIG.prixMinimumLuxe) return "fausse";
   return "";
 }
 
@@ -167,6 +171,21 @@ export const estAccessoire = (titre) => {
   // Quelques mots ne designent que des pieces detachees ou qu'ils soient :
   // "Zenith museum maglie" a 10 EUR, ce sont des maillons, pas une montre.
   return ACCESSOIRES_PARTOUT.some((m) => ` ${propre} `.includes(m));
+};
+
+/**
+ * Une Omega a 50 EUR n'est pas une bonne affaire, c'est une contrefacon — ou un
+ * bracelet vendu sous le nom de la marque. Sur ces maisons, en dessous d'un
+ * certain prix il n'y a rien d'authentique, et le calcul de cote ne fait
+ * qu'amplifier l'illusion : plus la marque est chere, plus la fausse parait etre
+ * une affaire. Observe en vrai : Omega 50 EUR, Tudor 145 EUR, Zenith 110 EUR.
+ */
+export const estLuxe = (marque) => {
+  const texte = ` ${normaliser(marque)} `;
+  // La MoonSwatch porte "Omega" dans son libelle : c'est une Swatch a ~270 EUR,
+  // pas une Omega. L'exception passe avant.
+  if (PAS_LUXE.some((m) => texte.includes(m))) return false;
+  return LUXE.some((m) => texte.includes(m));
 };
 
 /** Premier mot redhibitoire trouve dans le texte, ou "" si tout va bien. */
@@ -271,6 +290,7 @@ export function texteResume(bilan, ecoule) {
     [bilan.prix, "sous le prix plancher"],
     [bilan.etat, "état insuffisant"],
     [bilan.accessoire, "accessoire, pas une montre"],
+    [bilan.fausse, "luxe à prix impossible"],
     [bilan.sansCote, "marque sans cote fiable"],
     [bilan.chere, "au prix du marché"],
     [bilan.description, "description rédhibitoire"],
@@ -472,7 +492,7 @@ async function main() {
   if (!ESSAI) {
     await writeFile(
       ETAT,
-      JSON.stringify({ vues: [...vues].slice(-2000), cotes, bilan: remis ? nouveauBilan() : bilan }, null, 1)
+      JSON.stringify({ vues: [...vues].slice(-4000), cotes, bilan: remis ? nouveauBilan() : bilan }, null, 1)
     );
   }
 }

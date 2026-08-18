@@ -540,7 +540,7 @@
     "montre automatique"
   ],
   "exclureVendeursPros": true,
-  "coteMinAnnoncesModele": 5,
+  "coteMinAnnoncesModele": 3,
   "motsVides": [
     "montre",
     "montres",
@@ -808,5 +808,6 @@
   ],
   "accepterLots": true,
   "lotMaxMontres": 10,
-  "facteurLot": 0.6
+  "facteurLot": 0.6,
+  "margeMinimumMarque": 60
 }

@@ -47,6 +47,8 @@ const NEGATIONS = CONFIG.negations.map(normaliser);
 /** Assez large pour couvrir "il n'y a aucune", assez court pour ne pas deriver. */
 const FENETRE_NEGATION = 16;
 const ACCESSOIRES = new Set(CONFIG.motsAccessoire.map(normaliser));
+/** Du pire au meilleur : deux etats voisins restent comparables, pas trois. */
+const ECHELLE_ETAT = ["satisfaisant", "bon etat", "tres bon etat", "neuf sans etiquette", "neuf avec etiquette"];
 const ACCESSOIRES_PARTOUT = CONFIG.motsAccessoireTitre.map((m) => ` ${normaliser(m)} `);
 const LUXE = CONFIG.marquesLuxe.map((m) => ` ${normaliser(m)} `);
 const PEPITE_MARQUES = CONFIG.marquesPepite.map((m) => ` ${normaliser(m)} `);
@@ -241,6 +243,16 @@ export function requeteModele(titre, marque) {
   return `${String(marque || "").trim()} ${choisis.join(" ")}`.trim();
 }
 
+/** Les mots qui doivent se retrouver dans une annonce pour qu'elle compte. */
+export function jetonsModele(titre, marque) {
+  const requete = requeteModele(titre, marque);
+  if (!requete) return [];
+  const marqueMots = new Set(normaliser(marque).split(" "));
+  return normaliser(requete)
+    .split(" ")
+    .filter((m) => m && !marqueMots.has(m));
+}
+
 /**
  * Une montre de niche : maison que le grand public ne connait pas mais dont les
  * modeles se negocient cher, ou signal de valeur dans le texte (un mouvement
@@ -285,18 +297,51 @@ export function estLot(titre) {
  * motif qu'elle valait moins de 120 EUR — signalee a -33 % alors que le seuil
  * pepite est a -50 %.
  */
-export function merite(prix, cote, pepite) {
+export function merite(prix, cote, pepite, precise = true) {
   if (cote) {
     // Ce qui compte, c'est le benefice a la revente, pas le pourcentage : -70 %
     // sur une montre a 40 EUR ne rapporte que 28 EUR et ne vaut pas le
     // deplacement, la ou -35 % sur une montre a 200 EUR en rapporte 70.
-    if (cote - prix < CONFIG.margeMinimum) return false;
+    //
+    // Quand la cote ne vaut que pour la MARQUE, on exige davantage : elle melange
+    // tous les modeles, donc elle peut se tromper largement. Mesure faite, une
+    // seule candidate sur deux obtient une cote au niveau du modele.
+    if (cote - prix < (precise ? CONFIG.margeMinimum : CONFIG.margeMinimumMarque)) return false;
     // Garde-fou : une marge de 40 EUR sur une montre a 500 EUR n'est que 8 %,
     // trop mince pour absorber une cote imprecise.
     const seuil = pepite ? CONFIG.seuilPepite : CONFIG.seuilBonneAffaire;
     return prix / cote <= seuil;
   }
   return pepite && prix <= CONFIG.pepitePrixMax;
+}
+
+export const niveauEtat = (etat) => ECHELLE_ETAT.indexOf(normaliser(etat));
+
+/** Une neuve sous etiquette et une "satisfaisant" ne se comparent pas. */
+export function etatProche(a, b) {
+  const x = niveauEtat(a);
+  const y = niveauEtat(b);
+  if (x < 0 || y < 0) return false;
+  return Math.abs(x - y) <= 1;
+}
+
+/**
+ * Cette annonce peut-elle servir a coter celle qu'on examine ?
+ *
+ * Une recherche texte Vinted ramene tout ce qui ressemble vaguement : sur
+ * "Seiko 5 sports" on recupere des Seiko quelconques, et la mediane ne veut plus
+ * rien dire. On exige donc la meme marque, tous les mots du modele presents dans
+ * le titre, un etat voisin — et ni lot ni accessoire, qui tirent la mediane vers
+ * le bas et vers le haut respectivement.
+ */
+export function comparable(candidat, marque, jetons, etat) {
+  if (!candidat || !candidat.title) return false;
+  if (normaliser(candidat.brand_title) !== normaliser(marque)) return false;
+  if (estLot(candidat.title) || estAccessoire(candidat.title)) return false;
+  if (etat && !etatProche(etat, candidat.status)) return false;
+
+  const titre = ` ${normaliser(candidat.title)} `;
+  return jetons.every((jeton) => titre.includes(` ${jeton} `));
 }
 
 /** Premier mot redhibitoire trouve dans le texte, ou "" si tout va bien. */
@@ -332,17 +377,25 @@ export function motRedhibitoire(...textes) {
  * est trop maigre : mieux vaut une cote large qu'une cote fausse tiree de deux
  * annonces.
  */
-async function coteModele(page, requete, cache) {
-  const cle = `modele:${requete}`;
+async function coteModele(page, requete, jetons, marque, etat, cache) {
+  // L'etat fait partie de la cle : la meme requete donne une cote differente
+  // selon qu'on cherche des neuves ou des montres portees.
+  const cle = `modele:${requete}|${niveauEtat(etat)}`;
   const memo = cache[cle];
   if (memo && Date.now() - memo.date < 24 * 3600 * 1000) return memo;
 
   const reponse = await api(
     page,
-    rechercheUrl({ search_text: requete, catalog_ids: String(CONFIG.categorieVinted), per_page: "40" })
+    rechercheUrl({ search_text: requete, catalog_ids: String(CONFIG.categorieVinted), per_page: "96" })
   );
+  // On ne garde que les annonces dont on est sur qu'il s'agit du meme modele,
+  // dans un etat voisin : sans ce tri, la mediane melange tout ce que Vinted
+  // juge vaguement ressemblant.
   const prix = nettoyer(
-    ((reponse && reponse.items) || []).map(prixDe).filter((p) => Number.isFinite(p) && p > 0)
+    ((reponse && reponse.items) || [])
+      .filter((c) => comparable(c, marque, jetons, etat))
+      .map(prixDe)
+      .filter((p) => Number.isFinite(p) && p > 0)
   );
 
   cache[cle] =
@@ -365,8 +418,13 @@ async function coteMarque(page, marque, cache) {
     })
   );
 
+  // Meme pour une cote de marque, un lot ou un bracelet n'a rien a y faire.
   const prix = nettoyer(
-    ((reponse && reponse.items) || []).map(prixDe).filter((p) => Number.isFinite(p) && p > 0)
+    ((reponse && reponse.items) || [])
+      .filter((c) => c && c.title && !estLot(c.title) && !estAccessoire(c.title))
+      .filter((c) => normaliser(c.brand_title) === normaliser(marque))
+      .map(prixDe)
+      .filter((p) => Number.isFinite(p) && p > 0)
   );
 
   if (prix.length < CONFIG.coteMinAnnonces) {
@@ -590,8 +648,11 @@ async function unPassage(page, vues, cotes, bilan, vendeurs) {
         };
       }
     } else if (!cote.mediane || prix / cote.mediane <= CONFIG.ratioAvantCoteModele) {
+      const jetons = jetonsModele(item.title, marque);
       const requete = requeteModele(item.title, marque);
-      const precise = requete ? await coteModele(page, requete, cotes) : null;
+      const precise = requete
+        ? await coteModele(page, requete, jetons, marque, item.status, cotes)
+        : null;
       if (precise && precise.mediane) cote = precise;
     }
 
@@ -604,7 +665,7 @@ async function unPassage(page, vues, cotes, bilan, vendeurs) {
       continue;
     }
 
-    if (!merite(prix, cote.mediane, pepiteTitre)) {
+    if (!merite(prix, cote.mediane, pepiteTitre, (cote.niveau || "marque") !== "marque")) {
       bilan.chere += 1;
       continue;
     }

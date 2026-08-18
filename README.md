@@ -33,6 +33,18 @@ requêtes :
    dans l'autre sens : 40 € de marge sur une montre à 500 €, c'est 8 %, trop mince
    pour absorber une cote imprécise.
 
+   **N'entrent dans le calcul que les annonces dont on est sûr.** Une recherche
+   texte Vinted ramène tout ce qui ressemble vaguement : mesuré sur une vraie
+   annonce, « Hugo Boss 1513755 chronograph » renvoyait 96 résultats et une
+   médiane de 100 €, alors que **deux seulement** portaient cette référence. On
+   exige donc la même marque, tous les mots du modèle présents dans le titre, un
+   état voisin sur l'échelle Vinted, et ni lot ni accessoire. Trois annonces
+   strictement identiques valent mieux que quatre-vingt-seize approximatives.
+
+   Une candidate sur deux obtient ainsi une cote au niveau du modèle ; l'autre
+   moitié retombe sur la marque. Comme cette cote-là mélange tous les modèles,
+   elle exige une marge plus grande (`margeMinimumMarque`) pour déclencher.
+
    La cote de marque était
    la plus grosse fuite de pépites : toutes les Seiko partageaient la même médiane
    (~95 €), donc une *Seiko Solar Diver's 200M* à 115 € paraissait **au-dessus du
@@ -82,7 +94,7 @@ finalistes**, soit une poignée par passage.
 
     npm test
 
-215 tests, sans réseau : normalisation, liste blanche des marques, états, mots
+231 tests, sans réseau : normalisation, liste blanche des marques, états, mots
 rédhibitoires et pièges de négation.
 
 ## Installation
@@ -169,6 +181,8 @@ prouvent d'elles-mêmes que ça tourne.
 | `recherches` | les huit recherches lancées à chaque passage |
 | `categorieVinted` | `97` = Montres |
 | `margeMinimum` | bénéfice minimum à la revente, en euros |
+| `margeMinimumMarque` | bénéfice exigé quand la cote n'est que celle de la marque |
+| `coteMinAnnoncesModele` | annonces strictement identiques requises pour oser une cote |
 | `seuilBonneAffaire` | garde-fou en pourcentage : `0.70` = au moins −30 % |
 | `coteMinimum` | ignore les marques dont la cote est sous ce prix (bas de gamme) |
 | `prixMinimum` | ignore les annonces en dessous (`5` €) |

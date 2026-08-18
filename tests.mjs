@@ -1,5 +1,5 @@
 /** Tests des trois filtres. `npm test`. Aucun reseau, aucune dependance. */
-import { normaliser, marqueHorlogere, etatAcceptable, motRedhibitoire, motifDeRefus, texteResume, estAccessoire, estLuxe, requeteModele, estPepite, merite, estLot, nombreDansLot } from "./scan.mjs";
+import { normaliser, marqueHorlogere, etatAcceptable, motRedhibitoire, motifDeRefus, texteResume, estAccessoire, estLuxe, requeteModele, estPepite, merite, estLot, nombreDansLot, comparable, etatProche, jetonsModele } from "./scan.mjs";
 
 let ok = 0;
 const echecs = [];
@@ -268,6 +268,36 @@ for (const titre of ["Seiko 5 sports", "Montre 2 aiguilles", "Casio F-91W",
                      "Tissot Seastar cuarzo", "Montre Seiko automatique"]) {
   verifier(`pas un lot : « ${titre} »`, estLot(titre), false);
 }
+
+// --- Cote : n'entrent que les annonces sûrement identiques ------------------
+// Mesuré sur une vraie annonce : la requête « Hugo Boss 1513755 chronograph »
+// ramenait 96 résultats et une médiane de 100 €, alors que 2 seulement portaient
+// vraiment cette référence.
+const jetons = jetonsModele("Montre Seiko 5 automatique SNK809", "Seiko");
+verifier("jetons du modèle", JSON.stringify(jetons), JSON.stringify(["snk809", "automatique"]));
+
+const cand = (title, brand_title, status) => ({ title, brand_title, status });
+verifier("même modèle, état voisin",
+  comparable(cand("Seiko 5 SNK809 automatique", "Seiko", "Bon état"), "Seiko", jetons, "Bon état"), true);
+verifier("référence absente",
+  comparable(cand("Seiko 5 automatique", "Seiko", "Bon état"), "Seiko", jetons, "Bon état"), false);
+verifier("autre marque",
+  comparable(cand("Casio SNK809 automatique", "Casio", "Bon état"), "Seiko", jetons, "Bon état"), false);
+verifier("état trop éloigné",
+  comparable(cand("Seiko SNK809 automatique", "Seiko", "Neuf avec étiquette"), "Seiko", jetons, "Bon état"), false);
+verifier("un lot ne cote rien",
+  comparable(cand("Lot de 3 Seiko SNK809 automatique", "Seiko", "Bon état"), "Seiko", jetons, "Bon état"), false);
+verifier("un bracelet non plus",
+  comparable(cand("Bracelet Seiko SNK809 automatique", "Seiko", "Bon état"), "Seiko", jetons, "Bon état"), false);
+
+verifier("bon et très bon état se comparent", etatProche("Bon état", "Très bon état"), true);
+verifier("bon état et neuf sous étiquette non", etatProche("Bon état", "Neuf avec étiquette"), false);
+verifier("état inconnu ne compare rien", etatProche("Bon état", "Pourri"), false);
+
+// Une cote de marque est moins sûre : on exige une marge plus grande.
+verifier("45 € de marge sur cote modèle", merite(100, 145, false, true), true);
+verifier("45 € de marge sur cote marque", merite(100, 145, false, false), false);
+verifier("70 € de marge sur cote marque", merite(100, 170, false, false), true);
 
 // --- Le verdict : le bénéfice à la revente ----------------------------------
 verifier("marge de 70 € sur une petite montre", merite(30, 100, false), true);

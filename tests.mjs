@@ -187,7 +187,12 @@ for (const marque of ["Cartier", "Chopard", "Piaget", "Bvlgari", "Chanel", "Herm
 for (const marque of ["Baume & Mercier", "Corum", "Perrelet", "Carl F. Bucherer"]) {
   verifier(`${marque} sans plancher`, estLuxe(marque), false);
 }
-for (const marque of ["Richard Mille", "Corum", "Perrelet", "Bovet", "Angelus"]) {
+for (const marque of ["Richard Mille", "Corum", "Perrelet", "Bovet", "Angelus",
+                      // Maisons ajoutées au dernier tour, dont les militaires et
+                      // les vintage méconnues.
+                      "Titoni", "CWC", "Precista", "Auricoste", "Dodane", "U-Boat",
+                      "Nivada Grenchen", "Ollech & Wajs", "Leonidas", "Excelsior Park",
+                      "Accutron", "Prospex", "Sternglas", "Mondaine", "Marathon"]) {
   verifier(`${marque} est reconnue`, marqueHorlogere(marque), true);
 }
 

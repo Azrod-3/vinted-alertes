@@ -221,6 +221,30 @@ for (const [titre, marque] of [["Montre Festina quartz", "Festina"], ["Casio F-9
 }
 verifier("signal lu dans la description", estPepite("Vieille montre", "mouvement Valjoux 72", "Inconnue"), true);
 
+// --- Défauts dont le mot sert aussi à dire qu'ils sont absents --------------
+// « Verre Plexiglas fissuré » est passé : le mot manquait, et l'ajouter
+// brutalement aurait bloqué « aucune fissure », qui dit l'inverse.
+for (const [texte, mot] of [
+  ["Bon état. Verre Plexiglas fissuré", "fissure"],
+  ["Vetro incrinato", "incrinato"],
+  ["Boîtier rouillé, à nettoyer", "rouille"],
+  ["Glass is cracked", "cracked"],
+]) {
+  verifier(`défaut : « ${texte} »`, motRedhibitoire(texte), mot);
+}
+for (const texte of [
+  "Montre en parfait état, aucune fissure",
+  "Il n'y a aucune fissure sur le verre",
+  "Sans fissure ni trace de rouille",
+  "Aucune trace de rouille, très propre",
+  "Senza incrinature",
+  // L'usure normale d'une vintage ne doit rien déclencher.
+  "Montre Tissot très bon état, quelques micro-rayures d'usage sur le fond",
+  "Petites rayures d'usage, rien de méchant",
+]) {
+  verifier(`nié ou bénin : « ${texte.slice(0, 38)}… »`, motRedhibitoire(texte), "");
+}
+
 // --- Lots : plusieurs montres comparées à la médiane d'une seule ------------
 for (const titre of ["2 Orologi Swatch Nuovi Vintage", "2 Orologi in Blocco Swatch",
                      "Lot de 3 montres Seiko", "Konvolut Uhren", "Coppia orologi",

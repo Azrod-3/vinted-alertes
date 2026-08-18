@@ -42,6 +42,10 @@ const MARQUES = CONFIG.marquesMontres.map((m) => ` ${normaliser(m)} `);
 const ETATS = new Set(CONFIG.etatsAcceptes.map(normaliser));
 /** Pre-normalises et entoures d'espaces : evite que "hs" matche "shs". */
 const MOTS = CONFIG.motsRedhibitoires.map((m) => ` ${normaliser(m)} `);
+const AMBIGUS = CONFIG.motsAmbigus.map((m) => ` ${normaliser(m)} `);
+const NEGATIONS = CONFIG.negations.map(normaliser);
+/** Assez large pour couvrir "il n'y a aucune", assez court pour ne pas deriver. */
+const FENETRE_NEGATION = 16;
 const ACCESSOIRES = new Set(CONFIG.motsAccessoire.map(normaliser));
 const ACCESSOIRES_PARTOUT = CONFIG.motsAccessoireTitre.map((m) => ` ${normaliser(m)} `);
 const LUXE = CONFIG.marquesLuxe.map((m) => ` ${normaliser(m)} `);
@@ -283,6 +287,21 @@ export function motRedhibitoire(...textes) {
   const texte = ` ${normaliser(textes.join(" "))} `;
   for (let i = 0; i < MOTS.length; i += 1) {
     if (texte.includes(MOTS[i])) return CONFIG.motsRedhibitoires[i];
+  }
+
+  // Ces defauts-la sont reels, mais le mot sert aussi a dire qu'ils sont
+  // absents : "verre plexiglas fissure" disqualifie, "aucune fissure" non. On
+  // regarde donc les quelques caracteres qui precedent chaque occurrence.
+  for (let i = 0; i < AMBIGUS.length; i += 1) {
+    let depuis = 0;
+    for (;;) {
+      const trouve = texte.indexOf(AMBIGUS[i], depuis);
+      if (trouve < 0) break;
+      const avant = texte.slice(Math.max(0, trouve - FENETRE_NEGATION), trouve + 1);
+      const nie = NEGATIONS.some((n) => avant.includes(` ${n} `));
+      if (!nie) return CONFIG.motsAmbigus[i];
+      depuis = trouve + 1;
+    }
   }
   return "";
 }

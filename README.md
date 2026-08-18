@@ -57,7 +57,13 @@ requêtes :
 6. **Description propre.** Lue sur la fiche publique, elle est refusée si elle
    contient un mot rédhibitoire : « pour pièces », « ne fonctionne plus », « HS »,
    « réplique », « style Rolex », « il manque »… en français, espagnol, italien,
-   anglais et allemand. Les mots ambigus ont été retirés
+   anglais et allemand.
+
+   Certains défauts se disent avec le même mot que leur absence : « verre
+   plexiglas fissuré » disqualifie, « aucune fissure » non. Ceux-là ne comptent
+   que si aucune négation ne les précède. L'usure normale d'une vintage — les
+   micro-rayures d'usage — ne déclenche rien : la retenir aurait écarté la moitié
+   des montres anciennes. Les mots ambigus ont été retirés
    exprès — « il ne manque rien » ou « ce n'est pas un faux » sont des phrases
    saines, et une annonce bloquée à tort disparaît sans bruit.
 
@@ -76,7 +82,7 @@ finalistes**, soit une poignée par passage.
 
     npm test
 
-198 tests, sans réseau : normalisation, liste blanche des marques, états, mots
+209 tests, sans réseau : normalisation, liste blanche des marques, états, mots
 rédhibitoires et pièges de négation.
 
 ## Installation

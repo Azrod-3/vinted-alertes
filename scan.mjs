@@ -45,6 +45,9 @@ const MOTS = CONFIG.motsRedhibitoires.map((m) => ` ${normaliser(m)} `);
 const ACCESSOIRES = new Set(CONFIG.motsAccessoire.map(normaliser));
 const ACCESSOIRES_PARTOUT = CONFIG.motsAccessoireTitre.map((m) => ` ${normaliser(m)} `);
 const LUXE = CONFIG.marquesLuxe.map((m) => ` ${normaliser(m)} `);
+const PEPITE_MARQUES = CONFIG.marquesPepite.map((m) => ` ${normaliser(m)} `);
+const PEPITE_SIGNAUX = CONFIG.signauxPepite.map((m) => ` ${normaliser(m)} `);
+const MOTS_VIDES = new Set(CONFIG.motsVides.map(normaliser));
 const PAS_LUXE = CONFIG.marquesLuxeExceptions.map((m) => ` ${normaliser(m)} `);
 
 /** Compteurs du tunnel, remis a zero a chaque resume envoye. */
@@ -57,6 +60,8 @@ const nouveauBilan = () => ({
   prix: 0,
   accessoire: 0,
   fausse: 0,
+  pro: 0,
+  vendeurSpecialise: 0,
   sansCote: 0,
   chere: 0,
   description: 0,
@@ -153,6 +158,9 @@ export function motifDeRefus(item, vues = new Set()) {
   if (!etatAcceptable(item.status)) return "etat";
   if (estAccessoire(item.title)) return "accessoire";
   if (estLuxe(item.brand_title) && prix < CONFIG.prixMinimumLuxe) return "fausse";
+  // Un professionnel vend au prix du marche, jamais en dessous : 9 % des
+  // annonces, autant de calculs de cote economises.
+  if (CONFIG.exclureVendeursPros && item.user && item.user.business) return "pro";
   return "";
 }
 
@@ -188,6 +196,51 @@ export const estLuxe = (marque) => {
   return LUXE.some((m) => texte.includes(m));
 };
 
+/**
+ * Requete de cote au niveau du MODELE.
+ *
+ * La cote de marque est la plus grosse fuite de pepites : toutes les Seiko
+ * partagent la meme mediane, donc une Seiko 5 qui en vaut 180 affichee a 70
+ * passe pour surevaluee. On reconstruit donc une requete a partir du titre —
+ * marque plus les deux mots qui portent vraiment l'information — et on mesure
+ * la cote sur ces annonces-la.
+ *
+ * Les references chiffrees sont prioritaires : "SNK809" identifie un modele
+ * mieux que n'importe quel adjectif.
+ */
+export function requeteModele(titre, marque) {
+  const mots = normaliser(titre)
+    .split(" ")
+    // Les diametres et les annees ne designent pas un modele : "40mm", "1970".
+    .filter((m) => m.length >= 2 && !MOTS_VIDES.has(m) && !/^\d{1,2}$/.test(m) && !/^\d{1,3}(mm|cm)$/.test(m));
+
+  const marqueMots = new Set(normaliser(marque).split(" "));
+  const restants = mots.filter((m) => !marqueMots.has(m));
+
+  // Une reference (des chiffres colles a des lettres, ou 3+ chiffres) vaut plus
+  // que tout le reste : "6139", "SNK809", "PR516".
+  const references = restants.filter((m) => /\d/.test(m) && !/^\d{1,2}(mm|cm)?$/.test(m));
+  // Trois lettres suffisent : PRX, GMT, SKX sont des modeles entiers.
+  const autres = restants.filter((m) => !references.includes(m) && m.length >= 3);
+
+  const choisis = [...references, ...autres].slice(0, 2);
+  if (!choisis.length) return "";
+  return `${String(marque || "").trim()} ${choisis.join(" ")}`.trim();
+}
+
+/**
+ * Une montre de niche : maison que le grand public ne connait pas mais dont les
+ * modeles se negocient cher, ou signal de valeur dans le texte (un mouvement
+ * Valjoux, un Kon-Tiki, un cadran gilt). Le vendeur qui ecrit "Valjoux" sans
+ * savoir ce que c'est vend souvent tres en dessous.
+ */
+export function estPepite(titre, description, marque) {
+  const texte = ` ${normaliser([titre, description].join(" "))} `;
+  if (PEPITE_SIGNAUX.some((m) => texte.includes(m))) return true;
+  const nom = ` ${normaliser(marque)} `;
+  return PEPITE_MARQUES.some((m) => nom.includes(m));
+}
+
 /** Premier mot redhibitoire trouve dans le texte, ou "" si tout va bien. */
 export function motRedhibitoire(...textes) {
   const texte = ` ${normaliser(textes.join(" "))} `;
@@ -201,6 +254,31 @@ export function motRedhibitoire(...textes) {
  * Cote d'une marque : mediane des montres comparables en vente. Mise en cache
  * 24 h pour ne pas refaire le calcul a chaque passage.
  */
+/**
+ * Cote d'un modele precis. Repli silencieux sur la marque quand l'echantillon
+ * est trop maigre : mieux vaut une cote large qu'une cote fausse tiree de deux
+ * annonces.
+ */
+async function coteModele(page, requete, cache) {
+  const cle = `modele:${requete}`;
+  const memo = cache[cle];
+  if (memo && Date.now() - memo.date < 24 * 3600 * 1000) return memo;
+
+  const reponse = await api(
+    page,
+    rechercheUrl({ search_text: requete, catalog_ids: String(CONFIG.categorieVinted), per_page: "40" })
+  );
+  const prix = nettoyer(
+    ((reponse && reponse.items) || []).map(prixDe).filter((p) => Number.isFinite(p) && p > 0)
+  );
+
+  cache[cle] =
+    prix.length >= CONFIG.coteMinAnnoncesModele
+      ? { date: Date.now(), mediane: mediane(prix), echantillon: prix.length, niveau: "modèle" }
+      : { date: Date.now(), mediane: null, echantillon: prix.length, niveau: "modèle" };
+  return cache[cle];
+}
+
 async function coteMarque(page, marque, cache) {
   const memo = cache[marque];
   if (memo && Date.now() - memo.date < 24 * 3600 * 1000) return memo;
@@ -240,11 +318,12 @@ const rechercheUrl = (params) => `/api/v2/catalog/items?${new URLSearchParams(pa
 
 /** Envoi d'une alerte Discord, avec la photo, l'etat et un extrait de la description. */
 async function alerter(annonce) {
-  const ecart = Math.round((1 - annonce.prix / annonce.cote) * 100);
+  const ecart = annonce.cote ? Math.round((1 - annonce.prix / annonce.cote) * 100) : 0;
   if (ESSAI) {
     console.log(
-      `  [essai] ${annonce.prix} € — ${ecart} % sous la cote (${annonce.cote} €) — ` +
-        `${annonce.marque} — ${annonce.etat} — ${annonce.titre.slice(0, 45)}`
+      `  [essai]${annonce.pepite ? " 💎" : "  "} ${String(annonce.prix).padStart(4)} € — ` +
+        (annonce.cote ? `${String(ecart).padStart(3)} % sous la cote ${annonce.niveau} (${annonce.cote} €)` : "sans cote") +
+        ` — ${annonce.marque} — ${annonce.titre.slice(0, 45)}`
     );
     return;
   }
@@ -256,16 +335,19 @@ async function alerter(annonce) {
   const corps = {
     embeds: [
       {
-        title: annonce.titre.slice(0, 250),
+        title: `${annonce.pepite ? "💎 " : ""}${annonce.titre.slice(0, 240)}`,
         url: annonce.lien,
-        color: 0x2ecc71,
+        color: annonce.pepite ? 0x9b59b6 : 0x2ecc71,
         description:
-          `**${annonce.prix} €** — soit **${ecart} % sous la cote** de la marque ` +
-          `(médiane ${annonce.cote} € sur ${annonce.echantillon} annonces).\n\n` +
+          (annonce.cote
+            ? `**${annonce.prix} €** — soit **${ecart} % sous la cote** ` +
+              `du ${annonce.niveau} (médiane ${annonce.cote} € sur ${annonce.echantillon} annonces).\n\n`
+            : `**${annonce.prix} €** — pièce de collection, aucune cote fiable à ce jour.\n\n`) +
           `> ${extrait}${annonce.description && annonce.description.length > 300 ? "…" : ""}`,
         fields: [
           { name: "Marque", value: annonce.marque || "inconnue", inline: true },
           { name: "État", value: annonce.etat || "non précisé", inline: true },
+          ...(annonce.pepite ? [{ name: "Signal", value: "montre de collection", inline: true }] : []),
         ],
         thumbnail: annonce.photo ? { url: annonce.photo } : undefined,
         footer: { text: "Veille Vinted" },
@@ -291,6 +373,8 @@ export function texteResume(bilan, ecoule) {
     [bilan.etat, "état insuffisant"],
     [bilan.accessoire, "accessoire, pas une montre"],
     [bilan.fausse, "luxe à prix impossible"],
+    [bilan.pro, "vendeur professionnel"],
+    [bilan.vendeurSpecialise, "revendeur de montres"],
     [bilan.sansCote, "marque sans cote fiable"],
     [bilan.chere, "au prix du marché"],
     [bilan.description, "description rédhibitoire"],
@@ -350,18 +434,25 @@ async function resumer(bilan) {
 }
 
 /** Un passage : on relit les nouveautes et on alerte sur ce qui merite. */
-async function unPassage(page, vues, cotes, bilan) {
-  const recentes = await api(
-    page,
-    rechercheUrl({
-      search_text: CONFIG.recherche,
-      catalog_ids: String(CONFIG.categorieVinted),
-      per_page: String(CONFIG.nouvellesAnnonces),
-      order: "newest_first",
-    })
-  );
+async function unPassage(page, vues, cotes, bilan, vendeurs) {
+  // Une seule recherche ne voit qu'un sixieme du marche : mesure faite, "montre"
+  // rapporte 96 annonces la ou les huit recherches en rapportent 570 distinctes.
+  // "montre ancienne" a elle seule apporte 90 annonces invisibles autrement.
+  const trouvees = new Map();
+  for (const mot of CONFIG.recherches) {
+    const r = await api(
+      page,
+      rechercheUrl({
+        search_text: mot,
+        catalog_ids: String(CONFIG.categorieVinted),
+        per_page: String(CONFIG.nouvellesAnnonces),
+        order: "newest_first",
+      })
+    );
+    for (const item of (r && r.items) || []) trouvees.set(item.id, item);
+  }
 
-  if (!recentes || !recentes.items) {
+  if (!trouvees.size) {
     console.error("Vinted n'a pas répondu (challenge non franchi).");
     return false;
   }
@@ -369,7 +460,7 @@ async function unPassage(page, vues, cotes, bilan) {
   bilan.passages += 1;
 
   const candidates = [];
-  for (const item of recentes.items) {
+  for (const item of trouvees.values()) {
     const refus = motifDeRefus(item, vues);
     if (refus === "deja") continue;
     // Memorisee des maintenant, quel que soit le sort : sans cela une annonce
@@ -377,7 +468,17 @@ async function unPassage(page, vues, cotes, bilan) {
     // annoncerait trois fois le nombre reel de nouveautes.
     vues.add(String(item.id));
     bilan.nouvelles += 1;
+
+    // Combien de montres DIFFERENTES ce vendeur a-t-il publiees ? L'API ignore
+    // le filtre user_id (verifie : elle renvoie les memes 96 articles pour tout
+    // le monde), mais on peut compter soi-meme, sans une seule requete de plus.
+    // Chaque annonce n'est comptee qu'une fois, puisqu'on ne passe ici que pour
+    // les nouvelles.
+    const vendeur = item.user && item.user.id ? String(item.user.id) : "";
+    if (vendeur) vendeurs[vendeur] = (vendeurs[vendeur] || 0) + 1;
+
     if (refus) bilan[refus] += 1;
+    else if (vendeur && vendeurs[vendeur] > CONFIG.vendeurMaxMontres) bilan.vendeurSpecialise += 1;
     else candidates.push(item);
   }
 
@@ -386,15 +487,39 @@ async function unPassage(page, vues, cotes, bilan) {
     if (alertes.length >= CONFIG.maxAlertesParPassage) break;
 
     const marque = item.brand_title.trim();
-    const cote = await coteMarque(page, marque, cotes);
+    const prix = prixDe(item);
 
-    if (!cote.mediane) {
+    // Cote du modele d'abord : c'est elle qui revele les pepites. La cote de
+    // marque ne sert que de repli quand l'echantillon est trop maigre.
+    // La cote de marque est en cache et ne coute rien ; celle du modele demande
+    // une requete par modele distinct. On ne la calcule donc que si l'annonce
+    // n'est pas manifestement hors de prix — sans quoi chaque passage
+    // interrogerait Vinted trois cents fois.
+    let cote = await coteMarque(page, marque, cotes);
+    const vautLeDetour = !cote.mediane || prix / cote.mediane <= CONFIG.ratioAvantCoteModele;
+
+    if (vautLeDetour) {
+      const requete = requeteModele(item.title, marque);
+      const precise = requete ? await coteModele(page, requete, cotes) : null;
+      if (precise && precise.mediane) cote = precise;
+    }
+
+    // Une montre de niche merite qu'on lise sa description avant de la juger :
+    // le signal de valeur y est souvent, pas dans le titre.
+    const pepiteTitre = estPepite(item.title, "", marque);
+
+    if (!cote.mediane && !pepiteTitre) {
       bilan.sansCote += 1;
       continue;
     }
 
-    const prix = prixDe(item);
-    if (prix / cote.mediane > CONFIG.seuilBonneAffaire) {
+    const seuil = pepiteTitre ? CONFIG.seuilPepite : CONFIG.seuilBonneAffaire;
+    const sousLaCote = cote.mediane ? prix / cote.mediane <= seuil : false;
+    // Une piece de collection a petit prix vaut le coup d'oeil meme sans cote
+    // exploitable : c'est exactement le cas ou personne ne sait ce que c'est.
+    const pepiteAbordable = pepiteTitre && prix <= CONFIG.pepitePrixMax;
+
+    if (!sousLaCote && !pepiteAbordable) {
       bilan.chere += 1;
       continue;
     }
@@ -411,6 +536,7 @@ async function unPassage(page, vues, cotes, bilan) {
       continue;
     }
 
+
     alertes.push({
       id: item.id,
       titre: item.title || "Annonce Vinted",
@@ -420,6 +546,8 @@ async function unPassage(page, vues, cotes, bilan) {
       description,
       cote: cote.mediane,
       echantillon: cote.echantillon,
+      niveau: cote.niveau || "marque",
+      pepite: estPepite(item.title, description || "", marque),
       lien,
       photo: (item.photo && (item.photo.url || item.photo.thumbnail_url)) || "",
     });
@@ -457,6 +585,7 @@ async function main() {
   const vues = new Set(etat.vues || []);
   const cotes = etat.cotes || {};
   const bilan = { ...nouveauBilan(), ...(etat.bilan || {}) };
+  const vendeurs = etat.vendeurs || {};
 
   const navigateur = await chromium.launch({ channel: "chrome", headless: true });
   const contexte = await navigateur.newContext({ userAgent: UA, locale: "fr-FR" });
@@ -473,7 +602,7 @@ async function main() {
 
   while (true) {
     passages += 1;
-    const ok = await unPassage(page, vues, cotes, bilan);
+    const ok = await unPassage(page, vues, cotes, bilan, vendeurs);
     if (!ok && passages === 1) break; // challenge non franchi : inutile d'insister
     if (Date.now() + CONFIG.intervalleSecondes * 1000 >= fin) break;
     await page.waitForTimeout(CONFIG.intervalleSecondes * 1000);
@@ -492,7 +621,16 @@ async function main() {
   if (!ESSAI) {
     await writeFile(
       ETAT,
-      JSON.stringify({ vues: [...vues].slice(-4000), cotes, bilan: remis ? nouveauBilan() : bilan }, null, 1)
+      JSON.stringify(
+        {
+          vues: [...vues].slice(-4000),
+          cotes,
+          vendeurs: Object.fromEntries(Object.entries(vendeurs).filter(([, n]) => n > 1)),
+          bilan: remis ? nouveauBilan() : bilan,
+        },
+        null,
+        1
+      )
     );
   }
 }

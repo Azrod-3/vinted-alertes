@@ -1,5 +1,5 @@
 /** Tests des trois filtres. `npm test`. Aucun reseau, aucune dependance. */
-import { normaliser, marqueHorlogere, etatAcceptable, motRedhibitoire, motifDeRefus, texteResume, estAccessoire, estLuxe } from "./scan.mjs";
+import { normaliser, marqueHorlogere, etatAcceptable, motRedhibitoire, motifDeRefus, texteResume, estAccessoire, estLuxe, requeteModele, estPepite } from "./scan.mjs";
 
 let ok = 0;
 const echecs = [];
@@ -149,7 +149,11 @@ for (const titre of ["Cartellino originale per orologi Universal Geneve",
                      "Etichetta orologio Rolex", "Bracelet pour montre Seiko",
                      "Correa para reloj Casio", "Lederband für Uhren",
                      "Leather strap for watches", "Libretto Omega",
-                     "Depliant pubblicitario orologi"]) {
+                     "Depliant pubblicitario orologi",
+                     // Boites et ecrins dans les cinq langues.
+                     "Scatola Orologio Certina Vintage - Full Set",
+                     "Astuccio orologio Omega", "Estuche reloj Seiko",
+                     "Uhrenkoffer Leder", "Watch case Seiko"]) {
   verifier(`objet pour montre : « ${titre} »`, estAccessoire(titre), true);
 }
 // Piège : "tag" est dans "TAG Heuer". Ce mot seul ne doit jamais bloquer.
@@ -188,6 +192,39 @@ for (const titre of ["Uhrenbox Vintage Hamilton Bakelit", "Lederband Glashütte"
                      "Uhrenarmband Leder 20mm", "Ersatzteile Uhr"]) {
   verifier(`accessoire allemand : « ${titre} »`, estAccessoire(titre), true);
 }
+
+// --- Cote au niveau du modèle ------------------------------------------------
+verifier("référence chiffrée prioritaire", requeteModele("Montre Seiko 5 automatique SNK809", "Seiko"), "Seiko snk809 automatique");
+verifier("modèle nommé", requeteModele("Tissot pr100 Quartz dans un très bon état", "Tissot"), "Tissot pr100");
+verifier("titre sans information", requeteModele("Orologio Seiko Vintage", "Seiko"), "");
+verifier("mots de la marque exclus", requeteModele("montre g shock rose", "CASIO G-SHOCK"), "");
+verifier("taille ignorée", requeteModele("Montre Seiko 40mm", "Seiko"), "");
+verifier("modèle de trois lettres", requeteModele("Tissot PRX 35mm", "Tissot"), "Tissot prx");
+verifier("référence collée", requeteModele("Seiko SKX007", "Seiko"), "Seiko skx007");
+
+// --- Pépites : maisons de niche et signaux de valeur -------------------------
+for (const [titre, marque] of [
+  ["Seiko Solar Diver's 200M", "Seiko"],
+  ["Chronographe Valjoux 7734", "Sans marque"],
+  ["Montre Enicar automatique", "Enicar"],
+  ["Eterna KonTiki vintage", "Eterna"],
+  ["Orologio cronografo Landeron", "Sans marque"],
+  ["Montre or 18k mécanique", "Sans marque"],
+]) {
+  verifier(`pépite : « ${titre} »`, estPepite(titre, "", marque), true);
+}
+for (const [titre, marque] of [["Montre Festina quartz", "Festina"], ["Casio F-91W", "Casio"]]) {
+  verifier(`pas une pépite : « ${titre} »`, estPepite(titre, "", marque), false);
+}
+verifier("signal lu dans la description", estPepite("Vieille montre", "mouvement Valjoux 72", "Inconnue"), true);
+
+// --- Vendeurs professionnels -------------------------------------------------
+verifier("compte business écarté",
+  motifDeRefus({ id: 3, title: "Montre Seiko", brand_title: "Seiko", status: "Bon état",
+                 price: { amount: "40" }, user: { id: 1, business: true } }), "pro");
+verifier("particulier gardé",
+  motifDeRefus({ id: 3, title: "Montre Seiko", brand_title: "Seiko", status: "Bon état",
+                 price: { amount: "40" }, user: { id: 1, business: false } }), "");
 
 // --- Résumé « rien à signaler » ----------------------------------------------
 const bilan = { passages: 28, nouvelles: 143, marque: 71, prix: 38, etat: 2,

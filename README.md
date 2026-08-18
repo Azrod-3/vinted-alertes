@@ -26,10 +26,17 @@ requêtes :
 2. **État déclaré.** Neuf avec/sans étiquette, très bon état, bon état. En
    pratique ce filtre mord rarement : sur 96 annonces relevées, aucune n'était en
    « Satisfaisant ».
-3. **Prix sous la cote.** La cote de la marque est la médiane des montres
-   comparables en vente, valeurs aberrantes écartées. Le bas de gamme tombe tout
-   seul grâce au **seuil de cote minimum** (60 €) : une marque dont les montres
-   valent 15 € n'a pas de bonne affaire à offrir.
+3. **Prix sous la cote — du modèle, pas de la marque.** La cote de marque était
+   la plus grosse fuite de pépites : toutes les Seiko partageaient la même médiane
+   (~95 €), donc une *Seiko Solar Diver's 200M* à 115 € paraissait **au-dessus du
+   marché** alors que son modèle se négocie 250 €. La requête de cote est donc
+   reconstruite depuis le titre — marque plus les deux mots porteurs, les
+   références chiffrées d'abord (« Ref: 7N01-6701 » vaut mieux que tout adjectif).
+   Repli silencieux sur la marque quand l'échantillon est trop maigre.
+
+   Comme cette cote coûte une requête par modèle distinct, elle n'est calculée que
+   si l'annonce n'est pas manifestement hors de prix — sans quoi un passage
+   interrogeait Vinted trois cents fois et durait 198 s au lieu de 30 s.
 4. **Pas un accessoire.** Sous 5 €, la catégorie Montres se remplit de bracelets,
    d'écrins et de piles. Le premier mot du titre les trahit presque toujours
    (« Bracelet de montre Seiko », « Cinturino Casio »), et quelques mots — maillon,
@@ -62,7 +69,7 @@ finalistes**, soit une poignée par passage.
 
     npm test
 
-152 tests, sans réseau : normalisation, liste blanche des marques, états, mots
+175 tests, sans réseau : normalisation, liste blanche des marques, états, mots
 rédhibitoires et pièges de négation.
 
 ## Installation
@@ -94,6 +101,30 @@ Reste le décalage de GitHub lui-même : le démarrage d'un job planifié n'est 
 garanti à la minute près, surtout aux heures chargées. C'est désormais le
 facteur limitant, pas le script.
 
+## Les montres de niche
+
+Une maison que le grand public ne connaît pas — Enicar, Nivada, Gallet, Eterna,
+Favre-Leuba — ou un signal de valeur dans le texte (un mouvement Valjoux, un
+Kon-Tiki, un cadran gilt, « 21 rubis », « or 18k ») trahit une montre qui vaut
+bien plus que son air. Le vendeur qui écrit « Valjoux » sans savoir ce que c'est
+vend souvent très en dessous.
+
+Ces annonces obtiennent un seuil assoupli (`seuilPepite`, −20 % suffit) et sont
+signalées d'un 💎. En dessous de `pepitePrixMax`, elles passent même sans cote
+exploitable : c'est exactement le cas où personne ne sait ce que c'est.
+
+## Les vendeurs
+
+Les comptes professionnels sont écartés d'office — le champ `business` est déjà
+dans les données, 9 % des annonces, aucune requête de plus.
+
+Pour les revendeurs non déclarés, l'API ne sert à rien : le filtre `user_id` de
+la recherche est **purement ignoré** (vérifié — elle renvoie les mêmes 96
+articles pour tout le monde) et `total_entries` vaut 960 quel que soit le
+vendeur. On compte donc soi-même, au fil des passages, combien de montres
+différentes chaque vendeur publie. Au-delà de `vendeurMaxMontres`, c'est un
+revendeur : il connaît ses prix.
+
 ## Le message « Rien à signaler »
 
 Sans lui, le silence est ambigu : « rien d'intéressant » et « Vinted nous
@@ -111,7 +142,7 @@ prouvent d'elles-mêmes que ça tourne.
 
 | Clé | Rôle |
 |---|---|
-| `recherche` | mot-clé de base (`montre`) |
+| `recherches` | les huit recherches lancées à chaque passage |
 | `categorieVinted` | `97` = Montres |
 | `seuilBonneAffaire` | rapport prix/cote maximum. `0.55` = le prix vaut au plus 55 % de la cote, soit une remise de **−45 %** |
 | `coteMinimum` | ignore les marques dont la cote est sous ce prix (bas de gamme) |
@@ -119,6 +150,10 @@ prouvent d'elles-mêmes que ça tourne.
 | `motsAccessoire` | premiers mots de titre qui trahissent un accessoire |
 | `motsAccessoireTitre` | mots qui ne désignent qu'une pièce détachée, où qu'ils soient |
 | `marquesLuxe` / `prixMinimumLuxe` | maisons où un prix trop bas trahit un faux |
+| `marquesPepite` / `signauxPepite` | maisons de niche et signaux de valeur |
+| `seuilPepite` / `pepitePrixMax` | seuil assoupli pour les montres de collection |
+| `vendeurMaxMontres` | au-delà, le vendeur est un revendeur |
+| `ratioAvantCoteModele` | au-delà, on ne paie pas la requête de cote précise |
 | `coteMinAnnonces` | nombre d'annonces requis pour oser une cote |
 | `maxAlertesParPassage` | évite d'inonder Discord |
 | `bouclerSecondes` | durée de la boucle interne d'un job |
@@ -147,8 +182,9 @@ poussée est retentée trois fois si le dépôt bouge entre-temps.
   vendeurs surévaluent, la médiane est gonflée et les bonnes affaires fantômes.
 - **Les photos ne sont jamais regardées.** Contrefaçon, casse visible, pièce
   manquante non mentionnée : invisibles pour le script.
-- **Seules les 60 dernières annonces sont vues** à chaque passage. Aux heures de
-  pointe, ce qui se publie au-delà passe à la trappe.
+- **Le champ marque doit être rempli.** Les annonces sans marque sont écartées —
+  or c'est un quart d'entre elles, et le profil type du vendeur qui ignore ce
+  qu'il vend. Lire la marque dans le titre reste à faire.
 - **Une annonce examinée ne l'est jamais deux fois** : une baisse de prix
   ultérieure ne déclenchera rien.
 - Vinted peut durcir sa protection : le jour où le challenge n'est plus franchi,

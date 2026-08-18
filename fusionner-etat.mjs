@@ -30,5 +30,12 @@ const depot = await lire(cible);
 const vues = [...new Set([...(depot.vues || []), ...(nous.vues || [])])].slice(-PLAFOND);
 const cotes = { ...(depot.cotes || {}), ...(nous.cotes || {}) };
 
-await writeFile(cible, JSON.stringify({ vues, cotes, bilan: nous.bilan || depot.bilan }, null, 1));
+// Comptage des montres par vendeur : on garde le plus grand des deux, jamais la
+// somme — deux jobs qui ont vu la meme annonce la compteraient deux fois.
+const vendeurs = { ...(depot.vendeurs || {}) };
+for (const [id, n] of Object.entries(nous.vendeurs || {})) {
+  vendeurs[id] = Math.max(vendeurs[id] || 0, n);
+}
+
+await writeFile(cible, JSON.stringify({ vues, cotes, vendeurs, bilan: nous.bilan || depot.bilan }, null, 1));
 console.log(`état fusionné : ${vues.length} annonces mémorisées, ${Object.keys(cotes).length} cotes`);

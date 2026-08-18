@@ -160,7 +160,12 @@ for (const titre of ["Cartellino originale per orologi Universal Geneve",
 for (const titre of ["TAG Heuer Monaco", "Tag Heuer Formula 1", "Montre TAG Heuer"]) {
   verifier(`TAG Heuer intacte : « ${titre} »`, estAccessoire(titre), false);
 }
-verifier("Universal Genève est du luxe", estLuxe("Universal Genève"), true);
+// Retirees du plancher luxe : ce sont des maisons a pepites, et une Longines
+// ou une Universal Geneve sous-cotee a 80 EUR est exactement ce qu'on cherche.
+verifier("Universal Genève examinée dès 5 €", estLuxe("Universal Genève"), false);
+verifier("Longines aussi", estLuxe("Longines"), false);
+verifier("Movado aussi", estLuxe("Movado"), false);
+verifier("Rolex garde son plancher", estLuxe("Rolex"), true);
 
 // --- Luxe à prix impossible : ce sont des faux, pas des affaires -------------
 // Toutes ces alertes sont reellement parties une nuit avant ce filtre.

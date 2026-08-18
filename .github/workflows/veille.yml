@@ -7,6 +7,8 @@ on:
     # seul demarrage avec ce cron. On ne compte donc pas sur sa ponctualite —
     # chaque job couvre 25 min tout seul (voir bouclerSecondes), et le cron
     # court sert surtout a en relancer un des que le precedent se termine.
+    # Chaque job couvre desormais CINQ HEURES : GitHub n'a plus que cinq feux
+    # verts a donner par jour au lieu de cent quarante-quatre.
     - cron: "*/5 * * * *"
   workflow_dispatch: {} # permet de lancer un test à la main
 
@@ -21,7 +23,7 @@ concurrency:
 jobs:
   scanner:
     runs-on: ubuntu-latest
-    timeout-minutes: 35
+    timeout-minutes: 310
 
     steps:
       - uses: actions/checkout@v4
@@ -52,31 +54,13 @@ jobs:
       - name: Chercher les bonnes affaires
         env:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+          # Le job durant cinq heures, le scan enregistre lui-même l'état en
+          # cours de route : sans cela, une interruption ferait tout reperdre.
+          ENREGISTRER_EN_ROUTE: "1"
         run: npm run scan
 
+      # Le scan enregistre déjà l'état toutes les quinze minutes ; ceci n'est que
+      # la dernière passe, et sert de filet si le scan s'est interrompu.
       - name: Mémoriser les annonces déjà signalées
-        run: |
-          # On ne demande pas à git de fusionner ce JSON : il n'y arrive pas et
-          # l'étape échouait, ce qui faisait perdre l'état et réalerter tout.
-          # On repart de la version du dépôt et on y verse la nôtre.
-          cp etat.json "$RUNNER_TEMP/etat-local.json"
-          git config user.name "veille-vinted"
-          git config user.email "actions@github.com"
-
-          for essai in 1 2 3; do
-            git fetch -q origin main
-            git reset -q --hard origin/main
-            node fusionner-etat.mjs "$RUNNER_TEMP/etat-local.json" etat.json
-            git add etat.json
-            if git diff --cached --quiet; then
-              echo "rien de nouveau à enregistrer"
-              exit 0
-            fi
-            git commit -q -m "veille : mise à jour de l'état"
-            if git push -q origin HEAD:main; then
-              echo "état enregistré (essai $essai)"
-              exit 0
-            fi
-            echo "poussée refusée, le dépôt a bougé — nouvelle tentative"
-          done
-          echo "::warning::état non enregistré après 3 essais"
+        if: always()
+        run: ./enregistrer-etat.sh

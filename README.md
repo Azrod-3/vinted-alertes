@@ -126,9 +126,17 @@ session Vinted, et relève les nouveautés toutes les `intervalleSecondes`
 pendant `bouclerSecondes`. On paie la mise en route une fois pour cinq ou six
 relevés. Le délai entre deux relevés tombe à **40 s** au lieu de 15 min.
 
-Reste le décalage de GitHub lui-même : le démarrage d'un job planifié n'est pas
-garanti à la minute près, surtout aux heures chargées. C'est désormais le
-facteur limitant, pas le script.
+Reste le décalage de GitHub lui-même, et c'est le facteur limitant. La parade
+est de **ne plus lui demander grand-chose** : chaque job couvre **cinq heures**,
+donc cinq feux verts par jour suffisent au lieu de cent quarante-quatre. Même
+avec ses retards, la couverture devient continue — et moins de relèves veut dire
+moins de doublons, puisqu'ils naissaient aux changements d'équipe.
+
+Un job de cinq heures qui n'enregistrerait qu'à la fin reperdrait tout à la
+moindre interruption : le scan appelle donc `enregistrer-etat.sh` toutes les
+quinze minutes. Ce script fait un `git reset --hard` et **refuse de tourner hors
+d'un runner** — sur une machine de développement il effacerait le travail en
+cours, ce qui est arrivé une fois.
 
 ## Les montres de niche
 
@@ -217,7 +225,8 @@ prouvent d'elles-mêmes que ça tourne.
 | `ratioAvantCoteModele` | au-delà, on ne paie pas la requête de cote précise |
 | `coteMinAnnonces` | nombre d'annonces requis pour oser une cote |
 | `maxAlertesParPassage` | évite d'inonder Discord |
-| `bouclerSecondes` | durée de la boucle interne d'un job. Court = état enregistré plus souvent |
+| `bouclerSecondes` | durée d'un job. Long = moins de feux verts à demander à GitHub |
+| `enregistrerToutesLesSecondes` | fréquence de sauvegarde de l'état pendant le job |
 | `intervalleSecondes` | délai entre deux relevés (`40` = une montre est vue dans la minute) |
 | `resumeSiRienMinutes` | fréquence du message « Rien à signaler » |
 | `marquesMontres` | liste blanche des maisons horlogères |

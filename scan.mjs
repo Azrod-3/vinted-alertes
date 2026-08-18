@@ -16,6 +16,7 @@
  */
 import { chromium } from "playwright-core";
 import { readFile, writeFile } from "node:fs/promises";
+import { execFile } from "node:child_process";
 
 const CONFIG = JSON.parse(await readFile(new URL("./config.json", import.meta.url), "utf8"));
 const WEBHOOK = process.env.DISCORD_WEBHOOK;
@@ -60,6 +61,24 @@ const LOT_CHIFFRE = /(^|\s)([2-9]|\d{2})\s+(orologi|montres|relojes|uhren|watche
 /** "lot de 3", "lotto di 5", "set di 4" : le nombre suit le mot. */
 const LOT_COMPTE = /(?:lot|lotto|lote|set|konvolut|stock|blocco|paquet)\s+(?:de\s+|di\s+|of\s+|von\s+)?(\d{1,2})(?!\d)/;
 const PAS_LUXE = CONFIG.marquesLuxeExceptions.map((m) => ` ${normaliser(m)} `);
+
+/**
+ * Enregistrement de l'etat en cours de route.
+ *
+ * Un job dure cinq heures : n'enregistrer qu'a la fin ferait tout reperdre a la
+ * moindre interruption, et laisserait le job voisin realerter ce qu'on vient
+ * d'envoyer. La manoeuvre git est confiee au script dedie, partage avec l'etape
+ * finale du workflow, qui refuse de tourner hors d'un runner.
+ */
+function enregistrerEnRoute() {
+  return new Promise((resolve) => {
+    execFile("./enregistrer-etat.sh", { timeout: 60000 }, (erreur, sortie) => {
+      if (erreur) console.error(`enregistrement impossible : ${erreur.message}`);
+      else if (String(sortie).trim()) console.log(String(sortie).trim());
+      resolve();
+    });
+  });
+}
 
 /** Compteurs du tunnel, remis a zero a chaque resume envoye. */
 const nouveauBilan = () => ({
@@ -755,11 +774,29 @@ async function main() {
   const fin = Date.now() + CONFIG.bouclerSecondes * 1000;
   const avant = { ...bilan };
   let passages = 0;
+  let dernierEnregistrement = Date.now();
+
+  const etatCourant = () => ({
+    vues: [...vues].slice(-4000),
+    cotes,
+    vendeurs: Object.fromEntries(Object.entries(vendeurs).filter(([, n]) => n > 1)),
+    bilan,
+  });
 
   while (true) {
     passages += 1;
     const ok = await unPassage(page, vues, cotes, bilan, vendeurs);
     if (!ok && passages === 1) break; // challenge non franchi : inutile d'insister
+
+    if (
+      process.env.ENREGISTRER_EN_ROUTE === "1" &&
+      Date.now() - dernierEnregistrement >= CONFIG.enregistrerToutesLesSecondes * 1000
+    ) {
+      await writeFile(ETAT, JSON.stringify(etatCourant(), null, 1));
+      await enregistrerEnRoute();
+      dernierEnregistrement = Date.now();
+    }
+
     if (Date.now() + CONFIG.intervalleSecondes * 1000 >= fin) break;
     await page.waitForTimeout(CONFIG.intervalleSecondes * 1000);
   }

@@ -299,7 +299,7 @@ for (const [titre, n] of [["2 Orologi Swatch Nuovi Vintage", 2], ["Lot de 3 mont
 }
 verifier("une montre seule n'est pas un lot", nombreDansLot("Seiko 5 sports"), 0);
 // Un lot de 3 Seiko cotées 100 € vaut 3 x 100 x 0,6 = 180 €, pas 100 €.
-verifier("lot de 3 à 90 € vaut le coup", merite(90, 180, false), true);
+verifier("lot de 3 à 90 € vaut le coup", merite(100, 180, false), true);
 verifier("le même lot à 150 € non", merite(150, 180, false), false);
 
 // Un chiffre dans le titre ne fait pas un lot.
@@ -333,10 +333,15 @@ verifier("bon et très bon état se comparent", etatProche("Bon état", "Très b
 verifier("bon état et neuf sous étiquette non", etatProche("Bon état", "Neuf avec étiquette"), false);
 verifier("état inconnu ne compare rien", etatProche("Bon état", "Pourri"), false);
 
-// Une cote de marque est moins sûre : on exige une marge plus grande.
-verifier("45 € de marge sur cote modèle", merite(100, 145, false, true), true);
-verifier("45 € de marge sur cote marque", merite(100, 145, false, false), false);
-verifier("70 € de marge sur cote marque", merite(100, 170, false, false), true);
+// Une cote de marque mélange tous les modèles : on n'y alerte plus que sur les
+// très grosses marges, parce que rater une grosse prise coûte bien plus cher
+// qu'une alerte de trop.
+verifier("80 € de marge sur cote modèle", merite(100, 180, false, true), true);
+verifier("60 € de marge sur cote modèle", merite(100, 160, false, true), false);
+verifier("80 € de marge sur cote marque", merite(100, 180, false, false), false);
+verifier("220 € de marge sur cote marque", merite(100, 320, false, false), true);
+// Le cas qui ne doit JAMAIS être raté : Baume & Mercier à 199 €, cote 550 €.
+verifier("la grosse prise passe malgré une cote de marque", merite(199, 550, false, false), true);
 
 verifier("article : marque", article("marque"), "de la marque");
 verifier("article : modèle", article("modèle"), "du modèle");
@@ -345,14 +350,15 @@ verifier("article : lot", article("lot de 3"), "du lot de 3");
 // --- Le verdict : le bénéfice à la revente ----------------------------------
 verifier("marge de 70 € sur une petite montre", merite(30, 100, false), true);
 verifier("marge de 70 € sur une montre chère", merite(130, 200, false), true);
+verifier("marge de 50 € ne suffit plus", merite(150, 200, false), false);
 // -70 % sur une montre à 40 € ne rapporte que 28 € : le pourcentage flatte, la
 // marge dit la vérité.
 verifier("gros pourcentage, marge ridicule", merite(12, 40, false), false);
 // Garde-fou inverse : 40 € de marge sur 500 €, c'est 8 %, trop mince pour
 // absorber une cote imprécise.
 verifier("marge correcte, pourcentage trop mince", merite(460, 500, false), false);
-verifier("marge tout juste sous le seuil", merite(70, 100, false), false);
-verifier("marge tout juste au seuil", merite(65, 100, false), true);
+verifier("marge tout juste sous le seuil", merite(101, 170, false), false);
+verifier("marge tout juste au seuil", merite(100, 170, false), true);
 // Sans cote exploitable, et seulement là, le petit prix suffit.
 verifier("pépite sans cote sous 120 €", merite(80, null, true), true);
 verifier("pépite sans cote au-dessus", merite(200, null, true), false);

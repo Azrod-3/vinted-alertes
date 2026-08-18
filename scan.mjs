@@ -303,9 +303,11 @@ export function merite(prix, cote, pepite, precise = true) {
     // sur une montre a 40 EUR ne rapporte que 28 EUR et ne vaut pas le
     // deplacement, la ou -35 % sur une montre a 200 EUR en rapporte 70.
     //
-    // Quand la cote ne vaut que pour la MARQUE, on exige davantage : elle melange
-    // tous les modeles, donc elle peut se tromper largement. Mesure faite, une
-    // seule candidate sur deux obtient une cote au niveau du modele.
+    // Quand la cote ne vaut que pour la MARQUE, elle melange tous les modeles et
+    // se trompe largement : c'est de la que venaient les alertes mediocres. On
+    // n'y alerte donc plus que sur les tres grosses marges — rater une Baume &
+    // Mercier a 199 EUR cotee 550 coute infiniment plus cher qu'une alerte de
+    // trop, alors qu'une marge de 40 EUR mal estimee ne rapporte rien.
     if (cote - prix < (precise ? CONFIG.margeMinimum : CONFIG.margeMinimumMarque)) return false;
     // Garde-fou : une marge de 40 EUR sur une montre a 500 EUR n'est que 8 %,
     // trop mince pour absorber une cote imprecise.

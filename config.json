@@ -945,7 +945,7 @@
   "pepitePrixMax": 120,
   "vendeurMaxMontres": 5,
   "ratioAvantCoteModele": 1.3,
-  "margeMinimum": 35,
+  "margeMinimum": 70,
   "motsLot": [
     "lot",
     "lots",
@@ -1017,5 +1017,5 @@
   "accepterLots": true,
   "lotMaxMontres": 10,
   "facteurLot": 0.6,
-  "margeMinimumMarque": 60
+  "margeMinimumMarque": 200
 }

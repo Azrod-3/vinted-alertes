@@ -42,8 +42,12 @@ requêtes :
    strictement identiques valent mieux que quatre-vingt-seize approximatives.
 
    Une candidate sur deux obtient ainsi une cote au niveau du modèle ; l'autre
-   moitié retombe sur la marque. Comme cette cote-là mélange tous les modèles,
-   elle exige une marge plus grande (`margeMinimumMarque`) pour déclencher.
+   moitié retombe sur la marque. Comme cette cote-là mélange tous les modèles et
+   se trompe largement, elle ne déclenche plus que sur de **très** grosses marges
+   (`margeMinimumMarque`) : c'est de là que venaient les alertes médiocres, mais
+   c'est aussi de là qu'est sortie une Baume & Mercier à 199 € cotée 550 €.
+   Rater celle-là coûte infiniment plus cher qu'une alerte de trop ; une marge de
+   40 € mal estimée, elle, ne rapporte rien.
 
    La cote de marque était
    la plus grosse fuite de pépites : toutes les Seiko partageaient la même médiane
@@ -94,7 +98,7 @@ finalistes**, soit une poignée par passage.
 
     npm test
 
-285 tests, sans réseau : normalisation, liste blanche des marques, états, mots
+288 tests, sans réseau : normalisation, liste blanche des marques, états, mots
 rédhibitoires et pièges de négation.
 
 ## Installation
@@ -198,7 +202,7 @@ prouvent d'elles-mêmes que ça tourne.
 | `pagesCatalogue` | pages de la catégorie lues à chaque passage (96 annonces chacune) |
 | `categorieVinted` | `97` = Montres |
 | `margeMinimum` | bénéfice minimum à la revente, en euros |
-| `margeMinimumMarque` | bénéfice exigé quand la cote n'est que celle de la marque |
+| `margeMinimumMarque` | bénéfice exigé quand la cote n'est que celle de la marque. Volontairement très haut : cette cote-là ne sert plus qu'aux grosses prises |
 | `coteMinAnnoncesModele` | annonces strictement identiques requises pour oser une cote |
 | `seuilBonneAffaire` | garde-fou en pourcentage : `0.70` = au moins −30 % |
 | `coteMinimum` | ignore les marques dont la cote est sous ce prix (bas de gamme) |

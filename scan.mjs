@@ -576,21 +576,25 @@ async function resumer(bilan) {
 
 /** Un passage : on relit les nouveautes et on alerte sur ce qui merite. */
 async function unPassage(page, vues, cotes, bilan, vendeurs) {
-  // Une seule recherche ne voit qu'un sixieme du marche : mesure faite, "montre"
-  // rapporte 96 annonces la ou les huit recherches en rapportent 570 distinctes.
-  // "montre ancienne" a elle seule apporte 90 annonces invisibles autrement.
+  // On lit la CATEGORIE, sans mot-cle. Chercher "montre", "orologio", "uhr"...
+  // paraissait couvrir large, mais laissait passer tout titre ne contenant aucun
+  // de ces mots : mesure faite, 59 des 285 annonces les plus recentes — une sur
+  // cinq. Dont une Baume & Mercier a 199 EUR cotee 550 EUR, intitulee
+  // "Baume e mercier automatico". La categorie dit deja que ce sont des montres.
   const trouvees = new Map();
-  for (const mot of CONFIG.recherches) {
+  for (let numero = 1; numero <= CONFIG.pagesCatalogue; numero += 1) {
     const r = await api(
       page,
       rechercheUrl({
-        search_text: mot,
         catalog_ids: String(CONFIG.categorieVinted),
         per_page: String(CONFIG.nouvellesAnnonces),
+        page: String(numero),
         order: "newest_first",
       })
     );
-    for (const item of (r && r.items) || []) trouvees.set(item.id, item);
+    const lot = (r && r.items) || [];
+    for (const item of lot) trouvees.set(item.id, item);
+    if (!lot.length) break;
   }
 
   if (!trouvees.size) {

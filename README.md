@@ -138,6 +138,17 @@ Ces annonces obtiennent un seuil assoupli (`seuilPepite`, −20 % suffit) et son
 signalées d'un 💎. En dessous de `pepitePrixMax`, elles passent même sans cote
 exploitable : c'est exactement le cas où personne ne sait ce que c'est.
 
+## Pourquoi aucun mot-clé
+
+Chercher « montre », « orologio », « reloj », « uhr », « watch » paraissait
+couvrir large. En réalité tout titre ne contenant aucun de ces mots restait
+invisible : mesuré, **59 des 285 annonces les plus récentes** — une sur cinq.
+Dont une Baume & Mercier à 199 € pour une cote de 550 €, intitulée simplement
+« Baume e mercier automatico ».
+
+La catégorie `97` dit déjà que ce sont des montres. On la lit donc directement,
+page par page, sans mot-clé : couverture complète et trois requêtes de moins.
+
 ## Les lots
 
 Un lot de trois montres comparé à la médiane d'**une seule** paraîtra toujours
@@ -178,7 +189,7 @@ prouvent d'elles-mêmes que ça tourne.
 
 | Clé | Rôle |
 |---|---|
-| `recherches` | les huit recherches lancées à chaque passage |
+| `pagesCatalogue` | pages de la catégorie lues à chaque passage (96 annonces chacune) |
 | `categorieVinted` | `97` = Montres |
 | `margeMinimum` | bénéfice minimum à la revente, en euros |
 | `margeMinimumMarque` | bénéfice exigé quand la cote n'est que celle de la marque |

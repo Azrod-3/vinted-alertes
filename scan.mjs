@@ -241,6 +241,20 @@ export function estPepite(titre, description, marque) {
   return PEPITE_MARQUES.some((m) => nom.includes(m));
 }
 
+/**
+ * Le verdict, isole pour etre testable : cette annonce merite-t-elle une alerte ?
+ *
+ * La regle du petit prix ne s'applique QUE sans cote exploitable. Sans cette
+ * condition, une Citizen a 110 EUR cotee 164 EUR passait pour une pepite au seul
+ * motif qu'elle valait moins de 120 EUR — signalee a -33 % alors que le seuil
+ * pepite est a -50 %.
+ */
+export function merite(prix, cote, pepite) {
+  const seuil = pepite ? CONFIG.seuilPepite : CONFIG.seuilBonneAffaire;
+  if (cote) return prix / cote <= seuil;
+  return pepite && prix <= CONFIG.pepitePrixMax;
+}
+
 /** Premier mot redhibitoire trouve dans le texte, ou "" si tout va bien. */
 export function motRedhibitoire(...textes) {
   const texte = ` ${normaliser(textes.join(" "))} `;
@@ -513,13 +527,7 @@ async function unPassage(page, vues, cotes, bilan, vendeurs) {
       continue;
     }
 
-    const seuil = pepiteTitre ? CONFIG.seuilPepite : CONFIG.seuilBonneAffaire;
-    const sousLaCote = cote.mediane ? prix / cote.mediane <= seuil : false;
-    // Une piece de collection a petit prix vaut le coup d'oeil meme sans cote
-    // exploitable : c'est exactement le cas ou personne ne sait ce que c'est.
-    const pepiteAbordable = pepiteTitre && prix <= CONFIG.pepitePrixMax;
-
-    if (!sousLaCote && !pepiteAbordable) {
+    if (!merite(prix, cote.mediane, pepiteTitre)) {
       bilan.chere += 1;
       continue;
     }

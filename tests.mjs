@@ -1,5 +1,5 @@
 /** Tests des trois filtres. `npm test`. Aucun reseau, aucune dependance. */
-import { normaliser, marqueHorlogere, etatAcceptable, motRedhibitoire, motifDeRefus, texteResume, estAccessoire, estLuxe, requeteModele, estPepite } from "./scan.mjs";
+import { normaliser, marqueHorlogere, etatAcceptable, motRedhibitoire, motifDeRefus, texteResume, estAccessoire, estLuxe, requeteModele, estPepite, merite } from "./scan.mjs";
 
 let ok = 0;
 const echecs = [];
@@ -213,10 +213,27 @@ for (const [titre, marque] of [
 ]) {
   verifier(`pépite : « ${titre} »`, estPepite(titre, "", marque), true);
 }
-for (const [titre, marque] of [["Montre Festina quartz", "Festina"], ["Casio F-91W", "Casio"]]) {
+// "Chronographe" est dans un titre sur deux : retire apres une fausse pepite.
+for (const [titre, marque] of [["Montre Festina quartz", "Festina"], ["Casio F-91W", "Casio"],
+                               ["CITIZEN Men's Chronograph Eco-Drive Watch", "Citizen"],
+                               ["Montre chronographe homme", "Fossil"]]) {
   verifier(`pas une pépite : « ${titre} »`, estPepite(titre, "", marque), false);
 }
 verifier("signal lu dans la description", estPepite("Vieille montre", "mouvement Valjoux 72", "Inconnue"), true);
+
+// --- Le verdict --------------------------------------------------------------
+// Le cas qui a fuité : Citizen à 110 €, cote 164 €, soit -33 %. Marquée 💎 et
+// envoyée alors que le seuil pépite est à -50 %, au seul motif qu'elle valait
+// moins de 120 €.
+verifier("Citizen 110 € cotée 164 €", merite(110, 164, true), false);
+verifier("la cote tranche, même pour une pépite", merite(90, 164, true), false);
+verifier("vraie pépite à -50 %", merite(80, 164, true), true);
+verifier("montre normale à -70 %", merite(49, 164, false), true);
+verifier("montre normale à -60 %", merite(65, 164, false), false);
+// Sans cote exploitable, et seulement là, le petit prix suffit.
+verifier("pépite sans cote sous 120 €", merite(80, null, true), true);
+verifier("pépite sans cote au-dessus", merite(200, null, true), false);
+verifier("sans cote et sans signal", merite(80, null, false), false);
 
 // --- Vendeurs professionnels -------------------------------------------------
 verifier("compte business écarté",

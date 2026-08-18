@@ -21,7 +21,7 @@ concurrency:
 jobs:
   scanner:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 35
 
     steps:
       - uses: actions/checkout@v4
@@ -33,8 +33,21 @@ jobs:
       - name: Installer les dépendances
         run: npm install --no-audit --no-fund
 
-      - name: Installer Chrome
-        run: npx playwright install chrome --with-deps
+      # Les images GitHub embarquent deja Google Chrome : le telecharger a
+      # chaque job etait inutile, et un telechargement bloque emporte tout le
+      # passage (observe : 29 min sur une etape qui en prend 32 s). On ne
+      # l'installe donc qu'en dernier recours, avec une limite de temps.
+      - name: Chrome
+        timeout-minutes: 5
+        env:
+          DEBIAN_FRONTEND: noninteractive
+        run: |
+          if command -v google-chrome >/dev/null 2>&1; then
+            google-chrome --version
+          else
+            echo "Chrome absent de l'image, installation."
+            npx playwright install chrome --with-deps
+          fi
 
       - name: Chercher les bonnes affaires
         env:

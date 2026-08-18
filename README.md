@@ -144,7 +144,7 @@ prouvent d'elles-mêmes que ça tourne.
 |---|---|
 | `recherches` | les huit recherches lancées à chaque passage |
 | `categorieVinted` | `97` = Montres |
-| `seuilBonneAffaire` | rapport prix/cote maximum. `0.55` = le prix vaut au plus 55 % de la cote, soit une remise de **−45 %** |
+| `seuilBonneAffaire` | rapport prix/cote maximum. `0.30` = le prix vaut au plus 30 % de la cote, soit une remise de **−70 %** |
 | `coteMinimum` | ignore les marques dont la cote est sous ce prix (bas de gamme) |
 | `prixMinimum` | ignore les annonces en dessous (`5` €) |
 | `motsAccessoire` | premiers mots de titre qui trahissent un accessoire |

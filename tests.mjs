@@ -172,6 +172,19 @@ verifier("Universal Genève examinée dès 5 €", estLuxe("Universal Genève"),
 verifier("Longines aussi", estLuxe("Longines"), false);
 verifier("Movado aussi", estLuxe("Movado"), false);
 verifier("Rolex garde son plancher", estLuxe("Rolex"), true);
+// Maisons ajoutées après coup : Cartier manquait totalement à la liste.
+for (const marque of ["Cartier", "Chopard", "Piaget", "Bvlgari", "Chanel", "Hermès",
+                      "Franck Muller", "Richard Mille", "Jaquet Droz"]) {
+  verifier(`${marque} a un plancher`, estLuxe(marque), true);
+}
+// Volontairement sans plancher : une vraie Baume & Mercier à 199 € cotée 550 €
+// a été trouvée, un plancher l'aurait jetée sans l'examiner.
+for (const marque of ["Baume & Mercier", "Corum", "Perrelet", "Carl F. Bucherer"]) {
+  verifier(`${marque} sans plancher`, estLuxe(marque), false);
+}
+for (const marque of ["Cartier", "Chopard", "Richard Mille", "Corum", "Perrelet"]) {
+  verifier(`${marque} est reconnue`, marqueHorlogere(marque), true);
+}
 
 // --- Luxe à prix impossible : ce sont des faux, pas des affaires -------------
 // Toutes ces alertes sont reellement parties une nuit avant ce filtre.

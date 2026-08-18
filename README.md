@@ -94,7 +94,7 @@ finalistes**, soit une poignée par passage.
 
     npm test
 
-248 tests, sans réseau : normalisation, liste blanche des marques, états, mots
+266 tests, sans réseau : normalisation, liste blanche des marques, états, mots
 rédhibitoires et pièges de négation.
 
 ## Installation
@@ -161,6 +161,12 @@ Sans nombre annoncé, le lot est écarté : « Konvolut Uhren » ne dit pas ce q
 achète. Au-delà de `lotMaxMontres`, c'est un déstockage de revendeur.
 
 ## Les vendeurs
+
+Le plancher de prix ne vise que les maisons où rien d'authentique n'existe en
+dessous : Cartier, Chopard, Piaget, Richard Mille, Patek, Rolex… Baume & Mercier,
+Longines et Movado en sont volontairement exclues — une vraie Baume & Mercier à
+199 € pour une cote de 550 € a été trouvée, et un plancher l'aurait jetée sans
+l'examiner.
 
 Les comptes professionnels sont écartés d'office — le champ `business` est déjà
 dans les données, 9 % des annonces, aucune requête de plus.

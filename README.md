@@ -94,7 +94,7 @@ finalistes**, soit une poignée par passage.
 
     npm test
 
-266 tests, sans réseau : normalisation, liste blanche des marques, états, mots
+270 tests, sans réseau : normalisation, liste blanche des marques, états, mots
 rédhibitoires et pièges de négation.
 
 ## Installation
@@ -163,7 +163,7 @@ achète. Au-delà de `lotMaxMontres`, c'est un déstockage de revendeur.
 ## Les vendeurs
 
 Le plancher de prix ne vise que les maisons où rien d'authentique n'existe en
-dessous : Cartier, Chopard, Piaget, Richard Mille, Patek, Rolex… Baume & Mercier,
+dessous : Richard Mille, Franck Muller, Patek, Rolex, F.P. Journe… Baume & Mercier,
 Longines et Movado en sont volontairement exclues — une vraie Baume & Mercier à
 199 € pour une cote de 550 € a été trouvée, et un plancher l'aurait jetée sans
 l'examiner.

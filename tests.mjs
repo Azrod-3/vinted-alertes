@@ -173,16 +173,21 @@ verifier("Longines aussi", estLuxe("Longines"), false);
 verifier("Movado aussi", estLuxe("Movado"), false);
 verifier("Rolex garde son plancher", estLuxe("Rolex"), true);
 // Maisons ajoutées après coup : Cartier manquait totalement à la liste.
-for (const marque of ["Cartier", "Chopard", "Piaget", "Bvlgari", "Chanel", "Hermès",
-                      "Franck Muller", "Richard Mille", "Jaquet Droz"]) {
+for (const marque of ["Franck Muller", "Richard Mille", "Jaquet Droz", "F.P. Journe",
+                      "Greubel Forsey", "Urwerk"]) {
   verifier(`${marque} a un plancher`, estLuxe(marque), true);
+}
+// Joailliers et maisons de mode : ce n'est pas leur metier, meme a ce prix.
+for (const marque of ["Cartier", "Chopard", "Piaget", "Bvlgari", "Chanel", "Hermès",
+                      "Van Cleef & Arpels"]) {
+  verifier(`${marque} n'est pas un horloger`, marqueHorlogere(marque), false);
 }
 // Volontairement sans plancher : une vraie Baume & Mercier à 199 € cotée 550 €
 // a été trouvée, un plancher l'aurait jetée sans l'examiner.
 for (const marque of ["Baume & Mercier", "Corum", "Perrelet", "Carl F. Bucherer"]) {
   verifier(`${marque} sans plancher`, estLuxe(marque), false);
 }
-for (const marque of ["Cartier", "Chopard", "Richard Mille", "Corum", "Perrelet"]) {
+for (const marque of ["Richard Mille", "Corum", "Perrelet", "Bovet", "Angelus"]) {
   verifier(`${marque} est reconnue`, marqueHorlogere(marque), true);
 }
 

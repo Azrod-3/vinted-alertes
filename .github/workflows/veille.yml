@@ -2,9 +2,11 @@ name: Veille Vinted
 
 on:
   schedule:
-    # Toutes les 5 minutes : c'est le plus court que GitHub accepte. Le job
-    # boucle ensuite en interne (voir bouclerSecondes), donc le délai réel entre
-    # deux relevés est de 40 s, pas de 5 min.
+    # GitHub abandonne purement et simplement une partie des déclenchements
+    # planifies quand ses serveurs sont charges : observe ici, 56 min sans un
+    # seul demarrage avec ce cron. On ne compte donc pas sur sa ponctualite —
+    # chaque job couvre 25 min tout seul (voir bouclerSecondes), et le cron
+    # court sert surtout a en relancer un des que le precedent se termine.
     - cron: "*/5 * * * *"
   workflow_dispatch: {} # permet de lancer un test à la main
 
@@ -19,7 +21,7 @@ concurrency:
 jobs:
   scanner:
     runs-on: ubuntu-latest
-    timeout-minutes: 8
+    timeout-minutes: 30
 
     steps:
       - uses: actions/checkout@v4

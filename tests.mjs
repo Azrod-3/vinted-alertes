@@ -285,7 +285,7 @@ for (const [texte, mot] of [
   ["Kapot horloge, voor onderdelen", "kapot"],
   ["Beetje roest op de kast", "roest"],
   // Un particulier vend UNE montre, pas une gamme avec tarif revendeur.
-  ["100€ montre + bracelet offert Plusieurs coloris disponibles", "bracelet offert"],
+  ["100€ montre + bracelet offert Plusieurs coloris disponibles", "plusieurs coloris"],
   ["Lots disponibles pour les revendeurs", "pour les revendeurs"],
   ["Plusieurs coloris disponibles, sur commande", "plusieurs coloris"],
   ["Vente en gros, dropshipping", "vente en gros"],

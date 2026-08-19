@@ -14,10 +14,10 @@ verifier("ponctuation", normaliser("TAG-Heuer"), "tag heuer");
 verifier("espaces multiples", normaliser("Tag   Heuer "), "tag heuer");
 
 // --- Marques : liste blanche horlogere ---------------------------------------
-for (const marque of ["Seiko", "TAG Heuer", "tag-heuer", "G-Shock", "Festina", "Vostok", "Mühle-Glashütte",
+for (const marque of ["Seiko", "TAG Heuer", "tag-heuer", "Festina", "Vostok", "Mühle-Glashütte",
                       // Marques ecrites librement par les vendeurs : la marque
                       // doit se reconnaitre au milieu du libelle.
-                      "CASIO G-SHOCK", "Omega x Swatch", "Reloj Potens De Luxe Automático 25 Joyas",
+                      "Omega x Swatch", "Reloj Potens De Luxe Automático 25 Joyas",
                       "Breil", "Candino", "Invicta", "Philip Watch"]) {
   verifier(`marque acceptée : ${marque}`, marqueHorlogere(marque), true);
 }
@@ -25,6 +25,9 @@ for (const marque of ["Seiko", "TAG Heuer", "tag-heuer", "G-Shock", "Festina", "
 for (const marque of ["Guess", "Emporio Armani", "Michael Kors", "Diesel", "Hugo Boss", "Lacoste",
                       "Calvin Klein", "Tommy Hilfiger", "Zara", "Shein", "Vespa", "Jeep",
                       "Apple", "Samsung", "Huawei", "Fitbit", "SKMEI", "Curren", "", "Autre",
+                      // Retirées à la demande : trop de contrefaçons pour Swatch,
+                      // trop de bas de gamme pour Casio. Leurs lignes suivent.
+                      "Swatch", "Flik Flak", "Casio", "CASIO", "G-Shock", "CASIO G-SHOCK", "Edifice",
                       // Pas des marques : libelles fourre-tout de Vinted.
                       "Quartz", "Orologio", "Vintage", "Inconnu", "montres", "Japan Style",
                       // Pieges du matching par mots : ne doivent PAS matcher.
@@ -106,7 +109,9 @@ verifier("marque hors horlogerie", motifDeRefus(annonce({ brand_title: "Guess" }
 verifier("marque vide", motifDeRefus(annonce({ brand_title: "" })), "marque");
 verifier("état satisfaisant", motifDeRefus(annonce({ status: "Satisfaisant" })), "etat");
 verifier("MoonSwatch acceptée", motifDeRefus(annonce({ brand_title: "Omega x Swatch" })), "");
-verifier("CASIO G-SHOCK acceptée", motifDeRefus(annonce({ brand_title: "CASIO G-SHOCK" })), "");
+verifier("CASIO G-SHOCK écartée", motifDeRefus(annonce({ brand_title: "CASIO G-SHOCK" })), "marque");
+// La MoonSwatch survit au retrait de Swatch : elle passe par « Omega ».
+verifier("MoonSwatch survit au retrait de Swatch", marqueHorlogere("Omega x Swatch"), true);
 
 // --- Accessoires : décidé sur le PREMIER mot du titre -----------------------
 for (const titre of ["Bracelet de montre Seiko cuir", "Cinturino Casio in pelle",

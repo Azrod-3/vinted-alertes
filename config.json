@@ -145,7 +145,32 @@
     "gebroken",
     "namaak",
     "beschadigd",
-    "onderdelen"
+    "onderdelen",
+    "plusieurs coloris",
+    "coloris disponibles",
+    "plusieurs couleurs",
+    "couleurs disponibles",
+    "plusieurs modeles disponibles",
+    "sur commande",
+    "pour les revendeurs",
+    "prix revendeur",
+    "tarif revendeur",
+    "grossiste",
+    "vente en gros",
+    "en gros",
+    "dropshipping",
+    "stock disponible",
+    "colori disponibili",
+    "piu colori",
+    "varios colores",
+    "mehrere farben",
+    "meerdere kleuren",
+    "several colors",
+    "wholesale",
+    "bracelet offert",
+    "cadeau offert",
+    "livraison directe",
+    "commande possible"
   ],
   "marquesMontres": [
     "Seiko",
@@ -719,7 +744,8 @@
     "Omega x Swatch",
     "Swatch x Omega",
     "MoonSwatch",
-    "Swatch"
+    "Blancpain x Swatch",
+    "Swatch x Blancpain"
   ],
   "exclureVendeursPros": true,
   "coteMinAnnoncesModele": 3,
@@ -1018,5 +1044,17 @@
   "accepterLots": true,
   "lotMaxMontres": 10,
   "facteurLot": 0.6,
-  "margeMinimumMarque": 200
+  "margeMinimumMarque": 200,
+  "marquesInexistantes": [
+    "swatch x audemars piguet",
+    "audemars piguet x swatch",
+    "ap x swatch",
+    "swatch x ap",
+    "swatch x rolex",
+    "rolex x swatch",
+    "swatch x patek",
+    "patek x swatch",
+    "swatch x richard mille",
+    "rolex x omega"
+  ]
 }

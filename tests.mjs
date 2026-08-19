@@ -1,5 +1,5 @@
 /** Tests des trois filtres. `npm test`. Aucun reseau, aucune dependance. */
-import { normaliser, marqueHorlogere, etatAcceptable, motRedhibitoire, motifDeRefus, texteResume, estAccessoire, estLuxe, requeteModele, estPepite, merite, estLot, nombreDansLot, article, comparable, etatProche, jetonsModele } from "./scan.mjs";
+import { normaliser, marqueHorlogere, etatAcceptable, motRedhibitoire, motifDeRefus, texteResume, estAccessoire, estLuxe, marqueInexistante, requeteModele, estPepite, merite, estLot, nombreDansLot, article, comparable, etatProche, jetonsModele } from "./scan.mjs";
 
 let ok = 0;
 const echecs = [];
@@ -172,6 +172,24 @@ verifier("Universal Genève examinée dès 5 €", estLuxe("Universal Genève"),
 verifier("Longines aussi", estLuxe("Longines"), false);
 verifier("Movado aussi", estLuxe("Movado"), false);
 verifier("Rolex garde son plancher", estLuxe("Rolex"), true);
+
+// Collaborations inventées : trois alertes réelles sont parties pour une
+// « Swatch x Audemars Piguet » à 100 €, annonces supprimées par Vinted dans la
+// foulée. « Swatch » figurait seul parmi les exceptions au plancher, ce qui
+// exemptait toute marque contenant ce mot.
+for (const marque of ["Swatch x Audemars Piguet", "Audemars Piguet x Swatch",
+                      "AP x Swatch", "Swatch x Rolex"]) {
+  verifier(`collaboration inventée : ${marque}`, marqueInexistante(marque), true);
+}
+for (const marque of ["Omega x Swatch", "Swatch", "Blancpain x Swatch", "Audemars Piguet"]) {
+  verifier(`collaboration réelle : ${marque}`, marqueInexistante(marque), false);
+}
+verifier("fausse collab écartée quel que soit le prix",
+  motifDeRefus({ id: 5, title: "Royal pop", brand_title: "Swatch x Audemars Piguet",
+                 status: "Très bon état", price: { amount: "500" } }), "fausse");
+verifier("MoonSwatch toujours acceptée",
+  motifDeRefus({ id: 5, title: "MoonSwatch Mission to Venus", brand_title: "Omega x Swatch",
+                 status: "Très bon état", price: { amount: "80" } }), "");
 // Maisons ajoutées après coup : Cartier manquait totalement à la liste.
 for (const marque of ["Franck Muller", "Richard Mille", "Jaquet Droz", "F.P. Journe",
                       "Greubel Forsey", "Urwerk"]) {
@@ -266,6 +284,11 @@ for (const [texte, mot] of [
   ["Horloge werkt niet", "werkt niet"],
   ["Kapot horloge, voor onderdelen", "kapot"],
   ["Beetje roest op de kast", "roest"],
+  // Un particulier vend UNE montre, pas une gamme avec tarif revendeur.
+  ["100€ montre + bracelet offert Plusieurs coloris disponibles", "bracelet offert"],
+  ["Lots disponibles pour les revendeurs", "pour les revendeurs"],
+  ["Plusieurs coloris disponibles, sur commande", "plusieurs coloris"],
+  ["Vente en gros, dropshipping", "vente en gros"],
 ]) {
   verifier(`défaut : « ${texte} »`, motRedhibitoire(texte), mot);
 }

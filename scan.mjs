@@ -61,6 +61,7 @@ const LOT_CHIFFRE = /(^|\s)([2-9]|\d{2})\s+(orologi|montres|relojes|uhren|watche
 /** "lot de 3", "lotto di 5", "set di 4" : le nombre suit le mot. */
 const LOT_COMPTE = /(?:lot|lotto|lote|set|konvolut|stock|blocco|paquet)\s+(?:de\s+|di\s+|of\s+|von\s+)?(\d{1,2})(?!\d)/;
 const PAS_LUXE = CONFIG.marquesLuxeExceptions.map((m) => ` ${normaliser(m)} `);
+const INEXISTANTES = CONFIG.marquesInexistantes.map((m) => ` ${normaliser(m)} `);
 
 /**
  * Enregistrement de l'etat en cours de route.
@@ -191,6 +192,7 @@ export function motifDeRefus(item, vues = new Set()) {
   // Un lot est accepte quand son nombre de montres est annonce : on peut alors
   // le valoriser. Sans chiffre, on ignore ce qu'on achete.
   if (estLot(item.title) && !(CONFIG.accepterLots && nombreDansLot(item.title))) return "lot";
+  if (marqueInexistante(item.brand_title)) return "fausse";
   if (estLuxe(item.brand_title) && prix < CONFIG.prixMinimumLuxe) return "fausse";
   // Un professionnel vend au prix du marche, jamais en dessous : 9 % des
   // annonces, autant de calculs de cote economises.
@@ -222,6 +224,16 @@ export const estAccessoire = (titre) => {
  * qu'amplifier l'illusion : plus la marque est chere, plus la fausse parait etre
  * une affaire. Observe en vrai : Omega 50 EUR, Tudor 145 EUR, Zenith 110 EUR.
  */
+/**
+ * Collaborations inventees. Swatch a travaille avec Omega et Blancpain, jamais
+ * avec Audemars Piguet : une "Swatch x Audemars Piguet" a 100 EUR est une
+ * contrefacon, et Vinted supprime ces annonces en quelques minutes.
+ */
+export const marqueInexistante = (marque) => {
+  const texte = ` ${normaliser(marque)} `;
+  return INEXISTANTES.some((m) => texte.includes(m));
+};
+
 export const estLuxe = (marque) => {
   const texte = ` ${normaliser(marque)} `;
   // La MoonSwatch porte "Omega" dans son libelle : c'est une Swatch a ~270 EUR,
@@ -702,6 +714,15 @@ async function unPassage(page, vues, cotes, bilan, vendeurs) {
     // annonce. A ce stade il n'en reste qu'une poignee.
     const lien = item.url || `https://www.vinted.fr/items/${item.id}`;
     const description = await descriptionDe(page, lien);
+
+    // Une description illisible signifie presque toujours que Vinted a deja
+    // supprime l'annonce — c'est le cas des contrefacons, retirees en quelques
+    // minutes. Envoyer un lien mort n'aide personne.
+    if (description === null) {
+      bilan.description += 1;
+      console.log(`  écartée (annonce introuvable) : ${item.title.slice(0, 45)} — ${prix} €`);
+      continue;
+    }
 
     const probleme = motRedhibitoire(item.title, description || "");
     if (probleme) {

@@ -788,6 +788,10 @@ async function main() {
     const ok = await unPassage(page, vues, cotes, bilan, vendeurs);
     if (!ok && passages === 1) break; // challenge non franchi : inutile d'insister
 
+    // Le resume horaire se teste ici et non a la fin du job : depuis que les
+    // jobs durent cinq heures, il ne serait plus parti qu'une fois par job.
+    if (await resumer(bilan)) Object.assign(bilan, nouveauBilan());
+
     if (
       process.env.ENREGISTRER_EN_ROUTE === "1" &&
       Date.now() - dernierEnregistrement >= CONFIG.enregistrerToutesLesSecondes * 1000
@@ -809,6 +813,7 @@ async function main() {
 
   await navigateur.close();
 
+  // Dernier passage : le resume a deja ete teste a chaque tour de boucle.
   const remis = await resumer(bilan);
 
   if (!ESSAI) {

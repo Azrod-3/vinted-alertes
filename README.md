@@ -203,6 +203,10 @@ eu **aucune** alerte, un message récapitule le tunnel :
 Dès qu'une alerte part, le compteur repart à zéro sans message : les alertes
 prouvent d'elles-mêmes que ça tourne.
 
+Ce résumé est évalué **à chaque tour de boucle**, pas à la fin du job : depuis
+que les jobs durent cinq heures, le tester à la fin ne l'aurait plus fait partir
+qu'une fois toutes les cinq heures.
+
 ## Réglages (`config.json`)
 
 | Clé | Rôle |

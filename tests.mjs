@@ -17,7 +17,7 @@ verifier("espaces multiples", normaliser("Tag   Heuer "), "tag heuer");
 for (const marque of ["Seiko", "TAG Heuer", "tag-heuer", "Festina", "Vostok", "Mühle-Glashütte",
                       // Marques ecrites librement par les vendeurs : la marque
                       // doit se reconnaitre au milieu du libelle.
-                      "Omega x Swatch", "Reloj Potens De Luxe Automático 25 Joyas",
+                      "Reloj Potens De Luxe Automático 25 Joyas",
                       "Breil", "Candino", "Invicta", "Philip Watch"]) {
   verifier(`marque acceptée : ${marque}`, marqueHorlogere(marque), true);
 }
@@ -108,10 +108,11 @@ verifier("prix illisible", motifDeRefus(annonce({ price: null })), "prix");
 verifier("marque hors horlogerie", motifDeRefus(annonce({ brand_title: "Guess" })), "marque");
 verifier("marque vide", motifDeRefus(annonce({ brand_title: "" })), "marque");
 verifier("état satisfaisant", motifDeRefus(annonce({ status: "Satisfaisant" })), "etat");
-verifier("MoonSwatch acceptée", motifDeRefus(annonce({ brand_title: "Omega x Swatch" })), "");
+
 verifier("CASIO G-SHOCK écartée", motifDeRefus(annonce({ brand_title: "CASIO G-SHOCK" })), "marque");
 // La MoonSwatch survit au retrait de Swatch : elle passe par « Omega ».
-verifier("MoonSwatch survit au retrait de Swatch", marqueHorlogere("Omega x Swatch"), true);
+verifier("MoonSwatch écartée elle aussi",
+  motifDeRefus(annonce({ brand_title: "Omega x Swatch" })), "fausse");
 
 // --- Accessoires : décidé sur le PREMIER mot du titre -----------------------
 for (const titre of ["Bracelet de montre Seiko cuir", "Cinturino Casio in pelle",
@@ -186,15 +187,23 @@ for (const marque of ["Swatch x Audemars Piguet", "Audemars Piguet x Swatch",
                       "AP x Swatch", "Swatch x Rolex"]) {
   verifier(`collaboration inventée : ${marque}`, marqueInexistante(marque), true);
 }
-for (const marque of ["Omega x Swatch", "Swatch", "Blancpain x Swatch", "Audemars Piguet"]) {
-  verifier(`collaboration réelle : ${marque}`, marqueInexistante(marque), false);
+// Les collaborations Swatch partent avec la marque : leur libellé porte
+// « Omega » ou « Blancpain », qui les faisait passer par la bande.
+for (const marque of ["Omega x Swatch", "MoonSwatch", "Blancpain x Swatch"]) {
+  verifier(`collaboration Swatch écartée : ${marque}`, marqueInexistante(marque), true);
+}
+for (const marque of ["Audemars Piguet", "Omega", "Blancpain", "Seiko"]) {
+  verifier(`maison intacte : ${marque}`, marqueInexistante(marque), false);
 }
 verifier("fausse collab écartée quel que soit le prix",
   motifDeRefus({ id: 5, title: "Royal pop", brand_title: "Swatch x Audemars Piguet",
                  status: "Très bon état", price: { amount: "500" } }), "fausse");
-verifier("MoonSwatch toujours acceptée",
+verifier("MoonSwatch écartée",
   motifDeRefus({ id: 5, title: "MoonSwatch Mission to Venus", brand_title: "Omega x Swatch",
-                 status: "Très bon état", price: { amount: "80" } }), "");
+                 status: "Très bon état", price: { amount: "80" } }), "fausse");
+verifier("Omega seule reste intacte",
+  motifDeRefus({ id: 5, title: "Omega Seamaster", brand_title: "Omega",
+                 status: "Très bon état", price: { amount: "900" } }), "");
 // Maisons ajoutées après coup : Cartier manquait totalement à la liste.
 for (const marque of ["Franck Muller", "Richard Mille", "Jaquet Droz", "F.P. Journe",
                       "Greubel Forsey", "Urwerk"]) {
@@ -242,7 +251,7 @@ verifier("Seiko à 45 € intacte",
                  status: "Bon état", price: { amount: "45" } }), "");
 verifier("Seiko n'est pas du luxe", estLuxe("Seiko"), false);
 verifier("Grand Seiko l'est", estLuxe("Grand Seiko"), true);
-verifier("MoonSwatch n'est pas une Omega", estLuxe("Omega x Swatch"), false);
+
 
 // --- Accessoires en allemand -------------------------------------------------
 for (const titre of ["Uhrenbox Vintage Hamilton Bakelit", "Lederband Glashütte",

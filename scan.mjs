@@ -225,9 +225,13 @@ export const estAccessoire = (titre) => {
  * une affaire. Observe en vrai : Omega 50 EUR, Tudor 145 EUR, Zenith 110 EUR.
  */
 /**
- * Collaborations inventees. Swatch a travaille avec Omega et Blancpain, jamais
- * avec Audemars Piguet : une "Swatch x Audemars Piguet" a 100 EUR est une
- * contrefacon, et Vinted supprime ces annonces en quelques minutes.
+ * Marques a refuser quel que soit le prix.
+ *
+ * Deux familles s'y trouvent : les collaborations inventees — Swatch n'a jamais
+ * travaille avec Audemars Piguet, une "Swatch x AP" a 100 EUR est une
+ * contrefacon que Vinted supprime en quelques minutes — et les vraies
+ * collaborations Swatch, ecartees avec la marque elle-meme : leur libelle porte
+ * "Omega" ou "Blancpain", qui les faisait passer par la bande.
  */
 export const marqueInexistante = (marque) => {
   const texte = ` ${normaliser(marque)} `;

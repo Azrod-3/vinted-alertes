@@ -98,7 +98,7 @@ finalistes**, soit une poignée par passage.
 
     npm test
 
-309 tests, sans réseau : normalisation, liste blanche des marques, états, mots
+321 tests, sans réseau : normalisation, liste blanche des marques, états, mots
 rédhibitoires et pièges de négation.
 
 ## Installation

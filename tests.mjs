@@ -14,7 +14,7 @@ verifier("ponctuation", normaliser("TAG-Heuer"), "tag heuer");
 verifier("espaces multiples", normaliser("Tag   Heuer "), "tag heuer");
 
 // --- Marques : liste blanche horlogere ---------------------------------------
-for (const marque of ["Seiko", "TAG Heuer", "tag-heuer", "Festina", "Vostok", "Mühle-Glashütte",
+for (const marque of ["Citizen", "TAG Heuer", "tag-heuer", "Festina", "Vostok", "Mühle-Glashütte",
                       // Marques ecrites librement par les vendeurs : la marque
                       // doit se reconnaitre au milieu du libelle.
                       "Reloj Potens De Luxe Automático 25 Joyas",
@@ -28,6 +28,8 @@ for (const marque of ["Guess", "Emporio Armani", "Michael Kors", "Diesel", "Hugo
                       // Retirées à la demande : trop de contrefaçons pour Swatch,
                       // trop de bas de gamme pour Casio. Leurs lignes suivent.
                       "Swatch", "Flik Flak", "Casio", "CASIO", "G-Shock", "CASIO G-SHOCK", "Edifice",
+                      // Seiko retirée aussi : ses lignes homonymes partent avec.
+                      "Seiko", "SEIKO", "Prospex", "Presage", "Astron",
                       // Pas des marques : libelles fourre-tout de Vinted.
                       "Quartz", "Orologio", "Vintage", "Inconnu", "montres", "Japan Style",
                       // Pieges du matching par mots : ne doivent PAS matcher.
@@ -97,7 +99,7 @@ for (const [texte, mot] of [
 verifier("titre analysé aussi", motRedhibitoire("Montre pour pièces", ""), "pour pieces");
 
 // --- Filtre complet sur une annonce ------------------------------------------
-const annonce = (extra) => ({ id: 1, title: "Montre", brand_title: "Seiko",
+const annonce = (extra) => ({ id: 1, title: "Montre", brand_title: "Citizen",
   status: "Très bon état", price: { amount: "80.0" }, ...extra });
 
 verifier("annonce valide", motifDeRefus(annonce({})), "");
@@ -106,6 +108,11 @@ verifier("trop bon marché", motifDeRefus(annonce({ price: { amount: "3.0" } }))
 verifier("15 € accepté depuis le nouveau plancher", motifDeRefus(annonce({ price: { amount: "15.0" } })), "");
 verifier("prix illisible", motifDeRefus(annonce({ price: null })), "prix");
 verifier("marque hors horlogerie", motifDeRefus(annonce({ brand_title: "Guess" })), "marque");
+verifier("Seiko écartée", motifDeRefus(annonce({ brand_title: "Seiko" })), "marque");
+// Grand Seiko, King Seiko et Credor restent : c'est un tout autre marché.
+for (const marque of ["Grand Seiko", "King Seiko", "Credor", "Seikosha", "Pulsar", "Lorus", "Alba"]) {
+  verifier(`${marque} conservée`, marqueHorlogere(marque), true);
+}
 verifier("marque vide", motifDeRefus(annonce({ brand_title: "" })), "marque");
 verifier("état satisfaisant", motifDeRefus(annonce({ status: "Satisfaisant" })), "etat");
 
@@ -129,7 +136,7 @@ for (const titre of ["Montre Seiko bracelet cuir noir", "Casio vintage bracelet 
   verifier(`vraie montre : « ${titre} »`, estAccessoire(titre), false);
 }
 verifier("accessoire écarté par le filtre complet",
-  motifDeRefus({ id: 9, title: "Bracelet Seiko", brand_title: "Seiko",
+  motifDeRefus({ id: 9, title: "Bracelet Citizen", brand_title: "Citizen",
                  status: "Bon état", price: { amount: "12.0" } }), "accessoire");
 
 // --- Italien -----------------------------------------------------------------
@@ -224,7 +231,7 @@ for (const marque of ["Richard Mille", "Corum", "Perrelet", "Bovet", "Angelus",
                       // les vintage méconnues.
                       "Titoni", "CWC", "Precista", "Auricoste", "Dodane", "U-Boat",
                       "Nivada Grenchen", "Ollech & Wajs", "Leonidas", "Excelsior Park",
-                      "Accutron", "Prospex", "Sternglas", "Mondaine", "Marathon"]) {
+                      "Accutron", "Sternglas", "Mondaine", "Marathon"]) {
   verifier(`${marque} est reconnue`, marqueHorlogere(marque), true);
 }
 
@@ -246,10 +253,10 @@ verifier("vraie Omega à 900 €",
   motifDeRefus({ id: 7, title: "Omega Seamaster", brand_title: "Omega",
                  status: "Bon état", price: { amount: "900" } }), "");
 // Le plancher luxe ne doit pas toucher les marques accessibles.
-verifier("Seiko à 45 € intacte",
-  motifDeRefus({ id: 7, title: "Montre Seiko automatique", brand_title: "Seiko",
+verifier("Citizen à 45 € intacte",
+  motifDeRefus({ id: 7, title: "Montre Citizen automatique", brand_title: "Citizen",
                  status: "Bon état", price: { amount: "45" } }), "");
-verifier("Seiko n'est pas du luxe", estLuxe("Seiko"), false);
+verifier("Citizen n'est pas du luxe", estLuxe("Citizen"), false);
 verifier("Grand Seiko l'est", estLuxe("Grand Seiko"), true);
 
 
@@ -403,10 +410,10 @@ verifier("sans cote et sans signal", merite(80, null, false), false);
 
 // --- Vendeurs professionnels -------------------------------------------------
 verifier("compte business écarté",
-  motifDeRefus({ id: 3, title: "Montre Seiko", brand_title: "Seiko", status: "Bon état",
+  motifDeRefus({ id: 3, title: "Montre Citizen", brand_title: "Citizen", status: "Bon état",
                  price: { amount: "40" }, user: { id: 1, business: true } }), "pro");
 verifier("particulier gardé",
-  motifDeRefus({ id: 3, title: "Montre Seiko", brand_title: "Seiko", status: "Bon état",
+  motifDeRefus({ id: 3, title: "Montre Citizen", brand_title: "Citizen", status: "Bon état",
                  price: { amount: "40" }, user: { id: 1, business: false } }), "");
 
 // --- Résumé « rien à signaler » ----------------------------------------------

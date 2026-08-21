@@ -382,8 +382,14 @@ verifier("état inconnu ne compare rien", etatProche("Bon état", "Pourri"), fal
 // qu'une alerte de trop.
 verifier("80 € de marge sur cote modèle", merite(100, 180, false, true), true);
 verifier("60 € de marge sur cote modèle", merite(100, 160, false, true), false);
-verifier("80 € de marge sur cote marque", merite(100, 180, false, false), false);
+verifier("80 € de marge sur cote marque", merite(100, 180, false, false), true);
+verifier("60 € de marge sur cote marque, non", merite(100, 160, false, false), false);
 verifier("220 € de marge sur cote marque", merite(100, 320, false, false), true);
+// Cas réel : Tissot Pinky à 100 €, aucune autre en vente dans le même état,
+// donc cote de marque à 185 € et 85 € de marge. Le seuil de 200 € la laissait
+// passer sous le nez.
+verifier("la Tissot Pinky passe", merite(100, 185, false, false), true);
+verifier("70 € de marge sur cote marque, non", merite(100, 170, false, false), false);
 // Le cas qui ne doit JAMAIS être raté : Baume & Mercier à 199 €, cote 550 €.
 verifier("la grosse prise passe malgré une cote de marque", merite(199, 550, false, false), true);
 

@@ -43,7 +43,7 @@ requêtes :
 
    Une candidate sur deux obtient ainsi une cote au niveau du modèle ; l'autre
    moitié retombe sur la marque. Comme cette cote-là mélange tous les modèles et
-   se trompe largement, elle ne déclenche plus que sur de **très** grosses marges
+   se trompe largement, elle exige une marge plus grande
    (`margeMinimumMarque`) : c'est de là que venaient les alertes médiocres, mais
    c'est aussi de là qu'est sortie une Baume & Mercier à 199 € cotée 550 €.
    Rater celle-là coûte infiniment plus cher qu'une alerte de trop ; une marge de
@@ -98,7 +98,7 @@ finalistes**, soit une poignée par passage.
 
     npm test
 
-321 tests, sans réseau : normalisation, liste blanche des marques, états, mots
+324 tests, sans réseau : normalisation, liste blanche des marques, états, mots
 rédhibitoires et pièges de négation.
 
 ## Installation

@@ -1,8 +1,5 @@
 {
  "vues": [
-  "9732996420",
-  "9732995402",
-  "9732995277",
   "9732994466",
   "9732992858",
   "9732992523",
@@ -3999,7 +3996,10 @@
   "9735772871",
   "9735776390",
   "9735780444",
-  "9735785215"
+  "9735785215",
+  "9732938318",
+  "9735792998",
+  "9735798666"
  ],
  "cotes": {
   "Diesel": {
@@ -31273,6 +31273,12 @@
    "mediane": 200,
    "echantillon": 8,
    "niveau": "modèle"
+  },
+  "modele:Sekonda sekonnda gold|2": {
+   "date": 1787369966907,
+   "mediane": null,
+   "echantillon": 1,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -32658,7 +32664,7 @@
   "118199238": 2,
   "118495606": 3,
   "118672882": 3,
-  "118779251": 2,
+  "118779251": 3,
   "118925808": 2,
   "118962616": 2,
   "119152676": 6,
@@ -35212,19 +35218,19 @@
   "3178276987": 2
  },
  "bilan": {
-  "depuis": 1787366678076,
-  "passages": 71,
-  "nouvelles": 18,
-  "marque": 13,
+  "depuis": 1787370317998,
+  "passages": 4,
+  "nouvelles": 0,
+  "marque": 0,
   "etat": 0,
   "prix": 0,
-  "accessoire": 1,
+  "accessoire": 0,
   "lot": 0,
   "fausse": 0,
   "pro": 0,
-  "vendeurSpecialise": 1,
+  "vendeurSpecialise": 0,
   "sansCote": 0,
-  "chere": 3,
+  "chere": 0,
   "description": 0,
   "alertes": 0
  }

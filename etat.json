@@ -1,8 +1,5 @@
 {
  "vues": [
-  "9777212601",
-  "9777212430",
-  "9777210809",
   "9777207591",
   "9777204395",
   "9777201297",
@@ -3999,7 +3996,10 @@
   "9781250208",
   "9781249959",
   "9781249692",
-  "9781251498"
+  "9781251498",
+  "9781252833",
+  "9781254884",
+  "9781257890"
  ],
  "cotes": {
   "Diesel": {
@@ -21793,9 +21793,10 @@
    "niveau": "modèle"
   },
   "Luch": {
-   "date": 1787328164566,
-   "mediane": 80,
-   "echantillon": 24
+   "date": 1787720031962,
+   "mediane": null,
+   "echantillon": 26,
+   "coteTropBasse": 42
   },
   "modele:Luch damenuhr mechanisch|1": {
    "date": 1787207757028,
@@ -50907,6 +50908,12 @@
    "mediane": 90,
    "echantillon": 7,
    "niveau": "modèle"
+  },
+  "modele:Luch 70er top|2": {
+   "date": 1787720034325,
+   "mediane": null,
+   "echantillon": 1,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -59454,9 +59461,9 @@
  },
  "bilan": {
   "depuis": 1787717340755,
-  "passages": 57,
-  "nouvelles": 42,
-  "marque": 30,
+  "passages": 65,
+  "nouvelles": 45,
+  "marque": 32,
   "etat": 1,
   "prix": 0,
   "accessoire": 1,
@@ -59464,7 +59471,7 @@
   "fausse": 1,
   "pro": 0,
   "vendeurSpecialise": 3,
-  "sansCote": 2,
+  "sansCote": 3,
   "chere": 3,
   "description": 0,
   "alertes": 1

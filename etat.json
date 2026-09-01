@@ -1,18 +1,5 @@
 {
  "vues": [
-  "9845929440",
-  "9845930111",
-  "9845702386",
-  "9845899343",
-  "9845928391",
-  "9845912144",
-  "9845916615",
-  "9845842842",
-  "9845922072",
-  "9845926043",
-  "9845925714",
-  "9845912967",
-  "9845919293",
   "9845920198",
   "9845907577",
   "9845916462",
@@ -3999,7 +3986,20 @@
   "9845930409",
   "9845935962",
   "9849904279",
-  "9841999097"
+  "9841999097",
+  "9849907275",
+  "9849911290",
+  "9849915356",
+  "9849915120",
+  "9849920989",
+  "9849920688",
+  "9849925198",
+  "9849925604",
+  "9849927297",
+  "9849927273",
+  "9849927686",
+  "9849508869",
+  "9849930050"
  ],
  "cotes": {
   "Diesel": {
@@ -4105,9 +4105,9 @@
    "coteTropBasse": 30
   },
   "Longines": {
-   "date": 1788225033251,
-   "mediane": 250,
-   "echantillon": 35
+   "date": 1788122243423,
+   "mediane": 290,
+   "echantillon": 36
   },
   "Festina": {
    "date": 1788175619238,
@@ -10452,9 +10452,9 @@
    "niveau": "modèle"
   },
   "modele:Tissot seastar|2": {
-   "date": 1788091724526,
-   "mediane": 220,
-   "echantillon": 73,
+   "date": 1788232479370,
+   "mediane": 249.95,
+   "echantillon": 75,
    "niveau": "modèle"
   },
   "modele:CASIO classico silver|2": {
@@ -58538,7 +58538,7 @@
    "niveau": "modèle"
   },
   "modele:Omega geneve dynamic|2": {
-   "date": 1787852038687,
+   "date": 1788232475565,
    "mediane": 800,
    "echantillon": 52,
    "niveau": "modèle"
@@ -76224,19 +76224,19 @@
    "niveau": "modèle"
   },
   "modele:Tudor 28500 royal|2": {
-   "date": 1788223841949,
+   "date": 1788232482771,
    "mediane": null,
    "echantillon": 1,
    "niveau": "modèle"
   },
   "modele:Certina horloge|2": {
-   "date": 1788225875038,
+   "date": 1788232482486,
    "mediane": 135,
-   "echantillon": 21,
+   "echantillon": 20,
    "niveau": "modèle"
   },
   "modele:Citizen 895 analog|2": {
-   "date": 1788229918237,
+   "date": 1788232472607,
    "mediane": null,
    "echantillon": 1,
    "niveau": "modèle"
@@ -76260,15 +76260,27 @@
    "niveau": "modèle"
   },
   "modele:Venezianico nereide titanio|4": {
-   "date": 1788230550225,
+   "date": 1788232470499,
    "mediane": null,
    "echantillon": 2,
    "niveau": "modèle"
   },
   "modele:Rolex 1968 turn|2": {
-   "date": 1788232349285,
+   "date": 1788232468679,
    "mediane": null,
    "echantillon": 1,
+   "niveau": "modèle"
+  },
+  "modele:Fossil titolo per|2": {
+   "date": 1788232469696,
+   "mediane": null,
+   "echantillon": 1,
+   "niveau": "modèle"
+  },
+  "modele:Fossil skeleton|3": {
+   "date": 1788232794159,
+   "mediane": 115,
+   "echantillon": 38,
    "niveau": "modèle"
   }
  },
@@ -77326,7 +77338,7 @@
   "24829163": 9,
   "24838432": 4,
   "24842593": 2,
-  "24844851": 31,
+  "24844851": 32,
   "24856917": 5,
   "24866238": 2,
   "24912622": 2,
@@ -84997,6 +85009,7 @@
   "249145099": 3,
   "249159187": 2,
   "249168553": 48,
+  "249193370": 2,
   "249250474": 2,
   "249258694": 13,
   "249264630": 2,
@@ -90965,19 +90978,19 @@
   "3181617416": 9
  },
  "bilan": {
-  "depuis": 1788229123583,
-  "passages": 75,
-  "nouvelles": 33,
-  "marque": 19,
+  "depuis": 1788232483159,
+  "passages": 21,
+  "nouvelles": 12,
+  "marque": 8,
   "etat": 0,
-  "prix": 0,
+  "prix": 1,
   "accessoire": 0,
   "lot": 0,
-  "fausse": 3,
+  "fausse": 0,
   "pro": 0,
-  "vendeurSpecialise": 3,
-  "sansCote": 3,
-  "chere": 5,
+  "vendeurSpecialise": 0,
+  "sansCote": 0,
+  "chere": 3,
   "description": 0,
   "alertes": 0
  }

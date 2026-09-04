@@ -1,13 +1,5 @@
 {
  "vues": [
-  "9876068700",
-  "9876068286",
-  "9876067929",
-  "9876067880",
-  "9876064830",
-  "9876063594",
-  "9875259366",
-  "9876063739",
   "9876063725",
   "9867661044",
   "9876078316",
@@ -3999,7 +3991,15 @@
   "9881301931",
   "9881306019",
   "9881309836",
-  "9881313647"
+  "9881313647",
+  "9881328093",
+  "9875894493",
+  "9881331438",
+  "9881335629",
+  "9881335026",
+  "9881338146",
+  "9881337775",
+  "9881345014"
  ],
  "cotes": {
   "Diesel": {
@@ -4382,10 +4382,10 @@
    "echantillon": 26
   },
   "Daniel Wellington": {
-   "date": 1788484803360,
+   "date": 1788487714873,
    "mediane": null,
-   "echantillon": 34,
-   "coteTropBasse": 25
+   "echantillon": 36,
+   "coteTropBasse": 20
   },
   "Pierre Lannier": {
    "date": 1788435239351,
@@ -4676,9 +4676,9 @@
    "coteTropBasse": 19
   },
   "Roamer": {
-   "date": 1788483699294,
-   "mediane": 140,
-   "echantillon": 37
+   "date": 1788487719170,
+   "mediane": 145,
+   "echantillon": 36
   },
   "Nowley": {
    "date": 1788437730998,
@@ -29497,9 +29497,9 @@
    "niveau": "modèle"
   },
   "modele:Daniel Wellington armbanduhr|2": {
-   "date": 1788484805293,
+   "date": 1788487716144,
    "mediane": 15,
-   "echantillon": 58,
+   "echantillon": 62,
    "niveau": "modèle"
   },
   "modele:Dugena kinder|2": {
@@ -87887,21 +87887,27 @@
    "niveau": "modèle"
   },
   "modele:LIP cadran bicolore|1": {
-   "date": 1788484140790,
+   "date": 1788487717501,
    "mediane": null,
    "echantillon": 2,
    "niveau": "modèle"
   },
   "modele:Citizen 3560 alarm|1": {
-   "date": 1788486569395,
+   "date": 1788487713198,
    "mediane": null,
    "echantillon": 2,
    "niveau": "modèle"
   },
   "modele:Omega ville quarzo|1": {
-   "date": 1788487364124,
+   "date": 1788487711237,
    "mediane": 550,
    "echantillon": 5,
+   "niveau": "modèle"
+  },
+  "modele:Tudor 55003 glamour|1": {
+   "date": 1788488336692,
+   "mediane": null,
+   "echantillon": 2,
    "niveau": "modèle"
   }
  },
@@ -99248,7 +99254,7 @@
   "270034142": 2,
   "270045337": 2,
   "270052740": 9,
-  "270070445": 9,
+  "270070445": 11,
   "270087348": 6,
   "270115132": 2,
   "270116418": 3,
@@ -100155,7 +100161,7 @@
   "290866048": 3,
   "290876332": 3,
   "290899730": 2,
-  "290908784": 6,
+  "290908784": 7,
   "290919408": 5,
   "290920273": 10,
   "290934723": 7,
@@ -105414,20 +105420,20 @@
   "3182594736": 2
  },
  "bilan": {
-  "depuis": 1788484230005,
-  "passages": 78,
-  "nouvelles": 41,
-  "marque": 34,
+  "depuis": 1788487719684,
+  "passages": 21,
+  "nouvelles": 8,
+  "marque": 6,
   "etat": 0,
-  "prix": 1,
-  "accessoire": 1,
+  "prix": 0,
+  "accessoire": 0,
   "lot": 0,
   "fausse": 0,
   "pro": 0,
-  "vendeurSpecialise": 1,
+  "vendeurSpecialise": 0,
   "sansCote": 0,
-  "chere": 2,
-  "description": 1,
+  "chere": 1,
+  "description": 0,
   "alertes": 1
  }
 }

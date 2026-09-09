@@ -1,14 +1,5 @@
 {
  "vues": [
-  "9934003588",
-  "9934002793",
-  "9934003518",
-  "9934001542",
-  "9933980953",
-  "9933998868",
-  "9933979675",
-  "9934000734",
-  "9933998551",
   "9933987858",
   "9933996149",
   "9933987268",
@@ -3999,7 +3990,16 @@
   "9937291487",
   "9937295905",
   "9937311323",
-  "9937312439"
+  "9937312439",
+  "9937318684",
+  "9937327078",
+  "9937329829",
+  "9937334315",
+  "9937339024",
+  "9937347852",
+  "9937350083",
+  "9937349582",
+  "9937350630"
  ],
  "cotes": {
   "Diesel": {
@@ -93191,9 +93191,9 @@
    "niveau": "modèle"
   },
   "modele:Junghans quarz armbanduhr|2": {
-   "date": 1788614739602,
-   "mediane": 59,
-   "echantillon": 5,
+   "date": 1788915532650,
+   "mediane": 99,
+   "echantillon": 6,
    "niveau": "modèle"
   },
   "modele:Tissot automatique classic|2": {
@@ -108788,6 +108788,18 @@
    "mediane": null,
    "echantillon": 1,
    "niveau": "modèle"
+  },
+  "modele:Fossil grant automatik|3": {
+   "date": 1788916064352,
+   "mediane": null,
+   "echantillon": 2,
+   "niveau": "modèle"
+  },
+  "modele:Lotus 15316 shiny|1": {
+   "date": 1788916284306,
+   "mediane": null,
+   "echantillon": 1,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -111910,6 +111922,7 @@
   "42623075": 4,
   "42626128": 7,
   "42640753": 4,
+  "42643400": 2,
   "42672491": 4,
   "42672554": 9,
   "42680550": 3,
@@ -131539,9 +131552,9 @@
  },
  "bilan": {
   "depuis": 1788914507811,
-  "passages": 20,
-  "nouvelles": 8,
-  "marque": 5,
+  "passages": 41,
+  "nouvelles": 17,
+  "marque": 11,
   "etat": 0,
   "prix": 0,
   "accessoire": 0,
@@ -131549,8 +131562,8 @@
   "fausse": 0,
   "pro": 0,
   "vendeurSpecialise": 0,
-  "sansCote": 0,
-  "chere": 2,
+  "sansCote": 2,
+  "chere": 3,
   "description": 0,
   "alertes": 1
  }

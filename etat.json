@@ -1,14 +1,5 @@
 {
  "vues": [
-  "9933989519",
-  "9933966762",
-  "9933968634",
-  "9933985585",
-  "9933987062",
-  "9933979868",
-  "9933977561",
-  "9933983274",
-  "9933981528",
   "9933983238",
   "9933978602",
   "9933979035",
@@ -3999,7 +3990,16 @@
   "9937353497",
   "9937357933",
   "9937360142",
-  "9937362573"
+  "9937362573",
+  "9937368090",
+  "9937370892",
+  "9937377526",
+  "9937376260",
+  "9937382485",
+  "9937381510",
+  "9935090169",
+  "9937401212",
+  "9937405781"
  ],
  "cotes": {
   "Diesel": {
@@ -25102,9 +25102,9 @@
    "niveau": "modèle"
   },
   "modele:Citizen automatic|2": {
-   "date": 1788915349897,
+   "date": 1788916737783,
    "mediane": 170,
-   "echantillon": 30,
+   "echantillon": 31,
    "niveau": "modèle"
   },
   "modele:Perseo tasca ferrovie|2": {
@@ -33171,9 +33171,9 @@
    "niveau": "modèle"
   },
   "Sturmanskie": {
-   "date": 1788914685055,
+   "date": 1788916739253,
    "mediane": 170,
-   "echantillon": 14
+   "echantillon": 15
   },
   "modele:Sturmanskie 3133 055|2": {
    "date": 1787403668742,
@@ -93191,7 +93191,7 @@
    "niveau": "modèle"
   },
   "modele:Junghans quarz armbanduhr|2": {
-   "date": 1788915532650,
+   "date": 1788916736375,
    "mediane": 99,
    "echantillon": 6,
    "niveau": "modèle"
@@ -108784,19 +108784,31 @@
    "niveau": "modèle"
   },
   "modele:Citizen 2010 eco|3": {
-   "date": 1788914688512,
+   "date": 1788916740790,
    "mediane": null,
    "echantillon": 1,
    "niveau": "modèle"
   },
   "modele:Fossil grant automatik|3": {
-   "date": 1788916064352,
+   "date": 1788916734767,
    "mediane": null,
    "echantillon": 2,
    "niveau": "modèle"
   },
   "modele:Lotus 15316 shiny|1": {
-   "date": 1788916284306,
+   "date": 1788916735040,
+   "mediane": null,
+   "echantillon": 1,
+   "niveau": "modèle"
+  },
+  "modele:Viceroy 46524 multifuncion|2": {
+   "date": 1788916830866,
+   "mediane": null,
+   "echantillon": 1,
+   "niveau": "modèle"
+  },
+  "modele:Citizen at1195 83e|1": {
+   "date": 1788916965608,
    "mediane": null,
    "echantillon": 1,
    "niveau": "modèle"
@@ -112829,7 +112841,7 @@
   "50066899": 2,
   "50069110": 5,
   "50074393": 8,
-  "50079882": 2,
+  "50079882": 4,
   "50081390": 2,
   "50089601": 4,
   "50092038": 12,
@@ -123002,6 +123014,7 @@
   "260878019": 8,
   "260889833": 2,
   "260895660": 3,
+  "260904715": 2,
   "260936470": 3,
   "260984859": 5,
   "260999147": 2,
@@ -127268,7 +127281,7 @@
   "3148616167": 5,
   "3148617761": 2,
   "3148659821": 3,
-  "3148667311": 47,
+  "3148667311": 48,
   "3148677562": 5,
   "3148703674": 2,
   "3148713085": 4,
@@ -131552,10 +131565,10 @@
   "3184321159": 2
  },
  "bilan": {
-  "depuis": 1788914507811,
-  "passages": 49,
-  "nouvelles": 21,
-  "marque": 14,
+  "depuis": 1788916741335,
+  "passages": 21,
+  "nouvelles": 8,
+  "marque": 5,
   "etat": 0,
   "prix": 0,
   "accessoire": 0,
@@ -131563,9 +131576,9 @@
   "fausse": 0,
   "pro": 0,
   "vendeurSpecialise": 0,
-  "sansCote": 3,
-  "chere": 3,
+  "sansCote": 1,
+  "chere": 2,
   "description": 0,
-  "alertes": 1
+  "alertes": 0
  }
 }

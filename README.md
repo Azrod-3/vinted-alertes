@@ -5,6 +5,24 @@ Discord quand une annonce est **nettement sous la cote de sa marque**.
 
 Tourne sur GitHub Actions : **aucun ordinateur à laisser allumé**, et c'est gratuit.
 
+## Septembre 2026 : l'API a disparu
+
+Le 14 septembre, Vinted a retiré `/api/v2/catalog/items` — réponse 404, y
+compris depuis un poste ordinaire : ce n'était pas un blocage anti-robot. Le bot
+a tourné **deux jours et demi à vide**, chaque job se terminant en « success » et
+Discord restant muet.
+
+Les résultats sont désormais servis dans la page `/catalog` elle-même, au sein du
+flux de rendu Next.js (`self.__next_f.push`). Le scan récupère ce HTML par un
+`fetch` same-origin, isole chaque objet `{"id":…,"productItem":{…}}` et le
+convertit vers la forme de l'ancienne API, que le reste du code attend. La marque
+et l'état n'ont plus de champ propre : ils se lisent dans le libellé
+d'accessibilité de la vignette.
+
+Pour que le silence ne puisse plus jamais vouloir dire « en panne », le bot
+**prévient sur Discord** quand il ne voit plus aucune annonce (rappel toutes les
+`rappelPanneHeures`), et quand il les revoit.
+
 ## Pourquoi un navigateur et pas une simple requête
 
 Vinted protège son API par un « Client Challenge » qui exige l'exécution de
@@ -98,7 +116,7 @@ finalistes**, soit une poignée par passage.
 
     npm test
 
-324 tests, sans réseau : normalisation, liste blanche des marques, états, mots
+339 tests, sans réseau : normalisation, liste blanche des marques, états, mots
 rédhibitoires et pièges de négation.
 
 ## Installation
@@ -230,6 +248,7 @@ qu'une fois toutes les cinq heures.
 | `coteMinAnnonces` | nombre d'annonces requis pour oser une cote |
 | `maxAlertesParPassage` | évite d'inonder Discord |
 | `bouclerSecondes` | durée d'un job. Long = moins de feux verts à demander à GitHub |
+| `rappelPanneHeures` | délai minimum entre deux messages « le bot ne voit plus aucune annonce » |
 | `enregistrerToutesLesSecondes` | fréquence de sauvegarde de l'état pendant le job |
 | `intervalleSecondes` | délai entre deux relevés (`40` = une montre est vue dans la minute) |
 | `resumeSiRienMinutes` | fréquence du message « Rien à signaler » |

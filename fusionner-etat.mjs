@@ -37,5 +37,17 @@ for (const [id, n] of Object.entries(nous.vendeurs || {})) {
   vendeurs[id] = Math.max(vendeurs[id] || 0, n);
 }
 
-await writeFile(cible, JSON.stringify({ vues, cotes, vendeurs, bilan: nous.bilan || depot.bilan }, null, 1));
+await writeFile(cible, JSON.stringify(
+    {
+      vues,
+      cotes,
+      vendeurs,
+      bilan: nous.bilan || depot.bilan,
+      // L'etat de panne suit la version la plus recente : la notre.
+      panne: "panne" in nous ? nous.panne : depot.panne || null,
+      panneDebut: "panneDebut" in nous ? nous.panneDebut : depot.panneDebut || null,
+    },
+    null,
+    1
+  ));
 console.log(`état fusionné : ${vues.length} annonces mémorisées, ${Object.keys(cotes).length} cotes`);

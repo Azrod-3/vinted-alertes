@@ -1,5 +1,5 @@
 /** Tests des trois filtres. `npm test`. Aucun reseau, aucune dependance. */
-import { normaliser, marqueHorlogere, etatAcceptable, motRedhibitoire, motifDeRefus, texteResume, estAccessoire, estLuxe, marqueInexistante, requeteModele, estPepite, merite, estLot, nombreDansLot, article, comparable, etatProche, jetonsModele } from "./scan.mjs";
+import { normaliser, marqueHorlogere, etatAcceptable, motRedhibitoire, motifDeRefus, texteResume, estAccessoire, estLuxe, marqueInexistante, requeteModele, estPepite, merite, estLot, nombreDansLot, article, comparable, annonceDepuisProduit, rechercheUrl, etatProche, jetonsModele } from "./scan.mjs";
 
 let ok = 0;
 const echecs = [];
@@ -421,6 +421,53 @@ verifier("compte business écarté",
 verifier("particulier gardé",
   motifDeRefus({ id: 3, title: "Montre Citizen", brand_title: "Citizen", status: "Bon état",
                  price: { amount: "40" }, user: { id: 1, business: false } }), "");
+
+// --- Nouveau format de page Vinted (septembre 2026) --------------------------
+// L'API /api/v2/catalog/items a disparu le 14 septembre : le bot a tourné deux
+// jours et demi à vide. Les annonces se lisent désormais dans la page catalogue.
+// Échantillon relevé tel quel sur le site.
+const produit = {
+  id: 10031358976,
+  title: "Omega Seamaster Vintage Handaufzug Ref. 2759-12 SC / 2761",
+  url: "/items/10031358976-omega-seamaster-vintage",
+  price: { amount: "980.00", currencyCode: "EUR" },
+  user: { id: 26992440, photo: null, isBusiness: false },
+  photos: [{ url: "https://images1.vinted.net/t/x/f800/a.webp" }],
+  itemBox: {
+    firstLine: "Omega",
+    secondLine: "30–38 mm · Très bon état",
+    accessibilityLabel: "Omega Seamaster Vintage Handaufzug Ref. 2759-12 SC / 2761, Marque: Omega, État: Très bon état, Taille: 30–38 mm, 980.00 €, 1029.70 €",
+  },
+};
+const lue = annonceDepuisProduit(produit);
+verifier("nouveau format : id", lue.id, 10031358976);
+verifier("nouveau format : marque", lue.brand_title, "Omega");
+verifier("nouveau format : état", lue.status, "Très bon état");
+verifier("nouveau format : prix", lue.price.amount, "980.00");
+verifier("nouveau format : vendeur pro", lue.user.business, false);
+verifier("nouveau format : lien absolu", lue.url, "https://www.vinted.fr/items/10031358976-omega-seamaster-vintage");
+verifier("nouveau format : photo", lue.photo.url, "https://images1.vinted.net/t/x/f800/a.webp");
+verifier("nouveau format : passe les filtres", motifDeRefus(lue), "");
+
+// Un titre qui contient lui-même « Marque: » ne doit pas tromper la lecture.
+const piege = annonceDepuisProduit({ ...produit, itemBox: { ...produit.itemBox,
+  accessibilityLabel: "Montre, Marque: Rolex, cadeau, Marque: Tissot, État: Bon état, Taille: 40 mm, 50.00 €, 53.20 €" } });
+verifier("titre piégé : la vraie marque", piege.brand_title, "Tissot");
+
+// Sans marque renseignée, le champ reste vide au lieu de prendre la taille.
+const sansMarque = annonceDepuisProduit({ ...produit, itemBox: { firstLine: "30–38 mm",
+  secondLine: "30–38 mm · Bon état",
+  accessibilityLabel: "Vieille montre, État: Bon état, Taille: 30–38 mm, 15.00 €, 16.40 €" } });
+verifier("sans marque : champ vide", sansMarque.brand_title, "");
+verifier("sans marque : état lu quand même", sansMarque.status, "Bon état");
+
+verifier("vendeur pro reconnu", annonceDepuisProduit({ ...produit, user: { id: 1, isBusiness: true } }).user.business, true);
+verifier("objet vide ignoré", annonceDepuisProduit({}), null);
+
+verifier("adresse catalogue", rechercheUrl({ catalog_ids: "97", page: "2", order: "newest_first" }),
+  "/catalog?catalog%5B%5D=97&page=2&order=newest_first");
+verifier("adresse recherche", rechercheUrl({ search_text: "tissot pr100", catalog_ids: "97" }),
+  "/catalog?search_text=tissot+pr100&catalog%5B%5D=97");
 
 // --- Résumé « rien à signaler » ----------------------------------------------
 const bilan = { passages: 28, nouvelles: 143, marque: 71, prix: 38, etat: 2,

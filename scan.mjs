@@ -421,7 +421,7 @@ async function coteModele(page, requete, jetons, marque, etat, cache) {
   const memo = cache[cle];
   if (memo && Date.now() - memo.date < 24 * 3600 * 1000) return memo;
 
-  const reponse = await api(
+  const reponse = await catalogue(
     page,
     rechercheUrl({ search_text: requete, catalog_ids: String(CONFIG.categorieVinted), per_page: "96" })
   );
@@ -446,7 +446,7 @@ async function coteMarque(page, marque, cache) {
   const memo = cache[marque];
   if (memo && Date.now() - memo.date < 24 * 3600 * 1000) return memo;
 
-  const reponse = await api(
+  const reponse = await catalogue(
     page,
     rechercheUrl({
       search_text: marque,
@@ -482,7 +482,116 @@ async function coteMarque(page, marque, cache) {
   return cache[marque];
 }
 
-const rechercheUrl = (params) => `/api/v2/catalog/items?${new URLSearchParams(params)}`;
+/**
+ * Adresse d'une page de catalogue.
+ *
+ * Le 14 septembre 2026, Vinted a retire /api/v2/catalog/items (404, verifie
+ * depuis un poste ordinaire : ce n'est pas un blocage anti-robot) et sert
+ * desormais ses resultats directement dans la page /catalog. Les parametres
+ * changent de nom en consequence ; per_page n'existe plus, une page fait ~96
+ * annonces.
+ */
+export function rechercheUrl(params) {
+  const q = new URLSearchParams();
+  if (params.search_text) q.set("search_text", params.search_text);
+  if (params.catalog_ids) q.append("catalog[]", params.catalog_ids);
+  if (params.page) q.set("page", params.page);
+  if (params.order) q.set("order", params.order);
+  return `/catalog?${q}`;
+}
+
+const ETATS_CONNUS = ["Neuf avec étiquette", "Neuf sans étiquette", "Très bon état", "Bon état", "Satisfaisant"];
+
+/**
+ * Convertit une annonce du nouveau format de page vers la forme de l'ancienne
+ * API, que tout le reste du scan attend. La marque et l'etat n'ont plus de champ
+ * propre : ils sont dans itemBox. On lit le libelle d'accessibilite
+ * ("titre, Marque: X, État: Y, Taille: Z, prix") en partant de la fin, pour
+ * qu'un titre contenant lui-meme "Marque:" ne trompe pas la lecture.
+ */
+export function annonceDepuisProduit(p) {
+  if (!p || !p.id) return null;
+  const boite = p.itemBox || {};
+  const libelle = String(boite.accessibilityLabel || "");
+
+  const champ = (nom) => {
+    const i = libelle.lastIndexOf(`, ${nom}: `);
+    if (i < 0) return "";
+    const reste = libelle.slice(i + nom.length + 4);
+    const fin = reste.indexOf(", ");
+    return (fin < 0 ? reste : reste.slice(0, fin)).trim();
+  };
+
+  let etat = champ("État");
+  if (!ETATS_CONNUS.includes(etat)) {
+    const dernier = String(boite.secondLine || "").split(" · ").pop().trim();
+    etat = ETATS_CONNUS.includes(dernier) ? dernier : etat;
+  }
+
+  const photo = (p.photos && p.photos[0] && p.photos[0].url) || p.thumbnailUrl || "";
+  const url = String(p.url || "");
+  return {
+    id: p.id,
+    title: p.title || "",
+    url: url.startsWith("http") ? url : `https://www.vinted.fr${url}`,
+    price: { amount: p.price && p.price.amount },
+    brand_title: champ("Marque"),
+    status: etat,
+    user: p.user ? { id: p.user.id, business: Boolean(p.user.isBusiness) } : null,
+    photo: photo ? { url: photo } : null,
+  };
+}
+
+/**
+ * Lit une page de catalogue et en extrait les annonces.
+ *
+ * Les donnees ne sont plus dans une reponse JSON mais dans le flux de rendu
+ * Next.js inclus dans le HTML (self.__next_f.push). On recupere ce HTML par un
+ * fetch same-origin — sans rendu, ~1 s — puis on isole chaque objet
+ * {"id":…,"productItem":{…}}. Seuls les champs utiles quittent la page.
+ */
+async function catalogue(page, chemin) {
+  const produits = await page.evaluate(async (c) => {
+    try {
+      const reponse = await fetch(c, { headers: { accept: "text/html" } });
+      if (!reponse.ok) return null;
+      const html = await reponse.text();
+      const flux = [...html.matchAll(/self\.__next_f\.push\(\[1,("(?:[^"\\]|\\.)*")\]\)/g)]
+        .map((m) => { try { return JSON.parse(m[1]); } catch (_) { return ""; } })
+        .join("");
+      const sortie = [];
+      const motif = /\{"id":(\d{6,}),"productItem":/g;
+      let m;
+      while ((m = motif.exec(flux))) {
+        let profondeur = 0;
+        let fin = m.index;
+        for (; fin < flux.length; fin += 1) {
+          const ch = flux[fin];
+          if (ch === "{") profondeur += 1;
+          else if (ch === "}") { profondeur -= 1; if (profondeur === 0) break; }
+        }
+        try {
+          const p = JSON.parse(flux.slice(m.index, fin + 1)).productItem;
+          sortie.push({ id: p.id, title: p.title, url: p.url, price: p.price, user: p.user,
+                        photos: (p.photos || []).slice(0, 1).map((x) => ({ url: x.url })),
+                        thumbnailUrl: p.thumbnailUrl, itemBox: p.itemBox });
+        } catch (_) {}
+      }
+      return sortie;
+    } catch (_) {
+      return null;
+    }
+  }, `https://www.vinted.fr${chemin}`);
+
+  if (!produits) return null;
+  const vus = new Set();
+  const items = [];
+  for (const p of produits) {
+    const a = annonceDepuisProduit(p);
+    if (a && !vus.has(a.id)) { vus.add(a.id); items.push(a); }
+  }
+  return { items };
+}
 
 /** "du modèle", "de la marque", "du lot de 3" : l'article suit le niveau. */
 export const article = (niveau) => (String(niveau) === "marque" ? "de la marque" : `du ${niveau}`);
@@ -620,7 +729,7 @@ async function unPassage(page, vues, cotes, bilan, vendeurs) {
   // "Baume e mercier automatico". La categorie dit deja que ce sont des montres.
   const trouvees = new Map();
   for (let numero = 1; numero <= CONFIG.pagesCatalogue; numero += 1) {
-    const r = await api(
+    const r = await catalogue(
       page,
       rechercheUrl({
         catalog_ids: String(CONFIG.categorieVinted),
@@ -635,7 +744,9 @@ async function unPassage(page, vues, cotes, bilan, vendeurs) {
   }
 
   if (!trouvees.size) {
-    console.error("Vinted n'a pas répondu (challenge non franchi).");
+    // Ce message disait "challenge non franchi" : c'etait faux le 14 septembre,
+    // quand Vinted a simplement change d'adresse. On dit ce qu'on sait.
+    console.error("Vinted n'a renvoyé aucune annonce (site modifié ou accès bloqué).");
     return false;
   }
 
@@ -769,6 +880,64 @@ async function unPassage(page, vues, cotes, bilan, vendeurs) {
 }
 
 /**
+ * Previent sur Discord quand le bot ne voit plus aucune annonce, et quand il
+ * les revoit.
+ *
+ * Le 14 septembre 2026, Vinted a change l'adresse de ses resultats : le bot a
+ * tourne DEUX JOURS ET DEMI sans rien lire, chaque job se terminant en
+ * "success" et Discord restant muet. Le silence ne doit plus jamais pouvoir
+ * vouloir dire "en panne". Un rappel toutes les `rappelPanneHeures` au plus,
+ * pour ne pas spammer pendant une panne longue.
+ */
+async function signalerPanne(etat, enPanne) {
+  if (ESSAI || !WEBHOOK) return;
+  const maintenant = Date.now();
+  let corps = null;
+
+  if (enPanne) {
+    const dernier = etat.panne || 0;
+    if (maintenant - dernier < CONFIG.rappelPanneHeures * 3600 * 1000) return;
+    const depuis = etat.panneDebut || maintenant;
+    const heures = Math.round((maintenant - depuis) / 3600000);
+    corps = {
+      embeds: [{
+        title: "⚠️ Le bot ne voit plus aucune annonce",
+        color: 0xe74c3c,
+        description:
+          "Vinted ne renvoie plus rien au bot : site modifié ou accès bloqué. " +
+          "**Aucune alerte ne peut partir tant que ce n'est pas réparé.**" +
+          (heures >= 1 ? `\n\nPanne en cours depuis environ ${heures} h.` : ""),
+        footer: { text: "Veille Vinted" },
+        timestamp: new Date().toISOString(),
+      }],
+    };
+    etat.panne = maintenant;
+    etat.panneDebut = depuis;
+  } else {
+    if (!etat.panneDebut) return;
+    const heures = Math.round((maintenant - etat.panneDebut) / 3600000);
+    corps = {
+      embeds: [{
+        title: "✅ Le bot voit à nouveau les annonces",
+        color: 0x2ecc71,
+        description: `La surveillance a repris après environ ${heures} h d'interruption.`,
+        footer: { text: "Veille Vinted" },
+        timestamp: new Date().toISOString(),
+      }],
+    };
+    etat.panne = null;
+    etat.panneDebut = null;
+  }
+
+  try {
+    await fetch(WEBHOOK, { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify(corps) });
+    console.log(enPanne ? "panne signalée sur Discord" : "fin de panne signalée sur Discord");
+  } catch (erreur) {
+    console.error(`signalement de panne impossible (${erreur.message})`);
+  }
+}
+
+/**
  * Un job GitHub coute 40 s de mise en route (installation de Chrome) pour 8 s de
  * scan. Lancer le workflow plus souvent revient donc a payer surtout de
  * l'attente. On boucle plutot DANS le job, en gardant le meme navigateur et la
@@ -801,21 +970,39 @@ async function main() {
   let passages = 0;
   let dernierEnregistrement = Date.now();
 
+  // Cumul du job, independant du bilan qui se remet a zero a chaque resume :
+  // sans lui, la ligne de journal finale annoncait "0 alerte" apres un resume.
+  const cumul = { nouvelles: 0, alertes: 0 };
+  const reporter = () => {
+    cumul.nouvelles += bilan.nouvelles - avant.nouvelles;
+    cumul.alertes += bilan.alertes - avant.alertes;
+  };
+
   const etatCourant = () => ({
     vues: [...vues].slice(-4000),
     cotes,
     vendeurs: Object.fromEntries(Object.entries(vendeurs).filter(([, n]) => n > 1)),
     bilan,
+    panne: etat.panne || null,
+    panneDebut: etat.panneDebut || null,
   });
 
   while (true) {
     passages += 1;
     const ok = await unPassage(page, vues, cotes, bilan, vendeurs);
-    if (!ok && passages === 1) break; // challenge non franchi : inutile d'insister
+    if (!ok && passages === 1) {
+      await signalerPanne(etat, true);
+      break; // inutile d'insister : le job suivant retentera
+    }
+    if (ok && passages === 1) await signalerPanne(etat, false);
 
     // Le resume horaire se teste ici et non a la fin du job : depuis que les
     // jobs durent cinq heures, il ne serait plus parti qu'une fois par job.
-    if (await resumer(bilan)) Object.assign(bilan, nouveauBilan());
+    if (await resumer(bilan)) {
+      reporter();
+      Object.assign(bilan, nouveauBilan());
+      Object.assign(avant, bilan);
+    }
 
     if (
       process.env.ENREGISTRER_EN_ROUTE === "1" &&
@@ -830,16 +1017,18 @@ async function main() {
     await page.waitForTimeout(CONFIG.intervalleSecondes * 1000);
   }
 
+  reporter();
   console.log(
     `${passages} passages en ${Math.round((CONFIG.bouclerSecondes * 1000 - (fin - Date.now())) / 1000)} s : ` +
-      `${bilan.nouvelles - avant.nouvelles} nouvelles annonces, ` +
-      `${bilan.alertes - avant.alertes} alerte(s).`
+      `${cumul.nouvelles} nouvelles annonces, ${cumul.alertes} alerte(s).`
   );
 
   await navigateur.close();
 
-  // Dernier passage : le resume a deja ete teste a chaque tour de boucle.
-  const remis = await resumer(bilan);
+  // Dernier passage : le resume a deja ete teste a chaque tour de boucle. Pas de
+  // "Rien a signaler" pendant une panne : ce serait exactement le faux silence
+  // qu'on cherche a eliminer.
+  const remis = etat.panneDebut ? false : await resumer(bilan);
 
   if (!ESSAI) {
     await writeFile(
@@ -850,6 +1039,8 @@ async function main() {
           cotes,
           vendeurs: Object.fromEntries(Object.entries(vendeurs).filter(([, n]) => n > 1)),
           bilan: remis ? nouveauBilan() : bilan,
+          panne: etat.panne || null,
+          panneDebut: etat.panneDebut || null,
         },
         null,
         1

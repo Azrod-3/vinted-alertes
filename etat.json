@@ -1,16 +1,5 @@
 {
  "vues": [
-  "10179096204",
-  "10179223839",
-  "10179171792",
-  "10179251230",
-  "10179239962",
-  "10181235109",
-  "10181233515",
-  "10181232585",
-  "10181232278",
-  "10181231621",
-  "10181231402",
   "10181229224",
   "10181228750",
   "10181228048",
@@ -3999,7 +3988,18 @@
   "10187141124",
   "10187148041",
   "10187163546",
-  "10187167296"
+  "10187167296",
+  "10180989719",
+  "10180261250",
+  "10187172622",
+  "10187175730",
+  "10187174250",
+  "10187188144",
+  "10187197610",
+  "10187207527",
+  "10187218266",
+  "10187222464",
+  "10187225214"
  ],
  "cotes": {
   "Diesel": {
@@ -4363,10 +4363,10 @@
    "echantillon": 15
   },
   "Kienzle": {
-   "date": 1790727108754,
+   "date": 1790728247506,
    "mediane": null,
-   "echantillon": 83,
-   "coteTropBasse": 35.9
+   "echantillon": 84,
+   "coteTropBasse": 38
   },
   "seiko mod": {
    "date": 1787221484332,
@@ -22165,9 +22165,9 @@
    "niveau": "modèle"
   },
   "Alba": {
-   "date": 1790724423825,
-   "mediane": 60,
-   "echantillon": 49
+   "date": 1790728253116,
+   "mediane": 79,
+   "echantillon": 52
   },
   "modele:Alba aastern arabic|2": {
    "date": 1787210841686,
@@ -26134,9 +26134,9 @@
    "niveau": "modèle"
   },
   "modele:LIP chronographe|3": {
-   "date": 1790725790922,
-   "mediane": 115,
-   "echantillon": 54,
+   "date": 1790728249598,
+   "mediane": 119.9,
+   "echantillon": 52,
    "niveau": "modèle"
   },
   "modele:Braun classic|2": {
@@ -32138,7 +32138,7 @@
    "niveau": "modèle"
   },
   "modele:Citizen eagle automatico|2": {
-   "date": 1790725155309,
+   "date": 1790728251195,
    "mediane": 115,
    "echantillon": 24,
    "niveau": "modèle"
@@ -121551,7 +121551,7 @@
    "niveau": "modèle"
   },
   "modele:Kienzle poseidon atm|2": {
-   "date": 1790727110083,
+   "date": 1790728248549,
    "mediane": 65,
    "echantillon": 7,
    "niveau": "modèle"
@@ -128851,7 +128851,7 @@
    "niveau": "modèle"
   },
   "modele:Ice Watch forever purple|2": {
-   "date": 1790723740569,
+   "date": 1790728257252,
    "mediane": 9,
    "echantillon": 4,
    "niveau": "modèle"
@@ -148593,7 +148593,7 @@
    "niveau": "modèle"
   },
   "modele:Festina f16573 multifuncion|3": {
-   "date": 1790727564347,
+   "date": 1790728246408,
    "mediane": null,
    "echantillon": 2,
    "niveau": "modèle"
@@ -173758,31 +173758,37 @@
    "niveau": "modèle"
   },
   "modele:VAGARY 1126 swiss|2": {
-   "date": 1790723420798,
+   "date": 1790728259016,
    "mediane": null,
    "echantillon": 1,
    "niveau": "modèle"
   },
   "modele:Fossil 2000 relogio|2": {
-   "date": 1790723512021,
+   "date": 1790728258125,
    "mediane": null,
    "echantillon": 1,
    "niveau": "modèle"
   },
   "modele:Hamilton kaki field|2": {
-   "date": 1790723739352,
+   "date": 1790728256317,
    "mediane": 400,
    "echantillon": 3,
    "niveau": "modèle"
   },
   "modele:Festina f16488 chronograph|4": {
-   "date": 1790724011866,
+   "date": 1790728255410,
    "mediane": null,
    "echantillon": 1,
    "niveau": "modèle"
   },
   "modele:Lorus seiko minnie|2": {
-   "date": 1790725107824,
+   "date": 1790728252064,
+   "mediane": null,
+   "echantillon": 1,
+   "niveau": "modèle"
+  },
+  "modele:Alba afsk405 fusion|2": {
+   "date": 1790728254403,
    "mediane": null,
    "echantillon": 1,
    "niveau": "modèle"
@@ -189254,7 +189260,7 @@
   "128552452": 6,
   "128576350": 2,
   "128597978": 3,
-  "128598168": 23,
+  "128598168": 24,
   "128608011": 5,
   "128619479": 19,
   "128625516": 2,
@@ -193284,7 +193290,7 @@
   "190339920": 3,
   "190363470": 35,
   "190400283": 3,
-  "190415479": 3,
+  "190415479": 4,
   "190426181": 3,
   "190441320": 2,
   "190443304": 3,
@@ -205686,7 +205692,7 @@
   "3152833607": 3,
   "3152836562": 3,
   "3152839918": 4,
-  "3152840750": 49,
+  "3152840750": 50,
   "3152851664": 2,
   "3152852313": 2,
   "3152870326": 2,
@@ -213118,21 +213124,21 @@
   "3192398552": 2
  },
  "bilan": {
-  "depuis": 1790724742178,
-  "passages": 76,
-  "nouvelles": 68,
-  "marque": 44,
-  "etat": 3,
-  "prix": 2,
-  "accessoire": 1,
+  "depuis": 1790728259669,
+  "passages": 21,
+  "nouvelles": 9,
+  "marque": 7,
+  "etat": 0,
+  "prix": 1,
+  "accessoire": 0,
   "lot": 0,
-  "fausse": 4,
+  "fausse": 0,
   "pro": 0,
-  "vendeurSpecialise": 5,
-  "sansCote": 3,
-  "chere": 5,
+  "vendeurSpecialise": 0,
+  "sansCote": 1,
+  "chere": 0,
   "description": 0,
-  "alertes": 1
+  "alertes": 0
  },
  "panne": null,
  "panneDebut": null

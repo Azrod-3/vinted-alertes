@@ -1,10 +1,5 @@
 {
  "vues": [
-  "10254798524",
-  "10254798196",
-  "10254797508",
-  "10254797040",
-  "10254795852",
   "10254795718",
   "10254794914",
   "10247148631",
@@ -3999,7 +3994,12 @@
   "10263061221",
   "10263070759",
   "10263084749",
-  "10263088096"
+  "10263088096",
+  "10263093712",
+  "10263099737",
+  "10263109162",
+  "10263113157",
+  "10263139634"
  ],
  "cotes": {
   "Diesel": {
@@ -4230,9 +4230,9 @@
    "coteTropBasse": 10
   },
   "Fossil": {
-   "date": 1791164748253,
+   "date": 1791253318052,
    "mediane": null,
-   "echantillon": 90,
+   "echantillon": 84,
    "coteTropBasse": 25
   },
   "slava": {
@@ -188270,6 +188270,12 @@
    "mediane": null,
    "echantillon": 1,
    "niveau": "modèle"
+  },
+  "modele:Fossil bq240oset chronograph|4": {
+   "date": 1791253318863,
+   "mediane": null,
+   "echantillon": 1,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -216797,7 +216803,7 @@
   "281566778": 2,
   "281577600": 4,
   "281606961": 40,
-  "281615199": 6,
+  "281615199": 8,
   "281621078": 11,
   "281622085": 2,
   "281624698": 2,
@@ -231393,19 +231399,19 @@
   "3194775529": 14
  },
  "bilan": {
-  "depuis": 1791249625518,
-  "passages": 64,
-  "nouvelles": 16,
-  "marque": 8,
+  "depuis": 1791253230689,
+  "passages": 2,
+  "nouvelles": 1,
+  "marque": 0,
   "etat": 0,
-  "prix": 1,
+  "prix": 0,
   "accessoire": 0,
   "lot": 0,
-  "fausse": 1,
+  "fausse": 0,
   "pro": 0,
-  "vendeurSpecialise": 1,
+  "vendeurSpecialise": 0,
   "sansCote": 1,
-  "chere": 4,
+  "chere": 0,
   "description": 0,
   "alertes": 0
  },

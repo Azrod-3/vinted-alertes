@@ -1,14 +1,5 @@
 {
  "vues": [
-  "10306419766",
-  "10306424681",
-  "10306442291",
-  "10306441489",
-  "10306441431",
-  "10306438487",
-  "10306348762",
-  "10306439153",
-  "10306436987",
   "10306435907",
   "10306432667",
   "10306435149",
@@ -3999,7 +3990,16 @@
   "10310616144",
   "10310626505",
   "10308094397",
-  "10308142516"
+  "10308142516",
+  "10310641046",
+  "10310645691",
+  "10307570634",
+  "10310661093",
+  "10310614216",
+  "10310671071",
+  "10310669737",
+  "10310668965",
+  "10310676195"
  ],
  "cotes": {
   "Diesel": {
@@ -4324,10 +4324,10 @@
    "echantillon": 3
   },
   "Hip Hop": {
-   "date": 1791587512648,
+   "date": 1791590476398,
    "mediane": null,
-   "echantillon": 77,
-   "coteTropBasse": 10
+   "echantillon": 78,
+   "coteTropBasse": 8
   },
   "Rolex": {
    "date": 1791584654684,
@@ -4511,9 +4511,9 @@
    "echantillon": 1
   },
   "Edox": {
-   "date": 1791587296515,
-   "mediane": 181.6,
-   "echantillon": 75
+   "date": 1791590478812,
+   "mediane": 180,
+   "echantillon": 76
   },
   "Dugena": {
    "date": 1791513738716,
@@ -4546,9 +4546,9 @@
    "echantillon": 84
   },
   "Maurice Lacroix": {
-   "date": 1791587511820,
-   "mediane": 170,
-   "echantillon": 85
+   "date": 1791590477941,
+   "mediane": 175,
+   "echantillon": 84
   },
   "Molnija": {
    "date": 1791390654836,
@@ -4641,9 +4641,9 @@
    "echantillon": 86
   },
   "Movado": {
-   "date": 1791587900043,
-   "mediane": 229,
-   "echantillon": 79
+   "date": 1791590475524,
+   "mediane": 235,
+   "echantillon": 77
   },
   "Ebel": {
    "date": 1791490333388,
@@ -6401,10 +6401,10 @@
    "niveau": "modèle"
   },
   "Lucerne": {
-   "date": 1791588590965,
+   "date": 1791590472162,
    "mediane": null,
-   "echantillon": 66,
-   "coteTropBasse": 40
+   "echantillon": 62,
+   "coteTropBasse": 50
   },
   "modele:Lucerne vendo digital": {
    "date": 1787069789662,
@@ -27948,7 +27948,7 @@
    "niveau": "modèle"
   },
   "modele:Fossil fossile|3": {
-   "date": 1791588635318,
+   "date": 1791590471429,
    "mediane": null,
    "echantillon": 0,
    "niveau": "modèle"
@@ -93368,7 +93368,7 @@
    "niveau": "modèle"
   },
   "modele:Hip Hop dusty olive|3": {
-   "date": 1791587513206,
+   "date": 1791590476911,
    "mediane": null,
    "echantillon": 2,
    "niveau": "modèle"
@@ -110339,7 +110339,7 @@
    "niveau": "modèle"
   },
   "modele:Tissot ballade esfera|3": {
-   "date": 1791589623414,
+   "date": 1791590470527,
    "mediane": null,
    "echantillon": 1,
    "niveau": "modèle"
@@ -184082,9 +184082,9 @@
    "niveau": "modèle"
   },
   "modele:LIP classics cadran|1": {
-   "date": 1791588077042,
+   "date": 1791590473836,
    "mediane": 24.99,
-   "echantillon": 11,
+   "echantillon": 9,
    "niveau": "modèle"
   },
   "modele:Citizen eagle yellow|4": {
@@ -195944,13 +195944,13 @@
    "niveau": "modèle"
   },
   "modele:Tudor hydronaut|3": {
-   "date": 1791588030519,
+   "date": 1791590474643,
    "mediane": 1850,
    "echantillon": 13,
    "niveau": "modèle"
   },
   "modele:Lucerne taschenuhr|1": {
-   "date": 1791588591690,
+   "date": 1791590473069,
    "mediane": 35,
    "echantillon": 8,
    "niveau": "modèle"
@@ -195959,6 +195959,12 @@
    "date": 1791588806783,
    "mediane": null,
    "echantillon": 2,
+   "niveau": "modèle"
+  },
+  "modele:LIP type type|1": {
+   "date": 1791591043417,
+   "mediane": 40,
+   "echantillon": 25,
    "niveau": "modèle"
   }
  },
@@ -198147,7 +198153,7 @@
   "20767894": 2,
   "20769033": 5,
   "20770030": 3,
-  "20771618": 17,
+  "20771618": 18,
   "20784380": 2,
   "20786549": 3,
   "20788203": 2,
@@ -226176,7 +226182,7 @@
   "285439362": 4,
   "285455883": 26,
   "285457103": 2,
-  "285458277": 3,
+  "285458277": 4,
   "285467696": 3,
   "285484017": 2,
   "285494094": 68,
@@ -241146,21 +241152,21 @@
   "3196471249": 2
  },
  "bilan": {
-  "depuis": 1791586947901,
-  "passages": 81,
-  "nouvelles": 100,
-  "marque": 64,
-  "etat": 1,
-  "prix": 4,
+  "depuis": 1791590565801,
+  "passages": 13,
+  "nouvelles": 8,
+  "marque": 5,
+  "etat": 0,
+  "prix": 0,
   "accessoire": 0,
   "lot": 0,
   "fausse": 2,
   "pro": 0,
-  "vendeurSpecialise": 7,
-  "sansCote": 5,
-  "chere": 15,
-  "description": 1,
-  "alertes": 1
+  "vendeurSpecialise": 0,
+  "sansCote": 0,
+  "chere": 1,
+  "description": 0,
+  "alertes": 0
  },
  "panne": null,
  "panneDebut": null

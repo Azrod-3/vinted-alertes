@@ -1,16 +1,5 @@
 {
  "vues": [
-  "10585965426",
-  "10585962684",
-  "10585960200",
-  "10585959982",
-  "10585617213",
-  "10585977992",
-  "10585977709",
-  "10585971818",
-  "10585976505",
-  "10585902623",
-  "10585975025",
   "10585974672",
   "10585972369",
   "10585971092",
@@ -3999,7 +3988,18 @@
   "10590717052",
   "10590725170",
   "10590724175",
-  "10590727830"
+  "10590727830",
+  "10590731276",
+  "10590740588",
+  "10590745178",
+  "10590745059",
+  "10590751665",
+  "10590767481",
+  "10590769185",
+  "10590768375",
+  "10590781128",
+  "10590788597",
+  "10590796197"
  ],
  "cotes": {
   "Diesel": {
@@ -16369,9 +16369,9 @@
    "niveau": "modèle"
   },
   "Briston": {
-   "date": 1793203549643,
+   "date": 1793324232988,
    "mediane": 150,
-   "echantillon": 82
+   "echantillon": 84
   },
   "modele:G-Shock 2100 casio|4": {
    "date": 1787144762868,
@@ -75628,7 +75628,7 @@
    "niveau": "modèle"
   },
   "modele:Lorus relogio chronograph|2": {
-   "date": 1793320013392,
+   "date": 1793323454011,
    "mediane": 45,
    "echantillon": 14,
    "niveau": "modèle"
@@ -88175,9 +88175,9 @@
    "niveau": "modèle"
   },
   "modele:Calypso polso|4": {
-   "date": 1793319710064,
+   "date": 1793323454704,
    "mediane": 15,
-   "echantillon": 32,
+   "echantillon": 30,
    "niveau": "modèle"
   },
   "modele:Citizen bm7620 eco|3": {
@@ -176353,9 +176353,9 @@
    "niveau": "modèle"
   },
   "modele:Briston clubmaster chronograph|4": {
-   "date": 1790839900834,
-   "mediane": 159.99,
-   "echantillon": 3,
+   "date": 1793324233758,
+   "mediane": 189.99,
+   "echantillon": 5,
    "niveau": "modèle"
   },
   "modele:Breil milano|3": {
@@ -227637,7 +227637,7 @@
    "niveau": "modèle"
   },
   "modele:Daniel Wellington wallingston|4": {
-   "date": 1793322625438,
+   "date": 1793323451982,
    "mediane": null,
    "echantillon": 1,
    "niveau": "modèle"
@@ -252081,36 +252081,42 @@
    "niveau": "modèle"
   },
   "Q&Q smile solar": {
-   "date": 1793318407876,
+   "date": 1793323455749,
    "mediane": null,
    "echantillon": 1
   },
   "modele:Q&Q smile solar smilesolar solare|1": {
-   "date": 1793318408461,
+   "date": 1793323456154,
    "mediane": null,
    "echantillon": 1,
    "niveau": "modèle"
   },
   "modele:Philip Watch caribe urban|2": {
-   "date": 1793319015275,
+   "date": 1793323455205,
    "mediane": 259,
    "echantillon": 8,
    "niveau": "modèle"
   },
   "modele:Viceroy 2016 real|4": {
-   "date": 1793321325013,
+   "date": 1793323453375,
    "mediane": null,
    "echantillon": 1,
    "niveau": "modèle"
   },
   "modele:Lorus v742 8a60|1": {
-   "date": 1793321930167,
+   "date": 1793323452468,
    "mediane": null,
    "echantillon": 1,
    "niveau": "modèle"
   },
   "modele:Citizen 6031 s11103|1": {
-   "date": 1793323276669,
+   "date": 1793323450989,
+   "mediane": null,
+   "echantillon": 1,
+   "niveau": "modèle"
+  },
+  "modele:Citizen relogio avion|3": {
+   "date": 1793323452878,
    "mediane": null,
    "echantillon": 1,
    "niveau": "modèle"
@@ -269155,7 +269161,7 @@
   "74443843": 26,
   "74444038": 4,
   "74444744": 4,
-  "74446008": 45,
+  "74446008": 46,
   "74453780": 2,
   "74456855": 7,
   "74461687": 3,
@@ -287765,7 +287771,7 @@
   "254013633": 5,
   "254015138": 2,
   "254019210": 3,
-  "254030262": 323,
+  "254030262": 324,
   "254037161": 4,
   "254045618": 2,
   "254060419": 12,
@@ -300354,7 +300360,7 @@
   "3152986377": 15,
   "3152993931": 2,
   "3152993968": 7,
-  "3152995725": 3,
+  "3152995725": 5,
   "3152995904": 7,
   "3153003733": 2,
   "3153010212": 3,
@@ -312733,18 +312739,18 @@
   "3206301130": 2
  },
  "bilan": {
-  "depuis": 1793319926004,
-  "passages": 80,
-  "nouvelles": 57,
-  "marque": 43,
-  "etat": 1,
+  "depuis": 1793323456665,
+  "passages": 21,
+  "nouvelles": 10,
+  "marque": 7,
+  "etat": 0,
   "prix": 1,
   "accessoire": 0,
   "lot": 0,
-  "fausse": 1,
+  "fausse": 0,
   "pro": 0,
-  "vendeurSpecialise": 6,
-  "sansCote": 3,
+  "vendeurSpecialise": 0,
+  "sansCote": 0,
   "chere": 1,
   "description": 0,
   "alertes": 1

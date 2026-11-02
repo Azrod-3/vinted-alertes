@@ -27,7 +27,9 @@ const lire = async (chemin) => {
 // les valeurs par defaut plutot que de faire echouer l'enregistrement.
 let options = {};
 try {
-  const config = JSON.parse(await readFile(new URL("./config.json", import.meta.url), "utf8"));
+  const config = JSON.parse(
+    await readFile(new URL(`./${process.env.CONFIG_FICHIER || "config.json"}`, import.meta.url), "utf8")
+  );
   options = {
     coteHeures: config.coteConserverHeures,
     vendeurJours: config.vendeurFenetreJours,

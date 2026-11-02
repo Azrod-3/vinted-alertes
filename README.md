@@ -28,6 +28,53 @@ Pour que le silence ne puisse plus jamais vouloir dire « en panne », le bot
 **prévient sur Discord** quand il ne voit plus aucune annonce (rappel toutes les
 `rappelPanneHeures`), et quand il les revoit.
 
+## Deuxième veille : les appareils photo
+
+Le même moteur surveille aussi les **appareils photo numériques (catégorie
+3075) et argentiques (3076)**, dans un salon Discord à part. Rien n'est partagé
+avec la veille montres, sauf le code :
+
+| | Montres | Photo |
+|---|---|---|
+| Workflow | `veille.yml` | `veille-photo.yml` (cron décalé de 2 min) |
+| Config | `config.json` | `config-photo.json` |
+| État | `etat.json` | `etat-photo.json` |
+| Secret Discord | `DISCORD_WEBHOOK` | `DISCORD_WEBHOOK_PHOTO` |
+
+Chaque veille tourne sur **sa propre machine GitHub** : leurs requêtes ne
+s'additionnent pas sur la même adresse IP. La veille photo est un peu plus
+lente (`intervalleSecondes: 60`, 2 pages par catégorie).
+
+**Pour l'allumer :** crée un salon Discord (par exemple `#photo`), puis
+**Paramètres du salon → Intégrations → Créer un webhook**. Copie l'URL et
+ajoute-la sur GitHub sous **Settings → Secrets and variables → Actions** avec le
+nom `DISCORD_WEBHOOK_PHOTO`. Tant que ce secret n'existe pas, le workflow photo
+s'arrête en succès sans rien faire.
+
+Ce que `config-photo.json` change :
+
+- **Marques** : Canon, Nikon, Sony, Fujifilm, Olympus, Leica, Pentax, Contax,
+  Yashica, Hasselblad, Mamiya, Rollei, Zeiss, Kodak, Polaroid, GoPro, DJI… (clé
+  `marques`).
+- **Accessoires écartés** : sangles, housses, batteries, chargeurs, filtres,
+  trépieds, pellicules, « pour Canon », « compatible »… Un « boîtier seul »
+  (appareil sans objectif) reste une vraie vente.
+- **Défauts photo** : « obturateur bloqué », « ne s'allume plus »,
+  « lens error », « non testé ». Champignons, moisissure, buée et fuites de
+  lumière ne comptent que s'ils ne sont pas niés (« sans champignon » passe).
+- **Faux appareils** : « factice », « dummy », « jouet », « déco ».
+- **Plancher luxe** : Leica, Hasselblad et Phase One sous 200 € sont refusés
+  (de faux Leica existent) ; un Leica lu seulement dans le titre aussi.
+- **Pépites** : Contax, Rollei, Mamiya, Bronica… et des modèles recherchés
+  (Contax T2, Olympus Mju II, Yashica T4, Nikon FM2, Ricoh GR…).
+- **Lots refusés** (`accepterLots: false`) : un lot d'appareils est trop
+  hétérogène pour être coté.
+
+**Les seuils de marge, de prix et le forfait de port (7 €) sont des réglages de
+départ, pas des données mesurées** : à ajuster après quelques jours d'alertes
+réelles. La catégorie des objectifs n'est pas suivie, faute d'avoir pu vérifier
+son numéro.
+
 ## Pourquoi un navigateur et pas une simple requête
 
 Vinted protège son API par un « Client Challenge » qui exige l'exécution de
@@ -243,7 +290,8 @@ finalistes**, soit une poignée par passage.
 
     npm test
 
-462 tests, sans réseau : normalisation, liste blanche des marques, états, mots
+462 tests pour la veille montres, plus 38 pour la veille photo
+(`tests-photo.mjs`, lancé avec `config-photo.json`), sans réseau : normalisation, liste blanche des marques, états, mots
 rédhibitoires et pièges de négation, cote robuste, références, imitations,
 score, message Discord, backoff, recherches, élagage et fusion de l'état.
 
@@ -410,6 +458,10 @@ Ajoutés en novembre 2026 (tous facultatifs, valeur par défaut entre parenthès
 | `echecsAvantRelance` / `echecsAvantAbandon` (`2` / `4`) | quand revisiter l'accueil, quand rendre la main |
 | `backoffMaxSecondes` (`600`) | attente maximale entre deux passages ratés |
 | `recherches` / `recherchesParPassage` (`[]` / `1`) | recherches ciblées, voir plus haut |
+| `marques` | liste blanche (remplace `marquesMontres` dans une autre veille) |
+| `categorieVinted` | un numéro ou une liste (`[3075, 3076]`) ; une recherche ciblée peut préciser sa `categorie` |
+| `libelles` | mots des messages Discord (`nom`, `objet`, `objets`, `horsListe`, `accessoire`, `calme`) |
+| `motsObjetLot` | « 3 montres », « 2 appareils » : le mot qui trahit un lot chiffré |
 
 ## L'état n'est pas fusionné par git
 

@@ -18,26 +18,31 @@ if [ -z "${GITHUB_ACTIONS:-}" ]; then
   exit 0
 fi
 
-temporaire="${RUNNER_TEMP:-/tmp}/etat-local.json"
-cp etat.json "$temporaire" || exit 0
+# Chaque veille a son fichier : etat.json (montres), etat-photo.json (photo)…
+# Les deux workflows poussent sur la meme branche, chacun SON fichier : la
+# boucle de relance ci-dessous absorbe leurs poussees croisees.
+fichier="${ETAT_FICHIER:-etat.json}"
+temporaire="${RUNNER_TEMP:-/tmp}/local-${fichier}"
+cp "$fichier" "$temporaire" || exit 0
 
 git config user.name "veille-vinted"
 git config user.email "actions@github.com"
 
-for essai in 1 2 3; do
+for essai in 1 2 3 4 5; do
   git fetch -q origin main || exit 0
   git reset -q --hard origin/main
-  node fusionner-etat.mjs "$temporaire" etat.json >/dev/null
-  git add etat.json
+  node fusionner-etat.mjs "$temporaire" "$fichier" >/dev/null
+  git add "$fichier"
   if git diff --cached --quiet; then
     echo "état : rien de nouveau à enregistrer"
     exit 0
   fi
-  git commit -q -m "veille : mise à jour de l'état"
+  git commit -q -m "veille : mise à jour de l'état ($fichier)"
   if git push -q origin HEAD:main 2>/dev/null; then
     echo "état enregistré (essai $essai)"
     exit 0
   fi
   echo "état : poussée refusée, le dépôt a bougé — nouvelle tentative"
+  sleep $((essai * 3))
 done
-echo "::warning::état non enregistré après 3 essais"
+echo "::warning::état ($fichier) non enregistré après 5 essais"

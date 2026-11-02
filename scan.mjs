@@ -22,11 +22,34 @@ import { readFile, writeFile } from "node:fs/promises";
 import { execFile } from "node:child_process";
 import { elaguerCotes, elaguerVendeurs, lireVendeur, PLAFOND_VUES } from "./etat.mjs";
 
-const CONFIG = JSON.parse(await readFile(new URL("./config.json", import.meta.url), "utf8"));
+/**
+ * Un meme moteur, plusieurs veilles : CONFIG_FICHIER et ETAT_FICHIER designent
+ * le profil (config-photo.json / etat-photo.json pour les appareils photo). Par
+ * defaut, la veille montres, inchangee.
+ */
+const CONFIG_FICHIER = process.env.CONFIG_FICHIER || "config.json";
+const ETAT_FICHIER = process.env.ETAT_FICHIER || "etat.json";
+const CONFIG = JSON.parse(await readFile(new URL(`./${CONFIG_FICHIER}`, import.meta.url), "utf8"));
 const WEBHOOK = process.env.DISCORD_WEBHOOK;
 /** ESSAI=1 : on affiche les trouvailles sans rien envoyer ni rien enregistrer. */
 const ESSAI = process.env.ESSAI === "1";
-const ETAT = new URL("./etat.json", import.meta.url);
+const ETAT = new URL(`./${ETAT_FICHIER}`, import.meta.url);
+/** Une ou plusieurs categories Vinted : 97 pour les montres, [3075, 3076] pour la photo. */
+const CATEGORIES = [].concat(CONFIG.categorieVinted).map(Number).filter(Boolean);
+/** Cle de cache propre a la categorie, seulement quand il y en a plusieurs. */
+const suffixeCategorie = (categorie) => (CATEGORIES.length > 1 ? `@${categorie}` : "");
+/** Les mots des messages, pour que la veille photo ne parle pas de montres. */
+const L = {
+  nom: "Veille Vinted",
+  objet: "montre",
+  objets: "montres",
+  horsListe: "hors horlogerie",
+  accessoire: "accessoire, pas une montre",
+  calme: "Aucune nouvelle montre n'a été publiée sur cette période.",
+  ...(CONFIG.libelles || {}),
+};
+/** La liste blanche : `marques`, ou `marquesMontres` (nom historique). */
+const LISTE_MARQUES = CONFIG.marques || CONFIG.marquesMontres;
 
 const UA =
   "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36";
@@ -43,7 +66,7 @@ export const normaliser = (texte) =>
     .replace(/[^a-z0-9]+/g, " ")
     .trim();
 
-const MARQUES = CONFIG.marquesMontres.map((m) => ` ${normaliser(m)} `);
+const MARQUES = LISTE_MARQUES.map((m) => ` ${normaliser(m)} `);
 const ETATS = new Set(CONFIG.etatsAcceptes.map(normaliser));
 /** Pre-normalises et entoures d'espaces : evite que "hs" matche "shs". */
 const MOTS = CONFIG.motsRedhibitoires.map((m) => ` ${normaliser(m)} `);
@@ -61,7 +84,11 @@ const PEPITE_SIGNAUX = CONFIG.signauxPepite.map((m) => ` ${normaliser(m)} `);
 const MOTS_VIDES = new Set(CONFIG.motsVides.map(normaliser));
 const MOTS_LOT = CONFIG.motsLot.map((m) => ` ${normaliser(m)} `);
 /** "2 Orologi Swatch", "3 montres" : un lot, a ne jamais comparer a une seule. */
-const LOT_CHIFFRE = /(^|\s)([2-9]|\d{2})\s+(orologi|montres|relojes|uhren|watches|orologio)/;
+const LOT_CHIFFRE = new RegExp(
+  `(^|\\s)([2-9]|\\d{2})\\s+(${(CONFIG.motsObjetLot || ["orologi", "montres", "relojes", "uhren", "watches", "orologio"])
+    .map(normaliser)
+    .join("|")})`
+);
 /** "lot de 3", "lotto di 5", "set di 4" : le nombre suit le mot. */
 const LOT_COMPTE = /(?:lot|lotto|lote|set|konvolut|stock|blocco|paquet)\s+(?:de\s+|di\s+|of\s+|von\s+)?(\d{1,2})(?!\d)/;
 const PAS_LUXE = CONFIG.marquesLuxeExceptions.map((m) => ` ${normaliser(m)} `);
@@ -69,7 +96,7 @@ const INEXISTANTES = CONFIG.marquesInexistantes.map((m) => ` ${normaliser(m)} `)
 /** Les reglages ajoutes en novembre 2026 ont tous une valeur par defaut. */
 const liste = (cle) => (CONFIG[cle] || []).map(normaliser).filter(Boolean);
 /** Les plus longues d'abord : "grand seiko" doit gagner sur un eventuel "seiko". */
-const MARQUES_CANON = [...new Set(CONFIG.marquesMontres.map(normaliser))].sort((a, b) => b.length - a.length);
+const MARQUES_CANON = [...new Set(LISTE_MARQUES.map(normaliser))].sort((a, b) => b.length - a.length);
 const GENERIQUES = new Set(liste("marquesGeneriques"));
 const AMBIGUES = new Set(liste("marquesTitreAmbigues"));
 const IMITATIONS = liste("motsImitation").map((m) => ` ${m} `);
@@ -311,7 +338,7 @@ export const marqueCanonique = (marque) => {
 export function marqueDepuisTitre(titre) {
   const texte = ` ${normaliser(titre)} `;
   const trouvee = MARQUES_CANON.find((m) => m.length >= 3 && !AMBIGUES.has(m) && texte.includes(` ${m} `));
-  return trouvee ? CONFIG.marquesMontres.find((orig) => normaliser(orig) === trouvee) || trouvee : "";
+  return trouvee ? LISTE_MARQUES.find((orig) => normaliser(orig) === trouvee) || trouvee : "";
 }
 
 /** Libelle de marque qui ne dit rien : vide, "Autre", "Vintage", "Sans marque"… */
@@ -451,7 +478,8 @@ export const estLuxe = (marque) => {
  * "F 91W" comme la meme montre.
  *
  * Ne sont pas des references : diametres et etancheites ("40mm", "200m",
- * "10atm"), annees ("1970"), carats ("18k"), rubis ("21j"), petits nombres.
+ * "10atm"), annees ("1970"), carats ("18k"), rubis ("21j"), petits nombres,
+ * plages de zoom ("18-55").
  */
 export function extraireReferences(titre) {
   const brut = String(titre || "")
@@ -466,6 +494,8 @@ export function extraireReferences(titre) {
     if (/^\d{1,2}$/.test(compact)) continue;
     if (/^\d{1,4}(mm|cm|m|atm|bar|ft)$/.test(compact)) continue;
     if (/^(19[2-9]\d|20[0-2]\d)$/.test(compact)) continue;
+    // Plage de zoom d'un objectif ("18-55", "70-200") : pas un modele.
+    if (/^\d{1,3}-\d{1,3}(mm)?$/.test(jeton)) continue;
     if (/^\d{1,2}(k|kt|ct|j|jewels|rubis|rubini)$/.test(compact)) continue;
     if (/^\d+(eur|e|euros?)$/.test(compact)) continue;
     if (vues.has(compact)) continue;
@@ -661,16 +691,16 @@ const COTE_VALIDE_MS = 24 * 3600 * 1000;
  * Une requete bloquee ne met RIEN en cache : avant, un 429 enregistrait "pas de
  * cote" pour 24 h, et le modele restait invisible toute la journee.
  */
-async function coteModele(page, requete, jetons, marque, etat, cache) {
+async function coteModele(page, requete, jetons, marque, etat, cache, categorie = CATEGORIES[0]) {
   // L'etat fait partie de la cle : la meme requete donne une cote differente
   // selon qu'on cherche des neuves ou des montres portees.
-  const cle = `modele:${normaliser(requete)}|${niveauEtat(etat)}`;
+  const cle = `modele:${normaliser(requete)}|${niveauEtat(etat)}${suffixeCategorie(categorie)}`;
   const memo = cache[cle];
   if (memo && Date.now() - memo.date < COTE_VALIDE_MS) return memo;
 
   const reponse = await catalogue(
     page,
-    rechercheUrl({ search_text: requete, catalog_ids: String(CONFIG.categorieVinted) })
+    rechercheUrl({ search_text: requete, catalog_ids: String(categorie) })
   );
   if (!reponse) return { mediane: null, echantillon: 0, niveau: "modèle", indisponible: true };
   // On ne garde que les annonces dont on est sur qu'il s'agit du meme modele,
@@ -688,15 +718,15 @@ async function coteModele(page, requete, jetons, marque, etat, cache) {
  * Cote d'une marque : mediane des montres comparables en vente. Cle de cache
  * canonique : "TISSOT", "Tissot" et "Tissot 1853" partagent la meme.
  */
-async function coteMarque(page, marque, cache) {
+async function coteMarque(page, marque, cache, categorie = CATEGORIES[0]) {
   const canon = marqueCanonique(marque);
-  const cle = `marque:${canon}`;
+  const cle = `marque:${canon}${suffixeCategorie(categorie)}`;
   const memo = cache[cle];
   if (memo && Date.now() - memo.date < COTE_VALIDE_MS) return memo;
 
   const reponse = await catalogue(
     page,
-    rechercheUrl({ search_text: marque, catalog_ids: String(CONFIG.categorieVinted) })
+    rechercheUrl({ search_text: marque, catalog_ids: String(categorie) })
   );
   if (!reponse) return { mediane: null, echantillon: 0, indisponible: true };
 
@@ -960,10 +990,10 @@ export function corpsAlerte(annonce) {
     ...(annonce.cote ? [{ name: "Cote", value: `${annonce.cote} € (${annonce.niveau})`, inline: true }] : []),
     { name: "Marque", value: `${annonce.marque || "inconnue"}${annonce.marqueDeduite ? " _(lue dans le titre)_" : ""}`, inline: true },
     { name: "État", value: annonce.etat || "non précisé", inline: true },
-    ...(annonce.vendeurNb > 1 ? [{ name: "Vendeur", value: `${annonce.vendeurNb} montres publiées récemment`, inline: true }] : []),
-    ...(annonce.pepite ? [{ name: "Signal", value: "montre de collection 💎", inline: true }] : []),
+    ...(annonce.vendeurNb > 1 ? [{ name: "Vendeur", value: `${annonce.vendeurNb} ${L.objets} publiées récemment`, inline: true }] : []),
+    ...(annonce.pepite ? [{ name: "Signal", value: `${L.objet} de collection 💎`, inline: true }] : []),
     ...(annonce.lot
-      ? [{ name: "Lot", value: `${annonce.lot} montres, comptées à ${Math.round(CONFIG.facteurLot * 100)} % de la cote`, inline: false }]
+      ? [{ name: "Lot", value: `${annonce.lot} ${L.objets}, comptées à ${Math.round(CONFIG.facteurLot * 100)} % de la cote`, inline: false }]
       : []),
     ...(annonce.cible ? [{ name: "Recherche", value: annonce.cible, inline: true }] : []),
   ];
@@ -982,7 +1012,7 @@ export function corpsAlerte(annonce) {
         fields: champs,
         // La grande image plutot que la vignette : on juge une montre sur photo.
         image: annonce.photo ? { url: annonce.photo } : undefined,
-        footer: { text: `Veille Vinted · ${annonce.lien}`.slice(0, 2048) },
+        footer: { text: `${L.nom} · ${annonce.lien}`.slice(0, 2048) },
         timestamp: new Date().toISOString(),
       },
     ],
@@ -1046,15 +1076,15 @@ async function alerter(annonce) {
 export function texteResume(bilan, ecoule) {
   const duree = Math.round(ecoule / 60000);
   const motifs = [
-    [bilan.marque, "hors horlogerie"],
+    [bilan.marque, L.horsListe],
     [bilan.prix, "sous le prix plancher"],
     [bilan.etat, "état insuffisant"],
-    [bilan.accessoire, "accessoire, pas une montre"],
+    [bilan.accessoire, L.accessoire],
     [bilan.imitation, "imitation annoncée"],
-    [bilan.lot, "lot de plusieurs montres"],
+    [bilan.lot, `lot de plusieurs ${L.objets}`],
     [bilan.fausse, "luxe à prix impossible"],
     [bilan.pro, "vendeur professionnel"],
-    [bilan.vendeurSpecialise, "revendeur de montres"],
+    [bilan.vendeurSpecialise, `revendeur de ${L.objets}`],
     [bilan.sansCote, "marque sans cote fiable"],
     [bilan.chere, "au prix du marché"],
     [bilan.scoreFaible, "score trop faible"],
@@ -1068,7 +1098,7 @@ export function texteResume(bilan, ecoule) {
     `Aucune bonne affaire depuis **${duree} min** ` +
     `(${bilan.passages} passages, ${bilan.nouvelles} nouvelles annonces).\n\n` +
     (bilan.nouvelles === 0
-      ? "Aucune nouvelle montre n'a été publiée sur cette période."
+      ? L.calme
       : `**Pourquoi :** ${motifs.join(" · ")}.`) +
     (bilan.blocages > 0 ? `\n\n⚠️ Vinted a freiné le bot ${bilan.blocages} fois (403/429) : passages ralentis.` : "")
   );
@@ -1094,7 +1124,7 @@ async function resumer(bilan) {
         title: "Rien à signaler",
         color: 0x95a5a6,
         description: texteResume(bilan, ecoule),
-        footer: { text: "Veille Vinted" },
+        footer: { text: L.nom },
         timestamp: new Date().toISOString(),
       },
     ],
@@ -1151,18 +1181,22 @@ export async function unPassage(page, ctx) {
   // cinq. Dont une Baume & Mercier a 199 EUR cotee 550 EUR, intitulee
   // "Baume e mercier automatico". La categorie dit deja que ce sont des montres.
   const trouvees = new Map();
-  let rang = 0;
-  for (let numero = 1; numero <= CONFIG.pagesCatalogue; numero += 1) {
-    const r = await catalogue(
-      page,
-      rechercheUrl({ catalog_ids: String(CONFIG.categorieVinted), page: String(numero), order: "newest_first" })
-    );
-    const lot = (r && r.items) || [];
-    for (const item of lot) {
-      if (!trouvees.has(item.id)) trouvees.set(item.id, { ...item, rang });
-      rang += 1;
+  for (const categorie of CATEGORIES) {
+    // Le rang repart de zero par categorie : il mesure la fraicheur dans SA liste.
+    let rang = 0;
+    for (let numero = 1; numero <= CONFIG.pagesCatalogue; numero += 1) {
+      const r = await catalogue(
+        page,
+        rechercheUrl({ catalog_ids: String(categorie), page: String(numero), order: "newest_first" })
+      );
+      const lot = (r && r.items) || [];
+      for (const item of lot) {
+        if (!trouvees.has(item.id)) trouvees.set(item.id, { ...item, rang, categorie });
+        rang += 1;
+      }
+      if (!lot.length || garde.bloque) break;
     }
-    if (!lot.length || garde.bloque) break;
+    if (garde.bloque) break;
   }
 
   if (!trouvees.size) {
@@ -1185,7 +1219,7 @@ export async function unPassage(page, ctx) {
         page,
         rechercheUrl({
           search_text: r.texte || r.nom,
-          catalog_ids: String(CONFIG.categorieVinted),
+          catalog_ids: String(r.categorie || CATEGORIES[0]),
           order: "newest_first",
           price_from: r.prixMin,
           price_to: r.prixMax,
@@ -1195,7 +1229,7 @@ export async function unPassage(page, ctx) {
         if (!dansFourchette(item, r)) continue;
         const deja = trouvees.get(item.id);
         if (deja) deja.recherche = r;
-        else trouvees.set(item.id, { ...item, recherche: r });
+        else trouvees.set(item.id, { ...item, recherche: r, categorie: r.categorie || CATEGORIES[0] });
       }
       if (garde.bloque) break;
     }
@@ -1260,7 +1294,7 @@ export async function unPassage(page, ctx) {
     // une requete par modele distinct. On ne la calcule donc que si l'annonce
     // n'est pas manifestement hors de prix — sans quoi chaque passage
     // interrogerait Vinted trois cents fois.
-    let cote = await coteMarque(page, marque, cotes);
+    let cote = await coteMarque(page, marque, cotes, item.categorie);
     if (cote.indisponible) {
       remettre(item);
       continue;
@@ -1281,7 +1315,7 @@ export async function unPassage(page, ctx) {
     } else if (!cote.mediane || prix / cote.mediane <= CONFIG.ratioAvantCoteModele) {
       const jetons = jetonsModele(item.title, marque);
       const requete = requeteModele(item.title, marque);
-      const precise = requete ? await coteModele(page, requete, jetons, marque, item.status, cotes) : null;
+      const precise = requete ? await coteModele(page, requete, jetons, marque, item.status, cotes, item.categorie) : null;
       if (precise && precise.mediane) cote = precise;
       else if (precise && precise.indisponible) {
         remettre(item);
@@ -1418,7 +1452,7 @@ async function signalerPanne(etat, enPanne) {
         description:
           `${cause} **Aucune alerte ne peut partir tant que ce n'est pas réparé.**` +
           (heures >= 1 ? `\n\nPanne en cours depuis environ ${heures} h.` : ""),
-        footer: { text: "Veille Vinted" },
+        footer: { text: L.nom },
         timestamp: new Date().toISOString(),
       }],
     };
@@ -1432,7 +1466,7 @@ async function signalerPanne(etat, enPanne) {
         title: "✅ Le bot voit à nouveau les annonces",
         color: 0x2ecc71,
         description: `La surveillance a repris après environ ${heures} h d'interruption.`,
-        footer: { text: "Veille Vinted" },
+        footer: { text: L.nom },
         timestamp: new Date().toISOString(),
       }],
     };

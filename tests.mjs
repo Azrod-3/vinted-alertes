@@ -1,5 +1,5 @@
 /** Tests des filtres, de la cote, du score et de l'etat. `npm test`. Aucun reseau. */
-import { normaliser, marqueHorlogere, etatAcceptable, motRedhibitoire, motifDeRefus, texteResume, estAccessoire, estLuxe, marqueInexistante, requeteModele, estPepite, merite, estLot, nombreDansLot, article, comparable, annonceDepuisProduit, rechercheUrl, etatProche, jetonsModele, mediane, nettoyer, dispersion, calculerCote, lisserCote, marqueCanonique, marqueDepuisTitre, marqueDe, estImitation, extraireReferences, titreContient, prixTotalDepuisLibelle, scoreAffaire, corpsAlerte, delaiBackoff, statutBloquant, recherchesDuPassage, dansFourchette } from "./scan.mjs";
+import { normaliser, marqueHorlogere, etatAcceptable, motRedhibitoire, motifDeRefus, texteResume, estAccessoire, estLuxe, marqueInexistante, requeteModele, estPepite, merite, estLot, nombreDansLot, article, comparable, annonceDepuisProduit, rechercheUrl, etatProche, jetonsModele, mediane, nettoyer, dispersion, calculerCote, lisserCote, marqueCanonique, marqueDepuisTitre, marqueDe, estImitation, extraireReferences, titreContient, prixTotalDepuisLibelle, scoreAffaire, corpsAlerte, delaiBackoff, statutBloquant, recherchesDuPassage, dansFourchette, preuvesCote, coteUtilisable, texteComparables } from "./scan.mjs";
 import { elaguerCotes, elaguerVendeurs, lireVendeur, fusionnerEtats } from "./etat.mjs";
 
 let ok = 0;
@@ -681,6 +681,25 @@ verifier("fusion : la panne suit notre version", fusion.panne, null);
 verifier("fusion : notre bilan", fusion.bilan.passages, 1);
 verifier("fusion : plafond des vues",
   fusionnerEtats({ vues: Array.from({ length: 4000 }, (_, i) => `d${i}`) }, { vues: ["n1"] }, T).vues.slice(-1)[0], "n1");
+
+// --- Preuves de la cote : fourchette et annonces comparables ----------------
+const semblables = [100, 105, 110, 115, 120, 300].map((prix, i) => ({ id: 500 + i, price: { amount: String(prix) } }));
+const preuves = preuvesCote(semblables, 110);
+verifier("fourchette sans l'aberration", JSON.stringify(preuves.fourchette), JSON.stringify([100, 120]));
+verifier("exemples les plus proches de la médiane", preuves.exemples.map((e) => e.prix).join(), "110,105,115,100");
+verifier("pas de preuve sans cote", JSON.stringify(preuvesCote(semblables, null)), "{}");
+verifier("montres : cote de marque autorisée", coteUtilisable({ mediane: 200, niveau: "marque" }), true);
+verifier("cote de modèle toujours utilisable", coteUtilisable({ mediane: 200, niveau: "modèle" }), true);
+verifier("pas de médiane, pas de cote", coteUtilisable({ mediane: null, niveau: "modèle" }), false);
+const preuveTexte = texteComparables({ id: 501, fourchette: [100, 120], exemples: preuves.exemples });
+verifier("fourchette affichée", preuveTexte.startsWith("Fourchette 100–120 €"), true);
+verifier("liens vers les comparables", preuveTexte.includes("[110 €](https://www.vinted.fr/items/502)"), true);
+verifier("l'annonce signalée n'est pas sa propre preuve", preuveTexte.includes("items/501"), false);
+verifier("trois exemples au plus", (preuveTexte.match(/\]\(/g) || []).length, 3);
+const avecPreuves = corpsAlerte({ ...alerteBase, niveau: "modèle", fourchette: [100, 120], exemples: preuves.exemples, score: baume });
+verifier("champ « Vérifier la cote »", avecPreuves.embeds[0].fields.some((f) => f.name === "Vérifier la cote"), true);
+verifier("prix demandés annoncés comme tels", avecPreuves.embeds[0].description.includes("prix demandés, pas prix vendus"), true);
+verifier("sans preuve, pas de champ vide", corpsAlerte({ ...alerteBase, score: baume }).embeds[0].fields.some((f) => f.name === "Vérifier la cote"), false);
 
 console.log(`${ok} tests passés${echecs.length ? `, ${echecs.length} ÉCHECS` : ""}`);
 if (echecs.length) {

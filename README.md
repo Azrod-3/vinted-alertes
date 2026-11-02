@@ -67,6 +67,10 @@ Ce que `config-photo.json` change :
   (de faux Leica existent) ; un Leica lu seulement dans le titre aussi.
 - **Pépites** : Contax, Rollei, Mamiya, Bronica… et des modèles recherchés
   (Contax T2, Olympus Mju II, Yashica T4, Nikon FM2, Ricoh GR…).
+- **Cote du modèle exact uniquement** (`coteMarqueAutorisee: false`) : la cote de
+  marque mélange les compacts à 30 € et les reflex à 800 € (« Canon 111 € ») et
+  ne vaut rien en photo. Sans assez d'annonces identiques, pas d'alerte (sauf
+  pépite sous `pepitePrixMax`).
 - **Lots refusés** (`accepterLots: false`) : un lot d'appareils est trop
   hétérogène pour être coté.
 
@@ -193,6 +197,10 @@ mémorisées pour ne jamais alerter deux fois.
   même cote de marque et se comparent entre elles.
 - **Lissage.** Une cote rafraîchie garde `coteLissage` (30 %) de l'ancienne :
   un relevé de 40 annonces est un instantané bruité.
+- **Cote vérifiable.** Chaque alerte affiche un champ « Vérifier la cote » :
+  la fourchette des prix retenus et des liens vers 3 annonces comparables
+  proches de la médiane. La cote est une médiane de **prix demandés** sur
+  Vinted, pas de prix vendus — l'alerte le dit.
 - **Dispersion mesurée** (écart interquartile / médiane) : quand les prix
   comparables partent dans tous les sens, le score baisse.
 - **Une requête bloquée ne met rien en cache.** Avant, un 429 enregistrait « pas
@@ -290,7 +298,7 @@ finalistes**, soit une poignée par passage.
 
     npm test
 
-462 tests pour la veille montres, plus 38 pour la veille photo
+475 tests pour la veille montres, plus 41 pour la veille photo
 (`tests-photo.mjs`, lancé avec `config-photo.json`), sans réseau : normalisation, liste blanche des marques, états, mots
 rédhibitoires et pièges de négation, cote robuste, références, imitations,
 score, message Discord, backoff, recherches, élagage et fusion de l'état.
@@ -458,6 +466,7 @@ Ajoutés en novembre 2026 (tous facultatifs, valeur par défaut entre parenthès
 | `echecsAvantRelance` / `echecsAvantAbandon` (`2` / `4`) | quand revisiter l'accueil, quand rendre la main |
 | `backoffMaxSecondes` (`600`) | attente maximale entre deux passages ratés |
 | `recherches` / `recherchesParPassage` (`[]` / `1`) | recherches ciblées, voir plus haut |
+| `coteMarqueAutorisee` (`true`) | `false` : n'alerter que sur la cote du modèle exact (réglé ainsi pour la photo) |
 | `marques` | liste blanche (remplace `marquesMontres` dans une autre veille) |
 | `categorieVinted` | un numéro ou une liste (`[3075, 3076]`) ; une recherche ciblée peut préciser sa `categorie` |
 | `libelles` | mots des messages Discord (`nom`, `objet`, `objets`, `horsListe`, `accessoire`, `calme`) |

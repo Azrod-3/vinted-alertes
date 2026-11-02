@@ -1,5 +1,6 @@
-/** Tests des trois filtres. `npm test`. Aucun reseau, aucune dependance. */
-import { normaliser, marqueHorlogere, etatAcceptable, motRedhibitoire, motifDeRefus, texteResume, estAccessoire, estLuxe, marqueInexistante, requeteModele, estPepite, merite, estLot, nombreDansLot, article, comparable, annonceDepuisProduit, rechercheUrl, etatProche, jetonsModele } from "./scan.mjs";
+/** Tests des filtres, de la cote, du score et de l'etat. `npm test`. Aucun reseau. */
+import { normaliser, marqueHorlogere, etatAcceptable, motRedhibitoire, motifDeRefus, texteResume, estAccessoire, estLuxe, marqueInexistante, requeteModele, estPepite, merite, estLot, nombreDansLot, article, comparable, annonceDepuisProduit, rechercheUrl, etatProche, jetonsModele, mediane, nettoyer, dispersion, calculerCote, lisserCote, marqueCanonique, marqueDepuisTitre, marqueDe, estImitation, extraireReferences, titreContient, prixTotalDepuisLibelle, scoreAffaire, corpsAlerte, delaiBackoff, statutBloquant, recherchesDuPassage, dansFourchette } from "./scan.mjs";
+import { elaguerCotes, elaguerVendeurs, lireVendeur, fusionnerEtats } from "./etat.mjs";
 
 let ok = 0;
 const echecs = [];
@@ -483,6 +484,203 @@ const calme = texteResume({ ...bilan, nouvelles: 0, marque: 0, prix: 0, etat: 0,
                             sansCote: 0, chere: 0, description: 0 }, 3600000);
 verifier("nuit calme", calme.includes("Aucune nouvelle montre"), true);
 verifier("pas de « Pourquoi » vide", calme.includes("Pourquoi"), false);
+
+// =============================================================================
+// Novembre 2026 : cote robuste, filtres dès le titre, score, Discord, fiabilité
+// =============================================================================
+
+// --- Médiane et cote robuste -------------------------------------------------
+verifier("médiane impaire", mediane([3, 1, 2]), 2);
+// L'ancienne version renvoyait 3 : la valeur haute, qui gonflait la cote.
+verifier("médiane paire = moyenne des centrales", mediane([1, 2, 3, 4]), 2.5);
+verifier("médiane vide", mediane([]), undefined);
+// Une seule annonce à 300 € parmi des ~110 € ne doit pas bouger la cote.
+verifier("aberration retirée par le MAD", JSON.stringify(nettoyer([100, 105, 110, 115, 120, 300])), JSON.stringify([100, 105, 110, 115, 120]));
+verifier("sous cinq annonces, pas de MAD", nettoyer([100, 110, 300]).length, 3);
+verifier("garde-fou ×4 conservé", nettoyer([100, 110, 120, 900]).includes(900), false);
+verifier("dispersion nulle", dispersion([100, 100, 100, 100]), 0);
+verifier("dispersion inconnue sous 4 annonces", dispersion([100, 200]), null);
+verifier("dispersion forte", dispersion([50, 100, 200, 400]) > 0.5, true);
+const coteTest = calculerCote([100, 105, 110, 115, 120, 300, NaN, 0], 3);
+verifier("cote : médiane robuste", coteTest.mediane, 110);
+verifier("cote : échantillon nettoyé", coteTest.echantillon, 5);
+verifier("cote : échantillon trop maigre", calculerCote([100, 200], 3).mediane, null);
+verifier("lissage avec l'ancienne cote", lisserCote({ mediane: 100 }, { mediane: 200 }, 0.3).mediane, 170);
+verifier("pas d'ancienne cote, pas de lissage", lisserCote(null, { mediane: 200 }, 0.3).mediane, 200);
+verifier("nouvelle cote nulle reste nulle", lisserCote({ mediane: 100 }, { mediane: null }, 0.3).mediane, null);
+
+// --- Marque canonique : un seul groupe par maison ----------------------------
+verifier("TISSOT = tissot", marqueCanonique("TISSOT"), "tissot");
+verifier("Tissot 1853 = tissot", marqueCanonique("Tissot 1853"), "tissot");
+verifier("Grand Seiko reste Grand Seiko", marqueCanonique("Grand Seiko"), "grand seiko");
+verifier("Orient Star n'est pas Orient", marqueCanonique("Orient Star"), "orient star");
+verifier("comparable malgré la casse de la marque",
+  comparable(cand("TISSOT PRX quartz", "TISSOT", "Bon état"), "Tissot", ["prx"], "Bon état"), true);
+verifier("une imitation ne cote rien",
+  comparable(cand("Tissot PRX homage", "Tissot", "Bon état"), "Tissot", ["prx"], "Bon état"), false);
+
+// --- Marque lue dans le titre quand le champ est vide ------------------------
+verifier("Longines lue dans le titre", marqueDepuisTitre("Montre Longines automatique vintage"), "Longines");
+verifier("Orient est ambigu", marqueDepuisTitre("Montre Orient bamboo"), "");
+verifier("titre sans marque", marqueDepuisTitre("Montre homme acier"), "");
+verifier("champ vide : marque du titre",
+  JSON.stringify(marqueDe({ brand_title: "", title: "Hamilton Khaki Field mécanique" })),
+  JSON.stringify({ marque: "Hamilton", deduite: true }));
+verifier("champ « Autre » : marque du titre", marqueDe({ brand_title: "Autre", title: "Hamilton Khaki" }).marque, "Hamilton");
+verifier("marque de mode : le titre ne la rachète pas", marqueDe({ brand_title: "Guess", title: "façon Hamilton" }).marque, "");
+verifier("champ horloger prioritaire", JSON.stringify(marqueDe({ brand_title: "Tissot", title: "Hamilton" })),
+  JSON.stringify({ marque: "Tissot", deduite: false }));
+verifier("recherche toutesMarques garde la marque",
+  marqueDe({ brand_title: "Seiko", title: "Seiko SKX007", recherche: { toutesMarques: true } }).marque, "Seiko");
+verifier("annonce sans marque examinée",
+  motifDeRefus({ id: 20, title: "Hamilton Khaki Field", brand_title: "", status: "Bon état", price: { amount: "120" } }), "");
+verifier("Rolex sans marque renseignée : refusée",
+  motifDeRefus({ id: 21, title: "Rolex Datejust", brand_title: "", status: "Bon état", price: { amount: "3000" } }), "fausse");
+
+// --- Imitations repérées dès le titre ----------------------------------------
+for (const titre of ["Montre style Rolex Submariner", "Homage Nautilus bleu", "Montre type Daytona noire",
+                     "Réplique Royal Oak", "Montre inspirée de la Speedmaster", "Clone Submariner date",
+                     "Orologio stile tipo Submariner"]) {
+  verifier(`imitation : « ${titre} »`, estImitation(titre) !== "", true);
+}
+for (const titre of ["Montre style aviateur", "Tissot PRX 40mm", "Montre type militaire",
+                     "Omega Seamaster 300", "Hamilton Khaki Field", "Montre en faux cuir"]) {
+  verifier(`pas une imitation : « ${titre} »`, estImitation(titre), "");
+}
+verifier("imitation écartée avant toute requête",
+  motifDeRefus({ id: 22, title: "Citizen hommage Submariner", brand_title: "Citizen", status: "Bon état",
+                 price: { amount: "60" } }), "imitation");
+
+// --- Boîtes : seules, ce sont des accessoires ; avec la montre, non ---------
+for (const titre of ["Omega Seamaster with box", "Tissot PRX full set box papiers",
+                     "Hamilton Khaki avec écrin d'origine et papiers"]) {
+  verifier(`montre avec boîte : « ${titre} »`, estAccessoire(titre), titre.includes("écrin"));
+}
+for (const titre of ["Watch case Seiko", "Rolex boîte seule", "Hamilton boite vide",
+                     "Tudor box and papers only", "Omega solo scatola", "Longines sans montre"]) {
+  verifier(`sans montre : « ${titre} »`, estAccessoire(titre), true);
+}
+
+// --- Références horlogères ---------------------------------------------------
+verifier("F-91W gardée entière", JSON.stringify(extraireReferences("Casio F-91W vintage").map((r) => r.compact)), JSON.stringify(["f91w"]));
+verifier("calibre, taille, année, carats, rubis triés",
+  JSON.stringify(extraireReferences("Seiko 7S26-0020 40mm 1995 18k 21j 200m").map((r) => r.compact)), JSON.stringify(["7s260020"]));
+verifier("référence Tissot à points", extraireReferences("Tissot T120.407.17.041.00")[0].brut, "t120.407.17.041.00");
+verifier("calibre seul", extraireReferences("Seiko 6139 chrono")[0].compact, "6139");
+verifier("requête avec référence à tiret", requeteModele("Montre Casio F-91W", "Casio"), "Casio f-91w");
+verifier("jeton compact", JSON.stringify(jetonsModele("Montre Casio F-91W", "Casio")), JSON.stringify(["f91w"]));
+verifier("F 91W reconnue", titreContient("Casio F 91W retro", "f91w"), true);
+verifier("F91W reconnue", titreContient("Casio F91W", "f91w"), true);
+verifier("pr100 ne matche pas pr1000", titreContient("Tissot PR1000", "pr100"), false);
+verifier("pr 100 matche pr100", titreContient("Tissot pr 100 quartz", "pr100"), true);
+verifier("mot entier seulement", titreContient("Tissot prxx", "prx"), false);
+verifier("comparable via la référence",
+  comparable(cand("CASIO F 91W rétro", "Casio", "Bon état"), "Casio", ["f91w"], "Bon état"), true);
+
+// --- Prix total (protection acheteurs) ---------------------------------------
+verifier("total lu dans le libellé", prixTotalDepuisLibelle(produit.itemBox.accessibilityLabel), 1029.7);
+verifier("total au format français", prixTotalDepuisLibelle("x, 1 029,70 €, 1 081,89 €"), 1081.89);
+verifier("un seul prix : pas de total", prixTotalDepuisLibelle("x, 50.00 €"), null);
+verifier("total dans l'annonce convertie", annonceDepuisProduit(produit).prix_total, 1029.7);
+
+// --- Score d'affaire ---------------------------------------------------------
+// La Baume & Mercier à 199 € cotée 550 € : le cas qu'on ne doit jamais rater.
+const baume = scoreAffaire({ prix: 199, prixTotal: 209.65, cote: 550, niveau: "marque", echantillon: 20,
+                              etat: "Bon état", vendeurNb: 1, rang: 3 });
+verifier("grosse prise : urgente", baume.urgence, "urgente");
+verifier("bénéfice net frais déduits", baume.margeNette, Math.round(550 - 209.65 - 6));
+verifier("décote affichée sur le prix", baume.decote, 64);
+const moyenne = scoreAffaire({ prix: 100, prixTotal: 105.7, cote: 175, niveau: "marque", echantillon: 10,
+                                etat: "Bon état", vendeurNb: 4, rang: 300 });
+verifier("petite marge sur cote de marque : normale", moyenne.urgence, "normale");
+verifier("le score est la somme des composantes",
+  moyenne.score, Object.values(moyenne.details).reduce((a, b) => a + b, 0));
+const modele = scoreAffaire({ prix: 100, cote: 175, niveau: "modèle", echantillon: 10, etat: "Bon état", vendeurNb: 1, rang: 3 });
+verifier("cote de modèle plus fiable que de marque", modele.details.fiabilite > moyenne.details.fiabilite, true);
+const disperse = scoreAffaire({ prix: 100, cote: 175, niveau: "modèle", echantillon: 10, dispersion: 1.2, etat: "Bon état" });
+verifier("prix comparables dispersés : fiabilité en baisse", disperse.details.fiabilite < modele.details.fiabilite, true);
+verifier("score borné à 100",
+  scoreAffaire({ prix: 10, cote: 5000, niveau: "modèle", echantillon: 50, etat: "Neuf avec étiquette", pepite: true, rang: 0 }).score <= 100, true);
+const sansCoteScore = scoreAffaire({ prix: 80, cote: null, etat: "Bon état", pepite: true });
+verifier("sans cote : ni marge ni décote", sansCoteScore.margeNette, null);
+verifier("sans cote : jamais urgente", sansCoteScore.urgence, "normale");
+
+// --- Alerte Discord ----------------------------------------------------------
+const alerteBase = { id: 1, titre: "Baume & Mercier Classima", prix: 199, prixTotal: 209.65, cote: 550,
+                     echantillon: 20, niveau: "marque", marque: "Baume & Mercier", etat: "Bon état",
+                     description: "Très belle montre", lien: "https://www.vinted.fr/items/1", photo: "https://x/y.webp",
+                     vendeurNb: 1, rang: 3 };
+const urgente = corpsAlerte({ ...alerteBase, score: baume });
+verifier("mention sur très grosse affaire", String(urgente.content).startsWith("@here"), true);
+verifier("mention autorisée", urgente.allowed_mentions.parse.includes("everyone"), true);
+verifier("grande photo", urgente.embeds[0].image.url, "https://x/y.webp");
+verifier("lien direct", urgente.embeds[0].url, "https://www.vinted.fr/items/1");
+verifier("score affiché", urgente.embeds[0].fields.some((f) => f.name === "Score" && f.value.includes(`${baume.score}/100`)), true);
+verifier("décote affichée", urgente.embeds[0].description.includes("−64 %"), true);
+verifier("cote affichée", urgente.embeds[0].fields.some((f) => f.name === "Cote" && f.value.startsWith("550")), true);
+const calmeAlerte = corpsAlerte({ ...alerteBase, prix: 100, prixTotal: 105.7, cote: 175, score: moyenne });
+verifier("pas de mention sur une alerte ordinaire", "content" in calmeAlerte, false);
+verifier("aucune mention possible depuis la description", calmeAlerte.allowed_mentions.parse.length, 0);
+const deduiteAlerte = corpsAlerte({ ...alerteBase, marqueDeduite: true, score: moyenne });
+verifier("marque déduite signalée", deduiteAlerte.embeds[0].fields.some((f) => f.value.includes("lue dans le titre")), true);
+const cibleAlerte = corpsAlerte({ ...alerteBase, cote: null, cible: "Tissot PRX", alerteSousPrix: 150, score: sansCoteScore });
+verifier("alerte de recherche ciblée", cibleAlerte.embeds[0].description.includes("prix cible de 150 €"), true);
+
+// --- Fiabilité : backoff et blocages ----------------------------------------
+verifier("pas d'échec : intervalle normal", delaiBackoff(0, 40, 600), 40);
+verifier("un échec : double", delaiBackoff(1, 40, 600), 80);
+verifier("trois échecs", delaiBackoff(3, 40, 600), 320);
+verifier("plafonné", delaiBackoff(8, 40, 600), 600);
+verifier("jamais sous l'intervalle", delaiBackoff(2, 40, 10), 40);
+verifier("429 bloquant", statutBloquant(429), true);
+verifier("403 bloquant", statutBloquant(403), true);
+verifier("challenge bloquant", statutBloquant("challenge"), true);
+verifier("404 non bloquant", statutBloquant(404), false);
+
+// --- Recherches ciblées ------------------------------------------------------
+const recherches = [{ nom: "a" }, { nom: "b", actif: false }, { nom: "c" }];
+verifier("rotation : tour 0", recherchesDuPassage(recherches, 0, 1).map((r) => r.nom).join(), "a");
+verifier("rotation : tour 1", recherchesDuPassage(recherches, 1, 1).map((r) => r.nom).join(), "c");
+verifier("rotation : tour 2", recherchesDuPassage(recherches, 2, 1).map((r) => r.nom).join(), "a");
+verifier("désactivée ignorée", recherchesDuPassage(recherches, 0, 5).map((r) => r.nom).join(), "a,c");
+verifier("aucune recherche", recherchesDuPassage([], 0, 1).length, 0);
+verifier("dans la fourchette", dansFourchette({ price: { amount: "120" } }, { prixMin: 50, prixMax: 200 }), true);
+verifier("trop cher", dansFourchette({ price: { amount: "250" } }, { prixMin: 50, prixMax: 200 }), false);
+verifier("adresse avec fourchette",
+  rechercheUrl({ search_text: "tissot prx", catalog_ids: "97", order: "newest_first", price_from: 50, price_to: 300 }),
+  "/catalog?search_text=tissot+prx&catalog%5B%5D=97&order=newest_first&price_from=50&price_to=300&currency=EUR");
+
+// --- Résumé : nouveaux motifs ------------------------------------------------
+const resume2 = texteResume({ ...bilan, imitation: 4, blocages: 2 }, 3600000);
+verifier("imitations dans le résumé", resume2.includes("4 imitation annoncée"), true);
+verifier("blocages signalés", resume2.includes("freiné le bot 2 fois"), true);
+verifier("pas de blocage, pas de ligne", resume.includes("freiné"), false);
+
+// --- État persistant : élagage et fusion -------------------------------------
+const T = 1_800_000_000_000;
+const H = 3600 * 1000;
+verifier("cote récente gardée", Object.keys(elaguerCotes({ a: { date: T - H }, b: { date: T - 72 * H } }, T, 48)).join(), "a");
+verifier("ancien format de vendeur lu", JSON.stringify(lireVendeur(7, T)), JSON.stringify({ n: 7, vu: T }));
+const vend = elaguerVendeurs({ ancien: 9, unique: { n: 1, vu: T }, oublie: { n: 8, vu: T - 40 * 24 * H }, actif: { n: 3, vu: T - H } }, T, 30);
+verifier("vendeurs : oubli après la fenêtre", Object.keys(vend).sort().join(), "actif,ancien");
+verifier("ancien format sous le seuil revendeur : oublié",
+  Object.keys(elaguerVendeurs({ petit: 4, gros: 40 }, T, 30, 5)).join(), "gros");
+const fusion = fusionnerEtats(
+  { vues: ["1", "2"], cotes: { x: { date: T - 2 * H, mediane: 100 }, y: { date: T - H, mediane: 50 } },
+    vendeurs: { v: { n: 5, vu: T - H } }, panne: 123, panneDebut: 100 },
+  { vues: ["2", "3"], cotes: { x: { date: T - H, mediane: 120 }, y: { date: T - 3 * H, mediane: 40 } },
+    vendeurs: { v: 3, w: { n: 2, vu: T } }, panne: null, panneDebut: null, bilan: { passages: 1 } },
+  T
+);
+verifier("fusion : union des vues", fusion.vues.join(), "1,2,3");
+verifier("fusion : la cote la plus récente gagne", fusion.cotes.x.mediane, 120);
+verifier("fusion : même côté dépôt", fusion.cotes.y.mediane, 50);
+verifier("fusion : plus grand compte vendeur", fusion.vendeurs.v.n, 5);
+verifier("fusion : vendeur ajouté", fusion.vendeurs.w.n, 2);
+verifier("fusion : la panne suit notre version", fusion.panne, null);
+verifier("fusion : notre bilan", fusion.bilan.passages, 1);
+verifier("fusion : plafond des vues",
+  fusionnerEtats({ vues: Array.from({ length: 4000 }, (_, i) => `d${i}`) }, { vues: ["n1"] }, T).vues.slice(-1)[0], "n1");
 
 console.log(`${ok} tests passés${echecs.length ? `, ${echecs.length} ÉCHECS` : ""}`);
 if (echecs.length) {

@@ -1,7 +1,12 @@
 # Veille Vinted → Discord
 
 Surveille les nouvelles montres mises en vente sur Vinted et envoie une alerte
-Discord quand une annonce est **nettement sous la cote de sa marque**.
+Discord quand une annonce est **nettement sous la cote de son modèle** (ou, à
+défaut, de sa marque). Chaque alerte porte un **score d'affaire sur 100** et un
+niveau d'urgence ; seules les très grosses affaires font sonner Discord.
+
+L'audit qui a mené à la version de novembre 2026 est dans
+[`docs/audit.md`](docs/audit.md).
 
 Tourne sur GitHub Actions : **aucun ordinateur à laisser allumé**, et c'est gratuit.
 
@@ -36,11 +41,19 @@ inclus. Testé : 20 annonces récupérées avec titres, prix et marques.
 Une annonce doit franchir **quatre filtres**, du moins cher au plus cher en
 requêtes :
 
-1. **Marque horlogère.** Liste blanche de ~200 maisons dont les montres sont le
+1. **Marque horlogère.** Liste blanche de ~300 maisons dont les montres sont le
    métier. Les marques de mode qui font faire leurs montres sous licence (Guess,
    Armani, Michael Kors, Diesel…) sont écartées : leur cote de revente ne veut
    rien dire. La marque est cherchée comme suite de mots complets dans le libellé,
    parce que les vendeurs écrivent « CASIO G-SHOCK » ou « Omega x Swatch ».
+
+   **Champ marque vide ou générique** (« Autre », « Vintage », « Sans marque ») :
+   la maison est cherchée **dans le titre** (`marqueDepuisTitre`). C'est le
+   profil type du vendeur qui ignore ce qu'il vend. Les noms qui sont aussi des
+   mots courants (Orient, Lotus, Jaguar, Ball… liste `marquesTitreAmbigues`) ne
+   comptent pas, et une maison de luxe lue dans le titre est refusée
+   (`marqueTitreLuxe: false`) : une Rolex sans marque renseignée est presque
+   toujours une copie. L'alerte précise « marque lue dans le titre ».
 2. **État déclaré.** Neuf avec/sans étiquette, très bon état, bon état. En
    pratique ce filtre mord rarement : sur 96 annonces relevées, aucune n'était en
    « Satisfaisant ».
@@ -78,11 +91,24 @@ requêtes :
    Comme cette cote coûte une requête par modèle distinct, elle n'est calculée que
    si l'annonce n'est pas manifestement hors de prix — sans quoi un passage
    interrogeait Vinted trois cents fois et durait 198 s au lieu de 30 s.
-4. **Pas un accessoire.** Sous 5 €, la catégorie Montres se remplit de bracelets,
-   d'écrins et de piles. Le premier mot du titre les trahit presque toujours
-   (« Bracelet de montre Seiko », « Cinturino Casio »), et quelques mots — maillon,
-   maglie, eslabones — suffisent où qu'ils soient : « Zenith museum maglie » à 10 €
+4. **Pas un accessoire, pas une imitation.** Sous 5 €, la catégorie Montres se
+   remplit de bracelets, d'écrins et de piles. Le premier mot du titre les trahit
+   presque toujours (« Bracelet de montre Seiko », « Cinturino Casio »), et
+   quelques mots — maillon, maglie, eslabones, « boîte seule », « box only »,
+   « sans montre » — suffisent où qu'ils soient : « Zenith museum maglie » à 10 €
    passait pour une Zenith à −96 %.
+
+   « box », « case », « scatola »… au milieu du titre ne disqualifient plus une
+   montre quand le titre dit qu'elle est **avec** sa boîte (« Omega Seamaster
+   with box », « Tissot PRX full set box papiers ») : ces vraies montres étaient
+   jetées comme accessoires.
+
+   Les **imitations** sont repérées dès le titre, avant toute requête :
+   « homage », « réplique », « clone », « inspired »… (`motsImitation`), ou un
+   préfixe suivi d'une maison de luxe ou d'un modèle iconique — « style Rolex »,
+   « type Daytona », « homage Nautilus » (`prefixesImitation`,
+   `modelesIconiques`). Seul « style rolex » était couvert, et seulement après
+   le calcul de cote et la lecture de la description.
 5. **Prix plausible pour la maison.** Une Omega à 50 €, une Tudor à 145 €, une
    Zenith à 110 € : ce ne sont pas des affaires, ce sont des contrefaçons. Sur 23
    maisons de luxe, un plancher de 250 € s'applique — sans lui, plus la marque est
@@ -104,6 +130,107 @@ requêtes :
 Les cotes sont mises en cache 24 h, et les annonces déjà signalées sont
 mémorisées pour ne jamais alerter deux fois.
 
+## La cote, plus robuste
+
+- **Vraie médiane.** Sur un nombre pair d'annonces, l'ancienne version prenait
+  la valeur haute des deux centrales : avec 4 à 8 annonces, cas courant au
+  niveau du modèle, la cote était gonflée — et la décote avec elle.
+- **Aberrations retirées.** Dès cinq annonces, celles qui s'écartent de plus de
+  `coteSeuilMAD` fois l'écart absolu médian (MAD) sont ignorées : une annonce à
+  300 € parmi des 110 € ne bouge plus la cote.
+- **Références horlogères lues avant normalisation** : « F-91W », « 7S26-0020 »,
+  « T120.407 », « SNK809 », « 6139 ». « F91W », « F-91W » et « F 91W » sont
+  reconnues comme la même montre ; « PR100 » ne matche pas « PR1000 ». Tailles,
+  étanchéités, années, carats et rubis ne sont pas des références.
+- **Marque canonique.** « TISSOT », « Tissot » et « Tissot 1853 » partagent la
+  même cote de marque et se comparent entre elles.
+- **Lissage.** Une cote rafraîchie garde `coteLissage` (30 %) de l'ancienne :
+  un relevé de 40 annonces est un instantané bruité.
+- **Dispersion mesurée** (écart interquartile / médiane) : quand les prix
+  comparables partent dans tous les sens, le score baisse.
+- **Une requête bloquée ne met rien en cache.** Avant, un 429 enregistrait « pas
+  de cote » pour 24 h et le modèle restait invisible toute la journée.
+
+## Score d'affaire et urgence
+
+Chaque alerte reçoit un score sur 100 :
+
+| Composante | Points | Plein quand |
+|---|---|---|
+| Décote | 35 | coût total ≤ 40 % de la cote |
+| Bénéfice net | 25 | ≥ 300 € |
+| Fiabilité de la cote | 15 | cote de modèle, ≥ 12 annonces, prix serrés |
+| État | 10 | neuf avec étiquette |
+| Vendeur | 5 | particulier qui ne vend qu'une montre |
+| Fraîcheur | 5 | en tête des nouveautés |
+| Pépite | 5 | maison de niche ou signal de valeur |
+
+Le **coût** est le prix total payé par l'acheteur — protection acheteurs
+comprise, lue dans le libellé de la vignette (980,00 € → 1 029,70 €) — plus un
+forfait de port `fraisPortEstimes`. Le catalogue ne donne pas les frais de port,
+ni la note, le nombre d'avis ou l'ancienneté du vendeur : ils ne sont **pas**
+simulés. Le forfait est à régler selon ce que tu paies d'habitude.
+
+| Score | Urgence | Discord |
+|---|---|---|
+| ≥ `scoreMention` (75) | 🔥 très grosse affaire | rouge + mention `mentionDiscord` (`@here`) |
+| ≥ `scoreFort` (55) | ⚡ bonne affaire | orange, sans mention |
+| en dessous | à regarder | vert (violet pour une pépite) |
+
+Le score **classe** les alertes (les meilleures partent en premier) ; il ne les
+filtre pas, sauf si tu relèves `scoreMinimum` (0 par défaut). Le filtre reste la
+marge (`margeMinimum`).
+
+L'alerte affiche : grande photo, prix (et total frais inclus), cote et son
+niveau, % de décote, bénéfice net estimé, score, état, marque, nombre de montres
+du vendeur, lien direct. Pour mentionner un rôle plutôt que tout le salon, mets
+`"mentionDiscord": "<@&ID_DU_ROLE>"` ; `""` désactive toute mention.
+
+## Recherches ciblées
+
+En plus de la catégorie complète, `recherches` permet de surveiller des modèles
+précis :
+
+```json
+"recherchesParPassage": 1,
+"recherches": [
+  { "nom": "Tissot PRX", "actif": true, "texte": "tissot prx",
+    "prixMin": 50, "prixMax": 300, "alerteSousPrix": 150, "toutesMarques": false }
+]
+```
+
+- **Une seule recherche par passage**, en rotation (`recherchesParPassage`) :
+  chaque recherche coûte une requête, et on ne martèle pas Vinted.
+- `prixMin` / `prixMax` : fourchette. Elle est passée à Vinted
+  (`price_from` / `price_to`) **et** refiltrée par le bot, parce que ces
+  paramètres n'ont pas pu être revérifiés depuis le changement de septembre.
+- `alerteSousPrix` : sous ce prix, alerte même sans cote fiable (« sniper »).
+  Les filtres anti-faux positifs (accessoire, imitation, description) restent
+  appliqués.
+- `toutesMarques: true` : accepte une marque hors liste blanche (utile pour une
+  maison retirée exprès, comme Seiko ou Casio, sur un modèle précis).
+- L'exemple livré dans `config.json` est désactivé (`"actif": false`).
+
+## Quand Vinted freine
+
+- Chaque requête remonte son **statut HTTP**. Un 403, un 429 ou une page de
+  challenge **arrête le passage** au lieu d'enchaîner les requêtes de cote.
+- Les requêtes sont espacées d'au moins `pauseEntreRequetesMs` et plafonnées à
+  `maxRequetesParPassage` par passage.
+- Après un passage raté, l'intervalle **double** (jamais en dessous de
+  `intervalleSecondes`, jamais au-dessus de `backoffMaxSecondes`). Après
+  `echecsAvantRelance` échecs, le bot revisite l'accueil pour repartir d'une
+  session propre ; après `echecsAvantAbandon`, il signale la panne sur Discord
+  et rend la main — le job suivant repart avec un navigateur neuf. Aucune autre
+  manœuvre de contournement.
+- Les annonces qu'on n'a pas pu juger (fiche en 429, plafond d'alertes ou de
+  requêtes atteint) passent dans une **file d'attente** examinée en tête au
+  passage suivant (`essaisDescription` essais au plus). Avant, une vraie affaire
+  tombée pendant un 429 était jetée comme « introuvable », pour toujours.
+- Les envois Discord sont relancés sur 429 (délai `retry_after` respecté) et sur
+  erreur 5xx ou réseau.
+- Le résumé « Rien à signaler » mentionne les blocages subis.
+
 ## Où se lit quoi
 
 La recherche de catalogue donne titre, prix, marque, photo et **état**. Elle ne
@@ -116,8 +243,9 @@ finalistes**, soit une poignée par passage.
 
     npm test
 
-339 tests, sans réseau : normalisation, liste blanche des marques, états, mots
-rédhibitoires et pièges de négation.
+462 tests, sans réseau : normalisation, liste blanche des marques, états, mots
+rédhibitoires et pièges de négation, cote robuste, références, imitations,
+score, message Discord, backoff, recherches, élagage et fusion de l'état.
 
 ## Installation
 
@@ -256,6 +384,33 @@ qu'une fois toutes les cinq heures.
 | `etatsAcceptes` | états Vinted autorisés |
 | `motsRedhibitoires` | mots qui disqualifient une annonce |
 
+Ajoutés en novembre 2026 (tous facultatifs, valeur par défaut entre parenthèses) :
+
+| Clé | Rôle |
+|---|---|
+| `marqueDepuisTitre` (`true`) | cherche la maison dans le titre quand le champ marque est vide ou générique |
+| `marquesGeneriques` | libellés de marque qui ne disent rien (« Autre », « Vintage »…) |
+| `marquesTitreAmbigues` | maisons dont le nom est aussi un mot courant, jamais lues dans le titre |
+| `marqueTitreLuxe` (`false`) | accepter une maison de luxe lue seulement dans le titre |
+| `motsImitation` | mots qui trahissent une imitation où qu'ils soient dans le titre |
+| `prefixesImitation` / `modelesIconiques` | « style », « type »… suivis d'une maison de luxe ou d'un modèle iconique |
+| `motsEmballage` / `indicesMontreAvecEmballage` | « box », « case »… accessoire, sauf si le titre dit « avec », « with », « full set »… |
+| `coteSeuilMAD` (`3`) | au-delà de ce nombre de MAD, un prix est une aberration |
+| `coteLissage` (`0.3`) | part de l'ancienne cote gardée au rafraîchissement |
+| `coteConserverHeures` (`48`) | au-delà, une cote est effacée de l'état |
+| `vendeurFenetreJours` (`30`) | un vendeur non revu depuis est oublié |
+| `fraisPortEstimes` (`6`) | forfait de port ajouté au coût (le catalogue ne le donne pas) |
+| `scoreMinimum` (`0`) | score sous lequel une alerte n'est pas envoyée |
+| `scoreFort` / `scoreMention` (`55` / `75`) | seuils d'urgence |
+| `mentionDiscord` (`"@here"`) | mention posée sur les très grosses affaires ; `""` pour aucune |
+| `maxRequetesParPassage` (`40`) | plafond de requêtes Vinted par passage |
+| `pauseEntreRequetesMs` (`600`) | écart minimal entre deux requêtes Vinted |
+| `fileAttenteMax` (`150`) | taille maximale de la file des annonces reportées |
+| `essaisDescription` (`3`) | essais avant d'abandonner une annonce illisible |
+| `echecsAvantRelance` / `echecsAvantAbandon` (`2` / `4`) | quand revisiter l'accueil, quand rendre la main |
+| `backoffMaxSecondes` (`600`) | attente maximale entre deux passages ratés |
+| `recherches` / `recherchesParPassage` (`[]` / `1`) | recherches ciblées, voir plus haut |
+
 ## L'état n'est pas fusionné par git
 
 Deux jobs qui réécrivent le même JSON entier donnent un conflit que `git rebase`
@@ -266,28 +421,41 @@ job suivant réalertait tout. Observé en vrai — une même annonce envoyée se
 l'union des annonces vues est la bonne opération, il n'y a rien à arbitrer. La
 poussée est retentée trois fois si le dépôt bouge entre-temps.
 
+Les règles de fusion vivent dans `etat.mjs`, partagé avec le scan et testé. Il
+**élague** aussi l'état : au 2 novembre 2026, `etat.json` pesait 6,8 Mo — 43 118
+cotes dont 42 228 périmées, 63 434 vendeurs comptés depuis toujours — et il est
+commité toutes les quinze minutes. Les cotes de plus de `coteConserverHeures`
+et les vendeurs non revus depuis `vendeurFenetreJours` sont effacés : 1,2 Mo
+sur le même état. Les vendeurs sont désormais notés `{ n, vu }` ; l'ancien
+format (un simple nombre) est encore lu.
+
 ## Limites, sans détour
 
-- **La cote porte sur la marque, pas sur le modèle exact.** Une montre haut de
-  gamme d'une marque bon marché passera pour une bonne affaire, et inversement.
-  Pour trancher, ouvre l'annonce et utilise l'extension.
+- **La cote retombe sur la marque quand le modèle est trop rare** (moins de
+  `coteMinAnnoncesModele` annonces identiques). Elle mélange alors tous les
+  modèles : c'est pourquoi elle exige une marge plus grande et pèse moins dans
+  le score.
 - **La cote vient de prix demandés, pas de prix payés.** Sur les marques que les
   vendeurs surévaluent, la médiane est gonflée et les bonnes affaires fantômes.
 - **Les photos ne sont jamais regardées.** Contrefaçon, casse visible, pièce
   manquante non mentionnée : invisibles pour le script.
-- **Le champ marque doit être rempli.** Les annonces sans marque sont écartées —
-  or c'est un quart d'entre elles, et le profil type du vendeur qui ignore ce
-  qu'il vend. Lire la marque dans le titre reste à faire.
+- **La marque lue dans le titre** ne vaut que pour la liste blanche, hors noms
+  ambigus et hors maisons de luxe. Une annonce sans marque ni maison
+  reconnaissable dans le titre reste écartée.
+- **Le vendeur n'est jugé que sur ce que le catalogue donne** : compte pro ou
+  non, et nombre de montres publiées (compté par le bot). Note, avis et
+  ancienneté du compte demanderaient une requête par annonce, non vérifiée.
+- **La file d'attente vit en mémoire** : ce qui y reste à la fin d'un job de
+  cinq heures n'est pas réexaminé par le suivant (le journal le dit).
 - **Une annonce examinée ne l'est jamais deux fois** : une baisse de prix
   ultérieure ne déclenchera rien.
 - Vinted peut durcir sa protection : le jour où le challenge n'est plus franchi,
-  le script le signale dans les logs et réessaie au passage suivant.
+  le script ralentit, réessaie, puis signale la panne sur Discord.
 - GitHub désactive les workflows planifiés d'un dépôt resté **60 jours sans
   activité**. Un commit suffit à les relancer.
 - Les horaires de `cron` ne sont pas garantis à la minute près chez GitHub, et
   c'est maintenant la principale source de latence.
-- **Une même annonce peut être signalée deux fois.** L'état n'est enregistré
-  qu'à la fin d'un job, et deux jobs se chevauchent parfois de quelques dizaines
-  de secondes au moment de la relève — observé : l'un démarre à 21:44:32 quand le
-  précédent ne se termine qu'à 21:45:16. Le job qui démarre récupère alors un
-  état périmé. Raccourcir la boucle réduit la fenêtre sans la supprimer.
+- **Une même annonce peut encore, rarement, être signalée deux fois.** L'état
+  est enregistré toutes les quinze minutes et la `concurrency` du workflow
+  empêche deux jobs simultanés, mais une alerte partie entre deux
+  enregistrements est oubliée si le job meurt avant le suivant.

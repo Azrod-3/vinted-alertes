@@ -681,6 +681,39 @@ export function calculerCote(prixBruts, minimum) {
   return { mediane: Math.round(mediane(prix)), echantillon: prix.length, dispersion: dispersion(prix) };
 }
 
+/**
+ * Les preuves d'une cote : la fourchette des prix retenus et les annonces les
+ * plus proches de la mediane. Affichees dans l'alerte avec leurs liens, pour
+ * qu'on puisse verifier la cote en dix secondes au lieu de la croire sur
+ * parole. On ne garde que l'id et le prix : le lien se reconstruit.
+ */
+export function preuvesCote(items, centre, n = 4) {
+  const valides = (items || [])
+    .map((i) => ({ id: i.id, prix: prixDe(i) }))
+    .filter((e) => e.id && Number.isFinite(e.prix) && e.prix > 0);
+  const gardes = new Set(nettoyer(valides.map((e) => e.prix)));
+  const retenues = valides.filter((e) => gardes.has(e.prix));
+  if (!retenues.length || !centre) return {};
+  const prix = retenues.map((e) => e.prix);
+  return {
+    fourchette: [Math.min(...prix), Math.max(...prix)],
+    exemples: [...retenues].sort((a, b) => Math.abs(a.prix - centre) - Math.abs(b.prix - centre)).slice(0, n),
+  };
+}
+
+/**
+ * Une cote est-elle assez sure pour alerter ? Sur la photo, la cote de marque
+ * melange les compacts a 30 EUR et les reflex a 800 EUR ("Canon 111 EUR") : elle
+ * n'a aucune valeur. `coteMarqueAutorisee: false` n'alerte donc que sur la cote
+ * du modele exact. Un lot, cote a partir de la marque, suit la meme regle.
+ */
+export function coteUtilisable(cote) {
+  if (!cote || !cote.mediane) return false;
+  const niveau = String(cote.niveau || "marque");
+  if (niveau === "modèle") return true;
+  return CONFIG.coteMarqueAutorisee !== false;
+}
+
 const COTE_VALIDE_MS = 24 * 3600 * 1000;
 
 /**
@@ -706,11 +739,14 @@ async function coteModele(page, requete, jetons, marque, etat, cache, categorie 
   // On ne garde que les annonces dont on est sur qu'il s'agit du meme modele,
   // dans un etat voisin : sans ce tri, la mediane melange tout ce que Vinted
   // juge vaguement ressemblant.
-  const cote = calculerCote(
-    reponse.items.filter((c) => comparable(c, marque, jetons, etat)).map(prixDe),
-    CONFIG.coteMinAnnoncesModele
-  );
-  cache[cle] = lisserCote(memo, { date: Date.now(), ...cote, niveau: "modèle" });
+  const semblables = reponse.items.filter((c) => comparable(c, marque, jetons, etat));
+  const cote = calculerCote(semblables.map(prixDe), CONFIG.coteMinAnnoncesModele);
+  cache[cle] = lisserCote(memo, {
+    date: Date.now(),
+    ...cote,
+    ...(cote.mediane ? preuvesCote(semblables, cote.mediane) : {}),
+    niveau: "modèle",
+  });
   return cache[cle];
 }
 
@@ -731,13 +767,11 @@ async function coteMarque(page, marque, cache, categorie = CATEGORIES[0]) {
   if (!reponse) return { mediane: null, echantillon: 0, indisponible: true };
 
   // Meme pour une cote de marque, un lot, un bracelet ou une copie n'a rien a y faire.
-  const cote = calculerCote(
-    reponse.items
-      .filter((c) => c && c.title && !estLot(c.title) && !estAccessoire(c.title) && !estImitation(c.title))
-      .filter((c) => marqueCanonique(c.brand_title) === canon)
-      .map(prixDe),
-    CONFIG.coteMinAnnonces
-  );
+  const semblables = reponse.items
+    .filter((c) => c && c.title && !estLot(c.title) && !estAccessoire(c.title) && !estImitation(c.title))
+    .filter((c) => marqueCanonique(c.brand_title) === canon);
+  const cote = { ...calculerCote(semblables.map(prixDe), CONFIG.coteMinAnnonces) };
+  if (cote.mediane) Object.assign(cote, preuvesCote(semblables, cote.mediane));
 
   // Une marque dont les montres valent quelques euros n'a pas de "bonne
   // affaire" a offrir : -60 % sur une cote de 15 EUR ne vaut pas une alerte.
@@ -952,6 +986,19 @@ export function scoreAffaire(a) {
   return { score, urgence, margeNette, decote, prixTotal, cout, details };
 }
 
+/**
+ * "Fourchette 150–240 € · 180 € · 195 € · 210 €", chaque prix etant un lien
+ * vers une annonce comparable. L'annonce signalee elle-meme est retiree : elle
+ * figure souvent dans les resultats qui ont servi a la coter.
+ */
+export function texteComparables(annonce) {
+  const exemples = (annonce.exemples || []).filter((e) => String(e.id) !== String(annonce.id)).slice(0, 3);
+  const morceaux = [];
+  if (annonce.fourchette) morceaux.push(`Fourchette ${annonce.fourchette[0]}–${annonce.fourchette[1]} €`);
+  for (const e of exemples) morceaux.push(`[${e.prix} €](https://www.vinted.fr/items/${e.id})`);
+  return morceaux.join(" · ");
+}
+
 const LIBELLES_URGENCE = { urgente: "🔥 très grosse affaire", forte: "⚡ bonne affaire", normale: "à regarder" };
 
 /**
@@ -975,7 +1022,9 @@ export function corpsAlerte(annonce) {
   if (annonce.cote) {
     tete =
       `**${annonce.prix} €** au lieu de **~${annonce.cote} €** — **−${s.decote} %**\n` +
-      `Cote ${article(annonce.niveau)} : médiane sur ${annonce.echantillon} annonces.\n` +
+      `Cote ${article(annonce.niveau)} : médiane de ${annonce.echantillon} annonces ` +
+      `${annonce.niveau === "modèle" ? "identiques " : ""}en vente sur Vinted ` +
+      `_(prix demandés, pas prix vendus)_.\n` +
       `**Bénéfice net estimé : ~${s.margeNette} €** ` +
       `(coût total ~${Math.round(s.cout)} € : protection acheteurs${port ? ` + port ~${port} €` : ""}).`;
   } else if (annonce.cible) {
@@ -988,6 +1037,9 @@ export function corpsAlerte(annonce) {
     { name: "Score", value: `**${s.score}/100** · ${LIBELLES_URGENCE[s.urgence]}`, inline: true },
     { name: "Prix", value: s.prixTotal > annonce.prix ? `${annonce.prix} € (${s.prixTotal} € frais inclus)` : `${annonce.prix} €`, inline: true },
     ...(annonce.cote ? [{ name: "Cote", value: `${annonce.cote} € (${annonce.niveau})`, inline: true }] : []),
+    ...(annonce.cote && texteComparables(annonce)
+      ? [{ name: "Vérifier la cote", value: texteComparables(annonce), inline: false }]
+      : []),
     { name: "Marque", value: `${annonce.marque || "inconnue"}${annonce.marqueDeduite ? " _(lue dans le titre)_" : ""}`, inline: true },
     { name: "État", value: annonce.etat || "non précisé", inline: true },
     ...(annonce.vendeurNb > 1 ? [{ name: "Vendeur", value: `${annonce.vendeurNb} ${L.objets} publiées récemment`, inline: true }] : []),
@@ -1330,6 +1382,9 @@ export async function unPassage(page, ctx) {
     const cible =
       item.recherche && item.recherche.alerteSousPrix && prix <= item.recherche.alerteSousPrix ? item.recherche : null;
 
+    // Cote de marque refusee par la config : comme s'il n'y avait pas de cote.
+    if (cote.mediane && !coteUtilisable(cote)) cote = { ...cote, mediane: null, refusee: true };
+
     if (!cote.mediane && !pepiteTitre && !cible) {
       bilan.sansCote += 1;
       continue;
@@ -1379,6 +1434,8 @@ export async function unPassage(page, ctx) {
       cote: cote.mediane,
       echantillon: cote.echantillon,
       dispersion: cote.dispersion ?? null,
+      fourchette: cote.fourchette || null,
+      exemples: cote.exemples || [],
       niveau: cote.niveau || "marque",
       lot,
       pepite: estPepite(item.title, description, marque),

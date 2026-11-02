@@ -6,7 +6,7 @@ if (process.env.CONFIG_FICHIER !== "config-photo.json") {
   console.error("À lancer avec CONFIG_FICHIER=config-photo.json (npm test le fait).");
   process.exit(1);
 }
-const { motifDeRefus, motRedhibitoire, requeteModele, marqueDe, estAccessoire, estImitation, texteResume, corpsAlerte, scoreAffaire } = await import("./scan.mjs");
+const { motifDeRefus, motRedhibitoire, requeteModele, marqueDe, estAccessoire, estImitation, texteResume, corpsAlerte, scoreAffaire, coteUtilisable } = await import("./scan.mjs");
 
 let ok = 0;
 const echecs = [];
@@ -83,6 +83,12 @@ const corps = corpsAlerte({ id: 1, titre: "Contax T2", prix: 120, cote: 400, ech
                             photo: "", pepite: true, score: s });
 verifier("pied de message photo", corps.embeds[0].footer.text.startsWith("Veille Vinted · Photo"), true);
 verifier("signal pépite au bon nom", corps.embeds[0].fields.some((f) => f.value.startsWith("appareil de collection")), true);
+
+// --- Cote : modèle exact uniquement ------------------------------------------
+// « Canon 111 € » mélange compacts et reflex : jamais d'alerte sur cette base.
+verifier("photo : cote de marque refusée", coteUtilisable({ mediane: 111, niveau: "marque" }), false);
+verifier("photo : cote de lot refusée", coteUtilisable({ mediane: 300, niveau: "lot de 2" }), false);
+verifier("photo : cote de modèle acceptée", coteUtilisable({ mediane: 195, niveau: "modèle" }), true);
 
 console.log(`${ok} tests photo passés${echecs.length ? `, ${echecs.length} ÉCHECS` : ""}`);
 if (echecs.length) {

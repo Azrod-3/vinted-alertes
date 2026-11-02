@@ -1870,7 +1870,17 @@
   "10643439681",
   "10643451360",
   "10643447484",
-  "10643447015"
+  "10643447015",
+  "10643475293",
+  "10643485041",
+  "10643487471",
+  "10643498051",
+  "10643513535",
+  "10643520823",
+  "10643534983",
+  "10643531391",
+  "10643538383",
+  "10643550389"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -8069,6 +8079,100 @@
    "echantillon": 1,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:canon prima zoom|2@3076": {
+   "date": 1793661657380,
+   "mediane": 45,
+   "echantillon": 66,
+   "dispersion": 0.56,
+   "fourchette": [
+    12,
+    95
+   ],
+   "exemples": [
+    {
+     "id": 10643485041,
+     "prix": 45
+    },
+    {
+     "id": 10554276727,
+     "prix": 45
+    },
+    {
+     "id": 10463713095,
+     "prix": 45
+    },
+    {
+     "id": 10616095998,
+     "prix": 45
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:canon e1 powershot|2@3075": {
+   "date": 1793661721574,
+   "mediane": 80,
+   "echantillon": 7,
+   "dispersion": 0.25,
+   "fourchette": [
+    55,
+    120
+   ],
+   "exemples": [
+    {
+     "id": 8878924920,
+     "prix": 80
+    },
+    {
+     "id": 10566568571,
+     "prix": 75
+    },
+    {
+     "id": 10123463947,
+     "prix": 75
+    },
+    {
+     "id": 8736598217,
+     "prix": 85
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:yashica 8032|2@3075": {
+   "date": 1793661975546,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:nikon af240sv|2@3076": {
+   "date": 1793662167082,
+   "mediane": 34,
+   "echantillon": 40,
+   "dispersion": 0.75,
+   "fourchette": [
+    10,
+    100
+   ],
+   "exemples": [
+    {
+     "id": 9850873133,
+     "prix": 35
+    },
+    {
+     "id": 10502197623,
+     "prix": 32
+    },
+    {
+     "id": 9754355504,
+     "prix": 30
+    },
+    {
+     "id": 10271705849,
+     "prix": 30
+    }
+   ],
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -8105,8 +8209,8 @@
    "vu": 1793640355802
   },
   "22240742": {
-   "n": 3,
-   "vu": 1793641408381
+   "n": 4,
+   "vu": 1793662166346
   },
   "22626863": {
    "n": 3,
@@ -8311,6 +8415,10 @@
   "66210889": {
    "n": 2,
    "vu": 1793647703667
+  },
+  "66594609": {
+   "n": 3,
+   "vu": 1793662293918
   },
   "67166187": {
    "n": 4,
@@ -8817,8 +8925,8 @@
    "vu": 1793660426047
   },
   "3172419165": {
-   "n": 3,
-   "vu": 1793649738854
+   "n": 4,
+   "vu": 1793662038911
   },
   "3176701136": {
    "n": 3,
@@ -8971,19 +9079,19 @@
  },
  "bilan": {
   "depuis": 1793660450223,
-  "passages": 13,
-  "nouvelles": 14,
-  "marque": 2,
+  "passages": 28,
+  "nouvelles": 24,
+  "marque": 3,
   "etat": 0,
-  "prix": 1,
+  "prix": 2,
   "accessoire": 0,
   "lot": 1,
   "fausse": 0,
   "imitation": 0,
   "pro": 0,
   "vendeurSpecialise": 0,
-  "sansCote": 57,
-  "chere": 49,
+  "sansCote": 60,
+  "chere": 54,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 2,

@@ -1190,7 +1190,61 @@
   "10640026263",
   "10640019651",
   "10640025125",
-  "10639985049"
+  "10639985049",
+  "10640039338",
+  "10636472162",
+  "10640033251",
+  "10636771998",
+  "10640050631",
+  "10639229762",
+  "10640074611",
+  "10640073804",
+  "10640073309",
+  "10640068863",
+  "10640094395",
+  "10640082572",
+  "10640102100",
+  "10640107508",
+  "10640105262",
+  "10640102216",
+  "10640119797",
+  "10640123824",
+  "10640114472",
+  "10640145389",
+  "10640143599",
+  "10640142084",
+  "10640134625",
+  "10640137596",
+  "10638637457",
+  "10640135035",
+  "10640157607",
+  "10640130383",
+  "10640148071",
+  "10640161392",
+  "10640157820",
+  "10640168446",
+  "10640150441",
+  "10640164042",
+  "10639994702",
+  "10640170325",
+  "10640191664",
+  "10640189831",
+  "10640180580",
+  "10640179574",
+  "10640208219",
+  "10640208026",
+  "10640196480",
+  "10640226112",
+  "10640222734",
+  "10640240978",
+  "10640233243",
+  "10640232645",
+  "10639897515",
+  "10640264020",
+  "10640250061",
+  "10640247813",
+  "10640178762",
+  "10640250432"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -4259,6 +4313,131 @@
    "echantillon": 4,
    "dispersion": 0.21,
    "niveau": "modèle"
+  },
+  "marque:yashica@3075": {
+   "date": 1793644565567,
+   "mediane": 50,
+   "echantillon": 71,
+   "dispersion": 0.7,
+   "niveau": "marque"
+  },
+  "modele:kodak filmkamera|1@3076": {
+   "date": 1793644566314,
+   "mediane": 14,
+   "echantillon": 25,
+   "dispersion": 0.57,
+   "niveau": "modèle"
+  },
+  "modele:konica kh31 tronic|2@3076": {
+   "date": 1793644630595,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:minolta joli|1@3076": {
+   "date": 1793644759243,
+   "mediane": 99,
+   "echantillon": 7,
+   "dispersion": 0.61,
+   "niveau": "modèle"
+  },
+  "modele:agfa bayer leverkusen|4@3076": {
+   "date": 1793644823817,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:canon haking fotrogafica|2@3076": {
+   "date": 1793644888011,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:samsung wb600|1@3075": {
+   "date": 1793645079883,
+   "mediane": 66,
+   "echantillon": 22,
+   "dispersion": 0.53,
+   "niveau": "modèle"
+  },
+  "modele:samsung p1000|2@3075": {
+   "date": 1793645145182,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "marque:minolta@3075": {
+   "date": 1793645146248,
+   "mediane": null,
+   "echantillon": 69,
+   "coteTropBasse": 25
+  },
+  "modele:minolta complete tas|2@3075": {
+   "date": 1793645146848,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:canon sx240 powershot|2@3075": {
+   "date": 1793645147718,
+   "mediane": 150,
+   "echantillon": 8,
+   "dispersion": 0.6,
+   "niveau": "modèle"
+  },
+  "modele:pentax a20 optio|2@3075": {
+   "date": 1793645211969,
+   "mediane": 49,
+   "echantillon": 5,
+   "dispersion": 0.8,
+   "niveau": "modèle"
+  },
+  "modele:nikon l110 coolpix|1@3075": {
+   "date": 1793645213650,
+   "mediane": 60,
+   "echantillon": 59,
+   "dispersion": 0.42,
+   "niveau": "modèle"
+  },
+  "modele:canon a95 powershot|1@3075": {
+   "date": 1793645341991,
+   "mediane": 62,
+   "echantillon": 27,
+   "dispersion": 0.45,
+   "niveau": "modèle"
+  },
+  "modele:polaroid 3070 pdc|2@3075": {
+   "date": 1793645406436,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:canon a710 powershot|1@3075": {
+   "date": 1793645407376,
+   "mediane": 68,
+   "echantillon": 12,
+   "dispersion": 0.55,
+   "niveau": "modèle"
+  },
+  "modele:fujifilm xp10 waterproof|1@3075": {
+   "date": 1793645408151,
+   "mediane": 45,
+   "echantillon": 3,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:fujifilm zoom date|2@3076": {
+   "date": 1793645408980,
+   "mediane": 40,
+   "echantillon": 41,
+   "dispersion": 1,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -4281,6 +4460,10 @@
   "18019188": {
    "n": 3,
    "vu": 1793639438420
+  },
+  "18873212": {
+   "n": 2,
+   "vu": 1793645405834
   },
   "20427460": {
    "n": 12,
@@ -4313,6 +4496,10 @@
   "25013885": {
    "n": 2,
    "vu": 1793637279820
+  },
+  "27622641": {
+   "n": 2,
+   "vu": 1793645079263
   },
   "28948278": {
    "n": 3,
@@ -4526,6 +4713,10 @@
    "n": 3,
    "vu": 1793632685878
   },
+  "163337986": {
+   "n": 2,
+   "vu": 1793645079263
+  },
   "181455941": {
    "n": 2,
    "vu": 1793635837722
@@ -4533,6 +4724,10 @@
   "181810953": {
    "n": 3,
    "vu": 1793632771375
+  },
+  "182491822": {
+   "n": 2,
+   "vu": 1793645079262
   },
   "183675780": {
    "n": 4,
@@ -4551,8 +4746,8 @@
    "vu": 1793632600305
   },
   "216276956": {
-   "n": 5,
-   "vu": 1793644497873
+   "n": 8,
+   "vu": 1793644758485
   },
   "225975517": {
    "n": 2,
@@ -4565,6 +4760,10 @@
   "234545499": {
    "n": 2,
    "vu": 1793641474596
+  },
+  "236059850": {
+   "n": 2,
+   "vu": 1793644694372
   },
   "244647118": {
    "n": 3,
@@ -4674,6 +4873,10 @@
    "n": 2,
    "vu": 1793638786448
   },
+  "3138483105": {
+   "n": 2,
+   "vu": 1793644823054
+  },
   "3138574349": {
    "n": 2,
    "vu": 1793638588825
@@ -4685,6 +4888,10 @@
   "3144211797": {
    "n": 2,
    "vu": 1793636427517
+  },
+  "3152168590": {
+   "n": 2,
+   "vu": 1793644564641
   },
   "3153892040": {
    "n": 3,
@@ -4762,6 +4969,14 @@
    "n": 8,
    "vu": 1793641277845
   },
+  "3201432387": {
+   "n": 2,
+   "vu": 1793645211352
+  },
+  "3204020056": {
+   "n": 3,
+   "vu": 1793644887382
+  },
   "3204780882": {
    "n": 5,
    "vu": 1793632600305
@@ -4809,19 +5024,19 @@
  },
  "bilan": {
   "depuis": 1793639830488,
-  "passages": 71,
-  "nouvelles": 342,
-  "marque": 53,
+  "passages": 85,
+  "nouvelles": 396,
+  "marque": 60,
   "etat": 12,
-  "prix": 12,
+  "prix": 18,
   "accessoire": 8,
   "lot": 4,
   "fausse": 1,
   "imitation": 0,
-  "pro": 5,
-  "vendeurSpecialise": 10,
-  "sansCote": 36,
-  "chere": 192,
+  "pro": 7,
+  "vendeurSpecialise": 12,
+  "sansCote": 46,
+  "chere": 219,
   "description": 3,
   "scoreFaible": 0,
   "blocages": 0,

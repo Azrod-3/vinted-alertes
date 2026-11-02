@@ -266,6 +266,29 @@ précis :
   maison retirée exprès, comme Seiko ou Casio, sur un modèle précis).
 - L'exemple livré dans `config.json` est désactivé (`"actif": false`).
 
+## Les alertes étaient-elles bonnes ? Suivi et récap du soir
+
+La cote est une médiane de prix **demandés** : aucune source de prix **vendus**
+n'est accessible légalement à un bot (l'API eBay des ventes est réservée, et
+eBay interdit les robots ; voir `docs/audit.md`). La seule donnée réelle qu'on
+puisse obtenir, c'est ce que deviennent les annonces signalées.
+
+- **Suivi.** `suiviMinutes` (60) après chaque alerte, le bot relit la fiche et
+  note : *vendue* (si la fiche l'indique), *disparue* (fiche introuvable :
+  vendue **ou** supprimée, une contrefaçon disparaît aussi), *toujours en
+  vente*, ou *inconnu* (fiche sans indication — Vinted ne documente pas ce
+  champ, on ne devine pas). `suiviParPassage` (2) vérifications au plus par
+  passage, jamais quand Vinted freine.
+- **Récap du soir.** À partir de `recapHeure` (21 h, heure de Paris), une fois
+  par jour : nombre d'alertes des dernières 24 h, combien sont parties en moins
+  d'une heure, le score moyen des parties contre celui des restées (pour savoir
+  si le score prédit quelque chose), et les trois meilleures alertes avec leur
+  lien. `recapHeure: -1` le désactive.
+- Le suivi est gardé 7 jours (300 alertes au plus) dans l'état de chaque veille.
+
+Après quelques soirs, ces chiffres diront s'il faut serrer ou desserrer
+`margeMinimum` et `scoreMention` — sur des faits, pas au jugé.
+
 ## Quand Vinted freine
 
 - Chaque requête remonte son **statut HTTP**. Un 403, un 429 ou une page de
@@ -298,7 +321,7 @@ finalistes**, soit une poignée par passage.
 
     npm test
 
-475 tests pour la veille montres, plus 41 pour la veille photo
+501 tests pour la veille montres, plus 41 pour la veille photo
 (`tests-photo.mjs`, lancé avec `config-photo.json`), sans réseau : normalisation, liste blanche des marques, états, mots
 rédhibitoires et pièges de négation, cote robuste, références, imitations,
 score, message Discord, backoff, recherches, élagage et fusion de l'état.
@@ -466,6 +489,8 @@ Ajoutés en novembre 2026 (tous facultatifs, valeur par défaut entre parenthès
 | `echecsAvantRelance` / `echecsAvantAbandon` (`2` / `4`) | quand revisiter l'accueil, quand rendre la main |
 | `backoffMaxSecondes` (`600`) | attente maximale entre deux passages ratés |
 | `recherches` / `recherchesParPassage` (`[]` / `1`) | recherches ciblées, voir plus haut |
+| `suiviMinutes` / `suiviParPassage` (`60` / `2`) | délai avant de vérifier ce qu'est devenue une alerte, et vérifications par passage |
+| `recapHeure` (`21`) | heure (Paris) du récap quotidien ; `-1` pour aucun |
 | `coteMarqueAutorisee` (`true`) | `false` : n'alerter que sur la cote du modèle exact (réglé ainsi pour la photo) |
 | `marques` | liste blanche (remplace `marquesMontres` dans une autre veille) |
 | `categorieVinted` | un numéro ou une liste (`[3075, 3076]`) ; une recherche ciblée peut préciser sa `categorie` |

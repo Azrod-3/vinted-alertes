@@ -20,7 +20,7 @@
 import { chromium } from "playwright-core";
 import { readFile, writeFile } from "node:fs/promises";
 import { execFile } from "node:child_process";
-import { elaguerCotes, elaguerVendeurs, lireVendeur, PLAFOND_VUES } from "./etat.mjs";
+import { elaguerCotes, elaguerVendeurs, elaguerSuivi, lireVendeur, PLAFOND_VUES } from "./etat.mjs";
 
 /**
  * Un meme moteur, plusieurs veilles : CONFIG_FICHIER et ETAT_FICHIER designent
@@ -291,7 +291,16 @@ async function descriptionDe(page, url) {
             : { statut: "challenge", etat: "indisponible" };
         }
         const donnees = JSON.parse(bloc[1]);
-        return { statut: 200, etat: "ok", description: typeof donnees.description === "string" ? donnees.description : "" };
+        // Disponibilite schema.org de l'offre, si Vinted la renseigne (non
+        // verifie) : "…/InStock", "…/SoldOut"… Absente, on dira "inconnu".
+        const offres = [].concat(donnees.offers || []);
+        const dispo = offres.map((o) => o && o.availability).find(Boolean) || null;
+        return {
+          statut: 200,
+          etat: "ok",
+          description: typeof donnees.description === "string" ? donnees.description : "",
+          disponibilite: typeof dispo === "string" ? dispo : null,
+        };
       } catch (_) {
         return { statut: 0, etat: "indisponible" };
       }
@@ -300,7 +309,7 @@ async function descriptionDe(page, url) {
     r = { statut: 0, etat: "indisponible" };
   }
   noterStatut(r.statut);
-  return { statut: r.etat, description: r.description ?? null };
+  return { statut: r.etat, description: r.description ?? null, disponibilite: r.disponibilite ?? null };
 }
 
 /** Une annonce est recevable si sa marque est horlogere et son etat correct. */
@@ -1223,6 +1232,145 @@ export function dansFourchette(item, recherche) {
  * d'alertes ou de requetes atteint, Vinted qui freine, fiche momentanement
  * illisible) : elles passent en tete au passage suivant au lieu d'etre perdues.
  */
+/**
+ * Suivi des alertes : une heure apres chaque alerte (`suiviMinutes`), le bot
+ * relit la fiche et note ce qu'est devenue l'annonce. C'est la seule donnee
+ * REELLE dont on dispose sur la qualite des alertes : les prix vendus ne sont
+ * publies nulle part d'accessible (voir docs/audit.md).
+ *
+ *   "vendue"    la fiche l'indique (disponibilite schema.org SoldOut/OutOfStock)
+ *   "retiree"   fiche introuvable : vendue, OU supprimee (contrefacon, vendeur)
+ *   "en vente"  toujours disponible
+ *   "inconnu"   fiche lisible mais sans indication de disponibilite
+ *
+ * Vinted ne documente pas ces champs : on ne devine pas, "inconnu" est une
+ * reponse acceptable.
+ */
+export function statutSuivi(fiche) {
+  if (!fiche || fiche.statut === "indisponible") return null; // on retentera
+  if (fiche.statut === "supprimee") return "retiree";
+  const dispo = String(fiche.disponibilite || "").toLowerCase();
+  if (/soldout|outofstock|discontinued/.test(dispo)) return "vendue";
+  if (/instock|limitedavailability|onlineonly/.test(dispo)) return "en vente";
+  return "inconnu";
+}
+
+/** Entree de suivi creee au moment ou l'alerte part. */
+export function entreeSuivi(alerte, maintenant = Date.now()) {
+  return {
+    id: alerte.id,
+    titre: String(alerte.titre || "").slice(0, 80),
+    prix: alerte.prix,
+    cote: alerte.cote || null,
+    score: alerte.score ? alerte.score.score : null,
+    lien: alerte.lien,
+    date: maintenant,
+    statut: null,
+  };
+}
+
+/** Les alertes a verifier maintenant : assez vieilles, pas encore verifiees. */
+export function aVerifier(suivi, maintenant = Date.now(), minutes = 60, combien = 2) {
+  return (suivi || [])
+    .filter((e) => !e.statut && maintenant - e.date >= minutes * 60000)
+    .sort((a, b) => a.date - b.date)
+    .slice(0, combien);
+}
+
+/** Date du jour a Paris, "AAAA-MM-JJ", et heure a Paris (0-23). */
+const partiesParis = (t) => {
+  const p = Object.fromEntries(
+    new Intl.DateTimeFormat("fr-FR", { timeZone: "Europe/Paris", year: "numeric", month: "2-digit", day: "2-digit", hour: "2-digit", hourCycle: "h23" })
+      .formatToParts(new Date(t))
+      .map((x) => [x.type, x.value])
+  );
+  return { jour: `${p.year}-${p.month}-${p.day}`, heure: Number(p.hour) };
+};
+
+/** Le recap du soir part une fois par jour, a partir de `recapHeure` (heure de Paris). */
+export function doitEnvoyerRecap(dernier, maintenant = Date.now(), heure = 21) {
+  if (heure == null || heure < 0) return false;
+  const { jour, heure: h } = partiesParis(maintenant);
+  return h >= heure && dernier !== jour;
+}
+export const jourParis = (t = Date.now()) => partiesParis(t).jour;
+
+/**
+ * Le texte du recap : les alertes des dernieres 24 h et ce qu'elles sont
+ * devenues. "Partie en moins d'une heure" est le meilleur indice d'une vraie
+ * affaire — sans etre une preuve : une contrefacon supprimee part aussi.
+ */
+export function texteRecap(suivi, maintenant = Date.now(), minutes = 60) {
+  const jour = (suivi || []).filter((e) => maintenant - e.date < 24 * 3600 * 1000);
+  if (!jour.length) return "Aucune alerte envoyée ces dernières 24 h.";
+  const compte = (st) => jour.filter((e) => e.statut === st).length;
+  const parties = compte("vendue") + compte("retiree");
+  const verifiees = jour.filter((e) => e.statut).length;
+  const lignes = [
+    `**${jour.length} alerte(s)** ces dernières 24 h, dont ${verifiees} vérifiée(s) ${minutes} min après.`,
+    "",
+    `• Vendues (selon la fiche) : **${compte("vendue")}**`,
+    `• Disparues (vendues ou supprimées) : **${compte("retiree")}**`,
+    `• Toujours en vente : **${compte("en vente")}**`,
+    ...(compte("inconnu") ? [`• Statut illisible : ${compte("inconnu")}`] : []),
+    ...(jour.length - verifiees ? [`• Pas encore vérifiées : ${jour.length - verifiees}`] : []),
+  ];
+  if (verifiees) lignes.push("", `**${Math.round((parties / verifiees) * 100)} %** des alertes vérifiées sont parties en moins de ${minutes} min.`);
+
+  // Le score predit-il quelque chose ? Seulement avec assez d'exemples des deux cotes.
+  const moyenne = (l) => Math.round(l.reduce((s, e) => s + (e.score || 0), 0) / l.length);
+  const partiesL = jour.filter((e) => e.statut === "vendue" || e.statut === "retiree");
+  const restees = jour.filter((e) => e.statut === "en vente");
+  if (partiesL.length >= 2 && restees.length >= 2) {
+    lignes.push(`Score moyen : ${moyenne(partiesL)}/100 pour celles parties, ${moyenne(restees)}/100 pour celles restées.`);
+  }
+
+  const meilleures = [...jour].sort((a, b) => (b.score || 0) - (a.score || 0)).slice(0, 3);
+  lignes.push("", "**Meilleures alertes :**");
+  for (const e of meilleures) {
+    lignes.push(`• [${e.titre.slice(0, 50)}](${e.lien}) — ${e.prix} €${e.cote ? ` (cote ${e.cote} €)` : ""} · ${e.score ?? "?"}/100 · ${e.statut || "non vérifiée"}`);
+  }
+  return lignes.join("\n");
+}
+
+/** Verifie quelques alertes passees ; jamais quand Vinted freine. */
+async function suivreAlertes(page, ctx) {
+  const cibles = aVerifier(ctx.suivi, Date.now(), CONFIG.suiviMinutes ?? 60, CONFIG.suiviParPassage ?? 2);
+  for (const e of cibles) {
+    if (garde.bloque) return;
+    const fiche = await descriptionDe(page, e.lien);
+    const statut = statutSuivi(fiche);
+    if (!statut) continue;
+    e.statut = statut;
+    e.verifieA = Date.now();
+    journal(`  suivi : « ${e.titre.slice(0, 40)} » → ${statut}`);
+  }
+}
+
+/** Le recap du soir sur Discord. Renvoie true s'il est parti. */
+async function envoyerRecap(etat, suivi) {
+  if (ESSAI || !WEBHOOK) return false;
+  if (!doitEnvoyerRecap(etat.dernierRecap, Date.now(), CONFIG.recapHeure ?? 21)) return false;
+  try {
+    await envoyerDiscord({
+      allowed_mentions: { parse: [] },
+      embeds: [{
+        title: "📊 Récap de la journée",
+        color: 0x3498db,
+        description: texteRecap(suivi, Date.now(), CONFIG.suiviMinutes ?? 60).slice(0, 4000),
+        footer: { text: L.nom },
+        timestamp: new Date().toISOString(),
+      }],
+    });
+    etat.dernierRecap = jourParis();
+    journal("récap du soir envoyé");
+    return true;
+  } catch (erreur) {
+    erreurJournal(`récap non envoyé (${erreur.message})`);
+    return false;
+  }
+}
+
 export async function unPassage(page, ctx) {
   const { vues, cotes, bilan, vendeurs, file } = ctx;
   garde.bloque = false;
@@ -1461,6 +1609,7 @@ export async function unPassage(page, ctx) {
     try {
       await alerter(alerte);
       bilan.alertes += 1;
+      if (!ESSAI && ctx.suivi) ctx.suivi.push(entreeSuivi(alerte));
       if (!ESSAI) journal(`alerte envoyée (${alerte.score.score}/100) : ${alerte.titre.slice(0, 40)} — ${alerte.prix} €`);
     } catch (erreur) {
       // Un envoi rate ne doit pas faire perdre le reste du passage : on retire
@@ -1469,6 +1618,9 @@ export async function unPassage(page, ctx) {
       erreurJournal(`envoi impossible (${erreur.message}) — sera retentée.`);
     }
   }
+
+  // Suivi des alertes passees : quelques requetes au plus, en fin de passage.
+  if (ctx.suivi && !garde.bloque) await suivreAlertes(page, ctx);
 
   const plafond = CONFIG.fileAttenteMax ?? 150;
   if (file.length > plafond) {
@@ -1583,7 +1735,8 @@ async function main() {
   const cotes = elaguerCotes(etat.cotes, Date.now(), CONFIG.coteConserverHeures);
   const bilan = { ...nouveauBilan(), ...(etat.bilan || {}) };
   const vendeurs = elaguerVendeurs(etat.vendeurs, Date.now(), CONFIG.vendeurFenetreJours, CONFIG.vendeurMaxMontres);
-  const ctx = { vues, cotes, bilan, vendeurs, file: [], tour: 0 };
+  const suivi = elaguerSuivi(etat.suivi, Date.now());
+  const ctx = { vues, cotes, bilan, vendeurs, file: [], tour: 0, suivi };
 
   const etatCourant = (bilanAEcrire = bilan) => ({
     vues: [...vues].slice(-PLAFOND_VUES),
@@ -1592,6 +1745,8 @@ async function main() {
     bilan: bilanAEcrire,
     panne: etat.panne || null,
     panneDebut: etat.panneDebut || null,
+    suivi: elaguerSuivi(suivi, Date.now()),
+    dernierRecap: etat.dernierRecap || null,
   });
 
   const navigateur = await chromium.launch({ channel: "chrome", headless: true });
@@ -1649,6 +1804,8 @@ async function main() {
 
       // Le resume horaire se teste ici et non a la fin du job : depuis que les
       // jobs durent cinq heures, il ne serait plus parti qu'une fois par job.
+      await envoyerRecap(etat, suivi);
+
       if (await resumer(bilan)) {
         reporter();
         Object.assign(bilan, nouveauBilan());

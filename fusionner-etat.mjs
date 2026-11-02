@@ -7,12 +7,12 @@
  * sept fois.
  *
  * On ne demande donc plus a git de fusionner : on repart de la version du depot
- * et on y verse la notre. L'union des annonces vues est la bonne operation, il
- * n'y a rien a arbitrer.
+ * et on y verse la notre. Les regles (union des vues, cote la plus recente,
+ * elagage) vivent dans etat.mjs, partage avec le scan et teste.
  */
 import { readFile, writeFile } from "node:fs/promises";
+import { fusionnerEtats } from "./etat.mjs";
 
-const PLAFOND = 4000;
 const [local, cible] = process.argv.slice(2);
 
 const lire = async (chemin) => {
@@ -23,31 +23,20 @@ const lire = async (chemin) => {
   }
 };
 
-const nous = await lire(local);
-const depot = await lire(cible);
+// La config n'est lue que pour les durees de conservation ; illisible, on garde
+// les valeurs par defaut plutot que de faire echouer l'enregistrement.
+let options = {};
+try {
+  const config = JSON.parse(
+    await readFile(new URL(`./${process.env.CONFIG_FICHIER || "config.json"}`, import.meta.url), "utf8")
+  );
+  options = {
+    coteHeures: config.coteConserverHeures,
+    vendeurJours: config.vendeurFenetreJours,
+    seuilAncien: config.vendeurMaxMontres,
+  };
+} catch (_) {}
 
-// Les nôtres en dernier : ce sont les plus recentes, et le plafond coupe par le debut.
-const vues = [...new Set([...(depot.vues || []), ...(nous.vues || [])])].slice(-PLAFOND);
-const cotes = { ...(depot.cotes || {}), ...(nous.cotes || {}) };
-
-// Comptage des montres par vendeur : on garde le plus grand des deux, jamais la
-// somme — deux jobs qui ont vu la meme annonce la compteraient deux fois.
-const vendeurs = { ...(depot.vendeurs || {}) };
-for (const [id, n] of Object.entries(nous.vendeurs || {})) {
-  vendeurs[id] = Math.max(vendeurs[id] || 0, n);
-}
-
-await writeFile(cible, JSON.stringify(
-    {
-      vues,
-      cotes,
-      vendeurs,
-      bilan: nous.bilan || depot.bilan,
-      // L'etat de panne suit la version la plus recente : la notre.
-      panne: "panne" in nous ? nous.panne : depot.panne || null,
-      panneDebut: "panneDebut" in nous ? nous.panneDebut : depot.panneDebut || null,
-    },
-    null,
-    1
-  ));
-console.log(`état fusionné : ${vues.length} annonces mémorisées, ${Object.keys(cotes).length} cotes`);
+const fusion = fusionnerEtats(await lire(cible), await lire(local), Date.now(), options);
+await writeFile(cible, JSON.stringify(fusion, null, 1));
+console.log(`état fusionné : ${fusion.vues.length} annonces mémorisées, ${Object.keys(fusion.cotes).length} cotes`);

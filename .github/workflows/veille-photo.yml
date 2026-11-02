@@ -1,0 +1,84 @@
+name: Veille Vinted — Photo
+
+# Deuxieme veille, meme moteur : appareils photo numeriques (3075) et
+# argentiques (3076). Elle a son workflow, sa config (config-photo.json), son
+# etat (etat-photo.json) et son salon Discord (secret DISCORD_WEBHOOK_PHOTO).
+# La veille montres (veille.yml) n'en depend en rien.
+#
+# Un job a part tourne sur sa propre machine GitHub : les requetes des deux
+# veilles ne s'additionnent pas sur la meme adresse IP.
+
+on:
+  schedule:
+    # Decale de deux minutes par rapport aux montres, pour que les deux ne
+    # poussent pas leur etat dans la meme seconde.
+    - cron: "2-59/5 * * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: veille-photo
+  cancel-in-progress: false
+
+jobs:
+  scanner:
+    runs-on: ubuntu-latest
+    timeout-minutes: 310
+
+    steps:
+      # Tant que le salon n'est pas branche, le job s'arrete en succes au lieu
+      # d'echouer toutes les cinq minutes.
+      - name: Webhook présent ?
+        id: webhook
+        env:
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK_PHOTO }}
+        run: |
+          if [ -z "$DISCORD_WEBHOOK" ]; then
+            echo "Secret DISCORD_WEBHOOK_PHOTO absent : veille photo en pause."
+            echo "actif=non" >> "$GITHUB_OUTPUT"
+          else
+            echo "actif=oui" >> "$GITHUB_OUTPUT"
+          fi
+
+      - uses: actions/checkout@v4
+        if: steps.webhook.outputs.actif == 'oui'
+
+      - uses: actions/setup-node@v4
+        if: steps.webhook.outputs.actif == 'oui'
+        with:
+          node-version: 20
+
+      - name: Installer les dépendances
+        if: steps.webhook.outputs.actif == 'oui'
+        run: npm install --no-audit --no-fund
+
+      - name: Chrome
+        if: steps.webhook.outputs.actif == 'oui'
+        timeout-minutes: 5
+        env:
+          DEBIAN_FRONTEND: noninteractive
+        run: |
+          if command -v google-chrome >/dev/null 2>&1; then
+            google-chrome --version
+          else
+            echo "Chrome absent de l'image, installation."
+            npx playwright install chrome --with-deps
+          fi
+
+      - name: Chercher les bonnes affaires
+        if: steps.webhook.outputs.actif == 'oui'
+        env:
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK_PHOTO }}
+          CONFIG_FICHIER: config-photo.json
+          ETAT_FICHIER: etat-photo.json
+          ENREGISTRER_EN_ROUTE: "1"
+        run: node scan.mjs
+
+      - name: Mémoriser les annonces déjà signalées
+        if: always() && steps.webhook.outputs.actif == 'oui'
+        env:
+          CONFIG_FICHIER: config-photo.json
+          ETAT_FICHIER: etat-photo.json
+        run: ./enregistrer-etat.sh

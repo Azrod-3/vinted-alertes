@@ -1,6 +1,6 @@
 /** Tests des filtres, de la cote, du score et de l'etat. `npm test`. Aucun reseau. */
-import { normaliser, marqueHorlogere, etatAcceptable, motRedhibitoire, motifDeRefus, texteResume, estAccessoire, estLuxe, marqueInexistante, requeteModele, estPepite, merite, estLot, nombreDansLot, article, comparable, annonceDepuisProduit, rechercheUrl, etatProche, jetonsModele, mediane, nettoyer, dispersion, calculerCote, lisserCote, marqueCanonique, marqueDepuisTitre, marqueDe, estImitation, extraireReferences, titreContient, prixTotalDepuisLibelle, scoreAffaire, corpsAlerte, delaiBackoff, statutBloquant, recherchesDuPassage, dansFourchette, preuvesCote, coteUtilisable, texteComparables } from "./scan.mjs";
-import { elaguerCotes, elaguerVendeurs, lireVendeur, fusionnerEtats } from "./etat.mjs";
+import { normaliser, marqueHorlogere, etatAcceptable, motRedhibitoire, motifDeRefus, texteResume, estAccessoire, estLuxe, marqueInexistante, requeteModele, estPepite, merite, estLot, nombreDansLot, article, comparable, annonceDepuisProduit, rechercheUrl, etatProche, jetonsModele, mediane, nettoyer, dispersion, calculerCote, lisserCote, marqueCanonique, marqueDepuisTitre, marqueDe, estImitation, extraireReferences, titreContient, prixTotalDepuisLibelle, scoreAffaire, corpsAlerte, delaiBackoff, statutBloquant, recherchesDuPassage, dansFourchette, preuvesCote, coteUtilisable, texteComparables, statutSuivi, entreeSuivi, aVerifier, doitEnvoyerRecap, texteRecap } from "./scan.mjs";
+import { elaguerCotes, elaguerVendeurs, lireVendeur, fusionnerEtats, elaguerSuivi } from "./etat.mjs";
 
 let ok = 0;
 const echecs = [];
@@ -700,6 +700,47 @@ const avecPreuves = corpsAlerte({ ...alerteBase, niveau: "modèle", fourchette: 
 verifier("champ « Vérifier la cote »", avecPreuves.embeds[0].fields.some((f) => f.name === "Vérifier la cote"), true);
 verifier("prix demandés annoncés comme tels", avecPreuves.embeds[0].description.includes("prix demandés, pas prix vendus"), true);
 verifier("sans preuve, pas de champ vide", corpsAlerte({ ...alerteBase, score: baume }).embeds[0].fields.some((f) => f.name === "Vérifier la cote"), false);
+
+// --- Suivi des alertes : que sont-elles devenues ? -------------------------
+verifier("fiche supprimée = disparue", statutSuivi({ statut: "supprimee" }), "retiree");
+verifier("SoldOut = vendue", statutSuivi({ statut: "ok", disponibilite: "https://schema.org/SoldOut" }), "vendue");
+verifier("OutOfStock = vendue", statutSuivi({ statut: "ok", disponibilite: "http://schema.org/OutOfStock" }), "vendue");
+verifier("InStock = en vente", statutSuivi({ statut: "ok", disponibilite: "https://schema.org/InStock" }), "en vente");
+verifier("sans indication = inconnu, jamais deviné", statutSuivi({ statut: "ok", disponibilite: null }), "inconnu");
+verifier("Vinted freine = on retentera", statutSuivi({ statut: "indisponible" }), null);
+const MAINTENANT = Date.UTC(2026, 10, 2, 20, 30); // 21 h 30 à Paris
+const e1 = entreeSuivi({ id: 7, titre: "Canon AE-1", prix: 60, cote: 195, score: { score: 80 }, lien: "https://www.vinted.fr/items/7" }, MAINTENANT - 90 * 60000);
+verifier("entrée de suivi : score retenu", e1.score, 80);
+verifier("entrée de suivi : en attente", e1.statut, null);
+const e2 = { ...e1, id: 8, date: MAINTENANT - 20 * 60000 };
+const e3 = { ...e1, id: 9, statut: "vendue" };
+verifier("à vérifier : assez vieille et non vérifiée", aVerifier([e1, e2, e3], MAINTENANT, 60, 2).map((e) => e.id).join(), "7");
+verifier("à vérifier : plafond par passage",
+  aVerifier([e1, { ...e1, id: 10 }, { ...e1, id: 11 }], MAINTENANT, 60, 2).length, 2);
+verifier("récap : à 21 h 30 à Paris, pas encore envoyé", doitEnvoyerRecap(null, MAINTENANT, 21), true);
+verifier("récap : déjà envoyé aujourd'hui", doitEnvoyerRecap("2026-11-02", MAINTENANT, 21), false);
+verifier("récap : trop tôt", doitEnvoyerRecap(null, Date.UTC(2026, 10, 2, 15, 0), 21), false);
+verifier("récap : envoyé hier, on renvoie", doitEnvoyerRecap("2026-11-01", MAINTENANT, 21), true);
+const journee = [
+  { ...e1, id: 1, statut: "vendue", score: 85 }, { ...e1, id: 2, statut: "retiree", score: 75 },
+  { ...e1, id: 3, statut: "en vente", score: 50 }, { ...e1, id: 4, statut: "en vente", score: 40 },
+  { ...e1, id: 5, statut: null, score: 60 }, { ...e1, id: 6, date: MAINTENANT - 30 * 3600000, statut: "vendue" },
+];
+const recap = texteRecap(journee, MAINTENANT, 60);
+verifier("récap : seulement les 24 dernières heures", recap.includes("**5 alerte(s)**"), true);
+verifier("récap : vendues", recap.includes("Vendues (selon la fiche) : **1**"), true);
+verifier("récap : disparues", recap.includes("Disparues (vendues ou supprimées) : **1**"), true);
+verifier("récap : part partie vite", recap.includes("**50 %** des alertes vérifiées"), true);
+verifier("récap : score des parties contre restées", recap.includes("80/100 pour celles parties, 45/100 pour celles restées"), true);
+verifier("récap : non vérifiées signalées", recap.includes("Pas encore vérifiées : 1"), true);
+verifier("récap : meilleure alerte en lien", recap.includes("[Canon AE-1](https://www.vinted.fr/items/7)"), true);
+verifier("récap vide", texteRecap([], MAINTENANT), "Aucune alerte envoyée ces dernières 24 h.");
+verifier("suivi : 7 jours au plus", elaguerSuivi([e1, { ...e1, id: 99, date: MAINTENANT - 8 * 24 * 3600000 }], MAINTENANT).length, 1);
+const fusionSuivi = fusionnerEtats({ suivi: [{ ...e1, statut: "vendue", verifieA: MAINTENANT }], dernierRecap: "2026-11-01" },
+                                   { suivi: [e1, e2], dernierRecap: "2026-11-02" }, MAINTENANT);
+verifier("fusion : une entrée vérifiée n'est pas écrasée", fusionSuivi.suivi.find((e) => e.id === 7).statut, "vendue");
+verifier("fusion : nouvelle entrée ajoutée", fusionSuivi.suivi.length, 2);
+verifier("fusion : dernier récap le plus récent", fusionSuivi.dernierRecap, "2026-11-02");
 
 console.log(`${ok} tests passés${echecs.length ? `, ${echecs.length} ÉCHECS` : ""}`);
 if (echecs.length) {

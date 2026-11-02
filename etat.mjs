@@ -58,6 +58,18 @@ export function elaguerVendeurs(vendeurs, maintenant = Date.now(), jours = 30, s
 }
 
 /**
+ * Suivi des alertes : 7 jours et 300 entrees au plus, les plus recentes.
+ */
+export const PLAFOND_SUIVI = 300;
+export function elaguerSuivi(suivi, maintenant = Date.now(), jours = 7) {
+  const limite = maintenant - jours * JOUR;
+  return (Array.isArray(suivi) ? suivi : [])
+    .filter((e) => e && e.id && Number(e.date) >= limite)
+    .sort((a, b) => a.date - b.date)
+    .slice(-PLAFOND_SUIVI);
+}
+
+/**
  * Fusion de notre etat dans celui du depot. L'union des annonces vues est la
  * bonne operation ; pour les cotes, la plus recente gagne ; pour les vendeurs,
  * le plus grand compte (jamais la somme : deux jobs qui ont vu la meme annonce
@@ -83,6 +95,17 @@ export function fusionnerEtats(depot, nous, maintenant = Date.now(), options = {
     }
   }
 
+  // Suivi : par id ; une entree verifiee l'emporte sur une entree en attente.
+  const suiviParId = new Map();
+  for (const e of [...(d.suivi || []), ...(n.suivi || [])]) {
+    if (!e || !e.id) continue;
+    const avant = suiviParId.get(String(e.id));
+    if (!avant || (!avant.statut && e.statut) || (e.statut && Number(e.verifieA) >= Number(avant.verifieA || 0))) {
+      suiviParId.set(String(e.id), e);
+    }
+  }
+  const recaps = [d.dernierRecap, n.dernierRecap].filter(Boolean).sort();
+
   return {
     vues,
     cotes: elaguerCotes(cotes, maintenant, options.coteHeures),
@@ -91,5 +114,7 @@ export function fusionnerEtats(depot, nous, maintenant = Date.now(), options = {
     // L'etat de panne suit la version la plus recente : la notre.
     panne: "panne" in n ? n.panne : d.panne || null,
     panneDebut: "panneDebut" in n ? n.panneDebut : d.panneDebut || null,
+    suivi: elaguerSuivi([...suiviParId.values()], maintenant),
+    dernierRecap: recaps.length ? recaps[recaps.length - 1] : null,
   };
 }

@@ -1951,7 +1951,9 @@
   "10644649741",
   "10644906559",
   "10644894034",
-  "10644919450"
+  "10644919450",
+  "10644978995",
+  "10645004438"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -8643,6 +8645,64 @@
    "echantillon": 1,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:pentax pc 5000|2@3076": {
+   "date": 1793680584891,
+   "mediane": 30,
+   "echantillon": 5,
+   "dispersion": 0.6,
+   "fourchette": [
+    20,
+    70
+   ],
+   "exemples": [
+    {
+     "id": 10459233816,
+     "prix": 30
+    },
+    {
+     "id": 10138207719,
+     "prix": 22
+    },
+    {
+     "id": 10644978995,
+     "prix": 40
+    },
+    {
+     "id": 10224180986,
+     "prix": 20
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:minolta dynax|2@3076": {
+   "date": 1793681217683,
+   "mediane": 30,
+   "echantillon": 72,
+   "dispersion": 0.5,
+   "fourchette": [
+    8.5,
+    70
+   ],
+   "exemples": [
+    {
+     "id": 10635902203,
+     "prix": 30
+    },
+    {
+     "id": 10579315511,
+     "prix": 30
+    },
+    {
+     "id": 10595488279,
+     "prix": 30
+    },
+    {
+     "id": 10624666532,
+     "prix": 30
+    }
+   ],
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -9573,8 +9633,8 @@
  },
  "bilan": {
   "depuis": 1793674967823,
-  "passages": 72,
-  "nouvelles": 3,
+  "passages": 87,
+  "nouvelles": 5,
   "marque": 0,
   "etat": 0,
   "prix": 0,
@@ -9585,7 +9645,7 @@
   "pro": 0,
   "vendeurSpecialise": 0,
   "sansCote": 3,
-  "chere": 0,
+  "chere": 2,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,

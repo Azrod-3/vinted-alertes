@@ -1,21 +1,5 @@
 {
  "vues": [
-  "10638243295",
-  "10638234530",
-  "10638231061",
-  "10638238124",
-  "10638227195",
-  "10638247676",
-  "10638244644",
-  "10638252897",
-  "10638262870",
-  "10638264407",
-  "10638264463",
-  "10638263091",
-  "10638287054",
-  "10638289107",
-  "10638282592",
-  "10638280376",
   "10638278863",
   "10638311818",
   "10638304545",
@@ -3999,7 +3983,23 @@
   "10656918334",
   "10656921201",
   "10656923585",
-  "10656921321"
+  "10656921321",
+  "10656949002",
+  "10656948425",
+  "10656938678",
+  "10656946218",
+  "10656944941",
+  "10656963489",
+  "10656975757",
+  "10656974829",
+  "10656989880",
+  "10657002339",
+  "10657000189",
+  "10657006024",
+  "10657040837",
+  "10657022451",
+  "10657042428",
+  "10657053251"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -29473,6 +29473,117 @@
    "echantillon": 1,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:fujifilm x100v camara|2@3075": {
+   "date": 1793749067068,
+   "mediane": null,
+   "echantillon": 2,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:agfa isolette|2@3076": {
+   "date": 1793749068097,
+   "mediane": 45,
+   "echantillon": 69,
+   "dispersion": 0.56,
+   "fourchette": [
+    12,
+    100
+   ],
+   "exemples": [
+    {
+     "id": 10407644559,
+     "prix": 45
+    },
+    {
+     "id": 10653456287,
+     "prix": 45
+    },
+    {
+     "id": 7076712312,
+     "prix": 45
+    },
+    {
+     "id": 8415401696,
+     "prix": 45
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:fujifilm ax200 finepix|4@3075": {
+   "date": 1793749132194,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:nikon s4 10x|1@3075": {
+   "date": 1793749573882,
+   "mediane": 68,
+   "echantillon": 4,
+   "dispersion": 0.22,
+   "fourchette": [
+    30,
+    89
+   ],
+   "exemples": [
+    {
+     "id": 10565934981,
+     "prix": 75
+    },
+    {
+     "id": 10657006024,
+     "prix": 60
+    },
+    {
+     "id": 9208081222,
+     "prix": 89
+    },
+    {
+     "id": 10462153724,
+     "prix": 30
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:fujifilm x h1 extras|2@3075": {
+   "date": 1793749890481,
+   "mediane": null,
+   "echantillon": 0,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:samsung four|2@3075": {
+   "date": 1793749954279,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:samsung wb800f wifi|1@3075": {
+   "date": 1793750018059,
+   "mediane": 100,
+   "echantillon": 3,
+   "dispersion": null,
+   "fourchette": [
+    90,
+    120
+   ],
+   "exemples": [
+    {
+     "id": 10657053251,
+     "prix": 100
+    },
+    {
+     "id": 10066670182,
+     "prix": 90
+    },
+    {
+     "id": 9305693471,
+     "prix": 120
+    }
+   ],
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -31539,19 +31650,19 @@
  },
  "bilan": {
   "depuis": 1793745262383,
-  "passages": 54,
-  "nouvelles": 70,
-  "marque": 9,
+  "passages": 70,
+  "nouvelles": 86,
+  "marque": 10,
   "etat": 1,
-  "prix": 3,
+  "prix": 4,
   "accessoire": 0,
-  "lot": 3,
+  "lot": 4,
   "fausse": 0,
   "imitation": 0,
   "pro": 3,
   "vendeurSpecialise": 1,
-  "sansCote": 35,
-  "chere": 13,
+  "sansCote": 45,
+  "chere": 16,
   "description": 1,
   "scoreFaible": 0,
   "blocages": 0,
@@ -32338,7 +32449,8 @@
    "score": 68,
    "lien": "https://www.vinted.fr/items/10656511333-canon-g9-vintage-camera-digital",
    "date": 1793745132590,
-   "statut": null
+   "statut": "en vente",
+   "verifieA": 1793749068558
   },
   {
    "id": 10656647840,
@@ -32348,7 +32460,8 @@
    "score": 82,
    "lien": "https://www.vinted.fr/items/10656647840-canon-60d-body",
    "date": 1793746224201,
-   "statut": null
+   "statut": "retiree",
+   "verifieA": 1793749826591
   }
  ],
  "dernierRecap": "2026-11-03"

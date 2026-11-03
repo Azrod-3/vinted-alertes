@@ -1,25 +1,5 @@
 {
  "vues": [
-  "10637893244",
-  "10637919542",
-  "10637912091",
-  "10637906678",
-  "10637779730",
-  "10637937424",
-  "10637933001",
-  "10637923009",
-  "10637955173",
-  "10637947470",
-  "10637946700",
-  "10637938480",
-  "10637945482",
-  "10637969224",
-  "10637967638",
-  "10637959526",
-  "10637985583",
-  "10638004433",
-  "10637999850",
-  "10637998512",
   "10638002489",
   "10637990961",
   "10638022225",
@@ -3999,7 +3979,27 @@
   "10656453454",
   "10656464296",
   "10656464559",
-  "10656494754"
+  "10656494754",
+  "10656503862",
+  "10656511333",
+  "10610277079",
+  "10656520284",
+  "10656530217",
+  "10656529693",
+  "10656535318",
+  "10656543943",
+  "10656540895",
+  "10656550702",
+  "10656551681",
+  "10656558860",
+  "10656557202",
+  "10656555910",
+  "10656576165",
+  "10656589772",
+  "10656604741",
+  "10656601997",
+  "10656592826",
+  "10656617732"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -28911,6 +28911,139 @@
    "echantillon": 1,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:canon g9|2@3075": {
+   "date": 1793745131696,
+   "mediane": 284,
+   "echantillon": 36,
+   "dispersion": 1.05,
+   "fourchette": [
+    100,
+    719
+   ],
+   "exemples": [
+    {
+     "id": 9695134939,
+     "prix": 279.99
+    },
+    {
+     "id": 10596357583,
+     "prix": 289
+    },
+    {
+     "id": 10543943185,
+     "prix": 295
+    },
+    {
+     "id": 9076979745,
+     "prix": 295
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:fujifilm a800 maquina|1@3075": {
+   "date": 1793745196710,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:konica 150 batterie|2@3076": {
+   "date": 1793745197480,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:fujifilm finepix|1@3075": {
+   "date": 1793745262383,
+   "mediane": 50,
+   "echantillon": 75,
+   "dispersion": 0.56,
+   "fourchette": [
+    15,
+    99
+   ],
+   "exemples": [
+    {
+     "id": 10634985568,
+     "prix": 50
+    },
+    {
+     "id": 10575560372,
+     "prix": 50
+    },
+    {
+     "id": 10643218686,
+     "prix": 50
+    },
+    {
+     "id": 10600874940,
+     "prix": 50
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:sony dsc w120 cybershot|3@3075": {
+   "date": 1793745644274,
+   "mediane": 130,
+   "echantillon": 3,
+   "dispersion": null,
+   "fourchette": [
+    87,
+    150
+   ],
+   "exemples": [
+    {
+     "id": 9739633295,
+     "prix": 130
+    },
+    {
+     "id": 8356929195,
+     "prix": 150
+    },
+    {
+     "id": 10656576165,
+     "prix": 87
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:kodak maquina antiga|2@3076": {
+   "date": 1793745835272,
+   "mediane": 9,
+   "echantillon": 5,
+   "dispersion": 0.67,
+   "fourchette": [
+    4,
+    20
+   ],
+   "exemples": [
+    {
+     "id": 8493109110,
+     "prix": 9
+    },
+    {
+     "id": 10193732218,
+     "prix": 12
+    },
+    {
+     "id": 5939230132,
+     "prix": 6
+    },
+    {
+     "id": 10552784557,
+     "prix": 4
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:pentax 1 8 55 asahi|1@3076": {
+   "date": 1793745962952,
+   "mediane": null,
+   "echantillon": 2,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -30030,6 +30163,10 @@
    "n": 4,
    "vu": 1793705164191
   },
+  "228863176": {
+   "n": 3,
+   "vu": 1793745771291
+  },
   "229711908": {
    "n": 2,
    "vu": 1793650518163
@@ -30242,6 +30379,10 @@
    "n": 2,
    "vu": 1793732269875
   },
+  "271743357": {
+   "n": 2,
+   "vu": 1793745453117
+  },
   "271748287": {
    "n": 5,
    "vu": 1793730778598
@@ -30409,6 +30550,10 @@
   "3125704668": {
    "n": 2,
    "vu": 1793740791549
+  },
+  "3127678666": {
+   "n": 2,
+   "vu": 1793745130974
   },
   "3128356219": {
    "n": 3,
@@ -30936,24 +31081,24 @@
   }
  },
  "bilan": {
-  "depuis": 1793738035044,
-  "passages": 107,
-  "nouvelles": 263,
-  "marque": 40,
-  "etat": 13,
-  "prix": 18,
-  "accessoire": 7,
-  "lot": 2,
+  "depuis": 1793745262383,
+  "passages": 11,
+  "nouvelles": 14,
+  "marque": 3,
+  "etat": 0,
+  "prix": 1,
+  "accessoire": 0,
+  "lot": 1,
   "fausse": 0,
   "imitation": 0,
-  "pro": 5,
-  "vendeurSpecialise": 13,
-  "sansCote": 111,
-  "chere": 51,
-  "description": 1,
+  "pro": 0,
+  "vendeurSpecialise": 0,
+  "sansCote": 7,
+  "chere": 2,
+  "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
-  "alertes": 2
+  "alertes": 0
  },
  "panne": null,
  "panneDebut": null,
@@ -31725,6 +31870,16 @@
    "score": 24,
    "lien": "https://www.vinted.fr/items/10656438062-fotocamera-vintage-voigthalander-vito-b",
    "date": 1793744617602,
+   "statut": null
+  },
+  {
+   "id": 10656511333,
+   "titre": "Canon G9 vintage camera- digital",
+   "prix": 100,
+   "cote": 284,
+   "score": 68,
+   "lien": "https://www.vinted.fr/items/10656511333-canon-g9-vintage-camera-digital",
+   "date": 1793745132590,
    "statut": null
   }
  ],

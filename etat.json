@@ -1,6 +1,5 @@
 {
  "vues": [
-  "10639347429",
   "10639344891",
   "10639324583",
   "10639344557",
@@ -3999,7 +3998,8 @@
   "10644633951",
   "10644669245",
   "10644726799",
-  "10644725345"
+  "10644725345",
+  "10644761858"
  ],
  "cotes": {
   "Omega": {
@@ -15317,6 +15317,35 @@
     {
      "id": 8043261076,
      "prix": 80
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:tissot classic dream|4": {
+   "date": 1793676412107,
+   "mediane": 193,
+   "echantillon": 26,
+   "dispersion": 0.36,
+   "fourchette": [
+    130,
+    315
+   ],
+   "exemples": [
+    {
+     "id": 9049495561,
+     "prix": 195
+    },
+    {
+     "id": 9892689030,
+     "prix": 190
+    },
+    {
+     "id": 10644761858,
+     "prix": 199
+    },
+    {
+     "id": 9233385907,
+     "prix": 199
     }
    ],
    "niveau": "modèle"
@@ -82322,8 +82351,8 @@
  },
  "bilan": {
   "depuis": 1793674968672,
-  "passages": 24,
-  "nouvelles": 3,
+  "passages": 45,
+  "nouvelles": 4,
   "marque": 2,
   "etat": 0,
   "prix": 0,
@@ -82334,7 +82363,7 @@
   "pro": 0,
   "vendeurSpecialise": 1,
   "sansCote": 0,
-  "chere": 0,
+  "chere": 1,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,

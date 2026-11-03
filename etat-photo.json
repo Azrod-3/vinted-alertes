@@ -1916,7 +1916,16 @@
   "10643805503",
   "10643814254",
   "10643812697",
-  "10643816348"
+  "10643816348",
+  "10643842849",
+  "10643847318",
+  "10643871239",
+  "10637113823",
+  "10643872936",
+  "10636918924",
+  "10637048259",
+  "10643900864",
+  "10643049175"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -8273,6 +8282,85 @@
    "echantillon": 1,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:kodak c123 camara|2@3075": {
+   "date": 1793665674076,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:canon af 7 prima|1@3076": {
+   "date": 1793665674989,
+   "mediane": 30,
+   "echantillon": 18,
+   "dispersion": 0.97,
+   "fourchette": [
+    12,
+    89
+   ],
+   "exemples": [
+    {
+     "id": 7669838058,
+     "prix": 30
+    },
+    {
+     "id": 10180614097,
+     "prix": 29.9
+    },
+    {
+     "id": 10250021558,
+     "prix": 35
+    },
+    {
+     "id": 10138245788,
+     "prix": 25
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:olympus rangefinder testada|2@3076": {
+   "date": 1793665675731,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:olympus xb400 analogue|1@3076": {
+   "date": 1793665677327,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:minolta f35 big|1@3076": {
+   "date": 1793665678102,
+   "mediane": 25,
+   "echantillon": 16,
+   "dispersion": 0.52,
+   "fourchette": [
+    10,
+    50
+   ],
+   "exemples": [
+    {
+     "id": 9257761212,
+     "prix": 25
+    },
+    {
+     "id": 10211415732,
+     "prix": 25
+    },
+    {
+     "id": 10618213542,
+     "prix": 24.6
+    },
+    {
+     "id": 10151157183,
+     "prix": 23.7
+    }
+   ],
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -8309,8 +8397,8 @@
    "vu": 1793640355802
   },
   "22152343": {
-   "n": 2,
-   "vu": 1793665101437
+   "n": 3,
+   "vu": 1793665420300
   },
   "22240742": {
    "n": 5,
@@ -8419,6 +8507,10 @@
   "38442698": {
    "n": 2,
    "vu": 1793633286952
+  },
+  "38579261": {
+   "n": 3,
+   "vu": 1793665673507
   },
   "38594784": {
    "n": 2,
@@ -9187,23 +9279,23 @@
  },
  "bilan": {
   "depuis": 1793660450223,
-  "passages": 73,
-  "nouvelles": 60,
+  "passages": 88,
+  "nouvelles": 69,
   "marque": 9,
   "etat": 2,
-  "prix": 5,
+  "prix": 6,
   "accessoire": 0,
   "lot": 2,
   "fausse": 0,
   "imitation": 0,
   "pro": 2,
   "vendeurSpecialise": 3,
-  "sansCote": 75,
-  "chere": 58,
+  "sansCote": 80,
+  "chere": 60,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 2,
-  "alertes": 4
+  "alertes": 5
  },
  "panne": null,
  "panneDebut": null,
@@ -9273,6 +9365,16 @@
    "date": 1793660704129,
    "statut": "en vente",
    "verifieA": 1793664339573
+  },
+  {
+   "id": 10643872936,
+   "titre": "Olympus XA 35mm rangefinder – testada / testé / tested",
+   "prix": 75,
+   "cote": null,
+   "score": 22,
+   "lien": "https://www.vinted.fr/items/10643872936-olympus-xa-35mm-rangefinder-testada-teste-tested",
+   "date": 1793665678322,
+   "statut": null
   }
  ],
  "dernierRecap": null

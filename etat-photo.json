@@ -2014,7 +2014,18 @@
   "10645384037",
   "10645390313",
   "10645391499",
-  "10645393570"
+  "10645393570",
+  "10645410120",
+  "10645415170",
+  "10645419032",
+  "10643257239",
+  "10645434519",
+  "10645440645",
+  "10645439924",
+  "10645443852",
+  "10645449160",
+  "10645448222",
+  "10645451269"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -9009,6 +9020,13 @@
    "echantillon": 1,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:kodak 110 bonmatic|1@3076": {
+   "date": 1793690021175,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -9201,8 +9219,8 @@
    "vu": 1793689386084
   },
   "48416075": {
-   "n": 4,
-   "vu": 1793644428150
+   "n": 5,
+   "vu": 1793690589539
   },
   "50495608": {
    "n": 2,
@@ -9545,8 +9563,8 @@
    "vu": 1793684891073
   },
   "240689733": {
-   "n": 4,
-   "vu": 1793662866595
+   "n": 5,
+   "vu": 1793690400400
   },
   "244647118": {
    "n": 3,
@@ -9777,8 +9795,8 @@
    "vu": 1793648953190
   },
   "3157852138": {
-   "n": 7,
-   "vu": 1793689513515
+   "n": 8,
+   "vu": 1793690147435
   },
   "3160533084": {
    "n": 2,
@@ -9963,23 +9981,23 @@
  },
  "bilan": {
   "depuis": 1793689386761,
-  "passages": 7,
-  "nouvelles": 9,
-  "marque": 4,
+  "passages": 22,
+  "nouvelles": 20,
+  "marque": 5,
   "etat": 0,
-  "prix": 0,
+  "prix": 1,
   "accessoire": 2,
   "lot": 0,
   "fausse": 0,
   "imitation": 0,
   "pro": 0,
-  "vendeurSpecialise": 0,
-  "sansCote": 3,
+  "vendeurSpecialise": 1,
+  "sansCote": 10,
   "chere": 0,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
-  "alertes": 0
+  "alertes": 1
  },
  "panne": null,
  "panneDebut": null,
@@ -10069,6 +10087,17 @@
    "score": 69,
    "lien": "https://www.vinted.fr/items/10645242008-nikon-coolpix-b500",
    "date": 1793686980743,
+   "statut": "en vente",
+   "verifieA": 1793690593752
+  },
+  {
+   "id": 10645448222,
+   "titre": "Sony dsc-HX10V",
+   "prix": 58,
+   "cote": 120,
+   "score": 55,
+   "lien": "https://www.vinted.fr/items/10645448222-sony-dsc-hx10v",
+   "date": 1793690590364,
    "statut": null
   }
  ],

@@ -2054,7 +2054,25 @@
   "10645522899",
   "10645522769",
   "10645531809",
-  "10645534529"
+  "10645534529",
+  "10645548534",
+  "10645547833",
+  "10645546298",
+  "10645551049",
+  "10645555861",
+  "10645555865",
+  "10645560951",
+  "10645561389",
+  "10645565175",
+  "10645564547",
+  "10645576016",
+  "10645573612",
+  "10645584248",
+  "10645590174",
+  "10645598965",
+  "10645601538",
+  "10645609513",
+  "10645618576"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -9348,6 +9366,122 @@
    "echantillon": 1,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:canon 500d eos|1@3075": {
+   "date": 1793691870478,
+   "mediane": 120,
+   "echantillon": 69,
+   "dispersion": 0.42,
+   "fourchette": [
+    49,
+    250
+   ],
+   "exemples": [
+    {
+     "id": 10599575239,
+     "prix": 120
+    },
+    {
+     "id": 9539052647,
+     "prix": 120
+    },
+    {
+     "id": 10022225698,
+     "prix": 120
+    },
+    {
+     "id": 10645464654,
+     "prix": 119.09
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:canon a530 4x|1@3075": {
+   "date": 1793691871103,
+   "mediane": 48,
+   "echantillon": 4,
+   "dispersion": 0.32,
+   "fourchette": [
+    30,
+    79.99
+   ],
+   "exemples": [
+    {
+     "id": 10370228711,
+     "prix": 55
+    },
+    {
+     "id": 10645546298,
+     "prix": 40
+    },
+    {
+     "id": 10072349088,
+     "prix": 30
+    },
+    {
+     "id": 10633176459,
+     "prix": 79.99
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:fujifilm x100vi|3@3075": {
+   "date": 1793691998173,
+   "mediane": 1700,
+   "echantillon": 25,
+   "dispersion": 0.09,
+   "fourchette": [
+    1420,
+    2000
+   ],
+   "exemples": [
+    {
+     "id": 9288123886,
+     "prix": 1700
+    },
+    {
+     "id": 10636686271,
+     "prix": 1700
+    },
+    {
+     "id": 9131443326,
+     "prix": 1700
+    },
+    {
+     "id": 9578791399,
+     "prix": 1700
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:nikon s6200 coolpix|2@3075": {
+   "date": 1793692693243,
+   "mediane": 130,
+   "echantillon": 27,
+   "dispersion": 0.5,
+   "fourchette": [
+    51,
+    230
+   ],
+   "exemples": [
+    {
+     "id": 10239968252,
+     "prix": 130
+    },
+    {
+     "id": 10080784082,
+     "prix": 130
+    },
+    {
+     "id": 10481239672,
+     "prix": 135
+    },
+    {
+     "id": 8746163436,
+     "prix": 125
+    }
+   ],
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -9720,8 +9854,8 @@
    "vu": 1793634991613
   },
   "116997132": {
-   "n": 2,
-   "vu": 1793640026859
+   "n": 4,
+   "vu": 1793692440353
   },
   "121693456": {
    "n": 2,
@@ -10124,8 +10258,8 @@
    "vu": 1793641603951
   },
   "3156406559": {
-   "n": 5,
-   "vu": 1793691677940
+   "n": 7,
+   "vu": 1793691997355
   },
   "3157005272": {
    "n": 2,
@@ -10318,23 +10452,23 @@
  },
  "bilan": {
   "depuis": 1793689386761,
-  "passages": 37,
-  "nouvelles": 49,
-  "marque": 9,
-  "etat": 3,
-  "prix": 3,
+  "passages": 52,
+  "nouvelles": 67,
+  "marque": 12,
+  "etat": 4,
+  "prix": 4,
   "accessoire": 3,
   "lot": 0,
   "fausse": 0,
   "imitation": 0,
-  "pro": 0,
-  "vendeurSpecialise": 1,
-  "sansCote": 19,
-  "chere": 10,
+  "pro": 1,
+  "vendeurSpecialise": 2,
+  "sansCote": 26,
+  "chere": 13,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
-  "alertes": 1
+  "alertes": 2
  },
  "panne": null,
  "panneDebut": null,
@@ -10435,6 +10569,16 @@
    "score": 55,
    "lien": "https://www.vinted.fr/items/10645448222-sony-dsc-hx10v",
    "date": 1793690590364,
+   "statut": null
+  },
+  {
+   "id": 10645618576,
+   "titre": "Nikon Coolpix S6200  – mit Zubehörpaket",
+   "prix": 51,
+   "cote": 130,
+   "score": 66,
+   "lien": "https://www.vinted.fr/items/10645618576-nikon-coolpix-s6200-mit-zubehorpaket",
+   "date": 1793692694481,
    "statut": null
   }
  ],

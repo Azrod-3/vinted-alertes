@@ -1956,7 +1956,14 @@
   "10645004438",
   "10645034489",
   "10645056985",
-  "10645081844"
+  "10645081844",
+  "10645137427",
+  "10645140965",
+  "10645144634",
+  "10645143769",
+  "10645149007",
+  "10645149004",
+  "10645148475"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -8706,6 +8713,100 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "modele:canon 300d eos|1@3075": {
+   "date": 1793684636715,
+   "mediane": 80,
+   "echantillon": 76,
+   "dispersion": 0.69,
+   "fourchette": [
+    30,
+    200
+   ],
+   "exemples": [
+    {
+     "id": 8841082163,
+     "prix": 80
+    },
+    {
+     "id": 7442730881,
+     "prix": 80
+    },
+    {
+     "id": 5757519185,
+     "prix": 80
+    },
+    {
+     "id": 7332316935,
+     "prix": 80
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:sony 980 cyber|2@3075": {
+   "date": 1793684763483,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:canon camara|1@3075": {
+   "date": 1793684764580,
+   "mediane": 120,
+   "echantillon": 37,
+   "dispersion": 1,
+   "fourchette": [
+    45,
+    340
+   ],
+   "exemples": [
+    {
+     "id": 10615240215,
+     "prix": 120
+    },
+    {
+     "id": 10633387675,
+     "prix": 120
+    },
+    {
+     "id": 10560340641,
+     "prix": 120
+    },
+    {
+     "id": 10593544534,
+     "prix": 120
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:panasonic dmc fz20 12x|1@3075": {
+   "date": 1793684891734,
+   "mediane": 48,
+   "echantillon": 4,
+   "dispersion": 0.17,
+   "fourchette": [
+    35,
+    60
+   ],
+   "exemples": [
+    {
+     "id": 10373239718,
+     "prix": 44
+    },
+    {
+     "id": 10054498779,
+     "prix": 52
+    },
+    {
+     "id": 9548424069,
+     "prix": 60
+    },
+    {
+     "id": 10645148475,
+     "prix": 35
+    }
+   ],
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -9161,6 +9262,10 @@
    "n": 2,
    "vu": 1793649603822
   },
+  "199015614": {
+   "n": 2,
+   "vu": 1793684891073
+  },
   "199467514": {
    "n": 2,
    "vu": 1793632600304
@@ -9216,6 +9321,10 @@
   "236059850": {
    "n": 6,
    "vu": 1793663315497
+  },
+  "236863298": {
+   "n": 2,
+   "vu": 1793684891073
   },
   "240689733": {
    "n": 4,
@@ -9636,9 +9745,9 @@
  },
  "bilan": {
   "depuis": 1793682169859,
-  "passages": 31,
-  "nouvelles": 2,
-  "marque": 0,
+  "passages": 46,
+  "nouvelles": 9,
+  "marque": 2,
   "etat": 0,
   "prix": 0,
   "accessoire": 0,
@@ -9647,9 +9756,9 @@
   "imitation": 0,
   "pro": 1,
   "vendeurSpecialise": 0,
-  "sansCote": 1,
-  "chere": 0,
-  "description": 0,
+  "sansCote": 3,
+  "chere": 2,
+  "description": 1,
   "scoreFaible": 0,
   "blocages": 0,
   "alertes": 0

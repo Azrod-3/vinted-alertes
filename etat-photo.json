@@ -1906,7 +1906,17 @@
   "10642245545",
   "10643730455",
   "10643728148",
-  "10643728275"
+  "10643728275",
+  "10643754183",
+  "10643769417",
+  "10643777861",
+  "10643781031",
+  "10643795653",
+  "10643800899",
+  "10643805503",
+  "10643814254",
+  "10643812697",
+  "10643816348"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -8256,6 +8266,13 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "modele:samsung kompaktkamera originaltasche|2@3076": {
+   "date": 1793664974962,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -8290,6 +8307,10 @@
   "21556333": {
    "n": 3,
    "vu": 1793640355802
+  },
+  "22152343": {
+   "n": 2,
+   "vu": 1793665101437
   },
   "22240742": {
    "n": 5,
@@ -8632,8 +8653,8 @@
    "vu": 1793648364266
   },
   "145604027": {
-   "n": 12,
-   "vu": 1793664144988
+   "n": 14,
+   "vu": 1793664911086
   },
   "146155341": {
    "n": 2,
@@ -8900,8 +8921,8 @@
    "vu": 1793660426043
   },
   "311817479": {
-   "n": 4,
-   "vu": 1793660601090
+   "n": 5,
+   "vu": 1793664593827
   },
   "311869870": {
    "n": 2,
@@ -9008,8 +9029,8 @@
    "vu": 1793660426047
   },
   "3172419165": {
-   "n": 5,
-   "vu": 1793663379661
+   "n": 6,
+   "vu": 1793664974404
   },
   "3176701136": {
    "n": 3,
@@ -9166,19 +9187,19 @@
  },
  "bilan": {
   "depuis": 1793660450223,
-  "passages": 58,
-  "nouvelles": 50,
-  "marque": 6,
-  "etat": 1,
+  "passages": 73,
+  "nouvelles": 60,
+  "marque": 9,
+  "etat": 2,
   "prix": 5,
   "accessoire": 0,
-  "lot": 1,
+  "lot": 2,
   "fausse": 0,
   "imitation": 0,
   "pro": 2,
   "vendeurSpecialise": 3,
-  "sansCote": 71,
-  "chere": 57,
+  "sansCote": 75,
+  "chere": 58,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 2,
@@ -9239,7 +9260,8 @@
    "score": 56,
    "lien": "https://www.vinted.fr/items/10642765065-minolta-x-700-body-slr-analgo",
    "date": 1793660623443,
-   "statut": null
+   "statut": "en vente",
+   "verifieA": 1793664275463
   },
   {
    "id": 10641619962,
@@ -9249,7 +9271,8 @@
    "score": 76,
    "lien": "https://www.vinted.fr/items/10641619962-appareil-photo-zeiss-contax-rts-ii",
    "date": 1793660704129,
-   "statut": null
+   "statut": "en vente",
+   "verifieA": 1793664339573
   }
  ],
  "dernierRecap": null

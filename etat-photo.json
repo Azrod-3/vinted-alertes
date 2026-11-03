@@ -1894,7 +1894,19 @@
   "10643631320",
   "10643637788",
   "10643639470",
-  "10643643358"
+  "10643643358",
+  "10643651667",
+  "10643652656",
+  "10643658107",
+  "10643665417",
+  "10643500267",
+  "10643687199",
+  "10643701231",
+  "10643701664",
+  "10642245545",
+  "10643730455",
+  "10643728148",
+  "10643728275"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -8208,6 +8220,42 @@
    "echantillon": 1,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:kodak fz55 prixpro|2@3075": {
+   "date": 1793663316342,
+   "mediane": null,
+   "echantillon": 2,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:kodak wpz2|2@3075": {
+   "date": 1793663889231,
+   "mediane": 150,
+   "echantillon": 32,
+   "dispersion": 0.27,
+   "fourchette": [
+    90,
+    220
+   ],
+   "exemples": [
+    {
+     "id": 10569315128,
+     "prix": 150
+    },
+    {
+     "id": 10620125213,
+     "prix": 150
+    },
+    {
+     "id": 10444830138,
+     "prix": 150
+    },
+    {
+     "id": 10461655032,
+     "prix": 150
+    }
+   ],
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -8584,8 +8632,8 @@
    "vu": 1793648364266
   },
   "145604027": {
-   "n": 9,
-   "vu": 1793663186246
+   "n": 12,
+   "vu": 1793664144988
   },
   "146155341": {
    "n": 2,
@@ -8704,8 +8752,8 @@
    "vu": 1793661338157
   },
   "236059850": {
-   "n": 5,
-   "vu": 1793663250404
+   "n": 6,
+   "vu": 1793663315497
   },
   "240689733": {
    "n": 4,
@@ -8720,8 +8768,8 @@
    "vu": 1793632600305
   },
   "247668732": {
-   "n": 4,
-   "vu": 1793660426045
+   "n": 5,
+   "vu": 1793664015831
   },
   "247906150": {
    "n": 2,
@@ -8960,8 +9008,8 @@
    "vu": 1793660426047
   },
   "3172419165": {
-   "n": 4,
-   "vu": 1793662038911
+   "n": 5,
+   "vu": 1793663379661
   },
   "3176701136": {
    "n": 3,
@@ -8986,6 +9034,10 @@
   "3186748212": {
    "n": 3,
    "vu": 1793638396273
+  },
+  "3188494875": {
+   "n": 2,
+   "vu": 1793663698244
   },
   "3188799613": {
    "n": 2,
@@ -9114,19 +9166,19 @@
  },
  "bilan": {
   "depuis": 1793660450223,
-  "passages": 43,
-  "nouvelles": 38,
-  "marque": 4,
-  "etat": 0,
-  "prix": 4,
+  "passages": 58,
+  "nouvelles": 50,
+  "marque": 6,
+  "etat": 1,
+  "prix": 5,
   "accessoire": 0,
   "lot": 1,
   "fausse": 0,
   "imitation": 0,
   "pro": 2,
-  "vendeurSpecialise": 2,
-  "sansCote": 67,
-  "chere": 54,
+  "vendeurSpecialise": 3,
+  "sansCote": 71,
+  "chere": 57,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 2,
@@ -9143,7 +9195,8 @@
    "score": 70,
    "lien": "https://www.vinted.fr/items/10643199421-canon-eos-4000-dslr",
    "date": 1793660449958,
-   "statut": null
+   "statut": "en vente",
+   "verifieA": 1793664079673
   },
   {
    "id": 10643343618,
@@ -9153,7 +9206,8 @@
    "score": 53,
    "lien": "https://www.vinted.fr/items/10643343618-camara-digital",
    "date": 1793660450210,
-   "statut": null
+   "statut": "en vente",
+   "verifieA": 1793664080479
   },
   {
    "id": 10642110425,
@@ -9163,7 +9217,8 @@
    "score": 91,
    "lien": "https://www.vinted.fr/items/10642110425-panasonic-lumix-s9-ergonomischer-handgriff",
    "date": 1793660537804,
-   "statut": null
+   "statut": "en vente",
+   "verifieA": 1793664145454
   },
   {
    "id": 10643197875,
@@ -9173,7 +9228,8 @@
    "score": 51,
    "lien": "https://www.vinted.fr/items/10643197875-nikon-fm2n",
    "date": 1793660537963,
-   "statut": null
+   "statut": "en vente",
+   "verifieA": 1793664146267
   },
   {
    "id": 10642765065,

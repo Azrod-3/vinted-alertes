@@ -1941,7 +1941,9 @@
   "10644200314",
   "10644218738",
   "10644237558",
-  "10644259487"
+  "10644259487",
+  "10637295362",
+  "10644329245"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -8536,6 +8538,60 @@
    "echantillon": 1,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:sony dsc w80 camara|2@3075": {
+   "date": 1793670262809,
+   "mediane": 80,
+   "echantillon": 3,
+   "dispersion": null,
+   "fourchette": [
+    75,
+    148
+   ],
+   "exemples": [
+    {
+     "id": 9574909773,
+     "prix": 80
+    },
+    {
+     "id": 10637295362,
+     "prix": 75
+    },
+    {
+     "id": 6259854892,
+     "prix": 148
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:sony camara fotos|2@3075": {
+   "date": 1793670706946,
+   "mediane": 65,
+   "echantillon": 22,
+   "dispersion": 0.46,
+   "fourchette": [
+    23,
+    120
+   ],
+   "exemples": [
+    {
+     "id": 10644329245,
+     "prix": 65
+    },
+    {
+     "id": 10609897181,
+     "prix": 65
+    },
+    {
+     "id": 10339105536,
+     "prix": 65
+    },
+    {
+     "id": 10457868665,
+     "prix": 70
+    }
+   ],
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -9462,8 +9518,8 @@
  },
  "bilan": {
   "depuis": 1793667713475,
-  "passages": 35,
-  "nouvelles": 7,
+  "passages": 50,
+  "nouvelles": 9,
   "marque": 1,
   "etat": 0,
   "prix": 0,
@@ -9474,7 +9530,7 @@
   "pro": 0,
   "vendeurSpecialise": 0,
   "sansCote": 2,
-  "chere": 2,
+  "chere": 4,
   "description": 2,
   "scoreFaible": 0,
   "blocages": 0,

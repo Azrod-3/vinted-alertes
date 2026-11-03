@@ -3507,7 +3507,43 @@
   "10651390470",
   "10651417319",
   "10651409147",
-  "10651415574"
+  "10651415574",
+  "10651435201",
+  "10651432344",
+  "10651429729",
+  "10651427204",
+  "10651427136",
+  "10651425411",
+  "10639196303",
+  "10651451126",
+  "10651447765",
+  "10651446661",
+  "10651441526",
+  "10650361123",
+  "10651424651",
+  "10651469667",
+  "10651486843",
+  "10651475315",
+  "10650374610",
+  "10651474787",
+  "10651500898",
+  "10651496317",
+  "10651490590",
+  "10651480326",
+  "10651514098",
+  "10651509372",
+  "10651506162",
+  "10651517500",
+  "10651505395",
+  "10651533285",
+  "10651546778",
+  "10651541550",
+  "10651537237",
+  "10651537058",
+  "10651535972",
+  "10651534828",
+  "10651531388",
+  "10650348061"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -21549,6 +21585,149 @@
    "echantillon": 1,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:sony 5100 camara|1@3075": {
+   "date": 1793722650923,
+   "mediane": null,
+   "echantillon": 2,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:sony w800 dsc|2@3075": {
+   "date": 1793722651800,
+   "mediane": 110,
+   "echantillon": 35,
+   "dispersion": 0.36,
+   "fourchette": [
+    35,
+    185
+   ],
+   "exemples": [
+    {
+     "id": 10208092114,
+     "prix": 110
+    },
+    {
+     "id": 10632337251,
+     "prix": 110
+    },
+    {
+     "id": 9835556049,
+     "prix": 110
+    },
+    {
+     "id": 8942748000,
+     "prix": 114.99
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:fujifilm x t50 fujifim|2@3075": {
+   "date": 1793722717214,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:polaroid 6200z|1@3076": {
+   "date": 1793722718020,
+   "mediane": 33,
+   "echantillon": 10,
+   "dispersion": 0.51,
+   "fourchette": [
+    12,
+    59
+   ],
+   "exemples": [
+    {
+     "id": 8388531621,
+     "prix": 32
+    },
+    {
+     "id": 5673780258,
+     "prix": 34.5
+    },
+    {
+     "id": 10650361123,
+     "prix": 35
+    },
+    {
+     "id": 10268438333,
+     "prix": 35
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:kodak 1901 1935 brownie|1@3076": {
+   "date": 1793722846057,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:olympus fe 340 8mp|2@3075": {
+   "date": 1793722910326,
+   "mediane": null,
+   "echantillon": 2,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:fujifilm half weinig|2@3075": {
+   "date": 1793722911356,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:canon vecchie fotocamere|1@3075": {
+   "date": 1793723103834,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:olympus 720 camara|2@3075": {
+   "date": 1793723105538,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:kodak c330 easyshare|1@3075": {
+   "date": 1793723106259,
+   "mediane": null,
+   "echantillon": 2,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:samsung camara|2@3075": {
+   "date": 1793723107275,
+   "mediane": 45,
+   "echantillon": 56,
+   "dispersion": 0.87,
+   "fourchette": [
+    15,
+    130
+   ],
+   "exemples": [
+    {
+     "id": 10623503601,
+     "prix": 45
+    },
+    {
+     "id": 10568276880,
+     "prix": 45
+    },
+    {
+     "id": 9635326759,
+     "prix": 45
+    },
+    {
+     "id": 8104893509,
+     "prix": 45
+    }
+   ],
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -21849,8 +22028,8 @@
    "vu": 1793690589539
   },
   "49361441": {
-   "n": 10,
-   "vu": 1793706020352
+   "n": 11,
+   "vu": 1793723103157
   },
   "50495608": {
    "n": 3,
@@ -22052,6 +22231,10 @@
    "n": 2,
    "vu": 1793637146876
   },
+  "75839743": {
+   "n": 2,
+   "vu": 1793722845330
+  },
   "76131263": {
    "n": 2,
    "vu": 1793636949538
@@ -22245,8 +22428,8 @@
    "vu": 1793719836342
   },
   "142911113": {
-   "n": 5,
-   "vu": 1793721740473
+   "n": 8,
+   "vu": 1793723103157
   },
   "145604027": {
    "n": 14,
@@ -22280,6 +22463,10 @@
    "n": 2,
    "vu": 1793645868761
   },
+  "155439570": {
+   "n": 2,
+   "vu": 1793722975030
+  },
   "158092547": {
    "n": 3,
    "vu": 1793660426047
@@ -22293,8 +22480,8 @@
    "vu": 1793714329018
   },
   "162985612": {
-   "n": 6,
-   "vu": 1793722322094
+   "n": 7,
+   "vu": 1793722716574
   },
   "163153626": {
    "n": 5,
@@ -22659,6 +22846,10 @@
   "307163434": {
    "n": 2,
    "vu": 1793705164193
+  },
+  "307673769": {
+   "n": 2,
+   "vu": 1793723103157
   },
   "308489165": {
    "n": 3,
@@ -23135,23 +23326,23 @@
  },
  "bilan": {
   "depuis": 1793719642065,
-  "passages": 45,
-  "nouvelles": 137,
-  "marque": 17,
-  "etat": 13,
-  "prix": 5,
-  "accessoire": 5,
+  "passages": 53,
+  "nouvelles": 173,
+  "marque": 24,
+  "etat": 15,
+  "prix": 6,
+  "accessoire": 7,
   "lot": 1,
   "fausse": 0,
   "imitation": 0,
   "pro": 0,
-  "vendeurSpecialise": 2,
-  "sansCote": 61,
-  "chere": 30,
+  "vendeurSpecialise": 4,
+  "sansCote": 80,
+  "chere": 32,
   "description": 1,
   "scoreFaible": 0,
   "blocages": 0,
-  "alertes": 2
+  "alertes": 3
  },
  "panne": null,
  "panneDebut": null,
@@ -23747,7 +23938,8 @@
    "score": 64,
    "lien": "https://www.vinted.fr/items/10650612533-chinon-cm-5",
    "date": 1793719318368,
-   "statut": null
+   "statut": "en vente",
+   "verifieA": 1793722975609
   },
   {
    "id": 10651219474,
@@ -23767,6 +23959,16 @@
    "score": 54,
    "lien": "https://www.vinted.fr/items/10651390470-fotocamera-digitale-canon-ixus-132-nera-y2k-160-megapixel",
    "date": 1793722518694,
+   "statut": null
+  },
+  {
+   "id": 10651432344,
+   "titre": "Sony dsc w800",
+   "prix": 35,
+   "cote": 110,
+   "score": 72,
+   "lien": "https://www.vinted.fr/items/10651432344-sony-dsc-w800",
+   "date": 1793722652718,
    "statut": null
   }
  ],

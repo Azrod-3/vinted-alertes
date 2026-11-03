@@ -1936,7 +1936,12 @@
   "10644031805",
   "10644029466",
   "10644089422",
-  "10644106532"
+  "10644106532",
+  "10644179957",
+  "10644200314",
+  "10644218738",
+  "10644237558",
+  "10644259487"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -8437,6 +8442,100 @@
    "echantillon": 2,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:fujifilm f601 finepix|2@3075": {
+   "date": 1793669050860,
+   "mediane": 68,
+   "echantillon": 4,
+   "dispersion": 0.07,
+   "fourchette": [
+    55,
+    70
+   ],
+   "exemples": [
+    {
+     "id": 10241402169,
+     "prix": 70
+    },
+    {
+     "id": 9510972423,
+     "prix": 70
+    },
+    {
+     "id": 9365011021,
+     "prix": 65
+    },
+    {
+     "id": 10644179957,
+     "prix": 55
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:olympus e 500|2@3075": {
+   "date": 1793669304669,
+   "mediane": 160,
+   "echantillon": 30,
+   "dispersion": 0.44,
+   "fourchette": [
+    55,
+    320
+   ],
+   "exemples": [
+    {
+     "id": 10243660663,
+     "prix": 160
+    },
+    {
+     "id": 9323259268,
+     "prix": 160
+    },
+    {
+     "id": 6744358136,
+     "prix": 160
+    },
+    {
+     "id": 10432213675,
+     "prix": 159
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:canon a3500 powershot|2@3075": {
+   "date": 1793669688316,
+   "mediane": 130,
+   "echantillon": 12,
+   "dispersion": 0.34,
+   "fourchette": [
+    80,
+    180
+   ],
+   "exemples": [
+    {
+     "id": 10566996279,
+     "prix": 130
+    },
+    {
+     "id": 9875452880,
+     "prix": 129.95
+    },
+    {
+     "id": 10198086929,
+     "prix": 120
+    },
+    {
+     "id": 9917870908,
+     "prix": 115.95
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:canon 700 100|2@3075": {
+   "date": 1793669943010,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -9044,6 +9143,10 @@
    "n": 4,
    "vu": 1793636230293
   },
+  "283144655": {
+   "n": 5,
+   "vu": 1793669942378
+  },
   "288077272": {
    "n": 2,
    "vu": 1793632600302
@@ -9359,8 +9462,8 @@
  },
  "bilan": {
   "depuis": 1793667713475,
-  "passages": 20,
-  "nouvelles": 2,
+  "passages": 35,
+  "nouvelles": 7,
   "marque": 1,
   "etat": 0,
   "prix": 0,
@@ -9370,9 +9473,9 @@
   "imitation": 0,
   "pro": 0,
   "vendeurSpecialise": 0,
-  "sansCote": 1,
-  "chere": 0,
-  "description": 0,
+  "sansCote": 2,
+  "chere": 2,
+  "description": 2,
   "scoreFaible": 0,
   "blocages": 0,
   "alertes": 0
@@ -9454,7 +9557,8 @@
    "score": 22,
    "lien": "https://www.vinted.fr/items/10643872936-olympus-xa-35mm-rangefinder-testada-teste-tested",
    "date": 1793665678322,
-   "statut": null
+   "statut": "en vente",
+   "verifieA": 1793669306627
   }
  ],
  "dernierRecap": null

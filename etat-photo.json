@@ -3426,7 +3426,48 @@
   "10650943920",
   "10650958528",
   "10650961109",
-  "10650978168"
+  "10650978168",
+  "10650993648",
+  "10650988432",
+  "10650984706",
+  "10650986294",
+  "10651000882",
+  "10651007751",
+  "10651019276",
+  "10651030227",
+  "10651029855",
+  "10651045067",
+  "10651035601",
+  "10650444728",
+  "10650912636",
+  "10651054223",
+  "10651067727",
+  "10651017963",
+  "10651074967",
+  "10651089144",
+  "10651109075",
+  "10651099338",
+  "10651103417",
+  "10651098316",
+  "10651096186",
+  "10651085779",
+  "10651120333",
+  "10651121965",
+  "10651121306",
+  "10651143007",
+  "10651136163",
+  "10651125709",
+  "10651124816",
+  "10651133161",
+  "10651158648",
+  "10650941421",
+  "10651144865",
+  "10651152212",
+  "10651165224",
+  "10651159269",
+  "10651127319",
+  "10651195906",
+  "10651191125"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -3798,10 +3839,10 @@
    "niveau": "modèle"
   },
   "marque:yashica@3076": {
-   "date": 1793632693274,
+   "date": 1793721022467,
    "mediane": null,
-   "echantillon": 78,
-   "coteTropBasse": 45
+   "echantillon": 77,
+   "coteTropBasse": 40
   },
   "modele:yashica camara fotos|2@3076": {
    "date": 1793632693907,
@@ -3859,9 +3900,9 @@
    "niveau": "modèle"
   },
   "marque:polaroid@3076": {
-   "date": 1793632701384,
+   "date": 1793721349812,
    "mediane": null,
-   "echantillon": 51,
+   "echantillon": 52,
    "coteTropBasse": 12
   },
   "marque:rollei@3076": {
@@ -3872,10 +3913,10 @@
    "niveau": "marque"
   },
   "marque:nikon@3076": {
-   "date": 1793632703060,
+   "date": 1793721671276,
    "mediane": null,
-   "echantillon": 78,
-   "coteTropBasse": 30
+   "echantillon": 80,
+   "coteTropBasse": 33
   },
   "modele:nikon 601 spiegelreflexkamera|2@3076": {
    "date": 1793632703629,
@@ -4119,9 +4160,9 @@
    "niveau": "modèle"
   },
   "marque:praktica@3076": {
-   "date": 1793632857249,
+   "date": 1793721283302,
    "mediane": null,
-   "echantillon": 80,
+   "echantillon": 77,
    "coteTropBasse": 30
   },
   "modele:yashica t4 perfettamente|2@3076": {
@@ -20825,6 +20866,324 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "modele:fujifilm z10fd y2k|1@3075": {
+   "date": 1793720827640,
+   "mediane": 80,
+   "echantillon": 6,
+   "dispersion": 0.44,
+   "fourchette": [
+    55,
+    145
+   ],
+   "exemples": [
+    {
+     "id": 9796159515,
+     "prix": 80
+    },
+    {
+     "id": 10604585728,
+     "prix": 79
+    },
+    {
+     "id": 10650988432,
+     "prix": 65
+    },
+    {
+     "id": 9319711301,
+     "prix": 100
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:panasonic digicam|2@3075": {
+   "date": 1793720828622,
+   "mediane": 70,
+   "echantillon": 48,
+   "dispersion": 0.64,
+   "fourchette": [
+    25,
+    140
+   ],
+   "exemples": [
+    {
+     "id": 10505419452,
+     "prix": 70
+    },
+    {
+     "id": 9671084907,
+     "prix": 70
+    },
+    {
+     "id": 9683138232,
+     "prix": 70
+    },
+    {
+     "id": 10507330044,
+     "prix": 69.8
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:canon maquina prima|2@3076": {
+   "date": 1793720956903,
+   "mediane": 60,
+   "echantillon": 12,
+   "dispersion": 0.5,
+   "fourchette": [
+    15,
+    100
+   ],
+   "exemples": [
+    {
+     "id": 10432177617,
+     "prix": 60
+    },
+    {
+     "id": 6663281460,
+     "prix": 60
+    },
+    {
+     "id": 9690197627,
+     "prix": 65
+    },
+    {
+     "id": 6663315166,
+     "prix": 65
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:nikon f65|1@3075": {
+   "date": 1793721021383,
+   "mediane": 78,
+   "echantillon": 18,
+   "dispersion": 0.58,
+   "fourchette": [
+    23,
+    190
+   ],
+   "exemples": [
+    {
+     "id": 10138965895,
+     "prix": 80
+    },
+    {
+     "id": 10252937692,
+     "prix": 80
+    },
+    {
+     "id": 6954375339,
+     "prix": 75
+    },
+    {
+     "id": 10455261166,
+     "prix": 70
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:yashica 105 brava|2@3076": {
+   "date": 1793721023311,
+   "mediane": 35,
+   "echantillon": 6,
+   "dispersion": 0.29,
+   "fourchette": [
+    25,
+    60
+   ],
+   "exemples": [
+    {
+     "id": 10103906412,
+     "prix": 35
+    },
+    {
+     "id": 9719314789,
+     "prix": 35
+    },
+    {
+     "id": 10222096032,
+     "prix": 30
+    },
+    {
+     "id": 6327871917,
+     "prix": 40
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:nikon camara coolplix|2@3075": {
+   "date": 1793721088178,
+   "mediane": 90,
+   "echantillon": 11,
+   "dispersion": 0.61,
+   "fourchette": [
+    28,
+    175
+   ],
+   "exemples": [
+    {
+     "id": 5370243784,
+     "prix": 90
+    },
+    {
+     "id": 9287102397,
+     "prix": 100
+    },
+    {
+     "id": 8525414222,
+     "prix": 80
+    },
+    {
+     "id": 7442365128,
+     "prix": 110
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:agfa mini|1@3076": {
+   "date": 1793721089145,
+   "mediane": 9,
+   "echantillon": 24,
+   "dispersion": 1,
+   "fourchette": [
+    3.99,
+    25
+   ],
+   "exemples": [
+    {
+     "id": 9869722687,
+     "prix": 8
+    },
+    {
+     "id": 6823795982,
+     "prix": 10
+    },
+    {
+     "id": 9537453404,
+     "prix": 7
+    },
+    {
+     "id": 8305152948,
+     "prix": 7
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:pentax 200 espio|1@3076": {
+   "date": 1793721153276,
+   "mediane": 60,
+   "echantillon": 7,
+   "dispersion": 1.1,
+   "fourchette": [
+    38,
+    120
+   ],
+   "exemples": [
+    {
+     "id": 10403616619,
+     "prix": 60
+    },
+    {
+     "id": 10541009063,
+     "prix": 53.99
+    },
+    {
+     "id": 10037944057,
+     "prix": 70
+    },
+    {
+     "id": 10128559444,
+     "prix": 40
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:olympus mju 1 mju|2@3075": {
+   "date": 1793721281385,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:praktica mtl3 flash|2@3076": {
+   "date": 1793721283985,
+   "mediane": null,
+   "echantillon": 2,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:polaroid light meter|1@3076": {
+   "date": 1793721350571,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:samsung bridge comme|2@3075": {
+   "date": 1793721479181,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:nikon analogica|2@3076": {
+   "date": 1793721672216,
+   "mediane": 30,
+   "echantillon": 36,
+   "dispersion": 0.67,
+   "fourchette": [
+    10,
+    65
+   ],
+   "exemples": [
+    {
+     "id": 10635773892,
+     "prix": 30
+    },
+    {
+     "id": 10442486553,
+     "prix": 30
+    },
+    {
+     "id": 10345734265,
+     "prix": 30
+    },
+    {
+     "id": 10256242326,
+     "prix": 30.9
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:zeiss ikon contaflex|2@3076": {
+   "date": 1793721673084,
+   "mediane": 90,
+   "echantillon": 55,
+   "dispersion": 0.78,
+   "fourchette": [
+    22.5,
+    250
+   ],
+   "exemples": [
+    {
+     "id": 9462576141,
+     "prix": 90
+    },
+    {
+     "id": 9368482620,
+     "prix": 90
+    },
+    {
+     "id": 8548364636,
+     "prix": 90
+    },
+    {
+     "id": 10264368984,
+     "prix": 89
+    }
+   ],
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -21025,8 +21384,8 @@
    "vu": 1793632600303
   },
   "35650836": {
-   "n": 2,
-   "vu": 1793687424449
+   "n": 3,
+   "vu": 1793721216782
   },
   "35798262": {
    "n": 2,
@@ -21079,6 +21438,10 @@
   "42355169": {
    "n": 24,
    "vu": 1793716629910
+  },
+  "43371119": {
+   "n": 2,
+   "vu": 1793721477882
   },
   "43392981": {
    "n": 2,
@@ -21207,6 +21570,10 @@
   "58599899": {
    "n": 2,
    "vu": 1793720563256
+  },
+  "60209689": {
+   "n": 2,
+   "vu": 1793720826949
   },
   "60415961": {
    "n": 2,
@@ -21557,8 +21924,8 @@
    "vu": 1793714329018
   },
   "162985612": {
-   "n": 3,
-   "vu": 1793720169714
+   "n": 5,
+   "vu": 1793721414226
   },
   "163153626": {
    "n": 5,
@@ -21709,8 +22076,8 @@
    "vu": 1793714738468
   },
   "236863298": {
-   "n": 2,
-   "vu": 1793684891073
+   "n": 4,
+   "vu": 1793721542946
   },
   "238886539": {
    "n": 2,
@@ -21901,8 +22268,8 @@
    "vu": 1793646193554
   },
   "296074114": {
-   "n": 2,
-   "vu": 1793637673100
+   "n": 3,
+   "vu": 1793720826949
   },
   "305811433": {
    "n": 2,
@@ -21973,8 +22340,8 @@
    "vu": 1793691551142
   },
   "3131018858": {
-   "n": 2,
-   "vu": 1793637473363
+   "n": 3,
+   "vu": 1793720826949
   },
   "3131072937": {
    "n": 2,
@@ -22276,6 +22643,10 @@
    "n": 2,
    "vu": 1793645211352
   },
+  "3201695745": {
+   "n": 2,
+   "vu": 1793721280635
+  },
   "3202053966": {
    "n": 2,
    "vu": 1793714399984
@@ -22332,6 +22703,10 @@
    "n": 2,
    "vu": 1793645542363
   },
+  "3206586150": {
+   "n": 3,
+   "vu": 1793721087492
+  },
   "3207301855": {
    "n": 3,
    "vu": 1793710531544
@@ -22387,20 +22762,20 @@
  },
  "bilan": {
   "depuis": 1793719642065,
-  "passages": 17,
-  "nouvelles": 56,
-  "marque": 9,
-  "etat": 4,
-  "prix": 2,
-  "accessoire": 1,
+  "passages": 31,
+  "nouvelles": 97,
+  "marque": 15,
+  "etat": 10,
+  "prix": 5,
+  "accessoire": 2,
   "lot": 0,
   "fausse": 0,
   "imitation": 0,
   "pro": 0,
   "vendeurSpecialise": 1,
-  "sansCote": 26,
-  "chere": 13,
-  "description": 0,
+  "sansCote": 41,
+  "chere": 22,
+  "description": 1,
   "scoreFaible": 0,
   "blocages": 0,
   "alertes": 0
@@ -22966,7 +23341,8 @@
    "score": 71,
    "lien": "https://www.vinted.fr/items/10650146951-appareil-photo-canon-ixus",
    "date": 1793717281684,
-   "statut": null
+   "statut": "en vente",
+   "verifieA": 1793720892597
   },
   {
    "id": 10650185893,
@@ -22976,7 +23352,8 @@
    "score": 71,
    "lien": "https://www.vinted.fr/items/10650185893-camara-da-olympus-corporation-410-digital",
    "date": 1793717414260,
-   "statut": null
+   "statut": "en vente",
+   "verifieA": 1793721023849
   },
   {
    "id": 10650236101,
@@ -22986,7 +23363,8 @@
    "score": 64,
    "lien": "https://www.vinted.fr/items/10650236101-canon-eos-100d",
    "date": 1793717618701,
-   "statut": null
+   "statut": "retiree",
+   "verifieA": 1793721284734
   },
   {
    "id": 10650612533,

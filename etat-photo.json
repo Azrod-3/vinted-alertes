@@ -2001,7 +2001,20 @@
   "10645334141",
   "10645335474",
   "10645338246",
-  "10645340637"
+  "10645340637",
+  "10645355346",
+  "10645362392",
+  "10645361744",
+  "10645362619",
+  "10645372153",
+  "10645372515",
+  "10645385431",
+  "10645386759",
+  "10645386304",
+  "10645384037",
+  "10645390313",
+  "10645391499",
+  "10645393570"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -8960,6 +8973,42 @@
    "echantillon": 1,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:fujifilm f455 finepix|2@3075": {
+   "date": 1793689386761,
+   "mediane": 45,
+   "echantillon": 5,
+   "dispersion": 0.22,
+   "fourchette": [
+    30,
+    50
+   ],
+   "exemples": [
+    {
+     "id": 9701751502,
+     "prix": 45
+    },
+    {
+     "id": 10089638345,
+     "prix": 50
+    },
+    {
+     "id": 10272553602,
+     "prix": 50
+    },
+    {
+     "id": 9338257314,
+     "prix": 40
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:kodak apareil|2@3076": {
+   "date": 1793689640580,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -9147,6 +9196,10 @@
    "n": 9,
    "vu": 1793650452946
   },
+  "47001663": {
+   "n": 2,
+   "vu": 1793689386084
+  },
   "48416075": {
    "n": 4,
    "vu": 1793644428150
@@ -9246,6 +9299,10 @@
   "73241172": {
    "n": 2,
    "vu": 1793645740505
+  },
+  "73914657": {
+   "n": 2,
+   "vu": 1793689450416
   },
   "74695879": {
    "n": 2,
@@ -9720,8 +9777,8 @@
    "vu": 1793648953190
   },
   "3157852138": {
-   "n": 6,
-   "vu": 1793688690302
+   "n": 7,
+   "vu": 1793689513515
   },
   "3160533084": {
    "n": 2,
@@ -9905,24 +9962,24 @@
   }
  },
  "bilan": {
-  "depuis": 1793682169859,
-  "passages": 106,
-  "nouvelles": 47,
-  "marque": 13,
-  "etat": 2,
-  "prix": 1,
-  "accessoire": 1,
+  "depuis": 1793689386761,
+  "passages": 7,
+  "nouvelles": 9,
+  "marque": 4,
+  "etat": 0,
+  "prix": 0,
+  "accessoire": 2,
   "lot": 0,
   "fausse": 0,
   "imitation": 0,
-  "pro": 1,
+  "pro": 0,
   "vendeurSpecialise": 0,
-  "sansCote": 22,
-  "chere": 5,
-  "description": 1,
+  "sansCote": 3,
+  "chere": 0,
+  "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
-  "alertes": 1
+  "alertes": 0
  },
  "panne": null,
  "panneDebut": null,

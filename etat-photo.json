@@ -2072,7 +2072,34 @@
   "10645598965",
   "10645601538",
   "10645609513",
-  "10645618576"
+  "10645618576",
+  "10645626486",
+  "10645641228",
+  "10645647556",
+  "10645645885",
+  "10645650045",
+  "10645649883",
+  "10645659467",
+  "10645658728",
+  "10645666606",
+  "10645672230",
+  "10645673707",
+  "10645680574",
+  "10645674220",
+  "10645686853",
+  "10645686058",
+  "10645685393",
+  "10645683479",
+  "10645683452",
+  "10631341583",
+  "10645693245",
+  "10645694056",
+  "10645632157",
+  "10645708324",
+  "10645707054",
+  "10645706391",
+  "10645714791",
+  "10645714240"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -9482,6 +9509,266 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "modele:olympus e p7 pen|2@3075": {
+   "date": 1793692759803,
+   "mediane": 600,
+   "echantillon": 9,
+   "dispersion": 0.2,
+   "fourchette": [
+    330,
+    800
+   ],
+   "exemples": [
+    {
+     "id": 10645626486,
+     "prix": 600
+    },
+    {
+     "id": 10572944335,
+     "prix": 600
+    },
+    {
+     "id": 8073545232,
+     "prix": 600
+    },
+    {
+     "id": 8353233094,
+     "prix": 650
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:sony cybershot carl|3@3075": {
+   "date": 1793692949948,
+   "mediane": 60,
+   "echantillon": 7,
+   "dispersion": 1,
+   "fourchette": [
+    35,
+    127
+   ],
+   "exemples": [
+    {
+     "id": 10277714711,
+     "prix": 60
+    },
+    {
+     "id": 10009180460,
+     "prix": 55.25
+    },
+    {
+     "id": 10009200723,
+     "prix": 49.3
+    },
+    {
+     "id": 10645647556,
+     "prix": 35
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:konica pop 10 pop|2@3076": {
+   "date": 1793693013560,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:kodak f9 ultra|4@3076": {
+   "date": 1793693014393,
+   "mediane": 48,
+   "echantillon": 8,
+   "dispersion": 0.38,
+   "fourchette": [
+    30,
+    80
+   ],
+   "exemples": [
+    {
+     "id": 7629934178,
+     "prix": 50
+    },
+    {
+     "id": 10522000429,
+     "prix": 45
+    },
+    {
+     "id": 10645649883,
+     "prix": 42
+    },
+    {
+     "id": 10472754917,
+     "prix": 37
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:agfa optima sensor|2@3076": {
+   "date": 1793693078311,
+   "mediane": 25,
+   "echantillon": 59,
+   "dispersion": 0.8,
+   "fourchette": [
+    7.5,
+    65
+   ],
+   "exemples": [
+    {
+     "id": 10283921525,
+     "prix": 25
+    },
+    {
+     "id": 10531483164,
+     "prix": 25
+    },
+    {
+     "id": 10213558932,
+     "prix": 25
+    },
+    {
+     "id": 8012174211,
+     "prix": 25
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:agfa 335 optima|2@3076": {
+   "date": 1793693142079,
+   "mediane": 43,
+   "echantillon": 24,
+   "dispersion": 0.8,
+   "fourchette": [
+    20,
+    100
+   ],
+   "exemples": [
+    {
+     "id": 10441240434,
+     "prix": 45
+    },
+    {
+     "id": 9200225322,
+     "prix": 45
+    },
+    {
+     "id": 10618919169,
+     "prix": 40
+    },
+    {
+     "id": 8806420307,
+     "prix": 40
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:agfa 6x6 isolette|2@3076": {
+   "date": 1793693206585,
+   "mediane": 55,
+   "echantillon": 6,
+   "dispersion": 0.09,
+   "fourchette": [
+    49,
+    59.9
+   ],
+   "exemples": [
+    {
+     "id": 10021849436,
+     "prix": 55
+    },
+    {
+     "id": 10181297021,
+     "prix": 55
+    },
+    {
+     "id": 5669224005,
+     "prix": 55
+    },
+    {
+     "id": 10249190299,
+     "prix": 59.9
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:agfa silette boxed|2@3076": {
+   "date": 1793693271305,
+   "mediane": null,
+   "echantillon": 2,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:olympus 360|2@3075": {
+   "date": 1793693335033,
+   "mediane": 62,
+   "echantillon": 28,
+   "dispersion": 0.34,
+   "fourchette": [
+    19.9,
+    109
+   ],
+   "exemples": [
+    {
+     "id": 10468652352,
+     "prix": 60
+    },
+    {
+     "id": 9844962171,
+     "prix": 60
+    },
+    {
+     "id": 9487223447,
+     "prix": 64
+    },
+    {
+     "id": 10094407260,
+     "prix": 65
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:kodak 70 80 instamatic|3@3076": {
+   "date": 1793693398735,
+   "mediane": 25,
+   "echantillon": 4,
+   "dispersion": 0,
+   "fourchette": [
+    20,
+    40
+   ],
+   "exemples": [
+    {
+     "id": 10036567548,
+     "prix": 25
+    },
+    {
+     "id": 5435045968,
+     "prix": 25
+    },
+    {
+     "id": 10645693245,
+     "prix": 20
+    },
+    {
+     "id": 5410453603,
+     "prix": 40
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:olympus 3754 scatti|2@3075": {
+   "date": 1793693588744,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:nikon d70 9477|2@3075": {
+   "date": 1793693652456,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -9958,8 +10245,8 @@
    "vu": 1793649603822
   },
   "199015614": {
-   "n": 3,
-   "vu": 1793685272169
+   "n": 4,
+   "vu": 1793693077519
   },
   "199467514": {
    "n": 2,
@@ -10077,6 +10364,10 @@
    "n": 2,
    "vu": 1793644361632
   },
+  "259993817": {
+   "n": 5,
+   "vu": 1793693270609
+  },
   "260332438": {
    "n": 3,
    "vu": 1793660426044
@@ -10132,6 +10423,10 @@
   "288356247": {
    "n": 2,
    "vu": 1793638262033
+  },
+  "289653020": {
+   "n": 2,
+   "vu": 1793693398112
   },
   "290703217": {
    "n": 2,
@@ -10452,23 +10747,23 @@
  },
  "bilan": {
   "depuis": 1793689386761,
-  "passages": 52,
-  "nouvelles": 67,
-  "marque": 12,
+  "passages": 67,
+  "nouvelles": 94,
+  "marque": 15,
   "etat": 4,
-  "prix": 4,
+  "prix": 6,
   "accessoire": 3,
-  "lot": 0,
+  "lot": 1,
   "fausse": 0,
   "imitation": 0,
   "pro": 1,
   "vendeurSpecialise": 2,
-  "sansCote": 26,
-  "chere": 13,
+  "sansCote": 37,
+  "chere": 22,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
-  "alertes": 2
+  "alertes": 3
  },
  "panne": null,
  "panneDebut": null,
@@ -10579,6 +10874,16 @@
    "score": 66,
    "lien": "https://www.vinted.fr/items/10645618576-nikon-coolpix-s6200-mit-zubehorpaket",
    "date": 1793692694481,
+   "statut": null
+  },
+  {
+   "id": 10645672230,
+   "titre": "Kamera",
+   "prix": 10,
+   "cote": null,
+   "score": 20,
+   "lien": "https://www.vinted.fr/items/10645672230-kamera",
+   "date": 1793693206875,
    "statut": null
   }
  ],

@@ -1977,7 +1977,17 @@
   "10645214025",
   "10645219192",
   "10645234053",
-  "10645242008"
+  "10645242008",
+  "10645246321",
+  "10645249496",
+  "10645260253",
+  "10645261602",
+  "10645263341",
+  "10645261110",
+  "10645269861",
+  "10645266963",
+  "10645273839",
+  "10645287527"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -8864,6 +8874,42 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "modele:kodak m550 easyshare|2@3075": {
+   "date": 1793687109023,
+   "mediane": 44,
+   "echantillon": 4,
+   "dispersion": 0.73,
+   "fourchette": [
+    16,
+    90
+   ],
+   "exemples": [
+    {
+     "id": 10030950755,
+     "prix": 28
+    },
+    {
+     "id": 8564914763,
+     "prix": 60
+    },
+    {
+     "id": 10645246321,
+     "prix": 16
+    },
+    {
+     "id": 10633747284,
+     "prix": 90
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:kodak ikon nitar|1@3076": {
+   "date": 1793687425004,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -8994,6 +9040,10 @@
   "35434741": {
    "n": 3,
    "vu": 1793632600303
+  },
+  "35650836": {
+   "n": 2,
+   "vu": 1793687424449
   },
   "35798262": {
    "n": 2,
@@ -9206,6 +9256,10 @@
   "109336123": {
    "n": 4,
    "vu": 1793632600305
+  },
+  "111422649": {
+   "n": 2,
+   "vu": 1793687551714
   },
   "114585095": {
    "n": 2,
@@ -9802,19 +9856,19 @@
  },
  "bilan": {
   "depuis": 1793682169859,
-  "passages": 76,
-  "nouvelles": 23,
-  "marque": 7,
+  "passages": 91,
+  "nouvelles": 33,
+  "marque": 10,
   "etat": 2,
   "prix": 0,
-  "accessoire": 0,
+  "accessoire": 1,
   "lot": 0,
   "fausse": 0,
   "imitation": 0,
   "pro": 1,
   "vendeurSpecialise": 0,
-  "sansCote": 9,
-  "chere": 2,
+  "sansCote": 14,
+  "chere": 3,
   "description": 1,
   "scoreFaible": 0,
   "blocages": 0,

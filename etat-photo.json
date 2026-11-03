@@ -1987,7 +1987,21 @@
   "10645269861",
   "10645266963",
   "10645273839",
-  "10645287527"
+  "10645287527",
+  "10645295871",
+  "10645300209",
+  "10643856400",
+  "10645316753",
+  "10645316355",
+  "10645318081",
+  "10645327749",
+  "10645331122",
+  "10645328723",
+  "10645330768",
+  "10645334141",
+  "10645335474",
+  "10645338246",
+  "10645340637"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -8910,6 +8924,42 @@
    "echantillon": 1,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:panasonic dmc fs6 lumix|2@3075": {
+   "date": 1793688563926,
+   "mediane": 61,
+   "echantillon": 18,
+   "dispersion": 0.33,
+   "fourchette": [
+    35,
+    99
+   ],
+   "exemples": [
+    {
+     "id": 10645318081,
+     "prix": 62
+    },
+    {
+     "id": 10288049942,
+     "prix": 60
+    },
+    {
+     "id": 10636862838,
+     "prix": 59
+    },
+    {
+     "id": 9769165203,
+     "prix": 59
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:nikon 3300 coolpixs|1@3075": {
+   "date": 1793688690873,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -9670,8 +9720,8 @@
    "vu": 1793648953190
   },
   "3157852138": {
-   "n": 4,
-   "vu": 1793643184446
+   "n": 6,
+   "vu": 1793688690302
   },
   "3160533084": {
    "n": 2,
@@ -9856,19 +9906,19 @@
  },
  "bilan": {
   "depuis": 1793682169859,
-  "passages": 91,
-  "nouvelles": 33,
-  "marque": 10,
+  "passages": 106,
+  "nouvelles": 47,
+  "marque": 13,
   "etat": 2,
-  "prix": 0,
+  "prix": 1,
   "accessoire": 1,
   "lot": 0,
   "fausse": 0,
   "imitation": 0,
   "pro": 1,
   "vendeurSpecialise": 0,
-  "sansCote": 14,
-  "chere": 3,
+  "sansCote": 22,
+  "chere": 5,
   "description": 1,
   "scoreFaible": 0,
   "blocages": 0,

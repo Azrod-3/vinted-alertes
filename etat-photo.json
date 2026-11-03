@@ -1948,7 +1948,10 @@
   "10595890862",
   "10644638706",
   "10644641610",
-  "10644649741"
+  "10644649741",
+  "10644906559",
+  "10644894034",
+  "10644919450"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -8626,6 +8629,20 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "modele:praktica mtl tasche|2@3076": {
+   "date": 1793679000848,
+   "mediane": null,
+   "echantillon": 2,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:samsung s10|2@3075": {
+   "date": 1793679253463,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -9556,8 +9573,8 @@
  },
  "bilan": {
   "depuis": 1793674967823,
-  "passages": 54,
-  "nouvelles": 0,
+  "passages": 57,
+  "nouvelles": 3,
   "marque": 0,
   "etat": 0,
   "prix": 0,
@@ -9567,7 +9584,7 @@
   "imitation": 0,
   "pro": 0,
   "vendeurSpecialise": 0,
-  "sansCote": 0,
+  "sansCote": 3,
   "chere": 0,
   "description": 0,
   "scoreFaible": 0,

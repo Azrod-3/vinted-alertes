@@ -1,17 +1,5 @@
 {
  "vues": [
-  "10638798141",
-  "10638828148",
-  "10638820926",
-  "10638829338",
-  "10638828561",
-  "10638821215",
-  "10638848761",
-  "10638844324",
-  "10638843616",
-  "10638841520",
-  "10638831281",
-  "10638842410",
   "10638863308",
   "10638862912",
   "10638854237",
@@ -3999,7 +3987,19 @@
   "10653608180",
   "10658568219",
   "10658573612",
-  "10658578799"
+  "10658578799",
+  "10658584066",
+  "10658583454",
+  "10658585947",
+  "10658588183",
+  "10658588933",
+  "10658597121",
+  "10658599315",
+  "10658563719",
+  "10658609589",
+  "10658621445",
+  "10653766973",
+  "10658623232"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -30191,6 +30191,42 @@
    "echantillon": 2,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:canon ae 1|1@3076": {
+   "date": 1793774480421,
+   "mediane": 125,
+   "echantillon": 71,
+   "dispersion": 0.49,
+   "fourchette": [
+    45,
+    220
+   ],
+   "exemples": [
+    {
+     "id": 10631436929,
+     "prix": 125
+    },
+    {
+     "id": 9819480503,
+     "prix": 125
+    },
+    {
+     "id": 8974722672,
+     "prix": 125
+    },
+    {
+     "id": 10612446215,
+     "prix": 129
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:kodak six 20 vigilant|2@3076": {
+   "date": 1793774544244,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -32296,24 +32332,24 @@
   }
  },
  "bilan": {
-  "depuis": 1793767049456,
-  "passages": 100,
-  "nouvelles": 43,
-  "marque": 7,
-  "etat": 2,
-  "prix": 0,
+  "depuis": 1793774289840,
+  "passages": 6,
+  "nouvelles": 3,
+  "marque": 0,
+  "etat": 0,
+  "prix": 1,
   "accessoire": 0,
   "lot": 0,
   "fausse": 0,
   "imitation": 0,
-  "pro": 2,
-  "vendeurSpecialise": 2,
-  "sansCote": 22,
-  "chere": 7,
+  "pro": 0,
+  "vendeurSpecialise": 0,
+  "sansCote": 1,
+  "chere": 1,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
-  "alertes": 1
+  "alertes": 0
  },
  "panne": null,
  "panneDebut": null,
@@ -33184,7 +33220,8 @@
    "score": 58,
    "lien": "https://www.vinted.fr/items/10658441751-canon-ixus-110-is-digitalkamera",
    "date": 1793770534075,
-   "statut": null
+   "statut": "retiree",
+   "verifieA": 1793774163211
   }
  ],
  "dernierRecap": "2026-11-03"

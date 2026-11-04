@@ -1,9 +1,5 @@
 {
  "vues": [
-  "10652140077",
-  "10652138748",
-  "10652138639",
-  "10652135515",
   "10652134654",
   "10652133551",
   "10652133632",
@@ -3999,7 +3995,11 @@
   "10658066251",
   "10658066614",
   "10658081024",
-  "10658088493"
+  "10658088493",
+  "10658105241",
+  "10658128873",
+  "10658140330",
+  "10658143511"
  ],
  "cotes": {
   "Breil": {
@@ -22338,6 +22338,42 @@
   },
   "modele:fossil acero solar|4": {
    "date": 1793760438084,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:citizen herrenuhr gold|1": {
+   "date": 1793763306656,
+   "mediane": 46,
+   "echantillon": 7,
+   "dispersion": 0.54,
+   "fourchette": [
+    30,
+    100
+   ],
+   "exemples": [
+    {
+     "id": 10360790042,
+     "prix": 45.99
+    },
+    {
+     "id": 9079312521,
+     "prix": 45
+    },
+    {
+     "id": 10510747695,
+     "prix": 50
+    },
+    {
+     "id": 10320623578,
+     "prix": 39.95
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:invicta flying fox|3": {
+   "date": 1793763564320,
    "mediane": null,
    "echantillon": 1,
    "dispersion": null,
@@ -60022,8 +60058,8 @@
    "vu": 1793633350698
   },
   "240239897": {
-   "n": 18,
-   "vu": 1793738332626
+   "n": 19,
+   "vu": 1793763521196
   },
   "240284158": {
    "n": 49,
@@ -92363,19 +92399,19 @@
   }
  },
  "bilan": {
-  "depuis": 1793760050644,
-  "passages": 66,
-  "nouvelles": 10,
-  "marque": 6,
+  "depuis": 1793763692414,
+  "passages": 3,
+  "nouvelles": 0,
+  "marque": 0,
   "etat": 0,
   "prix": 0,
-  "accessoire": 1,
+  "accessoire": 0,
   "lot": 0,
   "fausse": 0,
   "imitation": 0,
   "pro": 0,
-  "vendeurSpecialise": 2,
-  "sansCote": 1,
+  "vendeurSpecialise": 0,
+  "sansCote": 0,
   "chere": 0,
   "description": 0,
   "scoreFaible": 0,

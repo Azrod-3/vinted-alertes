@@ -4062,13 +4062,6 @@
    "niveau": "marque",
    "lissee": true
   },
-  "modele:canon a720 powershot|2@3075": {
-   "date": 1793632602546,
-   "mediane": 69,
-   "echantillon": 6,
-   "dispersion": 0.15,
-   "niveau": "modèle"
-  },
   "marque:kodak@3075": {
    "date": 1793719642064,
    "mediane": 52,
@@ -4097,13 +4090,6 @@
     }
    ],
    "niveau": "marque"
-  },
-  "modele:kodak nostalgische digitalkamera|2@3075": {
-   "date": 1793632604070,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
   },
   "marque:samsung@3075": {
    "date": 1793719250417,
@@ -41299,7 +41285,7 @@
  },
  "bilan": {
   "depuis": 1793804193292,
-  "passages": 4,
+  "passages": 19,
   "nouvelles": 0,
   "marque": 0,
   "etat": 0,
@@ -42604,7 +42590,8 @@
    "score": 65,
    "lien": "https://www.vinted.fr/items/10662996325-reflex-canon-con-obiettivo",
    "date": 1793801356495,
-   "statut": null
+   "statut": "en vente",
+   "verifieA": 1793804957955
   },
   {
    "id": 10663006349,
@@ -42614,7 +42601,8 @@
    "score": 67,
    "lien": "https://www.vinted.fr/items/10663006349-appareil-photo-canon-eos-60d-objectifs",
    "date": 1793801424623,
-   "statut": null
+   "statut": "retiree",
+   "verifieA": 1793805085353
   },
   {
    "id": 10663155731,

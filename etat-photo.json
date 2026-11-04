@@ -1,22 +1,5 @@
 {
  "vues": [
-  "10638877190",
-  "10638875253",
-  "10638874445",
-  "10638892874",
-  "10638885081",
-  "10638913614",
-  "10638909875",
-  "10638908570",
-  "10638902274",
-  "10638902194",
-  "10638910687",
-  "10638908866",
-  "10638930957",
-  "10638918413",
-  "10635731093",
-  "10638921925",
-  "10638932822",
   "10638947128",
   "10638950594",
   "10638943925",
@@ -3999,7 +3982,24 @@
   "10658507701",
   "10658684406",
   "10658684184",
-  "10658688066"
+  "10658688066",
+  "10658689298",
+  "10658695500",
+  "10658699215",
+  "10658696081",
+  "10658703455",
+  "10658705831",
+  "10658705137",
+  "10658708561",
+  "10658710050",
+  "10658712448",
+  "10658716433",
+  "10658723050",
+  "10658725997",
+  "10658735255",
+  "10658739355",
+  "10658739043",
+  "10658747769"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -5915,11 +5915,34 @@
    "niveau": "modèle"
   },
   "modele:sony cyber shot|2@3075": {
-   "date": 1793636688943,
-   "mediane": 69,
-   "echantillon": 77,
-   "dispersion": 0.59,
-   "niveau": "modèle"
+   "date": 1793775754842,
+   "mediane": 70,
+   "echantillon": 78,
+   "dispersion": 0.72,
+   "fourchette": [
+    20,
+    180
+   ],
+   "exemples": [
+    {
+     "id": 10008195740,
+     "prix": 70
+    },
+    {
+     "id": 10599727091,
+     "prix": 70
+    },
+    {
+     "id": 10546412193,
+     "prix": 69
+    },
+    {
+     "id": 10482126826,
+     "prix": 69
+    }
+   ],
+   "niveau": "modèle",
+   "lissee": true
   },
   "modele:zeiss contaflex|1@3076": {
    "date": 1793636689839,
@@ -7550,11 +7573,34 @@
    "niveau": "modèle"
   },
   "modele:canon 550d eos|2@3075": {
-   "date": 1793644362582,
+   "date": 1793776456004,
    "mediane": 150,
-   "echantillon": 78,
-   "dispersion": 0.4,
-   "niveau": "modèle"
+   "echantillon": 75,
+   "dispersion": 0.33,
+   "fourchette": [
+    75,
+    279
+   ],
+   "exemples": [
+    {
+     "id": 10517846294,
+     "prix": 150
+    },
+    {
+     "id": 10603977570,
+     "prix": 150
+    },
+    {
+     "id": 10477283092,
+     "prix": 150
+    },
+    {
+     "id": 10592938910,
+     "prix": 150
+    }
+   ],
+   "niveau": "modèle",
+   "lissee": true
   },
   "modele:kodak camescope|2@3076": {
    "date": 1793644363180,
@@ -10051,33 +10097,34 @@
    "lissee": true
   },
   "modele:yashica kyocera|2@3076": {
-   "date": 1793660605934,
-   "mediane": 30,
+   "date": 1793776073908,
+   "mediane": 32,
    "echantillon": 39,
-   "dispersion": 0.7,
+   "dispersion": 0.61,
    "fourchette": [
     10,
     80
    ],
    "exemples": [
     {
-     "id": 10642745553,
-     "prix": 30
-    },
-    {
-     "id": 9909112049,
-     "prix": 30
-    },
-    {
-     "id": 10458168694,
-     "prix": 28
-    },
-    {
      "id": 10422562998,
      "prix": 33
+    },
+    {
+     "id": 8904241564,
+     "prix": 33
+    },
+    {
+     "id": 10499096081,
+     "prix": 35
+    },
+    {
+     "id": 10253055694,
+     "prix": 35
     }
    ],
-   "niveau": "modèle"
+   "niveau": "modèle",
+   "lissee": true
   },
   "modele:olympus oympus|1@3076": {
    "date": 1793660606485,
@@ -30277,6 +30324,70 @@
    "echantillon": 1,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:agfa 1960er jahren iso|2@3076": {
+   "date": 1793775690256,
+   "mediane": null,
+   "echantillon": 2,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:canon propose mes|2@3075": {
+   "date": 1793776009026,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:olympus camara regalo|3@3076": {
+   "date": 1793776009781,
+   "mediane": null,
+   "echantillon": 2,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:nikon l22 coolpix|2@3075": {
+   "date": 1793776137796,
+   "mediane": 55,
+   "echantillon": 19,
+   "dispersion": 0.55,
+   "fourchette": [
+    29,
+    100
+   ],
+   "exemples": [
+    {
+     "id": 10402887773,
+     "prix": 55
+    },
+    {
+     "id": 9689879215,
+     "prix": 52
+    },
+    {
+     "id": 10395781088,
+     "prix": 51
+    },
+    {
+     "id": 10056893467,
+     "prix": 51
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:kodak m35 kodac|1@3076": {
+   "date": 1793776264750,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:nikon analoge optik|2@3076": {
+   "date": 1793776391978,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -32105,8 +32216,8 @@
    "vu": 1793650195974
   },
   "3186729686": {
-   "n": 2,
-   "vu": 1793660426045
+   "n": 4,
+   "vu": 1793776137169
   },
   "3186748212": {
    "n": 3,
@@ -32383,23 +32494,23 @@
  },
  "bilan": {
   "depuis": 1793774289840,
-  "passages": 21,
-  "nouvelles": 15,
-  "marque": 1,
-  "etat": 0,
-  "prix": 1,
+  "passages": 36,
+  "nouvelles": 32,
+  "marque": 2,
+  "etat": 1,
+  "prix": 2,
   "accessoire": 0,
   "lot": 0,
   "fausse": 0,
   "imitation": 0,
-  "pro": 0,
+  "pro": 1,
   "vendeurSpecialise": 1,
-  "sansCote": 10,
-  "chere": 2,
+  "sansCote": 19,
+  "chere": 5,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
-  "alertes": 0
+  "alertes": 1
  },
  "panne": null,
  "panneDebut": null,
@@ -33272,6 +33383,16 @@
    "date": 1793770534075,
    "statut": "retiree",
    "verifieA": 1793774163211
+  },
+  {
+   "id": 10658739355,
+   "titre": "Canon EOS 550D",
+   "prix": 90,
+   "cote": 150,
+   "score": 55,
+   "lien": "https://www.vinted.fr/items/10658739355-canon-eos-550d",
+   "date": 1793776457021,
+   "statut": null
   }
  ],
  "dernierRecap": "2026-11-03"

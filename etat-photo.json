@@ -1,12 +1,5 @@
 {
  "vues": [
-  "10652861542",
-  "10652846156",
-  "10652831438",
-  "10652840806",
-  "10652734054",
-  "10652809845",
-  "10652790126",
   "10652755809",
   "10652771536",
   "10652741235",
@@ -3999,7 +3992,14 @@
   "10670196888",
   "10670205158",
   "10670220910",
-  "10670220684"
+  "10670220684",
+  "10670207312",
+  "10670235976",
+  "10670251256",
+  "10670257508",
+  "10670253113",
+  "10670252071",
+  "10670260032"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -42128,6 +42128,74 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "modele:fujifilm maquina fugifilm|1@3075": {
+   "date": 1793834152932,
+   "mediane": null,
+   "echantillon": 2,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:fujifilm ax550 finepix|2@3075": {
+   "date": 1793834280176,
+   "mediane": 60,
+   "echantillon": 3,
+   "dispersion": null,
+   "fourchette": [
+    60,
+    69
+   ],
+   "exemples": [
+    {
+     "id": 10412317496,
+     "prix": 60
+    },
+    {
+     "id": 10022391819,
+     "prix": 60
+    },
+    {
+     "id": 10670251256,
+     "prix": 69
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:canon a510 powershot|2@3075": {
+   "date": 1793834344058,
+   "mediane": 65,
+   "echantillon": 7,
+   "dispersion": 0.46,
+   "fourchette": [
+    22,
+    110
+   ],
+   "exemples": [
+    {
+     "id": 9265730669,
+     "prix": 65
+    },
+    {
+     "id": 9059365119,
+     "prix": 65
+    },
+    {
+     "id": 7581819305,
+     "prix": 80
+    },
+    {
+     "id": 10086801112,
+     "prix": 49.95
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:fujifilm xt 5|2@3075": {
+   "date": 1793834344901,
+   "mediane": null,
+   "echantillon": 2,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -43092,8 +43160,8 @@
    "vu": 1793736776781
   },
   "70832706": {
-   "n": 17,
-   "vu": 1793833573498
+   "n": 18,
+   "vu": 1793834408393
   },
   "70968638": {
    "n": 6,
@@ -44612,8 +44680,8 @@
    "vu": 1793828809051
   },
   "3150194811": {
-   "n": 3,
-   "vu": 1793660426043
+   "n": 4,
+   "vu": 1793834279650
   },
   "3150200415": {
    "n": 2,
@@ -45286,19 +45354,19 @@
  },
  "bilan": {
   "depuis": 1793830944318,
-  "passages": 48,
-  "nouvelles": 73,
+  "passages": 54,
+  "nouvelles": 80,
   "marque": 13,
   "etat": 3,
   "prix": 10,
-  "accessoire": 0,
+  "accessoire": 1,
   "lot": 1,
   "fausse": 1,
   "imitation": 0,
-  "pro": 2,
+  "pro": 3,
   "vendeurSpecialise": 3,
-  "sansCote": 21,
-  "chere": 17,
+  "sansCote": 24,
+  "chere": 19,
   "description": 1,
   "scoreFaible": 0,
   "blocages": 0,

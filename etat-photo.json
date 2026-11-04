@@ -1,8 +1,5 @@
 {
  "vues": [
-  "10638660878",
-  "10638669393",
-  "10638675593",
   "10638671654",
   "10638665148",
   "10638697956",
@@ -3999,7 +3996,10 @@
   "10658354444",
   "10658356280",
   "10658359254",
-  "10658369864"
+  "10658369864",
+  "10658388257",
+  "10658388189",
+  "10658412372"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -30066,6 +30066,13 @@
    "echantillon": 2,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:olympus 800 accessori|1@3075": {
+   "date": 1793769771489,
+   "mediane": null,
+   "echantillon": 0,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -32164,9 +32171,9 @@
  },
  "bilan": {
   "depuis": 1793767049456,
-  "passages": 30,
-  "nouvelles": 8,
-  "marque": 0,
+  "passages": 45,
+  "nouvelles": 11,
+  "marque": 1,
   "etat": 1,
   "prix": 0,
   "accessoire": 0,
@@ -32175,7 +32182,7 @@
   "imitation": 0,
   "pro": 0,
   "vendeurSpecialise": 0,
-  "sansCote": 4,
+  "sansCote": 6,
   "chere": 3,
   "description": 0,
   "scoreFaible": 0,

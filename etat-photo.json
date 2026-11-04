@@ -1,46 +1,5 @@
 {
  "vues": [
-  "10643842849",
-  "10643847318",
-  "10643871239",
-  "10637113823",
-  "10643872936",
-  "10636918924",
-  "10637048259",
-  "10643900864",
-  "10643049175",
-  "10643928992",
-  "10643949771",
-  "10643964300",
-  "10643966871",
-  "10643987089",
-  "10643987314",
-  "10644024749",
-  "10644031805",
-  "10644029466",
-  "10644089422",
-  "10644106532",
-  "10644179957",
-  "10644200314",
-  "10644218738",
-  "10644237558",
-  "10644259487",
-  "10637295362",
-  "10644329245",
-  "10644488618",
-  "10595890862",
-  "10644638706",
-  "10644641610",
-  "10644649741",
-  "10644906559",
-  "10644894034",
-  "10644919450",
-  "10644978995",
-  "10645004438",
-  "10645034489",
-  "10645056985",
-  "10645081844",
-  "10645137427",
   "10645140965",
   "10645144634",
   "10645143769",
@@ -3999,7 +3958,48 @@
   "10662479603",
   "10662462920",
   "10662469384",
-  "10660924664"
+  "10660924664",
+  "10662507726",
+  "10662503644",
+  "10662503059",
+  "10662506564",
+  "10662515134",
+  "10662519957",
+  "10662500130",
+  "10662516577",
+  "10662537853",
+  "10662526460",
+  "10662550357",
+  "10662549201",
+  "10662543338",
+  "10662559394",
+  "10662553874",
+  "10662548482",
+  "10662548042",
+  "10662556505",
+  "10662579621",
+  "10657846498",
+  "10662583629",
+  "10662565899",
+  "10662592385",
+  "10662613310",
+  "10662612076",
+  "10662609225",
+  "10651369529",
+  "10662012829",
+  "10662598824",
+  "10662605598",
+  "10662600092",
+  "10662615350",
+  "10662610503",
+  "10662625644",
+  "10662625609",
+  "10662629219",
+  "10662628347",
+  "10662625763",
+  "10662641429",
+  "10662640679",
+  "10662642737"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -8806,11 +8806,34 @@
    "niveau": "modèle"
   },
   "modele:sony dsc h300 cyber|2@3075": {
-   "date": 1793648156581,
+   "date": 1793799029686,
    "mediane": 80,
-   "echantillon": 65,
+   "echantillon": 67,
    "dispersion": 0.19,
-   "niveau": "modèle"
+   "fourchette": [
+    50,
+    120
+   ],
+   "exemples": [
+    {
+     "id": 10572954716,
+     "prix": 80
+    },
+    {
+     "id": 10327192432,
+     "prix": 80
+    },
+    {
+     "id": 10589771965,
+     "prix": 80
+    },
+    {
+     "id": 10498434984,
+     "prix": 80
+    }
+   ],
+   "niveau": "modèle",
+   "lissee": true
   },
   "modele:fuji camara compacta|2@3076": {
    "date": 1793648157278,
@@ -37128,6 +37151,167 @@
    "echantillon": 1,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:fujifilm x t1 ttartisan|2@3075": {
+   "date": 1793799028572,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:fujifilm finepix accessoires|1@3075": {
+   "date": 1793799157706,
+   "mediane": null,
+   "echantillon": 2,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:nikon nikonos|1@3076": {
+   "date": 1793799285890,
+   "mediane": 198,
+   "echantillon": 12,
+   "dispersion": 0.46,
+   "fourchette": [
+    65,
+    300
+   ],
+   "exemples": [
+    {
+     "id": 10340886419,
+     "prix": 200
+    },
+    {
+     "id": 10646464349,
+     "prix": 195
+    },
+    {
+     "id": 10424115905,
+     "prix": 180
+    },
+    {
+     "id": 10004612811,
+     "prix": 230
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:canon f1 8 ftb|2@3076": {
+   "date": 1793799349988,
+   "mediane": 128,
+   "echantillon": 4,
+   "dispersion": 0.35,
+   "fourchette": [
+    100,
+    150
+   ],
+   "exemples": [
+    {
+     "id": 10662565899,
+     "prix": 150
+    },
+    {
+     "id": 9404381975,
+     "prix": 150
+    },
+    {
+     "id": 8551005079,
+     "prix": 105
+    },
+    {
+     "id": 6188165132,
+     "prix": 100
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:canon 650d eos|2@3075": {
+   "date": 1793799414263,
+   "mediane": 255,
+   "echantillon": 70,
+   "dispersion": 0.31,
+   "fourchette": [
+    105,
+    420
+   ],
+   "exemples": [
+    {
+     "id": 9354386360,
+     "prix": 260
+    },
+    {
+     "id": 10383132849,
+     "prix": 260
+    },
+    {
+     "id": 10635843836,
+     "prix": 250
+    },
+    {
+     "id": 8219411644,
+     "prix": 250
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:sony dsc hx50 30x|3@3075": {
+   "date": 1793799478955,
+   "mediane": 220,
+   "echantillon": 3,
+   "dispersion": null,
+   "fourchette": [
+    59,
+    235
+   ],
+   "exemples": [
+    {
+     "id": 10391728264,
+     "prix": 220
+    },
+    {
+     "id": 10323153345,
+     "prix": 235
+    },
+    {
+     "id": 10662609225,
+     "prix": 59
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:canon sd880 powershot|2@3075": {
+   "date": 1793799480330,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:sony kameras|2@3075": {
+   "date": 1793799545053,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:pentax pc35af 1982 1984|2@3076": {
+   "date": 1793799545536,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:olympus vg 130 5x|2@3075": {
+   "date": 1793799610204,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:rollei sportsline blue|2@3075": {
+   "date": 1793799673956,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -37474,6 +37658,10 @@
   "36462432": {
    "n": 9,
    "vu": 1793732889162
+  },
+  "36565505": {
+   "n": 3,
+   "vu": 1793799544035
   },
   "36943124": {
    "n": 2,
@@ -38880,8 +39068,8 @@
    "vu": 1793660426045
   },
   "306484900": {
-   "n": 4,
-   "vu": 1793739427638
+   "n": 5,
+   "vu": 1793799609661
   },
   "306769332": {
    "n": 2,
@@ -39523,6 +39711,10 @@
    "n": 3,
    "vu": 1793721087492
   },
+  "3206991293": {
+   "n": 2,
+   "vu": 1793799478155
+  },
   "3207102452": {
    "n": 3,
    "vu": 1793790076351
@@ -39594,10 +39786,10 @@
  },
  "bilan": {
   "depuis": 1793796962773,
-  "passages": 30,
-  "nouvelles": 97,
-  "marque": 15,
-  "etat": 4,
+  "passages": 44,
+  "nouvelles": 138,
+  "marque": 26,
+  "etat": 5,
   "prix": 4,
   "accessoire": 0,
   "lot": 1,
@@ -39605,12 +39797,12 @@
   "imitation": 0,
   "pro": 1,
   "vendeurSpecialise": 8,
-  "sansCote": 33,
-  "chere": 28,
-  "description": 0,
+  "sansCote": 54,
+  "chere": 32,
+  "description": 1,
   "scoreFaible": 0,
   "blocages": 0,
-  "alertes": 3
+  "alertes": 6
  },
  "panne": null,
  "panneDebut": null,
@@ -40756,7 +40948,8 @@
    "score": 20,
    "lien": "https://www.vinted.fr/items/10661707704-rollei-digitalkamera-12-megapixel",
    "date": 1793795353087,
-   "statut": null
+   "statut": "en vente",
+   "verifieA": 1793798964268
   },
   {
    "id": 10661741498,
@@ -40766,7 +40959,8 @@
    "score": 67,
    "lien": "https://www.vinted.fr/items/10661741498-sony-dsc-h55",
    "date": 1793795483764,
-   "statut": null
+   "statut": "retiree",
+   "verifieA": 1793799093381
   },
   {
    "id": 10661825771,
@@ -40776,7 +40970,8 @@
    "score": 49,
    "lien": "https://www.vinted.fr/items/10661825771-camara-canon-eos-50d",
    "date": 1793795928744,
-   "statut": null
+   "statut": "en vente",
+   "verifieA": 1793799546254
   },
   {
    "id": 10661913721,
@@ -40816,6 +41011,36 @@
    "score": 18,
    "lien": "https://www.vinted.fr/items/10662449160-mamiya-135-macchina-fotografica-cover-originale-e-flash",
    "date": 1793798768651,
+   "statut": null
+  },
+  {
+   "id": 10662592385,
+   "titre": "Canon EOS 650D + objectif 18-55mm IS II – Appareil photo reflex",
+   "prix": 120,
+   "cote": 255,
+   "score": 70,
+   "lien": "https://www.vinted.fr/items/10662592385-canon-eos-650d-objectif-18-55mm-is-ii-appareil-photo-reflex",
+   "date": 1793799414882,
+   "statut": null
+  },
+  {
+   "id": 10662609225,
+   "titre": "Appareil photo Sony Cyber-shot DSC-HX50 – Zoom 30x – 20,4 MP",
+   "prix": 59,
+   "cote": 220,
+   "score": 78,
+   "lien": "https://www.vinted.fr/items/10662609225-appareil-photo-sony-cyber-shot-dsc-hx50-zoom-30x-204-mp",
+   "date": 1793799480569,
+   "statut": null
+  },
+  {
+   "id": 10662642737,
+   "titre": "Rollei Sportsline 99 blue",
+   "prix": 42,
+   "cote": null,
+   "score": 22,
+   "lien": "https://www.vinted.fr/items/10662642737-rollei-sportsline-99-blue",
+   "date": 1793799674887,
    "statut": null
   }
  ],

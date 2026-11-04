@@ -1,6 +1,5 @@
 {
  "vues": [
-  "10638526990",
   "10638559977",
   "10638564681",
   "10638591489",
@@ -3999,7 +3998,8 @@
   "10657653708",
   "10657702710",
   "10657836969",
-  "10657858290"
+  "10657858290",
+  "10657897561"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -29905,6 +29905,13 @@
    "echantillon": 1,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:mamiya ze 2 camara|1@3076": {
+   "date": 1793759853795,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -31998,24 +32005,24 @@
   }
  },
  "bilan": {
-  "depuis": 1793752497745,
-  "passages": 111,
-  "nouvelles": 44,
-  "marque": 6,
+  "depuis": 1793759726946,
+  "passages": 12,
+  "nouvelles": 1,
+  "marque": 0,
   "etat": 0,
-  "prix": 1,
-  "accessoire": 1,
+  "prix": 0,
+  "accessoire": 0,
   "lot": 0,
   "fausse": 0,
   "imitation": 0,
-  "pro": 17,
-  "vendeurSpecialise": 1,
-  "sansCote": 12,
-  "chere": 6,
+  "pro": 0,
+  "vendeurSpecialise": 0,
+  "sansCote": 0,
+  "chere": 0,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
-  "alertes": 0
+  "alertes": 1
  },
  "panne": null,
  "panneDebut": null,
@@ -32844,6 +32851,16 @@
    "date": 1793751926557,
    "statut": "en vente",
    "verifieA": 1793755541503
+  },
+  {
+   "id": 10657897561,
+   "titre": "Cámara réflex Mamiya ZE-2 en",
+   "prix": 60,
+   "cote": null,
+   "score": 20,
+   "lien": "https://www.vinted.fr/items/10657897561-camara-reflex-mamiya-ze-2-en",
+   "date": 1793759854680,
+   "statut": null
   }
  ],
  "dernierRecap": "2026-11-03"

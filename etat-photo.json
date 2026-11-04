@@ -1,11 +1,5 @@
 {
  "vues": [
-  "10638778676",
-  "10638775820",
-  "10638769159",
-  "10638768634",
-  "10638765029",
-  "10638771967",
   "10638793437",
   "10638788716",
   "10638782982",
@@ -3999,7 +3993,13 @@
   "10658477052",
   "10658477373",
   "10658478427",
-  "10658490629"
+  "10658490629",
+  "10658496120",
+  "10658502219",
+  "10650702211",
+  "10658511316",
+  "10658515253",
+  "10658519499"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -10021,21 +10021,21 @@
    "niveau": "modèle"
   },
   "modele:canon 300 eos|2@3076": {
-   "date": 1793660605205,
-   "mediane": 36,
+   "date": 1793772441031,
+   "mediane": 40,
    "echantillon": 72,
-   "dispersion": 1.22,
+   "dispersion": 1.16,
    "fourchette": [
-    10,
+    14,
     120
    ],
    "exemples": [
     {
-     "id": 10409129440,
-     "prix": 36
+     "id": 8527904987,
+     "prix": 45
     },
     {
-     "id": 9950929724,
+     "id": 10409129440,
      "prix": 36
     },
     {
@@ -10043,11 +10043,12 @@
      "prix": 36
     },
     {
-     "id": 9721993027,
-     "prix": 35
+     "id": 9950929724,
+     "prix": 36
     }
    ],
-   "niveau": "modèle"
+   "niveau": "modèle",
+   "lissee": true
   },
   "modele:yashica kyocera|2@3076": {
    "date": 1793660605934,
@@ -30183,6 +30184,13 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "modele:olympus e 500 ccd|2@3075": {
+   "date": 1793772060012,
+   "mediane": null,
+   "echantillon": 2,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -32289,8 +32297,8 @@
  },
  "bilan": {
   "depuis": 1793767049456,
-  "passages": 70,
-  "nouvelles": 29,
+  "passages": 85,
+  "nouvelles": 35,
   "marque": 6,
   "etat": 2,
   "prix": 0,
@@ -32300,8 +32308,8 @@
   "imitation": 0,
   "pro": 2,
   "vendeurSpecialise": 2,
-  "sansCote": 10,
-  "chere": 6,
+  "sansCote": 15,
+  "chere": 7,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,

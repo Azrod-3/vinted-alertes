@@ -1,23 +1,5 @@
 {
  "vues": [
-  "10652005664",
-  "10652005601",
-  "10652003618",
-  "10652022712",
-  "10652021853",
-  "10652021219",
-  "10651771090",
-  "10652016914",
-  "10648266378",
-  "10652036050",
-  "10652032467",
-  "10652031925",
-  "10652031635",
-  "10652031676",
-  "10652030806",
-  "10652030293",
-  "10652030042",
-  "10652029292",
   "10652025027",
   "10652024527",
   "10652021009",
@@ -3999,7 +3981,25 @@
   "10657166566",
   "10657170625",
   "10657169633",
-  "10657183114"
+  "10657183114",
+  "10657188600",
+  "10657207529",
+  "10657204618",
+  "10657214448",
+  "10657213801",
+  "10657222458",
+  "10657221440",
+  "10657226363",
+  "10657225045",
+  "10657231004",
+  "10657232420",
+  "10657238037",
+  "10657240768",
+  "10657252172",
+  "10657242575",
+  "10657255762",
+  "10657253394",
+  "10657256608"
  ],
  "cotes": {
   "Breil": {
@@ -4066,11 +4066,6 @@
   "Lanco": {
    "date": 1793624926895,
    "mediane": 140,
-   "echantillon": 85
-  },
-  "Hamilton": {
-   "date": 1793579346249,
-   "mediane": 390,
    "echantillon": 85
   },
   "Hip Hop": {
@@ -4167,11 +4162,6 @@
    "mediane": 300,
    "echantillon": 63
   },
-  "LIP": {
-   "date": 1793579351526,
-   "mediane": 120,
-   "echantillon": 77
-  },
   "Bulova": {
    "date": 1793603868686,
    "mediane": 160,
@@ -4203,17 +4193,6 @@
    "mediane": 500,
    "echantillon": 75
   },
-  "Ricoh": {
-   "date": 1793579354329,
-   "mediane": 75,
-   "echantillon": 65
-  },
-  "Lorus": {
-   "date": 1793579350409,
-   "mediane": null,
-   "echantillon": 81,
-   "coteTropBasse": 25
-  },
   "ruhla": {
    "date": 1793620328996,
    "mediane": null,
@@ -4230,11 +4209,6 @@
    "mediane": 70,
    "echantillon": 74
   },
-  "Panerai": {
-   "date": 1793579344735,
-   "mediane": 3970,
-   "echantillon": 21
-  },
   "Locman Italy": {
    "date": 1793620574986,
    "mediane": 150,
@@ -4244,11 +4218,6 @@
    "date": 1793623928228,
    "mediane": 90,
    "echantillon": 79
-  },
-  "Cauny": {
-   "date": 1793579356577,
-   "mediane": 144.5,
-   "echantillon": 71
   },
   "Jaeger-LeCoultre": {
    "date": 1793629672633,
@@ -4473,12 +4442,6 @@
    "echantillon": 5,
    "niveau": "modèle"
   },
-  "modele:Lorus relogio|2": {
-   "date": 1793579355908,
-   "mediane": 25.5,
-   "echantillon": 62,
-   "niveau": "modèle"
-  },
   "modele:Ice Watch wit|1": {
    "date": 1793618577566,
    "mediane": 10,
@@ -4580,12 +4543,6 @@
    "echantillon": 13,
    "niveau": "modèle"
   },
-  "modele:Lotus chronograph estilo|3": {
-   "date": 1793579352753,
-   "mediane": null,
-   "echantillon": 1,
-   "niveau": "modèle"
-  },
   "Dragon Ball": {
    "date": 1793615395070,
    "mediane": null,
@@ -4602,12 +4559,6 @@
    "date": 1793626997082,
    "mediane": 299,
    "echantillon": 20,
-   "niveau": "modèle"
-  },
-  "modele:Fossil acciaio|4": {
-   "date": 1793579349265,
-   "mediane": 60,
-   "echantillon": 6,
    "niveau": "modèle"
   },
   "modele:Tissot visodate automatic|2": {
@@ -4747,12 +4698,6 @@
    "echantillon": 22,
    "niveau": "modèle"
   },
-  "modele:Citizen chronograph|2": {
-   "date": 1793579357791,
-   "mediane": null,
-   "echantillon": 0,
-   "niveau": "modèle"
-  },
   "modele:Longines automatique cadran|2": {
    "date": 1793626362585,
    "mediane": null,
@@ -4873,12 +4818,6 @@
    "echantillon": 1,
    "niveau": "modèle"
   },
-  "modele:Hamilton ventura|2": {
-   "date": 1793579346726,
-   "mediane": 700,
-   "echantillon": 54,
-   "niveau": "modèle"
-  },
   "modele:Festina mens|2": {
    "date": 1793617898763,
    "mediane": 80,
@@ -4987,12 +4926,6 @@
    "echantillon": 9,
    "niveau": "modèle"
   },
-  "modele:Citizen 1970 1980|2": {
-   "date": 1793579353285,
-   "mediane": 79.9,
-   "echantillon": 3,
-   "niveau": "modèle"
-  },
   "modele:Junghans herrenuhr|1": {
    "date": 1793615407050,
    "mediane": 119,
@@ -5055,120 +4988,6 @@
   },
   "modele:Ice Watch 016 544|3": {
    "date": 1793618261911,
-   "mediane": null,
-   "echantillon": 1,
-   "niveau": "modèle"
-  },
-  "modele:Fossil men special|4": {
-   "date": 1793579347522,
-   "mediane": null,
-   "echantillon": 1,
-   "niveau": "modèle"
-  },
-  "modele:Citizen marinaut sapphire|1": {
-   "date": 1793579358113,
-   "mediane": null,
-   "echantillon": 0,
-   "niveau": "modèle"
-  },
-  "modele:Perseo 170 400|1": {
-   "date": 1793579357932,
-   "mediane": null,
-   "echantillon": 0,
-   "niveau": "modèle"
-  },
-  "modele:Invicta 300m grand|2": {
-   "date": 1793579357254,
-   "mediane": null,
-   "echantillon": 0,
-   "niveau": "modèle"
-  },
-  "modele:Cauny swiss made|4": {
-   "date": 1793579356747,
-   "mediane": null,
-   "echantillon": 0,
-   "niveau": "modèle"
-  },
-  "modele:Invicta s1 23080|1": {
-   "date": 1793579355296,
-   "mediane": null,
-   "echantillon": 1,
-   "niveau": "modèle"
-  },
-  "modele:Sekonda clasico|3": {
-   "date": 1793579353667,
-   "mediane": null,
-   "echantillon": 2,
-   "niveau": "modèle"
-  },
-  "modele:Ricoh automatisch horloge|2": {
-   "date": 1793579354750,
-   "mediane": null,
-   "echantillon": 2,
-   "niveau": "modèle"
-  },
-  "modele:LIP costume brown|2": {
-   "date": 1793579351886,
-   "mediane": null,
-   "echantillon": 1,
-   "niveau": "modèle"
-  },
-  "modele:Lorus ym92 2000s|2": {
-   "date": 1793579350778,
-   "mediane": null,
-   "echantillon": 1,
-   "niveau": "modèle"
-  },
-  "modele:Timex relogio indiglo|2": {
-   "date": 1793579348487,
-   "mediane": 42,
-   "echantillon": 6,
-   "niveau": "modèle"
-  },
-  "modele:Vostok komandirsky|1": {
-   "date": 1793579347981,
-   "mediane": null,
-   "echantillon": 1,
-   "niveau": "modèle"
-  },
-  "modele:Panerai pam00380 radiomir|2": {
-   "date": 1793579345151,
-   "mediane": null,
-   "echantillon": 1,
-   "niveau": "modèle"
-  },
-  "modele:Panerai pam01294 radiomir|2": {
-   "date": 1793579345525,
-   "mediane": null,
-   "echantillon": 1,
-   "niveau": "modèle"
-  },
-  "modele:Venezianico ultrablack|4": {
-   "date": 1793579344036,
-   "mediane": null,
-   "echantillon": 2,
-   "niveau": "modèle"
-  },
-  "modele:Fossil dammen madchen|2": {
-   "date": 1793579342840,
-   "mediane": null,
-   "echantillon": 1,
-   "niveau": "modèle"
-  },
-  "modele:Fossil bq2305 modelo|2": {
-   "date": 1793579342466,
-   "mediane": null,
-   "echantillon": 1,
-   "niveau": "modèle"
-  },
-  "modele:Fossil fs5484 chase|2": {
-   "date": 1793579341953,
-   "mediane": null,
-   "echantillon": 1,
-   "niveau": "modèle"
-  },
-  "modele:Breil brei mai|3": {
-   "date": 1793579349678,
    "mediane": null,
    "echantillon": 1,
    "niveau": "modèle"
@@ -22430,6 +22249,38 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "modele:fossil 7978 big|2": {
+   "date": 1793752148881,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:festina f16680 chronograph|2": {
+   "date": 1793752192904,
+   "mediane": 87,
+   "echantillon": 3,
+   "dispersion": null,
+   "fourchette": [
+    70,
+    149
+   ],
+   "exemples": [
+    {
+     "id": 10657255762,
+     "prix": 87
+    },
+    {
+     "id": 10312917366,
+     "prix": 70
+    },
+    {
+     "id": 7667349673,
+     "prix": 149
+    }
+   ],
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -24382,8 +24233,8 @@
    "vu": 1793633350698
   },
   "18251951": {
-   "n": 10,
-   "vu": 1793664036197
+   "n": 11,
+   "vu": 1793751887817
   },
   "18255319": {
    "n": 8,
@@ -48366,8 +48217,8 @@
    "vu": 1793633350698
   },
   "136779532": {
-   "n": 16,
-   "vu": 1793743210820
+   "n": 17,
+   "vu": 1793751757809
   },
   "136805367": {
    "n": 6,
@@ -52876,6 +52727,10 @@
   "174577105": {
    "n": 8,
    "vu": 1793633350698
+  },
+  "174586524": {
+   "n": 2,
+   "vu": 1793751670330
   },
   "174598637": {
    "n": 6,
@@ -61902,8 +61757,8 @@
    "vu": 1793633350698
   },
   "252150049": {
-   "n": 13,
-   "vu": 1793633350698
+   "n": 14,
+   "vu": 1793751450839
   },
   "252157271": {
    "n": 18,
@@ -62290,8 +62145,8 @@
    "vu": 1793633350698
   },
   "254030262": {
-   "n": 337,
-   "vu": 1793724404236
+   "n": 338,
+   "vu": 1793751757809
   },
   "254060419": {
    "n": 13,
@@ -72226,8 +72081,8 @@
    "vu": 1793648388723
   },
   "3126092910": {
-   "n": 35,
-   "vu": 1793633350698
+   "n": 36,
+   "vu": 1793751974909
   },
   "3126117112": {
    "n": 11,
@@ -91570,8 +91425,8 @@
    "vu": 1793633350698
   },
   "3201684571": {
-   "n": 2,
-   "vu": 1793746582706
+   "n": 3,
+   "vu": 1793751887817
   },
   "3201734569": {
    "n": 9,
@@ -92416,9 +92271,9 @@
  },
  "bilan": {
   "depuis": 1793749218436,
-  "passages": 50,
-  "nouvelles": 77,
-  "marque": 56,
+  "passages": 71,
+  "nouvelles": 95,
+  "marque": 68,
   "etat": 0,
   "prix": 2,
   "accessoire": 0,
@@ -92427,8 +92282,8 @@
   "imitation": 0,
   "pro": 0,
   "vendeurSpecialise": 5,
-  "sansCote": 2,
-  "chere": 10,
+  "sansCote": 3,
+  "chere": 15,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,

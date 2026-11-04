@@ -1,14 +1,5 @@
 {
  "vues": [
-  "10652025027",
-  "10652024527",
-  "10652021009",
-  "10652046081",
-  "10652045747",
-  "10652044380",
-  "10652044295",
-  "10652043136",
-  "10652043145",
   "10652041147",
   "10652040449",
   "10652039184",
@@ -3999,7 +3990,16 @@
   "10657242575",
   "10657255762",
   "10657253394",
-  "10657256608"
+  "10657256608",
+  "10657271057",
+  "10657272247",
+  "10657272108",
+  "10657282265",
+  "10657278444",
+  "10657309209",
+  "10657315090",
+  "10657330794",
+  "10657334276"
  ],
  "cotes": {
   "Breil": {
@@ -4782,12 +4782,6 @@
    "echantillon": 11,
    "niveau": "modèle"
   },
-  "modele:Fossil chronograph black|1": {
-   "date": 1793579961297,
-   "mediane": 48,
-   "echantillon": 21,
-   "niveau": "modèle"
-  },
   "modele:ORIENT automatico con|2": {
    "date": 1793621037295,
    "mediane": null,
@@ -4988,18 +4982,6 @@
   },
   "modele:Ice Watch 016 544|3": {
    "date": 1793618261911,
-   "mediane": null,
-   "echantillon": 1,
-   "niveau": "modèle"
-  },
-  "modele:Invicta reloje como|1": {
-   "date": 1793579832727,
-   "mediane": null,
-   "echantillon": 1,
-   "niveau": "modèle"
-  },
-  "modele:Fossil 4180 armbanduhr|4": {
-   "date": 1793580004478,
    "mediane": null,
    "echantillon": 1,
    "niveau": "modèle"
@@ -22281,6 +22263,13 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "modele:breil tw1639|2": {
+   "date": 1793752412619,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -32049,8 +32038,8 @@
    "vu": 1793633350698
   },
   "49630844": {
-   "n": 15,
-   "vu": 1793633350698
+   "n": 17,
+   "vu": 1793753063782
   },
   "49633383": {
    "n": 8,
@@ -43813,8 +43802,8 @@
    "vu": 1793633350698
   },
   "101266986": {
-   "n": 7,
-   "vu": 1793633350698
+   "n": 8,
+   "vu": 1793752412028
   },
   "101324245": {
    "n": 38,
@@ -86425,8 +86414,8 @@
    "vu": 1793633350698
   },
   "3182376855": {
-   "n": 45,
-   "vu": 1793750923397
+   "n": 46,
+   "vu": 1793752803891
   },
   "3182383068": {
    "n": 8,
@@ -92270,24 +92259,24 @@
   }
  },
  "bilan": {
-  "depuis": 1793749218436,
-  "passages": 71,
-  "nouvelles": 95,
-  "marque": 68,
+  "depuis": 1793752847298,
+  "passages": 9,
+  "nouvelles": 3,
+  "marque": 1,
   "etat": 0,
-  "prix": 2,
+  "prix": 0,
   "accessoire": 0,
   "lot": 0,
-  "fausse": 1,
+  "fausse": 0,
   "imitation": 0,
   "pro": 0,
-  "vendeurSpecialise": 5,
-  "sansCote": 3,
-  "chere": 15,
+  "vendeurSpecialise": 2,
+  "sansCote": 0,
+  "chere": 0,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
-  "alertes": 1
+  "alertes": 0
  },
  "panne": null,
  "panneDebut": null,

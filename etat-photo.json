@@ -1,18 +1,5 @@
 {
  "vues": [
-  "10638278863",
-  "10638311818",
-  "10638304545",
-  "10638291332",
-  "10627439973",
-  "10638311499",
-  "10638325150",
-  "10638314778",
-  "10638334927",
-  "10638324889",
-  "10638333744",
-  "10638355638",
-  "10638345050",
   "10638351375",
   "10638345592",
   "10638343101",
@@ -3999,7 +3986,20 @@
   "10657040837",
   "10657022451",
   "10657042428",
-  "10657053251"
+  "10657053251",
+  "10657058358",
+  "10657058097",
+  "10655383480",
+  "10657076803",
+  "10657088838",
+  "10657100546",
+  "10657098176",
+  "10657095866",
+  "10657103190",
+  "10657120698",
+  "10657130421",
+  "10657135910",
+  "10657142410"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -10677,33 +10677,34 @@
    "niveau": "modèle"
   },
   "marque:contax@3076": {
-   "date": 1793660697846,
-   "mediane": 280,
-   "echantillon": 41,
-   "dispersion": 1.29,
+   "date": 1793750528902,
+   "mediane": 242,
+   "echantillon": 36,
+   "dispersion": 1.47,
    "fourchette": [
-    75,
-    999
+    50,
+    750
    ],
    "exemples": [
     {
-     "id": 10641619962,
-     "prix": 280
-    },
-    {
-     "id": 10556715419,
-     "prix": 294.9
-    },
-    {
-     "id": 10365268560,
-     "prix": 300
-    },
-    {
      "id": 9919553776,
      "prix": 250
+    },
+    {
+     "id": 9387758900,
+     "prix": 200
+    },
+    {
+     "id": 10603720663,
+     "prix": 189
+    },
+    {
+     "id": 9575956967,
+     "prix": 185
     }
    ],
-   "niveau": "marque"
+   "niveau": "marque",
+   "lissee": true
   },
   "modele:contax zeiss rts|2@3076": {
    "date": 1793660698410,
@@ -29584,6 +29585,107 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "modele:fujifilm s8600 36x|2@3075": {
+   "date": 1793750083385,
+   "mediane": null,
+   "echantillon": 2,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:nikon digitalkamera|2@3075": {
+   "date": 1793750526396,
+   "mediane": 64,
+   "echantillon": 64,
+   "dispersion": 0.47,
+   "fourchette": [
+    19,
+    140
+   ],
+   "exemples": [
+    {
+     "id": 10637616508,
+     "prix": 65
+    },
+    {
+     "id": 10444489217,
+     "prix": 65
+    },
+    {
+     "id": 10586767664,
+     "prix": 65
+    },
+    {
+     "id": 10212232131,
+     "prix": 65
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:nikon s2800 coolpix|2@3075": {
+   "date": 1793750527205,
+   "mediane": 100,
+   "echantillon": 47,
+   "dispersion": 0.45,
+   "fourchette": [
+    39,
+    140
+   ],
+   "exemples": [
+    {
+     "id": 9402426349,
+     "prix": 100
+    },
+    {
+     "id": 8895948457,
+     "prix": 100
+    },
+    {
+     "id": 7442052168,
+     "prix": 100
+    },
+    {
+     "id": 6927050318,
+     "prix": 100
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:contax 433mhz g1|4@3076": {
+   "date": 1793750529410,
+   "mediane": null,
+   "echantillon": 0,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:fujifilm xt4|2@3075": {
+   "date": 1793750783550,
+   "mediane": 1150,
+   "echantillon": 20,
+   "dispersion": 0.39,
+   "fourchette": [
+    850,
+    2300
+   ],
+   "exemples": [
+    {
+     "id": 7690333706,
+     "prix": 1200
+    },
+    {
+     "id": 6027221223,
+     "prix": 1100
+    },
+    {
+     "id": 10279088000,
+     "prix": 1200
+    },
+    {
+     "id": 9784884734,
+     "prix": 1200
+    }
+   ],
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -30804,8 +30906,8 @@
    "vu": 1793741205442
   },
   "247906150": {
-   "n": 2,
-   "vu": 1793634469388
+   "n": 3,
+   "vu": 1793750782975
   },
   "248638618": {
    "n": 2,
@@ -31507,6 +31609,10 @@
    "n": 2,
    "vu": 1793714399984
   },
+  "3202297167": {
+   "n": 3,
+   "vu": 1793750973382
+  },
   "3202458183": {
    "n": 2,
    "vu": 1793648299670
@@ -31536,8 +31642,8 @@
    "vu": 1793647703667
   },
   "3205117872": {
-   "n": 2,
-   "vu": 1793746351004
+   "n": 3,
+   "vu": 1793750525554
   },
   "3205156408": {
    "n": 3,
@@ -31650,23 +31756,23 @@
  },
  "bilan": {
   "depuis": 1793745262383,
-  "passages": 70,
-  "nouvelles": 86,
-  "marque": 10,
+  "passages": 85,
+  "nouvelles": 99,
+  "marque": 14,
   "etat": 1,
-  "prix": 4,
+  "prix": 5,
   "accessoire": 0,
   "lot": 4,
   "fausse": 0,
   "imitation": 0,
   "pro": 3,
   "vendeurSpecialise": 1,
-  "sansCote": 45,
-  "chere": 16,
+  "sansCote": 49,
+  "chere": 18,
   "description": 1,
   "scoreFaible": 0,
   "blocages": 0,
-  "alertes": 1
+  "alertes": 3
  },
  "panne": null,
  "panneDebut": null,
@@ -32462,6 +32568,26 @@
    "date": 1793746224201,
    "statut": "retiree",
    "verifieA": 1793749826591
+  },
+  {
+   "id": 10657098176,
+   "titre": "Nikon Coolpix S2800",
+   "prix": 39,
+   "cote": 100,
+   "score": 62,
+   "lien": "https://www.vinted.fr/items/10657098176-nikon-coolpix-s2800",
+   "date": 1793750530330,
+   "statut": null
+  },
+  {
+   "id": 10657095866,
+   "titre": "scatto remoto a radiofrequenza 433mhz contax slr g1 g2 , rts , 139",
+   "prix": 65,
+   "cote": null,
+   "score": 23,
+   "lien": "https://www.vinted.fr/items/10657095866-scatto-remoto-a-radiofrequenza-433mhz-contax-slr-g1-g2-rts-139",
+   "date": 1793750530453,
+   "statut": null
   }
  ],
  "dernierRecap": "2026-11-03"

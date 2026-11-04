@@ -1,9 +1,5 @@
 {
  "vues": [
-  "10638594871",
-  "10638589408",
-  "10638599680",
-  "10638598030",
   "10638616725",
   "10638616410",
   "10638629204",
@@ -3999,7 +3995,11 @@
   "10658205486",
   "10658227047",
   "10658255187",
-  "10658273044"
+  "10658273044",
+  "10658310835",
+  "10658314171",
+  "10658316152",
+  "10658331260"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -11240,7 +11240,7 @@
    "niveau": "modèle"
   },
   "modele:sony dsc w80 camara|2@3075": {
-   "date": 1793763973036,
+   "date": 1793767046352,
    "mediane": 79,
    "echantillon": 4,
    "dispersion": 0.06,
@@ -29948,7 +29948,97 @@
    "niveau": "modèle"
   },
   "modele:kodak empire baby|1@3076": {
-   "date": 1793765304267,
+   "date": 1793767047879,
+   "mediane": null,
+   "echantillon": 2,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:canon 40d pack|1@3075": {
+   "date": 1793767047089,
+   "mediane": 140,
+   "echantillon": 3,
+   "dispersion": null,
+   "fourchette": [
+    110,
+    230
+   ],
+   "exemples": [
+    {
+     "id": 10658153591,
+     "prix": 140
+    },
+    {
+     "id": 9274947083,
+     "prix": 110
+    },
+    {
+     "id": 7024613840,
+     "prix": 230
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:yashica analoge spiegelreflexkamera|1@3076": {
+   "date": 1793767113150,
+   "mediane": 75,
+   "echantillon": 5,
+   "dispersion": 1.4,
+   "fourchette": [
+    45,
+    180
+   ],
+   "exemples": [
+    {
+     "id": 10194363393,
+     "prix": 75
+    },
+    {
+     "id": 10658310835,
+     "prix": 45
+    },
+    {
+     "id": 10601287574,
+     "prix": 45
+    },
+    {
+     "id": 10133029655,
+     "prix": 150
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:nikon fe2|1@3076": {
+   "date": 1793767176901,
+   "mediane": 300,
+   "echantillon": 17,
+   "dispersion": 0.33,
+   "fourchette": [
+    180,
+    450
+   ],
+   "exemples": [
+    {
+     "id": 9647592370,
+     "prix": 300
+    },
+    {
+     "id": 8879799840,
+     "prix": 300
+    },
+    {
+     "id": 9449008245,
+     "prix": 300
+    },
+    {
+     "id": 10235408964,
+     "prix": 310
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:canon polaroid|2@3076": {
+   "date": 1793767240806,
    "mediane": null,
    "echantillon": 2,
    "dispersion": null,
@@ -32030,7 +32120,7 @@
   },
   "3208121965": {
    "n": 3,
-   "vu": 1793765747644
+   "vu": 1793767044909
   },
   "3208454645": {
    "n": 2,
@@ -32046,11 +32136,11 @@
   }
  },
  "bilan": {
-  "depuis": 1793766950510,
-  "passages": 1,
-  "nouvelles": 0,
+  "depuis": 1793767049456,
+  "passages": 15,
+  "nouvelles": 4,
   "marque": 0,
-  "etat": 0,
+  "etat": 1,
   "prix": 0,
   "accessoire": 0,
   "lot": 0,
@@ -32058,8 +32148,8 @@
   "imitation": 0,
   "pro": 0,
   "vendeurSpecialise": 0,
-  "sansCote": 0,
-  "chere": 0,
+  "sansCote": 1,
+  "chere": 2,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
@@ -32902,7 +32992,7 @@
    "lien": "https://www.vinted.fr/items/10657897561-camara-reflex-mamiya-ze-2-en",
    "date": 1793759854680,
    "statut": "en vente",
-   "verifieA": 1793763466199
+   "verifieA": 1793767048783
   },
   {
    "id": 10657972067,
@@ -32913,7 +33003,7 @@
    "lien": "https://www.vinted.fr/items/10657972067-canon-ixus-132",
    "date": 1793760868603,
    "statut": "en vente",
-   "verifieA": 1793764480849
+   "verifieA": 1793767049446
   },
   {
    "id": 10658273044,

@@ -1,31 +1,5 @@
 {
  "vues": [
-  "10645854793",
-  "10645856566",
-  "10645867333",
-  "10645865562",
-  "10645879263",
-  "10645877785",
-  "10645874887",
-  "10645875685",
-  "10645873670",
-  "10645884147",
-  "10645873598",
-  "10645881055",
-  "10645887947",
-  "10645891088",
-  "10645900627",
-  "10645898022",
-  "10645895380",
-  "10645903784",
-  "10645916171",
-  "10645923429",
-  "10645927814",
-  "10645942698",
-  "10645936273",
-  "10645948904",
-  "10645947576",
-  "10645947006",
   "10645945971",
   "10645960968",
   "10645955646",
@@ -3999,7 +3973,33 @@
   "10663296010",
   "10663323110",
   "10663327328",
-  "10663318117"
+  "10663318117",
+  "10663337770",
+  "10663336959",
+  "10663341961",
+  "10663341867",
+  "10663351814",
+  "10663358102",
+  "10663371731",
+  "10663371072",
+  "10663362361",
+  "10663385862",
+  "10663410513",
+  "10663408815",
+  "10663402859",
+  "10663399193",
+  "10663429266",
+  "10663425393",
+  "10663422387",
+  "10663418870",
+  "10663406846",
+  "10663436548",
+  "10663434240",
+  "10663429896",
+  "10663434459",
+  "10663455513",
+  "10663438910",
+  "10663458820"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -38615,6 +38615,128 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "modele:zeiss ikon f4 5 signal|1@3076": {
+   "date": 1793802593438,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:pentax k5 corpo|2@3075": {
+   "date": 1793802721742,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:panasonic dmc sz10 lumix|1@3075": {
+   "date": 1793802849209,
+   "mediane": 140,
+   "echantillon": 35,
+   "dispersion": 0.29,
+   "fourchette": [
+    57,
+    219.99
+   ],
+   "exemples": [
+    {
+     "id": 10190661197,
+     "prix": 140
+    },
+    {
+     "id": 7306777080,
+     "prix": 140
+    },
+    {
+     "id": 9933179254,
+     "prix": 145
+    },
+    {
+     "id": 10018453106,
+     "prix": 135
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:polaroid t831 100|3@3075": {
+   "date": 1793802850696,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:ricoh camara|1@3075": {
+   "date": 1793802851572,
+   "mediane": 70,
+   "echantillon": 10,
+   "dispersion": 0.79,
+   "fourchette": [
+    20,
+    200
+   ],
+   "exemples": [
+    {
+     "id": 10495526621,
+     "prix": 60
+    },
+    {
+     "id": 10586784273,
+     "prix": 80
+    },
+    {
+     "id": 10277845556,
+     "prix": 60
+    },
+    {
+     "id": 10246923847,
+     "prix": 50
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:samsung galaxy wit|2@3075": {
+   "date": 1793802915507,
+   "mediane": null,
+   "echantillon": 2,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:sony dsc h400 dsc|2@3075": {
+   "date": 1793802916577,
+   "mediane": 140,
+   "echantillon": 75,
+   "dispersion": 0.36,
+   "fourchette": [
+    45,
+    250
+   ],
+   "exemples": [
+    {
+     "id": 9777227219,
+     "prix": 140
+    },
+    {
+     "id": 6155822065,
+     "prix": 140
+    },
+    {
+     "id": 10021446689,
+     "prix": 139.99
+    },
+    {
+     "id": 7968957275,
+     "prix": 146
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:sony dsc p32 canon|2@3075": {
+   "date": 1793802981259,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -39254,6 +39376,10 @@
    "n": 2,
    "vu": 1793632941647
   },
+  "56213790": {
+   "n": 3,
+   "vu": 1793802980703
+  },
   "56318656": {
    "n": 2,
    "vu": 1793638262034
@@ -39470,6 +39596,10 @@
    "n": 3,
    "vu": 1793783198023
   },
+  "76416321": {
+   "n": 2,
+   "vu": 1793803044990
+  },
   "76660157": {
    "n": 2,
    "vu": 1793784423010
@@ -39495,8 +39625,8 @@
    "vu": 1793710661589
   },
   "81870263": {
-   "n": 4,
-   "vu": 1793802461841
+   "n": 5,
+   "vu": 1793802848464
   },
   "82933467": {
    "n": 3,
@@ -40667,8 +40797,8 @@
    "vu": 1793644564641
   },
   "3152368568": {
-   "n": 2,
-   "vu": 1793798061259
+   "n": 3,
+   "vu": 1793802592856
   },
   "3152572862": {
    "n": 7,
@@ -40807,8 +40937,8 @@
    "vu": 1793705164193
   },
   "3176701136": {
-   "n": 7,
-   "vu": 1793731594025
+   "n": 8,
+   "vu": 1793803044991
   },
   "3178128621": {
    "n": 2,
@@ -41169,23 +41299,23 @@
  },
  "bilan": {
   "depuis": 1793796962773,
-  "passages": 86,
-  "nouvelles": 307,
-  "marque": 54,
-  "etat": 15,
-  "prix": 7,
+  "passages": 101,
+  "nouvelles": 333,
+  "marque": 58,
+  "etat": 17,
+  "prix": 8,
   "accessoire": 0,
   "lot": 1,
   "fausse": 1,
   "imitation": 0,
   "pro": 2,
-  "vendeurSpecialise": 13,
-  "sansCote": 125,
-  "chere": 74,
+  "vendeurSpecialise": 14,
+  "sansCote": 137,
+  "chere": 77,
   "description": 2,
   "scoreFaible": 0,
   "blocages": 0,
-  "alertes": 13
+  "alertes": 16
  },
  "panne": null,
  "panneDebut": null,
@@ -42408,7 +42538,8 @@
    "score": 70,
    "lien": "https://www.vinted.fr/items/10662592385-canon-eos-650d-objectif-18-55mm-is-ii-appareil-photo-reflex",
    "date": 1793799414882,
-   "statut": null
+   "statut": "en vente",
+   "verifieA": 1793803045416
   },
   {
    "id": 10662609225,
@@ -42418,7 +42549,8 @@
    "score": 78,
    "lien": "https://www.vinted.fr/items/10662609225-appareil-photo-sony-cyber-shot-dsc-hx50-zoom-30x-204-mp",
    "date": 1793799480569,
-   "statut": null
+   "statut": "retiree",
+   "verifieA": 1793803109568
   },
   {
    "id": 10662642737,
@@ -42428,7 +42560,8 @@
    "score": 22,
    "lien": "https://www.vinted.fr/items/10662642737-rollei-sportsline-99-blue",
    "date": 1793799674887,
-   "statut": null
+   "statut": "en vente",
+   "verifieA": 1793803300427
   },
   {
    "id": 10661425668,
@@ -42498,6 +42631,36 @@
    "score": 67,
    "lien": "https://www.vinted.fr/items/10663211183-nikon-fototoestel",
    "date": 1793802075533,
+   "statut": null
+  },
+  {
+   "id": 10663341961,
+   "titre": "Zeiss Ikon Signal Nettar 2 Novar f4.5",
+   "prix": 35,
+   "cote": null,
+   "score": 20,
+   "lien": "https://www.vinted.fr/items/10663341961-zeiss-ikon-signal-nettar-2-novar-f45",
+   "date": 1793802594206,
+   "statut": null
+  },
+  {
+   "id": 10663408815,
+   "titre": "Panasonic Lumix DMC-SZ10",
+   "prix": 57,
+   "cote": 140,
+   "score": 64,
+   "lien": "https://www.vinted.fr/items/10663408815-panasonic-lumix-dmc-sz10",
+   "date": 1793802851689,
+   "statut": null
+  },
+  {
+   "id": 10663406846,
+   "titre": "Câmera Sony DSC-H400",
+   "prix": 70,
+   "cote": 140,
+   "score": 61,
+   "lien": "https://www.vinted.fr/items/10663406846-camera-sony-dsc-h400",
+   "date": 1793802917261,
    "statut": null
   }
  ],

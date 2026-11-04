@@ -1,11 +1,5 @@
 {
  "vues": [
-  "10638351375",
-  "10638345592",
-  "10638343101",
-  "10638342543",
-  "10638357969",
-  "10638371716",
   "10638368180",
   "10638367813",
   "10638364537",
@@ -3999,7 +3993,13 @@
   "10657120698",
   "10657130421",
   "10657135910",
-  "10657142410"
+  "10657142410",
+  "10657165195",
+  "10657199244",
+  "10657210785",
+  "10657220001",
+  "10657224733",
+  "10657230588"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -6995,11 +6995,10 @@
    "niveau": "modèle"
   },
   "marque:fujica@3076": {
-   "date": 1793641737892,
-   "mediane": 50,
+   "date": 1793751608104,
+   "mediane": null,
    "echantillon": 30,
-   "dispersion": 0.99,
-   "niveau": "marque"
+   "coteTropBasse": 49
   },
   "modele:fujica stx 2 l54|2@3076": {
    "date": 1793641738603,
@@ -29686,6 +29685,42 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "modele:fujica ax 3 f1 9|2@3076": {
+   "date": 1793751608678,
+   "mediane": null,
+   "echantillon": 2,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:samsung nx1000|2@3075": {
+   "date": 1793751925852,
+   "mediane": 150,
+   "echantillon": 54,
+   "dispersion": 0.46,
+   "fourchette": [
+    80,
+    280
+   ],
+   "exemples": [
+    {
+     "id": 10521347163,
+     "prix": 150
+    },
+    {
+     "id": 9565312660,
+     "prix": 150
+    },
+    {
+     "id": 10309022084,
+     "prix": 150
+    },
+    {
+     "id": 8294424072,
+     "prix": 150
+    }
+   ],
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -30977,6 +31012,10 @@
    "n": 5,
    "vu": 1793730863983
   },
+  "257746755": {
+   "n": 2,
+   "vu": 1793751798551
+  },
   "257823829": {
    "n": 2,
    "vu": 1793644361632
@@ -31610,8 +31649,8 @@
    "vu": 1793714399984
   },
   "3202297167": {
-   "n": 3,
-   "vu": 1793750973382
+   "n": 4,
+   "vu": 1793751607180
   },
   "3202458183": {
    "n": 2,
@@ -31642,8 +31681,8 @@
    "vu": 1793647703667
   },
   "3205117872": {
-   "n": 3,
-   "vu": 1793750525554
+   "n": 4,
+   "vu": 1793751925093
   },
   "3205156408": {
    "n": 3,
@@ -31756,23 +31795,23 @@
  },
  "bilan": {
   "depuis": 1793745262383,
-  "passages": 85,
-  "nouvelles": 99,
+  "passages": 100,
+  "nouvelles": 105,
   "marque": 14,
   "etat": 1,
   "prix": 5,
-  "accessoire": 0,
+  "accessoire": 1,
   "lot": 4,
   "fausse": 0,
   "imitation": 0,
-  "pro": 3,
+  "pro": 4,
   "vendeurSpecialise": 1,
-  "sansCote": 49,
+  "sansCote": 52,
   "chere": 18,
   "description": 1,
   "scoreFaible": 0,
   "blocages": 0,
-  "alertes": 3
+  "alertes": 4
  },
  "panne": null,
  "panneDebut": null,
@@ -32587,6 +32626,16 @@
    "score": 23,
    "lien": "https://www.vinted.fr/items/10657095866-scatto-remoto-a-radiofrequenza-433mhz-contax-slr-g1-g2-rts-139",
    "date": 1793750530453,
+   "statut": null
+  },
+  {
+   "id": 10657230588,
+   "titre": "Samsung NX1000",
+   "prix": 85,
+   "cote": 150,
+   "score": 51,
+   "lien": "https://www.vinted.fr/items/10657230588-samsung-nx1000",
+   "date": 1793751926557,
    "statut": null
   }
  ],

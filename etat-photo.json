@@ -1,8 +1,5 @@
 {
  "vues": [
-  "10638601635",
-  "10638600857",
-  "10638595575",
   "10638594871",
   "10638589408",
   "10638599680",
@@ -3999,7 +3996,10 @@
   "10658153591",
   "10652599260",
   "10658205448",
-  "10658205486"
+  "10658205486",
+  "10658227047",
+  "10658255187",
+  "10658273044"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -29946,6 +29946,13 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "modele:kodak empire baby|1@3076": {
+   "date": 1793765304267,
+   "mediane": null,
+   "echantillon": 2,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -32022,8 +32029,8 @@
    "vu": 1793646521056
   },
   "3208121965": {
-   "n": 2,
-   "vu": 1793674712067
+   "n": 3,
+   "vu": 1793765747644
   },
   "3208454645": {
    "n": 2,
@@ -32040,8 +32047,8 @@
  },
  "bilan": {
   "depuis": 1793759726946,
-  "passages": 87,
-  "nouvelles": 8,
+  "passages": 102,
+  "nouvelles": 11,
   "marque": 0,
   "etat": 0,
   "prix": 0,
@@ -32051,12 +32058,12 @@
   "imitation": 0,
   "pro": 0,
   "vendeurSpecialise": 0,
-  "sansCote": 4,
+  "sansCote": 6,
   "chere": 1,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
-  "alertes": 2
+  "alertes": 3
  },
  "panne": null,
  "panneDebut": null,
@@ -32907,6 +32914,16 @@
    "date": 1793760868603,
    "statut": "en vente",
    "verifieA": 1793764480849
+  },
+  {
+   "id": 10658273044,
+   "titre": "Cámara canon eos 50D",
+   "prix": 71,
+   "cote": 145,
+   "score": 58,
+   "lien": "https://www.vinted.fr/items/10658273044-camara-canon-eos-50d",
+   "date": 1793766191040,
+   "statut": null
   }
  ],
  "dernierRecap": "2026-11-03"

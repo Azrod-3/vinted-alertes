@@ -1,8 +1,5 @@
 {
  "vues": [
-  "10652112112",
-  "10652112239",
-  "10652108237",
   "10650975169",
   "10652126844",
   "10652125387",
@@ -3999,7 +3996,10 @@
   "10657847950",
   "10657847713",
   "10657849895",
-  "10657860365"
+  "10657860365",
+  "10657907234",
+  "10657942242",
+  "10657959790"
  ],
  "cotes": {
   "Breil": {
@@ -22331,6 +22331,13 @@
   },
   "modele:swiss military hanowa alpine master|2": {
    "date": 1793758934544,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:fossil acero solar|4": {
+   "date": 1793760438084,
    "mediane": null,
    "echantillon": 1,
    "dispersion": null,
@@ -70043,8 +70050,8 @@
    "vu": 1793633350698
   },
   "307394076": {
-   "n": 21,
-   "vu": 1793756318068
+   "n": 22,
+   "vu": 1793760095402
   },
   "307400056": {
    "n": 7,
@@ -92357,9 +92364,9 @@
  },
  "bilan": {
   "depuis": 1793760050644,
-  "passages": 0,
-  "nouvelles": 0,
-  "marque": 0,
+  "passages": 22,
+  "nouvelles": 3,
+  "marque": 1,
   "etat": 0,
   "prix": 0,
   "accessoire": 0,
@@ -92367,8 +92374,8 @@
   "fausse": 0,
   "imitation": 0,
   "pro": 0,
-  "vendeurSpecialise": 0,
-  "sansCote": 0,
+  "vendeurSpecialise": 1,
+  "sansCote": 1,
   "chere": 0,
   "description": 0,
   "scoreFaible": 0,

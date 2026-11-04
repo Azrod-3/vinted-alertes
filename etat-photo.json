@@ -1,40 +1,5 @@
 {
  "vues": [
-  "10642682418",
-  "10642745553",
-  "10642717442",
-  "10642689935",
-  "10642670265",
-  "10642593140",
-  "10642519610",
-  "10642522607",
-  "10642373952",
-  "10642485421",
-  "10642460357",
-  "10642432738",
-  "10642481634",
-  "10642437206",
-  "10642439039",
-  "10642435162",
-  "10642403165",
-  "10642398084",
-  "10642381406",
-  "10642389256",
-  "10642380515",
-  "10642367700",
-  "10642375693",
-  "10642350663",
-  "10642071325",
-  "10642104026",
-  "10642330209",
-  "10642311756",
-  "10642320480",
-  "10642266450",
-  "10642310264",
-  "10641936068",
-  "10642264244",
-  "10642228998",
-  "10642260353",
   "10642213070",
   "10642247481",
   "10642240872",
@@ -3999,7 +3964,42 @@
   "10661787238",
   "10661685737",
   "10661791077",
-  "10661790465"
+  "10661790465",
+  "10661874583",
+  "10661863831",
+  "10661900589",
+  "10661893643",
+  "10661913721",
+  "10661900434",
+  "10661914170",
+  "10661932954",
+  "10661913108",
+  "10661935913",
+  "10661936694",
+  "10661946390",
+  "10661955426",
+  "10661971602",
+  "10659993724",
+  "10661981647",
+  "10661976348",
+  "10661976695",
+  "10661998906",
+  "10661990642",
+  "10661937347",
+  "10661989626",
+  "10661997211",
+  "10661995662",
+  "10662003910",
+  "10662016633",
+  "10662024601",
+  "10662016741",
+  "10662027437",
+  "10649613656",
+  "10662038321",
+  "10662051045",
+  "10662047712",
+  "10662043552",
+  "10662049527"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -4690,11 +4690,34 @@
    "lissee": true
   },
   "marque:leica@3076": {
-   "date": 1793632773870,
-   "mediane": 240,
-   "echantillon": 57,
-   "dispersion": 0.83,
-   "niveau": "marque"
+   "date": 1793796707759,
+   "mediane": 205,
+   "echantillon": 55,
+   "dispersion": 1.05,
+   "fourchette": [
+    50,
+    649
+   ],
+   "exemples": [
+    {
+     "id": 10238548996,
+     "prix": 190
+    },
+    {
+     "id": 10480370805,
+     "prix": 185
+    },
+    {
+     "id": 10498594377,
+     "prix": 199
+    },
+    {
+     "id": 10523335268,
+     "prix": 180
+    }
+   ],
+   "niveau": "marque",
+   "lissee": true
   },
   "modele:minolta 115 riva|2@3076": {
    "date": 1793632774468,
@@ -7783,11 +7806,34 @@
    "niveau": "modèle"
   },
   "modele:canon 1200d camara|2@3075": {
-   "date": 1793644028379,
-   "mediane": 180,
-   "echantillon": 29,
-   "dispersion": 0.25,
-   "niveau": "modèle"
+   "date": 1793796320326,
+   "mediane": 194,
+   "echantillon": 32,
+   "dispersion": 0.35,
+   "fourchette": [
+    99,
+    325
+   ],
+   "exemples": [
+    {
+     "id": 10540872678,
+     "prix": 200
+    },
+    {
+     "id": 10548602154,
+     "prix": 200
+    },
+    {
+     "id": 9820272912,
+     "prix": 200
+    },
+    {
+     "id": 10228213378,
+     "prix": 200
+    }
+   ],
+   "niveau": "modèle",
+   "lissee": true
   },
   "modele:panasonic fs35 lumix|2@3075": {
    "date": 1793644029047,
@@ -16685,10 +16731,28 @@
    "niveau": "modèle"
   },
   "modele:pentax half frame|3@3076": {
-   "date": 1793707915380,
-   "mediane": null,
-   "echantillon": 2,
+   "date": 1793796321697,
+   "mediane": 384,
+   "echantillon": 3,
    "dispersion": null,
+   "fourchette": [
+    380,
+    460
+   ],
+   "exemples": [
+    {
+     "id": 10635901738,
+     "prix": 384
+    },
+    {
+     "id": 10661900434,
+     "prix": 380
+    },
+    {
+     "id": 8091334284,
+     "prix": 460
+    }
+   ],
    "niveau": "modèle"
   },
   "modele:nikon fm3a parfaitement|2@3076": {
@@ -36112,6 +36176,218 @@
    "echantillon": 1,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:pentax p30t af260sa|1@3076": {
+   "date": 1793796254485,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:canon snappy analogica|2@3076": {
+   "date": 1793796255451,
+   "mediane": 30,
+   "echantillon": 9,
+   "dispersion": 0.47,
+   "fourchette": [
+    20,
+    65
+   ],
+   "exemples": [
+    {
+     "id": 10474041274,
+     "prix": 30
+    },
+    {
+     "id": 8173742903,
+     "prix": 30
+    },
+    {
+     "id": 10661893643,
+     "prix": 25
+    },
+    {
+     "id": 7832723900,
+     "prix": 35
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:samsung fotokamera|2@3075": {
+   "date": 1793796449439,
+   "mediane": 40,
+   "echantillon": 4,
+   "dispersion": 0.5,
+   "fourchette": [
+    29,
+    150
+   ],
+   "exemples": [
+    {
+     "id": 10661935913,
+     "prix": 30
+    },
+    {
+     "id": 9146764752,
+     "prix": 50
+    },
+    {
+     "id": 10593728044,
+     "prix": 29
+    },
+    {
+     "id": 5555920052,
+     "prix": 150
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:canon 400d ovbiettivi|2@3075": {
+   "date": 1793796513262,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:zenit helios 44m 4 f 2|1@3076": {
+   "date": 1793796514154,
+   "mediane": 59,
+   "echantillon": 19,
+   "dispersion": 0.34,
+   "fourchette": [
+    35,
+    95
+   ],
+   "exemples": [
+    {
+     "id": 10642350663,
+     "prix": 59
+    },
+    {
+     "id": 8903359112,
+     "prix": 59
+    },
+    {
+     "id": 10069853505,
+     "prix": 60
+    },
+    {
+     "id": 9125275553,
+     "prix": 65
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:kodak fotokamera|2@3075": {
+   "date": 1793796641818,
+   "mediane": 30,
+   "echantillon": 4,
+   "dispersion": 0,
+   "fourchette": [
+    20,
+    45
+   ],
+   "exemples": [
+    {
+     "id": 10661976348,
+     "prix": 30
+    },
+    {
+     "id": 8526471715,
+     "prix": 30
+    },
+    {
+     "id": 8816775131,
+     "prix": 20
+    },
+    {
+     "id": 10647831269,
+     "prix": 45
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:canon piu accessori|2@3076": {
+   "date": 1793796642733,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:panasonic dmc s1 2gb|2@3075": {
+   "date": 1793796706512,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:agfa foto apparat|2@3076": {
+   "date": 1793796708409,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:olympus om20 viseur|2@3076": {
+   "date": 1793796772320,
+   "mediane": null,
+   "echantillon": 0,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:zenit made ussr|1@3076": {
+   "date": 1793796836269,
+   "mediane": 55,
+   "echantillon": 3,
+   "dispersion": null,
+   "fourchette": [
+    50,
+    60
+   ],
+   "exemples": [
+    {
+     "id": 7339897645,
+     "prix": 55
+    },
+    {
+     "id": 10436036937,
+     "prix": 50
+    },
+    {
+     "id": 7778047659,
+     "prix": 60
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:sony dsc w130 cyber|1@3075": {
+   "date": 1793797026797,
+   "mediane": 80,
+   "echantillon": 21,
+   "dispersion": 0.56,
+   "fourchette": [
+    30,
+    155
+   ],
+   "exemples": [
+    {
+     "id": 9653682632,
+     "prix": 80
+    },
+    {
+     "id": 7080749836,
+     "prix": 80
+    },
+    {
+     "id": 7020583842,
+     "prix": 85
+    },
+    {
+     "id": 10524598696,
+     "prix": 73
+    }
+   ],
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -36372,8 +36648,8 @@
    "vu": 1793649279079
   },
   "31330990": {
-   "n": 8,
-   "vu": 1793735175540
+   "n": 9,
+   "vu": 1793796835575
   },
   "31531623": {
    "n": 2,
@@ -36831,6 +37107,10 @@
    "n": 3,
    "vu": 1793713483069
   },
+  "68998601": {
+   "n": 2,
+   "vu": 1793796189102
+  },
   "69414625": {
    "n": 3,
    "vu": 1793640026859
@@ -36882,6 +37162,10 @@
   "73914657": {
    "n": 2,
    "vu": 1793689450416
+  },
+  "74180991": {
+   "n": 2,
+   "vu": 1793796641045
   },
   "74695879": {
    "n": 2,
@@ -37227,6 +37511,10 @@
    "n": 2,
    "vu": 1793645868761
   },
+  "153469074": {
+   "n": 2,
+   "vu": 1793796641045
+  },
   "154217652": {
    "n": 5,
    "vu": 1793738383266
@@ -37430,6 +37718,10 @@
   "212527666": {
    "n": 3,
    "vu": 1793734982357
+  },
+  "213354727": {
+   "n": 2,
+   "vu": 1793796962772
   },
   "215348274": {
    "n": 3,
@@ -38048,8 +38340,8 @@
    "vu": 1793690847692
   },
   "3150767389": {
-   "n": 9,
-   "vu": 1793796057240
+   "n": 10,
+   "vu": 1793796577703
   },
   "3151889957": {
    "n": 2,
@@ -38220,8 +38512,8 @@
    "vu": 1793730778602
   },
   "3182473889": {
-   "n": 3,
-   "vu": 1793796057240
+   "n": 6,
+   "vu": 1793796962772
   },
   "3183759605": {
    "n": 2,
@@ -38533,24 +38825,24 @@
   }
  },
  "bilan": {
-  "depuis": 1793789711049,
-  "passages": 98,
-  "nouvelles": 363,
-  "marque": 52,
-  "etat": 10,
-  "prix": 13,
-  "accessoire": 6,
-  "lot": 7,
+  "depuis": 1793796962773,
+  "passages": 1,
+  "nouvelles": 1,
+  "marque": 0,
+  "etat": 0,
+  "prix": 0,
+  "accessoire": 0,
+  "lot": 0,
   "fausse": 0,
   "imitation": 0,
-  "pro": 10,
-  "vendeurSpecialise": 12,
-  "sansCote": 213,
-  "chere": 123,
-  "description": 1,
+  "pro": 0,
+  "vendeurSpecialise": 0,
+  "sansCote": 0,
+  "chere": 1,
+  "description": 0,
   "scoreFaible": 0,
-  "blocages": 2,
-  "alertes": 16
+  "blocages": 0,
+  "alertes": 0
  },
  "panne": null,
  "panneDebut": null,
@@ -39619,7 +39911,8 @@
    "score": 78,
    "lien": "https://www.vinted.fr/items/10661150453-nikon-d3100-body-inkl-akkus",
    "date": 1793792567517,
-   "statut": null
+   "statut": "en vente",
+   "verifieA": 1793796189628
   },
   {
    "id": 10661159290,
@@ -39629,7 +39922,8 @@
    "score": 65,
    "lien": "https://www.vinted.fr/items/10661159290-nikon-s4150",
    "date": 1793792567718,
-   "statut": null
+   "statut": "en vente",
+   "verifieA": 1793796190420
   },
   {
    "id": 10661175287,
@@ -39639,7 +39933,8 @@
    "score": 61,
    "lien": "https://www.vinted.fr/items/10661175287-macchina-fotografica-nikon-f801s",
    "date": 1793792634339,
-   "statut": null
+   "statut": "retiree",
+   "verifieA": 1793796256185
   },
   {
    "id": 10661343960,
@@ -39709,6 +40004,16 @@
    "score": 49,
    "lien": "https://www.vinted.fr/items/10661825771-camara-canon-eos-50d",
    "date": 1793795928744,
+   "statut": null
+  },
+  {
+   "id": 10661913721,
+   "titre": "Cámara Canon EOS 1200D",
+   "prix": 99,
+   "cote": 194,
+   "score": 63,
+   "lien": "https://www.vinted.fr/items/10661913721-camara-canon-eos-1200d",
+   "date": 1793796321851,
    "statut": null
   }
  ],

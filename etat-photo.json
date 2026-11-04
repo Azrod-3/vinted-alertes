@@ -1,44 +1,5 @@
 {
  "vues": [
-  "10639660169",
-  "10639654845",
-  "10639670076",
-  "10639665762",
-  "10639663471",
-  "10639669380",
-  "10431108984",
-  "10639690098",
-  "10639686552",
-  "10639674497",
-  "10639705011",
-  "10639697568",
-  "10639701729",
-  "10639705419",
-  "10639719252",
-  "10639716687",
-  "10639742698",
-  "10639743266",
-  "10639738367",
-  "10639738168",
-  "10639733795",
-  "10639749924",
-  "10639755651",
-  "10639760869",
-  "10639769954",
-  "10639752954",
-  "10639782195",
-  "10639730473",
-  "10639810786",
-  "10639800816",
-  "10639807951",
-  "10639824148",
-  "10639821447",
-  "10639818535",
-  "10620466974",
-  "10639817839",
-  "10639828907",
-  "10639817160",
-  "10639834118",
   "10639857467",
   "10639853212",
   "10639863098",
@@ -3999,7 +3960,46 @@
   "10659419653",
   "10659415951",
   "10659418861",
-  "10659436570"
+  "10659436570",
+  "10659429403",
+  "10659448308",
+  "10659438990",
+  "10659454420",
+  "10659451307",
+  "10659435938",
+  "10659470528",
+  "10659468100",
+  "10659470124",
+  "10659478591",
+  "10659457667",
+  "10659490528",
+  "10659510657",
+  "10659507807",
+  "10659498031",
+  "10659500794",
+  "10659497033",
+  "10659506589",
+  "10659515903",
+  "10659532801",
+  "10659532149",
+  "10659526315",
+  "10659538420",
+  "10659550008",
+  "10659554077",
+  "10659548865",
+  "10659544135",
+  "10659559528",
+  "10659558376",
+  "10659554869",
+  "10659557830",
+  "10659572524",
+  "10656208130",
+  "10659570906",
+  "10659565170",
+  "10659584708",
+  "10659582235",
+  "10659580506",
+  "10659578084"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -4664,11 +4664,34 @@
    "coteTropBasse": 20
   },
   "modele:kodak instamatic custodia|1@3076": {
-   "date": 1793632776163,
+   "date": 1793783910565,
    "mediane": 15,
-   "echantillon": 25,
-   "dispersion": 1,
-   "niveau": "modèle"
+   "echantillon": 22,
+   "dispersion": 0.69,
+   "fourchette": [
+    4,
+    30
+   ],
+   "exemples": [
+    {
+     "id": 10441061026,
+     "prix": 15
+    },
+    {
+     "id": 10567141196,
+     "prix": 15
+    },
+    {
+     "id": 10058779383,
+     "prix": 15
+    },
+    {
+     "id": 7263861981,
+     "prix": 15
+    }
+   ],
+   "niveau": "modèle",
+   "lissee": true
   },
   "marque:agfa@3076": {
    "date": 1793719975053,
@@ -7887,11 +7910,34 @@
    "niveau": "modèle"
   },
   "modele:nikon l110 coolpix|1@3075": {
-   "date": 1793645213650,
+   "date": 1793783975015,
    "mediane": 60,
-   "echantillon": 59,
+   "echantillon": 61,
    "dispersion": 0.42,
-   "niveau": "modèle"
+   "fourchette": [
+    30,
+    100
+   ],
+   "exemples": [
+    {
+     "id": 10446207616,
+     "prix": 60
+    },
+    {
+     "id": 10370583954,
+     "prix": 60
+    },
+    {
+     "id": 6232617275,
+     "prix": 60
+    },
+    {
+     "id": 7603338859,
+     "prix": 60
+    }
+   ],
+   "niveau": "modèle",
+   "lissee": true
   },
   "modele:canon a95 powershot|1@3075": {
    "date": 1793645341991,
@@ -31839,6 +31885,403 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "modele:praktica b100 electronic|1@3076": {
+   "date": 1793783198603,
+   "mediane": 43,
+   "echantillon": 16,
+   "dispersion": 0.47,
+   "fourchette": [
+    15,
+    80
+   ],
+   "exemples": [
+    {
+     "id": 5553583795,
+     "prix": 45
+    },
+    {
+     "id": 10421365874,
+     "prix": 45
+    },
+    {
+     "id": 9468246824,
+     "prix": 40
+    },
+    {
+     "id": 9584002895,
+     "prix": 50
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:canon 1300d spiegelreflexkamera|2@3075": {
+   "date": 1793783262489,
+   "mediane": 200,
+   "echantillon": 30,
+   "dispersion": 0.46,
+   "fourchette": [
+    105,
+    400
+   ],
+   "exemples": [
+    {
+     "id": 9364055915,
+     "prix": 200
+    },
+    {
+     "id": 10394568278,
+     "prix": 200
+    },
+    {
+     "id": 6234419181,
+     "prix": 200
+    },
+    {
+     "id": 8936334026,
+     "prix": 200
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:lomography fisheye|2@3076": {
+   "date": 1793783264294,
+   "mediane": 28,
+   "echantillon": 62,
+   "dispersion": 0.68,
+   "fourchette": [
+    10,
+    60
+   ],
+   "exemples": [
+    {
+     "id": 10054894654,
+     "prix": 28
+    },
+    {
+     "id": 7862469204,
+     "prix": 28
+    },
+    {
+     "id": 10383638832,
+     "prix": 30
+    },
+    {
+     "id": 10553941084,
+     "prix": 30
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:agfa 535 optima|1@3076": {
+   "date": 1793783264917,
+   "mediane": 45,
+   "echantillon": 17,
+   "dispersion": 0.78,
+   "fourchette": [
+    18,
+    95
+   ],
+   "exemples": [
+    {
+     "id": 10080297333,
+     "prix": 45
+    },
+    {
+     "id": 8978920432,
+     "prix": 45
+    },
+    {
+     "id": 10086597916,
+     "prix": 43
+    },
+    {
+     "id": 9659476014,
+     "prix": 40
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:samsung d860|2@3075": {
+   "date": 1793783329049,
+   "mediane": 45,
+   "echantillon": 7,
+   "dispersion": 0.22,
+   "fourchette": [
+    29.5,
+    60
+   ],
+   "exemples": [
+    {
+     "id": 9006180752,
+     "prix": 45
+    },
+    {
+     "id": 7596549868,
+     "prix": 45
+    },
+    {
+     "id": 10659468100,
+     "prix": 50
+    },
+    {
+     "id": 10408128794,
+     "prix": 40
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:nikon 401|2@3076": {
+   "date": 1793783330065,
+   "mediane": 63,
+   "echantillon": 40,
+   "dispersion": 0.96,
+   "fourchette": [
+    20,
+    185
+   ],
+   "exemples": [
+    {
+     "id": 10244361185,
+     "prix": 65
+    },
+    {
+     "id": 9441899497,
+     "prix": 65
+    },
+    {
+     "id": 10514790847,
+     "prix": 60
+    },
+    {
+     "id": 9099065275,
+     "prix": 60
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:fujifilm 2600 finepix|2@3075": {
+   "date": 1793783393809,
+   "mediane": 40,
+   "echantillon": 8,
+   "dispersion": 0.28,
+   "fourchette": [
+    20,
+    50
+   ],
+   "exemples": [
+    {
+     "id": 10659457667,
+     "prix": 40
+    },
+    {
+     "id": 5834307693,
+     "prix": 39.99
+    },
+    {
+     "id": 10626018625,
+     "prix": 45
+    },
+    {
+     "id": 7600341668,
+     "prix": 33.9
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:nikon 4300 camara|2@3075": {
+   "date": 1793783584786,
+   "mediane": 30,
+   "echantillon": 5,
+   "dispersion": 0.63,
+   "fourchette": [
+    8,
+    50
+   ],
+   "exemples": [
+    {
+     "id": 10422602399,
+     "prix": 30
+    },
+    {
+     "id": 7680357031,
+     "prix": 25
+    },
+    {
+     "id": 6324033130,
+     "prix": 44
+    },
+    {
+     "id": 10659507807,
+     "prix": 50
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:samsung es65 y2k|2@3075": {
+   "date": 1793783649940,
+   "mediane": null,
+   "echantillon": 2,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:minolta 75w riva|2@3076": {
+   "date": 1793783650594,
+   "mediane": 82,
+   "echantillon": 4,
+   "dispersion": 0.07,
+   "fourchette": [
+    74.95,
+    100
+   ],
+   "exemples": [
+    {
+     "id": 10367924465,
+     "prix": 85
+    },
+    {
+     "id": 10534240137,
+     "prix": 79
+    },
+    {
+     "id": 10632712564,
+     "prix": 74.95
+    },
+    {
+     "id": 10659515903,
+     "prix": 100
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:yashica fr1 f1|2@3076": {
+   "date": 1793783714419,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:nikon pronea|1@3076": {
+   "date": 1793783715291,
+   "mediane": 25,
+   "echantillon": 24,
+   "dispersion": 0.6,
+   "fourchette": [
+    10,
+    50
+   ],
+   "exemples": [
+    {
+     "id": 10659526315,
+     "prix": 25
+    },
+    {
+     "id": 9294954846,
+     "prix": 25
+    },
+    {
+     "id": 8328999436,
+     "prix": 25
+    },
+    {
+     "id": 7610603978,
+     "prix": 25
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:minolta x 500 35 mm spiegelreflexkamera|1@3076": {
+   "date": 1793783842798,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:nikon obiettivo flash|1@3076": {
+   "date": 1793783843785,
+   "mediane": 220,
+   "echantillon": 5,
+   "dispersion": 0.41,
+   "fourchette": [
+    100,
+    250
+   ],
+   "exemples": [
+    {
+     "id": 10659544135,
+     "prix": 219.99
+    },
+    {
+     "id": 10617068996,
+     "prix": 230
+    },
+    {
+     "id": 10425414832,
+     "prix": 250
+    },
+    {
+     "id": 9936263856,
+     "prix": 140
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:fujifilm a800 finepix|2@3075": {
+   "date": 1793783907732,
+   "mediane": 68,
+   "echantillon": 4,
+   "dispersion": 0.22,
+   "fourchette": [
+    55,
+    85
+   ],
+   "exemples": [
+    {
+     "id": 8659836382,
+     "prix": 75
+    },
+    {
+     "id": 10610277079,
+     "prix": 60
+    },
+    {
+     "id": 10659559528,
+     "prix": 55
+    },
+    {
+     "id": 9067438387,
+     "prix": 85
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:kodak cx7220 camara|2@3075": {
+   "date": 1793783909673,
+   "mediane": null,
+   "echantillon": 2,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:nikon colloid|2@3075": {
+   "date": 1793783975536,
+   "mediane": null,
+   "echantillon": 2,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:canon s30 ccd|1@3075": {
+   "date": 1793783976428,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:pentax wg 1 etanche|2@3075": {
+   "date": 1793784040316,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -32082,6 +32525,10 @@
    "n": 3,
    "vu": 1793660426046
   },
+  "32306087": {
+   "n": 2,
+   "vu": 1793783393307
+  },
   "32306703": {
    "n": 2,
    "vu": 1793707001383
@@ -32209,6 +32656,10 @@
   "42355169": {
    "n": 24,
    "vu": 1793716629910
+  },
+  "42744996": {
+   "n": 2,
+   "vu": 1793783842254
   },
   "42951497": {
    "n": 2,
@@ -32543,8 +32994,8 @@
    "vu": 1793740855681
   },
   "76374515": {
-   "n": 2,
-   "vu": 1793708305305
+   "n": 3,
+   "vu": 1793783198023
   },
   "76890763": {
    "n": 2,
@@ -32643,8 +33094,8 @@
    "vu": 1793730778600
   },
   "102707953": {
-   "n": 4,
-   "vu": 1793715916637
+   "n": 5,
+   "vu": 1793784039694
   },
   "102986824": {
    "n": 2,
@@ -32735,8 +33186,8 @@
    "vu": 1793648821265
   },
   "126569810": {
-   "n": 3,
-   "vu": 1793783000079
+   "n": 5,
+   "vu": 1793783713707
   },
   "126690167": {
    "n": 4,
@@ -32751,8 +33202,8 @@
    "vu": 1793705164193
   },
   "128623572": {
-   "n": 3,
-   "vu": 1793782925472
+   "n": 4,
+   "vu": 1793783649147
   },
   "129811332": {
    "n": 4,
@@ -34005,23 +34456,23 @@
  },
  "bilan": {
   "depuis": 1793781513356,
-  "passages": 25,
-  "nouvelles": 69,
-  "marque": 12,
+  "passages": 39,
+  "nouvelles": 108,
+  "marque": 16,
   "etat": 2,
   "prix": 2,
   "accessoire": 0,
   "lot": 1,
   "fausse": 0,
   "imitation": 0,
-  "pro": 0,
+  "pro": 1,
   "vendeurSpecialise": 3,
-  "sansCote": 30,
-  "chere": 18,
+  "sansCote": 47,
+  "chere": 34,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
-  "alertes": 1
+  "alertes": 2
  },
  "panne": null,
  "panneDebut": null,
@@ -34914,7 +35365,8 @@
    "score": 24,
    "lien": "https://www.vinted.fr/items/10659029157-rollei-mini-digital-cam",
    "date": 1793779779071,
-   "statut": null
+   "statut": "en vente",
+   "verifieA": 1793783394578
   },
   {
    "id": 10659060388,
@@ -34924,7 +35376,8 @@
    "score": 72,
    "lien": "https://www.vinted.fr/items/10659060388-olympus-umju-zoom-115-vintage-analog-camera",
    "date": 1793780097885,
-   "statut": null
+   "statut": "en vente",
+   "verifieA": 1793783715882
   },
   {
    "id": 10659224185,
@@ -34944,6 +35397,16 @@
    "score": 18,
    "lien": "https://www.vinted.fr/items/10659279059-appareil-photo-argentique-mamiya-ze-x-objectif",
    "date": 1793781898914,
+   "statut": null
+  },
+  {
+   "id": 10659438990,
+   "titre": "Spiegelreflexkamera EOS 1300D Canon",
+   "prix": 113,
+   "cote": 200,
+   "score": 57,
+   "lien": "https://www.vinted.fr/items/10659438990-spiegelreflexkamera-eos-1300d-canon",
+   "date": 1793783265099,
    "statut": null
   }
  ],

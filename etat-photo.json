@@ -1,8 +1,5 @@
 {
  "vues": [
-  "10638482995",
-  "10638483377",
-  "10638481790",
   "10638514606",
   "10638466963",
   "10638022862",
@@ -3999,7 +3996,10 @@
   "10657442186",
   "10657445183",
   "10657451946",
-  "10657479808"
+  "10657479808",
+  "10657519840",
+  "10657548609",
+  "10657550245"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -29829,6 +29829,13 @@
    "echantillon": 2,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:yashica t4 analoge|2@3076": {
+   "date": 1793755540809,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -30327,6 +30334,10 @@
   "55617912": {
    "n": 2,
    "vu": 1793734853009
+  },
+  "55859029": {
+   "n": 2,
+   "vu": 1793755604732
   },
   "56020174": {
    "n": 2,
@@ -31915,9 +31926,9 @@
  },
  "bilan": {
   "depuis": 1793752497745,
-  "passages": 36,
-  "nouvelles": 30,
-  "marque": 1,
+  "passages": 51,
+  "nouvelles": 33,
+  "marque": 3,
   "etat": 0,
   "prix": 1,
   "accessoire": 1,
@@ -31927,7 +31938,7 @@
   "pro": 17,
   "vendeurSpecialise": 0,
   "sansCote": 8,
-  "chere": 2,
+  "chere": 3,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
@@ -32758,7 +32769,8 @@
    "score": 51,
    "lien": "https://www.vinted.fr/items/10657230588-samsung-nx1000",
    "date": 1793751926557,
-   "statut": null
+   "statut": "en vente",
+   "verifieA": 1793755541503
   }
  ],
  "dernierRecap": "2026-11-03"

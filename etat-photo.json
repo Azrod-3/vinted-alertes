@@ -1,17 +1,5 @@
 {
  "vues": [
-  "10638863308",
-  "10638862912",
-  "10638854237",
-  "10638849634",
-  "10638856981",
-  "10638853254",
-  "10638851418",
-  "10638846229",
-  "10635724700",
-  "10635852867",
-  "10638883185",
-  "10638881378",
   "10638877190",
   "10638875253",
   "10638874445",
@@ -3999,7 +3987,19 @@
   "10658609589",
   "10658621445",
   "10653766973",
-  "10658623232"
+  "10658623232",
+  "10658634716",
+  "10658642344",
+  "10658662301",
+  "10658672198",
+  "10658679663",
+  "10658679573",
+  "10658503463",
+  "10658678754",
+  "10658507701",
+  "10658684406",
+  "10658684184",
+  "10658688066"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -30227,6 +30227,56 @@
    "echantillon": 1,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:zenit helios 44 2 f 2|2@3076": {
+   "date": 1793775369459,
+   "mediane": 90,
+   "echantillon": 9,
+   "dispersion": 0.33,
+   "fourchette": [
+    59.99,
+    120
+   ],
+   "exemples": [
+    {
+     "id": 10658672198,
+     "prix": 90
+    },
+    {
+     "id": 10540377903,
+     "prix": 90
+    },
+    {
+     "id": 10329585011,
+     "prix": 90
+    },
+    {
+     "id": 9296787681,
+     "prix": 90
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:canon a480 bellissima|2@3075": {
+   "date": 1793775496575,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:canon 1100d anfangerkamera|2@3075": {
+   "date": 1793775497451,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:pentax penta|2@3076": {
+   "date": 1793775561626,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -31487,8 +31537,8 @@
    "vu": 1793736303203
   },
   "252181794": {
-   "n": 6,
-   "vu": 1793739427638
+   "n": 7,
+   "vu": 1793775242217
   },
   "252195102": {
    "n": 3,
@@ -32327,15 +32377,15 @@
    "vu": 1793744486827
   },
   "3208672660": {
-   "n": 2,
-   "vu": 1793738958924
+   "n": 4,
+   "vu": 1793775496018
   }
  },
  "bilan": {
   "depuis": 1793774289840,
-  "passages": 6,
-  "nouvelles": 3,
-  "marque": 0,
+  "passages": 21,
+  "nouvelles": 15,
+  "marque": 1,
   "etat": 0,
   "prix": 1,
   "accessoire": 0,
@@ -32343,9 +32393,9 @@
   "fausse": 0,
   "imitation": 0,
   "pro": 0,
-  "vendeurSpecialise": 0,
-  "sansCote": 1,
-  "chere": 1,
+  "vendeurSpecialise": 1,
+  "sansCote": 10,
+  "chere": 2,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,

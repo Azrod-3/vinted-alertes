@@ -1,17 +1,5 @@
 {
  "vues": [
-  "10638947128",
-  "10638950594",
-  "10638943925",
-  "10638943487",
-  "10638961131",
-  "10638954076",
-  "10638970409",
-  "10638969334",
-  "10638958737",
-  "10638984876",
-  "10638997607",
-  "10638990317",
   "10638984460",
   "10639007461",
   "10639003131",
@@ -3999,7 +3987,19 @@
   "10658735255",
   "10658739355",
   "10658739043",
-  "10658747769"
+  "10658747769",
+  "10658754020",
+  "10658769403",
+  "10658764435",
+  "10658768632",
+  "10658777254",
+  "10658788645",
+  "10658792039",
+  "10658795706",
+  "10658799964",
+  "10658805872",
+  "10658812434",
+  "10658808150"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -4759,11 +4759,34 @@
    "niveau": "modèle"
   },
   "modele:olympus om10|2@3076": {
-   "date": 1793632787900,
+   "date": 1793777347403,
    "mediane": 100,
-   "echantillon": 77,
-   "dispersion": 0.55,
-   "niveau": "modèle"
+   "echantillon": 78,
+   "dispersion": 0.5,
+   "fourchette": [
+    30,
+    200
+   ],
+   "exemples": [
+    {
+     "id": 10519710468,
+     "prix": 100
+    },
+    {
+     "id": 9727884964,
+     "prix": 100
+    },
+    {
+     "id": 10444636328,
+     "prix": 100
+    },
+    {
+     "id": 10092950958,
+     "prix": 100
+    }
+   ],
+   "niveau": "modèle",
+   "lissee": true
   },
   "modele:minolta af5 riva|2@3076": {
    "date": 1793632788614,
@@ -30388,6 +30411,45 @@
    "echantillon": 1,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:sony gps della|2@3075": {
+   "date": 1793776838932,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:minolta x 700 analoge|2@3076": {
+   "date": 1793777219525,
+   "mediane": 95,
+   "echantillon": 3,
+   "dispersion": null,
+   "fourchette": [
+    75,
+    110
+   ],
+   "exemples": [
+    {
+     "id": 9920064981,
+     "prix": 95
+    },
+    {
+     "id": 10296729842,
+     "prix": 110
+    },
+    {
+     "id": 10658795706,
+     "prix": 75
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:kodak 300 kodac|2@3076": {
+   "date": 1793777283446,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -32494,19 +32556,19 @@
  },
  "bilan": {
   "depuis": 1793774289840,
-  "passages": 36,
-  "nouvelles": 32,
-  "marque": 2,
+  "passages": 51,
+  "nouvelles": 44,
+  "marque": 3,
   "etat": 1,
-  "prix": 2,
+  "prix": 3,
   "accessoire": 0,
   "lot": 0,
   "fausse": 0,
   "imitation": 0,
-  "pro": 1,
+  "pro": 2,
   "vendeurSpecialise": 1,
-  "sansCote": 19,
-  "chere": 5,
+  "sansCote": 26,
+  "chere": 7,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,

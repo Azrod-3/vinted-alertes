@@ -1,6 +1,5 @@
 {
  "vues": [
-  "10638559977",
   "10638564681",
   "10638591489",
   "10638586796",
@@ -3999,7 +3998,8 @@
   "10657702710",
   "10657836969",
   "10657858290",
-  "10657897561"
+  "10657897561",
+  "10657972067"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -29912,6 +29912,35 @@
    "echantillon": 1,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:canon 132 ixus|2@3075": {
+   "date": 1793760867788,
+   "mediane": 148,
+   "echantillon": 24,
+   "dispersion": 0.34,
+   "fourchette": [
+    75,
+    250
+   ],
+   "exemples": [
+    {
+     "id": 10462594744,
+     "prix": 150
+    },
+    {
+     "id": 9792837411,
+     "prix": 150
+    },
+    {
+     "id": 8140167822,
+     "prix": 150
+    },
+    {
+     "id": 10607637989,
+     "prix": 145
+    }
+   ],
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -32006,8 +32035,8 @@
  },
  "bilan": {
   "depuis": 1793759726946,
-  "passages": 12,
-  "nouvelles": 1,
+  "passages": 27,
+  "nouvelles": 2,
   "marque": 0,
   "etat": 0,
   "prix": 0,
@@ -32022,7 +32051,7 @@
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
-  "alertes": 1
+  "alertes": 2
  },
  "panne": null,
  "panneDebut": null,
@@ -32860,6 +32889,16 @@
    "score": 20,
    "lien": "https://www.vinted.fr/items/10657897561-camara-reflex-mamiya-ze-2-en",
    "date": 1793759854680,
+   "statut": null
+  },
+  {
+   "id": 10657972067,
+   "titre": "Canon ixus 132",
+   "prix": 80,
+   "cote": 148,
+   "score": 58,
+   "lien": "https://www.vinted.fr/items/10657972067-canon-ixus-132",
+   "date": 1793760868603,
    "statut": null
   }
  ],

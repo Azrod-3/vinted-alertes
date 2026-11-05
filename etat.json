@@ -1,46 +1,5 @@
 {
  "vues": [
-  "10665709044",
-  "10665709240",
-  "10661925346",
-  "10665729062",
-  "10665728639",
-  "10665728265",
-  "10665726729",
-  "10665726681",
-  "10665724598",
-  "10665723475",
-  "10665722829",
-  "10665722776",
-  "10665721885",
-  "10665720855",
-  "10665719620",
-  "10665738025",
-  "10665737688",
-  "10665736517",
-  "10665735039",
-  "10665733514",
-  "10665732025",
-  "10665731696",
-  "10665731550",
-  "10665730290",
-  "10665698773",
-  "10665751810",
-  "10665746831",
-  "10665746460",
-  "10665763245",
-  "10665763272",
-  "10647350360",
-  "10665757806",
-  "10665755709",
-  "10665755548",
-  "10657708191",
-  "10665754938",
-  "10665753636",
-  "10665753374",
-  "10665768914",
-  "10665768202",
-  "10665766818",
   "10665765862",
   "10665765461",
   "10665765356",
@@ -3999,7 +3958,48 @@
   "10670417654",
   "10670416989",
   "10670421227",
-  "10670420135"
+  "10670420135",
+  "10670426437",
+  "10670425701",
+  "10670423896",
+  "10670431992",
+  "10670430158",
+  "10670437066",
+  "10670436195",
+  "10670435835",
+  "10670441102",
+  "10670440532",
+  "10670437265",
+  "10670445522",
+  "10670441944",
+  "10670450045",
+  "10670452926",
+  "10670452221",
+  "10670456623",
+  "10670456566",
+  "10670455333",
+  "10670460541",
+  "10670469381",
+  "10670467064",
+  "10664689849",
+  "10670471518",
+  "10670470614",
+  "10670477817",
+  "10670477354",
+  "10670481915",
+  "10670480982",
+  "10670479366",
+  "10670485861",
+  "10670392048",
+  "10670483342",
+  "10670487950",
+  "10670490850",
+  "10670497385",
+  "10670495680",
+  "10670495526",
+  "10670498505",
+  "10670508298",
+  "10670507134"
  ],
  "cotes": {
   "marque:fossil": {
@@ -4963,9 +4963,9 @@
    "lissee": true
   },
   "marque:bering": {
-   "date": 1793738957338,
+   "date": 1793836682220,
    "mediane": 120,
-   "echantillon": 81,
+   "echantillon": 78,
    "dispersion": 0.33,
    "fourchette": [
     33,
@@ -4977,7 +4977,7 @@
      "prix": 120
     },
     {
-     "id": 10468292184,
+     "id": 10525094361,
      "prix": 120
     },
     {
@@ -4985,7 +4985,7 @@
      "prix": 120
     },
     {
-     "id": 10618582365,
+     "id": 8626009827,
      "prix": 120
     }
    ],
@@ -6288,64 +6288,6 @@
    "niveau": "modèle",
    "lissee": true
   },
-  "modele:fossil automatique squelette|2": {
-   "date": 1793664036827,
-   "mediane": 102,
-   "echantillon": 30,
-   "dispersion": 0.29,
-   "fourchette": [
-    35,
-    170
-   ],
-   "exemples": [
-    {
-     "id": 10278580658,
-     "prix": 105
-    },
-    {
-     "id": 10137292778,
-     "prix": 105
-    },
-    {
-     "id": 9942391476,
-     "prix": 105
-    },
-    {
-     "id": 6648718896,
-     "prix": 99
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:fossil uomo|4": {
-   "date": 1793664037709,
-   "mediane": 53,
-   "echantillon": 10,
-   "dispersion": 0.57,
-   "fourchette": [
-    25,
-    90
-   ],
-   "exemples": [
-    {
-     "id": 10643664038,
-     "prix": 50
-    },
-    {
-     "id": 10569999506,
-     "prix": 50
-    },
-    {
-     "id": 10549729886,
-     "prix": 56
-    },
-    {
-     "id": 10636781756,
-     "prix": 59
-    }
-   ],
-   "niveau": "modèle"
-  },
   "marque:gevril": {
    "date": 1793792504420,
    "mediane": 785,
@@ -6376,200 +6318,11 @@
    "niveau": "marque",
    "lissee": true
   },
-  "modele:festina uomo chrono|2": {
-   "date": 1793664039102,
-   "mediane": 130,
-   "echantillon": 15,
-   "dispersion": 0.54,
-   "fourchette": [
-    40,
-    250
-   ],
-   "exemples": [
-    {
-     "id": 10283354632,
-     "prix": 130
-    },
-    {
-     "id": 8461855168,
-     "prix": 130
-    },
-    {
-     "id": 10643636587,
-     "prix": 120
-    },
-    {
-     "id": 6214654454,
-     "prix": 120
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:breil v201 depthmeter|1": {
-   "date": 1793664039558,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:fossil jr1354 polso|4": {
-   "date": 1793664040159,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:pierre lannier automatique comme|3": {
-   "date": 1793664040810,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
   "marque:accurist": {
    "date": 1793807640668,
    "mediane": null,
    "echantillon": 72,
    "coteTropBasse": 35
-  },
-  "modele:accurist men chronograph|1": {
-   "date": 1793664042263,
-   "mediane": 50,
-   "echantillon": 3,
-   "dispersion": null,
-   "fourchette": [
-    45,
-    150
-   ],
-   "exemples": [
-    {
-     "id": 6208489673,
-     "prix": 50
-    },
-    {
-     "id": 10643527313,
-     "prix": 45
-    },
-    {
-     "id": 9446067693,
-     "prix": 150
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:junghans damenfunkarmbanduhr zweifarbig|2": {
-   "date": 1793664042849,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:lorenz cronografo subacqueo|1": {
-   "date": 1793664044477,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:invicta grand driver|2": {
-   "date": 1793664044919,
-   "mediane": null,
-   "echantillon": 2,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:citizen promaster|3": {
-   "date": 1793664045849,
-   "mediane": 180,
-   "echantillon": 66,
-   "dispersion": 0.35,
-   "fourchette": [
-    80,
-    310
-   ],
-   "exemples": [
-    {
-     "id": 10619247865,
-     "prix": 180
-    },
-    {
-     "id": 10619634031,
-     "prix": 180
-    },
-    {
-     "id": 10621011643,
-     "prix": 180
-    },
-    {
-     "id": 10626181747,
-     "prix": 180
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:fossil privateer mechanical|3": {
-   "date": 1793664046307,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:fossil fs5711 chronograph|2": {
-   "date": 1793664046923,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:fossil bq2459|2": {
-   "date": 1793664047533,
-   "mediane": null,
-   "echantillon": 2,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:timex mp3 player tmx|2": {
-   "date": 1793664048097,
-   "mediane": null,
-   "echantillon": 0,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:longines l1 505 4 conquest|1": {
-   "date": 1793664049363,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:breil polso|4": {
-   "date": 1793664050787,
-   "mediane": 35,
-   "echantillon": 11,
-   "dispersion": 0.49,
-   "fourchette": [
-    20,
-    59
-   ],
-   "exemples": [
-    {
-     "id": 10120284407,
-     "prix": 35
-    },
-    {
-     "id": 10172438343,
-     "prix": 35
-    },
-    {
-     "id": 10204128803,
-     "prix": 40
-    },
-    {
-     "id": 9905771042,
-     "prix": 30
-    }
-   ],
-   "niveau": "modèle"
   },
   "modele:hamilton khaki navy|2": {
    "date": 1793827915621,
@@ -6600,77 +6353,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:orient sun moon|1": {
-   "date": 1793664051987,
-   "mediane": 300,
-   "echantillon": 3,
-   "dispersion": null,
-   "fourchette": [
-    180,
-    365
-   ],
-   "exemples": [
-    {
-     "id": 9238684641,
-     "prix": 300
-    },
-    {
-     "id": 10318597928,
-     "prix": 365
-    },
-    {
-     "id": 10251814401,
-     "prix": 180
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:pulsar solar titanium|1": {
-   "date": 1793664053205,
-   "mediane": 140,
-   "echantillon": 3,
-   "dispersion": null,
-   "fourchette": [
-    59.9,
-    300
-   ],
-   "exemples": [
-    {
-     "id": 1222107117,
-     "prix": 140
-    },
-    {
-     "id": 10643247983,
-     "prix": 59.9
-    },
-    {
-     "id": 8709894017,
-     "prix": 300
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:fossil uomo bicolore|4": {
-   "date": 1793664054532,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:daniel wellington bristol oro|2": {
-   "date": 1793664055070,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:lorus laurens|2": {
-   "date": 1793664055596,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
   },
   "modele:fossil relogio|1": {
    "date": 1793665318803,
@@ -30662,6 +30344,35 @@
    "echantillon": 1,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:bering solar|1": {
+   "date": 1793836682960,
+   "mediane": 83,
+   "echantillon": 24,
+   "dispersion": 0.3,
+   "fourchette": [
+    25,
+    150
+   ],
+   "exemples": [
+    {
+     "id": 8245990201,
+     "prix": 85
+    },
+    {
+     "id": 7340896050,
+     "prix": 85
+    },
+    {
+     "id": 9613824851,
+     "prix": 80
+    },
+    {
+     "id": 10591929349,
+     "prix": 79
+    }
+   ],
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -32602,8 +32313,8 @@
    "vu": 1793633350698
   },
   "17834967": {
-   "n": 116,
-   "vu": 1793633350698
+   "n": 117,
+   "vu": 1793836072819
   },
   "17870878": {
    "n": 16,
@@ -32616,6 +32327,10 @@
   "17891483": {
    "n": 7,
    "vu": 1793633350698
+  },
+  "17902419": {
+   "n": 10,
+   "vu": 1793836638236
   },
   "17925148": {
    "n": 12,
@@ -42142,8 +41857,8 @@
    "vu": 1793633350698
   },
   "52080310": {
-   "n": 5,
-   "vu": 1793813877898
+   "n": 7,
+   "vu": 1793836813290
   },
   "52093280": {
    "n": 3,
@@ -56454,8 +56169,8 @@
    "vu": 1793633350698
   },
   "127864127": {
-   "n": 3,
-   "vu": 1793832924100
+   "n": 4,
+   "vu": 1793837042833
   },
   "127869706": {
    "n": 6,
@@ -60434,8 +60149,8 @@
    "vu": 1793790574250
   },
   "159409006": {
-   "n": 10,
-   "vu": 1793828109181
+   "n": 11,
+   "vu": 1793836159296
   },
   "159431273": {
    "n": 19,
@@ -63414,8 +63129,8 @@
    "vu": 1793633350698
   },
   "181479563": {
-   "n": 29,
-   "vu": 1793633350698
+   "n": 30,
+   "vu": 1793836507773
   },
   "181506138": {
    "n": 7,
@@ -75542,8 +75257,8 @@
    "vu": 1793816086177
   },
   "271232015": {
-   "n": 5,
-   "vu": 1793813275896
+   "n": 6,
+   "vu": 1793836377536
   },
   "271273196": {
    "n": 12,
@@ -77038,8 +76753,8 @@
    "vu": 1793827704934
   },
   "281194641": {
-   "n": 51,
-   "vu": 1793834907498
+   "n": 52,
+   "vu": 1793836377536
   },
   "281303522": {
    "n": 7,
@@ -78410,8 +78125,8 @@
    "vu": 1793698958054
   },
   "289019385": {
-   "n": 126,
-   "vu": 1793836027427
+   "n": 128,
+   "vu": 1793836290737
   },
   "289045618": {
    "n": 15,
@@ -81510,8 +81225,8 @@
    "vu": 1793633350698
   },
   "313130315": {
-   "n": 134,
-   "vu": 1793828065015
+   "n": 135,
+   "vu": 1793836638237
   },
   "313154314": {
    "n": 7,
@@ -94394,8 +94109,8 @@
    "vu": 1793724895092
   },
   "3175399616": {
-   "n": 168,
-   "vu": 1793727124049
+   "n": 171,
+   "vu": 1793836681400
   },
   "3175401326": {
    "n": 7,
@@ -103337,6 +103052,10 @@
    "n": 4,
    "vu": 1793828952723
   },
+  "3207614959": {
+   "n": 2,
+   "vu": 1793836726320
+  },
   "3207629692": {
    "n": 7,
    "vu": 1793806782196
@@ -103692,19 +103411,19 @@
  },
  "bilan": {
   "depuis": 1793834950898,
-  "passages": 19,
-  "nouvelles": 60,
-  "marque": 45,
+  "passages": 40,
+  "nouvelles": 101,
+  "marque": 78,
   "etat": 2,
-  "prix": 1,
+  "prix": 2,
   "accessoire": 0,
   "lot": 0,
-  "fausse": 0,
+  "fausse": 1,
   "imitation": 0,
   "pro": 0,
-  "vendeurSpecialise": 3,
+  "vendeurSpecialise": 8,
   "sansCote": 0,
-  "chere": 7,
+  "chere": 8,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
@@ -106966,7 +106685,8 @@
    "score": 51,
    "lien": "https://www.vinted.fr/items/10670119033-hamilton-khaki-field-king-automatic-solo-orologio",
    "date": 1793833100795,
-   "statut": null
+   "statut": "retiree",
+   "verifieA": 1793836726493
   },
   {
    "id": 10670154319,
@@ -106976,7 +106696,8 @@
    "score": 82,
    "lien": "https://www.vinted.fr/items/10670154319-relogio-tissot-seastar",
    "date": 1793833408258,
-   "statut": null
+   "statut": "en vente",
+   "verifieA": 1793837043624
   },
   {
    "id": 10670191330,

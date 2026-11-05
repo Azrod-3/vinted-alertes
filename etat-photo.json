@@ -1,11 +1,5 @@
 {
  "vues": [
-  "10652467458",
-  "10652466756",
-  "10652484898",
-  "10652456708",
-  "10652357440",
-  "10652463198",
   "10652212629",
   "10652420752",
   "10652412690",
@@ -3999,7 +3993,13 @@
   "10670734108",
   "10603317554",
   "10668369985",
-  "10670754578"
+  "10670754578",
+  "10670763961",
+  "10670789686",
+  "10670803045",
+  "10670798624",
+  "10670841138",
+  "10670840360"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -6314,13 +6314,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:canon 240hs ixus|1@3075": {
-   "date": 1793667395487,
-   "mediane": null,
-   "echantillon": 2,
-   "dispersion": null,
-   "niveau": "modèle"
   },
   "modele:fujifilm f601 finepix|2@3075": {
    "date": 1793669050860,
@@ -42263,6 +42256,20 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "modele:fujifilm xe3|2@3075": {
+   "date": 1793840295351,
+   "mediane": null,
+   "echantillon": 2,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:panasonic numero|2@3075": {
+   "date": 1793840738823,
+   "mediane": null,
+   "echantillon": 2,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -44111,8 +44118,8 @@
    "vu": 1793837247732
   },
   "247906150": {
-   "n": 3,
-   "vu": 1793750782975
+   "n": 4,
+   "vu": 1793840294731
   },
   "248610938": {
    "n": 3,
@@ -45437,18 +45444,18 @@
  },
  "bilan": {
   "depuis": 1793838200812,
-  "passages": 25,
-  "nouvelles": 11,
+  "passages": 40,
+  "nouvelles": 17,
   "marque": 0,
   "etat": 0,
-  "prix": 2,
+  "prix": 4,
   "accessoire": 0,
   "lot": 0,
   "fausse": 0,
   "imitation": 0,
   "pro": 0,
   "vendeurSpecialise": 0,
-  "sansCote": 6,
+  "sansCote": 10,
   "chere": 3,
   "description": 0,
   "scoreFaible": 0,

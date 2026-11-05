@@ -1,7 +1,5 @@
 {
  "vues": [
-  "10652337348",
-  "10652335204",
   "10652254809",
   "10641795648",
   "10652319892",
@@ -3999,7 +3997,9 @@
   "10671568833",
   "10671575714",
   "10671575672",
-  "10671624271"
+  "10671624271",
+  "10671652672",
+  "10671669271"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -42205,6 +42205,35 @@
    "echantillon": 1,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:nikon battery charger|2@3075": {
+   "date": 1793852661396,
+   "mediane": 46,
+   "echantillon": 4,
+   "dispersion": 0.7,
+   "fourchette": [
+    14,
+    100
+   ],
+   "exemples": [
+    {
+     "id": 10671669271,
+     "prix": 30
+    },
+    {
+     "id": 10193016544,
+     "prix": 62
+    },
+    {
+     "id": 10471002699,
+     "prix": 14
+    },
+    {
+     "id": 9984078501,
+     "prix": 100
+    }
+   ],
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -45386,10 +45415,10 @@
   }
  },
  "bilan": {
-  "depuis": 1793845434940,
-  "passages": 106,
-  "nouvelles": 8,
-  "marque": 2,
+  "depuis": 1793852662219,
+  "passages": 7,
+  "nouvelles": 0,
+  "marque": 0,
   "etat": 0,
   "prix": 0,
   "accessoire": 0,
@@ -45398,8 +45427,8 @@
   "imitation": 0,
   "pro": 0,
   "vendeurSpecialise": 0,
-  "sansCote": 5,
-  "chere": 1,
+  "sansCote": 0,
+  "chere": 0,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,

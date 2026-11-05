@@ -1,37 +1,5 @@
 {
  "vues": [
-  "10653870096",
-  "10653869169",
-  "10653879053",
-  "10653881132",
-  "10653868533",
-  "10653900186",
-  "10653897135",
-  "10653883313",
-  "10653921922",
-  "10653914648",
-  "10653913129",
-  "10653907551",
-  "10653918759",
-  "10653923347",
-  "10653867277",
-  "10653936080",
-  "10653935024",
-  "10653927059",
-  "10653953802",
-  "10653946933",
-  "10653972018",
-  "10653969721",
-  "10653963737",
-  "10653967297",
-  "10653984932",
-  "10653984478",
-  "10653980810",
-  "10653979741",
-  "10653996685",
-  "10653994906",
-  "10653994184",
-  "10653991655",
   "10653990476",
   "10653990090",
   "10653989630",
@@ -3999,7 +3967,39 @@
   "10672930438",
   "10672934244",
   "10672944651",
-  "10672941829"
+  "10672941829",
+  "10672974063",
+  "10672970508",
+  "10672988143",
+  "10672983931",
+  "10672981363",
+  "10672991124",
+  "10673008593",
+  "10673006792",
+  "10673008584",
+  "10673016288",
+  "10673010098",
+  "10673027613",
+  "10673024410",
+  "10673019464",
+  "10673028858",
+  "10673028818",
+  "10673037385",
+  "10673051425",
+  "10673047845",
+  "10673046207",
+  "10673044212",
+  "10673044024",
+  "10673048282",
+  "10673055672",
+  "10673052647",
+  "10673068235",
+  "10673061452",
+  "10673081031",
+  "10673073697",
+  "10673092967",
+  "10673084438",
+  "10673087819"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -42692,6 +42692,127 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "modele:nikon mh 63 en el10|2@3075": {
+   "date": 1793870443024,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:canon 1200d t5|2@3075": {
+   "date": 1793870443821,
+   "mediane": 150,
+   "echantillon": 11,
+   "dispersion": 0.2,
+   "fourchette": [
+    110,
+    239.9
+   ],
+   "exemples": [
+    {
+     "id": 10557295319,
+     "prix": 150
+    },
+    {
+     "id": 9611582281,
+     "prix": 150
+    },
+    {
+     "id": 7464173570,
+     "prix": 150
+    },
+    {
+     "id": 6266635120,
+     "prix": 140
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:pentax spiegekreflexkamera inklusive|2@3075": {
+   "date": 1793870635028,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:pentax 115 mooie|2@3076": {
+   "date": 1793870635809,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "marque:lumix@3075": {
+   "date": 1793870699844,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "marque"
+  },
+  "modele:nikon foto materiaal|2@3075": {
+   "date": 1793870831940,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:kodak 400 tele|1@3076": {
+   "date": 1793870832819,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:canon a1200|2@3075": {
+   "date": 1793870896789,
+   "mediane": 80,
+   "echantillon": 12,
+   "dispersion": 0.25,
+   "fourchette": [
+    30,
+    105
+   ],
+   "exemples": [
+    {
+     "id": 10673044212,
+     "prix": 80
+    },
+    {
+     "id": 10070806191,
+     "prix": 79
+    },
+    {
+     "id": 10011595622,
+     "prix": 75
+    },
+    {
+     "id": 10610666976,
+     "prix": 85
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:nikon nikonos underwater|2@3076": {
+   "date": 1793870960754,
+   "mediane": null,
+   "echantillon": 2,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:voigtlander 500s zeiss|2@3076": {
+   "date": 1793871024802,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:fujifilm x t10 f3 5|2@3075": {
+   "date": 1793871089620,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -43919,6 +44040,10 @@
    "n": 3,
    "vu": 1793737041479
   },
+  "97306877": {
+   "n": 2,
+   "vu": 1793870960197
+  },
   "97612534": {
    "n": 2,
    "vu": 1793708434777
@@ -44119,6 +44244,10 @@
    "n": 2,
    "vu": 1793792049477
   },
+  "132972234": {
+   "n": 2,
+   "vu": 1793870896190
+  },
   "133541752": {
    "n": 2,
    "vu": 1793736437850
@@ -44192,8 +44321,8 @@
    "vu": 1793819627798
   },
   "148335930": {
-   "n": 22,
-   "vu": 1793869598503
+   "n": 26,
+   "vu": 1793871152841
   },
   "149820900": {
    "n": 5,
@@ -44444,12 +44573,12 @@
    "vu": 1793708627165
   },
   "208165312": {
-   "n": 3,
-   "vu": 1793818640478
+   "n": 4,
+   "vu": 1793870634477
   },
   "210301934": {
-   "n": 4,
-   "vu": 1793829329225
+   "n": 5,
+   "vu": 1793870699177
   },
   "211067397": {
    "n": 2,
@@ -45990,23 +46119,23 @@
  },
  "bilan": {
   "depuis": 1793868507191,
-  "passages": 27,
-  "nouvelles": 71,
-  "marque": 14,
+  "passages": 41,
+  "nouvelles": 103,
+  "marque": 19,
   "etat": 2,
-  "prix": 3,
+  "prix": 5,
   "accessoire": 1,
   "lot": 1,
   "fausse": 1,
   "imitation": 0,
   "pro": 0,
-  "vendeurSpecialise": 2,
-  "sansCote": 26,
-  "chere": 16,
+  "vendeurSpecialise": 3,
+  "sansCote": 46,
+  "chere": 19,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
-  "alertes": 5
+  "alertes": 6
  },
  "panne": null,
  "panneDebut": null,
@@ -47808,6 +47937,16 @@
    "score": 75,
    "lien": "https://www.vinted.fr/items/10672922876-camara-nikon-d3200",
    "date": 1793870121871,
+   "statut": null
+  },
+  {
+   "id": 10673061452,
+   "titre": "Voigtländer Zeiss Ikon Vitessa 500S - fully tested",
+   "prix": 25,
+   "cote": null,
+   "score": 22,
+   "lien": "https://www.vinted.fr/items/10673061452-voigtlander-zeiss-ikon-vitessa-500s-fully-tested",
+   "date": 1793871025562,
    "statut": null
   }
  ],

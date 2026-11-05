@@ -1,10 +1,5 @@
 {
  "vues": [
-  "10665916014",
-  "10665915441",
-  "10665912292",
-  "10665911521",
-  "10665909003",
   "10665907289",
   "10665927698",
   "10665927021",
@@ -3999,7 +3994,12 @@
   "10671317490",
   "10671333521",
   "10671359042",
-  "10671377723"
+  "10671377723",
+  "10671412605",
+  "10671410482",
+  "10671417724",
+  "10628332270",
+  "10671433354"
  ],
  "cotes": {
   "marque:fossil": {
@@ -30281,6 +30281,64 @@
    "mediane": null,
    "echantillon": 1,
    "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:lip carica|1": {
+   "date": 1793848085192,
+   "mediane": 150,
+   "echantillon": 7,
+   "dispersion": 1.07,
+   "fourchette": [
+    50,
+    340
+   ],
+   "exemples": [
+    {
+     "id": 8263038765,
+     "prix": 150
+    },
+    {
+     "id": 6722016416,
+     "prix": 140
+    },
+    {
+     "id": 10638267033,
+     "prix": 85
+    },
+    {
+     "id": 10628332270,
+     "prix": 50
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:philip watch polso|3": {
+   "date": 1793848346723,
+   "mediane": 150,
+   "echantillon": 21,
+   "dispersion": 0.67,
+   "fourchette": [
+    49,
+    350
+   ],
+   "exemples": [
+    {
+     "id": 6760288269,
+     "prix": 150
+    },
+    {
+     "id": 7612096244,
+     "prix": 150
+    },
+    {
+     "id": 10033004526,
+     "prix": 150
+    },
+    {
+     "id": 7145388838,
+     "prix": 145
+    }
+   ],
    "niveau": "modèle"
   }
  },
@@ -86826,8 +86884,8 @@
    "vu": 1793633350698
   },
   "3148577594": {
-   "n": 87,
-   "vu": 1793716905871
+   "n": 88,
+   "vu": 1793847997865
   },
   "3148612220": {
    "n": 184,
@@ -103372,49 +103430,27 @@
  },
  "bilan": {
   "depuis": 1793845821080,
-  "passages": 39,
-  "nouvelles": 6,
-  "marque": 4,
+  "passages": 60,
+  "nouvelles": 11,
+  "marque": 5,
   "etat": 0,
-  "prix": 0,
+  "prix": 1,
   "accessoire": 0,
   "lot": 0,
   "fausse": 0,
   "imitation": 0,
   "pro": 0,
   "vendeurSpecialise": 1,
-  "sansCote": 0,
+  "sansCote": 1,
   "chere": 0,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
-  "alertes": 1
+  "alertes": 3
  },
  "panne": null,
  "panneDebut": null,
  "suivi": [
-  {
-   "id": 10650976652,
-   "titre": "Junghans Chronograph W R 50",
-   "prix": 60,
-   "cote": 150,
-   "score": 75,
-   "lien": "https://www.vinted.fr/items/10650976652-junghans-chronograph-w-r-50",
-   "date": 1793720756492,
-   "statut": "retiree",
-   "verifieA": 1793724360901
-  },
-  {
-   "id": 10651072603,
-   "titre": "Reloj",
-   "prix": 300,
-   "cote": 1300,
-   "score": 76,
-   "lien": "https://www.vinted.fr/items/10651072603-reloj",
-   "date": 1793721156579,
-   "statut": "retiree",
-   "verifieA": 1793724764378
-  },
   {
    "id": 10651077427,
    "titre": "montre longines hydroconquest automatique cadran bleu dégradé, bracelet acier",
@@ -106690,6 +106726,26 @@
    "score": 20,
    "lien": "https://www.vinted.fr/items/10671261351-vintage-ddr-armbanduhr-von-ruhla-anker-antimagnetic-handaufzug",
    "date": 1793845910637,
+   "statut": null
+  },
+  {
+   "id": 10628332270,
+   "titre": "Orologio a carica Lip",
+   "prix": 50,
+   "cote": 150,
+   "score": 66,
+   "lien": "https://www.vinted.fr/items/10628332270-orologio-a-carica-lip",
+   "date": 1793848087095,
+   "statut": null
+  },
+  {
+   "id": 10671433354,
+   "titre": "orologio da polso philip watch",
+   "prix": 50,
+   "cote": 150,
+   "score": 71,
+   "lien": "https://www.vinted.fr/items/10671433354-orologio-da-polso-philip-watch",
+   "date": 1793848347394,
    "statut": null
   }
  ],

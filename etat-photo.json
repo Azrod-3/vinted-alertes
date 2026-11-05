@@ -1,11 +1,5 @@
 {
  "vues": [
-  "10652309913",
-  "10651856953",
-  "10652290125",
-  "10652269751",
-  "10652259677",
-  "10652294802",
   "10652198553",
   "10652295356",
   "10651855285",
@@ -3999,7 +3993,13 @@
   "10671707207",
   "10671714061",
   "10671735971",
-  "10671771802"
+  "10671771802",
+  "10671804067",
+  "10671819301",
+  "10671830937",
+  "10671832131",
+  "10671832051",
+  "10671837244"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -42205,6 +42205,38 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "modele:minolta mais lente|2@3076": {
+   "date": 1793856056508,
+   "mediane": null,
+   "echantillon": 2,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:canon 185 20mp|2@3075": {
+   "date": 1793856880763,
+   "mediane": 160,
+   "echantillon": 3,
+   "dispersion": null,
+   "fourchette": [
+    75,
+    160
+   ],
+   "exemples": [
+    {
+     "id": 10385297099,
+     "prix": 160
+    },
+    {
+     "id": 10633177986,
+     "prix": 159.95
+    },
+    {
+     "id": 10671837244,
+     "prix": 75
+    }
+   ],
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -44136,6 +44168,10 @@
    "n": 6,
    "vu": 1793707001383
   },
+  "254928370": {
+   "n": 2,
+   "vu": 1793856880142
+  },
   "255522595": {
    "n": 2,
    "vu": 1793745000101
@@ -45109,8 +45145,8 @@
    "vu": 1793712295072
   },
   "3197278191": {
-   "n": 2,
-   "vu": 1793818839951
+   "n": 3,
+   "vu": 1793856753611
   },
   "3197740054": {
    "n": 2,
@@ -45387,23 +45423,23 @@
  },
  "bilan": {
   "depuis": 1793854026929,
-  "passages": 30,
-  "nouvelles": 2,
-  "marque": 0,
+  "passages": 45,
+  "nouvelles": 8,
+  "marque": 1,
   "etat": 0,
-  "prix": 1,
+  "prix": 3,
   "accessoire": 0,
   "lot": 0,
   "fausse": 0,
   "imitation": 0,
   "pro": 0,
   "vendeurSpecialise": 0,
-  "sansCote": 1,
+  "sansCote": 3,
   "chere": 0,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
-  "alertes": 0
+  "alertes": 1
  },
  "panne": null,
  "panneDebut": null,
@@ -47088,6 +47124,16 @@
    "score": 47,
    "lien": "https://www.vinted.fr/items/10671707207-camara-reflex-canon-eos-50d",
    "date": 1793853551366,
+   "statut": null
+  },
+  {
+   "id": 10671837244,
+   "titre": "Canon IXUS 185 Rouge – 20MP – Zoom 8x – Excellent état",
+   "prix": 75,
+   "cote": 160,
+   "score": 59,
+   "lien": "https://www.vinted.fr/items/10671837244-canon-ixus-185-rouge-20mp-zoom-8x-excellent-etat",
+   "date": 1793856881664,
    "statut": null
   }
  ],

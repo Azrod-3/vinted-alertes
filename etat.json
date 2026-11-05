@@ -1,16 +1,5 @@
 {
  "vues": [
-  "10665925570",
-  "10665965192",
-  "10665963105",
-  "10665960660",
-  "10665960469",
-  "10665957203",
-  "10665956782",
-  "10665980847",
-  "10665980731",
-  "10214349458",
-  "10665978596",
   "10665977911",
   "10665975633",
   "10665890552",
@@ -3999,7 +3988,18 @@
   "10671755572",
   "10671755462",
   "10671754892",
-  "10671757773"
+  "10671757773",
+  "10671773346",
+  "10671778363",
+  "10671780117",
+  "10671783478",
+  "10671785515",
+  "10582165310",
+  "10671787002",
+  "10671785569",
+  "10671788630",
+  "10671791604",
+  "10671793617"
  ],
  "cotes": {
   "marque:fossil": {
@@ -30290,6 +30290,13 @@
    "echantillon": 0,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:universal geneve cuerda manual|1": {
+   "date": 1793855548440,
+   "mediane": null,
+   "echantillon": 2,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -30698,8 +30705,8 @@
    "vu": 1793633350698
   },
   "12436125": {
-   "n": 9,
-   "vu": 1793854722368
+   "n": 10,
+   "vu": 1793855504692
   },
   "12467045": {
    "n": 11,
@@ -44770,8 +44777,8 @@
    "vu": 1793633350698
   },
   "60734582": {
-   "n": 24,
-   "vu": 1793633350698
+   "n": 25,
+   "vu": 1793855504693
   },
   "60746437": {
    "n": 6,
@@ -66434,8 +66441,8 @@
    "vu": 1793633350698
   },
   "211263750": {
-   "n": 94,
-   "vu": 1793806548551
+   "n": 95,
+   "vu": 1793855547892
   },
   "211314475": {
    "n": 6,
@@ -86374,8 +86381,8 @@
    "vu": 1793779831237
   },
   "3146248990": {
-   "n": 10,
-   "vu": 1793633350698
+   "n": 11,
+   "vu": 1793855461438
   },
   "3146254390": {
    "n": 86,
@@ -98394,8 +98401,8 @@
    "vu": 1793633350698
   },
   "3186367220": {
-   "n": 38,
-   "vu": 1793781650911
+   "n": 39,
+   "vu": 1793855721784
   },
   "3186385923": {
    "n": 6,
@@ -103396,9 +103403,9 @@
  },
  "bilan": {
   "depuis": 1793853077218,
-  "passages": 40,
-  "nouvelles": 18,
-  "marque": 10,
+  "passages": 61,
+  "nouvelles": 29,
+  "marque": 16,
   "etat": 0,
   "prix": 0,
   "accessoire": 0,
@@ -103406,39 +103413,17 @@
   "fausse": 0,
   "imitation": 0,
   "pro": 0,
-  "vendeurSpecialise": 6,
+  "vendeurSpecialise": 9,
   "sansCote": 1,
   "chere": 1,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
-  "alertes": 0
+  "alertes": 2
  },
  "panne": null,
  "panneDebut": null,
  "suivi": [
-  {
-   "id": 10651236526,
-   "titre": "Montre Longines Vintage Plaqué Or avec Date - Ref 18639966",
-   "prix": 150,
-   "cote": 280,
-   "score": 58,
-   "lien": "https://www.vinted.fr/items/10651236526-montre-longines-vintage-plaque-or-avec-date-ref-18639966",
-   "date": 1793721829179,
-   "statut": "retiree",
-   "verifieA": 1793725473247
-  },
-  {
-   "id": 10651278118,
-   "titre": "Omega Genève Automatic",
-   "prix": 350,
-   "cote": 725,
-   "score": 77,
-   "lien": "https://www.vinted.fr/items/10651278118-omega-geneve-automatic",
-   "date": 1793722005476,
-   "statut": "retiree",
-   "verifieA": 1793725647596
-  },
   {
    "id": 10651305068,
    "titre": "Relógio ADEC (sub-marca da Citizen)",
@@ -106714,6 +106699,27 @@
    "score": 75,
    "lien": "https://www.vinted.fr/items/10671615729-montre-breitling",
    "date": 1793851518300,
+   "statut": "retiree",
+   "verifieA": 1793855157266
+  },
+  {
+   "id": 10671780117,
+   "titre": "Orologio",
+   "prix": 30,
+   "cote": 118,
+   "score": 63,
+   "lien": "https://www.vinted.fr/items/10671780117-orologio",
+   "date": 1793855375374,
+   "statut": null
+  },
+  {
+   "id": 10671787002,
+   "titre": "Universal Geneve cuerda manual",
+   "prix": 150,
+   "cote": 300,
+   "score": 59,
+   "lien": "https://www.vinted.fr/items/10671787002-universal-geneve-cuerda-manual",
+   "date": 1793855549134,
    "statut": null
   }
  ],

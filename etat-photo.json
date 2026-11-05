@@ -1,9 +1,5 @@
 {
  "vues": [
-  "10652375583",
-  "10651914387",
-  "10652361662",
-  "10652348664",
   "10652346003",
   "10652314868",
   "10651966767",
@@ -3999,7 +3995,11 @@
   "10671023627",
   "10671035795",
   "10656824329",
-  "10671079307"
+  "10671079307",
+  "10671083086",
+  "10670956500",
+  "10645107256",
+  "10671145157"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -42205,6 +42205,35 @@
    "echantillon": 1,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:canon ixus digitalkamera|2@3075": {
+   "date": 1793843660403,
+   "mediane": 130,
+   "echantillon": 70,
+   "dispersion": 0.39,
+   "fourchette": [
+    35,
+    200
+   ],
+   "exemples": [
+    {
+     "id": 10669313006,
+     "prix": 130
+    },
+    {
+     "id": 10304167584,
+     "prix": 130
+    },
+    {
+     "id": 10421957273,
+     "prix": 130
+    },
+    {
+     "id": 10271525906,
+     "prix": 129
+    }
+   ],
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -45383,9 +45412,9 @@
  },
  "bilan": {
   "depuis": 1793838200812,
-  "passages": 85,
-  "nouvelles": 28,
-  "marque": 1,
+  "passages": 100,
+  "nouvelles": 32,
+  "marque": 2,
   "etat": 0,
   "prix": 5,
   "accessoire": 0,
@@ -45394,8 +45423,8 @@
   "imitation": 0,
   "pro": 1,
   "vendeurSpecialise": 0,
-  "sansCote": 17,
-  "chere": 4,
+  "sansCote": 19,
+  "chere": 5,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,

@@ -1,8 +1,5 @@
 {
  "vues": [
-  "10652307913",
-  "10652302993",
-  "10652241881",
   "10652340638",
   "10652337348",
   "10652335204",
@@ -3999,7 +3996,10 @@
   "10671367096",
   "10671434886",
   "10671479637",
-  "10671486840"
+  "10671486840",
+  "10671568833",
+  "10671575714",
+  "10671575672"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -42212,6 +42212,13 @@
    "echantillon": 1,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:kodak apparate|1@3076": {
+   "date": 1793850632116,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -45394,9 +45401,9 @@
  },
  "bilan": {
   "depuis": 1793845434940,
-  "passages": 76,
-  "nouvelles": 4,
-  "marque": 0,
+  "passages": 91,
+  "nouvelles": 7,
+  "marque": 1,
   "etat": 0,
   "prix": 0,
   "accessoire": 0,
@@ -45405,7 +45412,7 @@
   "imitation": 0,
   "pro": 0,
   "vendeurSpecialise": 0,
-  "sansCote": 3,
+  "sansCote": 5,
   "chere": 1,
   "description": 0,
   "scoreFaible": 0,

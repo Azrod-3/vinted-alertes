@@ -1,25 +1,5 @@
 {
  "vues": [
-  "10653302117",
-  "10653301472",
-  "10653277761",
-  "10653273175",
-  "10653235001",
-  "10653228764",
-  "10653220141",
-  "10653223596",
-  "10653192016",
-  "10653190992",
-  "10653176363",
-  "10653183267",
-  "10653167769",
-  "10653172668",
-  "10653167710",
-  "10653163886",
-  "10653147684",
-  "10653167673",
-  "10653144209",
-  "10653157588",
   "10653152405",
   "10653143561",
   "10653130772",
@@ -3999,7 +3979,27 @@
   "10670133737",
   "10670284834",
   "10670316547",
-  "10671948254"
+  "10671948254",
+  "10671958268",
+  "10671960731",
+  "10671960021",
+  "10671962809",
+  "10671970009",
+  "10671968090",
+  "10671970238",
+  "10671976050",
+  "10671973921",
+  "10671975727",
+  "10671973401",
+  "10671978232",
+  "10671977120",
+  "10671981351",
+  "10671980584",
+  "10671988664",
+  "10671995184",
+  "10671992707",
+  "10671999791",
+  "10672002372"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -4428,7 +4428,7 @@
    "coteTropBasse": 25
   },
   "marque:lubitel@3076": {
-   "date": 1793735502287,
+   "date": 1793859871140,
    "mediane": 50,
    "echantillon": 69,
    "dispersion": 0.5,
@@ -4438,11 +4438,11 @@
    ],
    "exemples": [
     {
-     "id": 10634615240,
+     "id": 10671962809,
      "prix": 50
     },
     {
-     "id": 10650344253,
+     "id": 10634615240,
      "prix": 50
     },
     {
@@ -4450,7 +4450,7 @@
      "prix": 50
     },
     {
-     "id": 10608917928,
+     "id": 10650344253,
      "prix": 50
     }
    ],
@@ -6404,71 +6404,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:nikon b500 coolpix|2@3075": {
-   "date": 1793686980023,
-   "mediane": 130,
-   "echantillon": 80,
-   "dispersion": 0.38,
-   "fourchette": [
-    49,
-    200
-   ],
-   "exemples": [
-    {
-     "id": 9610326935,
-     "prix": 130
-    },
-    {
-     "id": 9782175254,
-     "prix": 130
-    },
-    {
-     "id": 8227494021,
-     "prix": 130
-    },
-    {
-     "id": 10279472161,
-     "prix": 130
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:kodak m550 easyshare|2@3075": {
-   "date": 1793687109023,
-   "mediane": 44,
-   "echantillon": 4,
-   "dispersion": 0.73,
-   "fourchette": [
-    16,
-    90
-   ],
-   "exemples": [
-    {
-     "id": 10030950755,
-     "prix": 28
-    },
-    {
-     "id": 8564914763,
-     "prix": 60
-    },
-    {
-     "id": 10645246321,
-     "prix": 16
-    },
-    {
-     "id": 10633747284,
-     "prix": 90
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:kodak ikon nitar|1@3076": {
-   "date": 1793687425004,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
   },
   "modele:panasonic dmc fs6 lumix|2@3075": {
    "date": 1793688563926,
@@ -23780,21 +23715,21 @@
    "niveau": "modèle"
   },
   "marque:zorki@3076": {
-   "date": 1793744295984,
+   "date": 1793859806624,
    "mediane": 80,
    "echantillon": 57,
-   "dispersion": 0.5,
+   "dispersion": 0.53,
    "fourchette": [
     26,
     150
    ],
    "exemples": [
     {
-     "id": 10117590597,
+     "id": 7818734314,
      "prix": 80
     },
     {
-     "id": 7818734314,
+     "id": 10117590597,
      "prix": 80
     },
     {
@@ -23806,7 +23741,8 @@
      "prix": 80
     }
    ],
-   "niveau": "marque"
+   "niveau": "marque",
+   "lissee": true
   },
   "modele:zorki rangefinder bolsa|1@3076": {
    "date": 1793744296549,
@@ -42223,6 +42159,78 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "modele:zorki zorki4|1@3076": {
+   "date": 1793859807176,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:lubitel 166|1@3076": {
+   "date": 1793859871739,
+   "mediane": 70,
+   "echantillon": 21,
+   "dispersion": 0.43,
+   "fourchette": [
+    35,
+    100
+   ],
+   "exemples": [
+    {
+     "id": 9836512910,
+     "prix": 70
+    },
+    {
+     "id": 10204925999,
+     "prix": 70
+    },
+    {
+     "id": 7715258693,
+     "prix": 70
+    },
+    {
+     "id": 10263945093,
+     "prix": 65
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:kodak 4000 disc|2@3076": {
+   "date": 1793860189617,
+   "mediane": 12,
+   "echantillon": 76,
+   "dispersion": 0.67,
+   "fourchette": [
+    4,
+    30
+   ],
+   "exemples": [
+    {
+     "id": 10660713625,
+     "prix": 12
+    },
+    {
+     "id": 10443872717,
+     "prix": 12
+    },
+    {
+     "id": 10434926625,
+     "prix": 12
+    },
+    {
+     "id": 10621193336,
+     "prix": 12
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:rollei rcp 5324 digitalkamera|3@3075": {
+   "date": 1793860636008,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -42866,6 +42874,10 @@
    "n": 2,
    "vu": 1793830299639
   },
+  "49027136": {
+   "n": 2,
+   "vu": 1793859870387
+  },
   "49106809": {
    "n": 2,
    "vu": 1793826928880
@@ -43125,6 +43137,10 @@
   "66633757": {
    "n": 2,
    "vu": 1793830234786
+  },
+  "66721858": {
+   "n": 3,
+   "vu": 1793860508307
   },
   "66997288": {
    "n": 15,
@@ -45413,23 +45429,23 @@
  },
  "bilan": {
   "depuis": 1793854026929,
-  "passages": 90,
-  "nouvelles": 29,
-  "marque": 6,
+  "passages": 105,
+  "nouvelles": 49,
+  "marque": 10,
   "etat": 0,
-  "prix": 3,
+  "prix": 4,
   "accessoire": 1,
   "lot": 1,
   "fausse": 0,
   "imitation": 1,
   "pro": 0,
   "vendeurSpecialise": 0,
-  "sansCote": 11,
-  "chere": 5,
+  "sansCote": 20,
+  "chere": 9,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
-  "alertes": 1
+  "alertes": 3
  },
  "panne": null,
  "panneDebut": null,
@@ -47125,6 +47141,27 @@
    "score": 59,
    "lien": "https://www.vinted.fr/items/10671837244-canon-ixus-185-rouge-20mp-zoom-8x-excellent-etat",
    "date": 1793856881664,
+   "statut": "retiree",
+   "verifieA": 1793860508804
+  },
+  {
+   "id": 10671988664,
+   "titre": "Appareil photo Rollei",
+   "prix": 45,
+   "cote": null,
+   "score": 20,
+   "lien": "https://www.vinted.fr/items/10671988664-appareil-photo-rollei",
+   "date": 1793860444722,
+   "statut": null
+  },
+  {
+   "id": 10671999791,
+   "titre": "Digitalkamera Rollei RCP-5324 – Neu / unbenutzt",
+   "prix": 25,
+   "cote": null,
+   "score": 24,
+   "lien": "https://www.vinted.fr/items/10671999791-digitalkamera-rollei-rcp-5324-neu-unbenutzt",
+   "date": 1793860636871,
    "statut": null
   }
  ],

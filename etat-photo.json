@@ -1,7 +1,5 @@
 {
  "vues": [
-  "10652254809",
-  "10641795648",
   "10652319892",
   "10652269810",
   "10652309913",
@@ -3999,7 +3997,9 @@
   "10671575672",
   "10671624271",
   "10671652672",
-  "10671669271"
+  "10671669271",
+  "10671707207",
+  "10671714061"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -6374,35 +6374,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:pentax pc 5000|2@3076": {
-   "date": 1793680584891,
-   "mediane": 30,
-   "echantillon": 5,
-   "dispersion": 0.6,
-   "fourchette": [
-    20,
-    70
-   ],
-   "exemples": [
-    {
-     "id": 10459233816,
-     "prix": 30
-    },
-    {
-     "id": 10138207719,
-     "prix": 22
-    },
-    {
-     "id": 10644978995,
-     "prix": 40
-    },
-    {
-     "id": 10224180986,
-     "prix": 20
-    }
-   ],
-   "niveau": "modèle"
   },
   "modele:minolta dynax|2@3076": {
    "date": 1793795219955,
@@ -43054,8 +43025,8 @@
    "vu": 1793824327901
   },
   "60185966": {
-   "n": 4,
-   "vu": 1793827962225
+   "n": 5,
+   "vu": 1793853550462
   },
   "60209689": {
    "n": 2,
@@ -45416,8 +45387,8 @@
  },
  "bilan": {
   "depuis": 1793852662219,
-  "passages": 7,
-  "nouvelles": 0,
+  "passages": 21,
+  "nouvelles": 2,
   "marque": 0,
   "etat": 0,
   "prix": 0,
@@ -45428,11 +45399,11 @@
   "pro": 0,
   "vendeurSpecialise": 0,
   "sansCote": 0,
-  "chere": 0,
+  "chere": 1,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
-  "alertes": 0
+  "alertes": 1
  },
  "panne": null,
  "panneDebut": null,
@@ -47108,6 +47079,16 @@
    "date": 1793831839871,
    "statut": "en vente",
    "verifieA": 1793836043242
+  },
+  {
+   "id": 10671707207,
+   "titre": "Cámara réflex Canon EOS 50D",
+   "prix": 65,
+   "cote": 140,
+   "score": 47,
+   "lien": "https://www.vinted.fr/items/10671707207-camara-reflex-canon-eos-50d",
+   "date": 1793853551366,
+   "statut": null
   }
  ],
  "dernierRecap": "2026-11-04"

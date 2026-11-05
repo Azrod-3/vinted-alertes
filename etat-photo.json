@@ -1,6 +1,5 @@
 {
  "vues": [
-  "10652314868",
   "10651966767",
   "10652344877",
   "10652338935",
@@ -3999,7 +3998,8 @@
   "10670956500",
   "10645107256",
   "10671145157",
-  "10670985664"
+  "10670985664",
+  "10671367096"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -6374,35 +6374,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:nikon f55|2@3076": {
-   "date": 1793674585233,
-   "mediane": 60,
-   "echantillon": 75,
-   "dispersion": 0.65,
-   "fourchette": [
-    20,
-    150
-   ],
-   "exemples": [
-    {
-     "id": 10604048627,
-     "prix": 60
-    },
-    {
-     "id": 9130479223,
-     "prix": 60
-    },
-    {
-     "id": 9708353846,
-     "prix": 60
-    },
-    {
-     "id": 7567650249,
-     "prix": 60
-    }
-   ],
-   "niveau": "modèle"
   },
   "modele:praktica mtl tasche|2@3076": {
    "date": 1793679000848,
@@ -45416,8 +45387,8 @@
  },
  "bilan": {
   "depuis": 1793845434940,
-  "passages": 16,
-  "nouvelles": 0,
+  "passages": 31,
+  "nouvelles": 1,
   "marque": 0,
   "etat": 0,
   "prix": 0,
@@ -45427,7 +45398,7 @@
   "imitation": 0,
   "pro": 0,
   "vendeurSpecialise": 0,
-  "sansCote": 0,
+  "sansCote": 1,
   "chere": 0,
   "description": 0,
   "scoreFaible": 0,

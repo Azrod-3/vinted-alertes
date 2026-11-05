@@ -1,12 +1,5 @@
 {
  "vues": [
-  "10652148017",
-  "10653396514",
-  "10653396031",
-  "10653389317",
-  "10653381943",
-  "10653382024",
-  "10653377836",
   "10653348353",
   "10653341843",
   "10653331028",
@@ -3999,7 +3992,14 @@
   "10671864194",
   "10671867733",
   "10671875268",
-  "10671874993"
+  "10671874993",
+  "10671877882",
+  "10671876439",
+  "10671888281",
+  "10671890479",
+  "10671890430",
+  "10671894850",
+  "10671897293"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -6404,20 +6404,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:nikon mc dc2 disparador|3@3075": {
-   "date": 1793685146140,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:fujifilm x t5 viele|2@3075": {
-   "date": 1793685968467,
-   "mediane": null,
-   "echantillon": 0,
-   "dispersion": null,
-   "niveau": "modèle"
   },
   "modele:nikon b500 coolpix|2@3075": {
    "date": 1793686980023,
@@ -42143,6 +42129,42 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "modele:canon alice112233442799 per|3@3075": {
+   "date": 1793858152435,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:fujifilm s2980|2@3075": {
+   "date": 1793858406758,
+   "mediane": 55,
+   "echantillon": 69,
+   "dispersion": 0.45,
+   "fourchette": [
+    31,
+    100
+   ],
+   "exemples": [
+    {
+     "id": 10441719850,
+     "prix": 55
+    },
+    {
+     "id": 9579783154,
+     "prix": 59.99
+    },
+    {
+     "id": 10635582147,
+     "prix": 60
+    },
+    {
+     "id": 10663982402,
+     "prix": 50
+    }
+   ],
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -43547,8 +43569,8 @@
    "vu": 1793820865044
   },
   "146415172": {
-   "n": 3,
-   "vu": 1793734721808
+   "n": 4,
+   "vu": 1793858342430
   },
   "146537386": {
    "n": 2,
@@ -44555,8 +44577,8 @@
    "vu": 1793826082369
   },
   "3137155315": {
-   "n": 3,
-   "vu": 1793825628595
+   "n": 4,
+   "vu": 1793857898723
   },
   "3137174908": {
    "n": 5,
@@ -45329,19 +45351,19 @@
  },
  "bilan": {
   "depuis": 1793854026929,
-  "passages": 60,
-  "nouvelles": 14,
+  "passages": 75,
+  "nouvelles": 21,
   "marque": 4,
   "etat": 0,
   "prix": 3,
-  "accessoire": 0,
+  "accessoire": 1,
   "lot": 0,
   "fausse": 0,
-  "imitation": 0,
+  "imitation": 1,
   "pro": 0,
   "vendeurSpecialise": 0,
-  "sansCote": 5,
-  "chere": 1,
+  "sansCote": 8,
+  "chere": 3,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,

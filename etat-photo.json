@@ -1,8 +1,5 @@
 {
  "vues": [
-  "10652548761",
-  "10576352426",
-  "10652547249",
   "10608562268",
   "10651666225",
   "10636876624",
@@ -3999,7 +3996,10 @@
   "10670539785",
   "10670546524",
   "10670557452",
-  "10670576259"
+  "10670576259",
+  "10670596834",
+  "10670648969",
+  "10670660717"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -6314,85 +6314,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:kodak c123 camara|2@3075": {
-   "date": 1793665674076,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:canon af 7 prima|1@3076": {
-   "date": 1793665674989,
-   "mediane": 30,
-   "echantillon": 18,
-   "dispersion": 0.97,
-   "fourchette": [
-    12,
-    89
-   ],
-   "exemples": [
-    {
-     "id": 7669838058,
-     "prix": 30
-    },
-    {
-     "id": 10180614097,
-     "prix": 29.9
-    },
-    {
-     "id": 10250021558,
-     "prix": 35
-    },
-    {
-     "id": 10138245788,
-     "prix": 25
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:olympus rangefinder testada|2@3076": {
-   "date": 1793665675731,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:olympus xb400 analogue|1@3076": {
-   "date": 1793665677327,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:minolta f35 big|1@3076": {
-   "date": 1793665678102,
-   "mediane": 25,
-   "echantillon": 16,
-   "dispersion": 0.52,
-   "fourchette": [
-    10,
-    50
-   ],
-   "exemples": [
-    {
-     "id": 9257761212,
-     "prix": 25
-    },
-    {
-     "id": 10211415732,
-     "prix": 25
-    },
-    {
-     "id": 10618213542,
-     "prix": 24.6
-    },
-    {
-     "id": 10151157183,
-     "prix": 23.7
-    }
-   ],
-   "niveau": "modèle"
   },
   "modele:olympus olympieuse|1@3075": {
    "date": 1793666504340,
@@ -45515,24 +45436,24 @@
   }
  },
  "bilan": {
-  "depuis": 1793830944318,
-  "passages": 84,
-  "nouvelles": 120,
-  "marque": 19,
-  "etat": 4,
-  "prix": 12,
-  "accessoire": 2,
-  "lot": 1,
-  "fausse": 1,
+  "depuis": 1793838200812,
+  "passages": 10,
+  "nouvelles": 2,
+  "marque": 0,
+  "etat": 0,
+  "prix": 1,
+  "accessoire": 0,
+  "lot": 0,
+  "fausse": 0,
   "imitation": 0,
-  "pro": 5,
-  "vendeurSpecialise": 4,
-  "sansCote": 41,
-  "chere": 28,
-  "description": 2,
+  "pro": 0,
+  "vendeurSpecialise": 0,
+  "sansCote": 1,
+  "chere": 0,
+  "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
-  "alertes": 1
+  "alertes": 0
  },
  "panne": null,
  "panneDebut": null,

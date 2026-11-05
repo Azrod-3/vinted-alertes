@@ -1,9 +1,5 @@
 {
  "vues": [
-  "10652212629",
-  "10652420752",
-  "10652412690",
-  "10651854554",
   "10652417952",
   "10652323380",
   "10652393457",
@@ -3999,7 +3995,11 @@
   "10670803045",
   "10670798624",
   "10670841138",
-  "10670840360"
+  "10670840360",
+  "10670849901",
+  "10670853826",
+  "10670898486",
+  "10670910726"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -42270,6 +42270,20 @@
    "echantillon": 2,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:fujifilm xt3 cage|2@3075": {
+   "date": 1793840867812,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:praktica pro|1@3076": {
+   "date": 1793840868356,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -42364,6 +42378,10 @@
   "16537480": {
    "n": 2,
    "vu": 1793744681123
+  },
+  "16761101": {
+   "n": 2,
+   "vu": 1793840866696
   },
   "16944410": {
    "n": 3,
@@ -45444,9 +45462,9 @@
  },
  "bilan": {
   "depuis": 1793838200812,
-  "passages": 40,
-  "nouvelles": 17,
-  "marque": 0,
+  "passages": 55,
+  "nouvelles": 21,
+  "marque": 1,
   "etat": 0,
   "prix": 4,
   "accessoire": 0,
@@ -45455,8 +45473,8 @@
   "imitation": 0,
   "pro": 0,
   "vendeurSpecialise": 0,
-  "sansCote": 10,
-  "chere": 3,
+  "sansCote": 12,
+  "chere": 4,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,

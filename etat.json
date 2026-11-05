@@ -1,6 +1,5 @@
 {
  "vues": [
-  "10665898066",
   "10665897058",
   "10665895837",
   "10665894152",
@@ -3999,7 +3998,8 @@
   "10671229460",
   "10671233469",
   "10671236244",
-  "10671239720"
+  "10671239720",
+  "10671261351"
  ],
  "cotes": {
   "marque:fossil": {
@@ -6384,35 +6384,6 @@
    "niveau": "modèle",
    "lissee": true
   },
-  "modele:cauny relogio pulso|2": {
-   "date": 1793673164242,
-   "mediane": 43,
-   "echantillon": 4,
-   "dispersion": 0.12,
-   "fourchette": [
-    26,
-    80
-   ],
-   "exemples": [
-    {
-     "id": 1768548997,
-     "prix": 45
-    },
-    {
-     "id": 10644533781,
-     "prix": 40
-    },
-    {
-     "id": 8944368011,
-     "prix": 26
-    },
-    {
-     "id": 8043261076,
-     "prix": 80
-    }
-   ],
-   "niveau": "modèle"
-  },
   "modele:tissot classic dream|4": {
    "date": 1793676412107,
    "mediane": 193,
@@ -7798,10 +7769,10 @@
    "niveau": "modèle"
   },
   "marque:ruhla": {
-   "date": 1793697457662,
+   "date": 1793845908456,
    "mediane": null,
-   "echantillon": 32,
-   "coteTropBasse": 50
+   "echantillon": 8,
+   "coteTropBasse": 40
   },
   "modele:umf ruhla prezisions stoppuhr|2": {
    "date": 1793697458365,
@@ -30293,13 +30264,20 @@
    "niveau": "modèle"
   },
   "marque:triwa": {
-   "date": 1793844056536,
+   "date": 1793845689310,
    "mediane": null,
-   "echantillon": 82,
-   "coteTropBasse": 44
+   "echantillon": 83,
+   "coteTropBasse": 40
   },
   "modele:triwa ssab fossil|4": {
-   "date": 1793844057137,
+   "date": 1793845689958,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:ruhla anker ddr armbanduhr|2": {
+   "date": 1793845908982,
    "mediane": null,
    "echantillon": 1,
    "dispersion": null,
@@ -30813,7 +30791,7 @@
   },
   "12742193": {
    "n": 85,
-   "vu": 1793844493155
+   "vu": 1793845688609
   },
   "12758313": {
    "n": 8,
@@ -41125,7 +41103,7 @@
   },
   "50692928": {
    "n": 62,
-   "vu": 1793844536409
+   "vu": 1793845688609
   },
   "50693226": {
    "n": 17,
@@ -58745,7 +58723,7 @@
   },
   "147220876": {
    "n": 167,
-   "vu": 1793844012643
+   "vu": 1793845688610
   },
   "147230071": {
    "n": 9,
@@ -87793,7 +87771,7 @@
   },
   "3152626949": {
    "n": 3,
-   "vu": 1793845490673
+   "vu": 1793845688606
   },
   "3152654805": {
    "n": 6,
@@ -92729,7 +92707,7 @@
   },
   "3171008803": {
    "n": 41,
-   "vu": 1793843274075
+   "vu": 1793845688610
   },
   "3171020856": {
    "n": 10,
@@ -96612,8 +96590,8 @@
    "vu": 1793633350698
   },
   "3181540372": {
-   "n": 2,
-   "vu": 1793845577658
+   "n": 3,
+   "vu": 1793845907902
   },
   "3181564396": {
    "n": 6,
@@ -97425,7 +97403,7 @@
   },
   "3183383691": {
    "n": 27,
-   "vu": 1793845534107
+   "vu": 1793845688606
   },
   "3183403917": {
    "n": 19,
@@ -102009,7 +101987,7 @@
   },
   "3200661495": {
    "n": 3,
-   "vu": 1793842621946
+   "vu": 1793845688610
   },
   "3200703024": {
    "n": 16,
@@ -103389,43 +103367,32 @@
   },
   "3209495912": {
    "n": 2,
-   "vu": 1793843882731
+   "vu": 1793845688610
   }
  },
  "bilan": {
-  "depuis": 1793842185336,
-  "passages": 80,
-  "nouvelles": 30,
-  "marque": 24,
-  "etat": 1,
+  "depuis": 1793845821080,
+  "passages": 18,
+  "nouvelles": 1,
+  "marque": 0,
+  "etat": 0,
   "prix": 0,
-  "accessoire": 1,
+  "accessoire": 0,
   "lot": 0,
   "fausse": 0,
   "imitation": 0,
   "pro": 0,
-  "vendeurSpecialise": 2,
-  "sansCote": 1,
-  "chere": 1,
+  "vendeurSpecialise": 0,
+  "sansCote": 0,
+  "chere": 0,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
-  "alertes": 0
+  "alertes": 1
  },
  "panne": null,
  "panneDebut": null,
  "suivi": [
-  {
-   "id": 10650973276,
-   "titre": "Lotus horloge",
-   "prix": 19,
-   "cote": 130,
-   "score": 67,
-   "lien": "https://www.vinted.fr/items/10650973276-lotus-horloge",
-   "date": 1793720709234,
-   "statut": "en vente",
-   "verifieA": 1793724316675
-  },
   {
    "id": 10650976652,
    "titre": "Junghans Chronograph W R 50",
@@ -106713,7 +106680,17 @@
    "lien": "https://www.vinted.fr/items/10670690528-orologio-locman",
    "date": 1793839006833,
    "statut": "en vente",
-   "verifieA": 1793842622791
+   "verifieA": 1793845690419
+  },
+  {
+   "id": 10671261351,
+   "titre": "Vintage DDR Armbanduhr von Ruhla Anker - Antimagnetic -Handaufzug",
+   "prix": 30,
+   "cote": null,
+   "score": 20,
+   "lien": "https://www.vinted.fr/items/10671261351-vintage-ddr-armbanduhr-von-ruhla-anker-antimagnetic-handaufzug",
+   "date": 1793845910637,
+   "statut": null
   }
  ],
  "dernierRecap": "2026-11-04"

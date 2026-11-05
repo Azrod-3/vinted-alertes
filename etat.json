@@ -1,33 +1,5 @@
 {
  "vues": [
-  "10665984875",
-  "10665984725",
-  "10665982985",
-  "10665931496",
-  "10666002074",
-  "10665792830",
-  "10666001423",
-  "10665984408",
-  "10665998769",
-  "10641561866",
-  "10665997889",
-  "10665997405",
-  "10665996597",
-  "10665936720",
-  "10665996245",
-  "10665996265",
-  "10665995813",
-  "10665994405",
-  "10665994096",
-  "10665783477",
-  "10665992467",
-  "10666011513",
-  "10666011246",
-  "10666011219",
-  "10666010571",
-  "10666008816",
-  "10666006283",
-  "10666004465",
   "10666001739",
   "10665996018",
   "10665987926",
@@ -3999,7 +3971,35 @@
   "10671823971",
   "10671825974",
   "10671824596",
-  "10671815055"
+  "10671815055",
+  "10671829286",
+  "10671836396",
+  "10671836137",
+  "10671835617",
+  "10671835460",
+  "10671838464",
+  "10671838273",
+  "10671836802",
+  "10671840395",
+  "10671845153",
+  "10671846535",
+  "10671845584",
+  "10645097929",
+  "10671843527",
+  "10671849157",
+  "10671851659",
+  "10671851108",
+  "10671850680",
+  "10671852882",
+  "10671852819",
+  "10671856364",
+  "10671855971",
+  "10671858442",
+  "10671859567",
+  "10671861468",
+  "10671861170",
+  "10671860771",
+  "10671863361"
  ],
  "cotes": {
   "marque:fossil": {
@@ -4009,30 +4009,30 @@
    "coteTropBasse": 28
   },
   "marque:zeppelin": {
-   "date": 1793742104621,
-   "mediane": 190,
-   "echantillon": 88,
-   "dispersion": 0.47,
+   "date": 1793857242915,
+   "mediane": 196,
+   "echantillon": 91,
+   "dispersion": 0.53,
    "fourchette": [
-    105,
-    345
+    95,
+    350
    ],
    "exemples": [
     {
-     "id": 10634554308,
-     "prix": 190
+     "id": 10302466898,
+     "prix": 199
     },
     {
-     "id": 10043752826,
-     "prix": 190
+     "id": 5507764051,
+     "prix": 200
     },
     {
-     "id": 9987513647,
-     "prix": 190
+     "id": 10002403055,
+     "prix": 200
     },
     {
-     "id": 7950239575,
-     "prix": 190
+     "id": 6873260872,
+     "prix": 200
     }
    ],
    "niveau": "marque",
@@ -30326,6 +30326,74 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "modele:tissot automatic|2": {
+   "date": 1793856894922,
+   "mediane": 267,
+   "echantillon": 36,
+   "dispersion": 0.6,
+   "fourchette": [
+    129,
+    490
+   ],
+   "exemples": [
+    {
+     "id": 10614596832,
+     "prix": 265
+    },
+    {
+     "id": 8071892129,
+     "prix": 269
+    },
+    {
+     "id": 10323068574,
+     "prix": 275
+    },
+    {
+     "id": 10589233298,
+     "prix": 250
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:timex carriage|4": {
+   "date": 1793857198494,
+   "mediane": null,
+   "echantillon": 2,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:zeppelin iron annie|1": {
+   "date": 1793857243401,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:fossil schone herrenuhr|2": {
+   "date": 1793857462697,
+   "mediane": 35,
+   "echantillon": 3,
+   "dispersion": null,
+   "fourchette": [
+    25,
+    40
+   ],
+   "exemples": [
+    {
+     "id": 9370726303,
+     "prix": 35
+    },
+    {
+     "id": 10671859567,
+     "prix": 40
+    },
+    {
+     "id": 10568638283,
+     "prix": 25
+    }
+   ],
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -43378,8 +43446,8 @@
    "vu": 1793633350698
   },
   "56005998": {
-   "n": 96,
-   "vu": 1793821320529
+   "n": 97,
+   "vu": 1793856678357
   },
   "56010248": {
    "n": 9,
@@ -78350,8 +78418,8 @@
    "vu": 1793633350698
   },
   "290081280": {
-   "n": 14,
-   "vu": 1793633350698
+   "n": 15,
+   "vu": 1793857505863
   },
   "290087708": {
    "n": 22,
@@ -80166,8 +80234,8 @@
    "vu": 1793789005712
   },
   "307540726": {
-   "n": 48,
-   "vu": 1793856331074
+   "n": 49,
+   "vu": 1793857549024
   },
   "307561581": {
    "n": 7,
@@ -82666,8 +82734,8 @@
    "vu": 1793780138992
   },
   "3127814602": {
-   "n": 36,
-   "vu": 1793818709965
+   "n": 37,
+   "vu": 1793857068452
   },
   "3127826375": {
    "n": 10,
@@ -91170,8 +91238,8 @@
    "vu": 1793633350698
   },
   "3165237278": {
-   "n": 36,
-   "vu": 1793817800233
+   "n": 37,
+   "vu": 1793857287989
   },
   "3165237613": {
    "n": 21,
@@ -96278,8 +96346,8 @@
    "vu": 1793633350698
   },
   "3180679850": {
-   "n": 10,
-   "vu": 1793633350698
+   "n": 11,
+   "vu": 1793857111582
   },
   "3180688538": {
    "n": 6,
@@ -101689,6 +101757,10 @@
    "n": 10,
    "vu": 1793724537447
   },
+  "3199105115": {
+   "n": 2,
+   "vu": 1793857374193
+  },
   "3199112532": {
    "n": 8,
    "vu": 1793633350698
@@ -103435,61 +103507,28 @@
   }
  },
  "bilan": {
-  "depuis": 1793853077218,
-  "passages": 82,
-  "nouvelles": 43,
-  "marque": 27,
+  "depuis": 1793856678357,
+  "passages": 20,
+  "nouvelles": 27,
+  "marque": 19,
   "etat": 0,
   "prix": 0,
-  "accessoire": 1,
+  "accessoire": 0,
   "lot": 0,
   "fausse": 0,
   "imitation": 0,
   "pro": 0,
-  "vendeurSpecialise": 10,
+  "vendeurSpecialise": 1,
   "sansCote": 1,
-  "chere": 2,
+  "chere": 3,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
-  "alertes": 2
+  "alertes": 3
  },
  "panne": null,
  "panneDebut": null,
  "suivi": [
-  {
-   "id": 10651305068,
-   "titre": "Relógio ADEC (sub-marca da Citizen)",
-   "prix": 20,
-   "cote": 140,
-   "score": 70,
-   "lien": "https://www.vinted.fr/items/10651305068-relogio-adec-sub-marca-da-citizen",
-   "date": 1793722093471,
-   "statut": "en vente",
-   "verifieA": 1793725735266
-  },
-  {
-   "id": 10551177328,
-   "titre": "Montre Tissot vintage femme",
-   "prix": 29.9,
-   "cote": 170,
-   "score": 73,
-   "lien": "https://www.vinted.fr/items/10551177328-montre-tissot-vintage-femme",
-   "date": 1793722181815,
-   "statut": "retiree",
-   "verifieA": 1793725823502
-  },
-  {
-   "id": 10651420720,
-   "titre": "Orologio da tasca Zaria",
-   "prix": 45,
-   "cote": null,
-   "score": 20,
-   "lien": "https://www.vinted.fr/items/10651420720-orologio-da-tasca-zaria",
-   "date": 1793722578462,
-   "statut": "en vente",
-   "verifieA": 1793726221927
-  },
   {
    "id": 10651450516,
    "titre": "Montre LIP",
@@ -106753,6 +106792,36 @@
    "score": 59,
    "lien": "https://www.vinted.fr/items/10671787002-universal-geneve-cuerda-manual",
    "date": 1793855549134,
+   "statut": null
+  },
+  {
+   "id": 10671836802,
+   "titre": "Tissot Automatic Uhr",
+   "prix": 130,
+   "cote": 267,
+   "score": 70,
+   "lien": "https://www.vinted.fr/items/10671836802-tissot-automatic-uhr",
+   "date": 1793856895477,
+   "statut": null
+  },
+  {
+   "id": 10671843527,
+   "titre": "Montre Carriage de Timex neuve",
+   "prix": 23,
+   "cote": 124,
+   "score": 68,
+   "lien": "https://www.vinted.fr/items/10671843527-montre-carriage-de-timex-neuve",
+   "date": 1793857199075,
+   "statut": null
+  },
+  {
+   "id": 10671851659,
+   "titre": "Iron annie",
+   "prix": 95,
+   "cote": 196,
+   "score": 55,
+   "lien": "https://www.vinted.fr/items/10671851659-iron-annie",
+   "date": 1793857244732,
    "statut": null
   }
  ],

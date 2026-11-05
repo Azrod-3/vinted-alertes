@@ -1,11 +1,5 @@
 {
  "vues": [
-  "10652198553",
-  "10652295356",
-  "10651855285",
-  "10652276739",
-  "10652260222",
-  "10652250993",
   "10652148017",
   "10653396514",
   "10653396031",
@@ -3999,7 +3993,13 @@
   "10671830937",
   "10671832131",
   "10671832051",
-  "10671837244"
+  "10671837244",
+  "10671839636",
+  "10671842227",
+  "10671864194",
+  "10671867733",
+  "10671875268",
+  "10671874993"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -6404,100 +6404,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:canon 300d eos|1@3075": {
-   "date": 1793684636715,
-   "mediane": 80,
-   "echantillon": 76,
-   "dispersion": 0.69,
-   "fourchette": [
-    30,
-    200
-   ],
-   "exemples": [
-    {
-     "id": 8841082163,
-     "prix": 80
-    },
-    {
-     "id": 7442730881,
-     "prix": 80
-    },
-    {
-     "id": 5757519185,
-     "prix": 80
-    },
-    {
-     "id": 7332316935,
-     "prix": 80
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:sony 980 cyber|2@3075": {
-   "date": 1793684763483,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:canon camara|1@3075": {
-   "date": 1793684764580,
-   "mediane": 120,
-   "echantillon": 37,
-   "dispersion": 1,
-   "fourchette": [
-    45,
-    340
-   ],
-   "exemples": [
-    {
-     "id": 10615240215,
-     "prix": 120
-    },
-    {
-     "id": 10633387675,
-     "prix": 120
-    },
-    {
-     "id": 10560340641,
-     "prix": 120
-    },
-    {
-     "id": 10593544534,
-     "prix": 120
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:panasonic dmc fz20 12x|1@3075": {
-   "date": 1793684891734,
-   "mediane": 48,
-   "echantillon": 4,
-   "dispersion": 0.17,
-   "fourchette": [
-    35,
-    60
-   ],
-   "exemples": [
-    {
-     "id": 10373239718,
-     "prix": 44
-    },
-    {
-     "id": 10054498779,
-     "prix": 52
-    },
-    {
-     "id": 9548424069,
-     "prix": 60
-    },
-    {
-     "id": 10645148475,
-     "prix": 35
-    }
-   ],
-   "niveau": "modèle"
   },
   "modele:nikon mc dc2 disparador|3@3075": {
    "date": 1793685146140,
@@ -42541,8 +42447,8 @@
    "vu": 1793712229707
   },
   "29636980": {
-   "n": 5,
-   "vu": 1793830495386
+   "n": 6,
+   "vu": 1793857579624
   },
   "29996655": {
    "n": 2,
@@ -45145,8 +45051,8 @@
    "vu": 1793712295072
   },
   "3197278191": {
-   "n": 3,
-   "vu": 1793856753611
+   "n": 5,
+   "vu": 1793857009861
   },
   "3197740054": {
    "n": 2,
@@ -45423,9 +45329,9 @@
  },
  "bilan": {
   "depuis": 1793854026929,
-  "passages": 45,
-  "nouvelles": 8,
-  "marque": 1,
+  "passages": 60,
+  "nouvelles": 14,
+  "marque": 4,
   "etat": 0,
   "prix": 3,
   "accessoire": 0,
@@ -45434,8 +45340,8 @@
   "imitation": 0,
   "pro": 0,
   "vendeurSpecialise": 0,
-  "sansCote": 3,
-  "chere": 0,
+  "sansCote": 5,
+  "chere": 1,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
@@ -47123,8 +47029,9 @@
    "cote": 140,
    "score": 47,
    "lien": "https://www.vinted.fr/items/10671707207-camara-reflex-canon-eos-50d",
-   "date": 1793853551366,
-   "statut": null
+   "date": 1793854026917,
+   "statut": "en vente",
+   "verifieA": 1793857643301
   },
   {
    "id": 10671837244,

@@ -1,7 +1,5 @@
 {
  "vues": [
-  "10665927021",
-  "10665922391",
   "10665922209",
   "10665922243",
   "10665921153",
@@ -3999,7 +3997,9 @@
   "10628332270",
   "10671433354",
   "10671438078",
-  "10671513135"
+  "10671513135",
+  "10671541299",
+  "10671584206"
  ],
  "cotes": {
   "marque:fossil": {
@@ -6383,35 +6383,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:lotus acero estilo|3": {
-   "date": 1793678249464,
-   "mediane": 48,
-   "echantillon": 6,
-   "dispersion": 0.63,
-   "fourchette": [
-    28,
-    100
-   ],
-   "exemples": [
-    {
-     "id": 6797826018,
-     "prix": 50
-    },
-    {
-     "id": 7349763976,
-     "prix": 45
-    },
-    {
-     "id": 9157356755,
-     "prix": 59.99
-    },
-    {
-     "id": 8729268956,
-     "prix": 29.9
-    }
-   ],
-   "niveau": "modèle"
   },
   "modele:kienzle carica manuale|2": {
    "date": 1793687659888,
@@ -103401,9 +103372,9 @@
  },
  "bilan": {
   "depuis": 1793849436614,
-  "passages": 19,
-  "nouvelles": 1,
-  "marque": 0,
+  "passages": 40,
+  "nouvelles": 3,
+  "marque": 2,
   "etat": 0,
   "prix": 0,
   "accessoire": 0,

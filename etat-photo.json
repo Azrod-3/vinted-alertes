@@ -1,8 +1,5 @@
 {
  "vues": [
-  "10652417952",
-  "10652323380",
-  "10652393457",
   "10652371386",
   "10652385984",
   "10652369332",
@@ -3999,7 +3996,10 @@
   "10670849901",
   "10670853826",
   "10670898486",
-  "10670910726"
+  "10670910726",
+  "10670934880",
+  "10670931267",
+  "10670950949"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -6314,93 +6314,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:fujifilm f601 finepix|2@3075": {
-   "date": 1793669050860,
-   "mediane": 68,
-   "echantillon": 4,
-   "dispersion": 0.07,
-   "fourchette": [
-    55,
-    70
-   ],
-   "exemples": [
-    {
-     "id": 10241402169,
-     "prix": 70
-    },
-    {
-     "id": 9510972423,
-     "prix": 70
-    },
-    {
-     "id": 9365011021,
-     "prix": 65
-    },
-    {
-     "id": 10644179957,
-     "prix": 55
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:olympus e 500|2@3075": {
-   "date": 1793669304669,
-   "mediane": 160,
-   "echantillon": 30,
-   "dispersion": 0.44,
-   "fourchette": [
-    55,
-    320
-   ],
-   "exemples": [
-    {
-     "id": 10243660663,
-     "prix": 160
-    },
-    {
-     "id": 9323259268,
-     "prix": 160
-    },
-    {
-     "id": 6744358136,
-     "prix": 160
-    },
-    {
-     "id": 10432213675,
-     "prix": 159
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:canon a3500 powershot|2@3075": {
-   "date": 1793669688316,
-   "mediane": 130,
-   "echantillon": 12,
-   "dispersion": 0.34,
-   "fourchette": [
-    80,
-    180
-   ],
-   "exemples": [
-    {
-     "id": 10566996279,
-     "prix": 130
-    },
-    {
-     "id": 9875452880,
-     "prix": 129.95
-    },
-    {
-     "id": 10198086929,
-     "prix": 120
-    },
-    {
-     "id": 9917870908,
-     "prix": 115.95
-    }
-   ],
-   "niveau": "modèle"
   },
   "modele:canon 700 100|2@3075": {
    "date": 1793669943010,
@@ -16851,33 +16764,34 @@
    "niveau": "modèle"
   },
   "marque:dji@3075": {
-   "date": 1793720170539,
-   "mediane": 220,
-   "echantillon": 45,
-   "dispersion": 0.68,
+   "date": 1793841819964,
+   "mediane": 241,
+   "echantillon": 51,
+   "dispersion": 0.64,
    "fourchette": [
-    60,
-    570
+    75,
+    600
    ],
    "exemples": [
     {
-     "id": 10413128775,
-     "prix": 220
+     "id": 9623444090,
+     "prix": 250
     },
     {
-     "id": 7715037973,
-     "prix": 220
+     "id": 8198960787,
+     "prix": 250
     },
     {
-     "id": 9472097029,
-     "prix": 228
+     "id": 7148485635,
+     "prix": 250
     },
     {
-     "id": 6348059573,
-     "prix": 230
+     "id": 5442116998,
+     "prix": 250
     }
    ],
-   "niveau": "marque"
+   "niveau": "marque",
+   "lissee": true
   },
   "modele:minolta aparat foto|2@3076": {
    "date": 1793720172176,
@@ -42284,6 +42198,13 @@
    "echantillon": 1,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:dji soporte camara|3@3075": {
+   "date": 1793841820686,
+   "mediane": null,
+   "echantillon": 0,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -45462,18 +45383,18 @@
  },
  "bilan": {
   "depuis": 1793838200812,
-  "passages": 55,
-  "nouvelles": 21,
+  "passages": 70,
+  "nouvelles": 24,
   "marque": 1,
   "etat": 0,
-  "prix": 4,
+  "prix": 5,
   "accessoire": 0,
   "lot": 0,
   "fausse": 0,
   "imitation": 0,
   "pro": 0,
   "vendeurSpecialise": 0,
-  "sansCote": 12,
+  "sansCote": 14,
   "chere": 4,
   "description": 0,
   "scoreFaible": 0,

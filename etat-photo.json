@@ -1,9 +1,5 @@
 {
  "vues": [
-  "10652371386",
-  "10652385984",
-  "10652369332",
-  "10646215650",
   "10652375583",
   "10651914387",
   "10652361662",
@@ -3999,7 +3995,11 @@
   "10670910726",
   "10670934880",
   "10670931267",
-  "10670950949"
+  "10670950949",
+  "10671023627",
+  "10671035795",
+  "10656824329",
+  "10671079307"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -6315,13 +6315,6 @@
    "niveau": "modèle",
    "lissee": true
   },
-  "modele:canon 700 100|2@3075": {
-   "date": 1793669943010,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
   "modele:sony dsc w80 camara|2@3075": {
    "date": 1793767046352,
    "mediane": 79,
@@ -8273,10 +8266,10 @@
    "lissee": true
   },
   "marque:agfa@3075": {
-   "date": 1793705178609,
+   "date": 1793843151402,
    "mediane": null,
-   "echantillon": 55,
-   "coteTropBasse": 28
+   "echantillon": 52,
+   "coteTropBasse": 27
   },
   "modele:canon 400d eos|1@3075": {
    "date": 1793791716642,
@@ -42205,6 +42198,13 @@
    "echantillon": 0,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:agfa agfaphoto marque|2@3075": {
+   "date": 1793843152003,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -45383,8 +45383,8 @@
  },
  "bilan": {
   "depuis": 1793838200812,
-  "passages": 70,
-  "nouvelles": 24,
+  "passages": 85,
+  "nouvelles": 28,
   "marque": 1,
   "etat": 0,
   "prix": 5,
@@ -45392,9 +45392,9 @@
   "lot": 0,
   "fausse": 0,
   "imitation": 0,
-  "pro": 0,
+  "pro": 1,
   "vendeurSpecialise": 0,
-  "sansCote": 14,
+  "sansCote": 17,
   "chere": 4,
   "description": 0,
   "scoreFaible": 0,

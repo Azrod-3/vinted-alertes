@@ -1,10 +1,5 @@
 {
  "vues": [
-  "10665922209",
-  "10665922243",
-  "10665921153",
-  "10665921354",
-  "10665919994",
   "10665936314",
   "10665933447",
   "10665932611",
@@ -3999,7 +3994,12 @@
   "10671438078",
   "10671513135",
   "10671541299",
-  "10671584206"
+  "10671584206",
+  "10671602886",
+  "10671606159",
+  "10671615729",
+  "10671623882",
+  "10671638435"
  ],
  "cotes": {
   "marque:fossil": {
@@ -73537,6 +73537,10 @@
    "n": 8,
    "vu": 1793633350698
   },
+  "261989378": {
+   "n": 2,
+   "vu": 1793851517741
+  },
   "261996233": {
    "n": 6,
    "vu": 1793633350698
@@ -103372,9 +103376,9 @@
  },
  "bilan": {
   "depuis": 1793849436614,
-  "passages": 40,
-  "nouvelles": 3,
-  "marque": 2,
+  "passages": 61,
+  "nouvelles": 8,
+  "marque": 6,
   "etat": 0,
   "prix": 0,
   "accessoire": 0,
@@ -103388,22 +103392,11 @@
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
-  "alertes": 0
+  "alertes": 1
  },
  "panne": null,
  "panneDebut": null,
  "suivi": [
-  {
-   "id": 10651077427,
-   "titre": "montre longines hydroconquest automatique cadran bleu dégradé, bracelet acier",
-   "prix": 322,
-   "cote": 1200,
-   "score": 92,
-   "lien": "https://www.vinted.fr/items/10651077427-montre-longines-hydroconquest-automatique-cadran-bleu-degrade-bracelet-acier",
-   "date": 1793721290418,
-   "statut": "retiree",
-   "verifieA": 1793724896625
-  },
   {
    "id": 10651236526,
    "titre": "Montre Longines Vintage Plaqué Or avec Date - Ref 18639966",
@@ -106679,7 +106672,8 @@
    "score": 66,
    "lien": "https://www.vinted.fr/items/10628332270-orologio-a-carica-lip",
    "date": 1793848087095,
-   "statut": null
+   "statut": "en vente",
+   "verifieA": 1793851691320
   },
   {
    "id": 10671433354,
@@ -106689,6 +106683,17 @@
    "score": 71,
    "lien": "https://www.vinted.fr/items/10671433354-orologio-da-polso-philip-watch",
    "date": 1793848347394,
+   "statut": "en vente",
+   "verifieA": 1793851950522
+  },
+  {
+   "id": 10671615729,
+   "titre": "Montre breitling",
+   "prix": 300,
+   "cote": 1325,
+   "score": 75,
+   "lien": "https://www.vinted.fr/items/10671615729-montre-breitling",
+   "date": 1793851518300,
    "statut": null
   }
  ],

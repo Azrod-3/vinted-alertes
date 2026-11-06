@@ -1,11 +1,5 @@
 {
  "vues": [
-  "10666092967",
-  "10666072210",
-  "10666026752",
-  "10666062708",
-  "10666016392",
-  "10665974051",
   "10666015694",
   "10665929226",
   "10665932546",
@@ -3999,7 +3993,13 @@
   "10683637798",
   "10683640913",
   "10683675701",
-  "10683673708"
+  "10683673708",
+  "10683813567",
+  "10683823107",
+  "10683827433",
+  "10683834592",
+  "10683831441",
+  "10683831372"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -39144,6 +39144,48 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "modele:fujifilm fujfilm|1@3075": {
+   "date": 1793930584860,
+   "mediane": 45,
+   "echantillon": 8,
+   "dispersion": 0,
+   "fourchette": [
+    31,
+    55
+   ],
+   "exemples": [
+    {
+     "id": 10683834592,
+     "prix": 45
+    },
+    {
+     "id": 10479424401,
+     "prix": 45
+    },
+    {
+     "id": 10175161585,
+     "prix": 45
+    },
+    {
+     "id": 10509663719,
+     "prix": 45
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "marque:polaroid@3075": {
+   "date": 1793930585776,
+   "mediane": null,
+   "echantillon": 67,
+   "coteTropBasse": 25
+  },
+  "modele:polaroid 630 kodak|2@3075": {
+   "date": 1793930586368,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -42848,8 +42890,8 @@
    "vu": 1793663698244
   },
   "3188666385": {
-   "n": 3,
-   "vu": 1793926840387
+   "n": 7,
+   "vu": 1793930584290
   },
   "3188799613": {
    "n": 2,
@@ -43350,8 +43392,8 @@
  },
  "bilan": {
   "depuis": 1793926776885,
-  "passages": 44,
-  "nouvelles": 13,
+  "passages": 57,
+  "nouvelles": 19,
   "marque": 3,
   "etat": 0,
   "prix": 0,
@@ -43360,9 +43402,9 @@
   "fausse": 0,
   "imitation": 0,
   "pro": 0,
-  "vendeurSpecialise": 3,
-  "sansCote": 4,
-  "chere": 3,
+  "vendeurSpecialise": 4,
+  "sansCote": 8,
+  "chere": 4,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,

@@ -1,23 +1,5 @@
 {
  "vues": [
-  "10679886346",
-  "10679874884",
-  "10679861317",
-  "10679858814",
-  "10679856977",
-  "10679843635",
-  "10679840032",
-  "10679826228",
-  "10679803009",
-  "10679823076",
-  "10679780604",
-  "10679778506",
-  "10679771942",
-  "10679777409",
-  "10679772277",
-  "10679767622",
-  "10679762905",
-  "10679760750",
   "10679739428",
   "10679750128",
   "10679741319",
@@ -3999,7 +3981,25 @@
   "10695357922",
   "10695372439",
   "10695371990",
-  "10695381213"
+  "10695381213",
+  "10695400686",
+  "10695398736",
+  "10695401600",
+  "10695407388",
+  "10695402447",
+  "10695408927",
+  "10695423939",
+  "10695421502",
+  "10695439674",
+  "10695441534",
+  "10695446265",
+  "10695450353",
+  "10695464262",
+  "10695470549",
+  "10695478347",
+  "10695475166",
+  "10695481213",
+  "10695052971"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -5440,36 +5440,6 @@
     {
      "id": 8987747686,
      "prix": 59.99
-    }
-   ],
-   "niveau": "modèle",
-   "lissee": true
-  },
-  "modele:canon 1200d eos|2@3075": {
-   "date": 1793833443788,
-   "mediane": 150,
-   "echantillon": 82,
-   "dispersion": 0.4,
-   "fourchette": [
-    90,
-    280
-   ],
-   "exemples": [
-    {
-     "id": 10582561063,
-     "prix": 150
-    },
-    {
-     "id": 10667973880,
-     "prix": 150
-    },
-    {
-     "id": 10628090754,
-     "prix": 150
-    },
-    {
-     "id": 10611252113,
-     "prix": 150
     }
    ],
    "niveau": "modèle",
@@ -7253,171 +7223,6 @@
    "date": 1793977875395,
    "mediane": null,
    "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:olympus 140 superzoom|1@3076": {
-   "date": 1793833444362,
-   "mediane": 45,
-   "echantillon": 3,
-   "dispersion": null,
-   "fourchette": [
-    25,
-    120
-   ],
-   "exemples": [
-    {
-     "id": 10619534930,
-     "prix": 45
-    },
-    {
-     "id": 10670157259,
-     "prix": 25
-    },
-    {
-     "id": 10241270311,
-     "prix": 120
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:olympus 120 rollei|2@3076": {
-   "date": 1793833509546,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:sony dsc w55 cyber|2@3075": {
-   "date": 1793833700943,
-   "mediane": 94,
-   "echantillon": 20,
-   "dispersion": 0.53,
-   "fourchette": [
-    25,
-    179
-   ],
-   "exemples": [
-    {
-     "id": 10670189874,
-     "prix": 89.9
-    },
-    {
-     "id": 10081612975,
-     "prix": 99
-    },
-    {
-     "id": 9762571340,
-     "prix": 99.99
-    },
-    {
-     "id": 10665847883,
-     "prix": 100
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:kodak cine videokamera|1@3076": {
-   "date": 1793833764872,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:canon a430 y2k|2@3075": {
-   "date": 1793833828674,
-   "mediane": 53,
-   "echantillon": 4,
-   "dispersion": 0.1,
-   "fourchette": [
-    32,
-    55
-   ],
-   "exemples": [
-    {
-     "id": 8426050341,
-     "prix": 55
-    },
-    {
-     "id": 8645791178,
-     "prix": 55
-    },
-    {
-     "id": 9436337768,
-     "prix": 50
-    },
-    {
-     "id": 10670197676,
-     "prix": 32
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:fujifilm sl260 camara|1@3075": {
-   "date": 1793833829519,
-   "mediane": 55,
-   "echantillon": 3,
-   "dispersion": null,
-   "fourchette": [
-    50,
-    80
-   ],
-   "exemples": [
-    {
-     "id": 10670197596,
-     "prix": 55
-    },
-    {
-     "id": 8233216216,
-     "prix": 50
-    },
-    {
-     "id": 10480748994,
-     "prix": 80
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:fujifilm s4700 camara|3@3075": {
-   "date": 1793833830299,
-   "mediane": null,
-   "echantillon": 2,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:canon 400d|2@3075": {
-   "date": 1793834023294,
-   "mediane": 80,
-   "echantillon": 74,
-   "dispersion": 0.47,
-   "fourchette": [
-    25,
-    165
-   ],
-   "exemples": [
-    {
-     "id": 10655392927,
-     "prix": 80
-    },
-    {
-     "id": 10623092761,
-     "prix": 80
-    },
-    {
-     "id": 10269968912,
-     "prix": 80
-    },
-    {
-     "id": 10044074059,
-     "prix": 80
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:fujifilm maquina fugifilm|1@3075": {
-   "date": 1793834152932,
-   "mediane": null,
-   "echantillon": 2,
    "dispersion": null,
    "niveau": "modèle"
   },
@@ -19010,9 +18815,9 @@
    "lissee": true
   },
   "modele:canon 105 camara|2@3076": {
-   "date": 1793907608947,
+   "date": 1794006199825,
    "mediane": 75,
-   "echantillon": 11,
+   "echantillon": 13,
    "dispersion": 0.47,
    "fourchette": [
     36,
@@ -19032,11 +18837,12 @@
      "prix": 79
     },
     {
-     "id": 10245156164,
-     "prix": 85
+     "id": 10695407388,
+     "prix": 65
     }
    ],
-   "niveau": "modèle"
+   "niveau": "modèle",
+   "lissee": true
   },
   "modele:nikon l30 20mp|2@3075": {
    "date": 1793907673208,
@@ -37977,6 +37783,35 @@
    "echantillon": 0,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:canon m3 eos|1@3075": {
+   "date": 1794006960411,
+   "mediane": 329,
+   "echantillon": 35,
+   "dispersion": 0.36,
+   "fourchette": [
+    90,
+    520
+   ],
+   "exemples": [
+    {
+     "id": 6163830075,
+     "prix": 329
+    },
+    {
+     "id": 8586316180,
+     "prix": 329.9
+    },
+    {
+     "id": 10219112311,
+     "prix": 335
+    },
+    {
+     "id": 10586641529,
+     "prix": 320
+    }
+   ],
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -38189,8 +38024,8 @@
    "vu": 1793895399144
   },
   "18332642": {
-   "n": 16,
-   "vu": 1793983474381
+   "n": 17,
+   "vu": 1794006769552
   },
   "18374074": {
    "n": 2,
@@ -39149,8 +38984,8 @@
    "vu": 1793993806020
   },
   "56591472": {
-   "n": 25,
-   "vu": 1794003592217
+   "n": 26,
+   "vu": 1794006832831
   },
   "56773463": {
    "n": 5,
@@ -40441,8 +40276,8 @@
    "vu": 1793635837722
   },
   "181810953": {
-   "n": 5,
-   "vu": 1793920393927
+   "n": 7,
+   "vu": 1794006516479
   },
   "181842707": {
    "n": 16,
@@ -42213,8 +42048,8 @@
    "vu": 1793994528086
   },
   "3162059257": {
-   "n": 20,
-   "vu": 1793984440534
+   "n": 22,
+   "vu": 1794006959751
   },
   "3162113072": {
    "n": 2,
@@ -42345,8 +42180,8 @@
    "vu": 1793705164193
   },
   "3176701136": {
-   "n": 22,
-   "vu": 1794005881290
+   "n": 26,
+   "vu": 1794006896042
   },
   "3177585441": {
    "n": 2,
@@ -42581,8 +42416,8 @@
    "vu": 1793909835896
   },
   "3191563393": {
-   "n": 2,
-   "vu": 1793925688035
+   "n": 3,
+   "vu": 1794006199281
   },
   "3192188640": {
    "n": 3,
@@ -42677,8 +42512,8 @@
    "vu": 1793999093198
   },
   "3197200742": {
-   "n": 6,
-   "vu": 1793996076350
+   "n": 9,
+   "vu": 1794006896042
   },
   "3197278191": {
    "n": 47,
@@ -43119,23 +42954,23 @@
  },
  "bilan": {
   "depuis": 1794001091658,
-  "passages": 77,
-  "nouvelles": 136,
-  "marque": 19,
+  "passages": 92,
+  "nouvelles": 154,
+  "marque": 21,
   "etat": 4,
-  "prix": 8,
+  "prix": 10,
   "accessoire": 1,
   "lot": 2,
   "fausse": 0,
   "imitation": 0,
-  "pro": 3,
-  "vendeurSpecialise": 17,
-  "sansCote": 57,
-  "chere": 24,
+  "pro": 4,
+  "vendeurSpecialise": 24,
+  "sansCote": 61,
+  "chere": 25,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
-  "alertes": 1
+  "alertes": 2
  },
  "panne": null,
  "panneDebut": null,
@@ -45898,6 +45733,17 @@
    "score": 61,
    "lien": "https://www.vinted.fr/items/10695031162-digitale-spiegelreflexkamera",
    "date": 1794003273314,
+   "statut": "en vente",
+   "verifieA": 1794006896495
+  },
+  {
+   "id": 10695052971,
+   "titre": "Canon EOS M3",
+   "prix": 90,
+   "cote": 329,
+   "score": 83,
+   "lien": "https://www.vinted.fr/items/10695052971-canon-eos-m3",
+   "date": 1794006961267,
    "statut": null
   }
  ],

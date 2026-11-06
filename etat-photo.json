@@ -1,13 +1,5 @@
 {
  "vues": [
-  "10665391751",
-  "10665387092",
-  "10665388962",
-  "10665387166",
-  "10665342402",
-  "10665364349",
-  "10665362722",
-  "10665334323",
   "10665316179",
   "10665302972",
   "10665232933",
@@ -3999,7 +3991,15 @@
   "10684668029",
   "10684688415",
   "10684684851",
-  "10684678151"
+  "10684678151",
+  "10684691722",
+  "10684696684",
+  "10684701578",
+  "10684712373",
+  "10684723093",
+  "10684722891",
+  "10684727716",
+  "10678816869"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -7403,42 +7403,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:canon ae 1|1@3076": {
-   "date": 1793774480421,
-   "mediane": 125,
-   "echantillon": 71,
-   "dispersion": 0.49,
-   "fourchette": [
-    45,
-    220
-   ],
-   "exemples": [
-    {
-     "id": 10631436929,
-     "prix": 125
-    },
-    {
-     "id": 9819480503,
-     "prix": 125
-    },
-    {
-     "id": 8974722672,
-     "prix": 125
-    },
-    {
-     "id": 10612446215,
-     "prix": 129
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:kodak six 20 vigilant|2@3076": {
-   "date": 1793774544244,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
   },
   "modele:zenit helios 44 2 f 2|2@3076": {
    "date": 1793775369459,
@@ -39086,6 +39050,154 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "modele:sony dsc s90 cyber|2@3075": {
+   "date": 1793946975687,
+   "mediane": 49,
+   "echantillon": 3,
+   "dispersion": null,
+   "fourchette": [
+    40,
+    50
+   ],
+   "exemples": [
+    {
+     "id": 10613780345,
+     "prix": 49
+    },
+    {
+     "id": 9889742322,
+     "prix": 50
+    },
+    {
+     "id": 10684696684,
+     "prix": 40
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:canon a2200 powershot|2@3075": {
+   "date": 1793947039787,
+   "mediane": 118,
+   "echantillon": 24,
+   "dispersion": 0.24,
+   "fourchette": [
+    70,
+    160
+   ],
+   "exemples": [
+    {
+     "id": 9947344193,
+     "prix": 120
+    },
+    {
+     "id": 10647651502,
+     "prix": 120
+    },
+    {
+     "id": 7326040527,
+     "prix": 120
+    },
+    {
+     "id": 8466121995,
+     "prix": 120
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:pentax optio|2@3075": {
+   "date": 1793947231259,
+   "mediane": 30,
+   "echantillon": 76,
+   "dispersion": 0.63,
+   "fourchette": [
+    10,
+    70
+   ],
+   "exemples": [
+    {
+     "id": 10680436996,
+     "prix": 30
+    },
+    {
+     "id": 10618487845,
+     "prix": 30
+    },
+    {
+     "id": 10616256002,
+     "prix": 30
+    },
+    {
+     "id": 10636567318,
+     "prix": 30
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:pentax ws80 camara|2@3075": {
+   "date": 1793947422309,
+   "mediane": 35,
+   "echantillon": 5,
+   "dispersion": 0.74,
+   "fourchette": [
+    25,
+    60
+   ],
+   "exemples": [
+    {
+     "id": 10684722891,
+     "prix": 35
+    },
+    {
+     "id": 9577061604,
+     "prix": 32
+    },
+    {
+     "id": 9482839721,
+     "prix": 25
+    },
+    {
+     "id": 7263695311,
+     "prix": 58
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:pentax asahi spiegelreflexkamera|2@3076": {
+   "date": 1793947549872,
+   "mediane": 80,
+   "echantillon": 7,
+   "dispersion": 0.71,
+   "fourchette": [
+    39,
+    149.99
+   ],
+   "exemples": [
+    {
+     "id": 10398445888,
+     "prix": 80
+    },
+    {
+     "id": 8074741823,
+     "prix": 78
+    },
+    {
+     "id": 10328196494,
+     "prix": 90
+    },
+    {
+     "id": 10611810718,
+     "prix": 40
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:pentax f 3 5 mlu|2@3076": {
+   "date": 1793947677213,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -43304,10 +43416,10 @@
  },
  "bilan": {
   "depuis": 1793941244543,
-  "passages": 87,
-  "nouvelles": 29,
+  "passages": 102,
+  "nouvelles": 37,
   "marque": 5,
-  "etat": 3,
+  "etat": 4,
   "prix": 2,
   "accessoire": 0,
   "lot": 0,
@@ -43316,7 +43428,7 @@
   "pro": 0,
   "vendeurSpecialise": 4,
   "sansCote": 9,
-  "chere": 6,
+  "chere": 13,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,

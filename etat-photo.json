@@ -1,7 +1,5 @@
 {
  "vues": [
-  "10665751736",
-  "10665487552",
   "10665699391",
   "10665711448",
   "10665688940",
@@ -3999,7 +3997,9 @@
   "10684464094",
   "10684466593",
   "10684466295",
-  "10684468396"
+  "10684468396",
+  "10684491676",
+  "10684502202"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -7433,42 +7433,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:olympus 800 accessori|1@3075": {
-   "date": 1793769771489,
-   "mediane": null,
-   "echantillon": 0,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:fujifilm fugifilm|2@3075": {
-   "date": 1793770153170,
-   "mediane": 50,
-   "echantillon": 25,
-   "dispersion": 0.5,
-   "fourchette": [
-    20,
-    100
-   ],
-   "exemples": [
-    {
-     "id": 10251154993,
-     "prix": 50
-    },
-    {
-     "id": 10312693273,
-     "prix": 50
-    },
-    {
-     "id": 8704312679,
-     "prix": 50
-    },
-    {
-     "id": 6837412208,
-     "prix": 50
-    }
-   ],
-   "niveau": "modèle"
   },
   "modele:canon 110 ixus|1@3075": {
    "date": 1793770533195,
@@ -43345,8 +43309,8 @@
  },
  "bilan": {
   "depuis": 1793941244543,
-  "passages": 12,
-  "nouvelles": 5,
+  "passages": 27,
+  "nouvelles": 7,
   "marque": 0,
   "etat": 1,
   "prix": 0,
@@ -43356,7 +43320,7 @@
   "imitation": 0,
   "pro": 0,
   "vendeurSpecialise": 0,
-  "sansCote": 2,
+  "sansCote": 4,
   "chere": 2,
   "description": 0,
   "scoreFaible": 0,

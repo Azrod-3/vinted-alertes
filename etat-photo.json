@@ -1,9 +1,5 @@
 {
  "vues": [
-  "10666160133",
-  "10666143152",
-  "10663662246",
-  "10666128093",
   "10666092967",
   "10666072210",
   "10666026752",
@@ -3999,7 +3995,11 @@
   "10683564140",
   "10683585803",
   "10683595188",
-  "10683606694"
+  "10683606694",
+  "10683637798",
+  "10683640913",
+  "10683675701",
+  "10683673708"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -7463,13 +7463,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:yashica t4 analoge|2@3076": {
-   "date": 1793755540809,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
   },
   "modele:nikon 500 zoom|2@3076": {
    "date": 1793756112443,
@@ -39169,6 +39162,42 @@
    "echantillon": 0,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:kodak collezionisti|2@3076": {
+   "date": 1793928180312,
+   "mediane": null,
+   "echantillon": 2,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:minolta 404 dynax|2@3076": {
+   "date": 1793928576531,
+   "mediane": 43,
+   "echantillon": 26,
+   "dispersion": 0.94,
+   "fourchette": [
+    20,
+    130
+   ],
+   "exemples": [
+    {
+     "id": 6550575485,
+     "prix": 46
+    },
+    {
+     "id": 7457231146,
+     "prix": 39
+    },
+    {
+     "id": 8987578976,
+     "prix": 49
+    },
+    {
+     "id": 9808123617,
+     "prix": 50
+    }
+   ],
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -43375,9 +43404,9 @@
  },
  "bilan": {
   "depuis": 1793926776885,
-  "passages": 15,
-  "nouvelles": 9,
-  "marque": 2,
+  "passages": 29,
+  "nouvelles": 13,
+  "marque": 3,
   "etat": 0,
   "prix": 0,
   "accessoire": 0,
@@ -43386,8 +43415,8 @@
   "imitation": 0,
   "pro": 0,
   "vendeurSpecialise": 3,
-  "sansCote": 2,
-  "chere": 2,
+  "sansCote": 4,
+  "chere": 3,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,

@@ -1,9 +1,5 @@
 {
  "vues": [
-  "10665699391",
-  "10665711448",
-  "10665688940",
-  "10665589519",
   "10665497052",
   "10665563801",
   "10665563186",
@@ -3999,7 +3995,11 @@
   "10684466295",
   "10684468396",
   "10684491676",
-  "10684502202"
+  "10684502202",
+  "10684527596",
+  "10684531852",
+  "10684545282",
+  "10684556261"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -7433,35 +7433,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:canon 110 ixus|1@3075": {
-   "date": 1793770533195,
-   "mediane": 150,
-   "echantillon": 7,
-   "dispersion": 0.43,
-   "fourchette": [
-    71,
-    210
-   ],
-   "exemples": [
-    {
-     "id": 7263407793,
-     "prix": 150
-    },
-    {
-     "id": 10558525766,
-     "prix": 135
-    },
-    {
-     "id": 10434576491,
-     "prix": 135
-    },
-    {
-     "id": 8294288271,
-     "prix": 179
-    }
-   ],
-   "niveau": "modèle"
   },
   "modele:fujifilm s2980 14mp|2@3075": {
    "date": 1793771804259,
@@ -39095,6 +39066,38 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "modele:canon ixusus concept|2@3075": {
+   "date": 1793943085395,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:fujifilm xq2|2@3075": {
+   "date": 1793943212574,
+   "mediane": 550,
+   "echantillon": 3,
+   "dispersion": null,
+   "fourchette": [
+    490,
+    600
+   ],
+   "exemples": [
+    {
+     "id": 10453197598,
+     "prix": 550
+    },
+    {
+     "id": 10194800859,
+     "prix": 600
+    },
+    {
+     "id": 10684531852,
+     "prix": 490
+    }
+   ],
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -43309,9 +43312,9 @@
  },
  "bilan": {
   "depuis": 1793941244543,
-  "passages": 27,
-  "nouvelles": 7,
-  "marque": 0,
+  "passages": 42,
+  "nouvelles": 11,
+  "marque": 1,
   "etat": 1,
   "prix": 0,
   "accessoire": 0,
@@ -43320,8 +43323,8 @@
   "imitation": 0,
   "pro": 0,
   "vendeurSpecialise": 0,
-  "sansCote": 4,
-  "chere": 2,
+  "sansCote": 6,
+  "chere": 3,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,

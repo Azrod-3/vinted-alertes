@@ -1,9 +1,5 @@
 {
  "vues": [
-  "10665836156",
-  "10665821872",
-  "10665808392",
-  "10665794268",
   "10665772753",
   "10665468092",
   "10665755749",
@@ -3999,7 +3995,11 @@
   "10684267415",
   "10638815421",
   "10684359182",
-  "10684399288"
+  "10684399288",
+  "10684411859",
+  "10684422832",
+  "10684424881",
+  "10684434619"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -7463,13 +7463,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:canon polaroid|2@3076": {
-   "date": 1793767240806,
-   "mediane": null,
-   "echantillon": 2,
-   "dispersion": null,
-   "niveau": "modèle"
   },
   "modele:olympus 800 accessori|1@3075": {
    "date": 1793769771489,
@@ -39110,6 +39103,35 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "modele:nikon spiegelreflexkamera|1@3076": {
+   "date": 1793940642781,
+   "mediane": 50,
+   "echantillon": 48,
+   "dispersion": 1,
+   "fourchette": [
+    18,
+    150
+   ],
+   "exemples": [
+    {
+     "id": 10684434619,
+     "prix": 50
+    },
+    {
+     "id": 8492043643,
+     "prix": 50
+    },
+    {
+     "id": 10237596543,
+     "prix": 50
+    },
+    {
+     "id": 10503084248,
+     "prix": 49
+    }
+   ],
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -43320,10 +43342,10 @@
  },
  "bilan": {
   "depuis": 1793933987271,
-  "passages": 92,
-  "nouvelles": 7,
+  "passages": 107,
+  "nouvelles": 11,
   "marque": 1,
-  "etat": 0,
+  "etat": 1,
   "prix": 0,
   "accessoire": 1,
   "lot": 0,
@@ -43331,8 +43353,8 @@
   "imitation": 0,
   "pro": 0,
   "vendeurSpecialise": 1,
-  "sansCote": 2,
-  "chere": 2,
+  "sansCote": 3,
+  "chere": 4,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,

@@ -1,6 +1,5 @@
 {
  "vues": [
-  "10665856043",
   "10665836156",
   "10665821872",
   "10665808392",
@@ -3999,7 +3998,8 @@
   "10684254070",
   "10684267415",
   "10638815421",
-  "10684359182"
+  "10684359182",
+  "10684399288"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -6056,36 +6056,6 @@
    "niveau": "modèle",
    "lissee": true
   },
-  "modele:sony dsc w80 camara|2@3075": {
-   "date": 1793767046352,
-   "mediane": 79,
-   "echantillon": 4,
-   "dispersion": 0.06,
-   "fourchette": [
-    75,
-    148
-   ],
-   "exemples": [
-    {
-     "id": 9574909773,
-     "prix": 80
-    },
-    {
-     "id": 10652599260,
-     "prix": 75
-    },
-    {
-     "id": 10637295362,
-     "prix": 75
-    },
-    {
-     "id": 6259854892,
-     "prix": 148
-    }
-   ],
-   "niveau": "modèle",
-   "lissee": true
-  },
   "modele:sony camara fotos|2@3075": {
    "date": 1793821388308,
    "mediane": 69,
@@ -7493,96 +7463,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:kodak empire baby|1@3076": {
-   "date": 1793767047879,
-   "mediane": null,
-   "echantillon": 2,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:canon 40d pack|1@3075": {
-   "date": 1793767047089,
-   "mediane": 140,
-   "echantillon": 3,
-   "dispersion": null,
-   "fourchette": [
-    110,
-    230
-   ],
-   "exemples": [
-    {
-     "id": 10658153591,
-     "prix": 140
-    },
-    {
-     "id": 9274947083,
-     "prix": 110
-    },
-    {
-     "id": 7024613840,
-     "prix": 230
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:yashica analoge spiegelreflexkamera|1@3076": {
-   "date": 1793767113150,
-   "mediane": 75,
-   "echantillon": 5,
-   "dispersion": 1.4,
-   "fourchette": [
-    45,
-    180
-   ],
-   "exemples": [
-    {
-     "id": 10194363393,
-     "prix": 75
-    },
-    {
-     "id": 10658310835,
-     "prix": 45
-    },
-    {
-     "id": 10601287574,
-     "prix": 45
-    },
-    {
-     "id": 10133029655,
-     "prix": 150
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:nikon fe2|1@3076": {
-   "date": 1793767176901,
-   "mediane": 300,
-   "echantillon": 17,
-   "dispersion": 0.33,
-   "fourchette": [
-    180,
-    450
-   ],
-   "exemples": [
-    {
-     "id": 9647592370,
-     "prix": 300
-    },
-    {
-     "id": 8879799840,
-     "prix": 300
-    },
-    {
-     "id": 9449008245,
-     "prix": 300
-    },
-    {
-     "id": 10235408964,
-     "prix": 310
-    }
-   ],
-   "niveau": "modèle"
   },
   "modele:canon polaroid|2@3076": {
    "date": 1793767240806,
@@ -40846,8 +40726,8 @@
    "vu": 1793822180375
   },
   "111422649": {
-   "n": 2,
-   "vu": 1793687551714
+   "n": 3,
+   "vu": 1793939819070
   },
   "112002878": {
    "n": 3,
@@ -43440,9 +43320,9 @@
  },
  "bilan": {
   "depuis": 1793933987271,
-  "passages": 77,
-  "nouvelles": 6,
-  "marque": 0,
+  "passages": 92,
+  "nouvelles": 7,
+  "marque": 1,
   "etat": 0,
   "prix": 0,
   "accessoire": 1,

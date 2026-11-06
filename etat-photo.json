@@ -1,9 +1,5 @@
 {
  "vues": [
-  "10666400983",
-  "10666389120",
-  "10666378554",
-  "10666360968",
   "10666373118",
   "10666347537",
   "10666345702",
@@ -3999,7 +3995,11 @@
   "10683337528",
   "10683334899",
   "10683363029",
-  "10683359767"
+  "10683359767",
+  "10683403654",
+  "10683414789",
+  "10677919039",
+  "10683438910"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -4357,13 +4357,13 @@
    "coteTropBasse": 14
   },
   "marque:rollei@3076": {
-   "date": 1793829720094,
-   "mediane": 71,
-   "echantillon": 68,
-   "dispersion": 0.78,
+   "date": 1793925624803,
+   "mediane": 67,
+   "echantillon": 71,
+   "dispersion": 0.85,
    "fourchette": [
-    19,
-    180
+    17,
+    175
    ],
    "exemples": [
     {
@@ -7463,64 +7463,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:fujifilm jx500 14mp|2@3075": {
-   "date": 1793752244790,
-   "mediane": 77,
-   "echantillon": 4,
-   "dispersion": 0.05,
-   "fourchette": [
-    59,
-    115
-   ],
-   "exemples": [
-    {
-     "id": 10156787002,
-     "prix": 75
-    },
-    {
-     "id": 10003519277,
-     "prix": 79
-    },
-    {
-     "id": 10650684903,
-     "prix": 59
-    },
-    {
-     "id": 9807617561,
-     "prix": 115
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:olympus camara stylus|3@3075": {
-   "date": 1793752688086,
-   "mediane": 80,
-   "echantillon": 15,
-   "dispersion": 0.38,
-   "fourchette": [
-    35,
-    129
-   ],
-   "exemples": [
-    {
-     "id": 7712290808,
-     "prix": 80
-    },
-    {
-     "id": 10497238988,
-     "prix": 79
-    },
-    {
-     "id": 10070836757,
-     "prix": 75
-    },
-    {
-     "id": 10340322756,
-     "prix": 70
-    }
-   ],
-   "niveau": "modèle"
   },
   "modele:canon 640 1002|1@3075": {
    "date": 1793753385547,
@@ -42971,6 +42913,10 @@
    "n": 8,
    "vu": 1793909835896
   },
+  "3191563393": {
+   "n": 2,
+   "vu": 1793925688035
+  },
   "3192188640": {
    "n": 3,
    "vu": 1793908397009
@@ -43406,9 +43352,9 @@
  },
  "bilan": {
   "depuis": 1793919527307,
-  "passages": 79,
-  "nouvelles": 80,
-  "marque": 13,
+  "passages": 93,
+  "nouvelles": 84,
+  "marque": 14,
   "etat": 2,
   "prix": 3,
   "accessoire": 0,
@@ -43418,7 +43364,7 @@
   "pro": 3,
   "vendeurSpecialise": 20,
   "sansCote": 19,
-  "chere": 17,
+  "chere": 20,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
@@ -45679,7 +45625,8 @@
    "score": 67,
    "lien": "https://www.vinted.fr/items/10683127703-camara-sony-vintage",
    "date": 1793922136003,
-   "statut": null
+   "statut": "en vente",
+   "verifieA": 1793925751782
   }
  ],
  "dernierRecap": "2026-11-05"

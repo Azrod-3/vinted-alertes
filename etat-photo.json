@@ -1,10 +1,5 @@
 {
  "vues": [
-  "10665772753",
-  "10665468092",
-  "10665755749",
-  "10665752523",
-  "10665716524",
   "10665751736",
   "10665487552",
   "10665699391",
@@ -3999,7 +3994,12 @@
   "10684411859",
   "10684422832",
   "10684424881",
-  "10684434619"
+  "10684434619",
+  "10678167330",
+  "10684464094",
+  "10684466593",
+  "10684466295",
+  "10684468396"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -5579,36 +5579,6 @@
    "mediane": null,
    "echantillon": 88,
    "coteTropBasse": 25
-  },
-  "modele:nikon s3000 coolpix|2@3075": {
-   "date": 1793768632357,
-   "mediane": 70,
-   "echantillon": 67,
-   "dispersion": 0.5,
-   "fourchette": [
-    18,
-    140
-   ],
-   "exemples": [
-    {
-     "id": 10433161946,
-     "prix": 70
-    },
-    {
-     "id": 9910917771,
-     "prix": 70
-    },
-    {
-     "id": 8326492986,
-     "prix": 70
-    },
-    {
-     "id": 8893932434,
-     "prix": 70
-    }
-   ],
-   "niveau": "modèle",
-   "lissee": true
   },
   "modele:canon 500d camara|1@3075": {
    "date": 1793793543257,
@@ -39105,30 +39075,59 @@
    "niveau": "modèle"
   },
   "modele:nikon spiegelreflexkamera|1@3076": {
-   "date": 1793940642781,
-   "mediane": 50,
-   "echantillon": 48,
-   "dispersion": 1,
+   "date": 1793941054793,
+   "mediane": 55,
+   "echantillon": 52,
+   "dispersion": 0.87,
    "fourchette": [
     18,
-    150
+    180
    ],
    "exemples": [
+    {
+     "id": 8891471125,
+     "prix": 55
+    },
+    {
+     "id": 9683091369,
+     "prix": 55
+    },
     {
      "id": 10684434619,
      "prix": 50
     },
     {
-     "id": 8492043643,
-     "prix": 50
+     "id": 10472097806,
+     "prix": 60
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:nikon analoge spiegelreflexkamera|1@3076": {
+   "date": 1793941561302,
+   "mediane": 45,
+   "echantillon": 15,
+   "dispersion": 1.29,
+   "fourchette": [
+    19,
+    180
+   ],
+   "exemples": [
+    {
+     "id": 9648967953,
+     "prix": 45
     },
     {
-     "id": 10237596543,
-     "prix": 50
+     "id": 9443061083,
+     "prix": 40
     },
     {
-     "id": 10503084248,
-     "prix": 49
+     "id": 10207292634,
+     "prix": 35
+    },
+    {
+     "id": 9701896555,
+     "prix": 29
     }
    ],
    "niveau": "modèle"
@@ -40503,6 +40502,10 @@
    "n": 2,
    "vu": 1793905041339
   },
+  "79130432": {
+   "n": 2,
+   "vu": 1793941560720
+  },
   "79173844": {
    "n": 2,
    "vu": 1793867545839
@@ -40749,7 +40752,7 @@
   },
   "111422649": {
    "n": 3,
-   "vu": 1793939819070
+   "vu": 1793941054116
   },
   "112002878": {
    "n": 3,
@@ -43341,20 +43344,20 @@
   }
  },
  "bilan": {
-  "depuis": 1793933987271,
-  "passages": 108,
-  "nouvelles": 11,
-  "marque": 1,
+  "depuis": 1793941244543,
+  "passages": 12,
+  "nouvelles": 5,
+  "marque": 0,
   "etat": 1,
   "prix": 0,
-  "accessoire": 1,
+  "accessoire": 0,
   "lot": 0,
   "fausse": 0,
   "imitation": 0,
   "pro": 0,
-  "vendeurSpecialise": 1,
-  "sansCote": 3,
-  "chere": 4,
+  "vendeurSpecialise": 0,
+  "sansCote": 2,
+  "chere": 2,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,

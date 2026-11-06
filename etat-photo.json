@@ -1,14 +1,5 @@
 {
  "vues": [
-  "10664833372",
-  "10665144541",
-  "10665136972",
-  "10665036882",
-  "10665051867",
-  "10665070596",
-  "10664928754",
-  "10664862559",
-  "10665000747",
   "10664773547",
   "10664907650",
   "10664948003",
@@ -3999,7 +3990,16 @@
   "10684787704",
   "10682737813",
   "10684790266",
-  "10684796263"
+  "10684796263",
+  "10684800532",
+  "10684805914",
+  "10684813504",
+  "10684848489",
+  "10684847057",
+  "10684832791",
+  "10679600566",
+  "10684850104",
+  "10684859685"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -5846,36 +5846,6 @@
    "niveau": "modèle",
    "lissee": true
   },
-  "modele:yashica kyocera|2@3076": {
-   "date": 1793776073908,
-   "mediane": 32,
-   "echantillon": 39,
-   "dispersion": 0.61,
-   "fourchette": [
-    10,
-    80
-   ],
-   "exemples": [
-    {
-     "id": 10422562998,
-     "prix": 33
-    },
-    {
-     "id": 8904241564,
-     "prix": 33
-    },
-    {
-     "id": 10499096081,
-     "prix": 35
-    },
-    {
-     "id": 10253055694,
-     "prix": 35
-    }
-   ],
-   "niveau": "modèle",
-   "lissee": true
-  },
   "modele:konica pop|2@3076": {
    "date": 1793888917702,
    "mediane": 25,
@@ -7403,70 +7373,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:canon propose mes|2@3075": {
-   "date": 1793776009026,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:olympus camara regalo|3@3076": {
-   "date": 1793776009781,
-   "mediane": null,
-   "echantillon": 2,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:nikon l22 coolpix|2@3075": {
-   "date": 1793776137796,
-   "mediane": 55,
-   "echantillon": 19,
-   "dispersion": 0.55,
-   "fourchette": [
-    29,
-    100
-   ],
-   "exemples": [
-    {
-     "id": 10402887773,
-     "prix": 55
-    },
-    {
-     "id": 9689879215,
-     "prix": 52
-    },
-    {
-     "id": 10395781088,
-     "prix": 51
-    },
-    {
-     "id": 10056893467,
-     "prix": 51
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:kodak m35 kodac|1@3076": {
-   "date": 1793776264750,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:nikon analoge optik|2@3076": {
-   "date": 1793776391978,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:sony gps della|2@3075": {
-   "date": 1793776838932,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
   },
   "modele:minolta x 700 analoge|2@3076": {
    "date": 1793777219525,
@@ -39206,6 +39112,49 @@
    "echantillon": 1,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:sony dsc h200 20 1|4@3075": {
+   "date": 1793949587202,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:canon t70|2@3076": {
+   "date": 1793949588270,
+   "mediane": 72,
+   "echantillon": 78,
+   "dispersion": 0.68,
+   "fourchette": [
+    20,
+    158
+   ],
+   "exemples": [
+    {
+     "id": 10475603789,
+     "prix": 70
+    },
+    {
+     "id": 10457168472,
+     "prix": 70
+    },
+    {
+     "id": 10169343315,
+     "prix": 74
+    },
+    {
+     "id": 9824998281,
+     "prix": 70
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:konica f1 7 autoreflex|2@3076": {
+   "date": 1793949653090,
+   "mediane": null,
+   "echantillon": 2,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -41586,8 +41535,8 @@
    "vu": 1793884393997
   },
   "244127405": {
-   "n": 4,
-   "vu": 1793905041340
+   "n": 6,
+   "vu": 1793949652054
   },
   "244647118": {
    "n": 3,
@@ -41674,8 +41623,8 @@
    "vu": 1793905041340
   },
   "252181794": {
-   "n": 16,
-   "vu": 1793911889786
+   "n": 17,
+   "vu": 1793949586609
   },
   "252195102": {
    "n": 4,
@@ -43432,19 +43381,19 @@
  },
  "bilan": {
   "depuis": 1793948507732,
-  "passages": 3,
-  "nouvelles": 4,
-  "marque": 1,
+  "passages": 18,
+  "nouvelles": 13,
+  "marque": 3,
   "etat": 1,
-  "prix": 0,
+  "prix": 1,
   "accessoire": 0,
   "lot": 0,
   "fausse": 0,
   "imitation": 0,
   "pro": 0,
-  "vendeurSpecialise": 0,
-  "sansCote": 2,
-  "chere": 0,
+  "vendeurSpecialise": 1,
+  "sansCote": 6,
+  "chere": 1,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,

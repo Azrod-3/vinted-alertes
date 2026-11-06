@@ -1,10 +1,5 @@
 {
  "vues": [
-  "10665497052",
-  "10665563801",
-  "10665563186",
-  "10665562138",
-  "10665559966",
   "10665555948",
   "10665153954",
   "10665455026",
@@ -3999,7 +3994,12 @@
   "10684527596",
   "10684531852",
   "10684545282",
-  "10684556261"
+  "10684556261",
+  "10684566507",
+  "10684567389",
+  "10684584511",
+  "10684591811",
+  "10684600262"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -7433,42 +7433,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:fujifilm s2980 14mp|2@3075": {
-   "date": 1793771804259,
-   "mediane": 60,
-   "echantillon": 4,
-   "dispersion": 0,
-   "fourchette": [
-    55,
-    65
-   ],
-   "exemples": [
-    {
-     "id": 10658490629,
-     "prix": 60
-    },
-    {
-     "id": 9514864974,
-     "prix": 60
-    },
-    {
-     "id": 10528933147,
-     "prix": 65
-    },
-    {
-     "id": 10441719850,
-     "prix": 55
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:olympus e 500 ccd|2@3075": {
-   "date": 1793772060012,
-   "mediane": null,
-   "echantillon": 2,
-   "dispersion": null,
-   "niveau": "modèle"
   },
   "modele:canon ae 1|1@3076": {
    "date": 1793774480421,
@@ -39098,6 +39062,31 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "modele:rollei camara fotos|3@3075": {
+   "date": 1793944681704,
+   "mediane": 45,
+   "echantillon": 3,
+   "dispersion": null,
+   "fourchette": [
+    22,
+    50
+   ],
+   "exemples": [
+    {
+     "id": 7912036117,
+     "prix": 45
+    },
+    {
+     "id": 7201831283,
+     "prix": 50
+    },
+    {
+     "id": 10684591811,
+     "prix": 22
+    }
+   ],
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -39772,6 +39761,10 @@
   "42951497": {
    "n": 2,
    "vu": 1793733890872
+  },
+  "43308342": {
+   "n": 2,
+   "vu": 1793944038456
   },
   "43371119": {
    "n": 2,
@@ -43312,10 +43305,10 @@
  },
  "bilan": {
   "depuis": 1793941244543,
-  "passages": 42,
-  "nouvelles": 11,
-  "marque": 1,
-  "etat": 1,
+  "passages": 57,
+  "nouvelles": 16,
+  "marque": 2,
+  "etat": 3,
   "prix": 0,
   "accessoire": 0,
   "lot": 0,
@@ -43323,8 +43316,8 @@
   "imitation": 0,
   "pro": 0,
   "vendeurSpecialise": 0,
-  "sansCote": 6,
-  "chere": 3,
+  "sansCote": 7,
+  "chere": 4,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,

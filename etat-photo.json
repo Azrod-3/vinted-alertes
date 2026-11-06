@@ -1,6 +1,5 @@
 {
  "vues": [
-  "10665900516",
   "10665838327",
   "10665899366",
   "10665898025",
@@ -3999,7 +3998,8 @@
   "10683877927",
   "10683902256",
   "10683904225",
-  "10683908077"
+  "10683908077",
+  "10683942043"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -7463,20 +7463,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:nikon camaras digitales|2@3075": {
-   "date": 1793759091965,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:minolta sun pakistan|3@3076": {
-   "date": 1793759345389,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
   },
   "modele:mamiya ze 2 camara|1@3076": {
    "date": 1793759853795,
@@ -39186,6 +39172,13 @@
    "echantillon": 1,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:fujica single 8 z800|2@3076": {
+   "date": 1793931999665,
+   "mediane": null,
+   "echantillon": 2,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -43386,8 +43379,8 @@
    "vu": 1793905341522
   },
   "3209797886": {
-   "n": 3,
-   "vu": 1793931537384
+   "n": 4,
+   "vu": 1793931999114
   },
   "3209826264": {
    "n": 2,
@@ -43396,8 +43389,8 @@
  },
  "bilan": {
   "depuis": 1793926776885,
-  "passages": 72,
-  "nouvelles": 24,
+  "passages": 86,
+  "nouvelles": 25,
   "marque": 4,
   "etat": 0,
   "prix": 0,
@@ -43407,7 +43400,7 @@
   "imitation": 0,
   "pro": 0,
   "vendeurSpecialise": 6,
-  "sansCote": 10,
+  "sansCote": 11,
   "chere": 4,
   "description": 0,
   "scoreFaible": 0,

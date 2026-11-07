@@ -1,18 +1,5 @@
 {
  "vues": [
-  "10679894061",
-  "10679874006",
-  "10679885564",
-  "10679856877",
-  "10679835375",
-  "10679842141",
-  "10679819313",
-  "10679754902",
-  "10679783391",
-  "10679704353",
-  "10679704105",
-  "10679691038",
-  "10679676537",
   "10679672924",
   "10679650656",
   "10679633147",
@@ -3999,7 +3986,20 @@
   "10679981313",
   "10679972624",
   "10679969076",
-  "10679968862"
+  "10679968862",
+  "10679963122",
+  "10679942987",
+  "10679950604",
+  "10679941074",
+  "10679939788",
+  "10679934029",
+  "10679931210",
+  "10679910799",
+  "10696906837",
+  "10696914622",
+  "10696926465",
+  "10696929607",
+  "10696934176"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -37777,6 +37777,56 @@
    "echantillon": 2,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:canon a80 pack|2@3075": {
+   "date": 1794027259724,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:sony 330 alpha|1@3075": {
+   "date": 1794027450010,
+   "mediane": 95,
+   "echantillon": 13,
+   "dispersion": 0.11,
+   "fourchette": [
+    60,
+    110
+   ],
+   "exemples": [
+    {
+     "id": 9153687871,
+     "prix": 95
+    },
+    {
+     "id": 10600511084,
+     "prix": 95
+    },
+    {
+     "id": 8870783689,
+     "prix": 90
+    },
+    {
+     "id": 10318468907,
+     "prix": 100
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:mamiya 500 lampada|4@3076": {
+   "date": 1794027766854,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:kodak m522 camara|2@3075": {
+   "date": 1794027831606,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -42277,8 +42327,8 @@
    "vu": 1793996141149
   },
   "3184657944": {
-   "n": 3,
-   "vu": 1793854024233
+   "n": 4,
+   "vu": 1794027259151
   },
   "3185288395": {
    "n": 2,
@@ -42943,8 +42993,8 @@
  },
  "bilan": {
   "depuis": 1794022753387,
-  "passages": 68,
-  "nouvelles": 4,
+  "passages": 83,
+  "nouvelles": 9,
   "marque": 0,
   "etat": 0,
   "prix": 0,
@@ -42954,12 +43004,12 @@
   "imitation": 0,
   "pro": 0,
   "vendeurSpecialise": 0,
-  "sansCote": 3,
-  "chere": 1,
+  "sansCote": 6,
+  "chere": 2,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
-  "alertes": 0
+  "alertes": 1
  },
  "panne": null,
  "panneDebut": null,
@@ -45757,6 +45807,16 @@
    "date": 1794020148315,
    "statut": "en vente",
    "verifieA": 1794023767782
+  },
+  {
+   "id": 10696926465,
+   "titre": "Lampada Mamiya Luxor 500",
+   "prix": 40,
+   "cote": null,
+   "score": 25,
+   "lien": "https://www.vinted.fr/items/10696926465-lampada-mamiya-luxor-500",
+   "date": 1794027767862,
+   "statut": null
   }
  ],
  "dernierRecap": "2026-11-06"

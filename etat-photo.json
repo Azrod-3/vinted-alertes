@@ -1,29 +1,5 @@
 {
  "vues": [
-  "10689704600",
-  "10689724510",
-  "10689722255",
-  "10689721221",
-  "10689722465",
-  "10689720971",
-  "10689718321",
-  "10689717383",
-  "10689735443",
-  "10689759123",
-  "10689757360",
-  "10638879976",
-  "10689748859",
-  "10689753487",
-  "10689761387",
-  "10689780453",
-  "10689789566",
-  "10689789795",
-  "10689816044",
-  "10689815766",
-  "10689813990",
-  "10689808713",
-  "10689817392",
-  "10686373202",
   "10689815451",
   "10689832469",
   "10689827272",
@@ -3999,7 +3975,31 @@
   "10710134122",
   "10710151140",
   "10710158525",
-  "10710157643"
+  "10710157643",
+  "10689701909",
+  "10689697171",
+  "10689693895",
+  "10689649043",
+  "10689706274",
+  "10689705832",
+  "10689704356",
+  "10689638593",
+  "10710166600",
+  "10710177281",
+  "10710193777",
+  "10710192996",
+  "10710195379",
+  "10710205777",
+  "10710224607",
+  "10710230719",
+  "10710241860",
+  "10710276814",
+  "10710273026",
+  "10710280017",
+  "10710284728",
+  "10710283817",
+  "10710287333",
+  "10710299039"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -5729,36 +5729,6 @@
    "niveau": "modèle",
    "lissee": true
   },
-  "modele:pentax super|2@3076": {
-   "date": 1793918443887,
-   "mediane": 80,
-   "echantillon": 56,
-   "dispersion": 0.75,
-   "fourchette": [
-    22,
-    175
-   ],
-   "exemples": [
-    {
-     "id": 9858502405,
-     "prix": 80
-    },
-    {
-     "id": 10584651406,
-     "prix": 80
-    },
-    {
-     "id": 8989512418,
-     "prix": 80
-    },
-    {
-     "id": 8666965128,
-     "prix": 80
-    }
-   ],
-   "niveau": "modèle",
-   "lissee": true
-  },
   "modele:kodak 4000 disc|1@3076": {
    "date": 1794081159780,
    "mediane": 11,
@@ -7284,128 +7254,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:mamiya rank analogica|2@3076": {
-   "date": 1793918507653,
-   "mediane": null,
-   "echantillon": 0,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:minolta point shoot|2@3076": {
-   "date": 1793918509480,
-   "mediane": 35,
-   "echantillon": 31,
-   "dispersion": 0.94,
-   "fourchette": [
-    15,
-    90
-   ],
-   "exemples": [
-    {
-     "id": 10470120000,
-     "prix": 35
-    },
-    {
-     "id": 5873749653,
-     "prix": 35
-    },
-    {
-     "id": 9852600969,
-     "prix": 40
-    },
-    {
-     "id": 10378528374,
-     "prix": 40
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:kodak oude|1@3076": {
-   "date": 1793918825092,
-   "mediane": 20,
-   "echantillon": 16,
-   "dispersion": 0.5,
-   "fourchette": [
-    5,
-    60
-   ],
-   "exemples": [
-    {
-     "id": 10660129269,
-     "prix": 20
-    },
-    {
-     "id": 10628845438,
-     "prix": 20
-    },
-    {
-     "id": 10331667274,
-     "prix": 20
-    },
-    {
-     "id": 6957264212,
-     "prix": 24.99
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:pentax super lenses|2@3076": {
-   "date": 1793918898579,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:yashica 230 af 6892|1@3076": {
-   "date": 1793918899117,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:ricoh 1004 zoomobjektiv|1@3076": {
-   "date": 1793918914813,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:samsung ek gc100 16mp|1@3075": {
-   "date": 1793919143364,
-   "mediane": null,
-   "echantillon": 2,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:nikon maquina|2@3075": {
-   "date": 1793919207389,
-   "mediane": 128,
-   "echantillon": 48,
-   "dispersion": 0.78,
-   "fourchette": [
-    33,
-    310
-   ],
-   "exemples": [
-    {
-     "id": 10505673650,
-     "prix": 130
-    },
-    {
-     "id": 10378053100,
-     "prix": 125
-    },
-    {
-     "id": 10106866148,
-     "prix": 120
-    },
-    {
-     "id": 9017162259,
-     "prix": 120
-    }
-   ],
-   "niveau": "modèle"
   },
   "modele:agfa iso rapid|2@3076": {
    "date": 1794049059805,
@@ -43211,6 +43059,13 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "modele:samsung st150f wifi|2@3075": {
+   "date": 1794091307791,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -43637,6 +43492,10 @@
   "22996507": {
    "n": 16,
    "vu": 1793914851987
+  },
+  "23006506": {
+   "n": 2,
+   "vu": 1794091244161
   },
   "23112622": {
    "n": 2,
@@ -46746,6 +46605,10 @@
    "n": 3,
    "vu": 1794060377600
   },
+  "242673069": {
+   "n": 4,
+   "vu": 1794092013179
+  },
   "242936313": {
    "n": 5,
    "vu": 1793974638434
@@ -49601,19 +49464,19 @@
  },
  "bilan": {
   "depuis": 1794087267645,
-  "passages": 59,
-  "nouvelles": 102,
-  "marque": 16,
-  "etat": 1,
-  "prix": 9,
-  "accessoire": 0,
+  "passages": 74,
+  "nouvelles": 118,
+  "marque": 19,
+  "etat": 2,
+  "prix": 10,
+  "accessoire": 1,
   "lot": 4,
   "fausse": 0,
   "imitation": 0,
-  "pro": 0,
+  "pro": 3,
   "vendeurSpecialise": 4,
-  "sansCote": 48,
-  "chere": 40,
+  "sansCote": 53,
+  "chere": 42,
   "description": 2,
   "scoreFaible": 0,
   "blocages": 0,

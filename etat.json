@@ -1,27 +1,5 @@
 {
  "vues": [
-  "10691614164",
-  "10691612702",
-  "10691591528",
-  "10691632367",
-  "10691629623",
-  "10691628661",
-  "10691627422",
-  "10577563130",
-  "10691627137",
-  "10691627221",
-  "10691626880",
-  "10691626846",
-  "10691624900",
-  "10691622515",
-  "10691637989",
-  "10691635754",
-  "10691635658",
-  "10691635523",
-  "10691633444",
-  "10691633509",
-  "10691633425",
-  "10691649196",
   "10691648557",
   "10691638569",
   "10691646056",
@@ -3999,7 +3977,29 @@
   "10696346351",
   "10696353966",
   "10696360136",
-  "10696362829"
+  "10696362829",
+  "10691596798",
+  "10691595487",
+  "10690173192",
+  "10691594591",
+  "10691613343",
+  "10691611954",
+  "10691610717",
+  "10691610167",
+  "10691592767",
+  "10691601267",
+  "10691620309",
+  "10691619715",
+  "10691619160",
+  "10691615659",
+  "10691615484",
+  "10696401556",
+  "10696409539",
+  "10696414549",
+  "10696430492",
+  "10696430270",
+  "10696445634",
+  "10696449305"
  ],
  "cotes": {
   "marque:fossil": {
@@ -7652,20 +7652,6 @@
    "mediane": null,
    "echantillon": 83,
    "coteTropBasse": 40
-  },
-  "modele:triwa ssab fossil|4": {
-   "date": 1793845689958,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:ruhla anker ddr armbanduhr|2": {
-   "date": 1793845908982,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
   },
   "modele:lip carica|1": {
    "date": 1793848085192,
@@ -29612,6 +29598,13 @@
    "echantillon": 1,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:mido pharaon quarz|1": {
+   "date": 1794018281475,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -30152,8 +30145,8 @@
    "vu": 1793974311476
   },
   "12742193": {
-   "n": 90,
-   "vu": 1793985996791
+   "n": 91,
+   "vu": 1794018674381
   },
   "12758313": {
    "n": 8,
@@ -51334,6 +51327,10 @@
   "81483974": {
    "n": 7,
    "vu": 1793633350698
+  },
+  "81487879": {
+   "n": 2,
+   "vu": 1794018979904
   },
   "81497346": {
    "n": 28,
@@ -99708,8 +99705,8 @@
    "vu": 1793633350698
   },
   "3180136476": {
-   "n": 55,
-   "vu": 1793971582885
+   "n": 56,
+   "vu": 1794018892856
   },
   "3180137941": {
    "n": 16,
@@ -108170,9 +108167,9 @@
  },
  "bilan": {
   "depuis": 1794017973831,
-  "passages": 4,
-  "nouvelles": 0,
-  "marque": 0,
+  "passages": 25,
+  "nouvelles": 7,
+  "marque": 6,
   "etat": 0,
   "prix": 0,
   "accessoire": 0,
@@ -108186,22 +108183,11 @@
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
-  "alertes": 0
+  "alertes": 1
  },
  "panne": null,
  "panneDebut": null,
  "suivi": [
-  {
-   "id": 10678396774,
-   "titre": "Montre  festina",
-   "prix": 13,
-   "cote": 118,
-   "score": 62,
-   "lien": "https://www.vinted.fr/items/10678396774-montre-festina",
-   "date": 1793897360767,
-   "statut": "en vente",
-   "verifieA": 1793901038550
-  },
   {
    "id": 10678367649,
    "titre": "Montre Nixon The Siren SS A1211 – Black/Fatigue – Tropical Gangster",
@@ -111488,6 +111474,17 @@
    "score": 63,
    "lien": "https://www.vinted.fr/items/10696173906-orologio-raketa-big-zero-peterhof-glasnost",
    "date": 1794015138502,
+   "statut": "en vente",
+   "verifieA": 1794018761952
+  },
+  {
+   "id": 10696401556,
+   "titre": "Mido Pharaon quarz, seltenes Modell, Batterie neu",
+   "prix": 75,
+   "cote": 380,
+   "score": 81,
+   "lien": "https://www.vinted.fr/items/10696401556-mido-pharaon-quarz-seltenes-modell-batterie-neu",
+   "date": 1794018282427,
    "statut": null
   }
  ],

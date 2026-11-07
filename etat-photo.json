@@ -1,27 +1,5 @@
 {
  "vues": [
-  "10679271100",
-  "10678752518",
-  "10679246112",
-  "10678912487",
-  "10678822423",
-  "10679207701",
-  "10679141474",
-  "10679031399",
-  "10679164735",
-  "10678751226",
-  "10679115958",
-  "10679112624",
-  "10679132564",
-  "10678601541",
-  "10678960145",
-  "10678649412",
-  "10679112595",
-  "10678848876",
-  "10679078038",
-  "10679049310",
-  "10678159782",
-  "10679029481",
   "10678888507",
   "10678789439",
   "10675395500",
@@ -3999,7 +3977,29 @@
   "10679497581",
   "10679458427",
   "10679452474",
-  "10679375662"
+  "10679375662",
+  "10679447494",
+  "10679402823",
+  "10679227221",
+  "10679277673",
+  "10679406922",
+  "10679250732",
+  "10679309018",
+  "10679328355",
+  "10679318750",
+  "10679302385",
+  "10679021798",
+  "10679303791",
+  "10679293008",
+  "10679186941",
+  "10678665774",
+  "10697013957",
+  "10697012736",
+  "10690668802",
+  "10697022375",
+  "10697025920",
+  "10697030731",
+  "10697034369"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -4362,9 +4362,9 @@
    "coteTropBasse": 30
   },
   "marque:lomography@3076": {
-   "date": 1793913955091,
+   "date": 1794030027568,
    "mediane": null,
-   "echantillon": 66,
+   "echantillon": 69,
    "coteTropBasse": 20
   },
   "marque:lubitel@3076": {
@@ -37704,7 +37704,7 @@
    "niveau": "modèle"
   },
   "modele:sony dsc w630 dsc|2@3075": {
-   "date": 1794024529192,
+   "date": 1794029834361,
    "mediane": 99,
    "echantillon": 23,
    "dispersion": 0.4,
@@ -37733,28 +37733,28 @@
    "niveau": "modèle"
   },
   "modele:sony dsc w170 y2k|1@3075": {
-   "date": 1794025355502,
+   "date": 1794029833559,
    "mediane": null,
    "echantillon": 2,
    "dispersion": null,
    "niveau": "modèle"
   },
   "modele:olympus 14mp 24x|2@3075": {
-   "date": 1794025925666,
+   "date": 1794029832736,
    "mediane": null,
    "echantillon": 2,
    "dispersion": null,
    "niveau": "modèle"
   },
   "modele:canon a80 pack|2@3075": {
-   "date": 1794027259724,
+   "date": 1794029831929,
    "mediane": null,
    "echantillon": 1,
    "dispersion": null,
    "niveau": "modèle"
   },
   "modele:sony 330 alpha|1@3075": {
-   "date": 1794027450010,
+   "date": 1794029831252,
    "mediane": 95,
    "echantillon": 13,
    "dispersion": 0.11,
@@ -37783,14 +37783,21 @@
    "niveau": "modèle"
   },
   "modele:mamiya 500 lampada|4@3076": {
-   "date": 1794027766854,
+   "date": 1794029835125,
    "mediane": null,
    "echantillon": 1,
    "dispersion": null,
    "niveau": "modèle"
   },
   "modele:kodak m522 camara|2@3075": {
-   "date": 1794027831606,
+   "date": 1794029830418,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:lomography diana libri|2@3076": {
+   "date": 1794030028164,
    "mediane": null,
    "echantillon": 1,
    "dispersion": null,
@@ -37931,8 +37938,8 @@
    "vu": 1793907737028
   },
   "16107807": {
-   "n": 2,
-   "vu": 1793995301763
+   "n": 4,
+   "vu": 1794030532414
   },
   "16382523": {
    "n": 2,
@@ -39035,8 +39042,8 @@
    "vu": 1793968290491
   },
   "60185966": {
-   "n": 8,
-   "vu": 1793993806025
+   "n": 9,
+   "vu": 1794029963652
   },
   "60209689": {
    "n": 2,
@@ -40472,7 +40479,7 @@
   },
   "213863410": {
    "n": 2,
-   "vu": 1794025925151
+   "vu": 1794029829732
   },
   "214423875": {
    "n": 2,
@@ -42296,7 +42303,7 @@
   },
   "3184657944": {
    "n": 4,
-   "vu": 1794027259151
+   "vu": 1794029829732
   },
   "3185288395": {
    "n": 2,
@@ -42960,24 +42967,24 @@
   }
  },
  "bilan": {
-  "depuis": 1794022753387,
-  "passages": 111,
-  "nouvelles": 11,
-  "marque": 0,
+  "depuis": 1794029837532,
+  "passages": 14,
+  "nouvelles": 7,
+  "marque": 2,
   "etat": 0,
   "prix": 0,
   "accessoire": 0,
-  "lot": 1,
+  "lot": 0,
   "fausse": 0,
   "imitation": 0,
   "pro": 0,
-  "vendeurSpecialise": 0,
-  "sansCote": 7,
-  "chere": 2,
+  "vendeurSpecialise": 1,
+  "sansCote": 3,
+  "chere": 1,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
-  "alertes": 1
+  "alertes": 0
  },
  "panne": null,
  "panneDebut": null,
@@ -45763,7 +45770,7 @@
    "lien": "https://www.vinted.fr/items/10696423335-camara-sony-cyber-shot-5-mp-plateada-con-funda",
    "date": 1794018555656,
    "statut": "retiree",
-   "verifieA": 1794022182322
+   "verifieA": 1794029836710
   },
   {
    "id": 10696528003,
@@ -45774,7 +45781,7 @@
    "lien": "https://www.vinted.fr/items/10696528003-camara-reflex-analogica-nikon-f-801-de-35-mm-con-accesorios",
    "date": 1794020148315,
    "statut": "en vente",
-   "verifieA": 1794023767782
+   "verifieA": 1794029837519
   },
   {
    "id": 10696926465,

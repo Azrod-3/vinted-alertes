@@ -1,9 +1,5 @@
 {
  "vues": [
-  "10679157700",
-  "10679186623",
-  "10679160003",
-  "10679071485",
   "10678460986",
   "10679016713",
   "10679169561",
@@ -3999,7 +3995,11 @@
   "10696031421",
   "10696046149",
   "10696090601",
-  "10696130489"
+  "10696130489",
+  "10696140625",
+  "10696158511",
+  "10696194697",
+  "10696206833"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -4512,9 +4512,9 @@
    "coteTropBasse": 35
   },
   "marque:ricoh@3076": {
-   "date": 1793918914220,
+   "date": 1794014743587,
    "mediane": null,
-   "echantillon": 80,
+   "echantillon": 79,
    "coteTropBasse": 30
   },
   "marque:praktica@3076": {
@@ -37588,6 +37588,64 @@
    "echantillon": 1,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:ricoh rz800|2@3076": {
+   "date": 1794014744130,
+   "mediane": 38,
+   "echantillon": 4,
+   "dispersion": 0.13,
+   "fourchette": [
+    20,
+    76
+   ],
+   "exemples": [
+    {
+     "id": 9988306573,
+     "prix": 40
+    },
+    {
+     "id": 8710769752,
+     "prix": 35
+    },
+    {
+     "id": 8365288743,
+     "prix": 20
+    },
+    {
+     "id": 10696140625,
+     "prix": 76
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:pentax analog|2@3076": {
+   "date": 1794014934660,
+   "mediane": 53,
+   "echantillon": 18,
+   "dispersion": 0.34,
+   "fourchette": [
+    15,
+    100
+   ],
+   "exemples": [
+    {
+     "id": 10669468845,
+     "prix": 55
+    },
+    {
+     "id": 10496856518,
+     "prix": 55
+    },
+    {
+     "id": 10448485775,
+     "prix": 50
+    },
+    {
+     "id": 10144580272,
+     "prix": 50
+    }
+   ],
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -39908,8 +39966,8 @@
    "vu": 1793905041337
   },
   "162085556": {
-   "n": 2,
-   "vu": 1794014042828
+   "n": 3,
+   "vu": 1794015441264
   },
   "162985612": {
    "n": 36,
@@ -42320,8 +42378,8 @@
    "vu": 1793714195640
   },
   "3198839614": {
-   "n": 2,
-   "vu": 1794000960762
+   "n": 4,
+   "vu": 1794014933935
   },
   "3199086622": {
    "n": 4,
@@ -42741,20 +42799,20 @@
   }
  },
  "bilan": {
-  "depuis": 1794008298066,
-  "passages": 55,
-  "nouvelles": 62,
-  "marque": 16,
-  "etat": 1,
-  "prix": 4,
-  "accessoire": 6,
+  "depuis": 1794015505248,
+  "passages": 2,
+  "nouvelles": 1,
+  "marque": 0,
+  "etat": 0,
+  "prix": 0,
+  "accessoire": 0,
   "lot": 0,
   "fausse": 0,
   "imitation": 0,
-  "pro": 6,
-  "vendeurSpecialise": 8,
-  "sansCote": 14,
-  "chere": 7,
+  "pro": 0,
+  "vendeurSpecialise": 0,
+  "sansCote": 1,
+  "chere": 0,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,

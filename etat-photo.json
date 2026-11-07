@@ -1,8 +1,5 @@
 {
  "vues": [
-  "10679178923",
-  "10679113593",
-  "10678943187",
   "10679141980",
   "10679213423",
   "10679157700",
@@ -3999,7 +3996,10 @@
   "10695920556",
   "10695940035",
   "10695938417",
-  "10695978809"
+  "10695978809",
+  "10696025859",
+  "10696031421",
+  "10696046149"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -7191,34 +7191,6 @@
   },
   "modele:olympus sp 500uz y2k|2@3075": {
    "date": 1793977875395,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:fujifilm xe3|2@3075": {
-   "date": 1793840295351,
-   "mediane": null,
-   "echantillon": 2,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:panasonic numero|2@3075": {
-   "date": 1793840738823,
-   "mediane": null,
-   "echantillon": 2,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:fujifilm xt3 cage|2@3075": {
-   "date": 1793840867812,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:praktica pro|1@3076": {
-   "date": 1793840868356,
    "mediane": null,
    "echantillon": 1,
    "dispersion": null,
@@ -37587,6 +37559,35 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "modele:kodak usa getta|2@3076": {
+   "date": 1794013216196,
+   "mediane": 20,
+   "echantillon": 8,
+   "dispersion": 0.25,
+   "fourchette": [
+    10,
+    39
+   ],
+   "exemples": [
+    {
+     "id": 10512449742,
+     "prix": 20
+    },
+    {
+     "id": 9801099267,
+     "prix": 20
+    },
+    {
+     "id": 6442621105,
+     "prix": 18
+    },
+    {
+     "id": 10476821610,
+     "prix": 23
+    }
+   ],
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -42737,19 +42738,19 @@
  },
  "bilan": {
   "depuis": 1794008298066,
-  "passages": 25,
-  "nouvelles": 57,
-  "marque": 14,
+  "passages": 40,
+  "nouvelles": 60,
+  "marque": 15,
   "etat": 1,
   "prix": 4,
-  "accessoire": 5,
+  "accessoire": 6,
   "lot": 0,
   "fausse": 0,
   "imitation": 0,
   "pro": 6,
   "vendeurSpecialise": 8,
   "sansCote": 14,
-  "chere": 5,
+  "chere": 6,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,

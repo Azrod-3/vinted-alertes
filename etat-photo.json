@@ -1,6 +1,5 @@
 {
  "vues": [
-  "10678460986",
   "10679016713",
   "10679169561",
   "10678342337",
@@ -3999,7 +3998,8 @@
   "10696140625",
   "10696158511",
   "10696194697",
-  "10696206833"
+  "10696206833",
+  "10679071485"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -5289,12 +5289,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "marque:agfa@3075": {
-   "date": 1793843151402,
-   "mediane": null,
-   "echantillon": 52,
-   "coteTropBasse": 27
   },
   "modele:canon 400d eos|1@3075": {
    "date": 1793884909874,
@@ -7194,42 +7188,6 @@
    "mediane": null,
    "echantillon": 1,
    "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:agfa agfaphoto marque|2@3075": {
-   "date": 1793843152003,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:canon ixus digitalkamera|2@3075": {
-   "date": 1793843660403,
-   "mediane": 130,
-   "echantillon": 70,
-   "dispersion": 0.39,
-   "fourchette": [
-    35,
-    200
-   ],
-   "exemples": [
-    {
-     "id": 10669313006,
-     "prix": 130
-    },
-    {
-     "id": 10304167584,
-     "prix": 130
-    },
-    {
-     "id": 10421957273,
-     "prix": 130
-    },
-    {
-     "id": 10271525906,
-     "prix": 129
-    }
-   ],
    "niveau": "modèle"
   },
   "modele:fujifilm s8400|2@3075": {
@@ -42800,7 +42758,7 @@
  },
  "bilan": {
   "depuis": 1794015505248,
-  "passages": 2,
+  "passages": 17,
   "nouvelles": 1,
   "marque": 0,
   "etat": 0,

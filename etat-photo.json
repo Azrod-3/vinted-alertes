@@ -1,7 +1,5 @@
 {
  "vues": [
-  "10679141980",
-  "10679213423",
   "10679157700",
   "10679186623",
   "10679160003",
@@ -3999,7 +3997,9 @@
   "10695978809",
   "10696025859",
   "10696031421",
-  "10696046149"
+  "10696046149",
+  "10696090601",
+  "10696130489"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -7193,13 +7193,6 @@
    "date": 1793977875395,
    "mediane": null,
    "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:dji soporte camara|3@3075": {
-   "date": 1793841820686,
-   "mediane": null,
-   "echantillon": 0,
    "dispersion": null,
    "niveau": "modèle"
   },
@@ -37588,6 +37581,13 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "modele:canon f 2 8 notice|2@3076": {
+   "date": 1794014614338,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -39906,6 +39906,10 @@
   "160609210": {
    "n": 3,
    "vu": 1793905041337
+  },
+  "162085556": {
+   "n": 2,
+   "vu": 1794014042828
   },
   "162985612": {
    "n": 36,
@@ -42738,9 +42742,9 @@
  },
  "bilan": {
   "depuis": 1794008298066,
-  "passages": 40,
-  "nouvelles": 60,
-  "marque": 15,
+  "passages": 55,
+  "nouvelles": 62,
+  "marque": 16,
   "etat": 1,
   "prix": 4,
   "accessoire": 6,
@@ -42750,7 +42754,7 @@
   "pro": 6,
   "vendeurSpecialise": 8,
   "sansCote": 14,
-  "chere": 6,
+  "chere": 7,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,

@@ -1,9 +1,5 @@
 {
  "vues": [
-  "10679005757",
-  "10678889091",
-  "10679039648",
-  "10273711923",
   "10678828790",
   "10679026594",
   "10678981250",
@@ -3999,7 +3995,11 @@
   "10696539138",
   "10678751290",
   "10696566702",
-  "10696595768"
+  "10696595768",
+  "10679013595",
+  "10678611309",
+  "10679063972",
+  "10696618304"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -7185,13 +7185,6 @@
   },
   "modele:olympus sp 500uz y2k|2@3075": {
    "date": 1793977875395,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:fujifilm s8400|2@3075": {
-   "date": 1793849048053,
    "mediane": null,
    "echantillon": 1,
    "dispersion": null,
@@ -37770,6 +37763,13 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "modele:kodak mon|2@3075": {
+   "date": 1794021547699,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -42932,8 +42932,8 @@
  },
  "bilan": {
   "depuis": 1794015505248,
-  "passages": 92,
-  "nouvelles": 19,
+  "passages": 107,
+  "nouvelles": 20,
   "marque": 2,
   "etat": 0,
   "prix": 0,
@@ -42943,7 +42943,7 @@
   "imitation": 0,
   "pro": 0,
   "vendeurSpecialise": 2,
-  "sansCote": 7,
+  "sansCote": 8,
   "chere": 5,
   "description": 0,
   "scoreFaible": 0,
@@ -45733,7 +45733,8 @@
    "score": 68,
    "lien": "https://www.vinted.fr/items/10696423335-camara-sony-cyber-shot-5-mp-plateada-con-funda",
    "date": 1794018555656,
-   "statut": null
+   "statut": "retiree",
+   "verifieA": 1794022182322
   },
   {
    "id": 10696528003,

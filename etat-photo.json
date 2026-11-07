@@ -1,29 +1,5 @@
 {
  "vues": [
-  "10689575178",
-  "10689571319",
-  "10686087021",
-  "10689575617",
-  "10689594305",
-  "10689591043",
-  "10689588683",
-  "10689548444",
-  "10689599188",
-  "10689604314",
-  "10689523927",
-  "10689621232",
-  "10689619044",
-  "10689616607",
-  "10689612608",
-  "10689638147",
-  "10689627642",
-  "10689654189",
-  "10689653715",
-  "10689652568",
-  "10689650851",
-  "10689638421",
-  "10689654245",
-  "10663639160",
   "10689648574",
   "10689672071",
   "10689668659",
@@ -3999,7 +3975,31 @@
   "10709158462",
   "10709817752",
   "10709830849",
-  "10709852371"
+  "10709852371",
+  "10709882639",
+  "10709874056",
+  "10709877425",
+  "10709899185",
+  "10709902306",
+  "10709904001",
+  "10709923776",
+  "10709943851",
+  "10709943686",
+  "10709940076",
+  "10709937751",
+  "10709948821",
+  "10709947391",
+  "10709957827",
+  "10709945963",
+  "10709973377",
+  "10709968222",
+  "10709965834",
+  "10709972582",
+  "10709986975",
+  "10709995772",
+  "10709993102",
+  "10710000570",
+  "10710019471"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -7255,20 +7255,6 @@
    "niveau": "modèle",
    "lissee": true
   },
-  "modele:fujifilm x30 silver|1@3075": {
-   "date": 1793916409527,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:olympus d 750 silver|1@3075": {
-   "date": 1793916410374,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
   "modele:sony digitalkamera|2@3075": {
    "date": 1794042061882,
    "mediane": 80,
@@ -7298,117 +7284,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:olympus 1s camara|2@3075": {
-   "date": 1793916680223,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:canon 500 5mp|2@3075": {
-   "date": 1793916744202,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:olympus camara fotos|1@3075": {
-   "date": 1793916745551,
-   "mediane": 40,
-   "echantillon": 18,
-   "dispersion": 0.5,
-   "fourchette": [
-    20,
-    70
-   ],
-   "exemples": [
-    {
-     "id": 10672322668,
-     "prix": 40
-    },
-    {
-     "id": 10295800920,
-     "prix": 40
-    },
-    {
-     "id": 10170610995,
-     "prix": 39
-    },
-    {
-     "id": 7359891467,
-     "prix": 45
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:olympus 110 camara|4@3076": {
-   "date": 1793916746153,
-   "mediane": null,
-   "echantillon": 2,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:samsung 5x compatta|2@3075": {
-   "date": 1793917001160,
-   "mediane": 50,
-   "echantillon": 3,
-   "dispersion": null,
-   "fourchette": [
-    45,
-    100
-   ],
-   "exemples": [
-    {
-     "id": 10165602215,
-     "prix": 50
-    },
-    {
-     "id": 10682559393,
-     "prix": 45
-    },
-    {
-     "id": 8595404623,
-     "prix": 100
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:nikon 5600 coolpix|2@3075": {
-   "date": 1793917257347,
-   "mediane": 42,
-   "echantillon": 44,
-   "dispersion": 0.43,
-   "fourchette": [
-    15,
-    70
-   ],
-   "exemples": [
-    {
-     "id": 10682596370,
-     "prix": 40
-    },
-    {
-     "id": 9640920407,
-     "prix": 40
-    },
-    {
-     "id": 9420546244,
-     "prix": 40
-    },
-    {
-     "id": 10561698045,
-     "prix": 40
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:olympus fe 5020 y2k|2@3075": {
-   "date": 1793917257917,
-   "mediane": null,
-   "echantillon": 2,
-   "dispersion": null,
-   "niveau": "modèle"
   },
   "modele:kodak c913 easyshare|2@3075": {
    "date": 1793917321768,
@@ -43236,6 +43111,92 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "modele:fujifilm xt200|3@3075": {
+   "date": 1794089392216,
+   "mediane": 580,
+   "echantillon": 4,
+   "dispersion": 0,
+   "fourchette": [
+    550,
+    660
+   ],
+   "exemples": [
+    {
+     "id": 7338599665,
+     "prix": 579.9
+    },
+    {
+     "id": 6965916688,
+     "prix": 579.9
+    },
+    {
+     "id": 9814925269,
+     "prix": 550
+    },
+    {
+     "id": 8272005128,
+     "prix": 660
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:zenza bronica classic|1@3076": {
+   "date": 1794089393097,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:canon 1d guscio|2@3075": {
+   "date": 1794089709843,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:rollei retro voll|2@3075": {
+   "date": 1794089773636,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:fujifilm x t30 solo|1@3075": {
+   "date": 1794089902710,
+   "mediane": 650,
+   "echantillon": 5,
+   "dispersion": 0.54,
+   "fourchette": [
+    486,
+    1100
+   ],
+   "exemples": [
+    {
+     "id": 10304073865,
+     "prix": 650
+    },
+    {
+     "id": 10186887024,
+     "prix": 650
+    },
+    {
+     "id": 10709986975,
+     "prix": 486
+    },
+    {
+     "id": 10708881169,
+     "prix": 1000
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:sony schermo radio|3@3075": {
+   "date": 1794090093375,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -46007,6 +45968,10 @@
    "n": 46,
    "vu": 1794065643304
   },
+  "149616419": {
+   "n": 2,
+   "vu": 1794089839023
+  },
   "149820900": {
    "n": 5,
    "vu": 1793650518163
@@ -46557,7 +46522,7 @@
   },
   "219440415": {
    "n": 3,
-   "vu": 1794087242051
+   "vu": 1794089965848
   },
   "221659179": {
    "n": 2,
@@ -46821,7 +46786,7 @@
   },
   "247668732": {
    "n": 20,
-   "vu": 1794086111728
+   "vu": 1794089772930
   },
   "247906150": {
    "n": 5,
@@ -49320,8 +49285,8 @@
    "vu": 1794070235688
   },
   "3205117872": {
-   "n": 14,
-   "vu": 1794061478320
+   "n": 15,
+   "vu": 1794089839023
   },
   "3205149303": {
    "n": 2,
@@ -49543,6 +49508,10 @@
    "n": 2,
    "vu": 1793968121891
   },
+  "3209837275": {
+   "n": 2,
+   "vu": 1794089709247
+  },
   "3209854489": {
    "n": 2,
    "vu": 1794069320141
@@ -49602,38 +49571,27 @@
  },
  "bilan": {
   "depuis": 1794087267645,
-  "passages": 29,
-  "nouvelles": 60,
-  "marque": 13,
-  "etat": 0,
-  "prix": 2,
+  "passages": 44,
+  "nouvelles": 84,
+  "marque": 14,
+  "etat": 1,
+  "prix": 5,
   "accessoire": 0,
-  "lot": 3,
+  "lot": 4,
   "fausse": 0,
   "imitation": 0,
   "pro": 0,
-  "vendeurSpecialise": 2,
-  "sansCote": 31,
-  "chere": 31,
+  "vendeurSpecialise": 3,
+  "sansCote": 43,
+  "chere": 35,
   "description": 1,
   "scoreFaible": 0,
   "blocages": 0,
-  "alertes": 2
+  "alertes": 3
  },
  "panne": null,
  "panneDebut": null,
  "suivi": [
-  {
-   "id": 10648292332,
-   "titre": "Fotocamera digitale nikon coolpix A300",
-   "prix": 35,
-   "cote": 95,
-   "score": 60,
-   "lien": "https://www.vinted.fr/items/10648292332-fotocamera-digitale-nikon-coolpix-a300",
-   "date": 1793708762569,
-   "statut": "en vente",
-   "verifieA": 1793712427848
-  },
   {
    "id": 10648326033,
    "titre": "Fotocamera digitale nikon coolpix s6400 rossa",
@@ -52914,6 +52872,16 @@
    "score": 52,
    "lien": "https://www.vinted.fr/items/10709765668-samsung-nx20-camera-18-55mm-and-50-200mm-ois-lenses",
    "date": 1794088628641,
+   "statut": null
+  },
+  {
+   "id": 10709945963,
+   "titre": "Digitale Retro Kamera Rollei (voll funktionsfähig)",
+   "prix": 25,
+   "cote": null,
+   "score": 22,
+   "lien": "https://www.vinted.fr/items/10709945963-digitale-retro-kamera-rollei-voll-funktionsfahig",
+   "date": 1794089774583,
    "statut": null
   }
  ],

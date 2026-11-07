@@ -1,10 +1,5 @@
 {
  "vues": [
-  "10679096044",
-  "10678976651",
-  "10679128699",
-  "10679123837",
-  "10678807055",
   "10679095486",
   "10679026894",
   "10679087807",
@@ -3999,7 +3994,12 @@
   "10696309287",
   "10696322849",
   "10678342337",
-  "10696364048"
+  "10696364048",
+  "10696423335",
+  "10696429117",
+  "10696430028",
+  "10696464278",
+  "10696467371"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -4290,9 +4290,9 @@
    "coteTropBasse": 25
   },
   "marque:samsung@3076": {
-   "date": 1793905246102,
+   "date": 1794018684320,
    "mediane": null,
-   "echantillon": 82,
+   "echantillon": 78,
    "coteTropBasse": 20
   },
   "marque:canon@3076": {
@@ -37662,6 +37662,13 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "modele:samsung 20se fino|4@3076": {
+   "date": 1794018685282,
+   "mediane": null,
+   "echantillon": 2,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -39828,6 +39835,10 @@
   "134476699": {
    "n": 2,
    "vu": 1793905041338
+  },
+  "136088715": {
+   "n": 2,
+   "vu": 1794019254891
   },
   "136313445": {
    "n": 2,
@@ -42816,9 +42827,9 @@
  },
  "bilan": {
   "depuis": 1794015505248,
-  "passages": 47,
-  "nouvelles": 5,
-  "marque": 1,
+  "passages": 62,
+  "nouvelles": 10,
+  "marque": 2,
   "etat": 0,
   "prix": 0,
   "accessoire": 0,
@@ -42827,12 +42838,12 @@
   "imitation": 0,
   "pro": 0,
   "vendeurSpecialise": 0,
-  "sansCote": 2,
+  "sansCote": 5,
   "chere": 2,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
-  "alertes": 0
+  "alertes": 1
  },
  "panne": null,
  "panneDebut": null,
@@ -45608,6 +45619,16 @@
    "date": 1794006961267,
    "statut": "en vente",
    "verifieA": 1794011822159
+  },
+  {
+   "id": 10696423335,
+   "titre": "Cámara Sony Cyber-shot 5 MP plateada con funda",
+   "prix": 20,
+   "cote": 81,
+   "score": 68,
+   "lien": "https://www.vinted.fr/items/10696423335-camara-sony-cyber-shot-5-mp-plateada-con-funda",
+   "date": 1794018555656,
+   "statut": null
   }
  ],
  "dernierRecap": "2026-11-06"

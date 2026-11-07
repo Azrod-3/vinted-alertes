@@ -1,26 +1,5 @@
 {
  "vues": [
-  "10689648574",
-  "10689672071",
-  "10689668659",
-  "10689670610",
-  "10689661015",
-  "10689686968",
-  "10689685129",
-  "10689681728",
-  "10689680698",
-  "10689686190",
-  "10689668055",
-  "10689691230",
-  "10689702946",
-  "10689701909",
-  "10689697171",
-  "10689693895",
-  "10689649043",
-  "10689706274",
-  "10689705832",
-  "10689704356",
-  "10689638593",
   "10689704600",
   "10689724510",
   "10689722255",
@@ -3999,7 +3978,28 @@
   "10709995772",
   "10709993102",
   "10710000570",
-  "10710019471"
+  "10710019471",
+  "10689638421",
+  "10689654245",
+  "10663639160",
+  "10710029529",
+  "10710032321",
+  "10708408871",
+  "10710049093",
+  "10710043154",
+  "10710063507",
+  "10710062394",
+  "10710068187",
+  "10710067702",
+  "10710079551",
+  "10710077492",
+  "10707928695",
+  "10710095096",
+  "10710117393",
+  "10710134122",
+  "10710151140",
+  "10710158525",
+  "10710157643"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -4201,9 +4201,9 @@
    "lissee": true
   },
   "marque:fuji@3076": {
-   "date": 1793994077414,
+   "date": 1794091051342,
    "mediane": null,
-   "echantillon": 58,
+   "echantillon": 59,
    "coteTropBasse": 25
   },
   "marque:samsung@3076": {
@@ -5106,36 +5106,6 @@
     {
      "id": 10673510726,
      "prix": 35
-    }
-   ],
-   "niveau": "modèle",
-   "lissee": true
-  },
-  "modele:fujifilm clear shot|2@3076": {
-   "date": 1793917846962,
-   "mediane": 25,
-   "echantillon": 52,
-   "dispersion": 0.52,
-   "fourchette": [
-    7.8,
-    55
-   ],
-   "exemples": [
-    {
-     "id": 10682668609,
-     "prix": 25
-    },
-    {
-     "id": 10560870058,
-     "prix": 25
-    },
-    {
-     "id": 8462135387,
-     "prix": 25
-    },
-    {
-     "id": 8206434008,
-     "prix": 25
     }
    ],
    "niveau": "modèle",
@@ -7285,64 +7255,6 @@
    "niveau": "modèle",
    "lissee": true
   },
-  "modele:kodak c913 easyshare|2@3075": {
-   "date": 1793917321768,
-   "mediane": 50,
-   "echantillon": 13,
-   "dispersion": 0.42,
-   "fourchette": [
-    25,
-    79.99
-   ],
-   "exemples": [
-    {
-     "id": 9987049135,
-     "prix": 50
-    },
-    {
-     "id": 7169940546,
-     "prix": 49.99
-    },
-    {
-     "id": 10362669752,
-     "prix": 55
-    },
-    {
-     "id": 10100211086,
-     "prix": 45
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:fujifilm a310 finepix|2@3075": {
-   "date": 1793917910765,
-   "mediane": 35,
-   "echantillon": 9,
-   "dispersion": 0.34,
-   "fourchette": [
-    13,
-    45
-   ],
-   "exemples": [
-    {
-     "id": 10682675779,
-     "prix": 35
-    },
-    {
-     "id": 10338527147,
-     "prix": 35
-    },
-    {
-     "id": 10357708017,
-     "prix": 33
-    },
-    {
-     "id": 10390211358,
-     "prix": 39
-    }
-   ],
-   "niveau": "modèle"
-  },
   "modele:kodak 155x instamatic|2@3076": {
    "date": 1794011820873,
    "mediane": 10,
@@ -7372,71 +7284,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:samsung es28 5x|2@3075": {
-   "date": 1793918123206,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:pentax y2k|2@3075": {
-   "date": 1793918250917,
-   "mediane": 40,
-   "echantillon": 41,
-   "dispersion": 0.5,
-   "fourchette": [
-    17,
-    70
-   ],
-   "exemples": [
-    {
-     "id": 10409795363,
-     "prix": 40
-    },
-    {
-     "id": 10410556629,
-     "prix": 40
-    },
-    {
-     "id": 10548725637,
-     "prix": 39
-    },
-    {
-     "id": 10575946683,
-     "prix": 38.99
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:samsung es75|1@3075": {
-   "date": 1793918251437,
-   "mediane": 65,
-   "echantillon": 15,
-   "dispersion": 0.25,
-   "fourchette": [
-    28,
-    89
-   ],
-   "exemples": [
-    {
-     "id": 9523210804,
-     "prix": 65
-    },
-    {
-     "id": 9654838098,
-     "prix": 64.99
-    },
-    {
-     "id": 9908889655,
-     "prix": 69.99
-    },
-    {
-     "id": 10462747891,
-     "prix": 70
-    }
-   ],
-   "niveau": "modèle"
   },
   "modele:mamiya rank analogica|2@3076": {
    "date": 1793918507653,
@@ -21957,12 +21804,12 @@
    "niveau": "modèle"
   },
   "modele:kodak c613 camara|2@3075": {
-   "date": 1793996790349,
+   "date": 1794090986524,
    "mediane": 50,
    "echantillon": 6,
    "dispersion": 0.36,
    "fourchette": [
-    37.5,
+    38,
     60
    ],
    "exemples": [
@@ -21983,7 +21830,8 @@
      "prix": 60
     }
    ],
-   "niveau": "modèle"
+   "niveau": "modèle",
+   "lissee": true
   },
   "modele:nikon l23 coolpix|3@3075": {
    "date": 1793996791479,
@@ -43197,6 +43045,172 @@
    "echantillon": 1,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:nikon d70 dslr|1@3075": {
+   "date": 1794090284893,
+   "mediane": 48,
+   "echantillon": 4,
+   "dispersion": 0.11,
+   "fourchette": [
+    40,
+    185
+   ],
+   "exemples": [
+    {
+     "id": 10399775621,
+     "prix": 50
+    },
+    {
+     "id": 10708408871,
+     "prix": 45
+    },
+    {
+     "id": 9998733859,
+     "prix": 40
+    },
+    {
+     "id": 9709522152,
+     "prix": 185
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:zenit 1960s soviet|2@3076": {
+   "date": 1794090285691,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:canon camara fotos|2@3075": {
+   "date": 1794090412764,
+   "mediane": 90,
+   "echantillon": 27,
+   "dispersion": 0.81,
+   "fourchette": [
+    30,
+    250
+   ],
+   "exemples": [
+    {
+     "id": 10330194052,
+     "prix": 90
+    },
+    {
+     "id": 10042542950,
+     "prix": 90
+    },
+    {
+     "id": 10600493864,
+     "prix": 90
+    },
+    {
+     "id": 10114930815,
+     "prix": 90
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:nikon 2800 coolpix|3@3075": {
+   "date": 1794090413276,
+   "mediane": null,
+   "echantillon": 2,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:agfa lederetui bereitschaftstasche|1@3076": {
+   "date": 1794090414190,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:canon 115hs ixus|2@3075": {
+   "date": 1794090856604,
+   "mediane": 120,
+   "echantillon": 5,
+   "dispersion": 0.52,
+   "fourchette": [
+    80,
+    200
+   ],
+   "exemples": [
+    {
+     "id": 10292660408,
+     "prix": 120
+    },
+    {
+     "id": 10680523164,
+     "prix": 110
+    },
+    {
+     "id": 10352537124,
+     "prix": 80
+    },
+    {
+     "id": 10306521261,
+     "prix": 172
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:nikon l100 coolpix|1@3075": {
+   "date": 1794091050579,
+   "mediane": 64,
+   "echantillon": 39,
+   "dispersion": 0.47,
+   "fourchette": [
+    30,
+    130
+   ],
+   "exemples": [
+    {
+     "id": 9534810836,
+     "prix": 63.9
+    },
+    {
+     "id": 10710158525,
+     "prix": 65
+    },
+    {
+     "id": 9859727849,
+     "prix": 65
+    },
+    {
+     "id": 5436380996,
+     "prix": 66
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:fuji dl 90|1@3076": {
+   "date": 1794091051937,
+   "mediane": 39,
+   "echantillon": 11,
+   "dispersion": 0.51,
+   "fourchette": [
+    11,
+    65
+   ],
+   "exemples": [
+    {
+     "id": 10042495747,
+     "prix": 39
+    },
+    {
+     "id": 9458501925,
+     "prix": 35
+    },
+    {
+     "id": 7664367483,
+     "prix": 30
+    },
+    {
+     "id": 9972699919,
+     "prix": 50
+    }
+   ],
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -43315,6 +43329,10 @@
   "14116168": {
    "n": 3,
    "vu": 1794056552197
+  },
+  "14129847": {
+   "n": 2,
+   "vu": 1794090158020
   },
   "14354162": {
    "n": 2,
@@ -44517,8 +44535,8 @@
    "vu": 1793712229707
   },
   "51459671": {
-   "n": 6,
-   "vu": 1793822507420
+   "n": 7,
+   "vu": 1794090284291
   },
   "51642372": {
    "n": 2,
@@ -44583,6 +44601,10 @@
   "53315537": {
    "n": 2,
    "vu": 1793979627390
+  },
+  "53564522": {
+   "n": 2,
+   "vu": 1794090792926
   },
   "54035979": {
    "n": 2,
@@ -45969,8 +45991,8 @@
    "vu": 1794065643304
   },
   "149616419": {
-   "n": 2,
-   "vu": 1794089839023
+   "n": 3,
+   "vu": 1794090477237
   },
   "149820900": {
    "n": 5,
@@ -46786,7 +46808,7 @@
   },
   "247668732": {
    "n": 20,
-   "vu": 1794089772930
+   "vu": 1794090477237
   },
   "247906150": {
    "n": 5,
@@ -47880,6 +47902,10 @@
    "n": 6,
    "vu": 1794042510419
   },
+  "3132774095": {
+   "n": 2,
+   "vu": 1794090221190
+  },
   "3132996692": {
    "n": 4,
    "vu": 1793970736116
@@ -48908,6 +48934,10 @@
    "n": 6,
    "vu": 1793923883795
   },
+  "3190822070": {
+   "n": 2,
+   "vu": 1794090603644
+  },
   "3190939987": {
    "n": 2,
    "vu": 1794071719973
@@ -49571,20 +49601,20 @@
  },
  "bilan": {
   "depuis": 1794087267645,
-  "passages": 44,
-  "nouvelles": 84,
-  "marque": 14,
+  "passages": 59,
+  "nouvelles": 102,
+  "marque": 16,
   "etat": 1,
-  "prix": 5,
+  "prix": 9,
   "accessoire": 0,
   "lot": 4,
   "fausse": 0,
   "imitation": 0,
   "pro": 0,
-  "vendeurSpecialise": 3,
-  "sansCote": 43,
-  "chere": 35,
-  "description": 1,
+  "vendeurSpecialise": 4,
+  "sansCote": 48,
+  "chere": 40,
+  "description": 2,
   "scoreFaible": 0,
   "blocages": 0,
   "alertes": 3
@@ -52825,26 +52855,6 @@
    "statut": null
   },
   {
-   "id": 10702884949,
-   "titre": "Conon",
-   "prix": 70,
-   "cote": 170,
-   "score": 62,
-   "lien": "https://www.vinted.fr/items/10702884949-conon",
-   "date": 1794084696055,
-   "statut": null
-  },
-  {
-   "id": 10709166662,
-   "titre": "Nikon D 40 mit Sigma Objektiv DC 18-200 mm",
-   "prix": 80,
-   "cote": 147,
-   "score": 51,
-   "lien": "https://www.vinted.fr/items/10709166662-nikon-d-40-mit-sigma-objektiv-dc-18-200-mm",
-   "date": 1794085533624,
-   "statut": null
-  },
-  {
    "id": 10709419507,
    "titre": "Sony Cybershot W810",
    "prix": 75,
@@ -52855,6 +52865,28 @@
    "statut": null
   },
   {
+   "id": 10702884949,
+   "titre": "Conon",
+   "prix": 70,
+   "cote": 170,
+   "score": 64,
+   "lien": "https://www.vinted.fr/items/10702884949-conon",
+   "date": 1794087266052,
+   "statut": "retiree",
+   "verifieA": 1794090920790
+  },
+  {
+   "id": 10709166662,
+   "titre": "Nikon D 40 mit Sigma Objektiv DC 18-200 mm",
+   "prix": 80,
+   "cote": 147,
+   "score": 51,
+   "lien": "https://www.vinted.fr/items/10709166662-nikon-d-40-mit-sigma-objektiv-dc-18-200-mm",
+   "date": 1794087266397,
+   "statut": "en vente",
+   "verifieA": 1794090921773
+  },
+  {
    "id": 10709549268,
    "titre": "Sony Cybershot W810",
    "prix": 75,
@@ -52862,7 +52894,8 @@
    "score": 62,
    "lien": "https://www.vinted.fr/items/10709549268-sony-cybershot-w810",
    "date": 1794087412946,
-   "statut": null
+   "statut": "en vente",
+   "verifieA": 1794091052651
   },
   {
    "id": 10709765668,

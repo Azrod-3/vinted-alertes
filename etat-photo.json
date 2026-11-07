@@ -1,12 +1,5 @@
 {
  "vues": [
-  "10679095486",
-  "10679026894",
-  "10679087807",
-  "10676201483",
-  "10679051534",
-  "10678993093",
-  "10678751290",
   "10679013595",
   "10678611309",
   "10679063972",
@@ -3999,7 +3992,14 @@
   "10696429117",
   "10696430028",
   "10696464278",
-  "10696467371"
+  "10696467371",
+  "10696515915",
+  "10696523139",
+  "10696521958",
+  "10696528003",
+  "10696533970",
+  "10696541197",
+  "10696539138"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -37669,6 +37669,78 @@
    "echantillon": 2,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:agfa camara analogica|2@3076": {
+   "date": 1794019955405,
+   "mediane": 24,
+   "echantillon": 18,
+   "dispersion": 0.64,
+   "fourchette": [
+    6,
+    32
+   ],
+   "exemples": [
+    {
+     "id": 10651761676,
+     "prix": 25
+    },
+    {
+     "id": 10483980694,
+     "prix": 25
+    },
+    {
+     "id": 10474664218,
+     "prix": 25
+    },
+    {
+     "id": 10192383479,
+     "prix": 22
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:agfa s 60 clack|2@3076": {
+   "date": 1794020082635,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:kodak disc 7 camara|2@3076": {
+   "date": 1794020083277,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:nikon f 801 camara|2@3076": {
+   "date": 1794020147317,
+   "mediane": 123,
+   "echantillon": 8,
+   "dispersion": 0.49,
+   "fourchette": [
+    50,
+    250
+   ],
+   "exemples": [
+    {
+     "id": 9654697223,
+     "prix": 125
+    },
+    {
+     "id": 7466455279,
+     "prix": 120
+    },
+    {
+     "id": 6078651853,
+     "prix": 110
+    },
+    {
+     "id": 6303898272,
+     "prix": 90
+    }
+   ],
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -39837,8 +39909,8 @@
    "vu": 1793905041338
   },
   "136088715": {
-   "n": 2,
-   "vu": 1794019254891
+   "n": 7,
+   "vu": 1794020338048
   },
   "136313445": {
    "n": 2,
@@ -42589,8 +42661,8 @@
    "vu": 1793632600305
   },
   "3204821431": {
-   "n": 6,
-   "vu": 1793993806021
+   "n": 7,
+   "vu": 1794020338048
   },
   "3204824796": {
    "n": 3,
@@ -42827,8 +42899,8 @@
  },
  "bilan": {
   "depuis": 1794015505248,
-  "passages": 62,
-  "nouvelles": 10,
+  "passages": 77,
+  "nouvelles": 17,
   "marque": 2,
   "etat": 0,
   "prix": 0,
@@ -42837,13 +42909,13 @@
   "fausse": 0,
   "imitation": 0,
   "pro": 0,
-  "vendeurSpecialise": 0,
-  "sansCote": 5,
-  "chere": 2,
+  "vendeurSpecialise": 2,
+  "sansCote": 7,
+  "chere": 4,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
-  "alertes": 1
+  "alertes": 2
  },
  "panne": null,
  "panneDebut": null,
@@ -45628,6 +45700,16 @@
    "score": 68,
    "lien": "https://www.vinted.fr/items/10696423335-camara-sony-cyber-shot-5-mp-plateada-con-funda",
    "date": 1794018555656,
+   "statut": null
+  },
+  {
+   "id": 10696528003,
+   "titre": "cámara réflex analógica nikon f-801 de 35 mm con accesorios",
+   "prix": 25,
+   "cote": 123,
+   "score": 66,
+   "lien": "https://www.vinted.fr/items/10696528003-camara-reflex-analogica-nikon-f-801-de-35-mm-con-accesorios",
+   "date": 1794020148315,
    "statut": null
   }
  ],

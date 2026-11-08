@@ -1,11 +1,5 @@
 {
  "vues": [
-  "10704758432",
-  "10704758093",
-  "10704757501",
-  "10704757036",
-  "10704755700",
-  "10704755112",
   "10704748627",
   "10704747253",
   "10704777835",
@@ -3999,7 +3993,13 @@
   "10712064514",
   "10712071628",
   "10712075982",
-  "10712077574"
+  "10712077574",
+  "10712091259",
+  "10709928427",
+  "10712106037",
+  "10712105880",
+  "10712107580",
+  "10712110239"
  ],
  "cotes": {
   "marque:fossil": {
@@ -7768,42 +7768,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:tissot visodate|2": {
-   "date": 1793942612793,
-   "mediane": 250,
-   "echantillon": 63,
-   "dispersion": 0.66,
-   "fourchette": [
-    89,
-    600
-   ],
-   "exemples": [
-    {
-     "id": 10182444546,
-     "prix": 250
-    },
-    {
-     "id": 10594942895,
-     "prix": 250
-    },
-    {
-     "id": 8629651465,
-     "prix": 250
-    },
-    {
-     "id": 9313428096,
-     "prix": 250
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:bulova esposizione|2": {
-   "date": 1793942657465,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
   },
   "modele:bulova scrivania|2": {
    "date": 1793943179517,
@@ -32059,6 +32023,35 @@
    "echantillon": 1,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:ice watch pierre leclercq|4": {
+   "date": 1794115451535,
+   "mediane": 50,
+   "echantillon": 4,
+   "dispersion": 0.4,
+   "fourchette": [
+    25,
+    80
+   ],
+   "exemples": [
+    {
+     "id": 10712105880,
+     "prix": 60
+    },
+    {
+     "id": 3626194078,
+     "prix": 40
+    },
+    {
+     "id": 10060853146,
+     "prix": 25
+    },
+    {
+     "id": 9249726933,
+     "prix": 80
+    }
+   ],
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -45151,8 +45144,8 @@
    "vu": 1793875665610
   },
   "52400773": {
-   "n": 23,
-   "vu": 1794114243442
+   "n": 24,
+   "vu": 1794115451060
   },
   "52422944": {
    "n": 36,
@@ -114401,19 +114394,19 @@
  },
  "bilan": {
   "depuis": 1794114717536,
-  "passages": 0,
-  "nouvelles": 0,
-  "marque": 0,
+  "passages": 21,
+  "nouvelles": 6,
+  "marque": 3,
   "etat": 0,
   "prix": 0,
   "accessoire": 0,
   "lot": 0,
-  "fausse": 0,
+  "fausse": 1,
   "imitation": 0,
   "pro": 0,
   "vendeurSpecialise": 0,
-  "sansCote": 0,
-  "chere": 0,
+  "sansCote": 1,
+  "chere": 1,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,

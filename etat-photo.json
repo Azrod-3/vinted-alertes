@@ -1,18 +1,5 @@
 {
  "vues": [
-  "10712833220",
-  "10712830896",
-  "10712830665",
-  "10712842718",
-  "10712678282",
-  "10712845712",
-  "10712846799",
-  "10712857164",
-  "10712855693",
-  "10712852605",
-  "10712859103",
-  "10712868094",
-  "10712862855",
   "10712858900",
   "10712875497",
   "10712872972",
@@ -3999,7 +3986,20 @@
   "10728512643",
   "10728511485",
   "10728511203",
-  "10728515318"
+  "10728515318",
+  "10728532805",
+  "10728530182",
+  "10728526015",
+  "10728544368",
+  "10728543037",
+  "10728540745",
+  "10728550502",
+  "10728563663",
+  "10728563454",
+  "10728580349",
+  "10728587392",
+  "10728585246",
+  "10728585277"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -5501,12 +5501,12 @@
    "lissee": true
   },
   "modele:nikon l27 coolpix|2@3075": {
-   "date": 1794073865819,
+   "date": 1794176906168,
    "mediane": 75,
-   "echantillon": 42,
-   "dispersion": 0.39,
+   "echantillon": 44,
+   "dispersion": 0.33,
    "fourchette": [
-    20,
+    30,
     130
    ],
    "exemples": [
@@ -54638,6 +54638,50 @@
    "echantillon": 1,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:nikon l810 coolpix|2@3075": {
+   "date": 1794177162894,
+   "mediane": 70,
+   "echantillon": 75,
+   "dispersion": 0.3,
+   "fourchette": [
+    30,
+    110
+   ],
+   "exemples": [
+    {
+     "id": 10293069784,
+     "prix": 70
+    },
+    {
+     "id": 5940969477,
+     "prix": 70
+    },
+    {
+     "id": 9759670846,
+     "prix": 70
+    },
+    {
+     "id": 6626630599,
+     "prix": 70
+    }
+   ],
+   "niveau": "modèle",
+   "lissee": true
+  },
+  "modele:nikon nikonos viseur|1@3076": {
+   "date": 1794177033988,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:fuji maquina fotografia|2@3076": {
+   "date": 1794177098797,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -58017,6 +58061,10 @@
    "n": 3,
    "vu": 1794069234766
   },
+  "136860526": {
+   "n": 2,
+   "vu": 1794176905522
+  },
   "137208117": {
    "n": 4,
    "vu": 1793953743132
@@ -58374,8 +58422,8 @@
    "vu": 1794045971516
   },
   "174815979": {
-   "n": 3,
-   "vu": 1794174984551
+   "n": 4,
+   "vu": 1794176905522
   },
   "174874701": {
    "n": 2,
@@ -60286,8 +60334,8 @@
    "vu": 1794127767055
   },
   "311507207": {
-   "n": 12,
-   "vu": 1794012138082
+   "n": 13,
+   "vu": 1794177098241
   },
   "311792704": {
    "n": 2,
@@ -60994,8 +61042,8 @@
    "vu": 1793968208469
   },
   "3152545653": {
-   "n": 4,
-   "vu": 1794175048892
+   "n": 6,
+   "vu": 1794176970205
   },
   "3152572862": {
    "n": 7,
@@ -62696,38 +62744,27 @@
  },
  "bilan": {
   "depuis": 1794173695081,
-  "passages": 48,
-  "nouvelles": 123,
-  "marque": 25,
+  "passages": 54,
+  "nouvelles": 136,
+  "marque": 27,
   "etat": 5,
-  "prix": 14,
-  "accessoire": 1,
-  "lot": 1,
+  "prix": 15,
+  "accessoire": 2,
+  "lot": 2,
   "fausse": 0,
   "imitation": 0,
   "pro": 2,
   "vendeurSpecialise": 12,
-  "sansCote": 36,
-  "chere": 25,
+  "sansCote": 40,
+  "chere": 28,
   "description": 1,
   "scoreFaible": 0,
   "blocages": 0,
-  "alertes": 1
+  "alertes": 2
  },
  "panne": null,
  "panneDebut": null,
  "suivi": [
-  {
-   "id": 10671837244,
-   "titre": "Canon IXUS 185 Rouge – 20MP – Zoom 8x – Excellent état",
-   "prix": 75,
-   "cote": 160,
-   "score": 59,
-   "lien": "https://www.vinted.fr/items/10671837244-canon-ixus-185-rouge-20mp-zoom-8x-excellent-etat",
-   "date": 1793856881664,
-   "statut": "retiree",
-   "verifieA": 1793860508804
-  },
   {
    "id": 10671988664,
    "titre": "Appareil photo Rollei",
@@ -65997,7 +66034,8 @@
    "score": 65,
    "lien": "https://www.vinted.fr/items/10727810509-maquina-fotografica-canon",
    "date": 1794173372614,
-   "statut": null
+   "statut": "en vente",
+   "verifieA": 1794177034865
   },
   {
    "id": 10728474201,
@@ -66007,6 +66045,16 @@
    "score": 54,
    "lien": "https://www.vinted.fr/items/10728474201-canon-ixus-145",
    "date": 1794176521102,
+   "statut": null
+  },
+  {
+   "id": 10728540745,
+   "titre": "Macchina fotografica Rollei",
+   "prix": 65,
+   "cote": null,
+   "score": 22,
+   "lien": "https://www.vinted.fr/items/10728540745-macchina-fotografica-rollei",
+   "date": 1794176906975,
    "statut": null
   }
  ],

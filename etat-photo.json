@@ -1,17 +1,5 @@
 {
  "vues": [
-  "10711278192",
-  "10713197518",
-  "10710290516",
-  "10713214946",
-  "10713207386",
-  "10713216112",
-  "10713213642",
-  "10713237093",
-  "10713232269",
-  "10713231304",
-  "10713250426",
-  "10713247712",
   "10692994354",
   "10692991148",
   "10692985264",
@@ -3999,7 +3987,19 @@
   "10730915638",
   "10730917355",
   "10730915435",
-  "10730925389"
+  "10730925389",
+  "10730931336",
+  "10719398348",
+  "10730941236",
+  "10730940089",
+  "10730943872",
+  "10730945615",
+  "10730945481",
+  "10730951510",
+  "10730960636",
+  "10730968098",
+  "10730968807",
+  "10730973114"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -5268,9 +5268,9 @@
    "lissee": true
   },
   "modele:nikon l820 coolpix|2@3075": {
-   "date": 1794080642533,
-   "mediane": 81,
-   "echantillon": 64,
+   "date": 1794206525590,
+   "mediane": 80,
+   "echantillon": 67,
    "dispersion": 0.38,
    "fourchette": [
     35,
@@ -5286,11 +5286,11 @@
      "prix": 80
     },
     {
-     "id": 9972313829,
+     "id": 10225793643,
      "prix": 80
     },
     {
-     "id": 10225793643,
+     "id": 9972313829,
      "prix": 80
     }
    ],
@@ -7878,35 +7878,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:rollei collection|1@3076": {
-   "date": 1794033324220,
-   "mediane": 180,
-   "echantillon": 4,
-   "dispersion": 1.11,
-   "fourchette": [
-    60,
-    325
-   ],
-   "exemples": [
-    {
-     "id": 10692985264,
-     "prix": 80
-    },
-    {
-     "id": 10184099556,
-     "prix": 280
-    },
-    {
-     "id": 10697157119,
-     "prix": 60
-    },
-    {
-     "id": 10693061114,
-     "prix": 325
-    }
-   ],
-   "niveau": "modèle"
   },
   "modele:canon a480 digicam|2@3075": {
    "date": 1794034023443,
@@ -54960,6 +54931,49 @@
    "echantillon": 2,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:kodak c613 easyshare|1@3075": {
+   "date": 1794205762750,
+   "mediane": 43,
+   "echantillon": 28,
+   "dispersion": 0.41,
+   "fourchette": [
+    14.99,
+    89
+   ],
+   "exemples": [
+    {
+     "id": 10620595751,
+     "prix": 43
+    },
+    {
+     "id": 10679404529,
+     "prix": 42.5
+    },
+    {
+     "id": 10691244067,
+     "prix": 42
+    },
+    {
+     "id": 10055807216,
+     "prix": 42
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:kodak six 16 camara|2@3076": {
+   "date": 1794205826528,
+   "mediane": null,
+   "echantillon": 2,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:panasonic rom|4@3075": {
+   "date": 1794206081074,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -59415,6 +59429,10 @@
    "n": 2,
    "vu": 1793878611484
   },
+  "240487420": {
+   "n": 2,
+   "vu": 1794206334925
+  },
   "240689733": {
    "n": 33,
    "vu": 1794167008131
@@ -61520,8 +61538,8 @@
    "vu": 1794154651025
   },
   "3157464107": {
-   "n": 6,
-   "vu": 1794156029597
+   "n": 8,
+   "vu": 1794206207739
   },
   "3157852138": {
    "n": 9,
@@ -63082,19 +63100,19 @@
  },
  "bilan": {
   "depuis": 1794202452115,
-  "passages": 50,
-  "nouvelles": 21,
-  "marque": 2,
+  "passages": 65,
+  "nouvelles": 33,
+  "marque": 5,
   "etat": 0,
   "prix": 1,
-  "accessoire": 1,
+  "accessoire": 3,
   "lot": 0,
   "fausse": 0,
   "imitation": 0,
   "pro": 0,
-  "vendeurSpecialise": 0,
-  "sansCote": 11,
-  "chere": 6,
+  "vendeurSpecialise": 1,
+  "sansCote": 14,
+  "chere": 9,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,

@@ -1,11 +1,5 @@
 {
  "vues": [
-  "10713172333",
-  "10705552057",
-  "10713181729",
-  "10713176955",
-  "10713191147",
-  "10713187915",
   "10711278192",
   "10713197518",
   "10710290516",
@@ -3999,7 +3993,13 @@
   "10730862775",
   "10730869830",
   "10730875998",
-  "10730879079"
+  "10730879079",
+  "10730897036",
+  "10730906527",
+  "10730915638",
+  "10730917355",
+  "10730915435",
+  "10730925389"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -7878,35 +7878,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:sony dsc p10 cyber|1@3075": {
-   "date": 1794031992803,
-   "mediane": 49,
-   "echantillon": 11,
-   "dispersion": 0.37,
-   "fourchette": [
-    20,
-    80
-   ],
-   "exemples": [
-    {
-     "id": 9895970621,
-     "prix": 49
-    },
-    {
-     "id": 10469421232,
-     "prix": 50
-    },
-    {
-     "id": 7509800261,
-     "prix": 50
-    },
-    {
-     "id": 10697093332,
-     "prix": 40
-    }
-   ],
-   "niveau": "modèle"
   },
   "modele:rollei collection|1@3076": {
    "date": 1794033324220,
@@ -54953,6 +54924,42 @@
    "echantillon": 1,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:minolta dynax|2@3076": {
+   "date": 1794205442368,
+   "mediane": 29,
+   "echantillon": 75,
+   "dispersion": 0.75,
+   "fourchette": [
+    8.5,
+    69
+   ],
+   "exemples": [
+    {
+     "id": 10704072941,
+     "prix": 29.3
+    },
+    {
+     "id": 10705481024,
+     "prix": 29.3
+    },
+    {
+     "id": 10692050464,
+     "prix": 29.4
+    },
+    {
+     "id": 10725956798,
+     "prix": 28
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:agfa 5008 agfamatic|2@3076": {
+   "date": 1794205633406,
+   "mediane": null,
+   "echantillon": 2,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -63075,19 +63082,19 @@
  },
  "bilan": {
   "depuis": 1794202452115,
-  "passages": 35,
-  "nouvelles": 15,
+  "passages": 50,
+  "nouvelles": 21,
   "marque": 2,
   "etat": 0,
-  "prix": 0,
+  "prix": 1,
   "accessoire": 1,
   "lot": 0,
   "fausse": 0,
   "imitation": 0,
   "pro": 0,
   "vendeurSpecialise": 0,
-  "sansCote": 7,
-  "chere": 5,
+  "sansCote": 11,
+  "chere": 6,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,

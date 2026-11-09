@@ -1,11 +1,5 @@
 {
  "vues": [
-  "10713097570",
-  "10713101652",
-  "10713106292",
-  "10713125861",
-  "10713123074",
-  "10713113176",
   "10713132326",
   "10713131456",
   "10713128051",
@@ -3999,7 +3993,13 @@
   "10730752472",
   "10730754071",
   "10730759347",
-  "10730766174"
+  "10730766174",
+  "10730772325",
+  "10730781629",
+  "10730788572",
+  "10730794141",
+  "10730800313",
+  "10730802846"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -7848,99 +7848,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:sony dsc w630 dsc|2@3075": {
-   "date": 1794029834361,
-   "mediane": 99,
-   "echantillon": 23,
-   "dispersion": 0.4,
-   "fourchette": [
-    69,
-    160
-   ],
-   "exemples": [
-    {
-     "id": 9724246928,
-     "prix": 99
-    },
-    {
-     "id": 6934722598,
-     "prix": 100
-    },
-    {
-     "id": 10377459331,
-     "prix": 90
-    },
-    {
-     "id": 10643500267,
-     "prix": 90
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:sony dsc w170 y2k|1@3075": {
-   "date": 1794029833559,
-   "mediane": null,
-   "echantillon": 2,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:olympus 14mp 24x|2@3075": {
-   "date": 1794029832736,
-   "mediane": null,
-   "echantillon": 2,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:canon a80 pack|2@3075": {
-   "date": 1794029831929,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:sony 330 alpha|1@3075": {
-   "date": 1794029831252,
-   "mediane": 95,
-   "echantillon": 13,
-   "dispersion": 0.11,
-   "fourchette": [
-    60,
-    110
-   ],
-   "exemples": [
-    {
-     "id": 9153687871,
-     "prix": 95
-    },
-    {
-     "id": 10600511084,
-     "prix": 95
-    },
-    {
-     "id": 8870783689,
-     "prix": 90
-    },
-    {
-     "id": 10318468907,
-     "prix": 100
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:mamiya 500 lampada|4@3076": {
-   "date": 1794029835125,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:kodak m522 camara|2@3075": {
-   "date": 1794029830418,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
   },
   "modele:lomography diana libri|2@3076": {
    "date": 1794030028164,
@@ -54898,6 +54805,42 @@
    "echantillon": 1,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:chinon analogica|2@3076": {
+   "date": 1794202706876,
+   "mediane": 30,
+   "echantillon": 31,
+   "dispersion": 0.57,
+   "fourchette": [
+    10,
+    70
+   ],
+   "exemples": [
+    {
+     "id": 10622543518,
+     "prix": 30
+    },
+    {
+     "id": 10718496071,
+     "prix": 30
+    },
+    {
+     "id": 10270944898,
+     "prix": 30
+    },
+    {
+     "id": 10603889339,
+     "prix": 35
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:zeiss contax iiia|2@3076": {
+   "date": 1794202770673,
+   "mediane": null,
+   "echantillon": 2,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -58290,8 +58233,8 @@
    "vu": 1794155041359
   },
   "136709972": {
-   "n": 2,
-   "vu": 1794201814366
+   "n": 3,
+   "vu": 1794202770093
   },
   "136767133": {
    "n": 3,
@@ -63011,21 +62954,21 @@
   }
  },
  "bilan": {
-  "depuis": 1794195218763,
-  "passages": 104,
-  "nouvelles": 14,
-  "marque": 2,
-  "etat": 1,
+  "depuis": 1794202452115,
+  "passages": 5,
+  "nouvelles": 3,
+  "marque": 0,
+  "etat": 0,
   "prix": 0,
   "accessoire": 0,
-  "lot": 1,
+  "lot": 0,
   "fausse": 0,
   "imitation": 0,
   "pro": 0,
-  "vendeurSpecialise": 2,
-  "sansCote": 4,
-  "chere": 3,
-  "description": 1,
+  "vendeurSpecialise": 0,
+  "sansCote": 2,
+  "chere": 1,
+  "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
   "alertes": 0

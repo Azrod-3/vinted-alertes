@@ -1,13 +1,5 @@
 {
  "vues": [
-  "10692994354",
-  "10692991148",
-  "10692985264",
-  "10692957604",
-  "10692981965",
-  "10692950567",
-  "10692939230",
-  "10692935113",
   "10692921796",
   "10692871052",
   "10692863778",
@@ -3999,7 +3991,15 @@
   "10730960636",
   "10730968098",
   "10730968807",
-  "10730973114"
+  "10730973114",
+  "10730976822",
+  "10730974200",
+  "10730974451",
+  "10730978018",
+  "10730980692",
+  "10730992686",
+  "10730989904",
+  "10731024026"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -7878,103 +7878,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:canon a480 digicam|2@3075": {
-   "date": 1794034023443,
-   "mediane": 80,
-   "echantillon": 3,
-   "dispersion": null,
-   "fourchette": [
-    70,
-    95
-   ],
-   "exemples": [
-    {
-     "id": 10697196099,
-     "prix": 80
-    },
-    {
-     "id": 8780766325,
-     "prix": 70
-    },
-    {
-     "id": 10374807398,
-     "prix": 95
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:kodak 1960s 224|2@3076": {
-   "date": 1794034213823,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:samsung blabla cent|4@3075": {
-   "date": 1794034340840,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:nikon p520 coolpix|1@3075": {
-   "date": 1794034404709,
-   "mediane": 150,
-   "echantillon": 45,
-   "dispersion": 0.43,
-   "fourchette": [
-    60,
-    250
-   ],
-   "exemples": [
-    {
-     "id": 10501481689,
-     "prix": 150
-    },
-    {
-     "id": 9645867333,
-     "prix": 150
-    },
-    {
-     "id": 10042408028,
-     "prix": 150
-    },
-    {
-     "id": 9502608617,
-     "prix": 150
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:sony dsc p72 3 2mp|2@3075": {
-   "date": 1794034660599,
-   "mediane": 52,
-   "echantillon": 4,
-   "dispersion": 0.1,
-   "fourchette": [
-    24,
-    70
-   ],
-   "exemples": [
-    {
-     "id": 8314922169,
-     "prix": 49.95
-    },
-    {
-     "id": 10697231865,
-     "prix": 55
-    },
-    {
-     "id": 7801337043,
-     "prix": 70
-    },
-    {
-     "id": 10640900490,
-     "prix": 24
-    }
-   ],
-   "niveau": "modèle"
   },
   "modele:kodak c 142 easy|2@3075": {
    "date": 1794034851168,
@@ -54974,6 +54877,64 @@
    "echantillon": 1,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:canon prima mini|1@3076": {
+   "date": 1794206972323,
+   "mediane": 70,
+   "echantillon": 35,
+   "dispersion": 1,
+   "fourchette": [
+    18,
+    163.99
+   ],
+   "exemples": [
+    {
+     "id": 10730992686,
+     "prix": 70
+    },
+    {
+     "id": 10406329503,
+     "prix": 70
+    },
+    {
+     "id": 7300477318,
+     "prix": 70
+    },
+    {
+     "id": 9647001087,
+     "prix": 69
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:agfa optima|1@3076": {
+   "date": 1794206973143,
+   "mediane": 20,
+   "echantillon": 72,
+   "dispersion": 0.85,
+   "fourchette": [
+    5,
+    50
+   ],
+   "exemples": [
+    {
+     "id": 10730989904,
+     "prix": 20
+    },
+    {
+     "id": 10294711036,
+     "prix": 20
+    },
+    {
+     "id": 10426949790,
+     "prix": 20
+    },
+    {
+     "id": 10206423731,
+     "prix": 20
+    }
+   ],
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -57054,8 +57015,8 @@
    "vu": 1793817924598
   },
   "62960703": {
-   "n": 4,
-   "vu": 1794150374005
+   "n": 5,
+   "vu": 1794206654089
   },
   "63043632": {
    "n": 3,
@@ -58242,8 +58203,8 @@
    "vu": 1794177195312
   },
   "129753340": {
-   "n": 2,
-   "vu": 1794159224342
+   "n": 3,
+   "vu": 1794206971599
   },
   "129811332": {
    "n": 5,
@@ -60974,8 +60935,8 @@
    "vu": 1793983924715
   },
   "3133013608": {
-   "n": 22,
-   "vu": 1794124995960
+   "n": 23,
+   "vu": 1794207543734
   },
   "3133128050": {
    "n": 4,
@@ -63100,19 +63061,19 @@
  },
  "bilan": {
   "depuis": 1794202452115,
-  "passages": 65,
-  "nouvelles": 33,
-  "marque": 5,
+  "passages": 80,
+  "nouvelles": 41,
+  "marque": 8,
   "etat": 0,
-  "prix": 1,
+  "prix": 2,
   "accessoire": 3,
   "lot": 0,
   "fausse": 0,
   "imitation": 0,
   "pro": 0,
   "vendeurSpecialise": 1,
-  "sansCote": 14,
-  "chere": 9,
+  "sansCote": 16,
+  "chere": 11,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,

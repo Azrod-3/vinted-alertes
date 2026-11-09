@@ -1,11 +1,5 @@
 {
  "vues": [
-  "10713159074",
-  "10713156735",
-  "10713155702",
-  "10713129765",
-  "10713152857",
-  "10713172570",
   "10713172333",
   "10705552057",
   "10713181729",
@@ -3999,7 +3993,13 @@
   "10730824641",
   "10730836441",
   "10730838837",
-  "10730840653"
+  "10730840653",
+  "10730843912",
+  "10730847927",
+  "10730862775",
+  "10730869830",
+  "10730875998",
+  "10730879079"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -7878,20 +7878,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:nikon s3000 12 0|2@3075": {
-   "date": 1794031357885,
-   "mediane": null,
-   "echantillon": 2,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:zeiss ilon nittar|1@3076": {
-   "date": 1794031421641,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
   },
   "modele:sony dsc p10 cyber|1@3075": {
    "date": 1794031992803,
@@ -54924,6 +54910,49 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "modele:canon 400d camara|3@3075": {
+   "date": 1794203855643,
+   "mediane": 160,
+   "echantillon": 25,
+   "dispersion": 0.56,
+   "fourchette": [
+    60,
+    300
+   ],
+   "exemples": [
+    {
+     "id": 9385681412,
+     "prix": 160
+    },
+    {
+     "id": 7158016247,
+     "prix": 160
+    },
+    {
+     "id": 10152311007,
+     "prix": 170
+    },
+    {
+     "id": 9787698986,
+     "prix": 150
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:canon fotografico obbiettivi|2@3075": {
+   "date": 1794204363434,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:canon lote cine|2@3076": {
+   "date": 1794204553608,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -61503,6 +61532,10 @@
    "n": 4,
    "vu": 1793967949916
   },
+  "3158790843": {
+   "n": 3,
+   "vu": 1794203854226
+  },
   "3159094647": {
    "n": 3,
    "vu": 1794159224341
@@ -61618,6 +61651,10 @@
   "3163077303": {
    "n": 6,
    "vu": 1794071847741
+  },
+  "3163254187": {
+   "n": 2,
+   "vu": 1794204616962
   },
   "3163903515": {
    "n": 3,
@@ -63038,19 +63075,19 @@
  },
  "bilan": {
   "depuis": 1794202452115,
-  "passages": 20,
-  "nouvelles": 9,
+  "passages": 35,
+  "nouvelles": 15,
   "marque": 2,
   "etat": 0,
   "prix": 0,
-  "accessoire": 0,
+  "accessoire": 1,
   "lot": 0,
   "fausse": 0,
   "imitation": 0,
   "pro": 0,
   "vendeurSpecialise": 0,
-  "sansCote": 3,
-  "chere": 4,
+  "sansCote": 7,
+  "chere": 5,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,

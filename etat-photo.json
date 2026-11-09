@@ -1,10 +1,5 @@
 {
  "vues": [
-  "10716038372",
-  "10716023571",
-  "10716020057",
-  "10716017457",
-  "10716011537",
   "10715993569",
   "10715934719",
   "10715967389",
@@ -3999,7 +3994,12 @@
   "10734458674",
   "10734502753",
   "10734492264",
-  "10734451842"
+  "10734451842",
+  "10734465110",
+  "10734479416",
+  "10734466270",
+  "10734472558",
+  "10734467252"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -8380,64 +8380,6 @@
    "niveau": "modèle",
    "lissee": true
   },
-  "modele:samsung nv24hd|2@3075": {
-   "date": 1794058046344,
-   "mediane": 65,
-   "echantillon": 4,
-   "dispersion": 0.48,
-   "fourchette": [
-    35,
-    120
-   ],
-   "exemples": [
-    {
-     "id": 8009272100,
-     "prix": 80
-    },
-    {
-     "id": 10701803198,
-     "prix": 49
-    },
-    {
-     "id": 10056255114,
-     "prix": 35
-    },
-    {
-     "id": 9629450822,
-     "prix": 120
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:nikon af240sv|2@3076": {
-   "date": 1794058048112,
-   "mediane": 31,
-   "echantillon": 38,
-   "dispersion": 0.81,
-   "fourchette": [
-    10,
-    75
-   ],
-   "exemples": [
-    {
-     "id": 10271705849,
-     "prix": 30
-    },
-    {
-     "id": 10502197623,
-     "prix": 32
-    },
-    {
-     "id": 9850873133,
-     "prix": 30
-    },
-    {
-     "id": 9926516548,
-     "prix": 30
-    }
-   ],
-   "niveau": "modèle"
-  },
   "modele:canon g5 powershot|2@3075": {
    "date": 1794159239402,
    "mediane": 100,
@@ -8467,85 +8409,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:kodak 32g charmera|2@3075": {
-   "date": 1794058112878,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:sony tx20 cyber|1@3075": {
-   "date": 1794058113638,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:minolta 22 5 45mm vectis|2@3076": {
-   "date": 1794058114726,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:nikon f3|1@3076": {
-   "date": 1794058115479,
-   "mediane": 500,
-   "echantillon": 42,
-   "dispersion": 0.63,
-   "fourchette": [
-    160,
-    1150
-   ],
-   "exemples": [
-    {
-     "id": 10318661043,
-     "prix": 500
-    },
-    {
-     "id": 8734881519,
-     "prix": 500
-    },
-    {
-     "id": 8753046637,
-     "prix": 499
-    },
-    {
-     "id": 9798538786,
-     "prix": 485
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:sony camara cyber|3@3075": {
-   "date": 1794058180501,
-   "mediane": 80,
-   "echantillon": 44,
-   "dispersion": 0.36,
-   "fourchette": [
-    20,
-    140
-   ],
-   "exemples": [
-    {
-     "id": 10650733663,
-     "prix": 80
-    },
-    {
-     "id": 10664874729,
-     "prix": 80
-    },
-    {
-     "id": 10391604141,
-     "prix": 80
-    },
-    {
-     "id": 10532655224,
-     "prix": 84
-    }
-   ],
-   "niveau": "modèle"
   },
   "modele:sony dsc w180 cyber|2@3075": {
    "date": 1794145517224,
@@ -8577,13 +8440,6 @@
    "niveau": "modèle",
    "lissee": true
   },
-  "modele:fujifilm x h2 f2 8|2@3075": {
-   "date": 1794058244955,
-   "mediane": null,
-   "echantillon": 2,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
   "modele:minolta vectis|1@3076": {
    "date": 1794146625745,
    "mediane": 18,
@@ -8613,13 +8469,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:pentax e40 optio|4@3075": {
-   "date": 1794058309709,
-   "mediane": null,
-   "echantillon": 2,
-   "dispersion": null,
-   "niveau": "modèle"
   },
   "modele:konica fx735 zoom|2@3076": {
    "date": 1794058374310,
@@ -53739,8 +53588,8 @@
    "vu": 1793632600306
   },
   "22645483": {
-   "n": 32,
-   "vu": 1794135576625
+   "n": 33,
+   "vu": 1794231037188
   },
   "22677358": {
    "n": 4,
@@ -55275,8 +55124,8 @@
    "vu": 1793720826949
   },
   "60315849": {
-   "n": 21,
-   "vu": 1794227582828
+   "n": 22,
+   "vu": 1794231037188
   },
   "60415961": {
    "n": 2,
@@ -61629,18 +61478,18 @@
  },
  "bilan": {
   "depuis": 1794227646121,
-  "passages": 50,
-  "nouvelles": 75,
-  "marque": 8,
+  "passages": 55,
+  "nouvelles": 80,
+  "marque": 9,
   "etat": 2,
-  "prix": 3,
+  "prix": 4,
   "accessoire": 2,
   "lot": 1,
-  "fausse": 1,
+  "fausse": 2,
   "imitation": 0,
   "pro": 0,
-  "vendeurSpecialise": 2,
-  "sansCote": 34,
+  "vendeurSpecialise": 3,
+  "sansCote": 35,
   "chere": 19,
   "description": 1,
   "scoreFaible": 0,

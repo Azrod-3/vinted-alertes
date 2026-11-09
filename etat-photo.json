@@ -1,11 +1,5 @@
 {
  "vues": [
-  "10713132326",
-  "10713131456",
-  "10713128051",
-  "10713147490",
-  "10713145360",
-  "10713124770",
   "10713159074",
   "10713156735",
   "10713155702",
@@ -3999,7 +3993,13 @@
   "10730788572",
   "10730794141",
   "10730800313",
-  "10730802846"
+  "10730802846",
+  "10730805493",
+  "10730815977",
+  "10730824641",
+  "10730836441",
+  "10730838837",
+  "10730840653"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -7848,13 +7848,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:lomography diana libri|2@3076": {
-   "date": 1794030028164,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
   },
   "modele:yashica kyocera|2@3076": {
    "date": 1794141510393,
@@ -54841,6 +54834,96 @@
    "echantillon": 2,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:canon a40 y2k|2@3075": {
+   "date": 1794203090736,
+   "mediane": null,
+   "echantillon": 2,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:zeiss posemetre ikophot|2@3076": {
+   "date": 1794203280988,
+   "mediane": 20,
+   "echantillon": 3,
+   "dispersion": null,
+   "fourchette": [
+    13,
+    30
+   ],
+   "exemples": [
+    {
+     "id": 10730824641,
+     "prix": 20
+    },
+    {
+     "id": 10523558444,
+     "prix": 13
+    },
+    {
+     "id": 10694511075,
+     "prix": 30
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:nikon 3100|2@3075": {
+   "date": 1794203598292,
+   "mediane": 52,
+   "echantillon": 61,
+   "dispersion": 2.31,
+   "fourchette": [
+    20,
+    200
+   ],
+   "exemples": [
+    {
+     "id": 9122191940,
+     "prix": 52
+    },
+    {
+     "id": 10110858207,
+     "prix": 51
+    },
+    {
+     "id": 10322404725,
+     "prix": 55
+    },
+    {
+     "id": 9217390396,
+     "prix": 48
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:canon camara carrete|2@3076": {
+   "date": 1794203662203,
+   "mediane": 35,
+   "echantillon": 12,
+   "dispersion": 0.91,
+   "fourchette": [
+    10,
+    90
+   ],
+   "exemples": [
+    {
+     "id": 10723331777,
+     "prix": 35
+    },
+    {
+     "id": 9047336512,
+     "prix": 35
+    },
+    {
+     "id": 10730838837,
+     "prix": 40
+    },
+    {
+     "id": 7431502314,
+     "prix": 30
+    }
+   ],
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -62955,9 +63038,9 @@
  },
  "bilan": {
   "depuis": 1794202452115,
-  "passages": 5,
-  "nouvelles": 3,
-  "marque": 0,
+  "passages": 20,
+  "nouvelles": 9,
+  "marque": 2,
   "etat": 0,
   "prix": 0,
   "accessoire": 0,
@@ -62966,8 +63049,8 @@
   "imitation": 0,
   "pro": 0,
   "vendeurSpecialise": 0,
-  "sansCote": 2,
-  "chere": 1,
+  "sansCote": 3,
+  "chere": 4,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,

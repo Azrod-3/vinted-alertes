@@ -1,14 +1,5 @@
 {
  "vues": [
-  "10721800541",
-  "10721683449",
-  "10721251321",
-  "10725857673",
-  "10725857384",
-  "10725863529",
-  "10725860043",
-  "10725886270",
-  "10725885523",
   "10703392929",
   "10725907113",
   "10725906693",
@@ -3999,7 +3990,16 @@
   "10743155877",
   "10743187217",
   "10743182717",
-  "10743189566"
+  "10743189566",
+  "10743198233",
+  "10743208016",
+  "10743221994",
+  "10743227631",
+  "10743247338",
+  "10743242893",
+  "10743251637",
+  "10743257140",
+  "10743290221"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -8412,42 +8412,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:canon 180 ixus|2@3075": {
-   "date": 1794094306623,
-   "mediane": 160,
-   "echantillon": 16,
-   "dispersion": 0.25,
-   "fourchette": [
-    89,
-    200
-   ],
-   "exemples": [
-    {
-     "id": 10669259319,
-     "prix": 160
-    },
-    {
-     "id": 10384115235,
-     "prix": 160
-    },
-    {
-     "id": 10419108576,
-     "prix": 169
-    },
-    {
-     "id": 10700912727,
-     "prix": 150
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:panasonic fs18 16mp|1@3075": {
-   "date": 1794094812819,
-   "mediane": null,
-   "echantillon": 2,
-   "dispersion": null,
-   "niveau": "modèle"
   },
   "modele:yashica zoom kyocera|2@3076": {
    "date": 1794105260831,
@@ -50796,6 +50760,13 @@
    "echantillon": 1,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:pentax zoom70x analogica|1@3076": {
+   "date": 1794267116248,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -57564,8 +57535,8 @@
    "vu": 1794226223579
   },
   "3138957823": {
-   "n": 22,
-   "vu": 1794266418078
+   "n": 23,
+   "vu": 1794267242772
   },
   "3139204198": {
    "n": 4,
@@ -57988,8 +57959,8 @@
    "vu": 1793985473366
   },
   "3155244578": {
-   "n": 4,
-   "vu": 1794225191615
+   "n": 5,
+   "vu": 1794268005513
   },
   "3155274971": {
    "n": 2,
@@ -59766,18 +59737,18 @@
  },
  "bilan": {
   "depuis": 1794264250648,
-  "passages": 43,
-  "nouvelles": 50,
-  "marque": 9,
+  "passages": 58,
+  "nouvelles": 59,
+  "marque": 11,
   "etat": 3,
-  "prix": 4,
+  "prix": 5,
   "accessoire": 1,
   "lot": 0,
   "fausse": 0,
   "imitation": 0,
-  "pro": 5,
+  "pro": 6,
   "vendeurSpecialise": 2,
-  "sansCote": 74,
+  "sansCote": 79,
   "chere": 52,
   "description": 0,
   "scoreFaible": 0,
@@ -63051,7 +63022,8 @@
    "score": 95,
    "lien": "https://www.vinted.fr/items/10742731537-canon-g7-mark-lll-camera-hoesje",
    "date": 1794264248585,
-   "statut": null
+   "statut": "en vente",
+   "verifieA": 1794267876864
   },
   {
    "id": 10742565258,
@@ -63061,7 +63033,8 @@
    "score": 60,
    "lien": "https://www.vinted.fr/items/10742565258-camara-canon-ixus-145",
    "date": 1794264248679,
-   "statut": null
+   "statut": "en vente",
+   "verifieA": 1794267877653
   },
   {
    "id": 10742525291,
@@ -63071,7 +63044,8 @@
    "score": 57,
    "lien": "https://www.vinted.fr/items/10742525291-nikon-d3200",
    "date": 1794264249277,
-   "statut": null
+   "statut": "retiree",
+   "verifieA": 1794267941453
   },
   {
    "id": 10741779741,
@@ -63081,7 +63055,8 @@
    "score": 22,
    "lien": "https://www.vinted.fr/items/10741779741-rollei-kamera",
    "date": 1794264249364,
-   "statut": null
+   "statut": "en vente",
+   "verifieA": 1794267942213
   }
  ],
  "dernierRecap": "2026-11-09"

@@ -1,50 +1,5 @@
 {
  "vues": [
-  "10731405041",
-  "10731404133",
-  "10731403026",
-  "10731410355",
-  "10731409709",
-  "10731408545",
-  "10731408528",
-  "10731408402",
-  "10731415714",
-  "10731415662",
-  "10731415281",
-  "10731414984",
-  "10731414144",
-  "10731413266",
-  "10729379057",
-  "10731421182",
-  "10731418412",
-  "10731417966",
-  "10731426997",
-  "10731425151",
-  "10731425008",
-  "10731421313",
-  "10731431913",
-  "10731430035",
-  "10730838492",
-  "10731428695",
-  "10731427264",
-  "10731436043",
-  "10731434704",
-  "10731434745",
-  "10731434289",
-  "10731433719",
-  "10731432359",
-  "10731440251",
-  "10731439410",
-  "10731439061",
-  "10731438857",
-  "10731437873",
-  "10731437606",
-  "10731437358",
-  "10731446382",
-  "10731443675",
-  "10731443432",
-  "10731441311",
-  "10731450629",
   "10731449984",
   "10731448488",
   "8236037583",
@@ -3999,7 +3954,52 @@
   "10734402921",
   "10734407200",
   "10734405773",
-  "10734403371"
+  "10734403371",
+  "10734395090",
+  "10734521633",
+  "10734443312",
+  "10734423962",
+  "10734420937",
+  "10734417554",
+  "10734417113",
+  "10734422035",
+  "10734421024",
+  "10734416674",
+  "10734416699",
+  "10734429413",
+  "10734444383",
+  "10734438456",
+  "10734432158",
+  "10734423304",
+  "10731809095",
+  "10734446436",
+  "10734445852",
+  "10734440640",
+  "10734206464",
+  "10734442275",
+  "10734442067",
+  "10734439464",
+  "10734438298",
+  "10734436981",
+  "10734436172",
+  "10734434383",
+  "10734430410",
+  "10734428129",
+  "10734408160",
+  "10734397843",
+  "10734460443",
+  "10734458782",
+  "10734457815",
+  "10734453721",
+  "10733966738",
+  "10734411646",
+  "10734453718",
+  "10734298897",
+  "10734461739",
+  "10734457737",
+  "10734312070",
+  "10733937384",
+  "10734419885"
  ],
  "cotes": {
   "marque:fossil": {
@@ -8636,84 +8636,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:timex twh6z8410 snoopy|4": {
-   "date": 1794057213765,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:breil 0121 cronografo|2": {
-   "date": 1794057388785,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:ice watch horloge heren|4": {
-   "date": 1794057523106,
-   "mediane": null,
-   "echantillon": 2,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:philip watch 8251210105w seahorse|1": {
-   "date": 1794057523691,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:citizen kautschukarmband fur|4": {
-   "date": 1794057569902,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:fossil armband setschwarz|2": {
-   "date": 1794057616656,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:fossil schone fossiluhr|2": {
-   "date": 1794057882258,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:timex ironman triathlon|1": {
-   "date": 1794058058208,
-   "mediane": 35,
-   "echantillon": 36,
-   "dispersion": 0.71,
-   "fourchette": [
-    8.99,
-    89.9
-   ],
-   "exemples": [
-    {
-     "id": 10470751246,
-     "prix": 35
-    },
-    {
-     "id": 10415343746,
-     "prix": 35
-    },
-    {
-     "id": 7911903328,
-     "prix": 35
-    },
-    {
-     "id": 9180895912,
-     "prix": 37
-    }
-   ],
-   "niveau": "modèle"
   },
   "modele:braun syncro|3": {
    "date": 1794058146345,
@@ -40405,6 +40327,78 @@
    "echantillon": 0,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:fossil herrenuhr metallarmband|2": {
+   "date": 1794230197568,
+   "mediane": 35,
+   "echantillon": 7,
+   "dispersion": 0.14,
+   "fourchette": [
+    20,
+    50
+   ],
+   "exemples": [
+    {
+     "id": 7841746681,
+     "prix": 35
+    },
+    {
+     "id": 5247563898,
+     "prix": 35
+    },
+    {
+     "id": 10416878272,
+     "prix": 40
+    },
+    {
+     "id": 9772858038,
+     "prix": 40
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:rolex 16610 fondello|1": {
+   "date": 1794230286196,
+   "mediane": null,
+   "echantillon": 0,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:tissot meccanico|1": {
+   "date": 1794230331444,
+   "mediane": 185,
+   "echantillon": 22,
+   "dispersion": 0.49,
+   "fourchette": [
+    60,
+    380
+   ],
+   "exemples": [
+    {
+     "id": 10205786350,
+     "prix": 189
+    },
+    {
+     "id": 9126756037,
+     "prix": 189
+    },
+    {
+     "id": 9527494636,
+     "prix": 180
+    },
+    {
+     "id": 9234275480,
+     "prix": 178
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:rodania voltaire etiquette|4": {
+   "date": 1794230685242,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -43069,8 +43063,8 @@
    "vu": 1793633350698
   },
   "18587475": {
-   "n": 70,
-   "vu": 1794048037136
+   "n": 71,
+   "vu": 1794230285356
   },
   "18597926": {
    "n": 135,
@@ -52300,6 +52294,10 @@
    "n": 50,
    "vu": 1793908835637
   },
+  "48419889": {
+   "n": 2,
+   "vu": 1794230285356
+  },
   "48431375": {
    "n": 60,
    "vu": 1793789365464
@@ -58029,8 +58027,8 @@
    "vu": 1793633350698
   },
   "60273093": {
-   "n": 24,
-   "vu": 1794229973430
+   "n": 25,
+   "vu": 1794230285356
   },
   "60290459": {
    "n": 6,
@@ -59981,8 +59979,8 @@
    "vu": 1793633350698
   },
   "65401468": {
-   "n": 183,
-   "vu": 1794229441940
+   "n": 184,
+   "vu": 1794230109034
   },
   "65402480": {
    "n": 22,
@@ -61648,6 +61646,10 @@
    "n": 7,
    "vu": 1793633350698
   },
+  "70422010": {
+   "n": 2,
+   "vu": 1794230816670
+  },
   "70432091": {
    "n": 8,
    "vu": 1793633350698
@@ -62881,8 +62883,8 @@
    "vu": 1793633350698
   },
   "73837396": {
-   "n": 11,
-   "vu": 1794228272468
+   "n": 12,
+   "vu": 1794230196743
   },
   "73843863": {
    "n": 28,
@@ -65885,8 +65887,8 @@
    "vu": 1793633350698
   },
   "85428974": {
-   "n": 8,
-   "vu": 1794212581348
+   "n": 9,
+   "vu": 1794230684626
   },
   "85458549": {
    "n": 5,
@@ -66345,8 +66347,8 @@
    "vu": 1793633350698
   },
   "87416524": {
-   "n": 39,
-   "vu": 1794129389831
+   "n": 40,
+   "vu": 1794230684626
   },
   "87426522": {
    "n": 3,
@@ -68145,8 +68147,8 @@
    "vu": 1793633350698
   },
   "102456593": {
-   "n": 184,
-   "vu": 1794226235898
+   "n": 185,
+   "vu": 1794230109034
   },
   "102540558": {
    "n": 6,
@@ -68437,8 +68439,8 @@
    "vu": 1793633350698
   },
   "104842957": {
-   "n": 2,
-   "vu": 1794229794295
+   "n": 4,
+   "vu": 1794230729116
   },
   "104848733": {
    "n": 8,
@@ -77117,8 +77119,8 @@
    "vu": 1793633350698
   },
   "161614591": {
-   "n": 11,
-   "vu": 1793633350698
+   "n": 12,
+   "vu": 1794230816670
   },
   "161616898": {
    "n": 6,
@@ -80797,8 +80799,8 @@
    "vu": 1793881689363
   },
   "185574497": {
-   "n": 2,
-   "vu": 1794156877758
+   "n": 3,
+   "vu": 1794230464257
   },
   "185607850": {
    "n": 55,
@@ -101773,8 +101775,8 @@
    "vu": 1794075144511
   },
   "312755225": {
-   "n": 2,
-   "vu": 1794229927615
+   "n": 3,
+   "vu": 1794230196743
   },
   "312763921": {
    "n": 2,
@@ -127633,8 +127635,8 @@
    "vu": 1793734170905
   },
   "3207543923": {
-   "n": 6,
-   "vu": 1793642589556
+   "n": 7,
+   "vu": 1794230464256
   },
   "3207549050": {
    "n": 3,
@@ -128637,8 +128639,8 @@
    "vu": 1794044360419
   },
   "3210608919": {
-   "n": 5,
-   "vu": 1794229441940
+   "n": 6,
+   "vu": 1794230684626
   },
   "3210638501": {
    "n": 3,
@@ -128657,8 +128659,8 @@
    "vu": 1794054079236
   },
   "3210657318": {
-   "n": 2,
-   "vu": 1794229706906
+   "n": 3,
+   "vu": 1794230330588
   },
   "3210664516": {
    "n": 2,
@@ -128867,60 +128869,27 @@
  },
  "bilan": {
   "depuis": 1794229975412,
-  "passages": 0,
-  "nouvelles": 0,
-  "marque": 0,
-  "etat": 0,
-  "prix": 0,
-  "accessoire": 0,
+  "passages": 21,
+  "nouvelles": 45,
+  "marque": 26,
+  "etat": 2,
+  "prix": 1,
+  "accessoire": 2,
   "lot": 0,
-  "fausse": 0,
+  "fausse": 1,
   "imitation": 0,
-  "pro": 0,
-  "vendeurSpecialise": 0,
-  "sansCote": 0,
-  "chere": 0,
+  "pro": 1,
+  "vendeurSpecialise": 2,
+  "sansCote": 3,
+  "chere": 4,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
-  "alertes": 0
+  "alertes": 3
  },
  "panne": null,
  "panneDebut": null,
  "suivi": [
-  {
-   "id": 10715319681,
-   "titre": "Ancienne et très jolie montre pour femme Lip Himalaya Classique calendar fonctio",
-   "prix": 28,
-   "cote": 130,
-   "score": 69,
-   "lien": "https://www.vinted.fr/items/10715319681-ancienne-et-tres-jolie-montre-pour-femme-lip-himalaya-classique-calendar-fonctionne",
-   "date": 1794136526635,
-   "statut": "retiree",
-   "verifieA": 1794140169023
-  },
-  {
-   "id": 10715362421,
-   "titre": "Orologio Glycine Incursore \"Golf\" Quarzo Ref. 1001 – Cassa Alluminio, Swiss Made",
-   "prix": 110,
-   "cote": 293,
-   "score": 73,
-   "lien": "https://www.vinted.fr/items/10715362421-orologio-glycine-incursore-golf-quarzo-ref-1001-cassa-alluminio-swiss-made",
-   "date": 1794136659909,
-   "statut": "en vente",
-   "verifieA": 1794140303340
-  },
-  {
-   "id": 10715370973,
-   "titre": "Relógio Nixon",
-   "prix": 25,
-   "cote": 95,
-   "score": 62,
-   "lien": "https://www.vinted.fr/items/10715370973-relogio-nixon",
-   "date": 1794136703943,
-   "statut": "en vente",
-   "verifieA": 1794140347567
-  },
   {
    "id": 10715469894,
    "titre": "Orologio automatico fortis",
@@ -132038,7 +132007,8 @@
    "score": 81,
    "lien": "https://www.vinted.fr/items/10733887367-orologio",
    "date": 1794226490674,
-   "statut": null
+   "statut": "retiree",
+   "verifieA": 1794230109562
   },
   {
    "id": 10733910969,
@@ -132048,7 +132018,8 @@
    "score": 52,
    "lien": "https://www.vinted.fr/items/10733910969-longines",
    "date": 1794226580654,
-   "statut": null
+   "statut": "en vente",
+   "verifieA": 1794230198144
   },
   {
    "id": 10733938899,
@@ -132058,7 +132029,8 @@
    "score": 57,
    "lien": "https://www.vinted.fr/items/10733938899-citizen-promaster-eco-drive-divers-300m-condizioni-eccellenti-solo-orologio",
    "date": 1794226712714,
-   "statut": null
+   "statut": "en vente",
+   "verifieA": 1794230332954
   },
   {
    "id": 10733963597,
@@ -132068,7 +132040,8 @@
    "score": 74,
    "lien": "https://www.vinted.fr/items/10733963597-hamilton-khaki-navy",
    "date": 1794226843714,
-   "statut": null
+   "statut": "en vente",
+   "verifieA": 1794230465474
   },
   {
    "id": 10734001441,
@@ -132078,7 +132051,8 @@
    "score": 61,
    "lien": "https://www.vinted.fr/items/10734001441-citizen",
    "date": 1794227020283,
-   "statut": null
+   "statut": "retiree",
+   "verifieA": 1794230641001
   },
   {
    "id": 10734042973,
@@ -132088,7 +132062,8 @@
    "score": 79,
    "lien": "https://www.vinted.fr/items/10734042973-orologio",
    "date": 1794227246508,
-   "statut": null
+   "statut": "retiree",
+   "verifieA": 1794230860972
   },
   {
    "id": 10734096294,
@@ -132168,6 +132143,36 @@
    "score": 66,
    "lien": "https://www.vinted.fr/items/10734325521-orologio-citizen-automatico",
    "date": 1794228675615,
+   "statut": null
+  },
+  {
+   "id": 10731809095,
+   "titre": "Fondello Rolex 16610",
+   "prix": 650,
+   "cote": 5256,
+   "score": 80,
+   "lien": "https://www.vinted.fr/items/10731809095-fondello-rolex-16610",
+   "date": 1794230286897,
+   "statut": null
+  },
+  {
+   "id": 10734446436,
+   "titre": "Orologio meccanico Tissot",
+   "prix": 92,
+   "cote": 185,
+   "score": 65,
+   "lien": "https://www.vinted.fr/items/10734446436-orologio-meccanico-tissot",
+   "date": 1794230332449,
+   "statut": null
+  },
+  {
+   "id": 10734430410,
+   "titre": "Montre lip",
+   "prix": 20,
+   "cote": 127,
+   "score": 65,
+   "lien": "https://www.vinted.fr/items/10734430410-montre-lip",
+   "date": 1794230464946,
    "statut": null
   }
  ],

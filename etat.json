@@ -1,26 +1,5 @@
 {
  "vues": [
-  "10742733934",
-  "10742729947",
-  "10742736582",
-  "10742735774",
-  "10742733672",
-  "10742742455",
-  "10742742313",
-  "8573227882",
-  "10742741171",
-  "10741200320",
-  "10742751737",
-  "10742751643",
-  "10742751612",
-  "10742750562",
-  "10742747717",
-  "10742748514",
-  "10742745575",
-  "10742745443",
-  "10733892202",
-  "10740935935",
-  "10741065318",
   "10742758721",
   "10742757737",
   "10742755962",
@@ -3999,7 +3978,28 @@
   "10749997480",
   "10749996346",
   "10749924184",
-  "10750046660"
+  "10750046660",
+  "10689423402",
+  "10750033965",
+  "10749936869",
+  "10749841159",
+  "10749925087",
+  "10749921969",
+  "10750052286",
+  "10750027657",
+  "10750026334",
+  "10750011336",
+  "10750000642",
+  "10749922321",
+  "10750003775",
+  "10749921462",
+  "10750053473",
+  "10749947093",
+  "10750038416",
+  "10750007693",
+  "10750048834",
+  "10749925894",
+  "10689492421"
  ],
  "cotes": {
   "marque:fossil": {
@@ -5436,30 +5436,30 @@
    "coteTropBasse": 32
   },
   "modele:citizen eco drive|1": {
-   "date": 1794226300511,
-   "mediane": 143,
-   "echantillon": 57,
-   "dispersion": 0.5,
+   "date": 1794329467408,
+   "mediane": 144,
+   "echantillon": 48,
+   "dispersion": 0.34,
    "fourchette": [
-    45,
-    300
+    64.99,
+    280
    ],
    "exemples": [
     {
+     "id": 10667842969,
+     "prix": 149
+    },
+    {
+     "id": 10563604049,
+     "prix": 149
+    },
+    {
+     "id": 10716704787,
+     "prix": 150
+    },
+    {
      "id": 10652651184,
      "prix": 140
-    },
-    {
-     "id": 10433653890,
-     "prix": 140
-    },
-    {
-     "id": 10559034587,
-     "prix": 140
-    },
-    {
-     "id": 10491052833,
-     "prix": 139.95
     }
    ],
    "niveau": "modèle",
@@ -8135,186 +8135,6 @@
    ],
    "niveau": "marque",
    "lissee": true
-  },
-  "modele:festina homfestina homem|2": {
-   "date": 1794156477213,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:fossil fossile|1": {
-   "date": 1794156522700,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:fossil automatic|3": {
-   "date": 1794156523589,
-   "mediane": 120,
-   "echantillon": 31,
-   "dispersion": 0.33,
-   "fourchette": [
-    40,
-    200
-   ],
-   "exemples": [
-    {
-     "id": 10447508177,
-     "prix": 120
-    },
-    {
-     "id": 8057429355,
-     "prix": 120
-    },
-    {
-     "id": 10397900046,
-     "prix": 120
-    },
-    {
-     "id": 5099918026,
-     "prix": 120
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "marque:ernest borel": {
-   "date": 1794156524297,
-   "mediane": 160,
-   "echantillon": 25,
-   "dispersion": 0.63,
-   "fourchette": [
-    50,
-    375
-   ],
-   "exemples": [
-    {
-     "id": 8556294206,
-     "prix": 160
-    },
-    {
-     "id": 7554276688,
-     "prix": 160
-    },
-    {
-     "id": 1237191753,
-     "prix": 159
-    },
-    {
-     "id": 9367098323,
-     "prix": 165
-    }
-   ],
-   "niveau": "marque"
-  },
-  "modele:ernest borel neuchatel mecanique|1": {
-   "date": 1794156524834,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:orient automatico|1": {
-   "date": 1794156568975,
-   "mediane": 149,
-   "echantillon": 41,
-   "dispersion": 0.4,
-   "fourchette": [
-    49,
-    300
-   ],
-   "exemples": [
-    {
-     "id": 10222244806,
-     "prix": 149
-    },
-    {
-     "id": 10484938574,
-     "prix": 149
-    },
-    {
-     "id": 10695980511,
-     "prix": 150
-    },
-    {
-     "id": 10720305600,
-     "prix": 150
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:philip watch cronografo uomo|2": {
-   "date": 1794156613698,
-   "mediane": 165,
-   "echantillon": 10,
-   "dispersion": 0.42,
-   "fourchette": [
-    120,
-    220
-   ],
-   "exemples": [
-    {
-     "id": 10599860744,
-     "prix": 180
-    },
-    {
-     "id": 9205686285,
-     "prix": 150
-    },
-    {
-     "id": 10286066912,
-     "prix": 140
-    },
-    {
-     "id": 10722434558,
-     "prix": 130
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:fossil fs 4359 herrenuhr|1": {
-   "date": 1794156614353,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:yema mecanique|2": {
-   "date": 1794156659188,
-   "mediane": 134,
-   "echantillon": 30,
-   "dispersion": 0.6,
-   "fourchette": [
-    40,
-    280
-   ],
-   "exemples": [
-    {
-     "id": 10664409656,
-     "prix": 129
-    },
-    {
-     "id": 10497998768,
-     "prix": 139
-    },
-    {
-     "id": 10722464493,
-     "prix": 140
-    },
-    {
-     "id": 8918263944,
-     "prix": 140
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:fossil 2706 stella|2": {
-   "date": 1794156659737,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
   },
   "modele:kelton mecanique|2": {
    "date": 1794156879395,
@@ -29816,6 +29636,35 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "modele:lotus dorado|2": {
+   "date": 1794329248532,
+   "mediane": 50,
+   "echantillon": 14,
+   "dispersion": 0.4,
+   "fourchette": [
+    20,
+    75
+   ],
+   "exemples": [
+    {
+     "id": 10718210851,
+     "prix": 50
+    },
+    {
+     "id": 10395698259,
+     "prix": 50
+    },
+    {
+     "id": 9886626043,
+     "prix": 50
+    },
+    {
+     "id": 9960402368,
+     "prix": 55
+    }
+   ],
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -33620,8 +33469,8 @@
    "vu": 1793633350698
   },
   "21359049": {
-   "n": 43,
-   "vu": 1794072452472
+   "n": 44,
+   "vu": 1794329292097
   },
   "21360655": {
    "n": 11,
@@ -38058,6 +37907,10 @@
   "34991217": {
    "n": 5,
    "vu": 1794064710956
+  },
+  "35020941": {
+   "n": 2,
+   "vu": 1794329247634
   },
   "35087027": {
    "n": 8,
@@ -42612,8 +42465,8 @@
    "vu": 1793633350698
   },
   "49523688": {
-   "n": 14,
-   "vu": 1793975803211
+   "n": 15,
+   "vu": 1794329422904
   },
   "49528959": {
    "n": 12,
@@ -68072,8 +67925,8 @@
    "vu": 1793700683991
   },
   "164225338": {
-   "n": 2,
-   "vu": 1794147529019
+   "n": 3,
+   "vu": 1794329247634
   },
   "164269947": {
    "n": 9,
@@ -73172,8 +73025,8 @@
    "vu": 1794130058341
   },
   "197604539": {
-   "n": 2,
-   "vu": 1794327969163
+   "n": 3,
+   "vu": 1794329379439
   },
   "197613014": {
    "n": 28,
@@ -110160,8 +110013,8 @@
    "vu": 1793633350698
   },
   "3179896967": {
-   "n": 13,
-   "vu": 1794242650834
+   "n": 14,
+   "vu": 1794329292097
   },
   "3179897032": {
    "n": 9,
@@ -113520,8 +113373,8 @@
    "vu": 1793973322241
   },
   "3187732125": {
-   "n": 16,
-   "vu": 1793961397461
+   "n": 17,
+   "vu": 1794329466582
   },
   "3187740975": {
    "n": 71,
@@ -114248,8 +114101,8 @@
    "vu": 1793633350698
   },
   "3189563132": {
-   "n": 4,
-   "vu": 1794243281764
+   "n": 5,
+   "vu": 1794329379439
   },
   "3189577550": {
    "n": 115,
@@ -119012,8 +118865,8 @@
    "vu": 1794045917166
   },
   "3206052375": {
-   "n": 9,
-   "vu": 1794160521908
+   "n": 10,
+   "vu": 1794329292097
   },
   "3206110717": {
    "n": 3,
@@ -120746,38 +120599,27 @@
  },
  "bilan": {
   "depuis": 1794325997526,
-  "passages": 73,
-  "nouvelles": 181,
-  "marque": 135,
+  "passages": 80,
+  "nouvelles": 202,
+  "marque": 151,
   "etat": 4,
   "prix": 1,
   "accessoire": 5,
-  "lot": 0,
+  "lot": 1,
   "fausse": 2,
   "imitation": 0,
   "pro": 0,
   "vendeurSpecialise": 12,
   "sansCote": 5,
-  "chere": 12,
+  "chere": 15,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
-  "alertes": 5
+  "alertes": 6
  },
  "panne": null,
  "panneDebut": null,
  "suivi": [
-  {
-   "id": 10722953193,
-   "titre": "Reloj cauny",
-   "prix": 22,
-   "cote": 140,
-   "score": 69,
-   "lien": "https://www.vinted.fr/items/10722953193-reloj-cauny",
-   "date": 1794158319950,
-   "statut": "en vente",
-   "verifieA": 1794161958768
-  },
   {
    "id": 10723079587,
    "titre": "Dugena titanium horloge man",
@@ -124060,6 +123902,16 @@
    "score": 63,
    "lien": "https://www.vinted.fr/items/10750004616-reloj-vintage-saint-honore-paris-swiss-quartz-chapado-oro-18k-funciona",
    "date": 1794328718892,
+   "statut": null
+  },
+  {
+   "id": 10749925894,
+   "titre": "Orologio Citizen Eco-Drive Cronografo Acciaio",
+   "prix": 45,
+   "cote": 144,
+   "score": 72,
+   "lien": "https://www.vinted.fr/items/10749925894-orologio-citizen-eco-drive-cronografo-acciaio",
+   "date": 1794329468132,
    "statut": null
   }
  ],

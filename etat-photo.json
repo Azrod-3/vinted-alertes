@@ -1,8 +1,5 @@
 {
  "vues": [
-  "10726020454",
-  "10726037598",
-  "10726044068",
   "10726036726",
   "10726049697",
   "10726090305",
@@ -3999,7 +3996,10 @@
   "10743723121",
   "10743819641",
   "10743830010",
-  "10743845312"
+  "10743845312",
+  "10743866462",
+  "10743869410",
+  "10743952929"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -50821,6 +50821,31 @@
    "echantillon": 2,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:fujifilm x100 fuji|1@3075": {
+   "date": 1794273782341,
+   "mediane": 490,
+   "echantillon": 3,
+   "dispersion": null,
+   "fourchette": [
+    400,
+    1650
+   ],
+   "exemples": [
+    {
+     "id": 10689305342,
+     "prix": 490
+    },
+    {
+     "id": 10743866462,
+     "prix": 400
+    },
+    {
+     "id": 10473315517,
+     "prix": 1650
+    }
+   ],
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -59799,19 +59824,19 @@
  },
  "bilan": {
   "depuis": 1794271497822,
-  "passages": 35,
-  "nouvelles": 6,
+  "passages": 50,
+  "nouvelles": 9,
   "marque": 0,
   "etat": 1,
   "prix": 0,
   "accessoire": 0,
-  "lot": 0,
+  "lot": 1,
   "fausse": 0,
   "imitation": 0,
   "pro": 0,
   "vendeurSpecialise": 0,
-  "sansCote": 5,
-  "chere": 0,
+  "sansCote": 6,
+  "chere": 1,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,

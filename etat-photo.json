@@ -1,8 +1,5 @@
 {
  "vues": [
-  "10723146863",
-  "10723389200",
-  "10723381805",
   "10723377412",
   "10723403343",
   "10723390317",
@@ -3999,7 +3996,10 @@
   "10744572977",
   "10744594201",
   "10744742215",
-  "10744760725"
+  "10744760725",
+  "10744767109",
+  "10744779929",
+  "10744799997"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -4681,13 +4681,13 @@
    "lissee": true
   },
   "marque:yashica@3075": {
-   "date": 1794148794971,
+   "date": 1794286205799,
    "mediane": 50,
    "echantillon": 68,
    "dispersion": 0.5,
    "fourchette": [
-    15,
-    120
+    14,
+    110
    ],
    "exemples": [
     {
@@ -4695,15 +4695,15 @@
      "prix": 50
     },
     {
-     "id": 10574330551,
+     "id": 10560668388,
+     "prix": 50
+    },
+    {
+     "id": 10297423381,
      "prix": 50
     },
     {
      "id": 10410147166,
-     "prix": 50
-    },
-    {
-     "id": 10492905931,
      "prix": 50
     }
    ],
@@ -50511,6 +50511,20 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "modele:zenit machina ttl|1@3076": {
+   "date": 1794285509728,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:yashica 4030 usata|2@3075": {
+   "date": 1794286206268,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -59492,9 +59506,9 @@
   }
  },
  "bilan": {
-  "depuis": 1794278726684,
-  "passages": 71,
-  "nouvelles": 5,
+  "depuis": 1794285952105,
+  "passages": 6,
+  "nouvelles": 1,
   "marque": 0,
   "etat": 0,
   "prix": 0,
@@ -59503,8 +59517,8 @@
   "fausse": 0,
   "imitation": 0,
   "pro": 0,
-  "vendeurSpecialise": 1,
-  "sansCote": 4,
+  "vendeurSpecialise": 0,
+  "sansCote": 1,
   "chere": 0,
   "description": 0,
   "scoreFaible": 0,

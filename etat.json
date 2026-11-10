@@ -1,59 +1,5 @@
 {
  "vues": [
-  "10745036013",
-  "10745034647",
-  "10745034329",
-  "10745033453",
-  "10745037361",
-  "10745037348",
-  "10745042346",
-  "10745042940",
-  "10745041783",
-  "10745045863",
-  "10743154745",
-  "10743209227",
-  "10745047368",
-  "10745051321",
-  "10738135141",
-  "10745050253",
-  "10745055752",
-  "10742930102",
-  "10745056578",
-  "10745053623",
-  "10745059782",
-  "10745056980",
-  "10745059893",
-  "10745065376",
-  "10745067783",
-  "10745067515",
-  "10745063116",
-  "10745069942",
-  "10745069766",
-  "10743549717",
-  "10745072474",
-  "10745070325",
-  "10745075264",
-  "10745073854",
-  "10745073598",
-  "10745073464",
-  "10745075387",
-  "10745079484",
-  "10745079063",
-  "10745077743",
-  "10745081600",
-  "10745083529",
-  "10745082551",
-  "10745082286",
-  "10745084475",
-  "10745083682",
-  "10745090913",
-  "10745090571",
-  "10745088300",
-  "10745091562",
-  "10745091372",
-  "10745095662",
-  "10745094987",
-  "10745094741",
   "10745077704",
   "10745094285",
   "10745087569",
@@ -3999,7 +3945,61 @@
   "10750958324",
   "10750953815",
   "10751105793",
-  "10750953968"
+  "10750953968",
+  "10750982317",
+  "10751134385",
+  "10751126784",
+  "10746207848",
+  "10751078897",
+  "10750886539",
+  "10750966394",
+  "10750965490",
+  "10751143099",
+  "10751126608",
+  "10751124441",
+  "10751088086",
+  "10751087171",
+  "10750958515",
+  "10751085594",
+  "10750988714",
+  "10750996689",
+  "10751102485",
+  "10750977916",
+  "10751138913",
+  "10751137915",
+  "10751137427",
+  "10751137418",
+  "10751113406",
+  "10750983874",
+  "10751166288",
+  "10751119612",
+  "10751112470",
+  "10750999032",
+  "10751154181",
+  "10751141046",
+  "10751126653",
+  "10751008991",
+  "10751155988",
+  "10751035673",
+  "10751186823",
+  "10751156375",
+  "10751155217",
+  "10751031466",
+  "10751001444",
+  "10713948979",
+  "10750917715",
+  "10751180752",
+  "10751159169",
+  "10751137060",
+  "10751031862",
+  "10751030563",
+  "10751026386",
+  "10751170697",
+  "10751034974",
+  "10751177743",
+  "10751140325",
+  "10751059152",
+  "10751006312"
  ],
  "cotes": {
   "marque:fossil": {
@@ -5027,36 +5027,6 @@
    "mediane": null,
    "echantillon": 78,
    "coteTropBasse": 30
-  },
-  "marque:poljot": {
-   "date": 1794172239848,
-   "mediane": 145,
-   "echantillon": 72,
-   "dispersion": 0.34,
-   "fourchette": [
-    45,
-    280
-   ],
-   "exemples": [
-    {
-     "id": 10121760255,
-     "prix": 149
-    },
-    {
-     "id": 10427069211,
-     "prix": 145
-    },
-    {
-     "id": 6222232865,
-     "prix": 145
-    },
-    {
-     "id": 10698844162,
-     "prix": 150
-    }
-   ],
-   "niveau": "marque",
-   "lissee": true
   },
   "marque:tudor": {
    "date": 1794339512639,
@@ -6612,36 +6582,6 @@
    "niveau": "modèle",
    "lissee": true
   },
-  "modele:festina cronografo|2": {
-   "date": 1794172245018,
-   "mediane": 110,
-   "echantillon": 39,
-   "dispersion": 0.65,
-   "fourchette": [
-    35,
-    230
-   ],
-   "exemples": [
-    {
-     "id": 9770885195,
-     "prix": 110
-    },
-    {
-     "id": 9072023577,
-     "prix": 110
-    },
-    {
-     "id": 10063915405,
-     "prix": 110
-    },
-    {
-     "id": 9271787586,
-     "prix": 110
-    }
-   ],
-   "niveau": "modèle",
-   "lissee": true
-  },
   "modele:breil tribe|4": {
    "date": 1794318615853,
    "mediane": 43,
@@ -7833,449 +7773,6 @@
    "mediane": null,
    "echantillon": 1,
    "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:cluse polso nero|1": {
-   "date": 1794172292005,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:rodania militar|1": {
-   "date": 1794172246134,
-   "mediane": null,
-   "echantillon": 2,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:citizen titanium action|2": {
-   "date": 1794172245420,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:kienzle carica meccanica|2": {
-   "date": 1794172244202,
-   "mediane": null,
-   "echantillon": 2,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:orient mako|2": {
-   "date": 1794172242469,
-   "mediane": 183,
-   "echantillon": 66,
-   "dispersion": 0.49,
-   "fourchette": [
-    100,
-    330
-   ],
-   "exemples": [
-    {
-     "id": 10594035584,
-     "prix": 185
-    },
-    {
-     "id": 10036719574,
-     "prix": 185
-    },
-    {
-     "id": 9807200484,
-     "prix": 185
-    },
-    {
-     "id": 10688027998,
-     "prix": 180
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:fossil cronografo uomo|1": {
-   "date": 1794172241186,
-   "mediane": 33,
-   "echantillon": 20,
-   "dispersion": 0.77,
-   "fourchette": [
-    14.85,
-    80
-   ],
-   "exemples": [
-    {
-     "id": 10720864948,
-     "prix": 35
-    },
-    {
-     "id": 10692942010,
-     "prix": 30
-    },
-    {
-     "id": 9880358565,
-     "prix": 30
-    },
-    {
-     "id": 10702671145,
-     "prix": 29
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:fossil ultra plate|1": {
-   "date": 1794172235106,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:lotus freedom|2": {
-   "date": 1794172239121,
-   "mediane": 87,
-   "echantillon": 42,
-   "dispersion": 0.36,
-   "fourchette": [
-    25,
-    140
-   ],
-   "exemples": [
-    {
-     "id": 10241577752,
-     "prix": 88
-    },
-    {
-     "id": 10234570882,
-     "prix": 85
-    },
-    {
-     "id": 10186272174,
-     "prix": 84
-    },
-    {
-     "id": 9397220804,
-     "prix": 90
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:citizen promaster eco|3": {
-   "date": 1794172238600,
-   "mediane": 243,
-   "echantillon": 64,
-   "dispersion": 0.41,
-   "fourchette": [
-    120,
-    400
-   ],
-   "exemples": [
-    {
-     "id": 10599024992,
-     "prix": 245
-    },
-    {
-     "id": 10027291586,
-     "prix": 245
-    },
-    {
-     "id": 10703992514,
-     "prix": 240
-    },
-    {
-     "id": 10609686426,
-     "prix": 240
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:lotus granate muy|2": {
-   "date": 1794172237788,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:viceroy plateado negro|2": {
-   "date": 1794172234745,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:timex anni|1": {
-   "date": 1794172234103,
-   "mediane": 70,
-   "echantillon": 25,
-   "dispersion": 0.93,
-   "fourchette": [
-    20,
-    220
-   ],
-   "exemples": [
-    {
-     "id": 9862302973,
-     "prix": 70
-    },
-    {
-     "id": 10569116903,
-     "prix": 70
-    },
-    {
-     "id": 8781349788,
-     "prix": 70
-    },
-    {
-     "id": 8589102431,
-     "prix": 70
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:lanco automatique|1": {
-   "date": 1794172231657,
-   "mediane": 90,
-   "echantillon": 5,
-   "dispersion": 0,
-   "fourchette": [
-    70,
-    230
-   ],
-   "exemples": [
-    {
-     "id": 8481936217,
-     "prix": 90
-    },
-    {
-     "id": 8263950684,
-     "prix": 90
-    },
-    {
-     "id": 3150763119,
-     "prix": 90
-    },
-    {
-     "id": 10727347020,
-     "prix": 70
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:fossil bracelet|2": {
-   "date": 1794172231127,
-   "mediane": 45,
-   "echantillon": 14,
-   "dispersion": 0.8,
-   "fourchette": [
-    15,
-    95
-   ],
-   "exemples": [
-    {
-     "id": 9581523004,
-     "prix": 40
-    },
-    {
-     "id": 10721737448,
-     "prix": 50
-    },
-    {
-     "id": 10635378652,
-     "prix": 35
-    },
-    {
-     "id": 10524790488,
-     "prix": 55
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:fossil automatique|4": {
-   "date": 1794172336849,
-   "mediane": 125,
-   "echantillon": 16,
-   "dispersion": 0.16,
-   "fourchette": [
-    110,
-    159
-   ],
-   "exemples": [
-    {
-     "id": 6868174822,
-     "prix": 125
-    },
-    {
-     "id": 9919633108,
-     "prix": 125
-    },
-    {
-     "id": 7573268164,
-     "prix": 125
-    },
-    {
-     "id": 10727435058,
-     "prix": 120
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:nixon the small|2": {
-   "date": 1794172230253,
-   "mediane": 50,
-   "echantillon": 5,
-   "dispersion": 0.3,
-   "fourchette": [
-    30,
-    69
-   ],
-   "exemples": [
-    {
-     "id": 7985768946,
-     "prix": 50
-    },
-    {
-     "id": 4919208091,
-     "prix": 50
-    },
-    {
-     "id": 9747754258,
-     "prix": 35
-    },
-    {
-     "id": 10054447802,
-     "prix": 69
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:tissot tm385110 martini|2": {
-   "date": 1794172229561,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:skagen skw6070 chronographe|1": {
-   "date": 1794172229058,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:citizen nero|2": {
-   "date": 1794172228600,
-   "mediane": 95,
-   "echantillon": 4,
-   "dispersion": 0.32,
-   "fourchette": [
-    60,
-    140
-   ],
-   "exemples": [
-    {
-     "id": 10654906601,
-     "prix": 80
-    },
-    {
-     "id": 7926560966,
-     "prix": 110
-    },
-    {
-     "id": 10727495591,
-     "prix": 60
-    },
-    {
-     "id": 10110009150,
-     "prix": 140
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:citizen 7300 crystron|1": {
-   "date": 1794172227730,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:bulova automatic date|1": {
-   "date": 1794172243163,
-   "mediane": 400,
-   "echantillon": 13,
-   "dispersion": 0.33,
-   "fourchette": [
-    180,
-    800
-   ],
-   "exemples": [
-    {
-     "id": 9487568108,
-     "prix": 400
-    },
-    {
-     "id": 10229665267,
-     "prix": 390
-    },
-    {
-     "id": 10637940227,
-     "prix": 385
-    },
-    {
-     "id": 10704442383,
-     "prix": 419
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:pierre lannier ceramique lanier|2": {
-   "date": 1794172426147,
-   "mediane": 80,
-   "echantillon": 5,
-   "dispersion": 0.25,
-   "fourchette": [
-    45,
-    100
-   ],
-   "exemples": [
-    {
-     "id": 10029642413,
-     "prix": 80
-    },
-    {
-     "id": 10422646834,
-     "prix": 70
-    },
-    {
-     "id": 409548740,
-     "prix": 90
-    },
-    {
-     "id": 388201483,
-     "prix": 100
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:zeppelin horloge|2": {
-   "date": 1794172470775,
-   "mediane": 139,
-   "echantillon": 3,
-   "dispersion": null,
-   "fourchette": [
-    90,
-    150
-   ],
-   "exemples": [
-    {
-     "id": 5956964345,
-     "prix": 139
-    },
-    {
-     "id": 10702382125,
-     "prix": 150
-    },
-    {
-     "id": 10727586299,
-     "prix": 90
-    }
-   ],
    "niveau": "modèle"
   },
   "modele:festina chronograph marke|1": {
@@ -24903,6 +24400,81 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "modele:molnija relogio dos|2": {
+   "date": 1794344531496,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:lip t10 modele|1": {
+   "date": 1794344926488,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:lip jourdate|1": {
+   "date": 1794345015587,
+   "mediane": 245,
+   "echantillon": 3,
+   "dispersion": null,
+   "fourchette": [
+    245,
+    270
+   ],
+   "exemples": [
+    {
+     "id": 9908126801,
+     "prix": 245
+    },
+    {
+     "id": 8346042155,
+     "prix": 245
+    },
+    {
+     "id": 10135117719,
+     "prix": 270
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:fossil evanston cadran|4": {
+   "date": 1794345192229,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:festina relogio chrono|4": {
+   "date": 1794345280212,
+   "mediane": 95,
+   "echantillon": 4,
+   "dispersion": 0.32,
+   "fourchette": [
+    72,
+    130
+   ],
+   "exemples": [
+    {
+     "id": 10751170697,
+     "prix": 110
+    },
+    {
+     "id": 4793363455,
+     "prix": 80
+    },
+    {
+     "id": 10637118018,
+     "prix": 72
+    },
+    {
+     "id": 7299583754,
+     "prix": 130
+    }
+   ],
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -28935,8 +28507,8 @@
    "vu": 1793700727797
   },
   "21929749": {
-   "n": 44,
-   "vu": 1794343958291
+   "n": 45,
+   "vu": 1794345323578
   },
   "21948137": {
    "n": 3,
@@ -39759,8 +39331,8 @@
    "vu": 1793633350698
   },
   "52706771": {
-   "n": 85,
-   "vu": 1794344353328
+   "n": 86,
+   "vu": 1794345015022
   },
   "52710300": {
    "n": 2,
@@ -41567,8 +41139,8 @@
    "vu": 1794143591486
   },
   "56304781": {
-   "n": 53,
-   "vu": 1793965956460
+   "n": 54,
+   "vu": 1794344530840
   },
   "56307131": {
    "n": 10,
@@ -58127,8 +57699,8 @@
    "vu": 1793633350698
   },
   "130384139": {
-   "n": 67,
-   "vu": 1794344353327
+   "n": 68,
+   "vu": 1794344838696
   },
   "130384598": {
    "n": 6,
@@ -60615,8 +60187,8 @@
    "vu": 1794213239934
   },
   "146758191": {
-   "n": 29,
-   "vu": 1793633350698
+   "n": 30,
+   "vu": 1794344795003
   },
   "146779349": {
    "n": 2,
@@ -61863,8 +61435,8 @@
    "vu": 1793633350698
   },
   "155339470": {
-   "n": 3,
-   "vu": 1794261391880
+   "n": 4,
+   "vu": 1794344530840
   },
   "155369412": {
    "n": 2,
@@ -71347,8 +70919,8 @@
    "vu": 1793633350698
   },
   "223169434": {
-   "n": 3,
-   "vu": 1794344177354
+   "n": 4,
+   "vu": 1794344663537
   },
   "223234473": {
    "n": 11,
@@ -73563,8 +73135,8 @@
    "vu": 1793633350698
   },
   "237573644": {
-   "n": 76,
-   "vu": 1794235814901
+   "n": 77,
+   "vu": 1794345103784
   },
   "237579136": {
    "n": 2,
@@ -80294,6 +79866,10 @@
    "n": 3,
    "vu": 1794164697057
   },
+  "268673657": {
+   "n": 2,
+   "vu": 1794344838696
+  },
   "268717931": {
    "n": 16,
    "vu": 1794136393709
@@ -82779,8 +82355,8 @@
    "vu": 1793633350698
   },
   "281468961": {
-   "n": 11,
-   "vu": 1794342640193
+   "n": 12,
+   "vu": 1794345235871
   },
   "281469787": {
    "n": 7,
@@ -85590,6 +85166,10 @@
    "n": 2,
    "vu": 1794232080269
   },
+  "293386109": {
+   "n": 4,
+   "vu": 1794345323577
+  },
   "293393208": {
    "n": 15,
    "vu": 1793964619592
@@ -86209,6 +85789,10 @@
   "295851720": {
    "n": 12,
    "vu": 1793787612868
+  },
+  "295875231": {
+   "n": 2,
+   "vu": 1794344751409
   },
   "295881068": {
    "n": 13,
@@ -90179,8 +89763,8 @@
    "vu": 1793633350698
   },
   "3128506567": {
-   "n": 6,
-   "vu": 1794344177354
+   "n": 7,
+   "vu": 1794345103784
   },
   "3128509487": {
    "n": 2,
@@ -93597,6 +93181,10 @@
   "3142343205": {
    "n": 6,
    "vu": 1793633350698
+  },
+  "3142406869": {
+   "n": 2,
+   "vu": 1794345015022
   },
   "3142430241": {
    "n": 16,
@@ -97889,6 +97477,10 @@
   "3158345863": {
    "n": 4,
    "vu": 1794160839098
+  },
+  "3158359754": {
+   "n": 2,
+   "vu": 1794344838696
   },
   "3158365102": {
    "n": 18,
@@ -104687,8 +104279,8 @@
    "vu": 1793633350698
   },
   "3178508647": {
-   "n": 16,
-   "vu": 1793633350698
+   "n": 17,
+   "vu": 1794344619764
   },
   "3178510358": {
    "n": 2,
@@ -104995,8 +104587,8 @@
    "vu": 1793633350698
   },
   "3179095041": {
-   "n": 4,
-   "vu": 1794344046169
+   "n": 5,
+   "vu": 1794344838696
   },
   "3179096979": {
    "n": 12,
@@ -107163,8 +106755,8 @@
    "vu": 1793633350698
   },
   "3183470227": {
-   "n": 32,
-   "vu": 1794338499982
+   "n": 33,
+   "vu": 1794345103783
   },
   "3183480481": {
    "n": 6,
@@ -107659,8 +107251,8 @@
    "vu": 1793633350698
   },
   "3184625299": {
-   "n": 55,
-   "vu": 1794338542954
+   "n": 56,
+   "vu": 1794344530840
   },
   "3184630860": {
    "n": 23,
@@ -110111,8 +109703,8 @@
    "vu": 1793633350698
   },
   "3191474171": {
-   "n": 13,
-   "vu": 1794070538069
+   "n": 14,
+   "vu": 1794344838696
   },
   "3191506746": {
    "n": 6,
@@ -111247,8 +110839,8 @@
    "vu": 1793909790609
   },
   "3194922465": {
-   "n": 4,
-   "vu": 1794344265696
+   "n": 5,
+   "vu": 1794345235871
   },
   "3194926456": {
    "n": 6,
@@ -115943,8 +115535,8 @@
    "vu": 1794296441146
   },
   "3211782322": {
-   "n": 11,
-   "vu": 1794342199596
+   "n": 12,
+   "vu": 1794345060231
   },
   "3211787497": {
    "n": 2,
@@ -116016,50 +115608,28 @@
   }
  },
  "bilan": {
-  "depuis": 1794341538157,
-  "passages": 65,
-  "nouvelles": 192,
-  "marque": 146,
+  "depuis": 1794345147544,
+  "passages": 4,
+  "nouvelles": 12,
+  "marque": 9,
   "etat": 1,
-  "prix": 2,
-  "accessoire": 3,
-  "lot": 2,
-  "fausse": 1,
-  "imitation": 2,
-  "pro": 2,
-  "vendeurSpecialise": 12,
-  "sansCote": 6,
-  "chere": 14,
+  "prix": 0,
+  "accessoire": 0,
+  "lot": 0,
+  "fausse": 0,
+  "imitation": 0,
+  "pro": 0,
+  "vendeurSpecialise": 0,
+  "sansCote": 1,
+  "chere": 1,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
-  "alertes": 1
+  "alertes": 0
  },
  "panne": null,
  "panneDebut": null,
  "suivi": [
-  {
-   "id": 10723542573,
-   "titre": "Orologio Citizen EcoDrive",
-   "prix": 70,
-   "cote": 141,
-   "score": 58,
-   "lien": "https://www.vinted.fr/items/10723542573-orologio-citizen-ecodrive",
-   "date": 1794159667166,
-   "statut": "en vente",
-   "verifieA": 1794163307121
-  },
-  {
-   "id": 10723577106,
-   "titre": "Invicta Pro Diver Blu e Oro (Ref. 8928OB)",
-   "prix": 55,
-   "cote": null,
-   "score": 22,
-   "lien": "https://www.vinted.fr/items/10723577106-invicta-pro-diver-blu-e-oro-ref-8928ob",
-   "date": 1794159802108,
-   "statut": "en vente",
-   "verifieA": 1794163442544
-  },
   {
    "id": 10723649422,
    "titre": "Orologio Hublot Service \"Not For Sale\" Vintage (Anni 90/00)",
@@ -119313,7 +118883,8 @@
    "score": 71,
    "lien": "https://www.vinted.fr/items/10750870875-montre-lip",
    "date": 1794340920661,
-   "statut": null
+   "statut": "retiree",
+   "verifieA": 1794344531956
   },
   {
    "id": 10750844993,
@@ -119323,7 +118894,8 @@
    "score": 68,
    "lien": "https://www.vinted.fr/items/10750844993-orologio-timex",
    "date": 1794341095764,
-   "statut": null
+   "statut": "en vente",
+   "verifieA": 1794344707932
   },
   {
    "id": 10751048135,
@@ -119333,6 +118905,26 @@
    "score": 62,
    "lien": "https://www.vinted.fr/items/10751048135-orologio",
    "date": 1794344002498,
+   "statut": null
+  },
+  {
+   "id": 10751112470,
+   "titre": "Montre Lip modèle T10 Croix du sud vintage",
+   "prix": 30,
+   "cote": 126,
+   "score": 66,
+   "lien": "https://www.vinted.fr/items/10751112470-montre-lip-modele-t10-croix-du-sud-vintage",
+   "date": 1794344927571,
+   "statut": null
+  },
+  {
+   "id": 10751141046,
+   "titre": "Montres LIP jourdate",
+   "prix": 60,
+   "cote": 245,
+   "score": 81,
+   "lien": "https://www.vinted.fr/items/10751141046-montres-lip-jourdate",
+   "date": 1794345016651,
    "statut": null
   }
  ],

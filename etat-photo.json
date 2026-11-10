@@ -1,12 +1,5 @@
 {
  "vues": [
-  "10723423342",
-  "10723331589",
-  "10723485493",
-  "10723480730",
-  "10723443159",
-  "10723453817",
-  "10723499121",
   "10723496422",
   "10723492037",
   "10723482987",
@@ -3999,7 +3992,14 @@
   "10744884578",
   "10744911011",
   "10744921196",
-  "10744925995"
+  "10744925995",
+  "10744933361",
+  "10744933597",
+  "10744942478",
+  "10744941794",
+  "10744955207",
+  "10744959280",
+  "10744959037"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -50613,6 +50613,78 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "modele:kodak digitalkamera|2@3075": {
+   "date": 1794289377522,
+   "mediane": 39,
+   "echantillon": 50,
+   "dispersion": 0.61,
+   "fourchette": [
+    14.99,
+    75
+   ],
+   "exemples": [
+    {
+     "id": 10376711851,
+     "prix": 39
+    },
+    {
+     "id": 10399362495,
+     "prix": 39.5
+    },
+    {
+     "id": 10575795014,
+     "prix": 39.9
+    },
+    {
+     "id": 10717828869,
+     "prix": 40
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:pentax p30 equipe|1@3076": {
+   "date": 1794289378092,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:fujifilm finepix|2@3075": {
+   "date": 1794289568401,
+   "mediane": 55,
+   "echantillon": 78,
+   "dispersion": 0.55,
+   "fourchette": [
+    15,
+    120
+   ],
+   "exemples": [
+    {
+     "id": 10635582147,
+     "prix": 55
+    },
+    {
+     "id": 10735902886,
+     "prix": 55
+    },
+    {
+     "id": 10738058652,
+     "prix": 55
+    },
+    {
+     "id": 10697802134,
+     "prix": 55
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:samsung 512 y2k|2@3075": {
+   "date": 1794289948552,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -51393,8 +51465,8 @@
    "vu": 1794166812740
   },
   "26568982": {
-   "n": 2,
-   "vu": 1794038987451
+   "n": 3,
+   "vu": 1794289947991
   },
   "26584269": {
    "n": 2,
@@ -59599,19 +59671,19 @@
  },
  "bilan": {
   "depuis": 1794285952105,
-  "passages": 51,
-  "nouvelles": 12,
+  "passages": 66,
+  "nouvelles": 19,
   "marque": 3,
   "etat": 0,
   "prix": 0,
   "accessoire": 0,
-  "lot": 0,
+  "lot": 1,
   "fausse": 0,
   "imitation": 0,
   "pro": 0,
   "vendeurSpecialise": 0,
-  "sansCote": 5,
-  "chere": 3,
+  "sansCote": 9,
+  "chere": 5,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,

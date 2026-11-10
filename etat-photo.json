@@ -1,18 +1,5 @@
 {
  "vues": [
-  "10700125097",
-  "10700127757",
-  "10700125852",
-  "10700153919",
-  "10700145108",
-  "10700143807",
-  "10700140531",
-  "10700155101",
-  "10700152408",
-  "10700136749",
-  "10700171838",
-  "10700162111",
-  "10700161356",
   "10700156574",
   "10699523136",
   "10700181838",
@@ -3999,7 +3986,20 @@
   "10750750953",
   "10750781563",
   "10750879156",
-  "10750774306"
+  "10750774306",
+  "10750922478",
+  "10750766981",
+  "10750831669",
+  "10750814047",
+  "10750990691",
+  "10750968103",
+  "10750940617",
+  "10750809866",
+  "10750803068",
+  "10750973159",
+  "10750977973",
+  "10750856700",
+  "10750848834"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -7690,93 +7690,6 @@
    "niveau": "modèle",
    "lissee": true
   },
-  "modele:canon koffer|2@3076": {
-   "date": 1794169086693,
-   "mediane": 73,
-   "echantillon": 4,
-   "dispersion": 0.48,
-   "fourchette": [
-    36,
-    175
-   ],
-   "exemples": [
-    {
-     "id": 9137193698,
-     "prix": 90
-    },
-    {
-     "id": 8407271013,
-     "prix": 55
-    },
-    {
-     "id": 10726630857,
-     "prix": 36
-    },
-    {
-     "id": 10576518774,
-     "prix": 175
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:panasonic dmc f27 lumix|2@3075": {
-   "date": 1794169150739,
-   "mediane": 59,
-   "echantillon": 5,
-   "dispersion": 0.32,
-   "fourchette": [
-    35,
-    85
-   ],
-   "exemples": [
-    {
-     "id": 5402192896,
-     "prix": 59
-    },
-    {
-     "id": 10726647126,
-     "prix": 64
-    },
-    {
-     "id": 10545469919,
-     "prix": 45
-    },
-    {
-     "id": 9407636464,
-     "prix": 35
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:olympus trip|1@3076": {
-   "date": 1794169151865,
-   "mediane": 35,
-   "echantillon": 71,
-   "dispersion": 0.86,
-   "fourchette": [
-    10,
-    90
-   ],
-   "exemples": [
-    {
-     "id": 10694006128,
-     "prix": 35
-    },
-    {
-     "id": 10378461719,
-     "prix": 35
-    },
-    {
-     "id": 10673664421,
-     "prix": 35
-    },
-    {
-     "id": 10676156788,
-     "prix": 35
-    }
-   ],
-   "niveau": "modèle"
-  },
   "modele:olympus camara analogica|2@3076": {
    "date": 1794322248701,
    "mediane": 54,
@@ -7806,71 +7719,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:nikon w100 camara|2@3075": {
-   "date": 1794169280403,
-   "mediane": 89,
-   "echantillon": 5,
-   "dispersion": 0.9,
-   "fourchette": [
-    40,
-    250
-   ],
-   "exemples": [
-    {
-     "id": 10410157956,
-     "prix": 89
-    },
-    {
-     "id": 7836091297,
-     "prix": 50
-    },
-    {
-     "id": 9954907372,
-     "prix": 130
-    },
-    {
-     "id": 10726691694,
-     "prix": 40
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:olympus y2k zwei|3@3075": {
-   "date": 1794169281057,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:canon sx210 powershot|2@3075": {
-   "date": 1794169349320,
-   "mediane": 120,
-   "echantillon": 39,
-   "dispersion": 0.33,
-   "fourchette": [
-    79,
-    200
-   ],
-   "exemples": [
-    {
-     "id": 10615240215,
-     "prix": 120
-    },
-    {
-     "id": 9883588294,
-     "prix": 120
-    },
-    {
-     "id": 10283677926,
-     "prix": 120
-    },
-    {
-     "id": 9908993626,
-     "prix": 119.99
-    }
-   ],
-   "niveau": "modèle"
   },
   "modele:konica c35 1968 72|2@3076": {
    "date": 1794177465077,
@@ -7933,35 +7781,6 @@
     {
      "id": 5601781968,
      "prix": 250
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:olympus 740|2@3075": {
-   "date": 1794169545559,
-   "mediane": 49,
-   "echantillon": 16,
-   "dispersion": 0.49,
-   "fourchette": [
-    18,
-    100
-   ],
-   "exemples": [
-    {
-     "id": 10552323861,
-     "prix": 49
-    },
-    {
-     "id": 9136902601,
-     "prix": 49
-    },
-    {
-     "id": 10726767665,
-     "prix": 48
-    },
-    {
-     "id": 10232466674,
-     "prix": 50
     }
    ],
    "niveau": "modèle"
@@ -32915,6 +32734,78 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "modele:canon sx220|2@3075": {
+   "date": 1794342007574,
+   "mediane": 145,
+   "echantillon": 15,
+   "dispersion": 0.48,
+   "fourchette": [
+    70,
+    200
+   ],
+   "exemples": [
+    {
+     "id": 8303463155,
+     "prix": 145
+    },
+    {
+     "id": 10515977149,
+     "prix": 140
+    },
+    {
+     "id": 9905540910,
+     "prix": 150
+    },
+    {
+     "id": 10565980700,
+     "prix": 160
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:praktica mtl3|2@3076": {
+   "date": 1794342263408,
+   "mediane": 55,
+   "echantillon": 50,
+   "dispersion": 0.65,
+   "fourchette": [
+    15,
+    150
+   ],
+   "exemples": [
+    {
+     "id": 8964161936,
+     "prix": 55
+    },
+    {
+     "id": 8580423238,
+     "prix": 55
+    },
+    {
+     "id": 10750814047,
+     "prix": 60
+    },
+    {
+     "id": 10407779081,
+     "prix": 50
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:pentax k 5 obiettivo|2@3075": {
+   "date": 1794342455230,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:nikon classic timeless|2@3076": {
+   "date": 1794342711832,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -33139,8 +33030,8 @@
    "vu": 1793717615862
   },
   "14598160": {
-   "n": 2,
-   "vu": 1794340941565
+   "n": 3,
+   "vu": 1794342454552
   },
   "14771502": {
    "n": 21,
@@ -34295,8 +34186,8 @@
    "vu": 1793722322094
   },
   "38910480": {
-   "n": 8,
-   "vu": 1794241914445
+   "n": 9,
+   "vu": 1794342583843
   },
   "38924615": {
    "n": 3,
@@ -37475,8 +37366,8 @@
    "vu": 1794162969208
   },
   "188388985": {
-   "n": 2,
-   "vu": 1794062704727
+   "n": 3,
+   "vu": 1794342454552
   },
   "188804366": {
    "n": 2,
@@ -38815,8 +38706,8 @@
    "vu": 1793732269875
   },
   "271622104": {
-   "n": 25,
-   "vu": 1794340941564
+   "n": 26,
+   "vu": 1794342454552
   },
   "271704975": {
    "n": 2,
@@ -41362,6 +41253,10 @@
    "n": 3,
    "vu": 1794141245455
   },
+  "3193499911": {
+   "n": 2,
+   "vu": 1794342006881
+  },
   "3193617117": {
    "n": 2,
    "vu": 1793905245174
@@ -41593,6 +41488,10 @@
   "3200614393": {
    "n": 2,
    "vu": 1794131129740
+  },
+  "3200667394": {
+   "n": 2,
+   "vu": 1794342775502
   },
   "3200791592": {
    "n": 2,
@@ -42225,38 +42124,27 @@
  },
  "bilan": {
   "depuis": 1794340965033,
-  "passages": 14,
-  "nouvelles": 9,
-  "marque": 1,
-  "etat": 0,
-  "prix": 0,
+  "passages": 29,
+  "nouvelles": 22,
+  "marque": 2,
+  "etat": 1,
+  "prix": 1,
   "accessoire": 0,
   "lot": 1,
   "fausse": 0,
   "imitation": 0,
   "pro": 0,
-  "vendeurSpecialise": 0,
-  "sansCote": 13,
-  "chere": 14,
+  "vendeurSpecialise": 2,
+  "sansCote": 18,
+  "chere": 16,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
-  "alertes": 3
+  "alertes": 4
  },
  "panne": null,
  "panneDebut": null,
  "suivi": [
-  {
-   "id": 10689722255,
-   "titre": "Appareil photo Olympus OM-D -EM10 mark II",
-   "prix": 300,
-   "cote": 473,
-   "score": 62,
-   "lien": "https://www.vinted.fr/items/10689722255-appareil-photo-olympus-om-d-em10-mark-ii",
-   "date": 1793977748218,
-   "statut": "en vente",
-   "verifieA": 1793981397182
-  },
   {
    "id": 10689820558,
    "titre": "Spiegelreflexkamera Nikon",
@@ -45540,6 +45428,16 @@
    "score": 61,
    "lien": "https://www.vinted.fr/items/10750750953-appareil-photo-canon-eos-100d",
    "date": 1794341495895,
+   "statut": null
+  },
+  {
+   "id": 10750766981,
+   "titre": "Appareils photos Canon SX220",
+   "prix": 70,
+   "cote": 145,
+   "score": 58,
+   "lien": "https://www.vinted.fr/items/10750766981-appareils-photos-canon-sx220",
+   "date": 1794342008370,
    "statut": null
   }
  ],

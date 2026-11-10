@@ -1,7 +1,5 @@
 {
  "vues": [
-  "10725968903",
-  "10725980289",
   "10725980248",
   "10725979569",
   "10725975171",
@@ -3999,7 +3997,9 @@
   "10743591351",
   "10743595288",
   "10743615489",
-  "10743648844"
+  "10743648844",
+  "10743715493",
+  "10743723121"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -50814,6 +50814,13 @@
    "echantillon": 2,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:sony cybershot como|3@3075": {
+   "date": 1794272259634,
+   "mediane": null,
+   "echantillon": 2,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -59792,8 +59799,8 @@
  },
  "bilan": {
   "depuis": 1794271497822,
-  "passages": 5,
-  "nouvelles": 1,
+  "passages": 20,
+  "nouvelles": 3,
   "marque": 0,
   "etat": 0,
   "prix": 0,
@@ -59803,7 +59810,7 @@
   "imitation": 0,
   "pro": 0,
   "vendeurSpecialise": 0,
-  "sansCote": 1,
+  "sansCote": 3,
   "chere": 0,
   "description": 0,
   "scoreFaible": 0,

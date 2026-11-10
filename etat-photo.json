@@ -1,11 +1,5 @@
 {
  "vues": [
-  "10703392929",
-  "10725907113",
-  "10725906693",
-  "10613689621",
-  "10725904292",
-  "10725912756",
   "10725930891",
   "10725922068",
   "10725920898",
@@ -3999,7 +3993,13 @@
   "10743242893",
   "10743251637",
   "10743257140",
-  "10743290221"
+  "10743290221",
+  "10743348023",
+  "10743360720",
+  "10743363634",
+  "10743370022",
+  "10743369531",
+  "10743375509"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -4970,29 +4970,29 @@
    "lissee": true
   },
   "modele:sony camara|2@3075": {
-   "date": 1794166554222,
-   "mediane": 80,
-   "echantillon": 48,
-   "dispersion": 0.34,
+   "date": 1794268767124,
+   "mediane": 77,
+   "echantillon": 54,
+   "dispersion": 0.53,
    "fourchette": [
-    25,
+    19.95,
     150
    ],
    "exemples": [
     {
-     "id": 10725840480,
-     "prix": 80
+     "id": 10702488278,
+     "prix": 75
+    },
+    {
+     "id": 10706961308,
+     "prix": 75
+    },
+    {
+     "id": 10637295362,
+     "prix": 75
     },
     {
      "id": 10650733663,
-     "prix": 80
-    },
-    {
-     "id": 10723839762,
-     "prix": 80
-    },
-    {
-     "id": 10664874729,
      "prix": 80
     }
    ],
@@ -8496,31 +8496,6 @@
     {
      "id": 9896088774,
      "prix": 36
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:olympus c 60 camedia|1@3075": {
-   "date": 1794096147782,
-   "mediane": 40,
-   "echantillon": 3,
-   "dispersion": null,
-   "fourchette": [
-    30,
-    80
-   ],
-   "exemples": [
-    {
-     "id": 9872541360,
-     "prix": 40
-    },
-    {
-     "id": 10710773571,
-     "prix": 30
-    },
-    {
-     "id": 9498379687,
-     "prix": 80
     }
    ],
    "niveau": "modèle"
@@ -50767,6 +50742,13 @@
    "echantillon": 1,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:canon sd100 powershot|1@3075": {
+   "date": 1794268831202,
+   "mediane": null,
+   "echantillon": 2,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -55343,8 +55325,8 @@
    "vu": 1794151295429
   },
   "211067397": {
-   "n": 4,
-   "vu": 1794005437619
+   "n": 5,
+   "vu": 1794268766276
   },
   "211177732": {
    "n": 4,
@@ -59737,9 +59719,9 @@
  },
  "bilan": {
   "depuis": 1794264250648,
-  "passages": 58,
-  "nouvelles": 59,
-  "marque": 11,
+  "passages": 73,
+  "nouvelles": 65,
+  "marque": 12,
   "etat": 3,
   "prix": 5,
   "accessoire": 1,
@@ -59748,8 +59730,8 @@
   "imitation": 0,
   "pro": 6,
   "vendeurSpecialise": 2,
-  "sansCote": 79,
-  "chere": 52,
+  "sansCote": 83,
+  "chere": 53,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 2,

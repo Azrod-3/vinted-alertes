@@ -1,17 +1,5 @@
 {
  "vues": [
-  "10737442988",
-  "10737441567",
-  "10737440678",
-  "10737438479",
-  "10737434854",
-  "10737201393",
-  "10737457188",
-  "10737455573",
-  "10737452771",
-  "10710564126",
-  "10737451259",
-  "10737446706",
   "10737441748",
   "10737471139",
   "10737471005",
@@ -3999,7 +3987,19 @@
   "10683250905",
   "10743741115",
   "10743747636",
-  "10743757062"
+  "10743757062",
+  "10743778359",
+  "10743792393",
+  "10743784211",
+  "10743800252",
+  "10743796908",
+  "10743825780",
+  "10743827122",
+  "10743836529",
+  "10743844538",
+  "10743845954",
+  "10743855754",
+  "10743853971"
  ],
  "cotes": {
   "marque:fossil": {
@@ -7058,36 +7058,6 @@
    "niveau": "modèle",
    "lissee": true
   },
-  "marque:u boat": {
-   "date": 1794100240016,
-   "mediane": 669,
-   "echantillon": 70,
-   "dispersion": 0.72,
-   "fourchette": [
-    210,
-    1499.99
-   ],
-   "exemples": [
-    {
-     "id": 10608501673,
-     "prix": 699
-    },
-    {
-     "id": 8357375189,
-     "prix": 699
-    },
-    {
-     "id": 9478728872,
-     "prix": 699
-    },
-    {
-     "id": 7988907074,
-     "prix": 699
-    }
-   ],
-   "niveau": "marque",
-   "lissee": true
-  },
   "modele:breil uomo tribe|4": {
    "date": 1794136293209,
    "mediane": 49,
@@ -8763,285 +8733,11 @@
    "niveau": "modèle",
    "lissee": true
   },
-  "modele:lotus cronografo azul|2": {
-   "date": 1794100242996,
-   "mediane": 40,
-   "echantillon": 9,
-   "dispersion": 0.75,
-   "fourchette": [
-    15,
-    60
-   ],
-   "exemples": [
-    {
-     "id": 10576426030,
-     "prix": 40
-    },
-    {
-     "id": 8128892992,
-     "prix": 40
-    },
-    {
-     "id": 8029189041,
-     "prix": 35
-    },
-    {
-     "id": 10381751003,
-     "prix": 50
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:viceroy real madrid|2": {
-   "date": 1794100242364,
-   "mediane": 24,
-   "echantillon": 50,
-   "dispersion": 0.64,
-   "fourchette": [
-    8,
-    55
-   ],
-   "exemples": [
-    {
-     "id": 9359695530,
-     "prix": 24
-    },
-    {
-     "id": 10498138534,
-     "prix": 25
-    },
-    {
-     "id": 10545904870,
-     "prix": 25
-    },
-    {
-     "id": 10358806780,
-     "prix": 25
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:nixon heat|2": {
-   "date": 1794100241028,
-   "mediane": 65,
-   "echantillon": 5,
-   "dispersion": 0.31,
-   "fourchette": [
-    55,
-    80
-   ],
-   "exemples": [
-    {
-     "id": 10710388609,
-     "prix": 65
-    },
-    {
-     "id": 10610205918,
-     "prix": 60
-    },
-    {
-     "id": 9203860577,
-     "prix": 55
-    },
-    {
-     "id": 10617595854,
-     "prix": 80
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:kienzle markant antimagnetic|2": {
-   "date": 1794100241616,
-   "mediane": 75,
-   "echantillon": 5,
-   "dispersion": 0.41,
-   "fourchette": [
-    50,
-    105
-   ],
-   "exemples": [
-    {
-     "id": 8835911658,
-     "prix": 75
-    },
-    {
-     "id": 10005510875,
-     "prix": 64
-    },
-    {
-     "id": 7921410363,
-     "prix": 95
-    },
-    {
-     "id": 10710400070,
-     "prix": 50
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:nixon a073 1000|4": {
-   "date": 1794100240367,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:sekonda relogio salem|3": {
-   "date": 1794100239121,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:citizen 1970er 4 652274|1": {
-   "date": 1794100237815,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:breil resteurarare|2": {
-   "date": 1794100190950,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:breil tribe rosso|2": {
-   "date": 1794100191731,
-   "mediane": 35,
-   "echantillon": 9,
-   "dispersion": 0.57,
-   "fourchette": [
-    12,
-    65
-   ],
-   "exemples": [
-    {
-     "id": 5802578392,
-     "prix": 35
-    },
-    {
-     "id": 10290296222,
-     "prix": 38
-    },
-    {
-     "id": 10636368899,
-     "prix": 40
-    },
-    {
-     "id": 9326066392,
-     "prix": 25
-    }
-   ],
-   "niveau": "modèle"
-  },
   "marque:zitto": {
    "date": 1794223366805,
    "mediane": null,
    "echantillon": 83,
    "coteTropBasse": 8
-  },
-  "modele:zitto ragazzo|2": {
-   "date": 1794100189812,
-   "mediane": 11,
-   "echantillon": 16,
-   "dispersion": 0.64,
-   "fourchette": [
-    4,
-    20
-   ],
-   "exemples": [
-    {
-     "id": 10710677181,
-     "prix": 10
-    },
-    {
-     "id": 2158138225,
-     "prix": 10
-    },
-    {
-     "id": 1839347543,
-     "prix": 10
-    },
-    {
-     "id": 3773829134,
-     "prix": 12
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:lip bicolore|1": {
-   "date": 1794100188708,
-   "mediane": 38,
-   "echantillon": 10,
-   "dispersion": 0.64,
-   "fourchette": [
-    12,
-    60
-   ],
-   "exemples": [
-    {
-     "id": 8981112850,
-     "prix": 40
-    },
-    {
-     "id": 10396916365,
-     "prix": 40
-    },
-    {
-     "id": 10437589709,
-     "prix": 35
-    },
-    {
-     "id": 10702596843,
-     "prix": 29
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:citizen 62 8735 automatico|1": {
-   "date": 1794100188032,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:citizen 53 0077 carica|2": {
-   "date": 1794100187511,
-   "mediane": null,
-   "echantillon": 2,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:tissot seastar visodate|1": {
-   "date": 1794100186386,
-   "mediane": 199,
-   "echantillon": 51,
-   "dispersion": 0.75,
-   "fourchette": [
-    99,
-    500
-   ],
-   "exemples": [
-    {
-     "id": 9098155045,
-     "prix": 199
-    },
-    {
-     "id": 9125415801,
-     "prix": 200
-    },
-    {
-     "id": 10225491915,
-     "prix": 200
-    },
-    {
-     "id": 4218911805,
-     "prix": 200
-    }
-   ],
-   "niveau": "modèle"
   },
   "modele:longines tank|3": {
    "date": 1794214564954,
@@ -9073,42 +8769,6 @@
    "niveau": "modèle",
    "lissee": true
   },
-  "modele:fossil armbanduhr herrenuhr|4": {
-   "date": 1794100184529,
-   "mediane": null,
-   "echantillon": 2,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:tissot gmt chronograph|1": {
-   "date": 1794100183002,
-   "mediane": 255,
-   "echantillon": 6,
-   "dispersion": 0.47,
-   "fourchette": [
-    115,
-    299
-   ],
-   "exemples": [
-    {
-     "id": 10669685662,
-     "prix": 280
-    },
-    {
-     "id": 7939830889,
-     "prix": 230
-    },
-    {
-     "id": 9659417230,
-     "prix": 290
-    },
-    {
-     "id": 9711702504,
-     "prix": 299
-    }
-   ],
-   "niveau": "modèle"
-  },
   "modele:lip chronographe|2": {
    "date": 1794216288938,
    "mediane": 110,
@@ -9138,35 +8798,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:viceroy beat|2": {
-   "date": 1794100930865,
-   "mediane": 48,
-   "echantillon": 19,
-   "dispersion": 0.97,
-   "fourchette": [
-    15,
-    115
-   ],
-   "exemples": [
-    {
-     "id": 7982804551,
-     "prix": 48
-    },
-    {
-     "id": 8482235395,
-     "prix": 50
-    },
-    {
-     "id": 2805968282,
-     "prix": 50
-    },
-    {
-     "id": 10510671007,
-     "prix": 40
-    }
-   ],
-   "niveau": "modèle"
   },
   "modele:fossil nero|4": {
    "date": 1794101193079,
@@ -39329,6 +38960,13 @@
      "prix": 225
     }
    ],
+   "niveau": "modèle"
+  },
+  "modele:ice watch pk0705 cf keora|3": {
+   "date": 1794273387148,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
    "niveau": "modèle"
   }
  },
@@ -75346,8 +74984,8 @@
    "vu": 1793633350698
   },
   "151789531": {
-   "n": 308,
-   "vu": 1794271636962
+   "n": 309,
+   "vu": 1794272997201
   },
   "151797378": {
    "n": 7,
@@ -82230,8 +81868,8 @@
    "vu": 1794130058341
   },
   "197613014": {
-   "n": 27,
-   "vu": 1794259906635
+   "n": 28,
+   "vu": 1794273473997
   },
   "197628942": {
    "n": 3,
@@ -94206,8 +93844,8 @@
    "vu": 1793633350698
   },
   "269568170": {
-   "n": 3,
-   "vu": 1794271376546
+   "n": 5,
+   "vu": 1794273560755
   },
   "269599464": {
    "n": 8,
@@ -94682,8 +94320,8 @@
    "vu": 1793985952142
   },
   "271723087": {
-   "n": 3,
-   "vu": 1794271995935
+   "n": 4,
+   "vu": 1794272866993
   },
   "271739353": {
    "n": 7,
@@ -97658,8 +97296,8 @@
    "vu": 1793633350698
   },
   "287086521": {
-   "n": 26,
-   "vu": 1794268801914
+   "n": 27,
+   "vu": 1794273343505
   },
   "287099627": {
    "n": 6,
@@ -97906,8 +97544,8 @@
    "vu": 1794265735059
   },
   "288184643": {
-   "n": 7,
-   "vu": 1794271593669
+   "n": 8,
+   "vu": 1794272997201
   },
   "288190176": {
    "n": 47,
@@ -103444,6 +103082,10 @@
   "3126989315": {
    "n": 7,
    "vu": 1794239485362
+  },
+  "3126999436": {
+   "n": 2,
+   "vu": 1794273647527
   },
   "3127023411": {
    "n": 13,
@@ -116094,8 +115736,8 @@
    "vu": 1793633350698
   },
   "3173199555": {
-   "n": 5,
-   "vu": 1794190221632
+   "n": 6,
+   "vu": 1794273083823
   },
   "3173199617": {
    "n": 8,
@@ -129332,9 +128974,9 @@
  },
  "bilan": {
   "depuis": 1794270807411,
-  "passages": 46,
-  "nouvelles": 43,
-  "marque": 29,
+  "passages": 67,
+  "nouvelles": 55,
+  "marque": 40,
   "etat": 4,
   "prix": 0,
   "accessoire": 1,
@@ -129343,7 +128985,7 @@
   "imitation": 0,
   "pro": 0,
   "vendeurSpecialise": 1,
-  "sansCote": 1,
+  "sansCote": 2,
   "chere": 4,
   "description": 0,
   "scoreFaible": 0,

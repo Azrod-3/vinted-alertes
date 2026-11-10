@@ -1,9 +1,5 @@
 {
  "vues": [
-  "10723496422",
-  "10723492037",
-  "10723482987",
-  "10723504135",
   "10723498043",
   "10723492094",
   "10723471625",
@@ -3999,7 +3995,11 @@
   "10744941794",
   "10744955207",
   "10744959280",
-  "10744959037"
+  "10744959037",
+  "10744969870",
+  "10744972980",
+  "10744995627",
+  "10741247276"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -28176,13 +28176,13 @@
    "niveau": "modèle"
   },
   "modele:kodak anni|2@3076": {
-   "date": 1794160951304,
+   "date": 1794291027665,
    "mediane": 30,
-   "echantillon": 30,
-   "dispersion": 0.5,
+   "echantillon": 34,
+   "dispersion": 0.83,
    "fourchette": [
-    9,
-    60
+    10,
+    79.9
    ],
    "exemples": [
     {
@@ -28202,7 +28202,8 @@
      "prix": 30
     }
    ],
-   "niveau": "modèle"
+   "niveau": "modèle",
+   "lissee": true
   },
   "modele:nikon onetouch zoom|2@3076": {
    "date": 1794160951893,
@@ -50685,6 +50686,42 @@
    "echantillon": 1,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:canon camara azul|1@3075": {
+   "date": 1794290203735,
+   "mediane": null,
+   "echantillon": 2,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:fujifilm v10 finepix|1@3075": {
+   "date": 1794290773363,
+   "mediane": 110,
+   "echantillon": 5,
+   "dispersion": 0.09,
+   "fourchette": [
+    100,
+    120
+   ],
+   "exemples": [
+    {
+     "id": 10740219189,
+     "prix": 110
+    },
+    {
+     "id": 10568543889,
+     "prix": 110
+    },
+    {
+     "id": 10005553277,
+     "prix": 100
+    },
+    {
+     "id": 7924379767,
+     "prix": 120
+    }
+   ],
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -59671,8 +59708,8 @@
  },
  "bilan": {
   "depuis": 1794285952105,
-  "passages": 66,
-  "nouvelles": 19,
+  "passages": 81,
+  "nouvelles": 23,
   "marque": 3,
   "etat": 0,
   "prix": 0,
@@ -59682,27 +59719,16 @@
   "imitation": 0,
   "pro": 0,
   "vendeurSpecialise": 0,
-  "sansCote": 9,
-  "chere": 5,
+  "sansCote": 11,
+  "chere": 6,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
-  "alertes": 1
+  "alertes": 2
  },
  "panne": null,
  "panneDebut": null,
  "suivi": [
-  {
-   "id": 10685677686,
-   "titre": "Coolpix S2800",
-   "prix": 25,
-   "cote": 95,
-   "score": 70,
-   "lien": "https://www.vinted.fr/items/10685677686-coolpix-s2800",
-   "date": 1793957020407,
-   "statut": "retiree",
-   "verifieA": 1793968227478
-  },
   {
    "id": 10687002646,
    "titre": "Sony SLT-A58",
@@ -62989,6 +63015,17 @@
    "score": 55,
    "lien": "https://www.vinted.fr/items/10744816641-appareil-photo-bridge-sony-dsc-h400",
    "date": 1794286651573,
+   "statut": "en vente",
+   "verifieA": 1794290267291
+  },
+  {
+   "id": 10744995627,
+   "titre": "Finepix v10 digital fujifilm",
+   "prix": 49,
+   "cote": 110,
+   "score": 58,
+   "lien": "https://www.vinted.fr/items/10744995627-finepix-v10-digital-fujifilm",
+   "date": 1794290774157,
    "statut": null
   }
  ],

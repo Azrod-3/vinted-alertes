@@ -1,11 +1,5 @@
 {
  "vues": [
-  "10726099187",
-  "10726089059",
-  "10726076563",
-  "10726107448",
-  "10726096683",
-  "10726129848",
   "10726124648",
   "10726122435",
   "10726122167",
@@ -3999,7 +3993,13 @@
   "10743983263",
   "10744041518",
   "10740758292",
-  "10744130605"
+  "10744130605",
+  "10744155203",
+  "10744170591",
+  "10744175203",
+  "10744198742",
+  "10744199495",
+  "10744219832"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -50846,6 +50846,100 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "modele:panasonic fx3 lumix|1@3075": {
+   "date": 1794276824593,
+   "mediane": 60,
+   "echantillon": 18,
+   "dispersion": 0.5,
+   "fourchette": [
+    16,
+    115
+   ],
+   "exemples": [
+    {
+     "id": 9815254366,
+     "prix": 60
+    },
+    {
+     "id": 7602824158,
+     "prix": 59
+    },
+    {
+     "id": 10744155203,
+     "prix": 55
+    },
+    {
+     "id": 6054424392,
+     "prix": 65
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:panasonic ls60 lumix|1@3075": {
+   "date": 1794277078325,
+   "mediane": 40,
+   "echantillon": 23,
+   "dispersion": 0.33,
+   "fourchette": [
+    17,
+    70
+   ],
+   "exemples": [
+    {
+     "id": 10744175203,
+     "prix": 40
+    },
+    {
+     "id": 9763653304,
+     "prix": 40
+    },
+    {
+     "id": 8790011932,
+     "prix": 40
+    },
+    {
+     "id": 10590700855,
+     "prix": 35
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:olympus fe 120 ccd|1@3075": {
+   "date": 1794277332151,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:olympus c 310 camedia|1@3075": {
+   "date": 1794277521752,
+   "mediane": 33,
+   "echantillon": 27,
+   "dispersion": 0.55,
+   "fourchette": [
+    10,
+    53.96
+   ],
+   "exemples": [
+    {
+     "id": 10218701985,
+     "prix": 33
+    },
+    {
+     "id": 10524746110,
+     "prix": 35
+    },
+    {
+     "id": 10738573174,
+     "prix": 35
+    },
+    {
+     "id": 10122920567,
+     "prix": 35
+    }
+   ],
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -55422,8 +55516,8 @@
    "vu": 1794264224727
   },
   "209541960": {
-   "n": 2,
-   "vu": 1794276569333
+   "n": 6,
+   "vu": 1794277521138
   },
   "210169312": {
    "n": 7,
@@ -59828,9 +59922,9 @@
  },
  "bilan": {
   "depuis": 1794271497822,
-  "passages": 80,
-  "nouvelles": 13,
-  "marque": 1,
+  "passages": 95,
+  "nouvelles": 19,
+  "marque": 2,
   "etat": 1,
   "prix": 0,
   "accessoire": 0,
@@ -59839,8 +59933,8 @@
   "imitation": 0,
   "pro": 0,
   "vendeurSpecialise": 1,
-  "sansCote": 8,
-  "chere": 1,
+  "sansCote": 10,
+  "chere": 4,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,

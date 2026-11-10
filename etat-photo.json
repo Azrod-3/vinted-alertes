@@ -1,21 +1,5 @@
 {
  "vues": [
-  "10732432863",
-  "10732425188",
-  "10732482024",
-  "10732481058",
-  "10731494286",
-  "10731482255",
-  "10732465960",
-  "10731488092",
-  "10732459107",
-  "10732457957",
-  "10732444522",
-  "10732484502",
-  "10732484050",
-  "10732475292",
-  "10732468487",
-  "10732500118",
   "10732461124",
   "10732503534",
   "10732503352",
@@ -3999,7 +3983,23 @@
   "10751388763",
   "10751433095",
   "10751262828",
-  "10751253638"
+  "10751253638",
+  "10740212080",
+  "10751459359",
+  "10751282075",
+  "10749663901",
+  "10751299853",
+  "10751279174",
+  "10751297821",
+  "10751428783",
+  "10751308798",
+  "10751478726",
+  "10751427926",
+  "10751324266",
+  "10751492114",
+  "10751431685",
+  "10751500764",
+  "10751461838"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -4971,9 +4971,9 @@
    "niveau": "modèle"
   },
   "marque:konica@3075": {
-   "date": 1794232189588,
+   "date": 1794349104801,
    "mediane": null,
-   "echantillon": 28,
+   "echantillon": 30,
    "coteTropBasse": 20
   },
   "modele:voigtlander vito anni|2@3076": {
@@ -32821,6 +32821,139 @@
    "echantillon": 1,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:fujifilm f601z finepix|2@3075": {
+   "date": 1794348783955,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:canon 500 5 0mp|2@3075": {
+   "date": 1794348911890,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:canon p536 philips|2@3076": {
+   "date": 1794348975849,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:canon 1100d accessoires|1@3075": {
+   "date": 1794349039912,
+   "mediane": 150,
+   "echantillon": 9,
+   "dispersion": 0.4,
+   "fourchette": [
+    100,
+    250
+   ],
+   "exemples": [
+    {
+     "id": 10361128274,
+     "prix": 150
+    },
+    {
+     "id": 10429215942,
+     "prix": 125
+    },
+    {
+     "id": 10426757001,
+     "prix": 180
+    },
+    {
+     "id": 10546334186,
+     "prix": 120
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:kodak brownie starflash|1@3076": {
+   "date": 1794349040589,
+   "mediane": 17,
+   "echantillon": 20,
+   "dispersion": 0.53,
+   "fourchette": [
+    7,
+    37
+   ],
+   "exemples": [
+    {
+     "id": 10476700810,
+     "prix": 17
+    },
+    {
+     "id": 5878930791,
+     "prix": 17
+    },
+    {
+     "id": 9867898215,
+     "prix": 18
+    },
+    {
+     "id": 9481702242,
+     "prix": 15
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:fujifilm xp140 finepix|1@3075": {
+   "date": 1794349295428,
+   "mediane": 169,
+   "echantillon": 3,
+   "dispersion": null,
+   "fourchette": [
+    105,
+    300
+   ],
+   "exemples": [
+    {
+     "id": 10004372012,
+     "prix": 169
+    },
+    {
+     "id": 10751492114,
+     "prix": 105
+    },
+    {
+     "id": 9272469478,
+     "prix": 300
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:canon eos5000|2@3076": {
+   "date": 1794349550017,
+   "mediane": 50,
+   "echantillon": 19,
+   "dispersion": 1,
+   "fourchette": [
+    15,
+    100
+   ],
+   "exemples": [
+    {
+     "id": 9710664357,
+     "prix": 50
+    },
+    {
+     "id": 10455156906,
+     "prix": 50
+    },
+    {
+     "id": 10191028994,
+     "prix": 49.99
+    },
+    {
+     "id": 9940063527,
+     "prix": 49
+    }
+   ],
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -33360,6 +33493,10 @@
    "n": 2,
    "vu": 1794152209597
   },
+  "20707589": {
+   "n": 2,
+   "vu": 1794349549388
+  },
   "20785356": {
    "n": 2,
    "vu": 1794161860081
@@ -33393,8 +33530,8 @@
    "vu": 1793913119259
   },
   "21373614": {
-   "n": 6,
-   "vu": 1794320967989
+   "n": 7,
+   "vu": 1794349103940
   },
   "21556333": {
    "n": 3,
@@ -34272,6 +34409,10 @@
    "n": 2,
    "vu": 1793975936155
   },
+  "40897561": {
+   "n": 2,
+   "vu": 1794349039210
+  },
   "41053482": {
    "n": 2,
    "vu": 1794055908336
@@ -35073,8 +35214,8 @@
    "vu": 1794249068130
   },
   "58141511": {
-   "n": 2,
-   "vu": 1794171435332
+   "n": 3,
+   "vu": 1794348656847
   },
   "58162104": {
    "n": 2,
@@ -38085,8 +38226,8 @@
    "vu": 1794159964422
   },
   "246137471": {
-   "n": 9,
-   "vu": 1794340941565
+   "n": 10,
+   "vu": 1794349231445
   },
   "246445407": {
    "n": 7,
@@ -42159,38 +42300,27 @@
  },
  "bilan": {
   "depuis": 1794348211216,
-  "passages": 6,
-  "nouvelles": 6,
-  "marque": 2,
+  "passages": 21,
+  "nouvelles": 22,
+  "marque": 6,
   "etat": 1,
   "prix": 2,
   "accessoire": 0,
   "lot": 0,
   "fausse": 0,
   "imitation": 0,
-  "pro": 0,
-  "vendeurSpecialise": 0,
-  "sansCote": 1,
-  "chere": 0,
+  "pro": 1,
+  "vendeurSpecialise": 1,
+  "sansCote": 7,
+  "chere": 3,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
-  "alertes": 0
+  "alertes": 1
  },
  "panne": null,
  "panneDebut": null,
  "suivi": [
-  {
-   "id": 10690014242,
-   "titre": "Macchina fotografica",
-   "prix": 45,
-   "cote": null,
-   "score": 20,
-   "lien": "https://www.vinted.fr/items/10690014242-macchina-fotografica",
-   "date": 1793979040563,
-   "statut": "retiree",
-   "verifieA": 1793982699350
-  },
   {
    "id": 10690127021,
    "titre": "Macchina fotografica",
@@ -45477,6 +45607,17 @@
    "score": 94,
    "lien": "https://www.vinted.fr/items/10751000654-nikon-md-12",
    "date": 1794345145157,
+   "statut": "en vente",
+   "verifieA": 1794348784693
+  },
+  {
+   "id": 10751492114,
+   "titre": "Fujifilm FinePix XP140",
+   "prix": 105,
+   "cote": 169,
+   "score": 48,
+   "lien": "https://www.vinted.fr/items/10751492114-fujifilm-finepix-xp140",
+   "date": 1794349296376,
    "statut": null
   }
  ],

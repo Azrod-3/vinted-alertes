@@ -1,18 +1,5 @@
 {
  "vues": [
-  "10700156574",
-  "10699523136",
-  "10700181838",
-  "10689739741",
-  "10700161938",
-  "10700175610",
-  "10700201673",
-  "10700192680",
-  "10700217071",
-  "10700217017",
-  "10700206452",
-  "10700232853",
-  "10700232396",
   "10700230317",
   "10700218204",
   "10700236626",
@@ -3999,7 +3986,20 @@
   "10750973159",
   "10750977973",
   "10750856700",
-  "10750848834"
+  "10750848834",
+  "10751014879",
+  "10750814904",
+  "10750865141",
+  "10750881864",
+  "10751024367",
+  "10750865926",
+  "10751028306",
+  "10750899513",
+  "10751050870",
+  "10751074481",
+  "10751060714",
+  "10751008943",
+  "10751013916"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -5626,36 +5626,6 @@
     {
      "id": 10450476784,
      "prix": 50
-    }
-   ],
-   "niveau": "modèle",
-   "lissee": true
-  },
-  "modele:canon sx50 powershot|2@3075": {
-   "date": 1794170912208,
-   "mediane": 199,
-   "echantillon": 21,
-   "dispersion": 0.43,
-   "fourchette": [
-    140,
-    400
-   ],
-   "exemples": [
-    {
-     "id": 10513601198,
-     "prix": 199
-    },
-    {
-     "id": 10213366822,
-     "prix": 199
-    },
-    {
-     "id": 8025281308,
-     "prix": 200
-    },
-    {
-     "id": 8183878782,
-     "prix": 200
     }
    ],
    "niveau": "modèle",
@@ -7982,35 +7952,6 @@
    "niveau": "modèle",
    "lissee": true
   },
-  "modele:olympus einem sehr|2@3075": {
-   "date": 1794170193590,
-   "mediane": 40,
-   "echantillon": 4,
-   "dispersion": 0,
-   "fourchette": [
-    30,
-    40
-   ],
-   "exemples": [
-    {
-     "id": 10726955998,
-     "prix": 40
-    },
-    {
-     "id": 10690391667,
-     "prix": 40
-    },
-    {
-     "id": 10607724090,
-     "prix": 40
-    },
-    {
-     "id": 10404933943,
-     "prix": 30
-    }
-   ],
-   "niveau": "modèle"
-  },
   "modele:canon 550d|3@3075": {
    "date": 1794177287218,
    "mediane": 150,
@@ -8035,35 +7976,6 @@
     },
     {
      "id": 10603977570,
-     "prix": 150
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:nikon d3100 obiettivo|2@3075": {
-   "date": 1794170387041,
-   "mediane": 150,
-   "echantillon": 36,
-   "dispersion": 0.2,
-   "fourchette": [
-    80,
-    220
-   ],
-   "exemples": [
-    {
-     "id": 10723483458,
-     "prix": 150
-    },
-    {
-     "id": 10528751238,
-     "prix": 150
-    },
-    {
-     "id": 10169130947,
-     "prix": 150
-    },
-    {
-     "id": 9031915039,
      "prix": 150
     }
    ],
@@ -8141,31 +8053,6 @@
    ],
    "niveau": "modèle"
   },
-  "modele:nikon y2k einem|2@3075": {
-   "date": 1794170584398,
-   "mediane": 35,
-   "echantillon": 3,
-   "dispersion": null,
-   "fourchette": [
-    30,
-    50
-   ],
-   "exemples": [
-    {
-     "id": 10589209920,
-     "prix": 35
-    },
-    {
-     "id": 10596161631,
-     "prix": 30
-    },
-    {
-     "id": 10727069320,
-     "prix": 50
-    }
-   ],
-   "niveau": "modèle"
-  },
   "modele:samsung st65|1@3075": {
    "date": 1794177298281,
    "mediane": 55,
@@ -8191,35 +8078,6 @@
     {
      "id": 10446666606,
      "prix": 60
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:fujifilm stx 2 fuji|2@3076": {
-   "date": 1794170585903,
-   "mediane": 88,
-   "echantillon": 18,
-   "dispersion": 0.4,
-   "fourchette": [
-    25,
-    145
-   ],
-   "exemples": [
-    {
-     "id": 10722687101,
-     "prix": 89.99
-    },
-    {
-     "id": 10579942442,
-     "prix": 90
-    },
-    {
-     "id": 10618191887,
-     "prix": 86
-    },
-    {
-     "id": 10507475704,
-     "prix": 90
     }
    ],
    "niveau": "modèle"
@@ -8340,31 +8198,6 @@
    ],
    "niveau": "modèle"
   },
-  "modele:nikon s52 y2k|2@3075": {
-   "date": 1794170655006,
-   "mediane": 65,
-   "echantillon": 3,
-   "dispersion": null,
-   "fourchette": [
-    50,
-    79
-   ],
-   "exemples": [
-    {
-     "id": 10720482387,
-     "prix": 65
-    },
-    {
-     "id": 8823508609,
-     "prix": 79
-    },
-    {
-     "id": 10257127008,
-     "prix": 50
-    }
-   ],
-   "niveau": "modèle"
-  },
   "modele:kodak cx6200 easyshare|2@3075": {
    "date": 1794177287986,
    "mediane": 28,
@@ -8448,35 +8281,6 @@
     {
      "id": 9972836323,
      "prix": 90
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:canon sx130 powershot|2@3075": {
-   "date": 1794170913762,
-   "mediane": 83,
-   "echantillon": 12,
-   "dispersion": 0.3,
-   "fourchette": [
-    55,
-    149
-   ],
-   "exemples": [
-    {
-     "id": 5874302436,
-     "prix": 85
-    },
-    {
-     "id": 10678424744,
-     "prix": 80
-    },
-    {
-     "id": 8240556906,
-     "prix": 79.95
-    },
-    {
-     "id": 10301270759,
-     "prix": 75
     }
    ],
    "niveau": "modèle"
@@ -32806,6 +32610,42 @@
    "echantillon": 1,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:samsung st600|2@3075": {
+   "date": 1794342969194,
+   "mediane": 77,
+   "echantillon": 9,
+   "dispersion": 0.19,
+   "fourchette": [
+    40,
+    110
+   ],
+   "exemples": [
+    {
+     "id": 10743208016,
+     "prix": 77
+    },
+    {
+     "id": 10636550631,
+     "prix": 75
+    },
+    {
+     "id": 10598322328,
+     "prix": 75
+    },
+    {
+     "id": 10203074838,
+     "prix": 65
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:praktica mtl3 analoge|1@3076": {
+   "date": 1794343795681,
+   "mediane": null,
+   "echantillon": 2,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -36178,8 +36018,8 @@
    "vu": 1793693979620
   },
   "103119820": {
-   "n": 2,
-   "vu": 1794326976630
+   "n": 3,
+   "vu": 1794343541251
   },
   "103387564": {
    "n": 13,
@@ -41254,8 +41094,8 @@
    "vu": 1794141245455
   },
   "3193499911": {
-   "n": 2,
-   "vu": 1794342006881
+   "n": 3,
+   "vu": 1794342968621
   },
   "3193617117": {
    "n": 2,
@@ -42124,19 +41964,19 @@
  },
  "bilan": {
   "depuis": 1794340965033,
-  "passages": 29,
-  "nouvelles": 22,
-  "marque": 2,
+  "passages": 44,
+  "nouvelles": 35,
+  "marque": 3,
   "etat": 1,
   "prix": 1,
   "accessoire": 0,
-  "lot": 1,
+  "lot": 2,
   "fausse": 0,
   "imitation": 0,
   "pro": 0,
   "vendeurSpecialise": 2,
-  "sansCote": 18,
-  "chere": 16,
+  "sansCote": 27,
+  "chere": 18,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,

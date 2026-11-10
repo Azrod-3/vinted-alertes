@@ -1,13 +1,5 @@
 {
  "vues": [
-  "10723568633",
-  "10723566678",
-  "10723561399",
-  "10723576082",
-  "10723566063",
-  "10723561190",
-  "10723585711",
-  "10723553149",
   "10723580183",
   "10723579657",
   "10723595372",
@@ -3999,7 +3991,15 @@
   "10745062793",
   "10745069107",
   "10745082002",
-  "10745091543"
+  "10745091543",
+  "10745115564",
+  "10745121978",
+  "10745125097",
+  "10745132612",
+  "10745136925",
+  "10745148547",
+  "10745154665",
+  "10745159769"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -50765,6 +50765,42 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "modele:sony dsc w210 cybershot|2@3075": {
+   "date": 1794293816358,
+   "mediane": 70,
+   "echantillon": 7,
+   "dispersion": 0.66,
+   "fourchette": [
+    30,
+    120
+   ],
+   "exemples": [
+    {
+     "id": 9945707298,
+     "prix": 70
+    },
+    {
+     "id": 10562697133,
+     "prix": 69
+    },
+    {
+     "id": 10370272314,
+     "prix": 60
+    },
+    {
+     "id": 10530381564,
+     "prix": 99.99
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:zeiss werra ddr|1@3076": {
+   "date": 1794293943257,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -52157,8 +52193,8 @@
    "vu": 1794131394927
   },
   "40214457": {
-   "n": 5,
-   "vu": 1794042830227
+   "n": 6,
+   "vu": 1794293120532
   },
   "40621998": {
    "n": 2,
@@ -59754,24 +59790,24 @@
   }
  },
  "bilan": {
-  "depuis": 1794285952105,
-  "passages": 111,
-  "nouvelles": 34,
-  "marque": 6,
+  "depuis": 1794293183836,
+  "passages": 12,
+  "nouvelles": 7,
+  "marque": 0,
   "etat": 0,
   "prix": 0,
-  "accessoire": 1,
-  "lot": 1,
+  "accessoire": 0,
+  "lot": 0,
   "fausse": 0,
   "imitation": 0,
   "pro": 0,
   "vendeurSpecialise": 0,
-  "sansCote": 16,
-  "chere": 8,
+  "sansCote": 6,
+  "chere": 1,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
-  "alertes": 2
+  "alertes": 0
  },
  "panne": null,
  "panneDebut": null,

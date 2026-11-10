@@ -1,29 +1,5 @@
 {
  "vues": [
-  "10723580183",
-  "10723579657",
-  "10723595372",
-  "10723586148",
-  "10723633666",
-  "10723630966",
-  "10723611534",
-  "10723611244",
-  "10723627256",
-  "10723633956",
-  "10723635625",
-  "10723671534",
-  "10723660954",
-  "10723657504",
-  "10723702907",
-  "10723686754",
-  "10723684766",
-  "10723677453",
-  "10723670934",
-  "10723691532",
-  "10723666301",
-  "10723655525",
-  "10723728020",
-  "10723726945",
   "10723711653",
   "10723710811",
   "10723707947",
@@ -3999,7 +3975,31 @@
   "10745136925",
   "10745148547",
   "10745154665",
-  "10745159769"
+  "10745159769",
+  "10745166845",
+  "10745166000",
+  "10745169163",
+  "10745176164",
+  "10745168133",
+  "10745180092",
+  "10731613616",
+  "10745181755",
+  "10745185744",
+  "10745185388",
+  "10745197649",
+  "10745198609",
+  "10745192177",
+  "10745201066",
+  "10745200326",
+  "10745199644",
+  "10745203754",
+  "10732748342",
+  "10745210549",
+  "10745211473",
+  "10745210144",
+  "10745214455",
+  "10745214358",
+  "10745218152"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -50801,6 +50801,106 @@
    "echantillon": 1,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:pentacon retro kameras|1@3076": {
+   "date": 1794294008745,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:kodak 620 soffietto|1@3076": {
+   "date": 1794294136739,
+   "mediane": 63,
+   "echantillon": 4,
+   "dispersion": 0.08,
+   "fourchette": [
+    60,
+    70
+   ],
+   "exemples": [
+    {
+     "id": 9918536164,
+     "prix": 65
+    },
+    {
+     "id": 10745176164,
+     "prix": 60
+    },
+    {
+     "id": 7637329414,
+     "prix": 60
+    },
+    {
+     "id": 7488877946,
+     "prix": 70
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:fujifilm pack batteries|2@3075": {
+   "date": 1794294200558,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:canon multiple program|2@3076": {
+   "date": 1794294201578,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:kodak 155x instamatic|2@3076": {
+   "date": 1794294265838,
+   "mediane": 10,
+   "echantillon": 56,
+   "dispersion": 0.41,
+   "fourchette": [
+    3.98,
+    18
+   ],
+   "exemples": [
+    {
+     "id": 10549953884,
+     "prix": 10
+    },
+    {
+     "id": 9741439403,
+     "prix": 10
+    },
+    {
+     "id": 6142287658,
+     "prix": 10
+    },
+    {
+     "id": 9739139641,
+     "prix": 10
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:canon 550 eos|2@3076": {
+   "date": 1794294709515,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:canon 500 bp 8|1@3076": {
+   "date": 1794294710573,
+   "mediane": null,
+   "echantillon": 2,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:polaroid 6350 pdc|2@3075": {
+   "date": 1794294837417,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -52193,8 +52293,8 @@
    "vu": 1794131394927
   },
   "40214457": {
-   "n": 6,
-   "vu": 1794293120532
+   "n": 7,
+   "vu": 1794294328991
   },
   "40621998": {
    "n": 2,
@@ -55963,6 +56063,10 @@
   "250909675": {
    "n": 3,
    "vu": 1794213177203
+  },
+  "251105057": {
+   "n": 3,
+   "vu": 1794294199848
   },
   "251299005": {
    "n": 3,
@@ -59791,19 +59895,19 @@
  },
  "bilan": {
   "depuis": 1794293183836,
-  "passages": 12,
-  "nouvelles": 7,
-  "marque": 0,
+  "passages": 27,
+  "nouvelles": 31,
+  "marque": 4,
   "etat": 0,
-  "prix": 0,
-  "accessoire": 0,
-  "lot": 0,
+  "prix": 3,
+  "accessoire": 2,
+  "lot": 1,
   "fausse": 0,
   "imitation": 0,
-  "pro": 0,
+  "pro": 1,
   "vendeurSpecialise": 0,
-  "sansCote": 6,
-  "chere": 1,
+  "sansCote": 17,
+  "chere": 3,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
@@ -63109,7 +63213,8 @@
    "score": 58,
    "lien": "https://www.vinted.fr/items/10744995627-finepix-v10-digital-fujifilm",
    "date": 1794290774157,
-   "statut": null
+   "statut": "en vente",
+   "verifieA": 1794294392825
   }
  ],
  "dernierRecap": "2026-11-09"

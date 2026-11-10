@@ -1,6 +1,5 @@
 {
  "vues": [
-  "10723377412",
   "10723403343",
   "10723390317",
   "10723341294",
@@ -3999,7 +3998,8 @@
   "10744760725",
   "10744767109",
   "10744779929",
-  "10744799997"
+  "10744799997",
+  "10744816641"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -50525,6 +50525,35 @@
    "echantillon": 1,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:sony dsc h400 bridge|2@3075": {
+   "date": 1794286650763,
+   "mediane": 145,
+   "echantillon": 8,
+   "dispersion": 0.21,
+   "fourchette": [
+    80,
+    199.99
+   ],
+   "exemples": [
+    {
+     "id": 8679831952,
+     "prix": 150
+    },
+    {
+     "id": 10021446689,
+     "prix": 139.99
+    },
+    {
+     "id": 7529708015,
+     "prix": 160
+    },
+    {
+     "id": 9367530554,
+     "prix": 129
+    }
+   ],
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -59507,8 +59536,8 @@
  },
  "bilan": {
   "depuis": 1794285952105,
-  "passages": 6,
-  "nouvelles": 1,
+  "passages": 21,
+  "nouvelles": 2,
   "marque": 0,
   "etat": 0,
   "prix": 0,
@@ -59523,22 +59552,11 @@
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
-  "alertes": 0
+  "alertes": 1
  },
  "panne": null,
  "panneDebut": null,
  "suivi": [
-  {
-   "id": 10685338023,
-   "titre": "Canon EOS 450 D",
-   "prix": 60,
-   "cote": 173,
-   "score": 68,
-   "lien": "https://www.vinted.fr/items/10685338023-canon-eos-450-d",
-   "date": 1793954582881,
-   "statut": "en vente",
-   "verifieA": 1793958242383
-  },
   {
    "id": 10685677686,
    "titre": "Coolpix S2800",
@@ -62827,6 +62845,16 @@
    "date": 1794264249364,
    "statut": "en vente",
    "verifieA": 1794267942213
+  },
+  {
+   "id": 10744816641,
+   "titre": "appareil photo bridge sony dsc-h400",
+   "prix": 80,
+   "cote": 145,
+   "score": 55,
+   "lien": "https://www.vinted.fr/items/10744816641-appareil-photo-bridge-sony-dsc-h400",
+   "date": 1794286651573,
+   "statut": null
   }
  ],
  "dernierRecap": "2026-11-09"

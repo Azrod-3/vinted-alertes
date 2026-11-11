@@ -1,20 +1,5 @@
 {
  "vues": [
-  "10735646971",
-  "10735635965",
-  "10735622036",
-  "10735674696",
-  "10735663502",
-  "10735663420",
-  "10735666049",
-  "10735686451",
-  "10735685109",
-  "10735681208",
-  "10735703355",
-  "10735700443",
-  "10735721647",
-  "10735720124",
-  "10735718433",
   "10735712537",
   "10735710577",
   "10735709198",
@@ -3999,7 +3984,22 @@
   "10757298456",
   "10745127385",
   "10757023142",
-  "10757112230"
+  "10757112230",
+  "10757126487",
+  "10757203333",
+  "10757195247",
+  "10757170091",
+  "10757397844",
+  "10757341413",
+  "10757240892",
+  "10757385217",
+  "10757439212",
+  "10757433725",
+  "10757453481",
+  "10757458177",
+  "10757443375",
+  "10757481506",
+  "10757458006"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -6006,19 +6006,15 @@
    "lissee": true
   },
   "modele:fujifilm l50 finepix|2@3075": {
-   "date": 1794243982951,
-   "mediane": 56,
+   "date": 1794369776381,
+   "mediane": 55,
    "echantillon": 9,
-   "dispersion": 0.26,
+   "dispersion": 0.27,
    "fourchette": [
     45,
     70
    ],
    "exemples": [
-    {
-     "id": 10738057721,
-     "prix": 55
-    },
     {
      "id": 10707493658,
      "prix": 55
@@ -6030,6 +6026,10 @@
     {
      "id": 10677291140,
      "prix": 60
+    },
+    {
+     "id": 10757453481,
+     "prix": 49.9
     }
    ],
    "niveau": "modèle",
@@ -36443,6 +36443,42 @@
    "echantillon": 1,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:kodak c1530 easyshare|1@3075": {
+   "date": 1794369330513,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:panasonic f3 lumix|2@3075": {
+   "date": 1794369840534,
+   "mediane": 60,
+   "echantillon": 23,
+   "dispersion": 0.6,
+   "fourchette": [
+    23,
+    129
+   ],
+   "exemples": [
+    {
+     "id": 10371470475,
+     "prix": 60
+    },
+    {
+     "id": 9927078808,
+     "prix": 60
+    },
+    {
+     "id": 9870076848,
+     "prix": 60
+    },
+    {
+     "id": 8530006808,
+     "prix": 60
+    }
+   ],
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -39826,6 +39862,10 @@
    "n": 2,
    "vu": 1793894556865
   },
+  "96671434": {
+   "n": 2,
+   "vu": 1794369839873
+  },
   "96691244": {
    "n": 3,
    "vu": 1793737041479
@@ -40319,8 +40359,8 @@
    "vu": 1793967949919
   },
   "126948008": {
-   "n": 11,
-   "vu": 1794314836961
+   "n": 14,
+   "vu": 1794369775738
   },
   "127462149": {
    "n": 2,
@@ -43663,8 +43703,8 @@
    "vu": 1794359680987
   },
   "3138957823": {
-   "n": 39,
-   "vu": 1794368946423
+   "n": 42,
+   "vu": 1794369711646
   },
   "3139204198": {
    "n": 4,
@@ -45996,24 +46036,24 @@
   }
  },
  "bilan": {
-  "depuis": 1794362728603,
-  "passages": 98,
-  "nouvelles": 373,
-  "marque": 51,
-  "etat": 16,
-  "prix": 14,
-  "accessoire": 5,
-  "lot": 5,
-  "fausse": 1,
+  "depuis": 1794369968593,
+  "passages": 2,
+  "nouvelles": 0,
+  "marque": 0,
+  "etat": 0,
+  "prix": 0,
+  "accessoire": 0,
+  "lot": 0,
+  "fausse": 0,
   "imitation": 0,
-  "pro": 34,
-  "vendeurSpecialise": 29,
-  "sansCote": 154,
-  "chere": 56,
-  "description": 1,
+  "pro": 0,
+  "vendeurSpecialise": 0,
+  "sansCote": 0,
+  "chere": 0,
+  "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
-  "alertes": 7
+  "alertes": 0
  },
  "panne": null,
  "panneDebut": null,
@@ -49271,7 +49311,8 @@
    "score": 66,
    "lien": "https://www.vinted.fr/items/10755875776-macchina-fotografia",
    "date": 1794366039645,
-   "statut": null
+   "statut": "en vente",
+   "verifieA": 1794369647761
   },
   {
    "id": 10755868393,
@@ -49281,7 +49322,8 @@
    "score": 63,
    "lien": "https://www.vinted.fr/items/10755868393-canon-digicam-ixus-80-is",
    "date": 1794366104865,
-   "statut": null
+   "statut": "en vente",
+   "verifieA": 1794369712147
   },
   {
    "id": 10756224905,
@@ -49291,7 +49333,8 @@
    "score": 70,
    "lien": "https://www.vinted.fr/items/10756224905-sony-cybershot-dsc-hx50",
    "date": 1794366362548,
-   "statut": null
+   "statut": "en vente",
+   "verifieA": 1794369967793
   },
   {
    "id": 10755989369,
@@ -49301,7 +49344,8 @@
    "score": 60,
    "lien": "https://www.vinted.fr/items/10755989369-camara-canon-ixus-145",
    "date": 1794366362751,
-   "statut": null
+   "statut": "en vente",
+   "verifieA": 1794369968593
   },
   {
    "id": 10756377043,

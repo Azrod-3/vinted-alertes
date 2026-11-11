@@ -1,36 +1,5 @@
 {
  "vues": [
-  "10736142989",
-  "10736139823",
-  "10736161432",
-  "10736155678",
-  "10736163299",
-  "10736161464",
-  "10736152769",
-  "10736150466",
-  "10736177366",
-  "10736166073",
-  "10736165708",
-  "10736170406",
-  "10736185143",
-  "10736183326",
-  "10736212758",
-  "10736210361",
-  "10736207429",
-  "10736205907",
-  "10724977565",
-  "10726723437",
-  "10736228084",
-  "10736225261",
-  "10736215801",
-  "10736208259",
-  "10736197566",
-  "10736224289",
-  "10736224061",
-  "10736228592",
-  "10736252902",
-  "10736246542",
-  "10736187904",
   "10736275777",
   "10736274836",
   "10736270468",
@@ -3999,7 +3968,38 @@
   "10758093808",
   "10758098487",
   "10758094389",
-  "10758093995"
+  "10758093995",
+  "10758098943",
+  "10758136209",
+  "10758133000",
+  "10758125272",
+  "10758120602",
+  "10758118123",
+  "10758113983",
+  "10758106176",
+  "10758135180",
+  "10745817482",
+  "10758114456",
+  "10758112464",
+  "10758141959",
+  "10758138533",
+  "10758136695",
+  "10758146024",
+  "10758145634",
+  "10758143351",
+  "10758150006",
+  "10758156275",
+  "10758154887",
+  "10758156342",
+  "10758164951",
+  "10758164447",
+  "10758162380",
+  "10758167416",
+  "10758166227",
+  "10758168894",
+  "10758173917",
+  "10758172345",
+  "10758182635"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -8122,35 +8122,6 @@
     {
      "id": 10520603051,
      "prix": 35
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:praktica ee2|1@3076": {
-   "date": 1794210279232,
-   "mediane": 25,
-   "echantillon": 7,
-   "dispersion": 1,
-   "fourchette": [
-    18,
-    50
-   ],
-   "exemples": [
-    {
-     "id": 10686015668,
-     "prix": 25
-    },
-    {
-     "id": 5499983499,
-     "prix": 25
-    },
-    {
-     "id": 10731206489,
-     "prix": 20
-    },
-    {
-     "id": 10213236646,
-     "prix": 30
     }
    ],
    "niveau": "modèle"
@@ -37158,6 +37129,190 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "modele:minolta 3l dynax|3@3076": {
+   "date": 1794382474894,
+   "mediane": 35,
+   "echantillon": 9,
+   "dispersion": 1,
+   "fourchette": [
+    15,
+    80
+   ],
+   "exemples": [
+    {
+     "id": 9293911386,
+     "prix": 35
+    },
+    {
+     "id": 10758098943,
+     "prix": 30
+    },
+    {
+     "id": 10228462645,
+     "prix": 25
+    },
+    {
+     "id": 9488092921,
+     "prix": 22.7
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:nikon professionale|2@3075": {
+   "date": 1794382666374,
+   "mediane": 195,
+   "echantillon": 13,
+   "dispersion": 0.72,
+   "fourchette": [
+    51,
+    350
+   ],
+   "exemples": [
+    {
+     "id": 10754413517,
+     "prix": 195
+    },
+    {
+     "id": 10172288975,
+     "prix": 200
+    },
+    {
+     "id": 9842219700,
+     "prix": 200
+    },
+    {
+     "id": 10574120234,
+     "prix": 230
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:canon 1000 eos|1@3075": {
+   "date": 1794382667914,
+   "mediane": 132,
+   "echantillon": 22,
+   "dispersion": 0.91,
+   "fourchette": [
+    50,
+    270
+   ],
+   "exemples": [
+    {
+     "id": 10512278256,
+     "prix": 150
+    },
+    {
+     "id": 8331059423,
+     "prix": 150
+    },
+    {
+     "id": 10091106552,
+     "prix": 113
+    },
+    {
+     "id": 8279059598,
+     "prix": 110
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:minolta matic|1@3076": {
+   "date": 1794382669627,
+   "mediane": 65,
+   "echantillon": 79,
+   "dispersion": 0.46,
+   "fourchette": [
+    18,
+    130
+   ],
+   "exemples": [
+    {
+     "id": 10226724889,
+     "prix": 65
+    },
+    {
+     "id": 10679969076,
+     "prix": 65
+    },
+    {
+     "id": 10517896683,
+     "prix": 65
+    },
+    {
+     "id": 9399850534,
+     "prix": 65
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:canon nk3030 camara|3@3076": {
+   "date": 1794382670218,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:pentax 120sw espio|1@3076": {
+   "date": 1794382671008,
+   "mediane": 100,
+   "echantillon": 3,
+   "dispersion": null,
+   "fourchette": [
+    99,
+    105
+   ],
+   "exemples": [
+    {
+     "id": 10509874643,
+     "prix": 100
+    },
+    {
+     "id": 10731537534,
+     "prix": 99
+    },
+    {
+     "id": 8983474996,
+     "prix": 105
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:canon 400|2@3075": {
+   "date": 1794382862475,
+   "mediane": 60,
+   "echantillon": 47,
+   "dispersion": 0.9,
+   "fourchette": [
+    19.99,
+    160
+   ],
+   "exemples": [
+    {
+     "id": 10426795788,
+     "prix": 60
+    },
+    {
+     "id": 10268027680,
+     "prix": 60
+    },
+    {
+     "id": 9739675593,
+     "prix": 60
+    },
+    {
+     "id": 7675682277,
+     "prix": 60
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:nikon fotocamere|1@3075": {
+   "date": 1794383116346,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -37918,8 +38073,8 @@
    "vu": 1793637539643
   },
   "24576663": {
-   "n": 2,
-   "vu": 1794381324631
+   "n": 3,
+   "vu": 1794382925641
   },
   "24591142": {
    "n": 3,
@@ -39422,8 +39577,8 @@
    "vu": 1794141734665
   },
   "56591472": {
-   "n": 65,
-   "vu": 1794382026862
+   "n": 66,
+   "vu": 1794382798471
   },
   "56773463": {
    "n": 5,
@@ -41892,6 +42047,10 @@
   "193328509": {
    "n": 6,
    "vu": 1794177195312
+  },
+  "194077726": {
+   "n": 3,
+   "vu": 1794382988853
   },
   "194114609": {
    "n": 6,
@@ -46756,60 +46915,27 @@
  },
  "bilan": {
   "depuis": 1794380436708,
-  "passages": 29,
-  "nouvelles": 46,
-  "marque": 8,
+  "passages": 44,
+  "nouvelles": 77,
+  "marque": 11,
   "etat": 2,
-  "prix": 4,
+  "prix": 9,
   "accessoire": 1,
   "lot": 2,
   "fausse": 0,
   "imitation": 0,
   "pro": 4,
   "vendeurSpecialise": 2,
-  "sansCote": 16,
-  "chere": 6,
+  "sansCote": 30,
+  "chere": 12,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
-  "alertes": 1
+  "alertes": 4
  },
  "panne": null,
  "panneDebut": null,
  "suivi": [
-  {
-   "id": 10701142116,
-   "titre": "Canon Prima Super 105u",
-   "prix": 15,
-   "cote": 78,
-   "score": 68,
-   "lien": "https://www.vinted.fr/items/10701142116-canon-prima-super-105u",
-   "date": 1794055586977,
-   "statut": "retiree",
-   "verifieA": 1794059216148
-  },
-  {
-   "id": 10701605359,
-   "titre": "Camara Nikon Coolpix 3300 Leer",
-   "prix": 30,
-   "cote": 200,
-   "score": 76,
-   "lien": "https://www.vinted.fr/items/10701605359-camara-nikon-coolpix-3300-leer",
-   "date": 1794057333778,
-   "statut": "en vente",
-   "verifieA": 1794060965239
-  },
-  {
-   "id": 10701763124,
-   "titre": "Rollei digital Kamera",
-   "prix": 14,
-   "cote": null,
-   "score": 20,
-   "lien": "https://www.vinted.fr/items/10701763124-rollei-digital-kamera",
-   "date": 1794057914760,
-   "statut": "retiree",
-   "verifieA": 1794061544624
-  },
   {
    "id": 10701804016,
    "titre": "canon ixus 132",
@@ -50072,6 +50198,36 @@
    "score": 67,
    "lien": "https://www.vinted.fr/items/10758083360-canon-600d",
    "date": 1794382028134,
+   "statut": null
+  },
+  {
+   "id": 10758133000,
+   "titre": "Macchina fotografica professionale",
+   "prix": 63,
+   "cote": 195,
+   "score": 71,
+   "lien": "https://www.vinted.fr/items/10758133000-macchina-fotografica-professionale",
+   "date": 1794382671972,
+   "statut": null
+  },
+  {
+   "id": 10758112464,
+   "titre": "Macchina fotografica Pentax espio 120sw",
+   "prix": 25,
+   "cote": 100,
+   "score": 67,
+   "lien": "https://www.vinted.fr/items/10758112464-macchina-fotografica-pentax-espio-120sw",
+   "date": 1794382672075,
+   "statut": null
+  },
+  {
+   "id": 10758106176,
+   "titre": "Canon EOS 1000 d Kamera",
+   "prix": 69,
+   "cote": 132,
+   "score": 48,
+   "lien": "https://www.vinted.fr/items/10758106176-canon-eos-1000-d-kamera",
+   "date": 1794382672152,
    "statut": null
   }
  ],

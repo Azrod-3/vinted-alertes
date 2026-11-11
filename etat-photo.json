@@ -1,8 +1,5 @@
 {
  "vues": [
-  "10735735585",
-  "10735751450",
-  "10735746372",
   "10735738545",
   "10735757684",
   "10735771377",
@@ -3999,7 +3996,10 @@
   "10757579064",
   "10757593295",
   "10757592081",
-  "10757655534"
+  "10757655534",
+  "10757673307",
+  "10757690626",
+  "10757696483"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -36551,6 +36551,49 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "modele:praktica 280 ltl|1@3076": {
+   "date": 1794374170631,
+   "mediane": null,
+   "echantillon": 0,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:yashica camara yasjika|2@3076": {
+   "date": 1794374615911,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:fujifilm macchinetta|1@3075": {
+   "date": 1794374743490,
+   "mediane": 60,
+   "echantillon": 16,
+   "dispersion": 0.83,
+   "fourchette": [
+    16,
+    110
+   ],
+   "exemples": [
+    {
+     "id": 8895077653,
+     "prix": 60
+    },
+    {
+     "id": 6019999153,
+     "prix": 60
+    },
+    {
+     "id": 10757696483,
+     "prix": 55
+    },
+    {
+     "id": 10121557644,
+     "prix": 70
+    }
+   ],
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -46117,8 +46160,8 @@
  },
  "bilan": {
   "depuis": 1794369968593,
-  "passages": 62,
-  "nouvelles": 10,
+  "passages": 77,
+  "nouvelles": 13,
   "marque": 1,
   "etat": 0,
   "prix": 1,
@@ -46128,8 +46171,8 @@
   "imitation": 0,
   "pro": 1,
   "vendeurSpecialise": 1,
-  "sansCote": 4,
-  "chere": 2,
+  "sansCote": 6,
+  "chere": 3,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,

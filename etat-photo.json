@@ -1,13 +1,5 @@
 {
  "vues": [
-  "10735765797",
-  "10735764787",
-  "10735770752",
-  "10735793113",
-  "10735781050",
-  "10735805236",
-  "10735802762",
-  "10735795460",
   "10735798133",
   "10735802633",
   "10735815282",
@@ -3999,7 +3991,15 @@
   "10757708869",
   "10757710696",
   "10757723669",
-  "10757726616"
+  "10757726616",
+  "10757750980",
+  "10757750535",
+  "10757762627",
+  "10757761318",
+  "10757764969",
+  "10755801133",
+  "10757778134",
+  "10757780409"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -36616,6 +36616,20 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "modele:olympus 600 kompaktkamera|2@3075": {
+   "date": 1794376398025,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:sony dsc w350 y2k|1@3075": {
+   "date": 1794376718037,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -44148,8 +44162,8 @@
    "vu": 1793690847692
   },
   "3150331592": {
-   "n": 8,
-   "vu": 1794053525975
+   "n": 9,
+   "vu": 1794376143807
   },
   "3150470184": {
    "n": 5,
@@ -46182,18 +46196,18 @@
  },
  "bilan": {
   "depuis": 1794369968593,
-  "passages": 92,
-  "nouvelles": 17,
-  "marque": 3,
-  "etat": 0,
+  "passages": 107,
+  "nouvelles": 25,
+  "marque": 4,
+  "etat": 2,
   "prix": 1,
   "accessoire": 0,
   "lot": 0,
   "fausse": 0,
   "imitation": 0,
   "pro": 1,
-  "vendeurSpecialise": 1,
-  "sansCote": 7,
+  "vendeurSpecialise": 2,
+  "sansCote": 11,
   "chere": 4,
   "description": 0,
   "scoreFaible": 0,

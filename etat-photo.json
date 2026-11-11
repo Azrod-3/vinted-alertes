@@ -1,24 +1,5 @@
 {
  "vues": [
-  "10736094076",
-  "10736091427",
-  "10736090669",
-  "10736088776",
-  "10736103140",
-  "10736105015",
-  "10725078164",
-  "10736125246",
-  "10736122109",
-  "10736129286",
-  "10736127487",
-  "10736124565",
-  "10736115373",
-  "10736145625",
-  "10736145263",
-  "10725060288",
-  "10736139652",
-  "10736135017",
-  "10736132813",
   "10736142989",
   "10736139823",
   "10736161432",
@@ -3999,7 +3980,26 @@
   "10758029872",
   "10758027623",
   "10758027491",
-  "10758029710"
+  "10758029710",
+  "10758033849",
+  "10758032089",
+  "10758033141",
+  "10758035894",
+  "10758041333",
+  "10758048473",
+  "10758046532",
+  "10758054258",
+  "10758049883",
+  "10758083360",
+  "10758082386",
+  "10758081334",
+  "10758086252",
+  "10758085313",
+  "10695771913",
+  "10758093808",
+  "10758098487",
+  "10758094389",
+  "10758093995"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -37037,6 +37037,127 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "marque:petri@3076": {
+   "date": 1794381391893,
+   "mediane": null,
+   "echantillon": 54,
+   "coteTropBasse": 30
+  },
+  "modele:petri 7s|1@3076": {
+   "date": 1794381392585,
+   "mediane": 40,
+   "echantillon": 28,
+   "dispersion": 0.38,
+   "fourchette": [
+    16,
+    70
+   ],
+   "exemples": [
+    {
+     "id": 10653172668,
+     "prix": 40
+    },
+    {
+     "id": 10284417763,
+     "prix": 40
+    },
+    {
+     "id": 9079619857,
+     "prix": 40
+    },
+    {
+     "id": 5506569848,
+     "prix": 40
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:kodak cx6200 y2k|2@3075": {
+   "date": 1794381456428,
+   "mediane": null,
+   "echantillon": 2,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:zeiss 518 16 soffietto|2@3076": {
+   "date": 1794381457097,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:minolta due fotocamere|1@3076": {
+   "date": 1794381647461,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:canon 600d|1@3075": {
+   "date": 1794382027544,
+   "mediane": 175,
+   "echantillon": 78,
+   "dispersion": 0.29,
+   "fourchette": [
+    75,
+    300
+   ],
+   "exemples": [
+    {
+     "id": 10730124917,
+     "prix": 175
+    },
+    {
+     "id": 10673137642,
+     "prix": 175
+    },
+    {
+     "id": 10495978116,
+     "prix": 175
+    },
+    {
+     "id": 10522258952,
+     "prix": 175
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:agfa alte silette|1@3076": {
+   "date": 1794382091950,
+   "mediane": null,
+   "echantillon": 2,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:canon 350d eos|1@3075": {
+   "date": 1794382156417,
+   "mediane": 71,
+   "echantillon": 78,
+   "dispersion": 0.57,
+   "fourchette": [
+    25,
+    160
+   ],
+   "exemples": [
+    {
+     "id": 10298466914,
+     "prix": 71
+    },
+    {
+     "id": 10596697285,
+     "prix": 71
+    },
+    {
+     "id": 10723364655,
+     "prix": 71
+    },
+    {
+     "id": 10719145926,
+     "prix": 70
+    }
+   ],
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -39301,8 +39422,8 @@
    "vu": 1794141734665
   },
   "56591472": {
-   "n": 63,
-   "vu": 1794380424178
+   "n": 65,
+   "vu": 1794382026862
   },
   "56773463": {
    "n": 5,
@@ -40091,6 +40212,10 @@
   "77358624": {
    "n": 6,
    "vu": 1794143755407
+  },
+  "77427159": {
+   "n": 2,
+   "vu": 1794382219632
   },
   "77724885": {
    "n": 2,
@@ -43768,6 +43893,10 @@
    "n": 2,
    "vu": 1793632600302
   },
+  "310863656": {
+   "n": 2,
+   "vu": 1794381391193
+  },
   "311334247": {
    "n": 2,
    "vu": 1794127767055
@@ -46627,38 +46756,27 @@
  },
  "bilan": {
   "depuis": 1794380436708,
-  "passages": 14,
-  "nouvelles": 27,
-  "marque": 4,
-  "etat": 0,
-  "prix": 1,
+  "passages": 29,
+  "nouvelles": 46,
+  "marque": 8,
+  "etat": 2,
+  "prix": 4,
   "accessoire": 1,
-  "lot": 1,
+  "lot": 2,
   "fausse": 0,
   "imitation": 0,
   "pro": 4,
   "vendeurSpecialise": 2,
-  "sansCote": 10,
-  "chere": 4,
+  "sansCote": 16,
+  "chere": 6,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
-  "alertes": 0
+  "alertes": 1
  },
  "panne": null,
  "panneDebut": null,
  "suivi": [
-  {
-   "id": 10700758704,
-   "titre": "Olympus OM-D E-M10 Set mit 3 Objektiven (14-42, 40-150, 15mm)",
-   "prix": 290,
-   "cote": 480,
-   "score": 62,
-   "lien": "https://www.vinted.fr/items/10700758704-olympus-om-d-e-m10-set-mit-3-objektiven-14-42-40-150-15mm",
-   "date": 1794054102614,
-   "statut": "en vente",
-   "verifieA": 1794057722327
-  },
   {
    "id": 10701142116,
    "titre": "Canon Prima Super 105u",
@@ -49944,6 +50062,16 @@
    "score": 20,
    "lien": "https://www.vinted.fr/items/10757953086-3-macchine-fotografiche",
    "date": 1794380436694,
+   "statut": null
+  },
+  {
+   "id": 10758083360,
+   "titre": "Canon 600D",
+   "prix": 75,
+   "cote": 175,
+   "score": 67,
+   "lien": "https://www.vinted.fr/items/10758083360-canon-600d",
+   "date": 1794382028134,
    "statut": null
   }
  ],

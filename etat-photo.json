@@ -1,22 +1,5 @@
 {
  "vues": [
-  "10752587574",
-  "10752831696",
-  "10752810646",
-  "10752607198",
-  "10752601534",
-  "10752641757",
-  "10752598756",
-  "10752871754",
-  "10752850324",
-  "10752853797",
-  "10752834951",
-  "10752828139",
-  "10752620243",
-  "10752905007",
-  "10752894676",
-  "10752892809",
-  "10752786031",
   "10752654431",
   "10752652651",
   "10752625037",
@@ -3999,7 +3982,24 @@
   "10771838932",
   "10771842116",
   "10771841426",
-  "10771854515"
+  "10771854515",
+  "10771866297",
+  "10771867309",
+  "10771875936",
+  "10771874242",
+  "10771889848",
+  "10771915839",
+  "10771917853",
+  "10771934829",
+  "10771945929",
+  "10771943122",
+  "10771953980",
+  "10771952812",
+  "10771960767",
+  "10771970436",
+  "10771969939",
+  "10771967867",
+  "10771975664"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -5810,36 +5810,6 @@
    "niveau": "modèle",
    "lissee": true
   },
-  "modele:agfa iso rapid|1@3076": {
-   "date": 1794264825873,
-   "mediane": 12,
-   "echantillon": 75,
-   "dispersion": 0.64,
-   "fourchette": [
-    3,
-    25
-   ],
-   "exemples": [
-    {
-     "id": 6720840213,
-     "prix": 11
-    },
-    {
-     "id": 6151872476,
-     "prix": 11
-    },
-    {
-     "id": 10727830138,
-     "prix": 10
-    },
-    {
-     "id": 10571585406,
-     "prix": 12
-    }
-   ],
-   "niveau": "modèle",
-   "lissee": true
-  },
   "modele:nikon s9 coolpix|2@3075": {
    "date": 1794300213077,
    "mediane": 55,
@@ -7146,56 +7116,6 @@
    "date": 1794360989770,
    "mediane": null,
    "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:fujifilm av200 maquina|3@3075": {
-   "date": 1794264889568,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:olympus af 1|2@3076": {
-   "date": 1794265208855,
-   "mediane": 75,
-   "echantillon": 61,
-   "dispersion": 0.6,
-   "fourchette": [
-    29,
-    155
-   ],
-   "exemples": [
-    {
-     "id": 9933179449,
-     "prix": 75
-    },
-    {
-     "id": 10624150305,
-     "prix": 75
-    },
-    {
-     "id": 9884636264,
-     "prix": 75
-    },
-    {
-     "id": 10467703123,
-     "prix": 75
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:canon s3 power|2@3075": {
-   "date": 1794265272700,
-   "mediane": null,
-   "echantillon": 2,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:nikon l22 y2k|1@3075": {
-   "date": 1794265400143,
-   "mediane": null,
-   "echantillon": 2,
    "dispersion": null,
    "niveau": "modèle"
   },
@@ -39303,6 +39223,107 @@
    "echantillon": 1,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:nikon f90 zoom|1@3076": {
+   "date": 1794437666345,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:canon l 1 ixus|1@3076": {
+   "date": 1794437730907,
+   "mediane": 20,
+   "echantillon": 31,
+   "dispersion": 0.5,
+   "fourchette": [
+    5,
+    39
+   ],
+   "exemples": [
+    {
+     "id": 10733109128,
+     "prix": 20
+    },
+    {
+     "id": 9153375556,
+     "prix": 20
+    },
+    {
+     "id": 9312588246,
+     "prix": 20
+    },
+    {
+     "id": 9775432174,
+     "prix": 20
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:kodak fotocamere|1@3076": {
+   "date": 1794437986400,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:pentax s7 optio|2@3075": {
+   "date": 1794438113783,
+   "mediane": 50,
+   "echantillon": 9,
+   "dispersion": 0.2,
+   "fourchette": [
+    35,
+    70
+   ],
+   "exemples": [
+    {
+     "id": 10771934829,
+     "prix": 50
+    },
+    {
+     "id": 9673027308,
+     "prix": 50
+    },
+    {
+     "id": 10351148398,
+     "prix": 50
+    },
+    {
+     "id": 8494935889,
+     "prix": 49.95
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:canon sx30is powershot|2@3075": {
+   "date": 1794438368395,
+   "mediane": 68,
+   "echantillon": 8,
+   "dispersion": 0.3,
+   "fourchette": [
+    45,
+    102
+   ],
+   "exemples": [
+    {
+     "id": 6990462735,
+     "prix": 75
+    },
+    {
+     "id": 9701971237,
+     "prix": 60
+    },
+    {
+     "id": 10361009529,
+     "prix": 60
+    },
+    {
+     "id": 9888479197,
+     "prix": 80
+    }
+   ],
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -45667,8 +45688,8 @@
    "vu": 1793978133498
   },
   "257500204": {
-   "n": 10,
-   "vu": 1794437020795
+   "n": 12,
+   "vu": 1794438304399
   },
   "257604067": {
    "n": 6,
@@ -47227,8 +47248,8 @@
    "vu": 1794235161828
   },
   "3136778911": {
-   "n": 8,
-   "vu": 1794409204406
+   "n": 9,
+   "vu": 1794438431948
   },
   "3136785899": {
    "n": 3,
@@ -49841,19 +49862,19 @@
  },
  "bilan": {
   "depuis": 1794433740048,
-  "passages": 57,
-  "nouvelles": 109,
-  "marque": 13,
-  "etat": 2,
+  "passages": 72,
+  "nouvelles": 126,
+  "marque": 14,
+  "etat": 3,
   "prix": 4,
   "accessoire": 0,
   "lot": 0,
   "fausse": 0,
   "imitation": 1,
   "pro": 4,
-  "vendeurSpecialise": 14,
-  "sansCote": 104,
-  "chere": 56,
+  "vendeurSpecialise": 15,
+  "sansCote": 114,
+  "chere": 60,
   "description": 2,
   "scoreFaible": 0,
   "blocages": 2,
@@ -53093,7 +53114,8 @@
    "score": 44,
    "lien": "https://www.vinted.fr/items/10770361058-camara-canon-eos-450d",
    "date": 1794433827486,
-   "statut": null
+   "statut": "en vente",
+   "verifieA": 1794437537263
   },
   {
    "id": 10769848171,
@@ -53103,7 +53125,8 @@
    "score": 83,
    "lien": "https://www.vinted.fr/items/10769848171-macchina-fotografica-olimpia",
    "date": 1794433914278,
-   "statut": null
+   "statut": "en vente",
+   "verifieA": 1794437538210
   },
   {
    "id": 10770757474,
@@ -53113,7 +53136,8 @@
    "score": 22,
    "lien": "https://www.vinted.fr/items/10770757474-vieil-appareil-photo",
    "date": 1794433914481,
-   "statut": null
+   "statut": "en vente",
+   "verifieA": 1794437602373
   },
   {
    "id": 10771320701,
@@ -53123,7 +53147,8 @@
    "score": 18,
    "lien": "https://www.vinted.fr/items/10771320701-mamiya-528-tl-borsa-original-case",
    "date": 1794434119409,
-   "statut": null
+   "statut": "en vente",
+   "verifieA": 1794437731482
   },
   {
    "id": 10771393145,
@@ -53133,7 +53158,8 @@
    "score": 76,
    "lien": "https://www.vinted.fr/items/10771393145-camara-reflex-canon-eos-1200d",
    "date": 1794434509844,
-   "statut": null
+   "statut": "retiree",
+   "verifieA": 1794438114419
   },
   {
    "id": 10771622620,

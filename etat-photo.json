@@ -1,18 +1,5 @@
 {
  "vues": [
-  "10752791329",
-  "10752783815",
-  "10752772895",
-  "10752760763",
-  "10753009477",
-  "10752994090",
-  "10752983270",
-  "10752973883",
-  "10753014247",
-  "10752971526",
-  "10752787584",
-  "10752818944",
-  "10752803760",
   "10752801063",
   "10753071769",
   "10752816243",
@@ -3999,7 +3986,20 @@
   "10772070464",
   "10772010843",
   "10772039795",
-  "10772016909"
+  "10772016909",
+  "10772030218",
+  "10772024556",
+  "10772092833",
+  "10772043347",
+  "10772099970",
+  "10772013311",
+  "10772106824",
+  "10772133733",
+  "10772137998",
+  "10772151744",
+  "10772158294",
+  "10772170345",
+  "10772187306"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -4380,10 +4380,33 @@
    "coteTropBasse": 14
   },
   "marque:pentax@3076": {
-   "date": 1794350892291,
-   "mediane": null,
-   "echantillon": 75,
-   "coteTropBasse": 45
+   "date": 1794440291381,
+   "mediane": 50,
+   "echantillon": 71,
+   "dispersion": 0.9,
+   "fourchette": [
+    15,
+    150
+   ],
+   "exemples": [
+    {
+     "id": 10752226782,
+     "prix": 50
+    },
+    {
+     "id": 10680967290,
+     "prix": 50
+    },
+    {
+     "id": 10739070703,
+     "prix": 50
+    },
+    {
+     "id": 10754829426,
+     "prix": 50
+    }
+   ],
+   "niveau": "marque"
   },
   "marque:zeiss@3076": {
    "date": 1794363728467,
@@ -5571,30 +5594,30 @@
    "niveau": "modèle"
   },
   "modele:olympus camara|1@3075": {
-   "date": 1794317674031,
-   "mediane": 35,
-   "echantillon": 57,
-   "dispersion": 0.71,
+   "date": 1794440163732,
+   "mediane": 42,
+   "echantillon": 55,
+   "dispersion": 0.78,
    "fourchette": [
-    10,
-    100
+    14,
+    140
    ],
    "exemples": [
     {
-     "id": 10722781042,
-     "prix": 35
+     "id": 10771079547,
+     "prix": 45
     },
     {
-     "id": 10721686050,
-     "prix": 35
+     "id": 10735880619,
+     "prix": 45
     },
     {
-     "id": 10411767174,
-     "prix": 35
+     "id": 10393099621,
+     "prix": 49
     },
     {
-     "id": 10733015773,
-     "prix": 33
+     "id": 10691919265,
+     "prix": 50
     }
    ],
    "niveau": "modèle",
@@ -7084,13 +7107,6 @@
   },
   "modele:canon af c1 leica|2@3076": {
    "date": 1794360989770,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:pentax zoom70x analogica|1@3076": {
-   "date": 1794267116248,
    "mediane": null,
    "echantillon": 1,
    "dispersion": null,
@@ -39381,6 +39397,71 @@
    "echantillon": 2,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:canon a450 powershot|2@3075": {
+   "date": 1794439780712,
+   "mediane": 49,
+   "echantillon": 14,
+   "dispersion": 0.46,
+   "fourchette": [
+    25,
+    85
+   ],
+   "exemples": [
+    {
+     "id": 10239105879,
+     "prix": 49
+    },
+    {
+     "id": 10636356799,
+     "prix": 49.99
+    },
+    {
+     "id": 10581125798,
+     "prix": 50
+    },
+    {
+     "id": 9205179165,
+     "prix": 45
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:canon cuciolo labrador|1@3075": {
+   "date": 1794439972028,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:pentax 90 wr zoom|1@3076": {
+   "date": 1794440291980,
+   "mediane": 40,
+   "echantillon": 18,
+   "dispersion": 0.68,
+   "fourchette": [
+    12,
+    99
+   ],
+   "exemples": [
+    {
+     "id": 9391995138,
+     "prix": 40
+    },
+    {
+     "id": 10674257865,
+     "prix": 40
+    },
+    {
+     "id": 10772187306,
+     "prix": 45
+    },
+    {
+     "id": 10557999461,
+     "prix": 35
+    }
+   ],
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -39973,8 +40054,8 @@
    "vu": 1794409204408
   },
   "20427460": {
-   "n": 45,
-   "vu": 1794439396328
+   "n": 49,
+   "vu": 1794439589844
   },
   "20586656": {
    "n": 3,
@@ -45741,8 +45822,8 @@
    "vu": 1793979167406
   },
   "257310755": {
-   "n": 2,
-   "vu": 1794439267718
+   "n": 3,
+   "vu": 1794440290522
   },
   "257377305": {
    "n": 3,
@@ -49052,6 +49133,10 @@
    "n": 8,
    "vu": 1794438688895
   },
+  "3196355961": {
+   "n": 2,
+   "vu": 1794439589844
+  },
   "3196444442": {
    "n": 2,
    "vu": 1794249136169
@@ -49469,8 +49554,8 @@
    "vu": 1794070235688
   },
   "3205117872": {
-   "n": 23,
-   "vu": 1794367776116
+   "n": 24,
+   "vu": 1794439844130
   },
   "3205148019": {
    "n": 2,
@@ -49935,19 +50020,19 @@
  },
  "bilan": {
   "depuis": 1794433740048,
-  "passages": 87,
-  "nouvelles": 161,
-  "marque": 18,
+  "passages": 102,
+  "nouvelles": 174,
+  "marque": 20,
   "etat": 3,
-  "prix": 4,
+  "prix": 5,
   "accessoire": 0,
   "lot": 1,
   "fausse": 0,
   "imitation": 1,
-  "pro": 11,
-  "vendeurSpecialise": 20,
-  "sansCote": 126,
-  "chere": 64,
+  "pro": 15,
+  "vendeurSpecialise": 21,
+  "sansCote": 128,
+  "chere": 67,
   "description": 2,
   "scoreFaible": 0,
   "blocages": 2,
@@ -53220,7 +53305,8 @@
    "score": 84,
    "lien": "https://www.vinted.fr/items/10771622620-olympus-om-d-em10-mark-ii",
    "date": 1794435863728,
-   "statut": null
+   "statut": "en vente",
+   "verifieA": 1794439526410
   },
   {
    "id": 10771675236,
@@ -53230,7 +53316,8 @@
    "score": 57,
    "lien": "https://www.vinted.fr/items/10771675236-nikon-coolpix-l840-appareil-photo-numerique-accessoi",
    "date": 1794436249703,
-   "statut": null
+   "statut": "en vente",
+   "verifieA": 1794439908021
   },
   {
    "id": 10772071158,

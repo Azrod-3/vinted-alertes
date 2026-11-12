@@ -1,8 +1,5 @@
 {
  "vues": [
-  "10753335595",
-  "10753285444",
-  "10753071670",
   "10753377258",
   "10753316236",
   "10753303083",
@@ -3999,7 +3996,10 @@
   "10772616359",
   "10772673966",
   "10772738241",
-  "10772743296"
+  "10772743296",
+  "10772749741",
+  "10772767347",
+  "10772793009"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -7127,31 +7127,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:fujifilm x100 fuji|1@3075": {
-   "date": 1794273782341,
-   "mediane": 490,
-   "echantillon": 3,
-   "dispersion": null,
-   "fourchette": [
-    400,
-    1650
-   ],
-   "exemples": [
-    {
-     "id": 10689305342,
-     "prix": 490
-    },
-    {
-     "id": 10743866462,
-     "prix": 400
-    },
-    {
-     "id": 10473315517,
-     "prix": 1650
-    }
-   ],
-   "niveau": "modèle"
   },
   "modele:panasonic fx3 lumix|1@3075": {
    "date": 1794276824593,
@@ -39849,6 +39824,64 @@
    "echantillon": 1,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:pentax a40 optio|1@3075": {
+   "date": 1794446372575,
+   "mediane": 40,
+   "echantillon": 6,
+   "dispersion": 1.14,
+   "fourchette": [
+    10,
+    99.95
+   ],
+   "exemples": [
+    {
+     "id": 10113685526,
+     "prix": 49
+    },
+    {
+     "id": 10772767347,
+     "prix": 30
+    },
+    {
+     "id": 10689177116,
+     "prix": 60
+    },
+    {
+     "id": 10541957864,
+     "prix": 15
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:canon ae 1 nera|1@3076": {
+   "date": 1794446690391,
+   "mediane": 215,
+   "echantillon": 4,
+   "dispersion": 0.6,
+   "fourchette": [
+    70,
+    299
+   ],
+   "exemples": [
+    {
+     "id": 10617229493,
+     "prix": 150
+    },
+    {
+     "id": 10390484518,
+     "prix": 280
+    },
+    {
+     "id": 10652986169,
+     "prix": 299
+    },
+    {
+     "id": 10772793009,
+     "prix": 70
+    }
+   ],
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -42929,8 +42962,8 @@
    "vu": 1793640026859
   },
   "69433064": {
-   "n": 4,
-   "vu": 1794446114330
+   "n": 5,
+   "vu": 1794446371999
   },
   "69454788": {
    "n": 3,
@@ -50423,9 +50456,9 @@
  },
  "bilan": {
   "depuis": 1794440993187,
-  "passages": 79,
-  "nouvelles": 49,
-  "marque": 5,
+  "passages": 94,
+  "nouvelles": 52,
+  "marque": 6,
   "etat": 3,
   "prix": 2,
   "accessoire": 0,
@@ -50435,8 +50468,8 @@
   "pro": 8,
   "vendeurSpecialise": 0,
   "sansCote": 16,
-  "chere": 14,
-  "description": 0,
+  "chere": 15,
+  "description": 1,
   "scoreFaible": 0,
   "blocages": 0,
   "alertes": 1

@@ -1,16 +1,5 @@
 {
  "vues": [
-  "10753244170",
-  "10753209054",
-  "10752992984",
-  "10753233281",
-  "10753229773",
-  "10753020880",
-  "10753006036",
-  "10753263699",
-  "10753023870",
-  "10753305939",
-  "10753048042",
   "10753326616",
   "10753320423",
   "10753293370",
@@ -3999,7 +3988,18 @@
   "10772425296",
   "10772445728",
   "10772453739",
-  "10772472599"
+  "10772472599",
+  "10772482362",
+  "10772492373",
+  "10772519245",
+  "10772527867",
+  "10772537839",
+  "10772536325",
+  "10772555504",
+  "10772554908",
+  "10772561301",
+  "10772559124",
+  "10772564546"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -39710,6 +39710,93 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "modele:canon a410 powershot|2@3075": {
+   "date": 1794443368695,
+   "mediane": 40,
+   "echantillon": 30,
+   "dispersion": 0.38,
+   "fourchette": [
+    16,
+    80
+   ],
+   "exemples": [
+    {
+     "id": 10502530391,
+     "prix": 40
+    },
+    {
+     "id": 9674179480,
+     "prix": 40
+    },
+    {
+     "id": 10132345400,
+     "prix": 40
+    },
+    {
+     "id": 8021925498,
+     "prix": 40
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:canon 4000d eos|3@3075": {
+   "date": 1794444133413,
+   "mediane": 200,
+   "echantillon": 82,
+   "dispersion": 0.35,
+   "fourchette": [
+    95,
+    315
+   ],
+   "exemples": [
+    {
+     "id": 10552787142,
+     "prix": 200
+    },
+    {
+     "id": 10709415322,
+     "prix": 200
+    },
+    {
+     "id": 10622427951,
+     "prix": 200
+    },
+    {
+     "id": 10687841290,
+     "prix": 200
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:fujifilm maquina finepix|2@3075": {
+   "date": 1794444134831,
+   "mediane": 65,
+   "echantillon": 14,
+   "dispersion": 0.69,
+   "fourchette": [
+    40,
+    120
+   ],
+   "exemples": [
+    {
+     "id": 10772559124,
+     "prix": 60
+    },
+    {
+     "id": 10241338236,
+     "prix": 60
+    },
+    {
+     "id": 10657058358,
+     "prix": 70
+    },
+    {
+     "id": 10610277079,
+     "prix": 60
+    }
+   ],
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -42494,8 +42581,8 @@
    "vu": 1794232257069
   },
   "62760003": {
-   "n": 32,
-   "vu": 1794398308570
+   "n": 38,
+   "vu": 1794444198406
   },
   "62960703": {
    "n": 6,
@@ -50284,8 +50371,8 @@
  },
  "bilan": {
   "depuis": 1794440993187,
-  "passages": 34,
-  "nouvelles": 32,
+  "passages": 49,
+  "nouvelles": 43,
   "marque": 5,
   "etat": 3,
   "prix": 2,
@@ -50293,29 +50380,18 @@
   "lot": 0,
   "fausse": 0,
   "imitation": 0,
-  "pro": 1,
+  "pro": 7,
   "vendeurSpecialise": 0,
-  "sansCote": 10,
-  "chere": 11,
+  "sansCote": 12,
+  "chere": 13,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
-  "alertes": 0
+  "alertes": 1
  },
  "panne": null,
  "panneDebut": null,
  "suivi": [
-  {
-   "id": 10714703499,
-   "titre": "Fotocamera Canon Ixus 8x",
-   "prix": 25,
-   "cote": 140,
-   "score": 76,
-   "lien": "https://www.vinted.fr/items/10714703499-fotocamera-canon-ixus-8x",
-   "date": 1794134595855,
-   "statut": "retiree",
-   "verifieA": 1794138222183
-  },
   {
    "id": 10714729002,
    "titre": "Canon EOS 5D – Boîtier reflex plein format avec boîte d’origine",
@@ -53604,6 +53680,16 @@
    "date": 1794439269672,
    "statut": "en vente",
    "verifieA": 1794442921428
+  },
+  {
+   "id": 10772561301,
+   "titre": "Canon eos 4000d",
+   "prix": 140,
+   "cote": 200,
+   "score": 50,
+   "lien": "https://www.vinted.fr/items/10772561301-canon-eos-4000d",
+   "date": 1794444135050,
+   "statut": null
   }
  ],
  "dernierRecap": "2026-11-11"

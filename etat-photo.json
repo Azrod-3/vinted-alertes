@@ -1,11 +1,5 @@
 {
  "vues": [
-  "10753448665",
-  "10753435266",
-  "10753275964",
-  "10753272099",
-  "10753253119",
-  "10753440940",
   "10753532982",
   "10753506965",
   "10753465946",
@@ -3999,7 +3993,13 @@
   "10773804757",
   "10773806601",
   "10773807958",
-  "10773811493"
+  "10773811493",
+  "10773817461",
+  "10773820805",
+  "10773825481",
+  "10773844551",
+  "10773847374",
+  "10773848979"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -5639,36 +5639,6 @@
    "niveau": "modèle",
    "lissee": true
   },
-  "modele:kodak anni|2@3076": {
-   "date": 1794291027665,
-   "mediane": 30,
-   "echantillon": 34,
-   "dispersion": 0.83,
-   "fourchette": [
-    10,
-    79.9
-   ],
-   "exemples": [
-    {
-     "id": 10698599894,
-     "prix": 30
-    },
-    {
-     "id": 10717141232,
-     "prix": 30
-    },
-    {
-     "id": 10280947114,
-     "prix": 30
-    },
-    {
-     "id": 10638599680,
-     "prix": 30
-    }
-   ],
-   "niveau": "modèle",
-   "lissee": true
-  },
   "modele:sony dsc w320 cyber|1@3075": {
    "date": 1794321225434,
    "mediane": 85,
@@ -7127,35 +7097,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:fujifilm v10 finepix|1@3075": {
-   "date": 1794290773363,
-   "mediane": 110,
-   "echantillon": 5,
-   "dispersion": 0.09,
-   "fourchette": [
-    100,
-    120
-   ],
-   "exemples": [
-    {
-     "id": 10740219189,
-     "prix": 110
-    },
-    {
-     "id": 10568543889,
-     "prix": 110
-    },
-    {
-     "id": 10005553277,
-     "prix": 100
-    },
-    {
-     "id": 7924379767,
-     "prix": 120
-    }
-   ],
-   "niveau": "modèle"
   },
   "modele:pentax camara fotos|2@3075": {
    "date": 1794291598717,
@@ -50235,9 +50176,9 @@
  },
  "bilan": {
   "depuis": 1794462704984,
-  "passages": 6,
-  "nouvelles": 4,
-  "marque": 1,
+  "passages": 21,
+  "nouvelles": 10,
+  "marque": 2,
   "etat": 0,
   "prix": 0,
   "accessoire": 0,
@@ -50246,8 +50187,8 @@
   "imitation": 0,
   "pro": 0,
   "vendeurSpecialise": 2,
-  "sansCote": 1,
-  "chere": 0,
+  "sansCote": 5,
+  "chere": 1,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,

@@ -5849,36 +5849,6 @@
    "niveau": "modèle",
    "lissee": true
   },
-  "modele:nikon f60|1@3076": {
-   "date": 1794287349001,
-   "mediane": 50,
-   "echantillon": 70,
-   "dispersion": 0.9,
-   "fourchette": [
-    12.99,
-    120
-   ],
-   "exemples": [
-    {
-     "id": 7763518786,
-     "prix": 50
-    },
-    {
-     "id": 6589591679,
-     "prix": 50
-    },
-    {
-     "id": 9329260392,
-     "prix": 50
-    },
-    {
-     "id": 10681283930,
-     "prix": 50
-    }
-   ],
-   "niveau": "modèle",
-   "lissee": true
-  },
   "modele:canon a530 powershot|1@3075": {
    "date": 1794327363553,
    "mediane": 55,
@@ -7127,64 +7097,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:sony dsc h400 bridge|2@3075": {
-   "date": 1794286650763,
-   "mediane": 145,
-   "echantillon": 8,
-   "dispersion": 0.21,
-   "fourchette": [
-    80,
-    199.99
-   ],
-   "exemples": [
-    {
-     "id": 8679831952,
-     "prix": 150
-    },
-    {
-     "id": 10021446689,
-     "prix": 139.99
-    },
-    {
-     "id": 7529708015,
-     "prix": 160
-    },
-    {
-     "id": 9367530554,
-     "prix": 129
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:pentax 140v espio|2@3076": {
-   "date": 1794287412805,
-   "mediane": 95,
-   "echantillon": 10,
-   "dispersion": 0.37,
-   "fourchette": [
-    40,
-    130
-   ],
-   "exemples": [
-    {
-     "id": 10634477600,
-     "prix": 90
-    },
-    {
-     "id": 9916821720,
-     "prix": 100
-    },
-    {
-     "id": 10394207223,
-     "prix": 85
-    },
-    {
-     "id": 10744851794,
-     "prix": 110
-    }
-   ],
-   "niveau": "modèle"
   },
   "modele:nikon f50|1@3076": {
    "date": 1794287730003,
@@ -50359,7 +50271,7 @@
  },
  "bilan": {
   "depuis": 1794455469950,
-  "passages": 60,
+  "passages": 75,
   "nouvelles": 8,
   "marque": 0,
   "etat": 0,

@@ -1,21 +1,5 @@
 {
  "vues": [
-  "10753759413",
-  "10753489781",
-  "10753746259",
-  "10753744460",
-  "10753731575",
-  "10753513316",
-  "10753809513",
-  "10753805992",
-  "10753784763",
-  "10753722054",
-  "10753546972",
-  "10753852895",
-  "10753807373",
-  "10753797649",
-  "10753585060",
-  "10753577841",
   "10753615668",
   "10753622268",
   "10753580909",
@@ -3999,7 +3983,23 @@
   "10774104729",
   "10774115540",
   "10774128411",
-  "10774130957"
+  "10774130957",
+  "10774142867",
+  "10774141654",
+  "10774150381",
+  "10774163872",
+  "10774161913",
+  "10774177636",
+  "10774185679",
+  "10774184277",
+  "10774186746",
+  "10773870303",
+  "10773568606",
+  "10774186897",
+  "10774193040",
+  "10774192330",
+  "10774199117",
+  "10774207493"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -4230,10 +4230,10 @@
    "coteTropBasse": 25
   },
   "marque:samsung@3076": {
-   "date": 1794359020705,
+   "date": 1794468859199,
    "mediane": null,
-   "echantillon": 84,
-   "coteTropBasse": 20
+   "echantillon": 81,
+   "coteTropBasse": 19
   },
   "marque:canon@3076": {
    "date": 1794433899203,
@@ -4433,10 +4433,10 @@
    "coteTropBasse": 20
   },
   "marque:konica@3076": {
-   "date": 1794353260951,
+   "date": 1794468860022,
    "mediane": null,
    "echantillon": 71,
-   "coteTropBasse": 25
+   "coteTropBasse": 24
   },
   "marque:chinon@3076": {
    "date": 1794397207469,
@@ -5664,36 +5664,6 @@
     {
      "id": 10391604141,
      "prix": 80
-    }
-   ],
-   "niveau": "modèle",
-   "lissee": true
-  },
-  "modele:panasonic fs16 lumix|2@3075": {
-   "date": 1794296304088,
-   "mediane": 65,
-   "echantillon": 35,
-   "dispersion": 0.46,
-   "fourchette": [
-    30,
-    95
-   ],
-   "exemples": [
-    {
-     "id": 10742945138,
-     "prix": 65
-    },
-    {
-     "id": 10739124187,
-     "prix": 65
-    },
-    {
-     "id": 10586375004,
-     "prix": 65
-    },
-    {
-     "id": 9581504260,
-     "prix": 65
     }
    ],
    "niveau": "modèle",
@@ -7097,85 +7067,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:pentax k s1 der|2@3075": {
-   "date": 1794296111430,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:pentax sf 7 come|2@3076": {
-   "date": 1794296238253,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:canon 3000 eos|1@3076": {
-   "date": 1794296239425,
-   "mediane": 50,
-   "echantillon": 68,
-   "dispersion": 0.8,
-   "fourchette": [
-    15,
-    130
-   ],
-   "exemples": [
-    {
-     "id": 10616361580,
-     "prix": 50
-    },
-    {
-     "id": 10205913197,
-     "prix": 50
-    },
-    {
-     "id": 10455984311,
-     "prix": 50
-    },
-    {
-     "id": 9532698736,
-     "prix": 50
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:fujifilm camara|3@3075": {
-   "date": 1794296303420,
-   "mediane": 50,
-   "echantillon": 31,
-   "dispersion": 0.4,
-   "fourchette": [
-    20,
-    80
-   ],
-   "exemples": [
-    {
-     "id": 10727724450,
-     "prix": 50
-    },
-    {
-     "id": 10666583320,
-     "prix": 50
-    },
-    {
-     "id": 10483397260,
-     "prix": 50
-    },
-    {
-     "id": 10693276307,
-     "prix": 50
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:agfa flits|4@3076": {
-   "date": 1794296624080,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
   },
   "modele:praktica maquinas fotograficas|2@3076": {
    "date": 1794296882744,
@@ -39621,6 +39512,64 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "modele:canon 162 ixus|2@3075": {
+   "date": 1794469113749,
+   "mediane": 120,
+   "echantillon": 18,
+   "dispersion": 0.25,
+   "fourchette": [
+    80,
+    190
+   ],
+   "exemples": [
+    {
+     "id": 9295723889,
+     "prix": 120
+    },
+    {
+     "id": 8068236870,
+     "prix": 119.95
+    },
+    {
+     "id": 10633723759,
+     "prix": 115
+    },
+    {
+     "id": 10497478588,
+     "prix": 115
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:sony a33|1@3075": {
+   "date": 1794469366969,
+   "mediane": 170,
+   "echantillon": 13,
+   "dispersion": 0.46,
+   "fourchette": [
+    45,
+    240
+   ],
+   "exemples": [
+    {
+     "id": 10516943485,
+     "prix": 170
+    },
+    {
+     "id": 10364127043,
+     "prix": 169
+    },
+    {
+     "id": 10631498990,
+     "prix": 150
+    },
+    {
+     "id": 9408930997,
+     "prix": 190
+    }
+   ],
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -44297,8 +44246,8 @@
    "vu": 1794317581793
   },
   "148335930": {
-   "n": 60,
-   "vu": 1794386194953
+   "n": 63,
+   "vu": 1794469557690
   },
   "149191067": {
    "n": 8,
@@ -44884,6 +44833,10 @@
    "n": 7,
    "vu": 1794424075867
   },
+  "190758733": {
+   "n": 2,
+   "vu": 1794469430881
+  },
   "190761423": {
    "n": 2,
    "vu": 1794410816786
@@ -45125,8 +45078,8 @@
    "vu": 1794440738914
   },
   "210301934": {
-   "n": 20,
-   "vu": 1794433715077
+   "n": 21,
+   "vu": 1794469430882
   },
   "211067397": {
    "n": 5,
@@ -46465,8 +46418,8 @@
    "vu": 1793919463888
   },
   "275049407": {
-   "n": 5,
-   "vu": 1794300279195
+   "n": 6,
+   "vu": 1794468986941
   },
   "275097846": {
    "n": 2,
@@ -50207,38 +50160,27 @@
  },
  "bilan": {
   "depuis": 1794462704984,
-  "passages": 96,
-  "nouvelles": 59,
-  "marque": 8,
+  "passages": 109,
+  "nouvelles": 75,
+  "marque": 11,
   "etat": 2,
-  "prix": 3,
+  "prix": 5,
   "accessoire": 0,
   "lot": 0,
   "fausse": 0,
   "imitation": 0,
   "pro": 2,
-  "vendeurSpecialise": 6,
-  "sansCote": 24,
-  "chere": 10,
+  "vendeurSpecialise": 10,
+  "sansCote": 29,
+  "chere": 11,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
-  "alertes": 4
+  "alertes": 5
  },
  "panne": null,
  "panneDebut": null,
  "suivi": [
-  {
-   "id": 10715097636,
-   "titre": "Canon AT-1",
-   "prix": 30,
-   "cote": 122,
-   "score": 72,
-   "lien": "https://www.vinted.fr/items/10715097636-canon-at-1",
-   "date": 1794135844776,
-   "statut": "retiree",
-   "verifieA": 1794139462276
-  },
   {
    "id": 10715158099,
    "titre": "Nikon D3300",
@@ -53503,7 +53445,8 @@
    "score": 47,
    "lien": "https://www.vinted.fr/items/10773948447-yashica-t4-safari-edition",
    "date": 1794465810828,
-   "statut": null
+   "statut": "en vente",
+   "verifieA": 1794469431413
   },
   {
    "id": 10774001744,
@@ -53523,6 +53466,16 @@
    "score": 18,
    "lien": "https://www.vinted.fr/items/10774077054-appareil-photo-argentique-minox-35-el-35mm-f28-complet-tres-bon-etat",
    "date": 1794467970858,
+   "statut": null
+  },
+  {
+   "id": 10774185679,
+   "titre": "Sony a33",
+   "prix": 45,
+   "cote": 170,
+   "score": 73,
+   "lien": "https://www.vinted.fr/items/10774185679-sony-a33",
+   "date": 1794469367805,
    "statut": null
   }
  ],

@@ -1,19 +1,5 @@
 {
  "vues": [
-  "10753621990",
-  "10753578704",
-  "10753388250",
-  "10753361663",
-  "10753680552",
-  "10753613015",
-  "10753579249",
-  "10753374232",
-  "10753353827",
-  "10753648957",
-  "10753613339",
-  "10753402732",
-  "10753659372",
-  "10753644467",
   "10753384349",
   "10753710148",
   "10753689825",
@@ -3999,7 +3985,21 @@
   "10773948447",
   "10773950599",
   "10773675461",
-  "10773953660"
+  "10773953660",
+  "10773957442",
+  "10773963108",
+  "10773974043",
+  "10773876196",
+  "10773986012",
+  "10773982202",
+  "10773984242",
+  "10773986509",
+  "10773993343",
+  "10773972211",
+  "10773998582",
+  "10773997220",
+  "10774003501",
+  "10774001744"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -7097,49 +7097,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:sony dsc w210 cybershot|2@3075": {
-   "date": 1794293816358,
-   "mediane": 70,
-   "echantillon": 7,
-   "dispersion": 0.66,
-   "fourchette": [
-    30,
-    120
-   ],
-   "exemples": [
-    {
-     "id": 9945707298,
-     "prix": 70
-    },
-    {
-     "id": 10562697133,
-     "prix": 69
-    },
-    {
-     "id": 10370272314,
-     "prix": 60
-    },
-    {
-     "id": 10530381564,
-     "prix": 99.99
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:zeiss werra ddr|1@3076": {
-   "date": 1794293943257,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:pentacon retro kameras|1@3076": {
-   "date": 1794294008745,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
   },
   "modele:kodak 620 soffietto|1@3076": {
    "date": 1794294136739,
@@ -39649,6 +39606,136 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "modele:kodak digitalkamera|1@3075": {
+   "date": 1794466002670,
+   "mediane": 37,
+   "echantillon": 52,
+   "dispersion": 0.47,
+   "fourchette": [
+    10,
+    75
+   ],
+   "exemples": [
+    {
+     "id": 8728422809,
+     "prix": 38
+    },
+    {
+     "id": 9851747720,
+     "prix": 38
+    },
+    {
+     "id": 10764192088,
+     "prix": 35
+    },
+    {
+     "id": 10523897353,
+     "prix": 35
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:samsung macchinetta|1@3075": {
+   "date": 1794466445031,
+   "mediane": 35,
+   "echantillon": 17,
+   "dispersion": 0.57,
+   "fourchette": [
+    20,
+    80
+   ],
+   "exemples": [
+    {
+     "id": 9534580014,
+     "prix": 35
+    },
+    {
+     "id": 9814383424,
+     "prix": 31
+    },
+    {
+     "id": 10773986012,
+     "prix": 30
+    },
+    {
+     "id": 10662416537,
+     "prix": 30
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:fujifilm f40fd finepix|2@3075": {
+   "date": 1794466445612,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "marque:instax@3076": {
+   "date": 1794466635658,
+   "mediane": 54,
+   "echantillon": 23,
+   "dispersion": 0.47,
+   "fourchette": [
+    27,
+    125
+   ],
+   "exemples": [
+    {
+     "id": 9625811055,
+     "prix": 53.5
+    },
+    {
+     "id": 9215995655,
+     "prix": 50
+    },
+    {
+     "id": 9183625985,
+     "prix": 50
+    },
+    {
+     "id": 9228627391,
+     "prix": 50
+    }
+   ],
+   "niveau": "marque"
+  },
+  "modele:nikon sous marin|1@3076": {
+   "date": 1794466699439,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:canon maquina|3@3075": {
+   "date": 1794466763348,
+   "mediane": 200,
+   "echantillon": 39,
+   "dispersion": 0.8,
+   "fourchette": [
+    50,
+    525
+   ],
+   "exemples": [
+    {
+     "id": 10664638766,
+     "prix": 200
+    },
+    {
+     "id": 9680975470,
+     "prix": 200
+    },
+    {
+     "id": 10461746228,
+     "prix": 200
+    },
+    {
+     "id": 9129657903,
+     "prix": 200
+    }
+   ],
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -42185,8 +42272,8 @@
    "vu": 1794141734665
   },
   "56591472": {
-   "n": 72,
-   "vu": 1794420604499
+   "n": 75,
+   "vu": 1794466762645
   },
   "56773463": {
    "n": 5,
@@ -50235,38 +50322,27 @@
  },
  "bilan": {
   "depuis": 1794462704984,
-  "passages": 51,
-  "nouvelles": 27,
+  "passages": 66,
+  "nouvelles": 41,
   "marque": 3,
-  "etat": 1,
-  "prix": 2,
+  "etat": 2,
+  "prix": 3,
   "accessoire": 0,
   "lot": 0,
   "fausse": 0,
   "imitation": 0,
   "pro": 0,
-  "vendeurSpecialise": 3,
-  "sansCote": 12,
-  "chere": 4,
+  "vendeurSpecialise": 6,
+  "sansCote": 17,
+  "chere": 7,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
-  "alertes": 2
+  "alertes": 3
  },
  "panne": null,
  "panneDebut": null,
  "suivi": [
-  {
-   "id": 10715047308,
-   "titre": "Appareil photo Nikon Digital Camera D 3000",
-   "prix": 50,
-   "cote": 145,
-   "score": 63,
-   "lien": "https://www.vinted.fr/items/10715047308-appareil-photo-nikon-digital-camera-d-3000",
-   "date": 1794135707867,
-   "statut": "retiree",
-   "verifieA": 1794139331209
-  },
   {
    "id": 10707245269,
    "titre": "Cámara analógica Olympus mju Stylus Zoom 140 📸",
@@ -53552,6 +53628,16 @@
    "score": 47,
    "lien": "https://www.vinted.fr/items/10773948447-yashica-t4-safari-edition",
    "date": 1794465810828,
+   "statut": null
+  },
+  {
+   "id": 10774001744,
+   "titre": "Máquina Fotográfica Canon",
+   "prix": 95,
+   "cote": 200,
+   "score": 62,
+   "lien": "https://www.vinted.fr/items/10774001744-maquina-fotografica-canon",
+   "date": 1794466764075,
    "statut": null
   }
  ],

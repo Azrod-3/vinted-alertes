@@ -1,17 +1,5 @@
 {
  "vues": [
-  "10753532982",
-  "10753506965",
-  "10753465946",
-  "10753316000",
-  "10753300586",
-  "10753289024",
-  "10753288148",
-  "10753282573",
-  "10753599284",
-  "10753499810",
-  "10753616895",
-  "10753589801",
   "10753572262",
   "10753349506",
   "10753581943",
@@ -3999,7 +3987,19 @@
   "10773825481",
   "10773844551",
   "10773847374",
-  "10773848979"
+  "10773848979",
+  "10773873318",
+  "10773660308",
+  "10757996273",
+  "10773879625",
+  "10773883582",
+  "10773886088",
+  "10773885017",
+  "10757866789",
+  "10757865015",
+  "10773890656",
+  "10773896701",
+  "10773901428"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -4427,7 +4427,7 @@
    "coteTropBasse": 25
   },
   "marque:voigtlander@3076": {
-   "date": 1794355839784,
+   "date": 1794464415623,
    "mediane": null,
    "echantillon": 61,
    "coteTropBasse": 20
@@ -7097,78 +7097,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:pentax camara fotos|2@3075": {
-   "date": 1794291598717,
-   "mediane": 50,
-   "echantillon": 27,
-   "dispersion": 1,
-   "fourchette": [
-    20,
-    130
-   ],
-   "exemples": [
-    {
-     "id": 10269968077,
-     "prix": 50
-    },
-    {
-     "id": 7752187288,
-     "prix": 50
-    },
-    {
-     "id": 10439762394,
-     "prix": 49
-    },
-    {
-     "id": 6034888836,
-     "prix": 59.9
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:fujifilm 5x point|1@3075": {
-   "date": 1794291599443,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:canon biglietto|4@3075": {
-   "date": 1794291789553,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:yashica fx 3 cs 220|1@3076": {
-   "date": 1794291917140,
-   "mediane": 117,
-   "echantillon": 4,
-   "dispersion": 0.55,
-   "fourchette": [
-    70,
-    160
-   ],
-   "exemples": [
-    {
-     "id": 10265989009,
-     "prix": 85
-    },
-    {
-     "id": 10005236084,
-     "prix": 149
-    },
-    {
-     "id": 9381472297,
-     "prix": 160
-    },
-    {
-     "id": 10745050646,
-     "prix": 70
-    }
-   ],
-   "niveau": "modèle"
   },
   "modele:sony dsc w210 cybershot|2@3075": {
    "date": 1794293816358,
@@ -39598,6 +39526,100 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "modele:nikon d50|1@3075": {
+   "date": 1794464350803,
+   "mediane": 85,
+   "echantillon": 79,
+   "dispersion": 0.47,
+   "fourchette": [
+    25,
+    180
+   ],
+   "exemples": [
+    {
+     "id": 6205625400,
+     "prix": 85
+    },
+    {
+     "id": 8976513483,
+     "prix": 85
+    },
+    {
+     "id": 7253275280,
+     "prix": 87
+    },
+    {
+     "id": 10475068980,
+     "prix": 87.5
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:olympus 120 super|1@3076": {
+   "date": 1794464414604,
+   "mediane": 43,
+   "echantillon": 4,
+   "dispersion": 0.12,
+   "fourchette": [
+    32,
+    100
+   ],
+   "exemples": [
+    {
+     "id": 8822810549,
+     "prix": 45
+    },
+    {
+     "id": 10773660308,
+     "prix": 40
+    },
+    {
+     "id": 8065777003,
+     "prix": 32
+    },
+    {
+     "id": 5916177430,
+     "prix": 100
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:voigtlander 120 vitessa|2@3076": {
+   "date": 1794464416140,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:canon foto|1@3076": {
+   "date": 1794464670071,
+   "mediane": 30,
+   "echantillon": 5,
+   "dispersion": 0.64,
+   "fourchette": [
+    10,
+    76
+   ],
+   "exemples": [
+    {
+     "id": 8779862069,
+     "prix": 29.9
+    },
+    {
+     "id": 10183446153,
+     "prix": 34
+    },
+    {
+     "id": 10459254641,
+     "prix": 15
+    },
+    {
+     "id": 10422691036,
+     "prix": 10
+    }
+   ],
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -44334,8 +44356,8 @@
    "vu": 1794045392143
   },
   "154217652": {
-   "n": 15,
-   "vu": 1794142849256
+   "n": 17,
+   "vu": 1794464606186
   },
   "154894807": {
    "n": 5,
@@ -49889,6 +49911,10 @@
    "n": 2,
    "vu": 1793642523202
   },
+  "3207998802": {
+   "n": 2,
+   "vu": 1794464413945
+  },
   "3208019670": {
    "n": 2,
    "vu": 1793649411084
@@ -50176,38 +50202,27 @@
  },
  "bilan": {
   "depuis": 1794462704984,
-  "passages": 21,
-  "nouvelles": 10,
-  "marque": 2,
-  "etat": 0,
-  "prix": 0,
+  "passages": 36,
+  "nouvelles": 22,
+  "marque": 3,
+  "etat": 1,
+  "prix": 2,
   "accessoire": 0,
   "lot": 0,
   "fausse": 0,
   "imitation": 0,
   "pro": 0,
-  "vendeurSpecialise": 2,
-  "sansCote": 5,
-  "chere": 1,
+  "vendeurSpecialise": 3,
+  "sansCote": 8,
+  "chere": 4,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
-  "alertes": 0
+  "alertes": 1
  },
  "panne": null,
  "panneDebut": null,
  "suivi": [
-  {
-   "id": 10714766319,
-   "titre": "macchina fotografica digitale Canon digital Ixus 980",
-   "prix": 70,
-   "cote": 150,
-   "score": 59,
-   "lien": "https://www.vinted.fr/items/10714766319-macchina-fotografica-digitale-canon-digital-ixus-980",
-   "date": 1794134731065,
-   "statut": "retiree",
-   "verifieA": 1794138353493
-  },
   {
    "id": 10715019616,
    "titre": "appareil photo canon eos m3",
@@ -53494,6 +53509,16 @@
    "score": 18,
    "lien": "https://www.vinted.fr/items/10773753605-rollei-powerflex-470-digitalkamera-rot-14-mp-7x-zoom-inkl-akku-ladegerat",
    "date": 1794461692395,
+   "statut": null
+  },
+  {
+   "id": 10757996273,
+   "titre": "Voigtländer Vitessa 120 Point and Shoot Kamera - Filmgetestet!",
+   "prix": 30,
+   "cote": null,
+   "score": 20,
+   "lien": "https://www.vinted.fr/items/10757996273-voigtlander-vitessa-120-point-and-shoot-kamera-filmgetestet",
+   "date": 1794464416973,
    "statut": null
   }
  ],

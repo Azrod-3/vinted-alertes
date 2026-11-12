@@ -1,8 +1,5 @@
 {
  "vues": [
-  "10753384349",
-  "10753710148",
-  "10753689825",
   "10753664859",
   "10753664776",
   "10753447091",
@@ -3999,7 +3996,10 @@
   "10773998582",
   "10773997220",
   "10774003501",
-  "10774001744"
+  "10774001744",
+  "10774025662",
+  "10774030130",
+  "10774068863"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -7097,128 +7097,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:kodak 620 soffietto|1@3076": {
-   "date": 1794294136739,
-   "mediane": 63,
-   "echantillon": 4,
-   "dispersion": 0.08,
-   "fourchette": [
-    60,
-    70
-   ],
-   "exemples": [
-    {
-     "id": 9918536164,
-     "prix": 65
-    },
-    {
-     "id": 10745176164,
-     "prix": 60
-    },
-    {
-     "id": 7637329414,
-     "prix": 60
-    },
-    {
-     "id": 7488877946,
-     "prix": 70
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:fujifilm pack batteries|2@3075": {
-   "date": 1794294200558,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:canon multiple program|2@3076": {
-   "date": 1794294201578,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:kodak 155x instamatic|2@3076": {
-   "date": 1794294265838,
-   "mediane": 10,
-   "echantillon": 56,
-   "dispersion": 0.41,
-   "fourchette": [
-    3.98,
-    18
-   ],
-   "exemples": [
-    {
-     "id": 10549953884,
-     "prix": 10
-    },
-    {
-     "id": 9741439403,
-     "prix": 10
-    },
-    {
-     "id": 6142287658,
-     "prix": 10
-    },
-    {
-     "id": 9739139641,
-     "prix": 10
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:canon 550 eos|2@3076": {
-   "date": 1794294709515,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:canon 500 bp 8|1@3076": {
-   "date": 1794294710573,
-   "mediane": null,
-   "echantillon": 2,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:polaroid 6350 pdc|2@3075": {
-   "date": 1794294837417,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:fujifilm compatta|1@3075": {
-   "date": 1794294966585,
-   "mediane": 50,
-   "echantillon": 15,
-   "dispersion": 0.4,
-   "fourchette": [
-    20,
-    70
-   ],
-   "exemples": [
-    {
-     "id": 10738970312,
-     "prix": 49.99
-    },
-    {
-     "id": 10674898665,
-     "prix": 49.9
-    },
-    {
-     "id": 10705980852,
-     "prix": 59.9
-    },
-    {
-     "id": 10728722202,
-     "prix": 40
-    }
-   ],
-   "niveau": "modèle"
   },
   "modele:minolta af35 big|1@3076": {
    "date": 1794295220418,
@@ -39736,6 +39614,13 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "modele:olympus em5 f 1 7|2@3075": {
+   "date": 1794467208022,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -50322,8 +50207,8 @@
  },
  "bilan": {
   "depuis": 1794462704984,
-  "passages": 66,
-  "nouvelles": 41,
+  "passages": 81,
+  "nouvelles": 44,
   "marque": 3,
   "etat": 2,
   "prix": 3,
@@ -50333,7 +50218,7 @@
   "imitation": 0,
   "pro": 0,
   "vendeurSpecialise": 6,
-  "sansCote": 17,
+  "sansCote": 20,
   "chere": 7,
   "description": 0,
   "scoreFaible": 0,

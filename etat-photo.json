@@ -1,14 +1,5 @@
 {
  "vues": [
-  "10753175545",
-  "10753481524",
-  "10753219446",
-  "10753374408",
-  "10753192692",
-  "10753524721",
-  "10753517642",
-  "10753495738",
-  "10753488132",
   "10753263783",
   "10753256240",
   "10753250502",
@@ -3999,7 +3990,16 @@
   "10773637989",
   "10773636954",
   "10773704369",
-  "10773712689"
+  "10773712689",
+  "10773739957",
+  "10773747952",
+  "10773753082",
+  "10773753605",
+  "10773753101",
+  "10773756601",
+  "10773763252",
+  "10773773574",
+  "10773773224"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -39671,6 +39671,42 @@
    "echantillon": 1,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:rollei 470 7x|2@3075": {
+   "date": 1794461691404,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:canon a95 powershot|1@3075": {
+   "date": 1794462135901,
+   "mediane": 66,
+   "echantillon": 28,
+   "dispersion": 0.42,
+   "fourchette": [
+    20,
+    90
+   ],
+   "exemples": [
+    {
+     "id": 9636677491,
+     "prix": 67
+    },
+    {
+     "id": 9717912469,
+     "prix": 65
+    },
+    {
+     "id": 9868620216,
+     "prix": 69
+    },
+    {
+     "id": 7777785595,
+     "prix": 60
+    }
+   ],
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -41451,8 +41487,8 @@
    "vu": 1794385034761
   },
   "43308342": {
-   "n": 2,
-   "vu": 1793944038456
+   "n": 3,
+   "vu": 1794461501396
   },
   "43345168": {
    "n": 2,
@@ -46135,8 +46171,8 @@
    "vu": 1794409204409
   },
   "260332438": {
-   "n": 5,
-   "vu": 1793968290491
+   "n": 6,
+   "vu": 1794461690841
   },
   "260443069": {
    "n": 18,
@@ -47127,8 +47163,8 @@
    "vu": 1794226288254
   },
   "310553325": {
-   "n": 6,
-   "vu": 1794298992905
+   "n": 7,
+   "vu": 1794461374976
   },
   "310564192": {
    "n": 3,
@@ -47935,8 +47971,8 @@
    "vu": 1794433715081
   },
   "3148076790": {
-   "n": 9,
-   "vu": 1794409204404
+   "n": 10,
+   "vu": 1794461690841
   },
   "3148173926": {
    "n": 3,
@@ -48471,8 +48507,8 @@
    "vu": 1794409957696
   },
   "3164696548": {
-   "n": 10,
-   "vu": 1794300662983
+   "n": 12,
+   "vu": 1794461881936
   },
   "3165037610": {
    "n": 3,
@@ -50249,38 +50285,27 @@
  },
  "bilan": {
   "depuis": 1794455469950,
-  "passages": 90,
-  "nouvelles": 10,
+  "passages": 105,
+  "nouvelles": 19,
   "marque": 0,
-  "etat": 0,
+  "etat": 2,
   "prix": 1,
   "accessoire": 0,
   "lot": 0,
   "fausse": 0,
   "imitation": 0,
   "pro": 0,
-  "vendeurSpecialise": 0,
-  "sansCote": 3,
-  "chere": 6,
+  "vendeurSpecialise": 4,
+  "sansCote": 4,
+  "chere": 7,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
-  "alertes": 0
+  "alertes": 1
  },
  "panne": null,
  "panneDebut": null,
  "suivi": [
-  {
-   "id": 10714729002,
-   "titre": "Canon EOS 5D – Boîtier reflex plein format avec boîte d’origine",
-   "prix": 100,
-   "cote": 325,
-   "score": 82,
-   "lien": "https://www.vinted.fr/items/10714729002-canon-eos-5d-boitier-reflex-plein-format-avec-boite-dorigine",
-   "date": 1794134665098,
-   "statut": "retiree",
-   "verifieA": 1794138289274
-  },
   {
    "id": 10714766319,
    "titre": "macchina fotografica digitale Canon digital Ixus 980",
@@ -53569,6 +53594,16 @@
    "date": 1794444135050,
    "statut": "en vente",
    "verifieA": 1794447772564
+  },
+  {
+   "id": 10773753605,
+   "titre": "Rollei Powerflex 470 Digitalkamera Rot - 14 MP / 7x Zoom / inkl. Akku & Ladegera",
+   "prix": 69,
+   "cote": null,
+   "score": 18,
+   "lien": "https://www.vinted.fr/items/10773753605-rollei-powerflex-470-digitalkamera-rot-14-mp-7x-zoom-inkl-akku-ladegerat",
+   "date": 1794461692395,
+   "statut": null
   }
  ],
  "dernierRecap": "2026-11-11"

@@ -1,14 +1,5 @@
 {
  "vues": [
-  "10752935812",
-  "10753169428",
-  "10752954010",
-  "10752952680",
-  "10752936980",
-  "10753220685",
-  "10753194532",
-  "10752986980",
-  "10752968176",
   "10753244170",
   "10753209054",
   "10752992984",
@@ -3999,7 +3990,16 @@
   "10772371984",
   "10772382985",
   "10772382870",
-  "10772364397"
+  "10772364397",
+  "10772398872",
+  "10772394851",
+  "10772390425",
+  "10772408610",
+  "10772417205",
+  "10772425296",
+  "10772445728",
+  "10772453739",
+  "10772472599"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -4296,10 +4296,10 @@
    "lissee": true
   },
   "marque:nikon@3076": {
-   "date": 1794352684539,
+   "date": 1794442407859,
    "mediane": null,
-   "echantillon": 64,
-   "coteTropBasse": 30
+   "echantillon": 74,
+   "coteTropBasse": 41
   },
   "marque:lomography@3076": {
    "date": 1794409892766,
@@ -7104,13 +7104,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:nikon f65 f 3 3|2@3076": {
-   "date": 1794270355055,
-   "mediane": null,
-   "echantillon": 2,
-   "dispersion": null,
-   "niveau": "modèle"
   },
   "modele:sony cybershot como|3@3075": {
    "date": 1794272259634,
@@ -39627,6 +39620,96 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "modele:nikon 110s lite|2@3076": {
+   "date": 1794442409055,
+   "mediane": 70,
+   "echantillon": 3,
+   "dispersion": null,
+   "fourchette": [
+    41,
+    250
+   ],
+   "exemples": [
+    {
+     "id": 10546880872,
+     "prix": 70
+    },
+    {
+     "id": 10772398872,
+     "prix": 41
+    },
+    {
+     "id": 9108463514,
+     "prix": 250
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:olympus sp 550uz sp 560uz|2@3075": {
+   "date": 1794442601401,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:nikon s3300|1@3075": {
+   "date": 1794442920142,
+   "mediane": 100,
+   "echantillon": 63,
+   "dispersion": 0.4,
+   "fourchette": [
+    35,
+    160
+   ],
+   "exemples": [
+    {
+     "id": 10461693430,
+     "prix": 100
+    },
+    {
+     "id": 10524968444,
+     "prix": 100
+    },
+    {
+     "id": 9616928778,
+     "prix": 100
+    },
+    {
+     "id": 9924420369,
+     "prix": 100
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:olympus sp 550uz|1@3075": {
+   "date": 1794443175714,
+   "mediane": 50,
+   "echantillon": 25,
+   "dispersion": 0.4,
+   "fourchette": [
+    30,
+    90
+   ],
+   "exemples": [
+    {
+     "id": 9718193750,
+     "prix": 50
+    },
+    {
+     "id": 9062669467,
+     "prix": 50
+    },
+    {
+     "id": 10165715483,
+     "prix": 50
+    },
+    {
+     "id": 9425299076,
+     "prix": 50
+    }
+   ],
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -40335,8 +40418,8 @@
    "vu": 1793823355982
   },
   "22240742": {
-   "n": 39,
-   "vu": 1794440802494
+   "n": 40,
+   "vu": 1794442984814
   },
   "22392776": {
    "n": 2,
@@ -45326,6 +45409,10 @@
    "n": 2,
    "vu": 1794393078380
   },
+  "228665913": {
+   "n": 2,
+   "vu": 1794442406987
+  },
   "228863176": {
    "n": 6,
    "vu": 1794060180135
@@ -47111,8 +47198,8 @@
    "vu": 1794295792004
   },
   "311507207": {
-   "n": 22,
-   "vu": 1794442275123
+   "n": 23,
+   "vu": 1794442728800
   },
   "311792704": {
    "n": 2,
@@ -47995,8 +48082,8 @@
    "vu": 1794421660030
   },
   "3150569348": {
-   "n": 3,
-   "vu": 1794442211177
+   "n": 5,
+   "vu": 1794442600835
   },
   "3150588221": {
    "n": 2,
@@ -50197,19 +50284,19 @@
  },
  "bilan": {
   "depuis": 1794440993187,
-  "passages": 20,
-  "nouvelles": 23,
+  "passages": 34,
+  "nouvelles": 32,
   "marque": 5,
   "etat": 3,
-  "prix": 1,
+  "prix": 2,
   "accessoire": 0,
   "lot": 0,
   "fausse": 0,
   "imitation": 0,
-  "pro": 0,
+  "pro": 1,
   "vendeurSpecialise": 0,
-  "sansCote": 7,
-  "chere": 7,
+  "sansCote": 10,
+  "chere": 11,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
@@ -53504,7 +53591,8 @@
    "score": 20,
    "lien": "https://www.vinted.fr/items/10772071158-mamiya-135ef-ancien",
    "date": 1794439269405,
-   "statut": null
+   "statut": "en vente",
+   "verifieA": 1794442920645
   },
   {
    "id": 10772070464,
@@ -53514,7 +53602,8 @@
    "score": 18,
    "lien": "https://www.vinted.fr/items/10772070464-minox-35-el-kamera-kamera",
    "date": 1794439269672,
-   "statut": null
+   "statut": "en vente",
+   "verifieA": 1794442921428
   }
  ],
  "dernierRecap": "2026-11-11"

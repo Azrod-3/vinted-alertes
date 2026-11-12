@@ -1,8 +1,5 @@
 {
  "vues": [
-  "10766246719",
-  "10766246038",
-  "10766243905",
   "10766246798",
   "10766234882",
   "10766243505",
@@ -3999,7 +3996,10 @@
   "10773331824",
   "10773341246",
   "10773393988",
-  "10773413652"
+  "10773413652",
+  "10773440658",
+  "10773479541",
+  "10773483724"
  ],
  "cotes": {
   "marque:fossil": {
@@ -7130,35 +7130,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:invicta relogio caixa|2": {
-   "date": 1794282425513,
-   "mediane": 75,
-   "echantillon": 12,
-   "dispersion": 0.35,
-   "fourchette": [
-    25,
-    129
-   ],
-   "exemples": [
-    {
-     "id": 9992202876,
-     "prix": 70
-    },
-    {
-     "id": 9992238217,
-     "prix": 80
-    },
-    {
-     "id": 9823074598,
-     "prix": 80
-    },
-    {
-     "id": 9992181017,
-     "prix": 70
-    }
-   ],
-   "niveau": "modèle"
   },
   "modele:bulova benetton map|2": {
    "date": 1794285690425,
@@ -98668,8 +98639,8 @@
    "vu": 1793633350698
   },
   "3126422506": {
-   "n": 71,
-   "vu": 1794292430277
+   "n": 72,
+   "vu": 1794455679027
   },
   "3126439210": {
    "n": 21,
@@ -126358,9 +126329,9 @@
  },
  "bilan": {
   "depuis": 1794454034186,
-  "passages": 18,
-  "nouvelles": 2,
-  "marque": 2,
+  "passages": 39,
+  "nouvelles": 5,
+  "marque": 4,
   "etat": 0,
   "prix": 0,
   "accessoire": 0,
@@ -126368,7 +126339,7 @@
   "fausse": 0,
   "imitation": 0,
   "pro": 0,
-  "vendeurSpecialise": 0,
+  "vendeurSpecialise": 1,
   "sansCote": 0,
   "chere": 0,
   "description": 0,

@@ -1,20 +1,5 @@
 {
  "vues": [
-  "10753664859",
-  "10753664776",
-  "10753447091",
-  "10753446375",
-  "10753432547",
-  "10753428625",
-  "10753420695",
-  "10753729219",
-  "10753716264",
-  "10753654997",
-  "10753444558",
-  "10753715305",
-  "10753685862",
-  "10753469166",
-  "10753479497",
   "10753759413",
   "10753489781",
   "10753746259",
@@ -3999,7 +3984,22 @@
   "10774001744",
   "10774025662",
   "10774030130",
-  "10774068863"
+  "10774068863",
+  "10774076236",
+  "10774074094",
+  "10774074128",
+  "10774080837",
+  "10774077054",
+  "10774066430",
+  "10774086337",
+  "10774090762",
+  "10774096166",
+  "10774095565",
+  "10774096818",
+  "10774104729",
+  "10774115540",
+  "10774128411",
+  "10774130957"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -7097,78 +7097,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:minolta af35 big|1@3076": {
-   "date": 1794295220418,
-   "mediane": 27,
-   "echantillon": 10,
-   "dispersion": 0.47,
-   "fourchette": [
-    13,
-    50
-   ],
-   "exemples": [
-    {
-     "id": 7876426086,
-     "prix": 25
-    },
-    {
-     "id": 7396238554,
-     "prix": 25
-    },
-    {
-     "id": 10546749000,
-     "prix": 29.99
-    },
-    {
-     "id": 9261442519,
-     "prix": 30
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:minolta 130 riva|1@3075": {
-   "date": 1794295537445,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:fujifilm q1 nexia|1@3075": {
-   "date": 1794295664760,
-   "mediane": 25,
-   "echantillon": 5,
-   "dispersion": 0.4,
-   "fourchette": [
-    15,
-    38
-   ],
-   "exemples": [
-    {
-     "id": 10467330297,
-     "prix": 25
-    },
-    {
-     "id": 10745277289,
-     "prix": 20
-    },
-    {
-     "id": 10734019271,
-     "prix": 30
-    },
-    {
-     "id": 7608250757,
-     "prix": 15
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:polaroid 20270 pdc|1@3075": {
-   "date": 1794295920980,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
   },
   "modele:pentax k s1 der|2@3075": {
    "date": 1794296111430,
@@ -39621,6 +39549,78 @@
    "echantillon": 1,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:minolta 4 excellent dynax|2@3076": {
+   "date": 1794467969271,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:minox f 2 8 complet|2@3076": {
+   "date": 1794467970071,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:minolta freedom action|2@3076": {
+   "date": 1794468351176,
+   "mediane": 48,
+   "echantillon": 4,
+   "dispersion": 0.11,
+   "fourchette": [
+    45,
+    50
+   ],
+   "exemples": [
+    {
+     "id": 10774104729,
+     "prix": 50
+    },
+    {
+     "id": 9619047623,
+     "prix": 50
+    },
+    {
+     "id": 10623827693,
+     "prix": 45
+    },
+    {
+     "id": 10268329684,
+     "prix": 45
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:kodak mini|3@3075": {
+   "date": 1794468730480,
+   "mediane": 40,
+   "echantillon": 30,
+   "dispersion": 0.35,
+   "fourchette": [
+    14,
+    79.9
+   ],
+   "exemples": [
+    {
+     "id": 10748554160,
+     "prix": 40
+    },
+    {
+     "id": 10016625934,
+     "prix": 40
+    },
+    {
+     "id": 9947219647,
+     "prix": 40
+    },
+    {
+     "id": 8084981639,
+     "prix": 40
+    }
+   ],
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -41385,8 +41385,8 @@
    "vu": 1794396945702
   },
   "42926498": {
-   "n": 4,
-   "vu": 1794134204892
+   "n": 5,
+   "vu": 1794467968793
   },
   "42951497": {
    "n": 8,
@@ -45465,8 +45465,8 @@
    "vu": 1793978329360
   },
   "236601472": {
-   "n": 89,
-   "vu": 1794411560814
+   "n": 91,
+   "vu": 1794468224383
   },
   "236676597": {
    "n": 2,
@@ -50207,38 +50207,27 @@
  },
  "bilan": {
   "depuis": 1794462704984,
-  "passages": 81,
-  "nouvelles": 44,
-  "marque": 3,
+  "passages": 96,
+  "nouvelles": 59,
+  "marque": 8,
   "etat": 2,
   "prix": 3,
   "accessoire": 0,
   "lot": 0,
   "fausse": 0,
   "imitation": 0,
-  "pro": 0,
+  "pro": 2,
   "vendeurSpecialise": 6,
-  "sansCote": 20,
-  "chere": 7,
+  "sansCote": 24,
+  "chere": 10,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
-  "alertes": 3
+  "alertes": 4
  },
  "panne": null,
  "panneDebut": null,
  "suivi": [
-  {
-   "id": 10707245269,
-   "titre": "Cámara analógica Olympus mju Stylus Zoom 140 📸",
-   "prix": 70,
-   "cote": 140,
-   "score": 53,
-   "lien": "https://www.vinted.fr/items/10707245269-camara-analogica-olympus-mju-stylus-zoom-140",
-   "date": 1794135775333,
-   "statut": "en vente",
-   "verifieA": 1794139395973
-  },
   {
    "id": 10715097636,
    "titre": "Canon AT-1",
@@ -53503,7 +53492,8 @@
    "score": 20,
    "lien": "https://www.vinted.fr/items/10757996273-voigtlander-vitessa-120-point-and-shoot-kamera-filmgetestet",
    "date": 1794464416973,
-   "statut": null
+   "statut": "en vente",
+   "verifieA": 1794468034614
   },
   {
    "id": 10773948447,
@@ -53523,6 +53513,16 @@
    "score": 62,
    "lien": "https://www.vinted.fr/items/10774001744-maquina-fotografica-canon",
    "date": 1794466764075,
+   "statut": null
+  },
+  {
+   "id": 10774077054,
+   "titre": "Appareil photo argentique Minox 35 EL - 35mm f/2.8 - Complet - Très bon état",
+   "prix": 60,
+   "cote": null,
+   "score": 18,
+   "lien": "https://www.vinted.fr/items/10774077054-appareil-photo-argentique-minox-35-el-35mm-f28-complet-tres-bon-etat",
+   "date": 1794467970858,
    "statut": null
   }
  ],

@@ -1,10 +1,5 @@
 {
  "vues": [
-  "10753572262",
-  "10753349506",
-  "10753581943",
-  "10753516435",
-  "10753546473",
   "10753621990",
   "10753578704",
   "10753388250",
@@ -3999,7 +3994,12 @@
   "10757865015",
   "10773890656",
   "10773896701",
-  "10773901428"
+  "10773901428",
+  "10773926024",
+  "10773948447",
+  "10773950599",
+  "10773675461",
+  "10773953660"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -39620,6 +39620,35 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "modele:yashica t4 safari|1@3076": {
+   "date": 1794465809924,
+   "mediane": 452,
+   "echantillon": 4,
+   "dispersion": 0.12,
+   "fourchette": [
+    350,
+    550
+   ],
+   "exemples": [
+    {
+     "id": 10332335647,
+     "prix": 425
+    },
+    {
+     "id": 9421811710,
+     "prix": 479.9
+    },
+    {
+     "id": 10414236878,
+     "prix": 550
+    },
+    {
+     "id": 10773948447,
+     "prix": 350
+    }
+   ],
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -46155,6 +46184,10 @@
    "n": 2,
    "vu": 1794409204408
   },
+  "264141109": {
+   "n": 2,
+   "vu": 1794465937150
+  },
   "264489199": {
    "n": 3,
    "vu": 1794149187763
@@ -50202,8 +50235,8 @@
  },
  "bilan": {
   "depuis": 1794462704984,
-  "passages": 36,
-  "nouvelles": 22,
+  "passages": 51,
+  "nouvelles": 27,
   "marque": 3,
   "etat": 1,
   "prix": 2,
@@ -50213,27 +50246,16 @@
   "imitation": 0,
   "pro": 0,
   "vendeurSpecialise": 3,
-  "sansCote": 8,
+  "sansCote": 12,
   "chere": 4,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
-  "alertes": 1
+  "alertes": 2
  },
  "panne": null,
  "panneDebut": null,
  "suivi": [
-  {
-   "id": 10715019616,
-   "titre": "appareil photo canon eos m3",
-   "prix": 100,
-   "cote": 330,
-   "score": 85,
-   "lien": "https://www.vinted.fr/items/10715019616-appareil-photo-canon-eos-m3",
-   "date": 1794135578213,
-   "statut": "retiree",
-   "verifieA": 1794139201684
-  },
   {
    "id": 10715047308,
    "titre": "Appareil photo Nikon Digital Camera D 3000",
@@ -53509,7 +53531,8 @@
    "score": 18,
    "lien": "https://www.vinted.fr/items/10773753605-rollei-powerflex-470-digitalkamera-rot-14-mp-7x-zoom-inkl-akku-ladegerat",
    "date": 1794461692395,
-   "statut": null
+   "statut": "en vente",
+   "verifieA": 1794465304512
   },
   {
    "id": 10757996273,
@@ -53519,6 +53542,16 @@
    "score": 20,
    "lien": "https://www.vinted.fr/items/10757996273-voigtlander-vitessa-120-point-and-shoot-kamera-filmgetestet",
    "date": 1794464416973,
+   "statut": null
+  },
+  {
+   "id": 10773948447,
+   "titre": "Yashica T4 Safari Edition",
+   "prix": 350,
+   "cote": 452,
+   "score": 47,
+   "lien": "https://www.vinted.fr/items/10773948447-yashica-t4-safari-edition",
+   "date": 1794465810828,
    "statut": null
   }
  ],

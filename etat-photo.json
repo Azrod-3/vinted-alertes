@@ -1,14 +1,5 @@
 {
  "vues": [
-  "10766486785",
-  "10766490376",
-  "10766488233",
-  "10766486266",
-  "10766474515",
-  "10766506499",
-  "10766503689",
-  "10766496420",
-  "10766514843",
   "10766503139",
   "10766500597",
   "10753329964",
@@ -3999,7 +3990,16 @@
   "10785379383",
   "10785380741",
   "10785383844",
-  "10785384586"
+  "10785384586",
+  "10785391347",
+  "10785398200",
+  "10785405391",
+  "10785403628",
+  "10785416728",
+  "10785415475",
+  "10785419947",
+  "10785433086",
+  "10785438060"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -6641,35 +6641,6 @@
    "niveau": "modèle",
    "lissee": true
   },
-  "modele:canon 6d eos|2@3075": {
-   "date": 1794352361831,
-   "mediane": 500,
-   "echantillon": 65,
-   "dispersion": 0.58,
-   "fourchette": [
-    200,
-    1050
-   ],
-   "exemples": [
-    {
-     "id": 10178829618,
-     "prix": 500
-    },
-    {
-     "id": 10666513651,
-     "prix": 500
-    },
-    {
-     "id": 7831039091,
-     "prix": 500
-    },
-    {
-     "id": 9947544766,
-     "prix": 500
-    }
-   ],
-   "niveau": "modèle"
-  },
   "modele:nikon l810 coolpix|2@3075": {
    "date": 1794352814123,
    "mediane": 70,
@@ -6699,100 +6670,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:fujifilm s2950 finepix|2@3075": {
-   "date": 1794352491350,
-   "mediane": 58,
-   "echantillon": 50,
-   "dispersion": 0.42,
-   "fourchette": [
-    30,
-    100
-   ],
-   "exemples": [
-    {
-     "id": 10524182642,
-     "prix": 60
-    },
-    {
-     "id": 10273310236,
-     "prix": 60
-    },
-    {
-     "id": 8847455657,
-     "prix": 60
-    },
-    {
-     "id": 8655739891,
-     "prix": 60
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:sony maquina|2@3075": {
-   "date": 1794352682105,
-   "mediane": 85,
-   "echantillon": 53,
-   "dispersion": 0.73,
-   "fourchette": [
-    25,
-    195
-   ],
-   "exemples": [
-    {
-     "id": 9219269883,
-     "prix": 85
-    },
-    {
-     "id": 6300471206,
-     "prix": 85
-    },
-    {
-     "id": 6458533115,
-     "prix": 85
-    },
-    {
-     "id": 10113339162,
-     "prix": 90
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:olympus tg 310 camara|2@3075": {
-   "date": 1794352682663,
-   "mediane": 67,
-   "echantillon": 4,
-   "dispersion": 0.09,
-   "fourchette": [
-    60,
-    75
-   ],
-   "exemples": [
-    {
-     "id": 10410350502,
-     "prix": 64
-    },
-    {
-     "id": 7466348454,
-     "prix": 70
-    },
-    {
-     "id": 10751826103,
-     "prix": 60
-    },
-    {
-     "id": 9767689017,
-     "prix": 75
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:kodak cuadro|3@3076": {
-   "date": 1794352683455,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
   },
   "modele:fujifilm 40i mp3 funktion|2@3075": {
    "date": 1794352748456,
@@ -45642,8 +45519,8 @@
    "vu": 1794164083091
   },
   "25095058": {
-   "n": 8,
-   "vu": 1794525036497
+   "n": 9,
+   "vu": 1794525291593
   },
   "25149109": {
    "n": 6,
@@ -45712,6 +45589,10 @@
   "26504519": {
    "n": 2,
    "vu": 1794416408932
+  },
+  "26550867": {
+   "n": 2,
+   "vu": 1794525228307
   },
   "26568982": {
    "n": 4,
@@ -49669,6 +49550,10 @@
    "n": 3,
    "vu": 1794350187700
   },
+  "143524249": {
+   "n": 2,
+   "vu": 1794525165041
+  },
   "143818664": {
    "n": 5,
    "vu": 1794061738329
@@ -53378,8 +53263,8 @@
    "vu": 1794515117148
   },
   "3138957823": {
-   "n": 44,
-   "vu": 1794436889744
+   "n": 45,
+   "vu": 1794525355083
   },
   "3139204198": {
    "n": 4,
@@ -55758,8 +55643,8 @@
    "vu": 1793646521056
   },
   "3208121965": {
-   "n": 21,
-   "vu": 1794491629689
+   "n": 22,
+   "vu": 1794525228307
   },
   "3208150892": {
    "n": 2,
@@ -56076,18 +55961,18 @@
  },
  "bilan": {
   "depuis": 1794522093812,
-  "passages": 46,
-  "nouvelles": 71,
-  "marque": 9,
-  "etat": 4,
+  "passages": 54,
+  "nouvelles": 80,
+  "marque": 13,
+  "etat": 5,
   "prix": 1,
   "accessoire": 1,
   "lot": 0,
   "fausse": 0,
   "imitation": 0,
-  "pro": 0,
-  "vendeurSpecialise": 7,
-  "sansCote": 28,
+  "pro": 1,
+  "vendeurSpecialise": 9,
+  "sansCote": 29,
   "chere": 20,
   "description": 0,
   "scoreFaible": 0,
@@ -59372,7 +59257,8 @@
    "score": 63,
    "lien": "https://www.vinted.fr/items/10784954314-camara-digital-sony-cyber-shot-dsc-w830-201mp-8x-zoom-carregador-e-bateria",
    "date": 1794521709530,
-   "statut": null
+   "statut": "retiree",
+   "verifieA": 1794525355558
   },
   {
    "id": 10784960163,
@@ -59382,7 +59268,8 @@
    "score": 59,
    "lien": "https://www.vinted.fr/items/10784960163-canon-eos-rebel-xti-18-55mm-camara-reflex-digital",
    "date": 1794521709707,
-   "statut": null
+   "statut": "en vente",
+   "verifieA": 1794525356328
   },
   {
    "id": 10785300177,

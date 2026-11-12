@@ -1,25 +1,5 @@
 {
  "vues": [
-  "10766087199",
-  "10766085042",
-  "10766083850",
-  "10766112684",
-  "10766109741",
-  "10766109832",
-  "10766109528",
-  "10766107283",
-  "10766108364",
-  "10766105923",
-  "10766109099",
-  "10766101307",
-  "10766103147",
-  "10766104428",
-  "10766100965",
-  "10766122942",
-  "10766126780",
-  "10766122258",
-  "10766127269",
-  "10766122011",
   "10766121031",
   "10766122513",
   "10766122209",
@@ -3999,7 +3979,27 @@
   "10772477082",
   "10772480253",
   "10772483430",
-  "10772481998"
+  "10772481998",
+  "10772487911",
+  "10772483109",
+  "10772490733",
+  "10772494045",
+  "10772501383",
+  "10772499592",
+  "10772506051",
+  "10772513600",
+  "10772513507",
+  "10772519013",
+  "10772516202",
+  "10772539111",
+  "10772536441",
+  "10772541397",
+  "10772548733",
+  "10772558591",
+  "10772556453",
+  "10772571091",
+  "10772571237",
+  "10772569128"
  ],
  "cotes": {
   "marque:fossil": {
@@ -7130,45 +7130,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:festina relogio otimo|2": {
-   "date": 1794270764230,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:bmw motorsport x ice watch chrono ttbe|2": {
-   "date": 1794270851420,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:citizen ny0084 89e promaster|2": {
-   "date": 1794270895445,
-   "mediane": 173,
-   "echantillon": 3,
-   "dispersion": null,
-   "fourchette": [
-    160,
-    225
-   ],
-   "exemples": [
-    {
-     "id": 10562172008,
-     "prix": 173
-    },
-    {
-     "id": 10743581868,
-     "prix": 160
-    },
-    {
-     "id": 8285952029,
-     "prix": 225
-    }
-   ],
-   "niveau": "modèle"
   },
   "modele:ice watch pk0705 cf keora|3": {
    "date": 1794273387148,
@@ -30912,6 +30873,13 @@
    "echantillon": 1,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:ingersoll no 36 bison|2": {
+   "date": 1794443596613,
+   "mediane": null,
+   "echantillon": 2,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -38203,6 +38171,10 @@
    "n": 8,
    "vu": 1793633350698
   },
+  "30432175": {
+   "n": 2,
+   "vu": 1794444073414
+  },
   "30467439": {
    "n": 12,
    "vu": 1793633350698
@@ -38916,8 +38888,8 @@
    "vu": 1794420112632
   },
   "32747795": {
-   "n": 262,
-   "vu": 1794434831918
+   "n": 263,
+   "vu": 1794443857081
   },
   "32750703": {
    "n": 24,
@@ -48560,8 +48532,8 @@
    "vu": 1793975253510
   },
   "56442970": {
-   "n": 83,
-   "vu": 1794423020644
+   "n": 84,
+   "vu": 1794443335351
   },
   "56444334": {
    "n": 3,
@@ -77248,8 +77220,8 @@
    "vu": 1793633350698
   },
   "203694169": {
-   "n": 15,
-   "vu": 1794357555006
+   "n": 16,
+   "vu": 1794443596073
   },
   "203698014": {
    "n": 5,
@@ -85116,8 +85088,8 @@
    "vu": 1793633350698
   },
   "253245250": {
-   "n": 29,
-   "vu": 1794441502206
+   "n": 32,
+   "vu": 1794443683893
   },
   "253258057": {
    "n": 10,
@@ -85836,8 +85808,8 @@
    "vu": 1793633350698
   },
   "255898981": {
-   "n": 11,
-   "vu": 1794408254636
+   "n": 14,
+   "vu": 1794444073414
   },
   "255907376": {
    "n": 8,
@@ -101612,8 +101584,8 @@
    "vu": 1794041055339
   },
   "3137259909": {
-   "n": 3,
-   "vu": 1794442984578
+   "n": 4,
+   "vu": 1794444203279
   },
   "3137270167": {
    "n": 12,
@@ -107828,8 +107800,8 @@
    "vu": 1793633350698
   },
   "3160139011": {
-   "n": 3,
-   "vu": 1794442507160
+   "n": 4,
+   "vu": 1794443422149
   },
   "3160145794": {
    "n": 21,
@@ -113684,8 +113656,8 @@
    "vu": 1793633350698
   },
   "3177300312": {
-   "n": 96,
-   "vu": 1794369110483
+   "n": 99,
+   "vu": 1794444203279
   },
   "3177306467": {
    "n": 2,
@@ -126366,49 +126338,27 @@
  },
  "bilan": {
   "depuis": 1794443159172,
-  "passages": 3,
-  "nouvelles": 4,
-  "marque": 1,
+  "passages": 24,
+  "nouvelles": 24,
+  "marque": 10,
   "etat": 0,
-  "prix": 0,
-  "accessoire": 0,
+  "prix": 1,
+  "accessoire": 2,
   "lot": 0,
-  "fausse": 1,
+  "fausse": 3,
   "imitation": 0,
   "pro": 0,
-  "vendeurSpecialise": 1,
-  "sansCote": 1,
+  "vendeurSpecialise": 3,
+  "sansCote": 3,
   "chere": 0,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
-  "alertes": 0
+  "alertes": 2
  },
  "panne": null,
  "panneDebut": null,
  "suivi": [
-  {
-   "id": 10745375788,
-   "titre": "Citizen Eco drive Aviator",
-   "prix": 70,
-   "cote": 143,
-   "score": 62,
-   "lien": "https://www.vinted.fr/items/10745375788-citizen-eco-drive-aviator",
-   "date": 1794296914827,
-   "statut": "en vente",
-   "verifieA": 1794311551156
-  },
-  {
-   "id": 10745665695,
-   "titre": "Watch montre auto Steinhart Ocean One Black Ceramic 39 mm, Swiss Made, ETA 2824-",
-   "prix": 285,
-   "cote": 431,
-   "score": 51,
-   "lien": "https://www.vinted.fr/items/10745665695-watch-montre-auto-steinhart-ocean-one-black-ceramic-39-mm-swiss-made-eta-2824-2",
-   "date": 1794299729134,
-   "statut": "en vente",
-   "verifieA": 1794311551758
-  },
   {
    "id": 10745692411,
    "titre": "Splendido e resistente cinturino in silicone con fibbia Marca Festina",
@@ -129683,6 +129633,26 @@
    "score": 67,
    "lien": "https://www.vinted.fr/items/10772340288-bering-classic-green-watch",
    "date": 1794441809423,
+   "statut": null
+  },
+  {
+   "id": 10772513507,
+   "titre": "Ingersoll Bison No.36 Herrenuhr Automatik mit Originalbox",
+   "prix": 70,
+   "cote": 150,
+   "score": 56,
+   "lien": "https://www.vinted.fr/items/10772513507-ingersoll-bison-no36-herrenuhr-automatik-mit-originalbox",
+   "date": 1794443597228,
+   "statut": null
+  },
+  {
+   "id": 10772571237,
+   "titre": "Reloj Tissot",
+   "prix": 30,
+   "cote": 167,
+   "score": 73,
+   "lien": "https://www.vinted.fr/items/10772571237-reloj-tissot",
+   "date": 1794444203815,
    "statut": null
   }
  ],

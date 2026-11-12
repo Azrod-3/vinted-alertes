@@ -1,9 +1,5 @@
 {
  "vues": [
-  "10753263783",
-  "10753256240",
-  "10753250502",
-  "10753549099",
   "10753448665",
   "10753435266",
   "10753275964",
@@ -3999,7 +3995,11 @@
   "10773756601",
   "10773763252",
   "10773773574",
-  "10773773224"
+  "10773773224",
+  "10773804757",
+  "10773806601",
+  "10773807958",
+  "10773811493"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -7098,42 +7098,6 @@
    "niveau": "modèle",
    "lissee": true
   },
-  "modele:kodak digitalkamera|2@3075": {
-   "date": 1794289377522,
-   "mediane": 39,
-   "echantillon": 50,
-   "dispersion": 0.61,
-   "fourchette": [
-    14.99,
-    75
-   ],
-   "exemples": [
-    {
-     "id": 10376711851,
-     "prix": 39
-    },
-    {
-     "id": 10399362495,
-     "prix": 39.5
-    },
-    {
-     "id": 10575795014,
-     "prix": 39.9
-    },
-    {
-     "id": 10717828869,
-     "prix": 40
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:pentax p30 equipe|1@3076": {
-   "date": 1794289378092,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
   "modele:fujifilm finepix|2@3075": {
    "date": 1794433819265,
    "mediane": 52,
@@ -7163,20 +7127,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:samsung 512 y2k|2@3075": {
-   "date": 1794289948552,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:canon camara azul|1@3075": {
-   "date": 1794290203735,
-   "mediane": null,
-   "echantillon": 2,
-   "dispersion": null,
-   "niveau": "modèle"
   },
   "modele:fujifilm v10 finepix|1@3075": {
    "date": 1794290773363,
@@ -42391,8 +42341,8 @@
    "vu": 1794054292970
   },
   "60185966": {
-   "n": 14,
-   "vu": 1794416148735
+   "n": 15,
+   "vu": 1794462894093
   },
   "60209689": {
    "n": 2,
@@ -47971,8 +47921,8 @@
    "vu": 1794433715081
   },
   "3148076790": {
-   "n": 10,
-   "vu": 1794461690841
+   "n": 11,
+   "vu": 1794463020163
   },
   "3148173926": {
    "n": 3,
@@ -50284,24 +50234,24 @@
   }
  },
  "bilan": {
-  "depuis": 1794455469950,
-  "passages": 105,
-  "nouvelles": 19,
-  "marque": 0,
-  "etat": 2,
-  "prix": 1,
+  "depuis": 1794462704984,
+  "passages": 6,
+  "nouvelles": 4,
+  "marque": 1,
+  "etat": 0,
+  "prix": 0,
   "accessoire": 0,
   "lot": 0,
   "fausse": 0,
   "imitation": 0,
   "pro": 0,
-  "vendeurSpecialise": 4,
-  "sansCote": 4,
-  "chere": 7,
+  "vendeurSpecialise": 2,
+  "sansCote": 1,
+  "chere": 0,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
-  "alertes": 1
+  "alertes": 0
  },
  "panne": null,
  "panneDebut": null,

@@ -1,8 +1,5 @@
 {
  "vues": [
-  "10753070381",
-  "10753069578",
-  "10753055523",
   "10753335595",
   "10753285444",
   "10753071670",
@@ -3999,7 +3996,10 @@
   "10772564546",
   "10772577450",
   "10772573824",
-  "10772616359"
+  "10772616359",
+  "10772673966",
+  "10772738241",
+  "10772743296"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -4571,10 +4571,33 @@
    "lissee": true
   },
   "marque:pentax@3075": {
-   "date": 1794353588548,
-   "mediane": null,
-   "echantillon": 81,
-   "coteTropBasse": 45
+   "date": 1794446115212,
+   "mediane": 50,
+   "echantillon": 80,
+   "dispersion": 0.91,
+   "fourchette": [
+    14,
+    140
+   ],
+   "exemples": [
+    {
+     "id": 10569526509,
+     "prix": 50
+    },
+    {
+     "id": 10456858397,
+     "prix": 50
+    },
+    {
+     "id": 10771934829,
+     "prix": 50
+    },
+    {
+     "id": 10488741069,
+     "prix": 50
+    }
+   ],
+   "niveau": "marque"
   },
   "modele:canon ixus|1@3075": {
    "date": 1794433733015,
@@ -39790,6 +39813,42 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "modele:canon sx20 20x|1@3075": {
+   "date": 1794446050894,
+   "mediane": 88,
+   "echantillon": 6,
+   "dispersion": 0.43,
+   "fourchette": [
+    50,
+    120
+   ],
+   "exemples": [
+    {
+     "id": 9824762563,
+     "prix": 90
+    },
+    {
+     "id": 10772738241,
+     "prix": 85
+    },
+    {
+     "id": 10582674368,
+     "prix": 75
+    },
+    {
+     "id": 10481077464,
+     "prix": 113
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:pentax a36 y2k|1@3075": {
+   "date": 1794446116071,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -42574,8 +42633,8 @@
    "vu": 1794232257069
   },
   "62760003": {
-   "n": 38,
-   "vu": 1794444198406
+   "n": 39,
+   "vu": 1794445351382
   },
   "62960703": {
    "n": 6,
@@ -42870,8 +42929,8 @@
    "vu": 1793640026859
   },
   "69433064": {
-   "n": 3,
-   "vu": 1794425391528
+   "n": 4,
+   "vu": 1794446114330
   },
   "69454788": {
    "n": 3,
@@ -50364,8 +50423,8 @@
  },
  "bilan": {
   "depuis": 1794440993187,
-  "passages": 64,
-  "nouvelles": 46,
+  "passages": 79,
+  "nouvelles": 49,
   "marque": 5,
   "etat": 3,
   "prix": 2,
@@ -50373,10 +50432,10 @@
   "lot": 0,
   "fausse": 0,
   "imitation": 0,
-  "pro": 7,
+  "pro": 8,
   "vendeurSpecialise": 0,
-  "sansCote": 15,
-  "chere": 13,
+  "sansCote": 16,
+  "chere": 14,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,

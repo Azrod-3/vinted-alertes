@@ -1,7 +1,5 @@
 {
  "vues": [
-  "10753356404",
-  "10753310763",
   "10753299706",
   "10753122234",
   "10753354628",
@@ -3999,7 +3997,9 @@
   "10773092737",
   "10773101743",
   "10773110461",
-  "10773109095"
+  "10773109095",
+  "10773167110",
+  "10773194389"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -39788,6 +39788,13 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "modele:minolta vendo uma|2@3076": {
+   "date": 1794451461978,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -45884,8 +45891,8 @@
    "vu": 1793829329225
   },
   "248638618": {
-   "n": 10,
-   "vu": 1794195208447
+   "n": 11,
+   "vu": 1794451080738
   },
   "248653797": {
    "n": 2,
@@ -50366,8 +50373,8 @@
  },
  "bilan": {
   "depuis": 1794448219246,
-  "passages": 42,
-  "nouvelles": 6,
+  "passages": 54,
+  "nouvelles": 8,
   "marque": 0,
   "etat": 0,
   "prix": 0,
@@ -50376,8 +50383,8 @@
   "fausse": 0,
   "imitation": 0,
   "pro": 0,
-  "vendeurSpecialise": 0,
-  "sansCote": 1,
+  "vendeurSpecialise": 1,
+  "sansCote": 2,
   "chere": 0,
   "description": 0,
   "scoreFaible": 0,

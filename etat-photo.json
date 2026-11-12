@@ -1,7 +1,5 @@
 {
  "vues": [
-  "10753447718",
-  "10753198712",
   "10753175545",
   "10753481524",
   "10753219446",
@@ -3999,7 +3997,9 @@
   "10773524842",
   "10773535124",
   "10773637989",
-  "10773636954"
+  "10773636954",
+  "10773704369",
+  "10773712689"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -7097,35 +7097,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:nikon f50|1@3076": {
-   "date": 1794287730003,
-   "mediane": 40,
-   "echantillon": 78,
-   "dispersion": 0.63,
-   "fourchette": [
-    10,
-    100
-   ],
-   "exemples": [
-    {
-     "id": 10047387571,
-     "prix": 40
-    },
-    {
-     "id": 10734342934,
-     "prix": 40
-    },
-    {
-     "id": 6010764257,
-     "prix": 40
-    },
-    {
-     "id": 7341480358,
-     "prix": 40
-    }
-   ],
-   "niveau": "modèle"
   },
   "modele:kodak digitalkamera|2@3075": {
    "date": 1794289377522,
@@ -39693,6 +39664,13 @@
    "echantillon": 1,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:nikon pocket kameras|1@3075": {
+   "date": 1794460489855,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -50271,8 +50249,8 @@
  },
  "bilan": {
   "depuis": 1794455469950,
-  "passages": 75,
-  "nouvelles": 8,
+  "passages": 90,
+  "nouvelles": 10,
   "marque": 0,
   "etat": 0,
   "prix": 1,
@@ -50282,7 +50260,7 @@
   "imitation": 0,
   "pro": 0,
   "vendeurSpecialise": 0,
-  "sansCote": 1,
+  "sansCote": 3,
   "chere": 6,
   "description": 0,
   "scoreFaible": 0,

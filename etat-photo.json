@@ -1,21 +1,5 @@
 {
  "vues": [
-  "10778962107",
-  "10778968317",
-  "10778990511",
-  "10778989160",
-  "10778984594",
-  "10779008856",
-  "10779000917",
-  "10778994326",
-  "10779003524",
-  "10779003126",
-  "10779023567",
-  "10779022855",
-  "10779014675",
-  "10779025329",
-  "10779027773",
-  "10779034688",
   "10779028997",
   "10779027001",
   "10779050751",
@@ -3999,7 +3983,23 @@
   "10798291479",
   "10798298838",
   "10798308667",
-  "10798314131"
+  "10798314131",
+  "10798319798",
+  "10798330515",
+  "10798319114",
+  "10798332182",
+  "10798357977",
+  "10798373428",
+  "10798367982",
+  "10798366017",
+  "10798385340",
+  "10798383489",
+  "10798377699",
+  "10798399660",
+  "10798396609",
+  "10798389383",
+  "10798403659",
+  "10798405279"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -4092,30 +4092,30 @@
    "niveau": "marque"
   },
   "marque:samsung@3075": {
-   "date": 1794520214831,
-   "mediane": 56,
-   "echantillon": 81,
-   "dispersion": 0.66,
+   "date": 1794611129573,
+   "mediane": 55,
+   "echantillon": 80,
+   "dispersion": 0.83,
    "fourchette": [
-    15,
-    150
+    14.2,
+    160
    ],
    "exemples": [
-    {
-     "id": 10597749525,
-     "prix": 56
-    },
     {
      "id": 10705780994,
      "prix": 55
     },
     {
-     "id": 10740127402,
+     "id": 10783357583,
      "prix": 55
     },
     {
-     "id": 10624487829,
-     "prix": 59
+     "id": 10710195379,
+     "prix": 52.99
+    },
+    {
+     "id": 10796260937,
+     "prix": 52
     }
    ],
    "niveau": "marque",
@@ -7557,114 +7557,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:kodak fotocamere|1@3076": {
-   "date": 1794437986400,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:pentax s7 optio|2@3075": {
-   "date": 1794438113783,
-   "mediane": 50,
-   "echantillon": 9,
-   "dispersion": 0.2,
-   "fourchette": [
-    35,
-    70
-   ],
-   "exemples": [
-    {
-     "id": 10771934829,
-     "prix": 50
-    },
-    {
-     "id": 9673027308,
-     "prix": 50
-    },
-    {
-     "id": 10351148398,
-     "prix": 50
-    },
-    {
-     "id": 8494935889,
-     "prix": 49.95
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:canon sx30is powershot|2@3075": {
-   "date": 1794438368395,
-   "mediane": 68,
-   "echantillon": 8,
-   "dispersion": 0.3,
-   "fourchette": [
-    45,
-    102
-   ],
-   "exemples": [
-    {
-     "id": 6990462735,
-     "prix": 75
-    },
-    {
-     "id": 9701971237,
-     "prix": 60
-    },
-    {
-     "id": 10361009529,
-     "prix": 60
-    },
-    {
-     "id": 9888479197,
-     "prix": 80
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:sony dsc w570 dsc|2@3075": {
-   "date": 1794438498160,
-   "mediane": 103,
-   "echantillon": 18,
-   "dispersion": 0.3,
-   "fourchette": [
-    49.99,
-    159.95
-   ],
-   "exemples": [
-    {
-     "id": 10432865300,
-     "prix": 105
-    },
-    {
-     "id": 10721274902,
-     "prix": 100
-    },
-    {
-     "id": 9923196952,
-     "prix": 100
-    },
-    {
-     "id": 10507159576,
-     "prix": 95
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:canon sx430 bridge|2@3075": {
-   "date": 1794438689481,
-   "mediane": null,
-   "echantillon": 2,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:sony mvc fd75 camara|1@3075": {
-   "date": 1794438690298,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
   },
   "modele:sony dsc p200 cyber|2@3075": {
    "date": 1794438881505,
@@ -36515,6 +36407,71 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "modele:canon s120|1@3075": {
+   "date": 1794611256752,
+   "mediane": 205,
+   "echantillon": 4,
+   "dispersion": 0.93,
+   "fourchette": [
+    100,
+    300
+   ],
+   "exemples": [
+    {
+     "id": 10372983248,
+     "prix": 110
+    },
+    {
+     "id": 9560201976,
+     "prix": 300
+    },
+    {
+     "id": 7332532827,
+     "prix": 300
+    },
+    {
+     "id": 10798399660,
+     "prix": 100
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:nikon f70 camara|2@3076": {
+   "date": 1794611258570,
+   "mediane": 70,
+   "echantillon": 18,
+   "dispersion": 0.64,
+   "fourchette": [
+    25,
+    156
+   ],
+   "exemples": [
+    {
+     "id": 9167177945,
+     "prix": 65
+    },
+    {
+     "id": 7131716582,
+     "prix": 75
+    },
+    {
+     "id": 6714978153,
+     "prix": 75
+    },
+    {
+     "id": 7832667854,
+     "prix": 65
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:konica fotografico analogico|2@3076": {
+   "date": 1794611386180,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -40431,8 +40388,8 @@
    "vu": 1793889497955
   },
   "76759676": {
-   "n": 5,
-   "vu": 1794610175313
+   "n": 6,
+   "vu": 1794610749107
   },
   "76818857": {
    "n": 5,
@@ -43006,6 +42963,10 @@
    "n": 2,
    "vu": 1794238666468
   },
+  "217897930": {
+   "n": 2,
+   "vu": 1794611002128
+  },
   "218024842": {
    "n": 2,
    "vu": 1794135252251
@@ -44309,6 +44270,10 @@
   "271067067": {
    "n": 2,
    "vu": 1794433715082
+  },
+  "271079968": {
+   "n": 2,
+   "vu": 1794611385374
   },
   "271180411": {
    "n": 2,
@@ -48685,38 +48650,27 @@
  },
  "bilan": {
   "depuis": 1794609731111,
-  "passages": 13,
-  "nouvelles": 19,
-  "marque": 4,
-  "etat": 0,
-  "prix": 3,
-  "accessoire": 0,
+  "passages": 28,
+  "nouvelles": 35,
+  "marque": 6,
+  "etat": 3,
+  "prix": 4,
+  "accessoire": 1,
   "lot": 0,
   "fausse": 0,
   "imitation": 0,
   "pro": 0,
   "vendeurSpecialise": 1,
-  "sansCote": 8,
-  "chere": 3,
+  "sansCote": 14,
+  "chere": 5,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
-  "alertes": 0
+  "alertes": 1
  },
  "panne": null,
  "panneDebut": null,
  "suivi": [
-  {
-   "id": 10732986197,
-   "titre": "Fotocamera Reflex Canon EOS 700D + Obiettivo Canon EF-S 18-55mm IS",
-   "prix": 100,
-   "cote": 220,
-   "score": 69,
-   "lien": "https://www.vinted.fr/items/10732986197-fotocamera-reflex-canon-eos-700d-obiettivo-canon-ef-s-18-55mm-is",
-   "date": 1794222035634,
-   "statut": "retiree",
-   "verifieA": 1794225645959
-  },
   {
    "id": 10733068734,
    "titre": "Fotocamera digitale Sony DSC h55",
@@ -52005,6 +51959,16 @@
    "date": 1794604747595,
    "statut": "en vente",
    "verifieA": 1794608387803
+  },
+  {
+   "id": 10798399660,
+   "titre": "Canon s120",
+   "prix": 100,
+   "cote": 205,
+   "score": 53,
+   "lien": "https://www.vinted.fr/items/10798399660-canon-s120",
+   "date": 1794611258796,
+   "statut": null
   }
  ],
  "dernierRecap": "2026-11-13"

@@ -1,10 +1,5 @@
 {
  "vues": [
-  "10781707359",
-  "10781759331",
-  "10781760788",
-  "10781755776",
-  "10781747542",
   "10781750390",
   "10781748297",
   "10781739842",
@@ -3999,7 +3994,12 @@
   "10786549587",
   "10786559638",
   "10786577344",
-  "10786585224"
+  "10786585224",
+  "10730045083",
+  "10786613362",
+  "10786652816",
+  "10786648132",
+  "10786659987"
  ],
  "cotes": {
   "marque:fossil": {
@@ -7298,142 +7298,6 @@
    "niveau": "modèle",
    "lissee": true
   },
-  "modele:ice watch sporthorloge|2": {
-   "date": 1794366052721,
-   "mediane": null,
-   "echantillon": 2,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:zitto bambino|2": {
-   "date": 1794366141647,
-   "mediane": 10,
-   "echantillon": 10,
-   "dispersion": 0.2,
-   "fourchette": [
-    5,
-    15
-   ],
-   "exemples": [
-    {
-     "id": 10107316401,
-     "prix": 10
-    },
-    {
-     "id": 9364204523,
-     "prix": 10
-    },
-    {
-     "id": 5560824142,
-     "prix": 10
-    },
-    {
-     "id": 6125093167,
-     "prix": 10
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:lorenz polso|2": {
-   "date": 1794366142461,
-   "mediane": 120,
-   "echantillon": 22,
-   "dispersion": 0.83,
-   "fourchette": [
-    30,
-    219
-   ],
-   "exemples": [
-    {
-     "id": 10237316019,
-     "prix": 120
-    },
-    {
-     "id": 8521252331,
-     "prix": 120
-    },
-    {
-     "id": 10425726737,
-     "prix": 120
-    },
-    {
-     "id": 7908171309,
-     "prix": 120
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:calypso 5112 stainless|2": {
-   "date": 1794366320348,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:citizen 41 0438 dual|2": {
-   "date": 1794366408005,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:festina f16242 multifunctional|4": {
-   "date": 1794366408668,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:fossil minimalist para|3": {
-   "date": 1794366453096,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:nixon bracelet aiguilles|1": {
-   "date": 1794366497840,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:raketa russo rosa|3": {
-   "date": 1794366586444,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:citizen c500 promaster|1": {
-   "date": 1794366630573,
-   "mediane": 260,
-   "echantillon": 17,
-   "dispersion": 0.33,
-   "fourchette": [
-    140,
-    390
-   ],
-   "exemples": [
-    {
-     "id": 9718297935,
-     "prix": 260
-    },
-    {
-     "id": 10157713696,
-     "prix": 250
-    },
-    {
-     "id": 2643222212,
-     "prix": 249
-    },
-    {
-     "id": 9377450150,
-     "prix": 279
-    }
-   ],
-   "niveau": "modèle"
-  },
   "marque:hublot": {
    "date": 1794477897484,
    "mediane": 1998,
@@ -7463,89 +7327,6 @@
    ],
    "niveau": "marque",
    "lissee": true
-  },
-  "modele:ice watch boliday|4": {
-   "date": 1794366762878,
-   "mediane": 77,
-   "echantillon": 48,
-   "dispersion": 0.45,
-   "fourchette": [
-    25,
-    150
-   ],
-   "exemples": [
-    {
-     "id": 10680398882,
-     "prix": 75
-    },
-    {
-     "id": 8023358026,
-     "prix": 75
-    },
-    {
-     "id": 9500293142,
-     "prix": 79
-    },
-    {
-     "id": 9158890670,
-     "prix": 75
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:fossil automatique cadran|3": {
-   "date": 1794366807525,
-   "mediane": 105,
-   "echantillon": 10,
-   "dispersion": 0.33,
-   "fourchette": [
-    59,
-    180
-   ],
-   "exemples": [
-    {
-     "id": 10278580658,
-     "prix": 105
-    },
-    {
-     "id": 9942391476,
-     "prix": 105
-    },
-    {
-     "id": 10740493855,
-     "prix": 100
-    },
-    {
-     "id": 10486629630,
-     "prix": 95
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:bulova cb102 caravelle|4": {
-   "date": 1794366808090,
-   "mediane": 65,
-   "echantillon": 3,
-   "dispersion": null,
-   "fourchette": [
-    52,
-    75
-   ],
-   "exemples": [
-    {
-     "id": 10659607211,
-     "prix": 65
-    },
-    {
-     "id": 10756336052,
-     "prix": 75
-    },
-    {
-     "id": 10754427593,
-     "prix": 52
-    }
-   ],
-   "niveau": "modèle"
   },
   "modele:lip croix sud|2": {
    "date": 1794367073790,
@@ -64480,8 +64261,8 @@
    "vu": 1793633350698
   },
   "118550850": {
-   "n": 15,
-   "vu": 1793786807566
+   "n": 16,
+   "vu": 1794539661468
   },
   "118569738": {
    "n": 2,
@@ -114087,6 +113868,10 @@
    "n": 40,
    "vu": 1793958976582
   },
+  "3172161809": {
+   "n": 2,
+   "vu": 1794539147884
+  },
   "3172163201": {
    "n": 11,
    "vu": 1793633350698
@@ -114770,6 +114555,10 @@
   "3174255006": {
    "n": 2,
    "vu": 1794391511321
+  },
+  "3174255690": {
+   "n": 2,
+   "vu": 1794539789808
   },
   "3174256337": {
    "n": 9,
@@ -129210,9 +128999,9 @@
  },
  "bilan": {
   "depuis": 1794537730556,
-  "passages": 26,
-  "nouvelles": 9,
-  "marque": 6,
+  "passages": 48,
+  "nouvelles": 14,
+  "marque": 9,
   "etat": 0,
   "prix": 0,
   "accessoire": 0,
@@ -129220,8 +129009,8 @@
   "fausse": 0,
   "imitation": 0,
   "pro": 0,
-  "vendeurSpecialise": 0,
-  "sansCote": 3,
+  "vendeurSpecialise": 1,
+  "sansCote": 4,
   "chere": 0,
   "description": 0,
   "scoreFaible": 0,

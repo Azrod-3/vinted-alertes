@@ -1,17 +1,5 @@
 {
  "vues": [
-  "10779028997",
-  "10779027001",
-  "10779050751",
-  "10779048900",
-  "10779029704",
-  "10779051723",
-  "10779073732",
-  "10779063716",
-  "10779057530",
-  "10779067227",
-  "10779032544",
-  "10779079903",
   "10779093230",
   "10779092730",
   "10779094374",
@@ -3999,7 +3987,19 @@
   "10798396609",
   "10798389383",
   "10798403659",
-  "10798405279"
+  "10798405279",
+  "10798433835",
+  "10798449055",
+  "10798469564",
+  "10798463759",
+  "10798467811",
+  "10798475699",
+  "10798492789",
+  "10798487871",
+  "10798492772",
+  "10798490814",
+  "10798504453",
+  "10798515268"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -4487,9 +4487,9 @@
    "coteTropBasse": 25
   },
   "marque:chinon@3076": {
-   "date": 1794515699659,
+   "date": 1794612147417,
    "mediane": null,
-   "echantillon": 71,
+   "echantillon": 70,
    "coteTropBasse": 30
   },
   "marque:zenit@3076": {
@@ -7557,71 +7557,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:sony dsc p200 cyber|2@3075": {
-   "date": 1794438881505,
-   "mediane": 63,
-   "echantillon": 12,
-   "dispersion": 0.32,
-   "fourchette": [
-    28,
-    100
-   ],
-   "exemples": [
-    {
-     "id": 9455611964,
-     "prix": 65
-    },
-    {
-     "id": 7818573849,
-     "prix": 65
-    },
-    {
-     "id": 8536857064,
-     "prix": 60
-    },
-    {
-     "id": 10545806053,
-     "prix": 59
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:yashica camara analogica|1@3076": {
-   "date": 1794438945753,
-   "mediane": 35,
-   "echantillon": 25,
-   "dispersion": 0.71,
-   "fourchette": [
-    15,
-    100
-   ],
-   "exemples": [
-    {
-     "id": 9395659150,
-     "prix": 35
-    },
-    {
-     "id": 9043865075,
-     "prix": 35
-    },
-    {
-     "id": 6987978623,
-     "prix": 35
-    },
-    {
-     "id": 10425248061,
-     "prix": 30
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:kodak m35 reutilisable|2@3076": {
-   "date": 1794439203774,
-   "mediane": null,
-   "echantillon": 2,
-   "dispersion": null,
-   "niveau": "modèle"
   },
   "modele:canon a450 powershot|2@3075": {
    "date": 1794439780712,
@@ -36472,6 +36407,71 @@
    "echantillon": 1,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:konica kx 7 analogica|2@3076": {
+   "date": 1794612146514,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:chinon gs 7 zoom|2@3076": {
+   "date": 1794612148032,
+   "mediane": 40,
+   "echantillon": 5,
+   "dispersion": 1.25,
+   "fourchette": [
+    20,
+    80
+   ],
+   "exemples": [
+    {
+     "id": 9869395107,
+     "prix": 40
+    },
+    {
+     "id": 8697559497,
+     "prix": 20
+    },
+    {
+     "id": 5647343673,
+     "prix": 20
+    },
+    {
+     "id": 8240687677,
+     "prix": 70
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:canon maquina|1@3075": {
+   "date": 1794612401742,
+   "mediane": 165,
+   "echantillon": 44,
+   "dispersion": 0.79,
+   "fourchette": [
+    40,
+    320
+   ],
+   "exemples": [
+    {
+     "id": 10314382290,
+     "prix": 155
+    },
+    {
+     "id": 10148364135,
+     "prix": 175
+    },
+    {
+     "id": 9840412440,
+     "prix": 175
+    },
+    {
+     "id": 10588311090,
+     "prix": 150
+    }
+   ],
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -46555,6 +46555,10 @@
    "n": 2,
    "vu": 1793632600303
   },
+  "3162200015": {
+   "n": 2,
+   "vu": 1794612274500
+  },
   "3162420259": {
    "n": 8,
    "vu": 1794569390083
@@ -48650,38 +48654,27 @@
  },
  "bilan": {
   "depuis": 1794609731111,
-  "passages": 28,
-  "nouvelles": 35,
-  "marque": 6,
+  "passages": 43,
+  "nouvelles": 47,
+  "marque": 9,
   "etat": 3,
-  "prix": 4,
-  "accessoire": 1,
+  "prix": 5,
+  "accessoire": 2,
   "lot": 0,
   "fausse": 0,
   "imitation": 0,
   "pro": 0,
   "vendeurSpecialise": 1,
-  "sansCote": 14,
-  "chere": 5,
+  "sansCote": 19,
+  "chere": 6,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
-  "alertes": 1
+  "alertes": 2
  },
  "panne": null,
  "panneDebut": null,
  "suivi": [
-  {
-   "id": 10733068734,
-   "titre": "Fotocamera digitale Sony DSC h55",
-   "prix": 30,
-   "cote": 100,
-   "score": 69,
-   "lien": "https://www.vinted.fr/items/10733068734-fotocamera-digitale-sony-dsc-h55",
-   "date": 1794222421526,
-   "statut": "retiree",
-   "verifieA": 1794226029155
-  },
   {
    "id": 10733278890,
    "titre": "Fujifilm X-M1",
@@ -51968,6 +51961,16 @@
    "score": 53,
    "lien": "https://www.vinted.fr/items/10798399660-canon-s120",
    "date": 1794611258796,
+   "statut": null
+  },
+  {
+   "id": 10798515268,
+   "titre": "Máquina fotográfica",
+   "prix": 25,
+   "cote": 165,
+   "score": 69,
+   "lien": "https://www.vinted.fr/items/10798515268-maquina-fotografica",
+   "date": 1794612402477,
    "statut": null
   }
  ],

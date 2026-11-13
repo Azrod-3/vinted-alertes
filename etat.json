@@ -1,21 +1,5 @@
 {
  "vues": [
-  "10719315507",
-  "10719116388",
-  "10779037017",
-  "10779035748",
-  "10779037131",
-  "10779034997",
-  "10779031580",
-  "10779032783",
-  "10779031904",
-  "10779027068",
-  "10736695367",
-  "10779031408",
-  "10778622129",
-  "10779014603",
-  "10779045034",
-  "10779048555",
   "10779040653",
   "10779040486",
   "10779037547",
@@ -3999,7 +3983,23 @@
   "10786133515",
   "10786133318",
   "10786129088",
-  "10786139946"
+  "10786139946",
+  "10786167730",
+  "10786165804",
+  "10786162362",
+  "10786189520",
+  "10786182113",
+  "10786199365",
+  "10786199204",
+  "10786197789",
+  "10786194394",
+  "10786212271",
+  "10786204209",
+  "10786202634",
+  "10786221251",
+  "10786221007",
+  "10786218566",
+  "10786215027"
  ],
  "cotes": {
   "marque:fossil": {
@@ -5605,30 +5605,30 @@
    "coteTropBasse": 20
   },
   "modele:festina uomo|3": {
-   "date": 1794368001300,
-   "mediane": 65,
+   "date": 1794533863697,
+   "mediane": 58,
    "echantillon": 19,
-   "dispersion": 1.12,
+   "dispersion": 1.27,
    "fourchette": [
     30,
-    150
+    145
    ],
    "exemples": [
     {
-     "id": 10720848158,
-     "prix": 65
+     "id": 10715205475,
+     "prix": 55
     },
     {
-     "id": 10723064383,
-     "prix": 65
-    },
-    {
-     "id": 10702900704,
+     "id": 10271619633,
      "prix": 60
     },
     {
-     "id": 9754758987,
-     "prix": 75
+     "id": 10570711638,
+     "prix": 60
+    },
+    {
+     "id": 10778459630,
+     "prix": 50
     }
    ],
    "niveau": "modèle",
@@ -7207,322 +7207,6 @@
    ],
    "niveau": "marque",
    "lissee": true
-  },
-  "modele:ice watch enfants kids|4": {
-   "date": 1794360499872,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:fossil marrone|2": {
-   "date": 1794360589056,
-   "mediane": null,
-   "echantillon": 0,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:festina f20343 uomo|4": {
-   "date": 1794360589704,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:citizen automatico donax|1": {
-   "date": 1794360590341,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:cluse jamais portee|3": {
-   "date": 1794360591734,
-   "mediane": null,
-   "echantillon": 2,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:tudor 28600 0004 royal|2": {
-   "date": 1794360592322,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:rado marco polo|2": {
-   "date": 1794360726654,
-   "mediane": 253,
-   "echantillon": 4,
-   "dispersion": 0.22,
-   "fourchette": [
-    170,
-    860
-   ],
-   "exemples": [
-    {
-     "id": 10753944931,
-     "prix": 280
-    },
-    {
-     "id": 10453871364,
-     "prix": 225
-    },
-    {
-     "id": 8684674111,
-     "prix": 170
-    },
-    {
-     "id": 8867359770,
-     "prix": 860
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:yonger bresson city fabriquee|4": {
-   "date": 1794360728038,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:fossil grant polso|2": {
-   "date": 1794360728580,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:daniel wellington petite ashfield|1": {
-   "date": 1794360729377,
-   "mediane": 50,
-   "echantillon": 8,
-   "dispersion": 0.7,
-   "fourchette": [
-    15,
-    100
-   ],
-   "exemples": [
-    {
-     "id": 6067189478,
-     "prix": 50
-    },
-    {
-     "id": 5227645764,
-     "prix": 50
-    },
-    {
-     "id": 6986753361,
-     "prix": 35
-    },
-    {
-     "id": 7811363177,
-     "prix": 70
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:nixon chrono leather|1": {
-   "date": 1794360774553,
-   "mediane": 155,
-   "echantillon": 12,
-   "dispersion": 0.53,
-   "fourchette": [
-    59,
-    220
-   ],
-   "exemples": [
-    {
-     "id": 10753967405,
-     "prix": 160
-    },
-    {
-     "id": 7993047914,
-     "prix": 150
-    },
-    {
-     "id": 916898958,
-     "prix": 170
-    },
-    {
-     "id": 6070922270,
-     "prix": 180
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:kelton plongeuse|1": {
-   "date": 1794360775223,
-   "mediane": 59,
-   "echantillon": 12,
-   "dispersion": 0.85,
-   "fourchette": [
-    25,
-    160
-   ],
-   "exemples": [
-    {
-     "id": 10228677507,
-     "prix": 65
-    },
-    {
-     "id": 8908385153,
-     "prix": 52.5
-    },
-    {
-     "id": 10748326247,
-     "prix": 45
-    },
-    {
-     "id": 8268964489,
-     "prix": 35
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:yema sous marine|1": {
-   "date": 1794360819340,
-   "mediane": 180,
-   "echantillon": 79,
-   "dispersion": 0.94,
-   "fourchette": [
-    50,
-    600
-   ],
-   "exemples": [
-    {
-     "id": 10531880749,
-     "prix": 180
-    },
-    {
-     "id": 10690995234,
-     "prix": 180
-    },
-    {
-     "id": 10045136707,
-     "prix": 180
-    },
-    {
-     "id": 10098870826,
-     "prix": 180
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:vostok carica manuale|2": {
-   "date": 1794360907343,
-   "mediane": 65,
-   "echantillon": 16,
-   "dispersion": 0.46,
-   "fourchette": [
-    50,
-    130
-   ],
-   "exemples": [
-    {
-     "id": 10344355492,
-     "prix": 65
-    },
-    {
-     "id": 9578575046,
-     "prix": 65
-    },
-    {
-     "id": 10724926658,
-     "prix": 60
-    },
-    {
-     "id": 10622725153,
-     "prix": 60
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:waltham jewels style|2": {
-   "date": 1794360951400,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:hanhart chronometre|2": {
-   "date": 1794361084596,
-   "mediane": 80,
-   "echantillon": 25,
-   "dispersion": 0.63,
-   "fourchette": [
-    25,
-    220
-   ],
-   "exemples": [
-    {
-     "id": 9332687186,
-     "prix": 80
-    },
-    {
-     "id": 7567219607,
-     "prix": 80
-    },
-    {
-     "id": 10179025869,
-     "prix": 90
-    },
-    {
-     "id": 9363325799,
-     "prix": 90
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:nixon the beacon|2": {
-   "date": 1794361128685,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:lotus acero|2": {
-   "date": 1794361129525,
-   "mediane": 30,
-   "echantillon": 27,
-   "dispersion": 0.67,
-   "fourchette": [
-    10,
-    60
-   ],
-   "exemples": [
-    {
-     "id": 10642639493,
-     "prix": 30
-    },
-    {
-     "id": 9667943462,
-     "prix": 30
-    },
-    {
-     "id": 10690325401,
-     "prix": 32
-    },
-    {
-     "id": 10334518224,
-     "prix": 27
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:fossil herrenuhr verpackt|1": {
-   "date": 1794361273117,
-   "mediane": null,
-   "echantillon": 2,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:breil ew0124 tribe|4": {
-   "date": 1794361404820,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
   },
   "modele:fossil cronografo neutra|3": {
    "date": 1794361493102,
@@ -33253,6 +32937,42 @@
    "echantillon": 1,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "marque:nordgreen": {
+   "date": 1794534120980,
+   "mediane": 100,
+   "echantillon": 67,
+   "dispersion": 0.65,
+   "fourchette": [
+    28,
+    220
+   ],
+   "exemples": [
+    {
+     "id": 9810362930,
+     "prix": 100
+    },
+    {
+     "id": 10426255511,
+     "prix": 100
+    },
+    {
+     "id": 10008788984,
+     "prix": 95
+    },
+    {
+     "id": 10543752925,
+     "prix": 95
+    }
+   ],
+   "niveau": "marque"
+  },
+  "modele:nordgreen succession|2": {
+   "date": 1794534121446,
+   "mediane": null,
+   "echantillon": 2,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -52719,6 +52439,10 @@
   "59724086": {
    "n": 6,
    "vu": 1793633350698
+  },
+  "59724246": {
+   "n": 2,
+   "vu": 1794533862988
   },
   "59725747": {
    "n": 15,
@@ -74233,8 +73957,8 @@
    "vu": 1793633350698
   },
   "162825065": {
-   "n": 2,
-   "vu": 1794137453947
+   "n": 3,
+   "vu": 1794534120279
   },
   "162828905": {
    "n": 5,
@@ -88809,8 +88533,8 @@
    "vu": 1793788249915
   },
   "252706325": {
-   "n": 2,
-   "vu": 1794532832103
+   "n": 3,
+   "vu": 1794533478676
   },
   "252707339": {
    "n": 2,
@@ -89733,8 +89457,8 @@
    "vu": 1793633350698
   },
   "255937973": {
-   "n": 11,
-   "vu": 1794285733193
+   "n": 13,
+   "vu": 1794533991938
   },
   "255981765": {
    "n": 6,
@@ -129020,6 +128744,10 @@
    "n": 47,
    "vu": 1794223544920
   },
+  "3205841336": {
+   "n": 4,
+   "vu": 1794534120279
+  },
   "3205934468": {
    "n": 2,
    "vu": 1793819476549
@@ -131446,24 +131174,24 @@
   }
  },
  "bilan": {
-  "depuis": 1794530510374,
-  "passages": 64,
-  "nouvelles": 44,
-  "marque": 35,
+  "depuis": 1794534121447,
+  "passages": 2,
+  "nouvelles": 0,
+  "marque": 0,
   "etat": 0,
-  "prix": 2,
-  "accessoire": 1,
+  "prix": 0,
+  "accessoire": 0,
   "lot": 0,
   "fausse": 0,
   "imitation": 0,
   "pro": 0,
-  "vendeurSpecialise": 2,
-  "sansCote": 1,
-  "chere": 1,
+  "vendeurSpecialise": 0,
+  "sansCote": 0,
+  "chere": 0,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
-  "alertes": 2
+  "alertes": 0
  },
  "panne": null,
  "panneDebut": null,

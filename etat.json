@@ -1,28 +1,5 @@
 {
  "vues": [
-  "10778915805",
-  "10778898242",
-  "10778932744",
-  "10778926418",
-  "10778928851",
-  "10778923049",
-  "10778943977",
-  "10778942437",
-  "10764366830",
-  "10761962371",
-  "10778937263",
-  "10778935736",
-  "10778934840",
-  "10778935553",
-  "10778935781",
-  "10778897107",
-  "10778955057",
-  "10778954773",
-  "10778951149",
-  "10778949975",
-  "10778949647",
-  "10778950256",
-  "10778949522",
   "10778946332",
   "10778945857",
   "10778958431",
@@ -3999,7 +3976,30 @@
   "10785740477",
   "10785740591",
   "10785740822",
-  "10785739864"
+  "10785739864",
+  "10785762941",
+  "10785762294",
+  "10785758965",
+  "10785759383",
+  "10785759345",
+  "10785771642",
+  "10785768776",
+  "10785762430",
+  "10785786594",
+  "10785782243",
+  "10785781870",
+  "10785779684",
+  "10785777896",
+  "10785775346",
+  "10785797215",
+  "10785796466",
+  "10785799620",
+  "10785799318",
+  "10785798581",
+  "10785795467",
+  "10785815586",
+  "10785825950",
+  "10785822751"
  ],
  "cotes": {
   "marque:fossil": {
@@ -4069,30 +4069,30 @@
    "lissee": true
   },
   "marque:omega": {
-   "date": 1794433722022,
-   "mediane": 302,
-   "echantillon": 71,
-   "dispersion": 0.92,
+   "date": 1794529083932,
+   "mediane": 266,
+   "echantillon": 58,
+   "dispersion": 0.64,
    "fourchette": [
-    110,
-    1000
+    120,
+    715
    ],
    "exemples": [
     {
-     "id": 10763339795,
-     "prix": 310
+     "id": 10782507310,
+     "prix": 250
     },
     {
-     "id": 10771102432,
-     "prix": 300
+     "id": 9602363362,
+     "prix": 250
     },
     {
-     "id": 10741440902,
-     "prix": 320
+     "id": 10687864893,
+     "prix": 250
     },
     {
-     "id": 10598215438,
-     "prix": 324.99
+     "id": 7423117429,
+     "prix": 250
     }
    ],
    "niveau": "marque",
@@ -6001,12 +6001,6 @@
    "niveau": "modèle",
    "lissee": true
   },
-  "marque:potens": {
-   "date": 1794355946781,
-   "mediane": null,
-   "echantillon": 67,
-   "coteTropBasse": 30
-  },
   "modele:festina chronograph|1": {
    "date": 1794414534528,
    "mediane": 112,
@@ -6372,13 +6366,6 @@
    ],
    "niveau": "marque",
    "lissee": true
-  },
-  "modele:frederique constant suisse colas|3": {
-   "date": 1794355958744,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
   },
   "marque:alpina": {
    "date": 1794409732855,
@@ -7160,765 +7147,6 @@
    ],
    "niveau": "marque",
    "lissee": true
-  },
-  "modele:festina f6698 4|3": {
-   "date": 1794356008200,
-   "mediane": 50,
-   "echantillon": 3,
-   "dispersion": null,
-   "fourchette": [
-    40,
-    60
-   ],
-   "exemples": [
-    {
-     "id": 10752201549,
-     "prix": 50
-    },
-    {
-     "id": 10279082126,
-     "prix": 40
-    },
-    {
-     "id": 2128909075,
-     "prix": 60
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:bulova sisley|1": {
-   "date": 1794355962728,
-   "mediane": 53,
-   "echantillon": 5,
-   "dispersion": 1.23,
-   "fourchette": [
-    20,
-    120
-   ],
-   "exemples": [
-    {
-     "id": 10480800198,
-     "prix": 53
-    },
-    {
-     "id": 10227421505,
-     "prix": 25
-    },
-    {
-     "id": 5905534594,
-     "prix": 20
-    },
-    {
-     "id": 10404120353,
-     "prix": 90
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:certina uomo swiss|2": {
-   "date": 1794355963928,
-   "mediane": null,
-   "echantillon": 2,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:fossil mens|1": {
-   "date": 1794355963302,
-   "mediane": 40,
-   "echantillon": 18,
-   "dispersion": 1.08,
-   "fourchette": [
-    15,
-    90
-   ],
-   "exemples": [
-    {
-     "id": 2541824610,
-     "prix": 40
-    },
-    {
-     "id": 8245587185,
-     "prix": 40
-    },
-    {
-     "id": 5335877776,
-     "prix": 40
-    },
-    {
-     "id": 9510020757,
-     "prix": 32
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:hamilton tank|2": {
-   "date": 1794355959341,
-   "mediane": 228,
-   "echantillon": 6,
-   "dispersion": 0.36,
-   "fourchette": [
-    150,
-    350
-   ],
-   "exemples": [
-    {
-     "id": 10542408359,
-     "prix": 255
-    },
-    {
-     "id": 10733288614,
-     "prix": 200
-    },
-    {
-     "id": 10100153912,
-     "prix": 260
-    },
-    {
-     "id": 9897656262,
-     "prix": 178.99
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:festina uomo quadrante|4": {
-   "date": 1794355960777,
-   "mediane": null,
-   "echantillon": 2,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:swiss military hanowa 7767 1134 alpine|4": {
-   "date": 1794355956178,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:fossil fs4813 chronographe|1": {
-   "date": 1794355954706,
-   "mediane": 45,
-   "echantillon": 3,
-   "dispersion": null,
-   "fourchette": [
-    20,
-    45
-   ],
-   "exemples": [
-    {
-     "id": 8907681804,
-     "prix": 45
-    },
-    {
-     "id": 9023166314,
-     "prix": 45
-    },
-    {
-     "id": 10752331185,
-     "prix": 20
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:festina 16162 chrono|2": {
-   "date": 1794355955783,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:locman mare marina|2": {
-   "date": 1794355954052,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:lip general gaulle|1": {
-   "date": 1794355949249,
-   "mediane": 265,
-   "echantillon": 13,
-   "dispersion": 0.43,
-   "fourchette": [
-    100,
-    400
-   ],
-   "exemples": [
-    {
-     "id": 10408049319,
-     "prix": 265
-    },
-    {
-     "id": 8005829430,
-     "prix": 290
-    },
-    {
-     "id": 10700544935,
-     "prix": 300
-    },
-    {
-     "id": 6747964008,
-     "prix": 300
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:festina tour france|2": {
-   "date": 1794355952984,
-   "mediane": 123,
-   "echantillon": 48,
-   "dispersion": 0.29,
-   "fourchette": [
-    37,
-    190
-   ],
-   "exemples": [
-    {
-     "id": 10087867336,
-     "prix": 125
-    },
-    {
-     "id": 8020472770,
-     "prix": 125
-    },
-    {
-     "id": 10304126149,
-     "prix": 120
-    },
-    {
-     "id": 10607573470,
-     "prix": 120
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:orient antiguo pulsera|1": {
-   "date": 1794355951466,
-   "mediane": null,
-   "echantillon": 2,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:baltic hermetic|3": {
-   "date": 1794355950878,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:fossil fs5263|1": {
-   "date": 1794355962020,
-   "mediane": 45,
-   "echantillon": 3,
-   "dispersion": null,
-   "fourchette": [
-    20,
-    60
-   ],
-   "exemples": [
-    {
-     "id": 10752249634,
-     "prix": 45
-    },
-    {
-     "id": 1088358708,
-     "prix": 60
-    },
-    {
-     "id": 9788485596,
-     "prix": 20
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:invicta mens wristwatch|2": {
-   "date": 1794355946024,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:festina perfette condizioni|4": {
-   "date": 1794355961411,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:potens eta mov|2": {
-   "date": 1794355947232,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:junkers tempelhof gmt|2": {
-   "date": 1794355948648,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:caravelle by bulova uomo|3": {
-   "date": 1794355957043,
-   "mediane": 40,
-   "echantillon": 3,
-   "dispersion": null,
-   "fourchette": [
-    30,
-    45
-   ],
-   "exemples": [
-    {
-     "id": 9560107798,
-     "prix": 40
-    },
-    {
-     "id": 10036286651,
-     "prix": 45
-    },
-    {
-     "id": 10752303141,
-     "prix": 30
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "marque:doxa": {
-   "date": 1794355945571,
-   "mediane": 160,
-   "echantillon": 60,
-   "dispersion": 0.38,
-   "fourchette": [
-    100,
-    275
-   ],
-   "exemples": [
-    {
-     "id": 10676237587,
-     "prix": 160
-    },
-    {
-     "id": 8000731499,
-     "prix": 160
-    },
-    {
-     "id": 10296275274,
-     "prix": 160
-    },
-    {
-     "id": 6548849940,
-     "prix": 160
-    }
-   ],
-   "niveau": "marque"
-  },
-  "modele:eterna suisse matic|1": {
-   "date": 1794355957555,
-   "mediane": 295,
-   "echantillon": 5,
-   "dispersion": 0.67,
-   "fourchette": [
-    80,
-    589
-   ],
-   "exemples": [
-    {
-     "id": 7725626958,
-     "prix": 295
-    },
-    {
-     "id": 7983546683,
-     "prix": 349
-    },
-    {
-     "id": 10752311714,
-     "prix": 150
-    },
-    {
-     "id": 8857028536,
-     "prix": 80
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:tissot fascination tank|2": {
-   "date": 1794356008712,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:festina chronograph blau|2": {
-   "date": 1794356053420,
-   "mediane": 80,
-   "echantillon": 17,
-   "dispersion": 0.55,
-   "fourchette": [
-    20,
-    160
-   ],
-   "exemples": [
-    {
-     "id": 9331836717,
-     "prix": 80
-    },
-    {
-     "id": 9093718865,
-     "prix": 79.99
-    },
-    {
-     "id": 9985435862,
-     "prix": 79
-    },
-    {
-     "id": 9726355899,
-     "prix": 75
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:lotus 10120 chronograph|2": {
-   "date": 1794356141846,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:vagary uomo sportivo|2": {
-   "date": 1794356185392,
-   "mediane": 37,
-   "echantillon": 4,
-   "dispersion": 0.11,
-   "fourchette": [
-    29.99,
-    59
-   ],
-   "exemples": [
-    {
-     "id": 10752378891,
-     "prix": 35
-    },
-    {
-     "id": 6962150787,
-     "prix": 39
-    },
-    {
-     "id": 10655172956,
-     "prix": 29.99
-    },
-    {
-     "id": 9317294606,
-     "prix": 59
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:junghans sammler stoppuhr|1": {
-   "date": 1794356229107,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:festina sport|2": {
-   "date": 1794356315750,
-   "mediane": 50,
-   "echantillon": 49,
-   "dispersion": 0.8,
-   "fourchette": [
-    13,
-    100
-   ],
-   "exemples": [
-    {
-     "id": 9785317053,
-     "prix": 50
-    },
-    {
-     "id": 10698688933,
-     "prix": 50
-    },
-    {
-     "id": 10641866635,
-     "prix": 49.99
-    },
-    {
-     "id": 9765743696,
-     "prix": 45
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:calypso relogio|2": {
-   "date": 1794356316403,
-   "mediane": 15,
-   "echantillon": 53,
-   "dispersion": 0.73,
-   "fourchette": [
-    5,
-    40
-   ],
-   "exemples": [
-    {
-     "id": 5915524824,
-     "prix": 15
-    },
-    {
-     "id": 10335781583,
-     "prix": 15
-    },
-    {
-     "id": 7712817254,
-     "prix": 15
-    },
-    {
-     "id": 7423088473,
-     "prix": 15
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:lip mixte cadran|3": {
-   "date": 1794356316995,
-   "mediane": 30,
-   "echantillon": 4,
-   "dispersion": 0.03,
-   "fourchette": [
-    28,
-    55
-   ],
-   "exemples": [
-    {
-     "id": 10752574496,
-     "prix": 30
-    },
-    {
-     "id": 10654246793,
-     "prix": 29
-    },
-    {
-     "id": 10053805539,
-     "prix": 28
-    },
-    {
-     "id": 10713843069,
-     "prix": 55
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:daniel wellington classic cornwall|1": {
-   "date": 1794356360977,
-   "mediane": 36,
-   "echantillon": 38,
-   "dispersion": 0.99,
-   "fourchette": [
-    10,
-    100
-   ],
-   "exemples": [
-    {
-     "id": 8738930804,
-     "prix": 36
-    },
-    {
-     "id": 10110378180,
-     "prix": 35
-    },
-    {
-     "id": 3861704739,
-     "prix": 35
-    },
-    {
-     "id": 7776173310,
-     "prix": 40
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:citizen herrn armbanduhr|2": {
-   "date": 1794356361361,
-   "mediane": null,
-   "echantillon": 2,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:citizen 8210 automatico|1": {
-   "date": 1794356406018,
-   "mediane": 130,
-   "echantillon": 3,
-   "dispersion": null,
-   "fourchette": [
-    125,
-    130
-   ],
-   "exemples": [
-    {
-     "id": 9258478735,
-     "prix": 130
-    },
-    {
-     "id": 10731601279,
-     "prix": 130
-    },
-    {
-     "id": 9503838135,
-     "prix": 125
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "marque:patek philippe": {
-   "date": 1794356450372,
-   "mediane": 3600,
-   "echantillon": 15,
-   "dispersion": 1.55,
-   "fourchette": [
-    1200,
-    10590
-   ],
-   "exemples": [
-    {
-     "id": 9498554178,
-     "prix": 3600
-    },
-    {
-     "id": 10580082086,
-     "prix": 3700
-    },
-    {
-     "id": 8330824350,
-     "prix": 3150
-    },
-    {
-     "id": 10679972495,
-     "prix": 3000
-    }
-   ],
-   "niveau": "marque"
-  },
-  "modele:festina cronografo|1": {
-   "date": 1794356580063,
-   "mediane": 109,
-   "echantillon": 29,
-   "dispersion": 0.73,
-   "fourchette": [
-    35,
-    229
-   ],
-   "exemples": [
-    {
-     "id": 9732885546,
-     "prix": 109
-    },
-    {
-     "id": 9072023577,
-     "prix": 110
-    },
-    {
-     "id": 10063915405,
-     "prix": 110
-    },
-    {
-     "id": 8005085447,
-     "prix": 110
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:viceroy cronografo acero|2": {
-   "date": 1794356581213,
-   "mediane": 49,
-   "echantillon": 11,
-   "dispersion": 0.71,
-   "fourchette": [
-    19,
-    80
-   ],
-   "exemples": [
-    {
-     "id": 10727768358,
-     "prix": 49
-    },
-    {
-     "id": 10742522392,
-     "prix": 50
-    },
-    {
-     "id": 10752660223,
-     "prix": 45
-    },
-    {
-     "id": 8755106691,
-     "prix": 55
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:titan antiguo tenox|1": {
-   "date": 1794356625095,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:lip bracelet|1": {
-   "date": 1794356713300,
-   "mediane": 115,
-   "echantillon": 6,
-   "dispersion": 0.52,
-   "fourchette": [
-    39.9,
-    185
-   ],
-   "exemples": [
-    {
-     "id": 10720964375,
-     "prix": 119
-    },
-    {
-     "id": 10237043540,
-     "prix": 110
-    },
-    {
-     "id": 9905187705,
-     "prix": 110
-    },
-    {
-     "id": 10415899979,
-     "prix": 170
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:citizen 8210 automatico|2": {
-   "date": 1794356758413,
-   "mediane": 125,
-   "echantillon": 7,
-   "dispersion": 0.28,
-   "fourchette": [
-    60,
-    150
-   ],
-   "exemples": [
-    {
-     "id": 9503838135,
-     "prix": 125
-    },
-    {
-     "id": 10731601279,
-     "prix": 130
-    },
-    {
-     "id": 9258478735,
-     "prix": 130
-    },
-    {
-     "id": 9914468794,
-     "prix": 150
-    }
-   ],
-   "niveau": "modèle"
   },
   "modele:tissot desire swiss|2": {
    "date": 1794356802501,
@@ -34967,6 +34195,13 @@
    "echantillon": 1,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:citizen confezione completa|2": {
+   "date": 1794528826216,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -41399,8 +40634,8 @@
    "vu": 1794169248666
   },
   "27365827": {
-   "n": 9,
-   "vu": 1794528564644
+   "n": 10,
+   "vu": 1794528955103
   },
   "27389741": {
    "n": 2,
@@ -60746,6 +59981,10 @@
    "n": 14,
    "vu": 1793633350698
   },
+  "76197771": {
+   "n": 2,
+   "vu": 1794528955103
+  },
   "76201114": {
    "n": 21,
    "vu": 1793633350698
@@ -70647,8 +69886,8 @@
    "vu": 1793633350698
   },
   "129851862": {
-   "n": 2,
-   "vu": 1794528435826
+   "n": 4,
+   "vu": 1794529212128
   },
   "129871861": {
    "n": 15,
@@ -75593,6 +74832,10 @@
   "161011424": {
    "n": 29,
    "vu": 1794074566430
+  },
+  "161017137": {
+   "n": 2,
+   "vu": 1794529469807
   },
   "161026520": {
    "n": 2,
@@ -90883,8 +90126,8 @@
    "vu": 1793633350698
   },
   "254030262": {
-   "n": 381,
-   "vu": 1794528692836
+   "n": 385,
+   "vu": 1794529598051
   },
   "254045716": {
    "n": 2,
@@ -98431,8 +97674,8 @@
    "vu": 1793633350698
   },
   "287086521": {
-   "n": 32,
-   "vu": 1794478343904
+   "n": 33,
+   "vu": 1794528955103
   },
   "287099627": {
    "n": 7,
@@ -110451,8 +109694,8 @@
    "vu": 1793633350698
   },
   "3148577594": {
-   "n": 92,
-   "vu": 1794150787017
+   "n": 93,
+   "vu": 1794528825554
   },
   "3148612220": {
    "n": 184,
@@ -131147,8 +130390,8 @@
    "vu": 1794230464256
   },
   "3207549050": {
-   "n": 5,
-   "vu": 1794526878706
+   "n": 6,
+   "vu": 1794529469807
   },
   "3207560950": {
    "n": 11,
@@ -133117,38 +132360,27 @@
  },
  "bilan": {
   "depuis": 1794526895639,
-  "passages": 42,
-  "nouvelles": 77,
-  "marque": 62,
+  "passages": 63,
+  "nouvelles": 100,
+  "marque": 76,
   "etat": 2,
-  "prix": 2,
+  "prix": 6,
   "accessoire": 1,
   "lot": 0,
   "fausse": 0,
   "imitation": 0,
   "pro": 0,
-  "vendeurSpecialise": 2,
-  "sansCote": 2,
-  "chere": 6,
+  "vendeurSpecialise": 3,
+  "sansCote": 4,
+  "chere": 7,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
-  "alertes": 0
+  "alertes": 1
  },
  "panne": null,
  "panneDebut": null,
  "suivi": [
-  {
-   "id": 10758644675,
-   "titre": "Montre Vintage CitizenAutomatique – Made in Japan",
-   "prix": 50,
-   "cote": 163,
-   "score": 66,
-   "lien": "https://www.vinted.fr/items/10758644675-montre-vintage-citizenautomatique-made-in-japan",
-   "date": 1794386953620,
-   "statut": "en vente",
-   "verifieA": 1794390573751
-  },
   {
    "id": 10758665465,
    "titre": "Tissot Supersport Chrono",
@@ -136434,6 +135666,16 @@
    "score": 56,
    "lien": "https://www.vinted.fr/items/10785525503-lanco-automatic-incabloc",
    "date": 1794526894657,
+   "statut": null
+  },
+  {
+   "id": 10785762941,
+   "titre": "Confezione completa Citizen",
+   "prix": 30,
+   "cote": 155,
+   "score": 67,
+   "lien": "https://www.vinted.fr/items/10785762941-confezione-completa-citizen",
+   "date": 1794528826855,
    "statut": null
   }
  ],

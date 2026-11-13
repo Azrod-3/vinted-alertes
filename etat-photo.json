@@ -1,14 +1,5 @@
 {
  "vues": [
-  "10766722834",
-  "10766735380",
-  "10766731048",
-  "10766732715",
-  "10766725139",
-  "10766720402",
-  "10766749342",
-  "10766744456",
-  "10766744078",
   "10766685356",
   "10766756575",
   "10766755383",
@@ -3999,7 +3990,16 @@
   "10785884702",
   "10785892813",
   "10785908064",
-  "10785904989"
+  "10785904989",
+  "10785957863",
+  "10785952109",
+  "10785951457",
+  "10785954996",
+  "10785982362",
+  "10785968484",
+  "10785990089",
+  "10785987680",
+  "10786005397"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -4243,9 +4243,9 @@
    "coteTropBasse": 45
   },
   "marque:minolta@3076": {
-   "date": 1794433892831,
+   "date": 1794531028930,
    "mediane": null,
-   "echantillon": 81,
+   "echantillon": 79,
    "coteTropBasse": 35
   },
   "marque:yashica@3076": {
@@ -43598,6 +43598,20 @@
    "echantillon": 1,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:samsung st200f 16 1|2@3075": {
+   "date": 1794531027979,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:minolta conjunto camara|2@3076": {
+   "date": 1794531029607,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -52286,8 +52300,8 @@
    "vu": 1794515117148
   },
   "3138957823": {
-   "n": 51,
-   "vu": 1794529125742
+   "n": 52,
+   "vu": 1794531281546
   },
   "3139204198": {
    "n": 4,
@@ -53693,6 +53707,10 @@
    "n": 2,
    "vu": 1794161147797
   },
+  "3188357638": {
+   "n": 2,
+   "vu": 1794531660476
+  },
   "3188494875": {
    "n": 4,
    "vu": 1794361642358
@@ -54984,18 +55002,18 @@
  },
  "bilan": {
   "depuis": 1794529316035,
-  "passages": 23,
-  "nouvelles": 14,
-  "marque": 1,
+  "passages": 38,
+  "nouvelles": 23,
+  "marque": 4,
   "etat": 1,
   "prix": 1,
   "accessoire": 0,
   "lot": 0,
   "fausse": 0,
   "imitation": 0,
-  "pro": 0,
+  "pro": 1,
   "vendeurSpecialise": 1,
-  "sansCote": 8,
+  "sansCote": 13,
   "chere": 2,
   "description": 0,
   "scoreFaible": 0,

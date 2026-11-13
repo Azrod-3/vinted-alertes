@@ -1,6 +1,5 @@
 {
  "vues": [
-  "10766883237",
   "10766882899",
   "10766884803",
   "10766886376",
@@ -3999,7 +3998,8 @@
   "10786659343",
   "10786796278",
   "10786818596",
-  "10786844778"
+  "10786844778",
+  "10786898480"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -6562,42 +6562,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:pentax 1000|1@3075": {
-   "date": 1794370478809,
-   "mediane": 82,
-   "echantillon": 10,
-   "dispersion": 1.59,
-   "fourchette": [
-    38,
-    185
-   ],
-   "exemples": [
-    {
-     "id": 10446732048,
-     "prix": 69
-    },
-    {
-     "id": 8540153352,
-     "prix": 95
-    },
-    {
-     "id": 7490459717,
-     "prix": 55
-    },
-    {
-     "id": 8802542332,
-     "prix": 50
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:kodak 202 110er|2@3076": {
-   "date": 1794370670899,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
   },
   "modele:fujifilm s3400 28x|2@3075": {
    "date": 1794372261562,
@@ -50722,20 +50686,20 @@
   }
  },
  "bilan": {
-  "depuis": 1794536555368,
-  "passages": 104,
-  "nouvelles": 14,
+  "depuis": 1794543768208,
+  "passages": 5,
+  "nouvelles": 1,
   "marque": 1,
   "etat": 0,
   "prix": 0,
   "accessoire": 0,
-  "lot": 1,
+  "lot": 0,
   "fausse": 0,
   "imitation": 0,
-  "pro": 2,
+  "pro": 0,
   "vendeurSpecialise": 0,
-  "sansCote": 7,
-  "chere": 3,
+  "sansCote": 0,
+  "chere": 0,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,

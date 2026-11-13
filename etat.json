@@ -1,14 +1,5 @@
 {
  "vues": [
-  "10779040653",
-  "10779040486",
-  "10779037547",
-  "10779044608",
-  "10779039423",
-  "10779040787",
-  "10779040848",
-  "10779034434",
-  "10779061694",
   "10779062696",
   "10779061014",
   "10779055086",
@@ -3999,7 +3990,16 @@
   "10786221251",
   "10786221007",
   "10786218566",
-  "10786215027"
+  "10786215027",
+  "10786235289",
+  "10786242608",
+  "10786234529",
+  "10786267520",
+  "10786259382",
+  "10786276782",
+  "10786288962",
+  "10786286344",
+  "10786279465"
  ],
  "cotes": {
   "marque:fossil": {
@@ -7208,49 +7208,6 @@
    "niveau": "marque",
    "lissee": true
   },
-  "modele:fossil cronografo neutra|3": {
-   "date": 1794361493102,
-   "mediane": 80,
-   "echantillon": 11,
-   "dispersion": 0.31,
-   "fourchette": [
-    25,
-    139
-   ],
-   "exemples": [
-    {
-     "id": 10058920328,
-     "prix": 80
-    },
-    {
-     "id": 10754035613,
-     "prix": 80
-    },
-    {
-     "id": 6014973298,
-     "prix": 80
-    },
-    {
-     "id": 3445629492,
-     "prix": 90
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:citizen nj0150 81a tsuyosa|2": {
-   "date": 1794361627304,
-   "mediane": null,
-   "echantillon": 2,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:breil perpetual calender|1": {
-   "date": 1794361627890,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
   "marque:mondaine": {
    "date": 1794466902200,
    "mediane": 144,
@@ -7280,242 +7237,6 @@
    ],
    "niveau": "marque",
    "lissee": true
-  },
-  "modele:mondaine evo2 mondain|2": {
-   "date": 1794361629382,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:festina uomo mai|4": {
-   "date": 1794361673766,
-   "mediane": null,
-   "echantillon": 2,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:sekonda carica manuale|2": {
-   "date": 1794361718142,
-   "mediane": null,
-   "echantillon": 2,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:breil ew0380 uomo|2": {
-   "date": 1794361806304,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:citizen 6101 day|1": {
-   "date": 1794361806841,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:hamilton watch binlihuan uomo|4": {
-   "date": 1794361851018,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:breil tw0979|2": {
-   "date": 1794361939800,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:longines grandes classiques|2": {
-   "date": 1794361940665,
-   "mediane": 260,
-   "echantillon": 17,
-   "dispersion": 0.23,
-   "fourchette": [
-    135,
-    420
-   ],
-   "exemples": [
-    {
-     "id": 9637972340,
-     "prix": 260
-    },
-    {
-     "id": 10689586642,
-     "prix": 250
-    },
-    {
-     "id": 10454264939,
-     "prix": 250
-    },
-    {
-     "id": 10727323813,
-     "prix": 249
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:citizen super titanium|1": {
-   "date": 1794362028641,
-   "mediane": 215,
-   "echantillon": 42,
-   "dispersion": 0.69,
-   "fourchette": [
-    70,
-    500
-   ],
-   "exemples": [
-    {
-     "id": 10687009638,
-     "prix": 230
-    },
-    {
-     "id": 10481245820,
-     "prix": 200
-    },
-    {
-     "id": 10194143182,
-     "prix": 200
-    },
-    {
-     "id": 10276178539,
-     "prix": 230
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:lorus armbanduhr fur|1": {
-   "date": 1794362029861,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:breil cronografo brail|2": {
-   "date": 1794362161607,
-   "mediane": 40,
-   "echantillon": 12,
-   "dispersion": 0.8,
-   "fourchette": [
-    15,
-    100
-   ],
-   "exemples": [
-    {
-     "id": 10679438760,
-     "prix": 40
-    },
-    {
-     "id": 894321939,
-     "prix": 40
-    },
-    {
-     "id": 4106239225,
-     "prix": 40
-    },
-    {
-     "id": 8312416732,
-     "prix": 38
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:venezianico redentore bronzo|3": {
-   "date": 1794362162136,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:junghans tasca meccanici|2": {
-   "date": 1794362162923,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:daniel wellington classic canterbury|2": {
-   "date": 1794362164248,
-   "mediane": 40,
-   "echantillon": 27,
-   "dispersion": 0.88,
-   "fourchette": [
-    20,
-    95
-   ],
-   "exemples": [
-    {
-     "id": 5055877277,
-     "prix": 40
-    },
-    {
-     "id": 10754331568,
-     "prix": 35
-    },
-    {
-     "id": 10556754027,
-     "prix": 35
-    },
-    {
-     "id": 10426975173,
-     "prix": 35
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:festina 8894 chronographe|1": {
-   "date": 1794362209523,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:lip gaulle|4": {
-   "date": 1794362253656,
-   "mediane": 339,
-   "echantillon": 5,
-   "dispersion": 0.1,
-   "fourchette": [
-    320,
-    400
-   ],
-   "exemples": [
-    {
-     "id": 7330290034,
-     "prix": 339
-    },
-    {
-     "id": 9259706759,
-     "prix": 325
-    },
-    {
-     "id": 9627756682,
-     "prix": 320
-    },
-    {
-     "id": 6542318604,
-     "prix": 360
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:daniel wellington die|2": {
-   "date": 1794362255136,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:citizen 61 0933 automatic|1": {
-   "date": 1794362255738,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
   },
   "modele:citizen ecodrive titanio|2": {
    "date": 1794362344363,
@@ -32973,6 +32694,42 @@
    "echantillon": 2,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:tissot caixa relogio|2": {
+   "date": 1794534381017,
+   "mediane": 25,
+   "echantillon": 4,
+   "dispersion": 0.04,
+   "fourchette": [
+    10,
+    25
+   ],
+   "exemples": [
+    {
+     "id": 10668635436,
+     "prix": 25
+    },
+    {
+     "id": 10500129704,
+     "prix": 25
+    },
+    {
+     "id": 10667217476,
+     "prix": 24
+    },
+    {
+     "id": 10786242608,
+     "prix": 10
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:kienzle aviator fliegeruhr|3": {
+   "date": 1794534896515,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -51181,8 +50938,8 @@
    "vu": 1793633350698
   },
   "56459794": {
-   "n": 17,
-   "vu": 1794369418906
+   "n": 18,
+   "vu": 1794534767618
   },
   "56468703": {
    "n": 3,
@@ -76357,8 +76114,8 @@
    "vu": 1794049059341
   },
   "176668121": {
-   "n": 3,
-   "vu": 1794519437010
+   "n": 5,
+   "vu": 1794534895964
   },
   "176695719": {
    "n": 9,
@@ -128745,8 +128502,8 @@
    "vu": 1794223544920
   },
   "3205841336": {
-   "n": 4,
-   "vu": 1794534120279
+   "n": 7,
+   "vu": 1794534895964
   },
   "3205934468": {
    "n": 2,
@@ -131175,9 +130932,9 @@
  },
  "bilan": {
   "depuis": 1794534121447,
-  "passages": 2,
-  "nouvelles": 0,
-  "marque": 0,
+  "passages": 23,
+  "nouvelles": 9,
+  "marque": 6,
   "etat": 0,
   "prix": 0,
   "accessoire": 0,
@@ -131185,9 +130942,9 @@
   "fausse": 0,
   "imitation": 0,
   "pro": 0,
-  "vendeurSpecialise": 0,
-  "sansCote": 0,
-  "chere": 0,
+  "vendeurSpecialise": 1,
+  "sansCote": 1,
+  "chere": 1,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,

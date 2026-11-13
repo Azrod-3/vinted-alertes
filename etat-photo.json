@@ -1,9 +1,5 @@
 {
  "vues": [
-  "10766906751",
-  "10766913486",
-  "10762742002",
-  "10766911290",
   "10766910479",
   "10766931957",
   "10766922149",
@@ -3999,7 +3995,11 @@
   "10787005120",
   "10787011179",
   "10787023256",
-  "10787022416"
+  "10787022416",
+  "10787030495",
+  "10787032700",
+  "10787048017",
+  "10787051631"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -6562,49 +6562,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:praktica 280 ltl|1@3076": {
-   "date": 1794374170631,
-   "mediane": null,
-   "echantillon": 0,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:yashica camara yasjika|2@3076": {
-   "date": 1794374615911,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:fujifilm macchinetta|1@3075": {
-   "date": 1794374743490,
-   "mediane": 60,
-   "echantillon": 16,
-   "dispersion": 0.83,
-   "fourchette": [
-    16,
-    110
-   ],
-   "exemples": [
-    {
-     "id": 8895077653,
-     "prix": 60
-    },
-    {
-     "id": 6019999153,
-     "prix": 60
-    },
-    {
-     "id": 10757696483,
-     "prix": 55
-    },
-    {
-     "id": 10121557644,
-     "prix": 70
-    }
-   ],
-   "niveau": "modèle"
   },
   "modele:panasonic dmc lz2 dmc|2@3075": {
    "date": 1794375126932,
@@ -39299,6 +39256,35 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "modele:kodak analogica|2@3076": {
+   "date": 1794547436507,
+   "mediane": 25,
+   "echantillon": 22,
+   "dispersion": 0.92,
+   "fourchette": [
+    9,
+    79.9
+   ],
+   "exemples": [
+    {
+     "id": 10648173876,
+     "prix": 25
+    },
+    {
+     "id": 10468450881,
+     "prix": 25
+    },
+    {
+     "id": 10661764820,
+     "prix": 25
+    },
+    {
+     "id": 10475648420,
+     "prix": 27
+    }
+   ],
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -43346,6 +43332,10 @@
    "n": 2,
    "vu": 1793972436653
   },
+  "95100560": {
+   "n": 2,
+   "vu": 1794546916156
+  },
   "95408672": {
    "n": 3,
    "vu": 1793705164189
@@ -47017,6 +47007,10 @@
   "288250820": {
    "n": 9,
    "vu": 1794531787994
+  },
+  "288325221": {
+   "n": 2,
+   "vu": 1794547372406
   },
   "288356247": {
    "n": 2,
@@ -50709,11 +50703,11 @@
  },
  "bilan": {
   "depuis": 1794544946658,
-  "passages": 30,
-  "nouvelles": 5,
-  "marque": 1,
+  "passages": 45,
+  "nouvelles": 9,
+  "marque": 3,
   "etat": 0,
-  "prix": 0,
+  "prix": 1,
   "accessoire": 1,
   "lot": 0,
   "fausse": 0,
@@ -50721,7 +50715,7 @@
   "pro": 0,
   "vendeurSpecialise": 0,
   "sansCote": 1,
-  "chere": 2,
+  "chere": 3,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,

@@ -1,16 +1,5 @@
 {
  "vues": [
-  "10779028020",
-  "10779025224",
-  "10779000554",
-  "10779026575",
-  "10779025007",
-  "10779022447",
-  "10718763793",
-  "10718873715",
-  "10719002103",
-  "10718862855",
-  "10719083561",
   "10719315507",
   "10719116388",
   "10779037017",
@@ -3999,7 +3988,18 @@
   "10786041863",
   "10786056173",
   "10786051351",
-  "10785538586"
+  "10785538586",
+  "10786074639",
+  "10786089398",
+  "10786100877",
+  "10786095022",
+  "10786110606",
+  "10786106495",
+  "10786114922",
+  "10786133515",
+  "10786133318",
+  "10786129088",
+  "10786139946"
  ],
  "cotes": {
   "marque:fossil": {
@@ -5029,30 +5029,30 @@
    "lissee": true
   },
   "marque:baume mercier": {
-   "date": 1794438835500,
-   "mediane": 311,
-   "echantillon": 82,
-   "dispersion": 1.03,
+   "date": 1794532832835,
+   "mediane": 288,
+   "echantillon": 74,
+   "dispersion": 0.92,
    "fourchette": [
-    105,
-    950
+    100,
+    850
    ],
    "exemples": [
     {
-     "id": 10680182495,
-     "prix": 300
+     "id": 10566039909,
+     "prix": 280
     },
     {
-     "id": 10566081832,
-     "prix": 300
+     "id": 10532509397,
+     "prix": 280
     },
     {
-     "id": 9923556150,
-     "prix": 300
+     "id": 8280491295,
+     "prix": 280
     },
     {
-     "id": 10767790918,
-     "prix": 299
+     "id": 10584799613,
+     "prix": 280
     }
    ],
    "niveau": "marque",
@@ -7178,114 +7178,6 @@
    "niveau": "marque",
    "lissee": true
   },
-  "modele:viceroy clasico esfera|2": {
-   "date": 1794359554478,
-   "mediane": 17,
-   "echantillon": 4,
-   "dispersion": 0.12,
-   "fourchette": [
-    15,
-    32
-   ],
-   "exemples": [
-    {
-     "id": 10753409045,
-     "prix": 16
-    },
-    {
-     "id": 10734470865,
-     "prix": 18
-    },
-    {
-     "id": 9792303694,
-     "prix": 15
-    },
-    {
-     "id": 8927693056,
-     "prix": 32
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:breil grigio|4": {
-   "date": 1794359599056,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:nixon the run|1": {
-   "date": 1794359599678,
-   "mediane": 34,
-   "echantillon": 8,
-   "dispersion": 0.15,
-   "fourchette": [
-    18,
-    40
-   ],
-   "exemples": [
-    {
-     "id": 10439512078,
-     "prix": 35
-    },
-    {
-     "id": 7439805294,
-     "prix": 33
-    },
-    {
-     "id": 7258760836,
-     "prix": 35
-    },
-    {
-     "id": 9528585448,
-     "prix": 30
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:citizen uomo argentato|1": {
-   "date": 1794359645505,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:invicta heren horloge|2": {
-   "date": 1794359646874,
-   "mediane": 140,
-   "echantillon": 7,
-   "dispersion": 0.89,
-   "fourchette": [
-    38,
-    375
-   ],
-   "exemples": [
-    {
-     "id": 5334454414,
-     "prix": 140
-    },
-    {
-     "id": 9811724095,
-     "prix": 150
-    },
-    {
-     "id": 8574346226,
-     "prix": 175
-    },
-    {
-     "id": 10753482889,
-     "prix": 50
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:ricoh riquartz dualtime|1": {
-   "date": 1794359648067,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
   "marque:venezianico": {
    "date": 1794467901363,
    "mediane": 565,
@@ -7315,256 +7207,6 @@
    ],
    "niveau": "marque",
    "lissee": true
-  },
-  "marque:meistersinger": {
-   "date": 1794359696766,
-   "mediane": 1000,
-   "echantillon": 36,
-   "dispersion": 0.52,
-   "fourchette": [
-    650,
-    2000
-   ],
-   "exemples": [
-    {
-     "id": 2901021607,
-     "prix": 1000
-    },
-    {
-     "id": 2440507838,
-     "prix": 1000
-    },
-    {
-     "id": 3639900378,
-     "prix": 1000
-    },
-    {
-     "id": 7497464087,
-     "prix": 1000
-    }
-   ],
-   "niveau": "marque"
-  },
-  "modele:pierre lannier vends taille|2": {
-   "date": 1794359698126,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:zeppelin 100 jahre|2": {
-   "date": 1794359785823,
-   "mediane": 195,
-   "echantillon": 16,
-   "dispersion": 0.38,
-   "fourchette": [
-    120,
-    330
-   ],
-   "exemples": [
-    {
-     "id": 10043752826,
-     "prix": 190
-    },
-    {
-     "id": 10639001890,
-     "prix": 200
-    },
-    {
-     "id": 10002403055,
-     "prix": 200
-    },
-    {
-     "id": 10747824133,
-     "prix": 185
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:locman italy ref 254 ref|3": {
-   "date": 1794359829895,
-   "mediane": null,
-   "echantillon": 2,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:molnija tasca modello|3": {
-   "date": 1794359874966,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "marque:alba": {
-   "date": 1794359876410,
-   "mediane": null,
-   "echantillon": 41,
-   "coteTropBasse": 45
-  },
-  "modele:alba polso success|2": {
-   "date": 1794359876961,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:ice watch nino|3": {
-   "date": 1794359921196,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:nixon relogio base|4": {
-   "date": 1794359921805,
-   "mediane": null,
-   "echantillon": 2,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:ice watch schwarz|1": {
-   "date": 1794359967163,
-   "mediane": 10,
-   "echantillon": 18,
-   "dispersion": 0.7,
-   "fourchette": [
-    3,
-    22
-   ],
-   "exemples": [
-    {
-     "id": 10607670241,
-     "prix": 10
-    },
-    {
-     "id": 8324604539,
-     "prix": 10
-    },
-    {
-     "id": 8778354218,
-     "prix": 8
-    },
-    {
-     "id": 10695496598,
-     "prix": 12
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:invicta grand diver|4": {
-   "date": 1794360011687,
-   "mediane": 130,
-   "echantillon": 16,
-   "dispersion": 0.38,
-   "fourchette": [
-    99,
-    250
-   ],
-   "exemples": [
-    {
-     "id": 10346939232,
-     "prix": 130
-    },
-    {
-     "id": 10077230651,
-     "prix": 130
-    },
-    {
-     "id": 9728303719,
-     "prix": 120
-    },
-    {
-     "id": 1174962940,
-     "prix": 140
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:hip hop polso|2": {
-   "date": 1794360013425,
-   "mediane": 9,
-   "echantillon": 24,
-   "dispersion": 0.53,
-   "fourchette": [
-    4,
-    15
-   ],
-   "exemples": [
-    {
-     "id": 5299036195,
-     "prix": 9
-    },
-    {
-     "id": 10698821597,
-     "prix": 9.99
-    },
-    {
-     "id": 10667648405,
-     "prix": 10
-    },
-    {
-     "id": 10607867683,
-     "prix": 10
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:fossil fs4776 herrenuhr|2": {
-   "date": 1794360058046,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:perseo tasca non|4": {
-   "date": 1794360146796,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:bulova aerojet automatico|2": {
-   "date": 1794360190873,
-   "mediane": 160,
-   "echantillon": 4,
-   "dispersion": 0.13,
-   "fourchette": [
-    149,
-    170
-   ],
-   "exemples": [
-    {
-     "id": 10323542565,
-     "prix": 150
-    },
-    {
-     "id": 8047824801,
-     "prix": 170
-    },
-    {
-     "id": 10753773656,
-     "prix": 170
-    },
-    {
-     "id": 10423971612,
-     "prix": 149
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:junghans duitse mega|1": {
-   "date": 1794360191464,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:vagary citizen subacqueo|2": {
-   "date": 1794360280414,
-   "mediane": null,
-   "echantillon": 2,
-   "dispersion": null,
-   "niveau": "modèle"
   },
   "modele:ice watch enfants kids|4": {
    "date": 1794360499872,
@@ -33604,6 +33246,13 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "modele:baume mercier horloge aeromeister|2": {
+   "date": 1794532833372,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -57624,8 +57273,8 @@
    "vu": 1794512584824
   },
   "71223538": {
-   "n": 11,
-   "vu": 1794514035642
+   "n": 12,
+   "vu": 1794532962423
   },
   "71225605": {
    "n": 2,
@@ -89159,6 +88808,10 @@
    "n": 2,
    "vu": 1793788249915
   },
+  "252706325": {
+   "n": 2,
+   "vu": 1794532832103
+  },
   "252707339": {
    "n": 2,
    "vu": 1793881689363
@@ -115240,8 +114893,8 @@
    "vu": 1793633350698
   },
   "3168021580": {
-   "n": 19,
-   "vu": 1794457236553
+   "n": 20,
+   "vu": 1794532704211
   },
   "3168041862": {
    "n": 7,
@@ -131715,6 +131368,10 @@
    "n": 4,
    "vu": 1794485635383
   },
+  "3213212494": {
+   "n": 2,
+   "vu": 1794532704211
+  },
   "3213233576": {
    "n": 2,
    "vu": 1794512852014
@@ -131790,9 +131447,9 @@
  },
  "bilan": {
   "depuis": 1794530510374,
-  "passages": 42,
-  "nouvelles": 33,
-  "marque": 27,
+  "passages": 64,
+  "nouvelles": 44,
+  "marque": 35,
   "etat": 0,
   "prix": 2,
   "accessoire": 1,
@@ -131800,28 +131457,17 @@
   "fausse": 0,
   "imitation": 0,
   "pro": 0,
-  "vendeurSpecialise": 1,
-  "sansCote": 0,
+  "vendeurSpecialise": 2,
+  "sansCote": 1,
   "chere": 1,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
-  "alertes": 1
+  "alertes": 2
  },
  "panne": null,
  "panneDebut": null,
  "suivi": [
-  {
-   "id": 10758664056,
-   "titre": "Orologio Philip Watch",
-   "prix": 65,
-   "cote": 161,
-   "score": 59,
-   "lien": "https://www.vinted.fr/items/10758664056-orologio-philip-watch",
-   "date": 1794387087037,
-   "statut": "en vente",
-   "verifieA": 1794390706388
-  },
   {
    "id": 10758686040,
    "titre": "Reloj Citizen Eco Drive Cronógrafo",
@@ -135097,7 +134743,8 @@
    "score": 67,
    "lien": "https://www.vinted.fr/items/10785762941-confezione-completa-citizen",
    "date": 1794528826855,
-   "statut": null
+   "statut": "en vente",
+   "verifieA": 1794532447839
   },
   {
    "id": 10785994266,
@@ -135107,6 +134754,16 @@
    "score": 72,
    "lien": "https://www.vinted.fr/items/10785994266-citizen-eco-drive",
    "date": 1794531547018,
+   "statut": null
+  },
+  {
+   "id": 10786106495,
+   "titre": "Horloge Aeromeister",
+   "prix": 100,
+   "cote": 288,
+   "score": 70,
+   "lien": "https://www.vinted.fr/items/10786106495-horloge-aeromeister",
+   "date": 1794532834109,
    "statut": null
   }
  ],

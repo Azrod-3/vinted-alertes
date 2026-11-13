@@ -1,16 +1,5 @@
 {
  "vues": [
-  "10767217631",
-  "10767242753",
-  "10767245170",
-  "10767231118",
-  "10767232525",
-  "10767197216",
-  "10767229040",
-  "10767227156",
-  "10767269282",
-  "10767260434",
-  "10767253637",
   "10767242413",
   "10767270035",
   "10767267755",
@@ -3999,7 +3988,18 @@
   "10787405981",
   "10787412669",
   "10760856315",
-  "10787419735"
+  "10787419735",
+  "10787420939",
+  "10787428548",
+  "10787427176",
+  "10787426214",
+  "10787448887",
+  "10787459742",
+  "10787463506",
+  "10787474856",
+  "10787473454",
+  "10787473869",
+  "10787492962"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -6570,42 +6570,6 @@
    "dispersion": null,
    "niveau": "modèle"
   },
-  "modele:canon 600d|1@3075": {
-   "date": 1794382027544,
-   "mediane": 175,
-   "echantillon": 78,
-   "dispersion": 0.29,
-   "fourchette": [
-    75,
-    300
-   ],
-   "exemples": [
-    {
-     "id": 10730124917,
-     "prix": 175
-    },
-    {
-     "id": 10673137642,
-     "prix": 175
-    },
-    {
-     "id": 10495978116,
-     "prix": 175
-    },
-    {
-     "id": 10522258952,
-     "prix": 175
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:agfa alte silette|1@3076": {
-   "date": 1794382091950,
-   "mediane": null,
-   "echantillon": 2,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
   "modele:canon 350d eos|1@3075": {
    "date": 1794479994846,
    "mediane": 70,
@@ -6635,35 +6599,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:minolta 3l dynax|3@3076": {
-   "date": 1794382474894,
-   "mediane": 35,
-   "echantillon": 9,
-   "dispersion": 1,
-   "fourchette": [
-    15,
-    80
-   ],
-   "exemples": [
-    {
-     "id": 9293911386,
-     "prix": 35
-    },
-    {
-     "id": 10758098943,
-     "prix": 30
-    },
-    {
-     "id": 10228462645,
-     "prix": 25
-    },
-    {
-     "id": 9488092921,
-     "prix": 22.7
-    }
-   ],
-   "niveau": "modèle"
   },
   "modele:nikon professionale|2@3075": {
    "date": 1794382666374,
@@ -39091,6 +39026,78 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "modele:kodak az422 pix|2@3075": {
+   "date": 1794554616341,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:fujifilm s2950 18x|1@3075": {
+   "date": 1794555060477,
+   "mediane": 48,
+   "echantillon": 8,
+   "dispersion": 0.31,
+   "fourchette": [
+    35,
+    85
+   ],
+   "exemples": [
+    {
+     "id": 10422661864,
+     "prix": 50
+    },
+    {
+     "id": 10059717697,
+     "prix": 46
+    },
+    {
+     "id": 10770268800,
+     "prix": 55
+    },
+    {
+     "id": 7756689347,
+     "prix": 40
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:kodak 7330 easy|2@3075": {
+   "date": 1794555313924,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:canon l 1 ixus|2@3076": {
+   "date": 1794555440933,
+   "mediane": 20,
+   "echantillon": 32,
+   "dispersion": 0.3,
+   "fourchette": [
+    6,
+    45
+   ],
+   "exemples": [
+    {
+     "id": 10733109128,
+     "prix": 20
+    },
+    {
+     "id": 9153375556,
+     "prix": 20
+    },
+    {
+     "id": 9775432174,
+     "prix": 20
+    },
+    {
+     "id": 9312588246,
+     "prix": 20
+    }
+   ],
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -50511,8 +50518,8 @@
    "vu": 1794518670094
   },
   "3213636002": {
-   "n": 3,
-   "vu": 1794512074415
+   "n": 4,
+   "vu": 1794554615871
   },
   "3213753439": {
    "n": 2,
@@ -50521,9 +50528,9 @@
  },
  "bilan": {
   "depuis": 1794552198742,
-  "passages": 36,
-  "nouvelles": 34,
-  "marque": 7,
+  "passages": 51,
+  "nouvelles": 45,
+  "marque": 11,
   "etat": 1,
   "prix": 3,
   "accessoire": 2,
@@ -50532,8 +50539,8 @@
   "imitation": 0,
   "pro": 0,
   "vendeurSpecialise": 5,
-  "sansCote": 8,
-  "chere": 8,
+  "sansCote": 13,
+  "chere": 10,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,

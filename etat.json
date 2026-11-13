@@ -1,12 +1,5 @@
 {
  "vues": [
-  "10781781600",
-  "10781780368",
-  "10781778054",
-  "10781777031",
-  "10781769867",
-  "10781774197",
-  "10781772851",
   "10781770062",
   "10781763363",
   "10781771842",
@@ -3999,7 +3992,14 @@
   "10786366762",
   "10786363362",
   "10786378992",
-  "10786378070"
+  "10786378070",
+  "10786391551",
+  "10786398560",
+  "10786410131",
+  "10786404906",
+  "10786427984",
+  "10786442801",
+  "10786448710"
  ],
  "cotes": {
   "marque:fossil": {
@@ -7207,510 +7207,6 @@
    ],
    "niveau": "marque",
    "lissee": true
-  },
-  "modele:venezianico redentore ultrablack|2": {
-   "date": 1794363336062,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:raketa 24h polso|1": {
-   "date": 1794363337345,
-   "mediane": null,
-   "echantillon": 2,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:raketa udssr top|2": {
-   "date": 1794363383387,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:citizen tsuyosa|2": {
-   "date": 1794363385041,
-   "mediane": 200,
-   "echantillon": 62,
-   "dispersion": 0.18,
-   "fourchette": [
-    150,
-    285
-   ],
-   "exemples": [
-    {
-     "id": 10750081995,
-     "prix": 200
-    },
-    {
-     "id": 10755055821,
-     "prix": 200
-    },
-    {
-     "id": 10656346362,
-     "prix": 200
-    },
-    {
-     "id": 10260744589,
-     "prix": 200
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:nixon time teller|2": {
-   "date": 1794363433231,
-   "mediane": 45,
-   "echantillon": 66,
-   "dispersion": 0.56,
-   "fourchette": [
-    18,
-    95
-   ],
-   "exemples": [
-    {
-     "id": 10698196970,
-     "prix": 45
-    },
-    {
-     "id": 10554114071,
-     "prix": 45
-    },
-    {
-     "id": 10333988780,
-     "prix": 45
-    },
-    {
-     "id": 10571907327,
-     "prix": 45
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:citizen 6110 r050j6 ky|2": {
-   "date": 1794363433834,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:festina f16823 a multifonction|2": {
-   "date": 1794363434493,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:lotus lote|3": {
-   "date": 1794363479441,
-   "mediane": 70,
-   "echantillon": 11,
-   "dispersion": 0.5,
-   "fourchette": [
-    25,
-    145
-   ],
-   "exemples": [
-    {
-     "id": 7902694738,
-     "prix": 70
-    },
-    {
-     "id": 9557191863,
-     "prix": 75
-    },
-    {
-     "id": 6325953308,
-     "prix": 80
-    },
-    {
-     "id": 6793071982,
-     "prix": 55
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:longines automatico|3": {
-   "date": 1794363480316,
-   "mediane": 550,
-   "echantillon": 23,
-   "dispersion": 0.73,
-   "fourchette": [
-    170,
-    1400
-   ],
-   "exemples": [
-    {
-     "id": 10592322255,
-     "prix": 549.99
-    },
-    {
-     "id": 10304410422,
-     "prix": 560
-    },
-    {
-     "id": 9979469177,
-     "prix": 490
-    },
-    {
-     "id": 10571252363,
-     "prix": 475
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:tudor 72033 oysterdate|2": {
-   "date": 1794363569133,
-   "mediane": 1600,
-   "echantillon": 5,
-   "dispersion": 0.16,
-   "fourchette": [
-    1130,
-    1650
-   ],
-   "exemples": [
-    {
-     "id": 10755133054,
-     "prix": 1600
-    },
-    {
-     "id": 8482946278,
-     "prix": 1600
-    },
-    {
-     "id": 10197692602,
-     "prix": 1650
-    },
-    {
-     "id": 10134777723,
-     "prix": 1349
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:tissot prx|3": {
-   "date": 1794363569958,
-   "mediane": 210,
-   "echantillon": 66,
-   "dispersion": 0.24,
-   "fourchette": [
-    110,
-    380
-   ],
-   "exemples": [
-    {
-     "id": 10651560602,
-     "prix": 210
-    },
-    {
-     "id": 10736084133,
-     "prix": 210
-    },
-    {
-     "id": 10664347982,
-     "prix": 210
-    },
-    {
-     "id": 10748677793,
-     "prix": 215
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:ice watch armbanduhr grau|2": {
-   "date": 1794363659184,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:lotus acero inoxidable|2": {
-   "date": 1794363660179,
-   "mediane": 40,
-   "echantillon": 9,
-   "dispersion": 0.13,
-   "fourchette": [
-    20,
-    60
-   ],
-   "exemples": [
-    {
-     "id": 10679976921,
-     "prix": 40
-    },
-    {
-     "id": 10304932767,
-     "prix": 39.99
-    },
-    {
-     "id": 10665993802,
-     "prix": 39
-    },
-    {
-     "id": 10727675475,
-     "prix": 42
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:ice watch armbanduhr braun|2": {
-   "date": 1794363660879,
-   "mediane": 20,
-   "echantillon": 8,
-   "dispersion": 1.45,
-   "fourchette": [
-    6,
-    50
-   ],
-   "exemples": [
-    {
-     "id": 5314995976,
-     "prix": 15
-    },
-    {
-     "id": 3086473607,
-     "prix": 25
-    },
-    {
-     "id": 9929857012,
-     "prix": 11
-    },
-    {
-     "id": 10755242903,
-     "prix": 10
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:lip mecanico cuerda|1": {
-   "date": 1794363705389,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:skagen connected hagen|2": {
-   "date": 1794363706083,
-   "mediane": 70,
-   "echantillon": 6,
-   "dispersion": 0.36,
-   "fourchette": [
-    30,
-    119
-   ],
-   "exemples": [
-    {
-     "id": 9299216811,
-     "prix": 75
-    },
-    {
-     "id": 9818671931,
-     "prix": 65
-    },
-    {
-     "id": 7837407711,
-     "prix": 75
-    },
-    {
-     "id": 10664274258,
-     "prix": 50
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:lorenz 12734|1": {
-   "date": 1794363706695,
-   "mediane": 75,
-   "echantillon": 4,
-   "dispersion": 0.15,
-   "fourchette": [
-    50,
-    150
-   ],
-   "exemples": [
-    {
-     "id": 9009532320,
-     "prix": 80
-    },
-    {
-     "id": 10754953740,
-     "prix": 69
-    },
-    {
-     "id": 9931351708,
-     "prix": 50
-    },
-    {
-     "id": 1989229488,
-     "prix": 150
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:breil uomo tribe|4": {
-   "date": 1794363751025,
-   "mediane": 35,
-   "echantillon": 11,
-   "dispersion": 0.57,
-   "fourchette": [
-    10,
-    65
-   ],
-   "exemples": [
-    {
-     "id": 10755306610,
-     "prix": 35
-    },
-    {
-     "id": 7436159625,
-     "prix": 30
-    },
-    {
-     "id": 10680065840,
-     "prix": 30
-    },
-    {
-     "id": 10690227241,
-     "prix": 45
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:invicta dorado plateado|4": {
-   "date": 1794363751743,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:ice watch 3h ola|4": {
-   "date": 1794363796277,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:breil uomo edge|4": {
-   "date": 1794363840670,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:venezianico redentore automatique|2": {
-   "date": 1794363841473,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:viceroy f1 rojo|1": {
-   "date": 1794363931604,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:viceroy del real|2": {
-   "date": 1794364020753,
-   "mediane": 30,
-   "echantillon": 22,
-   "dispersion": 0.83,
-   "fourchette": [
-    12,
-    55
-   ],
-   "exemples": [
-    {
-     "id": 10755073549,
-     "prix": 30
-    },
-    {
-     "id": 7861293004,
-     "prix": 30
-    },
-    {
-     "id": 8048128310,
-     "prix": 29
-    },
-    {
-     "id": 10498138534,
-     "prix": 25
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:oris prodiver cronografo|1": {
-   "date": 1794364065041,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:nixon sentry chrono|2": {
-   "date": 1794364065884,
-   "mediane": 91,
-   "echantillon": 45,
-   "dispersion": 0.88,
-   "fourchette": [
-    39,
-    265
-   ],
-   "exemples": [
-    {
-     "id": 4126929420,
-     "prix": 91
-    },
-    {
-     "id": 3205756104,
-     "prix": 90
-    },
-    {
-     "id": 1230961851,
-     "prix": 89
-    },
-    {
-     "id": 10234731583,
-     "prix": 85
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:invicta wach|2": {
-   "date": 1794364153836,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:fossil herrenarmbanduhr|1": {
-   "date": 1794364197962,
-   "mediane": 28,
-   "echantillon": 46,
-   "dispersion": 0.69,
-   "fourchette": [
-    12,
-    65
-   ],
-   "exemples": [
-    {
-     "id": 10030049413,
-     "prix": 30
-    },
-    {
-     "id": 8862323709,
-     "prix": 30
-    },
-    {
-     "id": 10065611969,
-     "prix": 30
-    },
-    {
-     "id": 8028034669,
-     "prix": 30
-    }
-   ],
-   "niveau": "modèle"
   },
   "modele:hamilton ventura|2": {
    "date": 1794364287296,
@@ -32310,6 +31806,31 @@
    "echantillon": 1,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:frederique constant automatique geneve|2": {
+   "date": 1794536826919,
+   "mediane": 590,
+   "echantillon": 3,
+   "dispersion": null,
+   "fourchette": [
+    580,
+    1250
+   ],
+   "exemples": [
+    {
+     "id": 10786442801,
+     "prix": 590
+    },
+    {
+     "id": 10769936016,
+     "prix": 580
+    },
+    {
+     "id": 10623954835,
+     "prix": 1250
+    }
+   ],
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -54798,8 +54319,8 @@
    "vu": 1793633350698
   },
   "67530743": {
-   "n": 5,
-   "vu": 1794415075262
+   "n": 8,
+   "vu": 1794536955771
   },
   "67534421": {
    "n": 11,
@@ -130512,9 +130033,9 @@
  },
  "bilan": {
   "depuis": 1794534121447,
-  "passages": 45,
-  "nouvelles": 19,
-  "marque": 12,
+  "passages": 67,
+  "nouvelles": 26,
+  "marque": 17,
   "etat": 0,
   "prix": 0,
   "accessoire": 0,
@@ -130522,9 +130043,9 @@
   "fausse": 0,
   "imitation": 0,
   "pro": 0,
-  "vendeurSpecialise": 3,
+  "vendeurSpecialise": 4,
   "sansCote": 2,
-  "chere": 2,
+  "chere": 3,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
@@ -133830,7 +133351,8 @@
    "score": 70,
    "lien": "https://www.vinted.fr/items/10786106495-horloge-aeromeister",
    "date": 1794532834109,
-   "statut": null
+   "statut": "en vente",
+   "verifieA": 1794536441468
   }
  ],
  "dernierRecap": "2026-11-12"

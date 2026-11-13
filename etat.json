@@ -1,10 +1,5 @@
 {
  "vues": [
-  "10781770062",
-  "10781763363",
-  "10781771842",
-  "10781768479",
-  "10781769111",
   "10781772222",
   "10781769793",
   "10781769550",
@@ -3999,7 +3994,12 @@
   "10786404906",
   "10786427984",
   "10786442801",
-  "10786448710"
+  "10786448710",
+  "10786462529",
+  "10786470520",
+  "10786511298",
+  "10786518545",
+  "10786518858"
  ],
  "cotes": {
   "marque:fossil": {
@@ -7208,42 +7208,6 @@
    "niveau": "marque",
    "lissee": true
   },
-  "modele:hamilton ventura|2": {
-   "date": 1794364287296,
-   "mediane": 700,
-   "echantillon": 55,
-   "dispersion": 0.51,
-   "fourchette": [
-    400,
-    1450
-   ],
-   "exemples": [
-    {
-     "id": 8887914804,
-     "prix": 700
-    },
-    {
-     "id": 8761108867,
-     "prix": 700
-    },
-    {
-     "id": 10193542540,
-     "prix": 700
-    },
-    {
-     "id": 5258222616,
-     "prix": 700
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:lorus rt393kx9 sports|2": {
-   "date": 1794364333088,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
   "marque:rotary": {
    "date": 1794477833068,
    "mediane": 150,
@@ -7274,320 +7238,6 @@
    "niveau": "marque",
    "lissee": true
   },
-  "modele:rotary jewels incabloc|2": {
-   "date": 1794364425934,
-   "mediane": 60,
-   "echantillon": 3,
-   "dispersion": null,
-   "fourchette": [
-    40,
-    80
-   ],
-   "exemples": [
-    {
-     "id": 10755278878,
-     "prix": 60
-    },
-    {
-     "id": 10685632544,
-     "prix": 40
-    },
-    {
-     "id": 9039653555,
-     "prix": 80
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:citizen come cinturino|4": {
-   "date": 1794364514691,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:lotus tbe|2": {
-   "date": 1794364515900,
-   "mediane": 40,
-   "echantillon": 7,
-   "dispersion": 0.63,
-   "fourchette": [
-    15,
-    70
-   ],
-   "exemples": [
-    {
-     "id": 8052762919,
-     "prix": 40
-    },
-    {
-     "id": 787161347,
-     "prix": 40
-    },
-    {
-     "id": 10646312753,
-     "prix": 35
-    },
-    {
-     "id": 10673109204,
-     "prix": 30
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:invicta pro diver|1": {
-   "date": 1794364516786,
-   "mediane": 75,
-   "echantillon": 40,
-   "dispersion": 0.67,
-   "fourchette": [
-    20,
-    150
-   ],
-   "exemples": [
-    {
-     "id": 10426095068,
-     "prix": 75
-    },
-    {
-     "id": 10368142584,
-     "prix": 75
-    },
-    {
-     "id": 7167709748,
-     "prix": 75
-    },
-    {
-     "id": 10592650073,
-     "prix": 75
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:citizen promaster|4": {
-   "date": 1794364562261,
-   "mediane": 189,
-   "echantillon": 11,
-   "dispersion": 0.13,
-   "fourchette": [
-    170,
-    220
-   ],
-   "exemples": [
-    {
-     "id": 10681154024,
-     "prix": 189
-    },
-    {
-     "id": 10573521233,
-     "prix": 189
-    },
-    {
-     "id": 10755657475,
-     "prix": 185
-    },
-    {
-     "id": 10202092656,
-     "prix": 180
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:fossil fs4931 machine|2": {
-   "date": 1794364562833,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:nixon corporal stainless|2": {
-   "date": 1794364563631,
-   "mediane": 55,
-   "echantillon": 7,
-   "dispersion": 0.36,
-   "fourchette": [
-    18,
-    80
-   ],
-   "exemples": [
-    {
-     "id": 10755552261,
-     "prix": 55
-    },
-    {
-     "id": 10056676567,
-     "prix": 60
-    },
-    {
-     "id": 10423385896,
-     "prix": 45
-    },
-    {
-     "id": 5574216963,
-     "prix": 65
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:fossil chronographe|2": {
-   "date": 1794364782888,
-   "mediane": 53,
-   "echantillon": 22,
-   "dispersion": 0.65,
-   "fourchette": [
-    20,
-    115
-   ],
-   "exemples": [
-    {
-     "id": 10557027532,
-     "prix": 55
-    },
-    {
-     "id": 10692311022,
-     "prix": 50
-    },
-    {
-     "id": 10665784448,
-     "prix": 50
-    },
-    {
-     "id": 10563156285,
-     "prix": 49
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:tissot f354 1990er|2": {
-   "date": 1794364827882,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:pierre lannier squelette|2": {
-   "date": 1794364828658,
-   "mediane": 120,
-   "echantillon": 34,
-   "dispersion": 0.67,
-   "fourchette": [
-    60,
-    250
-   ],
-   "exemples": [
-    {
-     "id": 9832461275,
-     "prix": 120
-    },
-    {
-     "id": 8512773797,
-     "prix": 120
-    },
-    {
-     "id": 7348702972,
-     "prix": 120
-    },
-    {
-     "id": 10554218881,
-     "prix": 125
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:hamilton khaki mechanical|2": {
-   "date": 1794364873230,
-   "mediane": 499,
-   "echantillon": 35,
-   "dispersion": 0.2,
-   "fourchette": [
-    390,
-    710
-   ],
-   "exemples": [
-    {
-     "id": 8957574008,
-     "prix": 499
-    },
-    {
-     "id": 8271413197,
-     "prix": 499
-    },
-    {
-     "id": 10724548120,
-     "prix": 500
-    },
-    {
-     "id": 5657351026,
-     "prix": 500
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:breil cronografo|2": {
-   "date": 1794364874619,
-   "mediane": 135,
-   "echantillon": 28,
-   "dispersion": 0.96,
-   "fourchette": [
-    35,
-    295
-   ],
-   "exemples": [
-    {
-     "id": 9735507078,
-     "prix": 120
-    },
-    {
-     "id": 3380300543,
-     "prix": 150
-    },
-    {
-     "id": 10542796809,
-     "prix": 150
-    },
-    {
-     "id": 9506366320,
-     "prix": 150
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:briston club master|4": {
-   "date": 1794364963407,
-   "mediane": 145,
-   "echantillon": 5,
-   "dispersion": 0.34,
-   "fourchette": [
-    80,
-    199.5
-   ],
-   "exemples": [
-    {
-     "id": 10755771827,
-     "prix": 145
-    },
-    {
-     "id": 10545783152,
-     "prix": 160
-    },
-    {
-     "id": 9665303594,
-     "prix": 109.99
-    },
-    {
-     "id": 9760659499,
-     "prix": 199.5
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:breil tw1265 manta|3": {
-   "date": 1794364964122,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
   "modele:breil cronografo uomo|2": {
    "date": 1794479268968,
    "mediane": 53,
@@ -7617,20 +7267,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:fossil mecanisme apparent|1": {
-   "date": 1794365052554,
-   "mediane": null,
-   "echantillon": 2,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:lorenz clasico swiss|2": {
-   "date": 1794365053138,
-   "mediane": null,
-   "echantillon": 2,
-   "dispersion": null,
-   "niveau": "modèle"
   },
   "modele:nixon sentry inoxydable|1": {
    "date": 1794365141160,
@@ -42271,8 +41907,8 @@
    "vu": 1793633350698
   },
   "39561183": {
-   "n": 8,
-   "vu": 1794491667168
+   "n": 9,
+   "vu": 1794537858929
   },
   "39585119": {
    "n": 2,
@@ -130032,10 +129668,10 @@
   }
  },
  "bilan": {
-  "depuis": 1794534121447,
-  "passages": 67,
-  "nouvelles": 26,
-  "marque": 17,
+  "depuis": 1794537730556,
+  "passages": 4,
+  "nouvelles": 2,
+  "marque": 2,
   "etat": 0,
   "prix": 0,
   "accessoire": 0,
@@ -130043,9 +129679,9 @@
   "fausse": 0,
   "imitation": 0,
   "pro": 0,
-  "vendeurSpecialise": 4,
-  "sansCote": 2,
-  "chere": 3,
+  "vendeurSpecialise": 0,
+  "sansCote": 0,
+  "chere": 0,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,

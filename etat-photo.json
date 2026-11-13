@@ -1,12 +1,5 @@
 {
  "vues": [
-  "10779093230",
-  "10779092730",
-  "10779094374",
-  "10779096133",
-  "10779107202",
-  "10779112486",
-  "10779114594",
   "10779131094",
   "10779129526",
   "10779126447",
@@ -3999,7 +3992,14 @@
   "10798492772",
   "10798490814",
   "10798504453",
-  "10798515268"
+  "10798515268",
+  "10798535953",
+  "10798525773",
+  "10798571382",
+  "10798586599",
+  "10798571153",
+  "10798591878",
+  "10798588465"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -6443,15 +6443,19 @@
    "lissee": true
   },
   "modele:samsung camara fotos|2@3075": {
-   "date": 1794511946209,
+   "date": 1794613165092,
    "mediane": 50,
    "echantillon": 26,
-   "dispersion": 0.66,
+   "dispersion": 0.68,
    "fourchette": [
     17,
     120
    ],
    "exemples": [
+    {
+     "id": 10798591878,
+     "prix": 50
+    },
     {
      "id": 9915937244,
      "prix": 50
@@ -6463,10 +6467,6 @@
     {
      "id": 10463605251,
      "prix": 46
-    },
-    {
-     "id": 10540125942,
-     "prix": 45
     }
    ],
    "niveau": "modèle",
@@ -7557,78 +7557,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:canon a450 powershot|2@3075": {
-   "date": 1794439780712,
-   "mediane": 49,
-   "echantillon": 14,
-   "dispersion": 0.46,
-   "fourchette": [
-    25,
-    85
-   ],
-   "exemples": [
-    {
-     "id": 10239105879,
-     "prix": 49
-    },
-    {
-     "id": 10636356799,
-     "prix": 49.99
-    },
-    {
-     "id": 10581125798,
-     "prix": 50
-    },
-    {
-     "id": 9205179165,
-     "prix": 45
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:canon cuciolo labrador|1@3075": {
-   "date": 1794439972028,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:pentax 90 wr zoom|1@3076": {
-   "date": 1794440291980,
-   "mediane": 40,
-   "echantillon": 18,
-   "dispersion": 0.68,
-   "fourchette": [
-    12,
-    99
-   ],
-   "exemples": [
-    {
-     "id": 9391995138,
-     "prix": 40
-    },
-    {
-     "id": 10674257865,
-     "prix": 40
-    },
-    {
-     "id": 10772187306,
-     "prix": 45
-    },
-    {
-     "id": 10557999461,
-     "prix": 35
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:kodak 4230 cx4230|1@3075": {
-   "date": 1794440421379,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
   },
   "modele:panasonic fs30 zoomx8 14mega|2@3075": {
    "date": 1794440675490,
@@ -36472,6 +36400,42 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "modele:olympus 90s fujifilm|2@3076": {
+   "date": 1794612531512,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:fujica ax3|2@3076": {
+   "date": 1794613165737,
+   "mediane": 80,
+   "echantillon": 8,
+   "dispersion": 0.38,
+   "fourchette": [
+    30,
+    145
+   ],
+   "exemples": [
+    {
+     "id": 9645065773,
+     "prix": 80
+    },
+    {
+     "id": 7965820774,
+     "prix": 79
+    },
+    {
+     "id": 7865403497,
+     "prix": 70
+    },
+    {
+     "id": 5979299406,
+     "prix": 100
+    }
+   ],
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -41611,6 +41575,10 @@
    "n": 4,
    "vu": 1793730778601
   },
+  "132834602": {
+   "n": 2,
+   "vu": 1794612530823
+  },
   "132854436": {
    "n": 2,
    "vu": 1793792049477
@@ -43114,6 +43082,10 @@
   "229711908": {
    "n": 4,
    "vu": 1794491435071
+  },
+  "230058050": {
+   "n": 2,
+   "vu": 1794612911001
   },
   "230253059": {
    "n": 2,
@@ -45792,8 +45764,8 @@
    "vu": 1794515117148
   },
   "3138957823": {
-   "n": 58,
-   "vu": 1794538515166
+   "n": 59,
+   "vu": 1794613037701
   },
   "3139204198": {
    "n": 4,
@@ -48654,19 +48626,19 @@
  },
  "bilan": {
   "depuis": 1794609731111,
-  "passages": 43,
-  "nouvelles": 47,
+  "passages": 55,
+  "nouvelles": 54,
   "marque": 9,
-  "etat": 3,
+  "etat": 4,
   "prix": 5,
   "accessoire": 2,
   "lot": 0,
   "fausse": 0,
   "imitation": 0,
-  "pro": 0,
+  "pro": 1,
   "vendeurSpecialise": 1,
-  "sansCote": 19,
-  "chere": 6,
+  "sansCote": 22,
+  "chere": 8,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,

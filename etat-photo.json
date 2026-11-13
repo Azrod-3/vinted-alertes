@@ -1,24 +1,5 @@
 {
  "vues": [
-  "10778634184",
-  "10778629126",
-  "10778645613",
-  "10778651607",
-  "10778680692",
-  "10778669327",
-  "10778665832",
-  "10778685312",
-  "10778693636",
-  "10778700947",
-  "10778685689",
-  "10778666815",
-  "10778688594",
-  "10778720027",
-  "10778723601",
-  "10778745556",
-  "10778744857",
-  "10778742298",
-  "10778743346",
   "10778730320",
   "10778735463",
   "10778738840",
@@ -3999,7 +3980,26 @@
   "10797937003",
   "10797928751",
   "10797926192",
-  "10797927316"
+  "10797927316",
+  "10797956473",
+  "10797954743",
+  "10797946079",
+  "10784189220",
+  "10797944931",
+  "10797975713",
+  "10797966138",
+  "10797963008",
+  "10797991094",
+  "10797995266",
+  "10798002859",
+  "10797964723",
+  "10798025525",
+  "10798023847",
+  "10798054509",
+  "10798048427",
+  "10798049707",
+  "10798045640",
+  "10798066823"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -4063,10 +4063,33 @@
    "lissee": true
   },
   "marque:kodak@3075": {
-   "date": 1794520280063,
-   "mediane": null,
+   "date": 1794607944659,
+   "mediane": 50,
    "echantillon": 82,
-   "coteTropBasse": 48
+   "dispersion": 0.98,
+   "fourchette": [
+    13,
+    150
+   ],
+   "exemples": [
+    {
+     "id": 10546677458,
+     "prix": 50
+    },
+    {
+     "id": 10794023346,
+     "prix": 50
+    },
+    {
+     "id": 10788276031,
+     "prix": 50
+    },
+    {
+     "id": 10753807373,
+     "prix": 50
+    }
+   ],
+   "niveau": "marque"
   },
   "marque:samsung@3075": {
    "date": 1794520214831,
@@ -4309,30 +4332,30 @@
    "coteTropBasse": 20
   },
   "marque:olympus@3076": {
-   "date": 1794520475589,
-   "mediane": 61,
-   "echantillon": 80,
-   "dispersion": 0.83,
+   "date": 1794608452744,
+   "mediane": 53,
+   "echantillon": 81,
+   "dispersion": 1,
    "fourchette": [
-    19,
-    175
+    18,
+    160
    ],
    "exemples": [
     {
-     "id": 10728269726,
-     "prix": 60
+     "id": 10765146405,
+     "prix": 50
     },
     {
-     "id": 10778035741,
-     "prix": 59.9
+     "id": 9970163216,
+     "prix": 50
     },
     {
-     "id": 10776538643,
-     "prix": 59
+     "id": 10764326606,
+     "prix": 50
     },
     {
-     "id": 10719989450,
-     "prix": 59
+     "id": 10137557005,
+     "prix": 50
     }
    ],
    "niveau": "marque",
@@ -7451,146 +7474,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:olympus zoom69|1@3076": {
-   "date": 1794435152337,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:pentax ls1100 14mp|1@3075": {
-   "date": 1794435279820,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:olympus fe 25 y2k|2@3075": {
-   "date": 1794435280589,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:canon 3x ixus|1@3075": {
-   "date": 1794435535339,
-   "mediane": 93,
-   "echantillon": 10,
-   "dispersion": 1.11,
-   "fourchette": [
-    55,
-    176.4
-   ],
-   "exemples": [
-    {
-     "id": 10710299039,
-     "prix": 95
-    },
-    {
-     "id": 10463459149,
-     "prix": 90
-    },
-    {
-     "id": 10132040955,
-     "prix": 67
-    },
-    {
-     "id": 10747546904,
-     "prix": 65
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:kodak 531 easyshare|2@3075": {
-   "date": 1794435665007,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:canon accessori|2@3076": {
-   "date": 1794435666044,
-   "mediane": 140,
-   "echantillon": 4,
-   "dispersion": 0.14,
-   "fourchette": [
-    90,
-    300
-   ],
-   "exemples": [
-    {
-     "id": 10771588219,
-     "prix": 150
-    },
-    {
-     "id": 10765325706,
-     "prix": 130
-    },
-    {
-     "id": 10553624467,
-     "prix": 90
-    },
-    {
-     "id": 5896272144,
-     "prix": 300
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:canon eos elan|1@3076": {
-   "date": 1794435731012,
-   "mediane": 200,
-   "echantillon": 3,
-   "dispersion": null,
-   "fourchette": [
-    120,
-    200
-   ],
-   "exemples": [
-    {
-     "id": 10570727665,
-     "prix": 200
-    },
-    {
-     "id": 6172209204,
-     "prix": 200
-    },
-    {
-     "id": 10198521229,
-     "prix": 120
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:minolta tele|1@3076": {
-   "date": 1794435795920,
-   "mediane": 35,
-   "echantillon": 35,
-   "dispersion": 0.69,
-   "fourchette": [
-    10,
-    95
-   ],
-   "exemples": [
-    {
-     "id": 10674775046,
-     "prix": 35
-    },
-    {
-     "id": 10607097896,
-     "prix": 35
-    },
-    {
-     "id": 10303243684,
-     "prix": 35
-    },
-    {
-     "id": 9732780192,
-     "prix": 35
-    }
-   ],
-   "niveau": "modèle"
   },
   "modele:olympus em10 mark|1@3075": {
    "date": 1794435862494,
@@ -36474,6 +36357,67 @@
    "echantillon": 1,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:canon a470 compatta|3@3075": {
+   "date": 1794607816716,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:minolta x 700 f 3 5|1@3076": {
+   "date": 1794607817446,
+   "mediane": 109,
+   "echantillon": 3,
+   "dispersion": null,
+   "fourchette": [
+    74.57,
+    140
+   ],
+   "exemples": [
+    {
+     "id": 10784189220,
+     "prix": 109
+    },
+    {
+     "id": 9607894583,
+     "prix": 140
+    },
+    {
+     "id": 10582361472,
+     "prix": 74.57
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:sony dsc s780 cyber|1@3075": {
+   "date": 1794608451712,
+   "mediane": 75,
+   "echantillon": 6,
+   "dispersion": 0.15,
+   "fourchette": [
+    45,
+    100
+   ],
+   "exemples": [
+    {
+     "id": 8910424144,
+     "prix": 79.99
+    },
+    {
+     "id": 10721435216,
+     "prix": 70
+    },
+    {
+     "id": 10754568158,
+     "prix": 80
+    },
+    {
+     "id": 10687084872,
+     "prix": 69
+    }
+   ],
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -38702,8 +38646,8 @@
    "vu": 1794126796338
   },
   "45261223": {
-   "n": 7,
-   "vu": 1794605641676
+   "n": 8,
+   "vu": 1794607815924
   },
   "45399863": {
    "n": 2,
@@ -40514,8 +40458,8 @@
    "vu": 1793993806026
   },
   "79962519": {
-   "n": 21,
-   "vu": 1794607683376
+   "n": 26,
+   "vu": 1794608579134
   },
   "80246145": {
    "n": 11,
@@ -44294,8 +44238,8 @@
    "vu": 1793745453117
   },
   "271743947": {
-   "n": 7,
-   "vu": 1794607683376
+   "n": 8,
+   "vu": 1794608324059
   },
   "271748287": {
    "n": 12,
@@ -47894,8 +47838,8 @@
    "vu": 1793969007331
   },
   "3202101746": {
-   "n": 5,
-   "vu": 1794595239835
+   "n": 6,
+   "vu": 1794608197725
   },
   "3202175307": {
    "n": 2,
@@ -48624,9 +48568,9 @@
  },
  "bilan": {
   "depuis": 1794602507820,
-  "passages": 81,
-  "nouvelles": 172,
-  "marque": 27,
+  "passages": 96,
+  "nouvelles": 191,
+  "marque": 34,
   "etat": 5,
   "prix": 6,
   "accessoire": 2,
@@ -48634,9 +48578,9 @@
   "fausse": 0,
   "imitation": 0,
   "pro": 8,
-  "vendeurSpecialise": 17,
-  "sansCote": 73,
-  "chere": 31,
+  "vendeurSpecialise": 22,
+  "sansCote": 77,
+  "chere": 34,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
@@ -51942,7 +51886,8 @@
    "score": 22,
    "lien": "https://www.vinted.fr/items/10796025150-voigtlander-vf-135-mit-einem-color-skoparex-2340-mm-objektiv",
    "date": 1794604747595,
-   "statut": null
+   "statut": "en vente",
+   "verifieA": 1794608387803
   }
  ],
  "dernierRecap": "2026-11-13"

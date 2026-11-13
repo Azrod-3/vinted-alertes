@@ -1,7 +1,5 @@
 {
  "vues": [
-  "10766864616",
-  "10766892317",
   "10766883237",
   "10766882899",
   "10766884803",
@@ -3999,7 +3997,9 @@
   "10786631295",
   "10786646068",
   "10786659343",
-  "10786796278"
+  "10786796278",
+  "10786818596",
+  "10786844778"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -4249,10 +4249,10 @@
    "coteTropBasse": 35
   },
   "marque:yashica@3076": {
-   "date": 1794433824065,
+   "date": 1794542313165,
    "mediane": null,
-   "echantillon": 77,
-   "coteTropBasse": 49
+   "echantillon": 72,
+   "coteTropBasse": 35
   },
   "marque:fujifilm@3076": {
    "date": 1794481922089,
@@ -5010,36 +5010,6 @@
     {
      "id": 9669602258,
      "prix": 149.99
-    }
-   ],
-   "niveau": "modèle",
-   "lissee": true
-  },
-  "modele:fujifilm l50 finepix|2@3075": {
-   "date": 1794369776381,
-   "mediane": 55,
-   "echantillon": 9,
-   "dispersion": 0.27,
-   "fourchette": [
-    45,
-    70
-   ],
-   "exemples": [
-    {
-     "id": 10707493658,
-     "prix": 55
-    },
-    {
-     "id": 10389601410,
-     "prix": 50
-    },
-    {
-     "id": 10677291140,
-     "prix": 60
-    },
-    {
-     "id": 10757453481,
-     "prix": 49.9
     }
    ],
    "niveau": "modèle",
@@ -6592,35 +6562,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:panasonic f3 lumix|2@3075": {
-   "date": 1794369840534,
-   "mediane": 60,
-   "echantillon": 23,
-   "dispersion": 0.6,
-   "fourchette": [
-    23,
-    129
-   ],
-   "exemples": [
-    {
-     "id": 10371470475,
-     "prix": 60
-    },
-    {
-     "id": 9927078808,
-     "prix": 60
-    },
-    {
-     "id": 9870076848,
-     "prix": 60
-    },
-    {
-     "id": 8530006808,
-     "prix": 60
-    }
-   ],
-   "niveau": "modèle"
   },
   "modele:pentax 1000|1@3075": {
    "date": 1794370478809,
@@ -39336,6 +39277,42 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "modele:yashica mini kyocera|2@3076": {
+   "date": 1794542313740,
+   "mediane": 57,
+   "echantillon": 4,
+   "dispersion": 0.79,
+   "fourchette": [
+    27,
+    90
+   ],
+   "exemples": [
+    {
+     "id": 10786818596,
+     "prix": 34.9
+    },
+    {
+     "id": 6053527469,
+     "prix": 80
+    },
+    {
+     "id": 8510845304,
+     "prix": 27
+    },
+    {
+     "id": 9235280645,
+     "prix": 90
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:olympus compatta olymous|2@3075": {
+   "date": 1794542819452,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -49523,6 +49500,10 @@
    "n": 19,
    "vu": 1794361510231
   },
+  "3189914266": {
+   "n": 2,
+   "vu": 1794542312210
+  },
   "3189914720": {
    "n": 3,
    "vu": 1793734213623
@@ -50742,8 +50723,8 @@
  },
  "bilan": {
   "depuis": 1794536555368,
-  "passages": 89,
-  "nouvelles": 12,
+  "passages": 104,
+  "nouvelles": 14,
   "marque": 1,
   "etat": 0,
   "prix": 0,
@@ -50753,8 +50734,8 @@
   "imitation": 0,
   "pro": 2,
   "vendeurSpecialise": 0,
-  "sansCote": 6,
-  "chere": 2,
+  "sansCote": 7,
+  "chere": 3,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,

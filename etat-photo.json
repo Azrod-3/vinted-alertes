@@ -1,6 +1,5 @@
 {
  "vues": [
-  "10766882899",
   "10766884803",
   "10766886376",
   "10766893867",
@@ -3999,7 +3998,8 @@
   "10786796278",
   "10786818596",
   "10786844778",
-  "10786898480"
+  "10786898480",
+  "10786989232"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -4249,9 +4249,9 @@
    "coteTropBasse": 35
   },
   "marque:yashica@3076": {
-   "date": 1794542313165,
+   "date": 1794544945827,
    "mediane": null,
-   "echantillon": 72,
+   "echantillon": 71,
    "coteTropBasse": 35
   },
   "marque:fujifilm@3076": {
@@ -6562,42 +6562,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:fujifilm s3400 28x|2@3075": {
-   "date": 1794372261562,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:olympus macchinetta|2@3075": {
-   "date": 1794372262549,
-   "mediane": 50,
-   "echantillon": 21,
-   "dispersion": 0.6,
-   "fourchette": [
-    20,
-    100
-   ],
-   "exemples": [
-    {
-     "id": 10757592081,
-     "prix": 50
-    },
-    {
-     "id": 10469727686,
-     "prix": 50
-    },
-    {
-     "id": 8086440553,
-     "prix": 50
-    },
-    {
-     "id": 10051660694,
-     "prix": 40
-    }
-   ],
-   "niveau": "modèle"
   },
   "modele:praktica 280 ltl|1@3076": {
    "date": 1794374170631,
@@ -39243,7 +39207,7 @@
    "niveau": "modèle"
   },
   "modele:yashica mini kyocera|2@3076": {
-   "date": 1794542313740,
+   "date": 1794544946352,
    "mediane": 57,
    "echantillon": 4,
    "dispersion": 0.79,
@@ -39272,10 +39236,39 @@
    "niveau": "modèle"
   },
   "modele:olympus compatta olymous|2@3075": {
-   "date": 1794542819452,
+   "date": 1794544944799,
    "mediane": null,
    "echantillon": 1,
    "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:kodak az421 pixpro|2@3075": {
+   "date": 1794545896163,
+   "mediane": 78,
+   "echantillon": 45,
+   "dispersion": 0.5,
+   "fourchette": [
+    25,
+    150
+   ],
+   "exemples": [
+    {
+     "id": 10527726739,
+     "prix": 78
+    },
+    {
+     "id": 10398008345,
+     "prix": 79.99
+    },
+    {
+     "id": 10493788190,
+     "prix": 80
+    },
+    {
+     "id": 8459490241,
+     "prix": 80
+    }
+   ],
    "niveau": "modèle"
   }
  },
@@ -50686,10 +50679,10 @@
   }
  },
  "bilan": {
-  "depuis": 1794543768208,
-  "passages": 18,
+  "depuis": 1794544946658,
+  "passages": 15,
   "nouvelles": 1,
-  "marque": 1,
+  "marque": 0,
   "etat": 0,
   "prix": 0,
   "accessoire": 0,
@@ -50699,7 +50692,7 @@
   "pro": 0,
   "vendeurSpecialise": 0,
   "sansCote": 0,
-  "chere": 0,
+  "chere": 1,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,

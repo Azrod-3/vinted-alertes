@@ -5441,36 +5441,6 @@
    ],
    "niveau": "modèle"
   },
-  "modele:fujifilm 250ix fotonex|3@3076": {
-   "date": 1794368167733,
-   "mediane": 25,
-   "echantillon": 7,
-   "dispersion": 0.4,
-   "fourchette": [
-    10,
-    33
-   ],
-   "exemples": [
-    {
-     "id": 10660567488,
-     "prix": 25
-    },
-    {
-     "id": 8888412064,
-     "prix": 25
-    },
-    {
-     "id": 7787218777,
-     "prix": 29.99
-    },
-    {
-     "id": 6575754206,
-     "prix": 20
-    }
-   ],
-   "niveau": "modèle",
-   "lissee": true
-  },
   "marque:pentacon@3076": {
    "date": 1794479089039,
    "mediane": null,
@@ -6622,78 +6592,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:canon ixus|3@3075": {
-   "date": 1794367904810,
-   "mediane": 125,
-   "echantillon": 62,
-   "dispersion": 0.48,
-   "fourchette": [
-    45,
-    250
-   ],
-   "exemples": [
-    {
-     "id": 10748288428,
-     "prix": 125
-    },
-    {
-     "id": 10736363202,
-     "prix": 125
-    },
-    {
-     "id": 10722971231,
-     "prix": 125
-    },
-    {
-     "id": 10722953510,
-     "prix": 125
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:nikon l35aw|2@3076": {
-   "date": 1794368100808,
-   "mediane": 194,
-   "echantillon": 4,
-   "dispersion": 0.26,
-   "fourchette": [
-    150,
-    250
-   ],
-   "exemples": [
-    {
-     "id": 10354446004,
-     "prix": 169
-    },
-    {
-     "id": 9341246051,
-     "prix": 219
-    },
-    {
-     "id": 10756636498,
-     "prix": 150
-    },
-    {
-     "id": 10205743606,
-     "prix": 250
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:olympus c 315 5 1mp|3@3075": {
-   "date": 1794368297046,
-   "mediane": null,
-   "echantillon": 0,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:canon erba gold|4@3076": {
-   "date": 1794368361073,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
   },
   "modele:nikon zfc declenchement|3@3076": {
    "date": 1794368883053,
@@ -50858,7 +50756,7 @@
  },
  "bilan": {
   "depuis": 1794536555368,
-  "passages": 59,
+  "passages": 74,
   "nouvelles": 11,
   "marque": 1,
   "etat": 0,

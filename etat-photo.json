@@ -1,6 +1,5 @@
 {
  "vues": [
-  "10766821500",
   "10766842490",
   "10753329694",
   "10766858342",
@@ -3999,7 +3998,8 @@
   "10786402552",
   "10786425923",
   "10786428501",
-  "10786480237"
+  "10786480237",
+  "10786527162"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -6625,257 +6625,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:pentacon ak8 werkende|1@3076": {
-   "date": 1794364705261,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:canon st601 canonet|1@3076": {
-   "date": 1794364706031,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:pentax p30n obiettivo|1@3076": {
-   "date": 1794364707055,
-   "mediane": 65,
-   "echantillon": 4,
-   "dispersion": 0.15,
-   "fourchette": [
-    45,
-    99
-   ],
-   "exemples": [
-    {
-     "id": 10755353352,
-     "prix": 60
-    },
-    {
-     "id": 10319618046,
-     "prix": 70
-    },
-    {
-     "id": 10375104487,
-     "prix": 45
-    },
-    {
-     "id": 7467405412,
-     "prix": 99
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:kodak rechargeable|2@3076": {
-   "date": 1794364771674,
-   "mediane": 16,
-   "echantillon": 3,
-   "dispersion": null,
-   "fourchette": [
-    15,
-    25
-   ],
-   "exemples": [
-    {
-     "id": 10755592238,
-     "prix": 16
-    },
-    {
-     "id": 10606573908,
-     "prix": 15
-    },
-    {
-     "id": 10018481827,
-     "prix": 25
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:nikon nikonf50|2@3076": {
-   "date": 1794364772488,
-   "mediane": 47,
-   "echantillon": 10,
-   "dispersion": 0.32,
-   "fourchette": [
-    15,
-    65
-   ],
-   "exemples": [
-    {
-     "id": 10084049443,
-     "prix": 45
-    },
-    {
-     "id": 5994754409,
-     "prix": 49.5
-    },
-    {
-     "id": 10755411359,
-     "prix": 50
-    },
-    {
-     "id": 10611369384,
-     "prix": 50
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:nikon anno|3@3076": {
-   "date": 1794364836772,
-   "mediane": null,
-   "echantillon": 2,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:fujifilm xt4 lente|2@3075": {
-   "date": 1794364900698,
-   "mediane": null,
-   "echantillon": 0,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:canon 172 ixus|2@3075": {
-   "date": 1794364901644,
-   "mediane": 95,
-   "echantillon": 4,
-   "dispersion": 0.11,
-   "fourchette": [
-    85,
-    149
-   ],
-   "exemples": [
-    {
-     "id": 10606682110,
-     "prix": 100
-    },
-    {
-     "id": 10755433277,
-     "prix": 89.99
-    },
-    {
-     "id": 10339638566,
-     "prix": 85
-    },
-    {
-     "id": 8589634820,
-     "prix": 149
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:nikon f 301 notice|1@3076": {
-   "date": 1794364902278,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:kodak z710 easy|2@3075": {
-   "date": 1794365031042,
-   "mediane": 30,
-   "echantillon": 3,
-   "dispersion": null,
-   "fourchette": [
-    30,
-    59
-   ],
-   "exemples": [
-    {
-     "id": 10755805666,
-     "prix": 30
-    },
-    {
-     "id": 10206423934,
-     "prix": 30
-    },
-    {
-     "id": 7903912528,
-     "prix": 59
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:olympus fe 110|1@3075": {
-   "date": 1794365096097,
-   "mediane": 25,
-   "echantillon": 9,
-   "dispersion": 0.36,
-   "fourchette": [
-    14.99,
-    40
-   ],
-   "exemples": [
-    {
-     "id": 10246205178,
-     "prix": 25
-    },
-    {
-     "id": 8638990029,
-     "prix": 25
-    },
-    {
-     "id": 10713603440,
-     "prix": 29
-    },
-    {
-     "id": 10755820213,
-     "prix": 20
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:fujifilm x h1 tamron|1@3075": {
-   "date": 1794365171571,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:canon 900 ixus|1@3075": {
-   "date": 1794365236715,
-   "mediane": 87,
-   "echantillon": 8,
-   "dispersion": 0.51,
-   "fourchette": [
-    35,
-    150
-   ],
-   "exemples": [
-    {
-     "id": 10755831324,
-     "prix": 85
-    },
-    {
-     "id": 10587354695,
-     "prix": 89.9
-    },
-    {
-     "id": 10647890202,
-     "prix": 75
-    },
-    {
-     "id": 10057599985,
-     "prix": 120
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:nikon af200 camara|3@3076": {
-   "date": 1794365447418,
-   "mediane": null,
-   "echantillon": 2,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:kodak 233 x camara|2@3076": {
-   "date": 1794365577729,
-   "mediane": null,
-   "echantillon": 2,
-   "dispersion": null,
-   "niveau": "modèle"
   },
   "modele:yashica t5|2@3076": {
    "date": 1794365646308,
@@ -40094,6 +39843,13 @@
    "echantillon": 2,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:kodak anciens extra|1@3076": {
+   "date": 1794537882770,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -51484,12 +51240,16 @@
   "3213636002": {
    "n": 3,
    "vu": 1794512074415
+  },
+  "3213753439": {
+   "n": 2,
+   "vu": 1794537882099
   }
  },
  "bilan": {
   "depuis": 1794536555368,
-  "passages": 14,
-  "nouvelles": 3,
+  "passages": 29,
+  "nouvelles": 4,
   "marque": 1,
   "etat": 0,
   "prix": 0,
@@ -51499,7 +51259,7 @@
   "imitation": 0,
   "pro": 1,
   "vendeurSpecialise": 0,
-  "sansCote": 1,
+  "sansCote": 2,
   "chere": 0,
   "description": 0,
   "scoreFaible": 0,

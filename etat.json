@@ -1,15 +1,5 @@
 {
  "vues": [
-  "10779062696",
-  "10779061014",
-  "10779055086",
-  "10779056646",
-  "10779053174",
-  "10779035453",
-  "10779050918",
-  "10779052376",
-  "10778790800",
-  "10781781844",
   "10781781600",
   "10781780368",
   "10781778054",
@@ -3999,7 +3989,17 @@
   "10786276782",
   "10786288962",
   "10786286344",
-  "10786279465"
+  "10786279465",
+  "10786310704",
+  "10786301138",
+  "10786301735",
+  "10786341426",
+  "10786343380",
+  "10786355006",
+  "10786366762",
+  "10786363362",
+  "10786378992",
+  "10786378070"
  ],
  "cotes": {
   "marque:fossil": {
@@ -5442,36 +5442,6 @@
     },
     {
      "id": 9129343725,
-     "prix": 150
-    }
-   ],
-   "niveau": "marque",
-   "lissee": true
-  },
-  "marque:ingersoll": {
-   "date": 1794363246010,
-   "mediane": 150,
-   "echantillon": 87,
-   "dispersion": 0.43,
-   "fourchette": [
-    90,
-    280
-   ],
-   "exemples": [
-    {
-     "id": 10605143274,
-     "prix": 150
-    },
-    {
-     "id": 9653135817,
-     "prix": 150
-    },
-    {
-     "id": 4162510953,
-     "prix": 150
-    },
-    {
-     "id": 4225268015,
      "prix": 150
     }
    ],
@@ -7237,410 +7207,6 @@
    ],
    "niveau": "marque",
    "lissee": true
-  },
-  "modele:citizen ecodrive titanio|2": {
-   "date": 1794362344363,
-   "mediane": 178,
-   "echantillon": 8,
-   "dispersion": 0.99,
-   "fourchette": [
-    85,
-    400
-   ],
-   "exemples": [
-    {
-     "id": 10754730236,
-     "prix": 195
-    },
-    {
-     "id": 10635330787,
-     "prix": 160
-    },
-    {
-     "id": 10719702530,
-     "prix": 125
-    },
-    {
-     "id": 9778870817,
-     "prix": 124
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:breil tw0600|1": {
-   "date": 1794362389722,
-   "mediane": 57,
-   "echantillon": 6,
-   "dispersion": 1.04,
-   "fourchette": [
-    23,
-    100
-   ],
-   "exemples": [
-    {
-     "id": 10754710569,
-     "prix": 45
-    },
-    {
-     "id": 8393428292,
-     "prix": 69
-    },
-    {
-     "id": 2072213448,
-     "prix": 30
-    },
-    {
-     "id": 7335607462,
-     "prix": 89
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:viceroy 40517 multifunction|1": {
-   "date": 1794362390325,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:lotus azul estuche|2": {
-   "date": 1794362434723,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:fossil me3099 automatique|2": {
-   "date": 1794362435333,
-   "mediane": 103,
-   "echantillon": 8,
-   "dispersion": 0.2,
-   "fourchette": [
-    80,
-    125
-   ],
-   "exemples": [
-    {
-     "id": 8034163088,
-     "prix": 110
-    },
-    {
-     "id": 9779419254,
-     "prix": 110
-    },
-    {
-     "id": 9820814368,
-     "prix": 95
-    },
-    {
-     "id": 8902447430,
-     "prix": 90
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:festina herrenuhr analog|2": {
-   "date": 1794362436088,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:fossil schwarze|2": {
-   "date": 1794362480643,
-   "mediane": null,
-   "echantillon": 2,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:fossil black chunky|2": {
-   "date": 1794362481343,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:lorus herrenuhr flexband|1": {
-   "date": 1794362571398,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:breil relogio cronografo|2": {
-   "date": 1794362571998,
-   "mediane": null,
-   "echantillon": 2,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:fossil mens fosil|3": {
-   "date": 1794362660352,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:citizen eagel automatikuhr|2": {
-   "date": 1794362661066,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:yema paris pieces|1": {
-   "date": 1794362750018,
-   "mediane": 11,
-   "echantillon": 4,
-   "dispersion": 0.18,
-   "fourchette": [
-    7,
-    25
-   ],
-   "exemples": [
-    {
-     "id": 10572314366,
-     "prix": 12
-    },
-    {
-     "id": 10704209379,
-     "prix": 10
-    },
-    {
-     "id": 10754799121,
-     "prix": 7
-    },
-    {
-     "id": 10100993902,
-     "prix": 25
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:vostok mig29 komandirskie|2": {
-   "date": 1794362750597,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:festina 6016 chrono|2": {
-   "date": 1794362751259,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:fossil am4441 all|1": {
-   "date": 1794362795244,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:kienzle 1822 alpha|3": {
-   "date": 1794362839307,
-   "mediane": null,
-   "echantillon": 2,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:longines 7385 classics|2": {
-   "date": 1794362840468,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:fossil chronograaf herenhorloge|3": {
-   "date": 1794362841117,
-   "mediane": 30,
-   "echantillon": 4,
-   "dispersion": 0,
-   "fourchette": [
-    19.99,
-    40
-   ],
-   "exemples": [
-    {
-     "id": 10754607000,
-     "prix": 30
-    },
-    {
-     "id": 7857425189,
-     "prix": 30
-    },
-    {
-     "id": 9468063434,
-     "prix": 40
-    },
-    {
-     "id": 10542105620,
-     "prix": 19.99
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:festina f16678 herrenuhr|1": {
-   "date": 1794362885883,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:lip automatique cadran|2": {
-   "date": 1794362930052,
-   "mediane": 275,
-   "echantillon": 6,
-   "dispersion": 0.71,
-   "fourchette": [
-    115,
-    350
-   ],
-   "exemples": [
-    {
-     "id": 10549233493,
-     "prix": 250
-    },
-    {
-     "id": 10227995797,
-     "prix": 300
-    },
-    {
-     "id": 10228088870,
-     "prix": 320
-    },
-    {
-     "id": 8428739289,
-     "prix": 350
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:timex triathlon|1": {
-   "date": 1794362931373,
-   "mediane": 30,
-   "echantillon": 41,
-   "dispersion": 0.67,
-   "fourchette": [
-    8.99,
-    69.99
-   ],
-   "exemples": [
-    {
-     "id": 10231212471,
-     "prix": 30
-    },
-    {
-     "id": 10742647333,
-     "prix": 30
-    },
-    {
-     "id": 10598921720,
-     "prix": 30
-    },
-    {
-     "id": 9407433576,
-     "prix": 30
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:raketa russo|1": {
-   "date": 1794362932233,
-   "mediane": 95,
-   "echantillon": 39,
-   "dispersion": 0.58,
-   "fourchette": [
-    29,
-    199.9
-   ],
-   "exemples": [
-    {
-     "id": 9918145560,
-     "prix": 95
-    },
-    {
-     "id": 10754686141,
-     "prix": 93
-    },
-    {
-     "id": 9237641569,
-     "prix": 99
-    },
-    {
-     "id": 7625560961,
-     "prix": 99
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:ice watch blaue silikon|2": {
-   "date": 1794362977746,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:timex herrenarmbanduhr quarz|2": {
-   "date": 1794363065912,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:wyler vetta 119 chronograph|1": {
-   "date": 1794363111396,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:lorus r2361ax9 men|1": {
-   "date": 1794363112606,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:fossil machine para|4": {
-   "date": 1794363157241,
-   "mediane": 125,
-   "echantillon": 3,
-   "dispersion": null,
-   "fourchette": [
-    60,
-    129.99
-   ],
-   "exemples": [
-    {
-     "id": 6439301670,
-     "prix": 125
-    },
-    {
-     "id": 10209168868,
-     "prix": 129.99
-    },
-    {
-     "id": 10754754070,
-     "prix": 60
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:omega mecanique mecanisme|1": {
-   "date": 1794363201469,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:ingersoll taschino|4": {
-   "date": 1794363246675,
-   "mediane": null,
-   "echantillon": 2,
-   "dispersion": null,
-   "niveau": "modèle"
   },
   "modele:venezianico redentore ultrablack|2": {
    "date": 1794363336062,
@@ -32730,6 +32296,20 @@
    "echantillon": 1,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:glycine gl1060 relogio|4": {
+   "date": 1794535669063,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:lotus seiko chronograph|3": {
+   "date": 1794535798648,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -50938,8 +50518,8 @@
    "vu": 1793633350698
   },
   "56459794": {
-   "n": 18,
-   "vu": 1794534767618
+   "n": 19,
+   "vu": 1794535926685
   },
   "56468703": {
    "n": 3,
@@ -89990,8 +89570,8 @@
    "vu": 1793633350698
   },
   "258869715": {
-   "n": 9,
-   "vu": 1793806425414
+   "n": 10,
+   "vu": 1794535926685
   },
   "258884139": {
    "n": 12,
@@ -128502,8 +128082,8 @@
    "vu": 1794223544920
   },
   "3205841336": {
-   "n": 7,
-   "vu": 1794534895964
+   "n": 8,
+   "vu": 1794535155955
   },
   "3205934468": {
    "n": 2,
@@ -130932,9 +130512,9 @@
  },
  "bilan": {
   "depuis": 1794534121447,
-  "passages": 23,
-  "nouvelles": 9,
-  "marque": 6,
+  "passages": 45,
+  "nouvelles": 19,
+  "marque": 12,
   "etat": 0,
   "prix": 0,
   "accessoire": 0,
@@ -130942,9 +130522,9 @@
   "fausse": 0,
   "imitation": 0,
   "pro": 0,
-  "vendeurSpecialise": 1,
-  "sansCote": 1,
-  "chere": 1,
+  "vendeurSpecialise": 3,
+  "sansCote": 2,
+  "chere": 2,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
@@ -134239,7 +133819,8 @@
    "score": 72,
    "lien": "https://www.vinted.fr/items/10785994266-citizen-eco-drive",
    "date": 1794531547018,
-   "statut": null
+   "statut": "retiree",
+   "verifieA": 1794535156158
   },
   {
    "id": 10786106495,

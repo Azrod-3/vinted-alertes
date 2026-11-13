@@ -1,12 +1,5 @@
 {
  "vues": [
-  "10781710912",
-  "10781708403",
-  "10781707567",
-  "10781699731",
-  "10781699266",
-  "10781703063",
-  "10781701329",
   "10781702833",
   "10781702458",
   "10781684604",
@@ -3999,7 +3992,14 @@
   "10786859946",
   "10786865909",
   "10786863479",
-  "10786871577"
+  "10786871577",
+  "10785203117",
+  "10786888496",
+  "10785373766",
+  "10786901962",
+  "10786911838",
+  "10786919287",
+  "10786651638"
  ],
  "cotes": {
   "marque:fossil": {
@@ -7327,38 +7327,6 @@
    ],
    "niveau": "marque",
    "lissee": true
-  },
-  "modele:ice watch lambretta|2": {
-   "date": 1794371262524,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:lotus von|3": {
-   "date": 1794371263266,
-   "mediane": 75,
-   "echantillon": 3,
-   "dispersion": null,
-   "fourchette": [
-    45,
-    100
-   ],
-   "exemples": [
-    {
-     "id": 10402110786,
-     "prix": 75
-    },
-    {
-     "id": 10707861281,
-     "prix": 100
-    },
-    {
-     "id": 10757548765,
-     "prix": 45
-    }
-   ],
-   "niveau": "modèle"
   },
   "modele:longines hydroconquest gmt|2": {
    "date": 1794371876607,
@@ -30638,6 +30606,13 @@
   },
   "modele:alpina savonnette taschenuhr|2": {
    "date": 1794543275540,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:philip watch meccanico carica|2": {
+   "date": 1794544304616,
    "mediane": null,
    "echantillon": 1,
    "dispersion": null,
@@ -100485,6 +100460,10 @@
    "n": 2,
    "vu": 1794413852459
   },
+  "3126781431": {
+   "n": 2,
+   "vu": 1794544432605
+  },
   "3126808923": {
    "n": 13,
    "vu": 1793807527470
@@ -122925,6 +122904,10 @@
    "n": 36,
    "vu": 1793633350698
   },
+  "3194154228": {
+   "n": 2,
+   "vu": 1794544175766
+  },
   "3194154676": {
    "n": 2,
    "vu": 1794088069108
@@ -126098,8 +126081,8 @@
    "vu": 1794089355554
   },
   "3204748802": {
-   "n": 41,
-   "vu": 1794543403926
+   "n": 43,
+   "vu": 1794544047489
   },
   "3204751324": {
    "n": 3,
@@ -128880,19 +128863,19 @@
  },
  "bilan": {
   "depuis": 1794541337105,
-  "passages": 50,
-  "nouvelles": 24,
-  "marque": 14,
+  "passages": 72,
+  "nouvelles": 31,
+  "marque": 17,
   "etat": 0,
   "prix": 0,
   "accessoire": 2,
   "lot": 0,
-  "fausse": 0,
+  "fausse": 2,
   "imitation": 0,
   "pro": 0,
   "vendeurSpecialise": 0,
   "sansCote": 2,
-  "chere": 4,
+  "chere": 6,
   "description": 1,
   "scoreFaible": 0,
   "blocages": 0,

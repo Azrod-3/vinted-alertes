@@ -1,8 +1,5 @@
 {
  "vues": [
-  "10766844732",
-  "10766843099",
-  "10766860772",
   "10766866274",
   "10766864616",
   "10766892317",
@@ -3999,7 +3996,10 @@
   "10786562392",
   "10786610005",
   "10786614518",
-  "10786621918"
+  "10786621918",
+  "10786631295",
+  "10786646068",
+  "10786659343"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -5657,13 +5657,6 @@
    "niveau": "modèle",
    "lissee": true
   },
-  "modele:pentax p30 photocamera|2@3076": {
-   "date": 1794366874884,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
   "modele:canon sx160 powershot|2@3075": {
    "date": 1794433819742,
    "mediane": 95,
@@ -6599,182 +6592,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:sony dsc w210 cyber|1@3075": {
-   "date": 1794366746789,
-   "mediane": 85,
-   "echantillon": 16,
-   "dispersion": 0.31,
-   "fourchette": [
-    38,
-    120
-   ],
-   "exemples": [
-    {
-     "id": 10535276537,
-     "prix": 85
-    },
-    {
-     "id": 9969049224,
-     "prix": 85
-    },
-    {
-     "id": 10157230534,
-     "prix": 85
-    },
-    {
-     "id": 10166879505,
-     "prix": 84.5
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:nikon waist level|2@3076": {
-   "date": 1794366747475,
-   "mediane": 40,
-   "echantillon": 5,
-   "dispersion": 1.5,
-   "fourchette": [
-    40,
-    200
-   ],
-   "exemples": [
-    {
-     "id": 10501953067,
-     "prix": 40
-    },
-    {
-     "id": 10190947485,
-     "prix": 40
-    },
-    {
-     "id": 10081814635,
-     "prix": 40
-    },
-    {
-     "id": 10756157351,
-     "prix": 100
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:konica camara analogica|3@3076": {
-   "date": 1794367003054,
-   "mediane": 33,
-   "echantillon": 22,
-   "dispersion": 0.62,
-   "fourchette": [
-    13,
-    70
-   ],
-   "exemples": [
-    {
-     "id": 7873879445,
-     "prix": 35
-    },
-    {
-     "id": 10686370968,
-     "prix": 35
-    },
-    {
-     "id": 10618447338,
-     "prix": 35
-    },
-    {
-     "id": 7935241882,
-     "prix": 35
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:olympus om 1n analogica|1@3076": {
-   "date": 1794367067100,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:kodak vent|2@3075": {
-   "date": 1794367131407,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:nikon l27 y2k|2@3075": {
-   "date": 1794367195330,
-   "mediane": 65,
-   "echantillon": 3,
-   "dispersion": null,
-   "fourchette": [
-    50,
-    100
-   ],
-   "exemples": [
-    {
-     "id": 10756285478,
-     "prix": 65
-    },
-    {
-     "id": 10340178156,
-     "prix": 50
-    },
-    {
-     "id": 10645721158,
-     "prix": 100
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:canon a f8 prima|2@3076": {
-   "date": 1794367324322,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:canon sx240 powershot|2@3075": {
-   "date": 1794367390434,
-   "mediane": 180,
-   "echantillon": 8,
-   "dispersion": 0.45,
-   "fourchette": [
-    100,
-    240
-   ],
-   "exemples": [
-    {
-     "id": 10653946933,
-     "prix": 199
-    },
-    {
-     "id": 10498660743,
-     "prix": 160
-    },
-    {
-     "id": 10163060233,
-     "prix": 210
-    },
-    {
-     "id": 9256919413,
-     "prix": 220
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:samsung 105s 1050 zoom|1@3076": {
-   "date": 1794367391991,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:kodak 117x|2@3076": {
-   "date": 1794367456857,
-   "mediane": null,
-   "echantillon": 2,
-   "dispersion": null,
-   "niveau": "modèle"
   },
   "modele:olympus camara fotos|2@3075": {
    "date": 1794478457399,
@@ -46270,6 +46087,10 @@
    "n": 5,
    "vu": 1794164737110
   },
+  "249751867": {
+   "n": 3,
+   "vu": 1794539781455
+  },
   "249770130": {
    "n": 2,
    "vu": 1794145123241
@@ -51037,8 +50858,8 @@
  },
  "bilan": {
   "depuis": 1794536555368,
-  "passages": 44,
-  "nouvelles": 8,
+  "passages": 59,
+  "nouvelles": 11,
   "marque": 1,
   "etat": 0,
   "prix": 0,
@@ -51048,7 +50869,7 @@
   "imitation": 0,
   "pro": 2,
   "vendeurSpecialise": 0,
-  "sansCote": 3,
+  "sansCote": 6,
   "chere": 2,
   "description": 0,
   "scoreFaible": 0,

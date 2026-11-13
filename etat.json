@@ -1,19 +1,5 @@
 {
  "vues": [
-  "10778980192",
-  "10778980627",
-  "10778974239",
-  "10778966055",
-  "10778995908",
-  "10778998337",
-  "10778994789",
-  "10778996061",
-  "10778994408",
-  "10778996010",
-  "10778996798",
-  "10778993636",
-  "10778992507",
-  "10778993359",
   "10778975694",
   "10778990242",
   "10778983190",
@@ -3999,7 +3985,21 @@
   "10785903183",
   "10785899486",
   "10785899754",
-  "10781018292"
+  "10781018292",
+  "10785937092",
+  "10785936366",
+  "10785935288",
+  "10785933205",
+  "10785947565",
+  "10785951345",
+  "10785950382",
+  "10785964553",
+  "10785961680",
+  "10785982174",
+  "10785978592",
+  "10785977279",
+  "10785974070",
+  "10785989785"
  ],
  "cotes": {
   "marque:fossil": {
@@ -7148,64 +7148,6 @@
    "niveau": "marque",
    "lissee": true
   },
-  "modele:timex indiglo|3": {
-   "date": 1794357864964,
-   "mediane": 40,
-   "echantillon": 40,
-   "dispersion": 0.5,
-   "fourchette": [
-    10,
-    80
-   ],
-   "exemples": [
-    {
-     "id": 10144979429,
-     "prix": 40
-    },
-    {
-     "id": 10440188561,
-     "prix": 40
-    },
-    {
-     "id": 9385450693,
-     "prix": 39.99
-    },
-    {
-     "id": 10538985786,
-     "prix": 39
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:tissot cadran bicolore|2": {
-   "date": 1794357952842,
-   "mediane": 131,
-   "echantillon": 4,
-   "dispersion": 0.13,
-   "fourchette": [
-    120,
-    165
-   ],
-   "exemples": [
-    {
-     "id": 9606984651,
-     "prix": 122.5
-    },
-    {
-     "id": 10627711025,
-     "prix": 140
-    },
-    {
-     "id": 10600443475,
-     "prix": 120
-    },
-    {
-     "id": 10752976561,
-     "prix": 165
-    }
-   ],
-   "niveau": "modèle"
-  },
   "marque:poljot": {
    "date": 1794485237119,
    "mediane": 133,
@@ -7235,138 +7177,6 @@
    ],
    "niveau": "marque",
    "lissee": true
-  },
-  "modele:poljot sovietico piljot|2": {
-   "date": 1794357954319,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:longines 350 cal|2": {
-   "date": 1794357999114,
-   "mediane": null,
-   "echantillon": 2,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:bulova 96a120 herrenuhr|2": {
-   "date": 1794357999893,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:vostok komandirskie urss|1": {
-   "date": 1794358133020,
-   "mediane": 90,
-   "echantillon": 25,
-   "dispersion": 0.33,
-   "fourchette": [
-    32,
-    155
-   ],
-   "exemples": [
-    {
-     "id": 10498020485,
-     "prix": 89.9
-    },
-    {
-     "id": 10603435203,
-     "prix": 85
-    },
-    {
-     "id": 4784973611,
-     "prix": 95
-    },
-    {
-     "id": 6089148981,
-     "prix": 95
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:festina 16170 coffret|2": {
-   "date": 1794358133606,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:lorus uomo|3": {
-   "date": 1794358177998,
-   "mediane": 30,
-   "echantillon": 11,
-   "dispersion": 0.83,
-   "fourchette": [
-    8,
-    49.99
-   ],
-   "exemples": [
-    {
-     "id": 10534901656,
-     "prix": 30
-    },
-    {
-     "id": 10212014400,
-     "prix": 32
-    },
-    {
-     "id": 10722324503,
-     "prix": 40
-    },
-    {
-     "id": 10328984750,
-     "prix": 20
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:citizen tank tonneau|2": {
-   "date": 1794358222387,
-   "mediane": null,
-   "echantillon": 2,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:lotus acero oro|4": {
-   "date": 1794358223163,
-   "mediane": null,
-   "echantillon": 2,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:tissot 100 two|2": {
-   "date": 1794358355138,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:breil tw0442 cronografo|1": {
-   "date": 1794358574338,
-   "mediane": 35,
-   "echantillon": 3,
-   "dispersion": null,
-   "fourchette": [
-    35,
-    38
-   ],
-   "exemples": [
-    {
-     "id": 10753144672,
-     "prix": 35
-    },
-    {
-     "id": 9987517230,
-     "prix": 35
-    },
-    {
-     "id": 10359301800,
-     "prix": 38
-    }
-   ],
-   "niveau": "modèle"
   },
   "modele:festina anos|1": {
    "date": 1794358618589,
@@ -34075,6 +33885,35 @@
    "mediane": null,
    "echantillon": 1,
    "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:vagary citizen|1": {
+   "date": 1794530898741,
+   "mediane": 32,
+   "echantillon": 26,
+   "dispersion": 0.78,
+   "fourchette": [
+    13,
+    80
+   ],
+   "exemples": [
+    {
+     "id": 10785947565,
+     "prix": 30
+    },
+    {
+     "id": 10724445073,
+     "prix": 30
+    },
+    {
+     "id": 10761474794,
+     "prix": 34
+    },
+    {
+     "id": 10739646704,
+     "prix": 30
+    }
+   ],
    "niveau": "modèle"
   }
  },
@@ -79887,6 +79726,10 @@
    "n": 16,
    "vu": 1794154364604
   },
+  "191112972": {
+   "n": 2,
+   "vu": 1794530769563
+  },
   "191123624": {
    "n": 2,
    "vu": 1793698605576
@@ -84987,6 +84830,10 @@
    "n": 6,
    "vu": 1794433025557
   },
+  "229501982": {
+   "n": 2,
+   "vu": 1794531285306
+  },
   "229511626": {
    "n": 9,
    "vu": 1793633350698
@@ -89375,6 +89222,10 @@
    "n": 5,
    "vu": 1793651400721
   },
+  "251997038": {
+   "n": 3,
+   "vu": 1794531413903
+  },
   "252010081": {
    "n": 9,
    "vu": 1793633350698
@@ -93094,6 +92945,10 @@
   "266415032": {
    "n": 5,
    "vu": 1794495256467
+  },
+  "266456522": {
+   "n": 2,
+   "vu": 1794530769563
   },
   "266461497": {
    "n": 2,
@@ -112180,8 +112035,8 @@
    "vu": 1793917498863
   },
   "3157420388": {
-   "n": 43,
-   "vu": 1794377270188
+   "n": 44,
+   "vu": 1794531156247
   },
   "3157423571": {
    "n": 20,
@@ -130016,8 +129871,8 @@
    "vu": 1793829810281
   },
   "3206759345": {
-   "n": 2,
-   "vu": 1794530124103
+   "n": 3,
+   "vu": 1794531285306
   },
   "3206808194": {
    "n": 7,
@@ -132242,19 +132097,19 @@
  },
  "bilan": {
   "depuis": 1794530510374,
-  "passages": 0,
-  "nouvelles": 0,
-  "marque": 0,
+  "passages": 21,
+  "nouvelles": 14,
+  "marque": 10,
   "etat": 0,
-  "prix": 0,
+  "prix": 2,
   "accessoire": 0,
   "lot": 0,
   "fausse": 0,
   "imitation": 0,
   "pro": 0,
-  "vendeurSpecialise": 0,
+  "vendeurSpecialise": 1,
   "sansCote": 0,
-  "chere": 0,
+  "chere": 1,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,

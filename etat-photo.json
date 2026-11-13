@@ -1,18 +1,5 @@
 {
  "vues": [
-  "10766614103",
-  "10766629340",
-  "10766628742",
-  "10766623498",
-  "10766619490",
-  "10766644960",
-  "10766639501",
-  "10766658238",
-  "10766649648",
-  "10766642445",
-  "10766675240",
-  "10766686886",
-  "10766679853",
   "10766682606",
   "10766678881",
   "10766715737",
@@ -3999,7 +3986,20 @@
   "10785644346",
   "10785640857",
   "10785638668",
-  "10785652208"
+  "10785652208",
+  "10785685343",
+  "10785678950",
+  "10785673921",
+  "10785686872",
+  "10785717523",
+  "10785715103",
+  "10785716086",
+  "10785742799",
+  "10785736305",
+  "10785749596",
+  "10785722395",
+  "10785765747",
+  "10785763707"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -6701,297 +6701,6 @@
    "niveau": "modèle",
    "lissee": true
   },
-  "modele:samsung l50 digimax|2@3075": {
-   "date": 1794355132356,
-   "mediane": 40,
-   "echantillon": 8,
-   "dispersion": 0.13,
-   "fourchette": [
-    30,
-    50
-   ],
-   "exemples": [
-    {
-     "id": 10680808355,
-     "prix": 40
-    },
-    {
-     "id": 10603213111,
-     "prix": 40
-    },
-    {
-     "id": 8804444681,
-     "prix": 40
-    },
-    {
-     "id": 10752123593,
-     "prix": 45
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:canon 300 canone|4@3076": {
-   "date": 1794355259531,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:nikon s620 coolpix|2@3075": {
-   "date": 1794355388538,
-   "mediane": 85,
-   "echantillon": 16,
-   "dispersion": 0.47,
-   "fourchette": [
-    35,
-    165
-   ],
-   "exemples": [
-    {
-     "id": 5875533671,
-     "prix": 90
-    },
-    {
-     "id": 9741045281,
-     "prix": 90
-    },
-    {
-     "id": 10720830355,
-     "prix": 90
-    },
-    {
-     "id": 9978699584,
-     "prix": 80
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:olympus 140 superzoom|2@3076": {
-   "date": 1794355389324,
-   "mediane": 60,
-   "echantillon": 3,
-   "dispersion": null,
-   "fourchette": [
-    42,
-    120
-   ],
-   "exemples": [
-    {
-     "id": 10752350786,
-     "prix": 59.99
-    },
-    {
-     "id": 10619534930,
-     "prix": 42
-    },
-    {
-     "id": 10241270311,
-     "prix": 120
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:minolta vectis aps|2@3076": {
-   "date": 1794355390321,
-   "mediane": 18,
-   "echantillon": 47,
-   "dispersion": 0.61,
-   "fourchette": [
-    6,
-    40
-   ],
-   "exemples": [
-    {
-     "id": 9441471635,
-     "prix": 18
-    },
-    {
-     "id": 8502745149,
-     "prix": 17.99
-    },
-    {
-     "id": 10362035470,
-     "prix": 17.5
-    },
-    {
-     "id": 9427376458,
-     "prix": 17
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:nikon f65|1@3076": {
-   "date": 1794355518332,
-   "mediane": 50,
-   "echantillon": 79,
-   "dispersion": 0.58,
-   "fourchette": [
-    15,
-    100
-   ],
-   "exemples": [
-    {
-     "id": 10622445499,
-     "prix": 50
-    },
-    {
-     "id": 10513886659,
-     "prix": 50
-    },
-    {
-     "id": 7628710488,
-     "prix": 50
-    },
-    {
-     "id": 8438502297,
-     "prix": 50
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:minolta f 3 5 riva|1@3076": {
-   "date": 1794355582319,
-   "mediane": null,
-   "echantillon": 2,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:nikon s51 coolpix|2@3075": {
-   "date": 1794355646739,
-   "mediane": 55,
-   "echantillon": 10,
-   "dispersion": 0.2,
-   "fourchette": [
-    44,
-    79
-   ],
-   "exemples": [
-    {
-     "id": 10752240280,
-     "prix": 55
-    },
-    {
-     "id": 10730364119,
-     "prix": 55
-    },
-    {
-     "id": 8018041559,
-     "prix": 55
-    },
-    {
-     "id": 10470959878,
-     "prix": 51
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:zenit 44m 5 helios|2@3076": {
-   "date": 1794355647584,
-   "mediane": 55,
-   "echantillon": 6,
-   "dispersion": 0.45,
-   "fourchette": [
-    20,
-    90
-   ],
-   "exemples": [
-    {
-     "id": 10752436446,
-     "prix": 50
-    },
-    {
-     "id": 10241795239,
-     "prix": 60
-    },
-    {
-     "id": 9936891321,
-     "prix": 60
-    },
-    {
-     "id": 10467549058,
-     "prix": 35
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:ricoh 500 analoge|2@3076": {
-   "date": 1794355648308,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:olympus sp 620uz megapixel|3@3075": {
-   "date": 1794355838770,
-   "mediane": 50,
-   "echantillon": 3,
-   "dispersion": null,
-   "fourchette": [
-    50,
-    60
-   ],
-   "exemples": [
-    {
-     "id": 10752472397,
-     "prix": 50
-    },
-    {
-     "id": 8547347490,
-     "prix": 50
-    },
-    {
-     "id": 5887364355,
-     "prix": 60
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:voigtlander r2 bessa|1@3076": {
-   "date": 1794355840278,
-   "mediane": 1250,
-   "echantillon": 3,
-   "dispersion": null,
-   "fourchette": [
-    950,
-    1850
-   ],
-   "exemples": [
-    {
-     "id": 8642964457,
-     "prix": 1250
-    },
-    {
-     "id": 10752482881,
-     "prix": 950
-    },
-    {
-     "id": 8642924859,
-     "prix": 1850
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:fujifilm a101 y2k|1@3075": {
-   "date": 1794355970001,
-   "mediane": null,
-   "echantillon": 2,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:fujifilm jv200 y2k|2@3075": {
-   "date": 1794355970675,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:canon z70w sure|2@3076": {
-   "date": 1794355971389,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
   "modele:canon 3000 eos|2@3076": {
    "date": 1794494421849,
    "mediane": 50,
@@ -7021,35 +6730,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:konica bm 201 big|1@3076": {
-   "date": 1794356036931,
-   "mediane": 168,
-   "echantillon": 6,
-   "dispersion": 0.24,
-   "fourchette": [
-    100,
-    220
-   ],
-   "exemples": [
-    {
-     "id": 10484205677,
-     "prix": 175
-    },
-    {
-     "id": 10622509985,
-     "prix": 160
-    },
-    {
-     "id": 10752527322,
-     "prix": 160
-    },
-    {
-     "id": 10207452444,
-     "prix": 199.99
-    }
-   ],
-   "niveau": "modèle"
   },
   "modele:panasonic lumix dmc|2@3075": {
    "date": 1794356164826,
@@ -44133,6 +43813,20 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "modele:canon k100d camara|2@3075": {
+   "date": 1794527987682,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:nikon s1450 coolpix|1@3075": {
+   "date": 1794528366903,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -49085,8 +48779,8 @@
    "vu": 1793723103157
   },
   "143430597": {
-   "n": 12,
-   "vu": 1794433977596
+   "n": 13,
+   "vu": 1794528619866
   },
   "143439353": {
    "n": 3,
@@ -50237,8 +49931,8 @@
    "vu": 1793910923495
   },
   "224344303": {
-   "n": 6,
-   "vu": 1794527603337
+   "n": 8,
+   "vu": 1794528871842
   },
   "225948690": {
    "n": 2,
@@ -50471,6 +50165,10 @@
   "237364827": {
    "n": 7,
    "vu": 1794005374271
+  },
+  "238028819": {
+   "n": 2,
+   "vu": 1794528366042
   },
   "238218230": {
    "n": 2,
@@ -50713,8 +50411,8 @@
    "vu": 1793829329225
   },
   "248638618": {
-   "n": 11,
-   "vu": 1794451676180
+   "n": 12,
+   "vu": 1794527986998
   },
   "248653797": {
    "n": 2,
@@ -52809,8 +52507,8 @@
    "vu": 1794515117148
   },
   "3138957823": {
-   "n": 49,
-   "vu": 1794527603337
+   "n": 50,
+   "vu": 1794528493674
   },
   "3139204198": {
    "n": 4,
@@ -55507,18 +55205,18 @@
  },
  "bilan": {
   "depuis": 1794522093812,
-  "passages": 70,
-  "nouvelles": 111,
-  "marque": 18,
-  "etat": 6,
-  "prix": 3,
+  "passages": 85,
+  "nouvelles": 124,
+  "marque": 19,
+  "etat": 9,
+  "prix": 4,
   "accessoire": 1,
   "lot": 0,
   "fausse": 0,
   "imitation": 0,
-  "pro": 5,
-  "vendeurSpecialise": 9,
-  "sansCote": 40,
+  "pro": 7,
+  "vendeurSpecialise": 10,
+  "sansCote": 45,
   "chere": 28,
   "description": 0,
   "scoreFaible": 0,

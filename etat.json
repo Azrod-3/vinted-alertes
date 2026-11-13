@@ -1,14 +1,5 @@
 {
  "vues": [
-  "10781736349",
-  "10781735395",
-  "10781734683",
-  "10781734680",
-  "10781682582",
-  "10781730108",
-  "10781592229",
-  "10707619538",
-  "10781729836",
   "10781729705",
   "10781725183",
   "10781727016",
@@ -3999,7 +3990,16 @@
   "10786758027",
   "10786758414",
   "10786775524",
-  "10785167362"
+  "10785167362",
+  "10786778897",
+  "10786791789",
+  "10786800778",
+  "10786803690",
+  "10786812001",
+  "10786820396",
+  "10786828801",
+  "10786827376",
+  "10730503074"
  ],
  "cotes": {
   "marque:fossil": {
@@ -4573,30 +4573,30 @@
    "lissee": true
   },
   "marque:timex": {
-   "date": 1794439492782,
-   "mediane": 124,
+   "date": 1794542370141,
+   "mediane": 118,
    "echantillon": 73,
-   "dispersion": 0.79,
+   "dispersion": 0.87,
    "fourchette": [
     29,
-    270
+    250
    ],
    "exemples": [
     {
-     "id": 10731852729,
-     "prix": 120
+     "id": 10701572580,
+     "prix": 115
     },
     {
-     "id": 10689149256,
-     "prix": 120
+     "id": 10772261423,
+     "prix": 115
     },
     {
-     "id": 10669824382,
-     "prix": 120
+     "id": 10654990086,
+     "prix": 114
     },
     {
-     "id": 10194648020,
-     "prix": 120
+     "id": 10775228873,
+     "prix": 119
     }
    ],
    "niveau": "marque",
@@ -7327,35 +7327,6 @@
    ],
    "niveau": "marque",
    "lissee": true
-  },
-  "modele:pulsar classique|2": {
-   "date": 1794369244267,
-   "mediane": 31,
-   "echantillon": 4,
-   "dispersion": 0.08,
-   "fourchette": [
-    16.5,
-    39
-   ],
-   "exemples": [
-    {
-     "id": 7015409098,
-     "prix": 30
-    },
-    {
-     "id": 10517568171,
-     "prix": 32.5
-    },
-    {
-     "id": 1453523800,
-     "prix": 39
-    },
-    {
-     "id": 10521925704,
-     "prix": 16.5
-    }
-   ],
-   "niveau": "modèle"
   },
   "modele:ice watch lambretta|2": {
    "date": 1794371262524,
@@ -30578,6 +30549,88 @@
   },
   "modele:fossil ch 2538 cronografo|4": {
    "date": 1794541079240,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:invicta relogio dourado|4": {
+   "date": 1794541724982,
+   "mediane": 120,
+   "echantillon": 3,
+   "dispersion": null,
+   "fourchette": [
+    60,
+    130
+   ],
+   "exemples": [
+    {
+     "id": 10334202595,
+     "prix": 119.9
+    },
+    {
+     "id": 10786778897,
+     "prix": 130
+    },
+    {
+     "id": 10781738154,
+     "prix": 60
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:invicta relogio prateado|4": {
+   "date": 1794541983012,
+   "mediane": null,
+   "echantillon": 2,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:citizen premium eco|1": {
+   "date": 1794542240326,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:timex t5k502 marathon|1": {
+   "date": 1794542370656,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:mondaine swiss|2": {
+   "date": 1794542501283,
+   "mediane": 100,
+   "echantillon": 33,
+   "dispersion": 0.45,
+   "fourchette": [
+    45,
+    200
+   ],
+   "exemples": [
+    {
+     "id": 9882799774,
+     "prix": 100
+    },
+    {
+     "id": 10048068728,
+     "prix": 99
+    },
+    {
+     "id": 10035523568,
+     "prix": 105
+    },
+    {
+     "id": 10635079900,
+     "prix": 108
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:pulsar herrenarmbanduhr neue|1": {
+   "date": 1794542501772,
    "mediane": null,
    "echantillon": 1,
    "dispersion": null,
@@ -55080,6 +55133,10 @@
   "72573120": {
    "n": 7,
    "vu": 1793633350698
+  },
+  "72579948": {
+   "n": 2,
+   "vu": 1794541982296
   },
   "72583148": {
    "n": 11,
@@ -95566,8 +95623,8 @@
    "vu": 1793633350698
   },
   "292360371": {
-   "n": 2,
-   "vu": 1794541078693
+   "n": 3,
+   "vu": 1794542499944
   },
   "292385466": {
    "n": 6,
@@ -128812,9 +128869,9 @@
  },
  "bilan": {
   "depuis": 1794541337105,
-  "passages": 7,
-  "nouvelles": 2,
-  "marque": 2,
+  "passages": 28,
+  "nouvelles": 11,
+  "marque": 5,
   "etat": 0,
   "prix": 0,
   "accessoire": 0,
@@ -128823,27 +128880,16 @@
   "imitation": 0,
   "pro": 0,
   "vendeurSpecialise": 0,
-  "sansCote": 0,
-  "chere": 0,
-  "description": 0,
+  "sansCote": 2,
+  "chere": 2,
+  "description": 1,
   "scoreFaible": 0,
   "blocages": 0,
-  "alertes": 0
+  "alertes": 1
  },
  "panne": null,
  "panneDebut": null,
  "suivi": [
-  {
-   "id": 10758686040,
-   "titre": "Reloj Citizen Eco Drive Cronógrafo",
-   "prix": 50,
-   "cote": 144,
-   "score": 75,
-   "lien": "https://www.vinted.fr/items/10758686040-reloj-citizen-eco-drive-cronografo",
-   "date": 1794387219899,
-   "statut": "en vente",
-   "verifieA": 1794390841643
-  },
   {
    "id": 10758690988,
    "titre": "Orologio automatico Rotary",
@@ -132132,6 +132178,16 @@
    "date": 1794532834109,
    "statut": "en vente",
    "verifieA": 1794536441468
+  },
+  {
+   "id": 10786812001,
+   "titre": "Premium Citizen Eco-drive premium watch",
+   "prix": 30,
+   "cote": 155,
+   "score": 65,
+   "lien": "https://www.vinted.fr/items/10786812001-premium-citizen-eco-drive-premium-watch",
+   "date": 1794542241134,
+   "statut": null
   }
  ],
  "dernierRecap": "2026-11-12"

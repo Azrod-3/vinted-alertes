@@ -1,8 +1,5 @@
 {
  "vues": [
-  "10781750390",
-  "10781748297",
-  "10781739842",
   "10781744714",
   "10781747069",
   "10781747964",
@@ -3999,7 +3996,10 @@
   "10786613362",
   "10786652816",
   "10786648132",
-  "10786659987"
+  "10786659987",
+  "10786698441",
+  "10786704648",
+  "10786713589"
  ],
  "cotes": {
   "marque:fossil": {
@@ -7327,129 +7327,6 @@
    ],
    "niveau": "marque",
    "lissee": true
-  },
-  "modele:lip croix sud|2": {
-   "date": 1794367073790,
-   "mediane": 45,
-   "echantillon": 72,
-   "dispersion": 0.64,
-   "fourchette": [
-    17.48,
-    110
-   ],
-   "exemples": [
-    {
-     "id": 10539741098,
-     "prix": 45
-    },
-    {
-     "id": 10715943035,
-     "prix": 45
-    },
-    {
-     "id": 10599440786,
-     "prix": 45
-    },
-    {
-     "id": 10024069024,
-     "prix": 45
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:orient ra tx0203s10b chronograph|2": {
-   "date": 1794367118029,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:fossil relogio masculino|4": {
-   "date": 1794367515587,
-   "mediane": 80,
-   "echantillon": 5,
-   "dispersion": 0.13,
-   "fourchette": [
-    65,
-    119.99
-   ],
-   "exemples": [
-    {
-     "id": 10756759982,
-     "prix": 80
-    },
-    {
-     "id": 9789724155,
-     "prix": 80
-    },
-    {
-     "id": 10686617057,
-     "prix": 70
-    },
-    {
-     "id": 3446728899,
-     "prix": 65
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:fossil automatique cadran|2": {
-   "date": 1794367516511,
-   "mediane": 95,
-   "echantillon": 12,
-   "dispersion": 0.26,
-   "fourchette": [
-    59,
-    130
-   ],
-   "exemples": [
-    {
-     "id": 10486629630,
-     "prix": 95
-    },
-    {
-     "id": 10612266652,
-     "prix": 95
-    },
-    {
-     "id": 10740493855,
-     "prix": 100
-    },
-    {
-     "id": 10494722558,
-     "prix": 89
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:tudor 72033 prince|2": {
-   "date": 1794367649350,
-   "mediane": 1320,
-   "echantillon": 14,
-   "dispersion": 0.42,
-   "fourchette": [
-    970,
-    2360
-   ],
-   "exemples": [
-    {
-     "id": 10134777723,
-     "prix": 1349
-    },
-    {
-     "id": 10580351335,
-     "prix": 1290
-    },
-    {
-     "id": 8477145946,
-     "prix": 1350
-    },
-    {
-     "id": 10678941351,
-     "prix": 1200
-    }
-   ],
-   "niveau": "modèle"
   },
   "modele:festina relogio homem|2": {
    "date": 1794368356737,
@@ -121544,6 +121421,10 @@
    "n": 7,
    "vu": 1793633350698
   },
+  "3189914266": {
+   "n": 2,
+   "vu": 1794540434499
+  },
   "3189922595": {
    "n": 2,
    "vu": 1794079397121
@@ -128999,9 +128880,9 @@
  },
  "bilan": {
   "depuis": 1794537730556,
-  "passages": 48,
-  "nouvelles": 14,
-  "marque": 9,
+  "passages": 70,
+  "nouvelles": 17,
+  "marque": 11,
   "etat": 0,
   "prix": 0,
   "accessoire": 0,
@@ -129011,7 +128892,7 @@
   "pro": 0,
   "vendeurSpecialise": 1,
   "sansCote": 4,
-  "chere": 0,
+  "chere": 1,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,

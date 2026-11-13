@@ -1,38 +1,5 @@
 {
  "vues": [
-  "10775476502",
-  "10775477222",
-  "10775476226",
-  "10775484461",
-  "10775475169",
-  "10775489233",
-  "10775507560",
-  "10775496492",
-  "10775496846",
-  "10775507070",
-  "10775514528",
-  "10775515923",
-  "10775503877",
-  "10775533672",
-  "10775532075",
-  "10775534130",
-  "10775522870",
-  "10775545186",
-  "10775543632",
-  "10775543449",
-  "10775544060",
-  "10775450054",
-  "10775225819",
-  "10775554484",
-  "10775550651",
-  "10775550708",
-  "10775543159",
-  "10775545074",
-  "10775562165",
-  "10775562248",
-  "10775567722",
-  "10775582936",
-  "10775578732",
   "10775588751",
   "10775584593",
   "10775605082",
@@ -3999,7 +3966,40 @@
   "10793462899",
   "10793477507",
   "10793480447",
-  "10793481642"
+  "10793481642",
+  "10793500746",
+  "10793502158",
+  "10793501597",
+  "10793499343",
+  "10793496782",
+  "10793506820",
+  "10793521261",
+  "10793517613",
+  "10793515272",
+  "10793531012",
+  "10793547699",
+  "10793549684",
+  "10789330114",
+  "10793542464",
+  "10793545614",
+  "10793473815",
+  "10793563297",
+  "10793563575",
+  "10793559273",
+  "10793557744",
+  "10793560151",
+  "10793559530",
+  "10793555046",
+  "10793576308",
+  "10793571330",
+  "10793599293",
+  "10793589715",
+  "10793591744",
+  "10793589524",
+  "10793609370",
+  "10793612432",
+  "10793605190",
+  "10793598042"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -5784,30 +5784,30 @@
    "lissee": true
   },
   "modele:nikon coolpix|2@3075": {
-   "date": 1794489035125,
-   "mediane": 52,
-   "echantillon": 83,
-   "dispersion": 0.8,
+   "date": 1794586865446,
+   "mediane": 58,
+   "echantillon": 81,
+   "dispersion": 0.63,
    "fourchette": [
-    13,
-    125
+    15,
+    130
    ],
    "exemples": [
     {
-     "id": 10582135619,
-     "prix": 50
+     "id": 10788897569,
+     "prix": 60
     },
     {
-     "id": 10760336242,
-     "prix": 50
+     "id": 10792504588,
+     "prix": 60
     },
     {
-     "id": 10776363599,
-     "prix": 50
+     "id": 10789543782,
+     "prix": 60
     },
     {
-     "id": 10775592943,
-     "prix": 50
+     "id": 10767269282,
+     "prix": 60
     }
    ],
    "niveau": "modèle",
@@ -6936,85 +6936,6 @@
    "niveau": "modèle",
    "lissee": true
   },
-  "modele:fujifilm z10 camara|1@3075": {
-   "date": 1794414049015,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:canon 550d eos|1@3075": {
-   "date": 1794414113910,
-   "mediane": 147,
-   "echantillon": 78,
-   "dispersion": 0.38,
-   "fourchette": [
-    70,
-    250
-   ],
-   "exemples": [
-    {
-     "id": 10695421502,
-     "prix": 149
-    },
-    {
-     "id": 10322109589,
-     "prix": 145
-    },
-    {
-     "id": 10659848594,
-     "prix": 145
-    },
-    {
-     "id": 10201605961,
-     "prix": 149.99
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:fujifilm jx200 finepix|2@3075": {
-   "date": 1794414115348,
-   "mediane": 65,
-   "echantillon": 10,
-   "dispersion": 0.46,
-   "fourchette": [
-    40,
-    95
-   ],
-   "exemples": [
-    {
-     "id": 10088458680,
-     "prix": 65
-    },
-    {
-     "id": 10021241790,
-     "prix": 65
-    },
-    {
-     "id": 6106097860,
-     "prix": 69
-    },
-    {
-     "id": 10705980852,
-     "prix": 59.9
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:olympus 130 batterij|1@3075": {
-   "date": 1794414116113,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:agfa 50er 6024|1@3076": {
-   "date": 1794414116948,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
   "modele:panasonic dmc tz5 lumix|1@3075": {
    "date": 1794515635310,
    "mediane": 70,
@@ -7044,183 +6965,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:canon a470 powershot|1@3075": {
-   "date": 1794414182136,
-   "mediane": 89,
-   "echantillon": 17,
-   "dispersion": 0.34,
-   "fourchette": [
-    65,
-    125
-   ],
-   "exemples": [
-    {
-     "id": 10479803811,
-     "prix": 89
-    },
-    {
-     "id": 10264369930,
-     "prix": 90
-    },
-    {
-     "id": 8714800797,
-     "prix": 90
-    },
-    {
-     "id": 9660308501,
-     "prix": 85
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:canon carica batteria|3@3075": {
-   "date": 1794414183123,
-   "mediane": 25,
-   "echantillon": 3,
-   "dispersion": null,
-   "fourchette": [
-    12,
-    30
-   ],
-   "exemples": [
-    {
-     "id": 10502451069,
-     "prix": 25
-    },
-    {
-     "id": 10164859355,
-     "prix": 30
-    },
-    {
-     "id": 10765928425,
-     "prix": 12
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:kodak c140 easyshare|2@3075": {
-   "date": 1794414247488,
-   "mediane": 50,
-   "echantillon": 10,
-   "dispersion": 0.4,
-   "fourchette": [
-    35,
-    70
-   ],
-   "exemples": [
-    {
-     "id": 10373511626,
-     "prix": 50
-    },
-    {
-     "id": 7996600083,
-     "prix": 50
-    },
-    {
-     "id": 10435865851,
-     "prix": 43
-    },
-    {
-     "id": 10574609607,
-     "prix": 59.99
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:nikon a10 coolpix|4@3075": {
-   "date": 1794414375841,
-   "mediane": 79,
-   "echantillon": 16,
-   "dispersion": 0.25,
-   "fourchette": [
-    40,
-    125
-   ],
-   "exemples": [
-    {
-     "id": 10100872534,
-     "prix": 79
-    },
-    {
-     "id": 7864481135,
-     "prix": 79
-    },
-    {
-     "id": 9252809737,
-     "prix": 75
-    },
-    {
-     "id": 9960024050,
-     "prix": 85
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:ricoh r1|1@3076": {
-   "date": 1794414440031,
-   "mediane": null,
-   "echantillon": 2,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:sony y2k dsc w50|2@3075": {
-   "date": 1794414505045,
-   "mediane": 94,
-   "echantillon": 5,
-   "dispersion": 0.2,
-   "fourchette": [
-    60,
-    125
-   ],
-   "exemples": [
-    {
-     "id": 10751159068,
-     "prix": 94
-    },
-    {
-     "id": 9410244357,
-     "prix": 86
-    },
-    {
-     "id": 10756683080,
-     "prix": 105
-    },
-    {
-     "id": 10253407918,
-     "prix": 125
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:canon 814 auto|1@3076": {
-   "date": 1794414505889,
-   "mediane": 150,
-   "echantillon": 5,
-   "dispersion": 0.27,
-   "fourchette": [
-    70,
-    300
-   ],
-   "exemples": [
-    {
-     "id": 10752750313,
-     "prix": 150
-    },
-    {
-     "id": 7455892343,
-     "prix": 150
-    },
-    {
-     "id": 7801265179,
-     "prix": 110
-    },
-    {
-     "id": 7835878884,
-     "prix": 70
-    }
-   ],
-   "niveau": "modèle"
   },
   "modele:fujifilm j10 fine|2@3075": {
    "date": 1794414570591,
@@ -10853,30 +10597,30 @@
    "niveau": "modèle"
   },
   "modele:panasonic lumix digitalkamera|1@3075": {
-   "date": 1794421725830,
-   "mediane": 59,
-   "echantillon": 56,
-   "dispersion": 0.66,
+   "date": 1794587321536,
+   "mediane": 63,
+   "echantillon": 55,
+   "dispersion": 0.54,
    "fourchette": [
-    20,
+    21,
     139.86
    ],
    "exemples": [
     {
-     "id": 10706554297,
-     "prix": 60
+     "id": 10793609370,
+     "prix": 65
     },
     {
-     "id": 10499998693,
-     "prix": 60
+     "id": 10653156201,
+     "prix": 65
     },
     {
-     "id": 9921899745,
-     "prix": 60
+     "id": 10726255083,
+     "prix": 65
     },
     {
-     "id": 10372278210,
-     "prix": 58
+     "id": 10466954460,
+     "prix": 65
     }
    ],
    "niveau": "modèle",
@@ -21962,15 +21706,19 @@
    "niveau": "modèle"
   },
   "modele:kodak 100 instamatic|1@3076": {
-   "date": 1794491630467,
+   "date": 1794586866426,
    "mediane": 10,
-   "echantillon": 65,
+   "echantillon": 68,
    "dispersion": 0.7,
    "fourchette": [
     3,
     25
    ],
    "exemples": [
+    {
+     "id": 10562971210,
+     "prix": 10
+    },
     {
      "id": 10778079255,
      "prix": 10
@@ -21980,15 +21728,12 @@
      "prix": 10
     },
     {
-     "id": 10562971210,
-     "prix": 10
-    },
-    {
-     "id": 10566317395,
+     "id": 10037092585,
      "prix": 10
     }
    ],
-   "niveau": "modèle"
+   "niveau": "modèle",
+   "lissee": true
   },
   "modele:canon ae 1 analog|1@3076": {
    "date": 1794491694758,
@@ -39685,6 +39430,218 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "modele:canon 3000v eos|2@3075": {
+   "date": 1794586930473,
+   "mediane": null,
+   "echantillon": 2,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:ricoh kr 10 spiegelreflexcamera|1@3076": {
+   "date": 1794586931178,
+   "mediane": 50,
+   "echantillon": 3,
+   "dispersion": null,
+   "fourchette": [
+    25,
+    120
+   ],
+   "exemples": [
+    {
+     "id": 9747805291,
+     "prix": 50
+    },
+    {
+     "id": 10793517613,
+     "prix": 25
+    },
+    {
+     "id": 10128460077,
+     "prix": 120
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:lomography lomo subaquatica|3@3076": {
+   "date": 1794586931914,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:samsung 40s fino|2@3076": {
+   "date": 1794586996062,
+   "mediane": 49,
+   "echantillon": 5,
+   "dispersion": 0.41,
+   "fourchette": [
+    15,
+    57
+   ],
+   "exemples": [
+    {
+     "id": 10793531012,
+     "prix": 49
+    },
+    {
+     "id": 8588792784,
+     "prix": 50
+    },
+    {
+     "id": 8548041246,
+     "prix": 57
+    },
+    {
+     "id": 10182438127,
+     "prix": 29.99
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:fujifilm s8000fd 8lowepro|2@3075": {
+   "date": 1794587060028,
+   "mediane": null,
+   "echantillon": 0,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:olympus xa3|1@3076": {
+   "date": 1794587060870,
+   "mediane": 139,
+   "echantillon": 7,
+   "dispersion": 0.26,
+   "fourchette": [
+    45,
+    210
+   ],
+   "exemples": [
+    {
+     "id": 10587700662,
+     "prix": 139
+    },
+    {
+     "id": 10762672095,
+     "prix": 149
+    },
+    {
+     "id": 10773953660,
+     "prix": 150
+    },
+    {
+     "id": 8767417665,
+     "prix": 114
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:kodak 100 agfa|2@3076": {
+   "date": 1794587062431,
+   "mediane": null,
+   "echantillon": 2,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:canon z70 ixus|2@3076": {
+   "date": 1794587063641,
+   "mediane": 24,
+   "echantillon": 42,
+   "dispersion": 0.42,
+   "fourchette": [
+    9,
+    45
+   ],
+   "exemples": [
+    {
+     "id": 10639985049,
+     "prix": 23
+    },
+    {
+     "id": 10425716367,
+     "prix": 23
+    },
+    {
+     "id": 10041693902,
+     "prix": 25
+    },
+    {
+     "id": 6317059130,
+     "prix": 25
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:canon y2k 260hs|2@3075": {
+   "date": 1794587127947,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:sony dsc w800 dsc|2@3075": {
+   "date": 1794587128779,
+   "mediane": 110,
+   "echantillon": 38,
+   "dispersion": 0.36,
+   "fourchette": [
+    45,
+    185
+   ],
+   "exemples": [
+    {
+     "id": 10039205599,
+     "prix": 110
+    },
+    {
+     "id": 10632337251,
+     "prix": 110
+    },
+    {
+     "id": 9835556049,
+     "prix": 110
+    },
+    {
+     "id": 8942748000,
+     "prix": 114.99
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:canon a420 powershot|2@3075": {
+   "date": 1794587193132,
+   "mediane": 42,
+   "echantillon": 11,
+   "dispersion": 0.19,
+   "fourchette": [
+    23.3,
+    65
+   ],
+   "exemples": [
+    {
+     "id": 10273970249,
+     "prix": 42
+    },
+    {
+     "id": 10521174665,
+     "prix": 40
+    },
+    {
+     "id": 10261939232,
+     "prix": 40
+    },
+    {
+     "id": 10793571330,
+     "prix": 45
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:rollei 10x als|2@3075": {
+   "date": 1794587322182,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -40745,8 +40702,8 @@
    "vu": 1794221066015
   },
   "26893574": {
-   "n": 6,
-   "vu": 1794586730312
+   "n": 7,
+   "vu": 1794586864453
   },
   "26924586": {
    "n": 6,
@@ -41077,8 +41034,8 @@
    "vu": 1794224482845
   },
   "32004149": {
-   "n": 7,
-   "vu": 1794586597879
+   "n": 9,
+   "vu": 1794587127286
   },
   "32127487": {
    "n": 2,
@@ -42072,6 +42029,10 @@
    "n": 2,
    "vu": 1794058044195
   },
+  "49520854": {
+   "n": 2,
+   "vu": 1794587127286
+  },
   "49579014": {
    "n": 2,
    "vu": 1794137358169
@@ -42641,8 +42602,8 @@
    "vu": 1793993806021
   },
   "58583775": {
-   "n": 11,
-   "vu": 1794482505494
+   "n": 12,
+   "vu": 1794587059325
   },
   "58599899": {
    "n": 2,
@@ -43912,6 +43873,10 @@
    "n": 4,
    "vu": 1794478368332
   },
+  "93590418": {
+   "n": 2,
+   "vu": 1794587127286
+  },
   "93796742": {
    "n": 4,
    "vu": 1794364900091
@@ -44197,8 +44162,8 @@
    "vu": 1793976392029
   },
   "108285202": {
-   "n": 5,
-   "vu": 1794418435622
+   "n": 6,
+   "vu": 1794587257514
   },
   "108336139": {
    "n": 5,
@@ -46528,6 +46493,10 @@
    "n": 13,
    "vu": 1794569390080
   },
+  "246197668": {
+   "n": 2,
+   "vu": 1794587059325
+  },
   "246445407": {
    "n": 7,
    "vu": 1794241784430
@@ -47319,6 +47288,10 @@
   "271180411": {
    "n": 2,
    "vu": 1793905245173
+  },
+  "271517826": {
+   "n": 3,
+   "vu": 1794587059325
   },
   "271532158": {
    "n": 2,
@@ -48317,8 +48290,8 @@
    "vu": 1794409204406
   },
   "316416305": {
-   "n": 10,
-   "vu": 1794586341466
+   "n": 11,
+   "vu": 1794586864454
   },
   "316433072": {
    "n": 2,
@@ -48627,6 +48600,10 @@
   "3134025161": {
    "n": 3,
    "vu": 1794159224341
+  },
+  "3134084748": {
+   "n": 2,
+   "vu": 1794586929734
   },
   "3134324145": {
    "n": 2,
@@ -51599,38 +51576,27 @@
  },
  "bilan": {
   "depuis": 1794583877787,
-  "passages": 45,
-  "nouvelles": 188,
-  "marque": 26,
-  "etat": 2,
+  "passages": 53,
+  "nouvelles": 221,
+  "marque": 32,
+  "etat": 3,
   "prix": 8,
-  "accessoire": 4,
+  "accessoire": 5,
   "lot": 0,
   "fausse": 0,
   "imitation": 0,
-  "pro": 6,
-  "vendeurSpecialise": 31,
-  "sansCote": 65,
-  "chere": 41,
-  "description": 0,
+  "pro": 7,
+  "vendeurSpecialise": 34,
+  "sansCote": 74,
+  "chere": 51,
+  "description": 1,
   "scoreFaible": 0,
   "blocages": 0,
-  "alertes": 5
+  "alertes": 6
  },
  "panne": null,
  "panneDebut": null,
  "suivi": [
-  {
-   "id": 10729864896,
-   "titre": "Cámara reflex EOS1200D sin bateria",
-   "prix": 129,
-   "cote": 220,
-   "score": 52,
-   "lien": "https://www.vinted.fr/items/10729864896-camara-reflex-eos1200d-sin-bateria",
-   "date": 1794195218314,
-   "statut": "en vente",
-   "verifieA": 1794198831984
-  },
   {
    "id": 10731376491,
    "titre": "Canon IXUS 140",
@@ -54913,6 +54879,16 @@
    "score": 69,
    "lien": "https://www.vinted.fr/items/10793475689-appareil-photo-canon-500d",
    "date": 1794586734572,
+   "statut": null
+  },
+  {
+   "id": 10793549684,
+   "titre": "Olympus XA3",
+   "prix": 45,
+   "cote": 139,
+   "score": 68,
+   "lien": "https://www.vinted.fr/items/10793549684-olympus-xa3",
+   "date": 1794587063871,
    "statut": null
   }
  ],

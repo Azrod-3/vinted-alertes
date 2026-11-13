@@ -1,9 +1,5 @@
 {
  "vues": [
-  "10766884803",
-  "10766886376",
-  "10766893867",
-  "10766897845",
   "10766906751",
   "10766913486",
   "10762742002",
@@ -3999,7 +3995,11 @@
   "10786818596",
   "10786844778",
   "10786898480",
-  "10786989232"
+  "10786989232",
+  "10787005120",
+  "10787011179",
+  "10787023256",
+  "10787022416"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -39270,6 +39270,35 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "modele:olympus t 100|2@3075": {
+   "date": 1794546278474,
+   "mediane": 44,
+   "echantillon": 17,
+   "dispersion": 0.45,
+   "fourchette": [
+    20,
+    75
+   ],
+   "exemples": [
+    {
+     "id": 10539887486,
+     "prix": 44
+    },
+    {
+     "id": 9064469596,
+     "prix": 45
+    },
+    {
+     "id": 10359109339,
+     "prix": 40
+    },
+    {
+     "id": 9803816930,
+     "prix": 50
+    }
+   ],
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -50680,19 +50709,19 @@
  },
  "bilan": {
   "depuis": 1794544946658,
-  "passages": 15,
-  "nouvelles": 1,
-  "marque": 0,
+  "passages": 30,
+  "nouvelles": 5,
+  "marque": 1,
   "etat": 0,
   "prix": 0,
-  "accessoire": 0,
+  "accessoire": 1,
   "lot": 0,
   "fausse": 0,
   "imitation": 0,
   "pro": 0,
   "vendeurSpecialise": 0,
-  "sansCote": 0,
-  "chere": 1,
+  "sansCote": 1,
+  "chere": 2,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,

@@ -1,12 +1,5 @@
 {
  "vues": [
-  "10781772222",
-  "10781769793",
-  "10781769550",
-  "10781767369",
-  "10781764108",
-  "10781760413",
-  "10781760859",
   "10781707359",
   "10781759331",
   "10781760788",
@@ -3999,7 +3992,14 @@
   "10786470520",
   "10786511298",
   "10786518545",
-  "10786518858"
+  "10786518858",
+  "10786542395",
+  "10786540630",
+  "9056694533",
+  "10786549587",
+  "10786559638",
+  "10786577344",
+  "10786585224"
  ],
  "cotes": {
   "marque:fossil": {
@@ -7268,31 +7268,6 @@
    "niveau": "modèle",
    "lissee": true
   },
-  "modele:nixon sentry inoxydable|1": {
-   "date": 1794365141160,
-   "mediane": 149,
-   "echantillon": 3,
-   "dispersion": null,
-   "fourchette": [
-    45,
-    190
-   ],
-   "exemples": [
-    {
-     "id": 10312506743,
-     "prix": 149
-    },
-    {
-     "id": 2582067799,
-     "prix": 190
-    },
-    {
-     "id": 10755516769,
-     "prix": 45
-    }
-   ],
-   "niveau": "modèle"
-  },
   "modele:steinhart ocean one|1": {
    "date": 1794485855043,
    "mediane": 405,
@@ -7322,448 +7297,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:lorenz automatico|2": {
-   "date": 1794365231357,
-   "mediane": 150,
-   "echantillon": 34,
-   "dispersion": 0.47,
-   "fourchette": [
-    40,
-    280
-   ],
-   "exemples": [
-    {
-     "id": 10659811303,
-     "prix": 150
-    },
-    {
-     "id": 9250077023,
-     "prix": 150
-    },
-    {
-     "id": 10551659667,
-     "prix": 149
-    },
-    {
-     "id": 10016307042,
-     "prix": 149
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:tag heuer professional|1": {
-   "date": 1794365276673,
-   "mediane": 370,
-   "echantillon": 77,
-   "dispersion": 0.27,
-   "fourchette": [
-    120,
-    630
-   ],
-   "exemples": [
-    {
-     "id": 10364318029,
-     "prix": 370
-    },
-    {
-     "id": 10461823795,
-     "prix": 375
-    },
-    {
-     "id": 10545565123,
-     "prix": 375
-    },
-    {
-     "id": 10605766914,
-     "prix": 380
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:cauny 4360 1950 1959|2": {
-   "date": 1794365277188,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:omega 601 seamaster|1": {
-   "date": 1794365325658,
-   "mediane": 600,
-   "echantillon": 5,
-   "dispersion": 0.56,
-   "fourchette": [
-    280,
-    1490
-   ],
-   "exemples": [
-    {
-     "id": 7866003171,
-     "prix": 600
-    },
-    {
-     "id": 10435270425,
-     "prix": 550
-    },
-    {
-     "id": 5295472441,
-     "prix": 888
-    },
-    {
-     "id": 10755863581,
-     "prix": 280
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:hamilton polso uomo|2": {
-   "date": 1794365327183,
-   "mediane": 450,
-   "echantillon": 3,
-   "dispersion": null,
-   "fourchette": [
-    350,
-    950
-   ],
-   "exemples": [
-    {
-     "id": 8974369739,
-     "prix": 450
-    },
-    {
-     "id": 10755854989,
-     "prix": 350
-    },
-    {
-     "id": 10558454309,
-     "prix": 950
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:invicta herrenuhr sehr|2": {
-   "date": 1794365373550,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:dugena armbanduhr goldfarben|1": {
-   "date": 1794365374209,
-   "mediane": 30,
-   "echantillon": 3,
-   "dispersion": null,
-   "fourchette": [
-    28,
-    85
-   ],
-   "exemples": [
-    {
-     "id": 10755627986,
-     "prix": 30
-    },
-    {
-     "id": 10700151924,
-     "prix": 28
-    },
-    {
-     "id": 8512575589,
-     "prix": 85
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:invicta automatico maquina|1": {
-   "date": 1794365463292,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:citizen polso orienta|2": {
-   "date": 1794365463910,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:rado jubile|2": {
-   "date": 1794365465172,
-   "mediane": 490,
-   "echantillon": 61,
-   "dispersion": 1.02,
-   "fourchette": [
-    140,
-    1500
-   ],
-   "exemples": [
-    {
-     "id": 5164405945,
-     "prix": 490
-    },
-    {
-     "id": 10521226465,
-     "prix": 480
-    },
-    {
-     "id": 9483613628,
-     "prix": 480
-    },
-    {
-     "id": 10055797636,
-     "prix": 520
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "marque:grand seiko": {
-   "date": 1794365466625,
-   "mediane": 1930,
-   "echantillon": 17,
-   "dispersion": 1.26,
-   "fourchette": [
-    600,
-    4500
-   ],
-   "exemples": [
-    {
-     "id": 10609919243,
-     "prix": 1930
-    },
-    {
-     "id": 10235620690,
-     "prix": 1999
-    },
-    {
-     "id": 10569823961,
-     "prix": 1750
-    },
-    {
-     "id": 10665762174,
-     "prix": 1150
-    }
-   ],
-   "niveau": "marque"
-  },
-  "modele:fossil statua della|1": {
-   "date": 1794365555473,
-   "mediane": null,
-   "echantillon": 2,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:locman stealth acciaio|4": {
-   "date": 1794365556244,
-   "mediane": 160,
-   "echantillon": 5,
-   "dispersion": 0.69,
-   "fourchette": [
-    50,
-    300
-   ],
-   "exemples": [
-    {
-     "id": 3441954152,
-     "prix": 160
-    },
-    {
-     "id": 7944083755,
-     "prix": 190
-    },
-    {
-     "id": 8441922631,
-     "prix": 80
-    },
-    {
-     "id": 10755690003,
-     "prix": 50
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:viceroy chronograph negro|2": {
-   "date": 1794365602447,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:fossil uomo oro|4": {
-   "date": 1794365734563,
-   "mediane": 70,
-   "echantillon": 3,
-   "dispersion": null,
-   "fourchette": [
-    65,
-    80
-   ],
-   "exemples": [
-    {
-     "id": 10647026903,
-     "prix": 70
-    },
-    {
-     "id": 10755793258,
-     "prix": 65
-    },
-    {
-     "id": 10601406843,
-     "prix": 80
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:briston verde|4": {
-   "date": 1794365735133,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:citizen eagle automatico|1": {
-   "date": 1794365781782,
-   "mediane": 120,
-   "echantillon": 27,
-   "dispersion": 0.28,
-   "fourchette": [
-    60,
-    170
-   ],
-   "exemples": [
-    {
-     "id": 10650377816,
-     "prix": 120
-    },
-    {
-     "id": 10131890192,
-     "prix": 120
-    },
-    {
-     "id": 9958695262,
-     "prix": 120
-    },
-    {
-     "id": 7315674610,
-     "prix": 120
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:festina vend|3": {
-   "date": 1794365782691,
-   "mediane": 120,
-   "echantillon": 5,
-   "dispersion": 0.21,
-   "fourchette": [
-    68,
-    150
-   ],
-   "exemples": [
-    {
-     "id": 9972391860,
-     "prix": 120
-    },
-    {
-     "id": 8792425911,
-     "prix": 120
-    },
-    {
-     "id": 9958194745,
-     "prix": 145
-    },
-    {
-     "id": 9973151696,
-     "prix": 150
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:citizen promaster aqualand|1": {
-   "date": 1794365828661,
-   "mediane": 250,
-   "echantillon": 49,
-   "dispersion": 0.34,
-   "fourchette": [
-    140,
-    410
-   ],
-   "exemples": [
-    {
-     "id": 10739875011,
-     "prix": 250
-    },
-    {
-     "id": 10158606326,
-     "prix": 250
-    },
-    {
-     "id": 10420001988,
-     "prix": 250
-    },
-    {
-     "id": 10157713696,
-     "prix": 250
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:festina men rotating|3": {
-   "date": 1794365917625,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:fossil fossiles|4": {
-   "date": 1794365918545,
-   "mediane": null,
-   "echantillon": 0,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:pulsar etiqueta acero|4": {
-   "date": 1794365962977,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:fossil donna|2": {
-   "date": 1794366007678,
-   "mediane": 25,
-   "echantillon": 42,
-   "dispersion": 1.36,
-   "fourchette": [
-    8.99,
-    75
-   ],
-   "exemples": [
-    {
-     "id": 9835131290,
-     "prix": 25
-    },
-    {
-     "id": 10483757842,
-     "prix": 25
-    },
-    {
-     "id": 7952244835,
-     "prix": 25
-    },
-    {
-     "id": 5107381265,
-     "prix": 25
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:fossil cadran fonce|1": {
-   "date": 1794366008651,
-   "mediane": null,
-   "echantillon": 2,
-   "dispersion": null,
-   "niveau": "modèle"
   },
   "modele:ice watch sporthorloge|2": {
    "date": 1794366052721,
@@ -36649,6 +36182,10 @@
   "24065943": {
    "n": 2,
    "vu": 1793726671583
+  },
+  "24071061": {
+   "n": 2,
+   "vu": 1794538246325
   },
   "24085362": {
    "n": 2,
@@ -82349,6 +81886,10 @@
   "229321403": {
    "n": 2,
    "vu": 1794240773916
+  },
+  "229324652": {
+   "n": 2,
+   "vu": 1794538375078
   },
   "229335000": {
    "n": 2,
@@ -129669,9 +129210,9 @@
  },
  "bilan": {
   "depuis": 1794537730556,
-  "passages": 4,
-  "nouvelles": 2,
-  "marque": 2,
+  "passages": 26,
+  "nouvelles": 9,
+  "marque": 6,
   "etat": 0,
   "prix": 0,
   "accessoire": 0,
@@ -129680,7 +129221,7 @@
   "imitation": 0,
   "pro": 0,
   "vendeurSpecialise": 0,
-  "sansCote": 0,
+  "sansCote": 3,
   "chere": 0,
   "description": 0,
   "scoreFaible": 0,

@@ -1,9 +1,5 @@
 {
  "vues": [
-  "10781677397",
-  "10781674206",
-  "10781678994",
-  "10781637071",
   "10781665781",
   "10781674277",
   "10781666281",
@@ -3999,7 +3995,11 @@
   "10770327970",
   "10798940131",
   "10798954565",
-  "10798963023"
+  "10798963023",
+  "10798987413",
+  "10799007894",
+  "10799016112",
+  "10799044269"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -36273,6 +36273,35 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "modele:canon sx60|2@3075": {
+   "date": 1794618077424,
+   "mediane": 250,
+   "echantillon": 22,
+   "dispersion": 0.3,
+   "fourchette": [
+    95,
+    450
+   ],
+   "exemples": [
+    {
+     "id": 10590170603,
+     "prix": 250
+    },
+    {
+     "id": 10111664784,
+     "prix": 250
+    },
+    {
+     "id": 10288913320,
+     "prix": 250
+    },
+    {
+     "id": 9010625291,
+     "prix": 250
+    }
+   ],
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -39927,6 +39956,10 @@
   "70968638": {
    "n": 27,
    "vu": 1794596353561
+  },
+  "71033057": {
+   "n": 2,
+   "vu": 1794618521700
   },
   "71322158": {
    "n": 4,
@@ -45617,8 +45650,8 @@
    "vu": 1794515117148
   },
   "3138957823": {
-   "n": 65,
-   "vu": 1794616997741
+   "n": 66,
+   "vu": 1794618204625
   },
   "3139204198": {
    "n": 4,
@@ -48479,8 +48512,8 @@
  },
  "bilan": {
   "depuis": 1794616934518,
-  "passages": 13,
-  "nouvelles": 6,
+  "passages": 28,
+  "nouvelles": 10,
   "marque": 1,
   "etat": 0,
   "prix": 0,
@@ -48488,29 +48521,18 @@
   "lot": 0,
   "fausse": 0,
   "imitation": 0,
-  "pro": 1,
+  "pro": 2,
   "vendeurSpecialise": 0,
-  "sansCote": 2,
-  "chere": 2,
+  "sansCote": 3,
+  "chere": 3,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
-  "alertes": 0
+  "alertes": 1
  },
  "panne": null,
  "panneDebut": null,
  "suivi": [
-  {
-   "id": 10733339160,
-   "titre": "Cámara fotográfica profesional",
-   "prix": 35,
-   "cote": 240,
-   "score": 77,
-   "lien": "https://www.vinted.fr/items/10733339160-camara-fotografica-profesional",
-   "date": 1794223777735,
-   "statut": "retiree",
-   "verifieA": 1794227388571
-  },
   {
    "id": 10733486569,
    "titre": "Cámara de fotos canon 1200d",
@@ -51797,6 +51819,17 @@
    "score": 25,
    "lien": "https://www.vinted.fr/items/10798724048-nikon-f3-einstellscheiben-focusing-screen",
    "date": 1794614584292,
+   "statut": "en vente",
+   "verifieA": 1794618205516
+  },
+  {
+   "id": 10799007894,
+   "titre": "Canon SX60",
+   "prix": 95,
+   "cote": 250,
+   "score": 77,
+   "lien": "https://www.vinted.fr/items/10799007894-canon-sx60",
+   "date": 1794618078312,
    "statut": null
   }
  ],

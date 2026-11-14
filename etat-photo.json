@@ -1,9 +1,5 @@
 {
  "vues": [
-  "10781885162",
-  "10779773782",
-  "10781886260",
-  "10781875517",
   "10781871880",
   "10781838404",
   "10781823718",
@@ -3999,7 +3995,11 @@
   "10798732145",
   "10798732590",
   "10798742026",
-  "10798741475"
+  "10798741475",
+  "10798778793",
+  "10798787919",
+  "10798790270",
+  "10798831911"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -7557,132 +7557,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:canon telemetrique canonet|1@3076": {
-   "date": 1794442147057,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:fuji dl 60|2@3076": {
-   "date": 1794442147748,
-   "mediane": 24,
-   "echantillon": 16,
-   "dispersion": 0.59,
-   "fourchette": [
-    9,
-    45
-   ],
-   "exemples": [
-    {
-     "id": 7407258670,
-     "prix": 24.5
-    },
-    {
-     "id": 10772371984,
-     "prix": 23
-    },
-    {
-     "id": 10271629035,
-     "prix": 25
-    },
-    {
-     "id": 9088436032,
-     "prix": 27
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:kodak zd710 easyshare|2@3075": {
-   "date": 1794442211812,
-   "mediane": 30,
-   "echantillon": 12,
-   "dispersion": 0.23,
-   "fourchette": [
-    20,
-    40
-   ],
-   "exemples": [
-    {
-     "id": 10333635734,
-     "prix": 30
-    },
-    {
-     "id": 10532375614,
-     "prix": 30
-    },
-    {
-     "id": 10763960588,
-     "prix": 30
-    },
-    {
-     "id": 10675601740,
-     "prix": 30
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:nikon 110s lite|2@3076": {
-   "date": 1794442409055,
-   "mediane": 70,
-   "echantillon": 3,
-   "dispersion": null,
-   "fourchette": [
-    41,
-    250
-   ],
-   "exemples": [
-    {
-     "id": 10546880872,
-     "prix": 70
-    },
-    {
-     "id": 10772398872,
-     "prix": 41
-    },
-    {
-     "id": 9108463514,
-     "prix": 250
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:olympus sp 550uz sp 560uz|2@3075": {
-   "date": 1794442601401,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:nikon s3300|1@3075": {
-   "date": 1794442920142,
-   "mediane": 100,
-   "echantillon": 63,
-   "dispersion": 0.4,
-   "fourchette": [
-    35,
-    160
-   ],
-   "exemples": [
-    {
-     "id": 10461693430,
-     "prix": 100
-    },
-    {
-     "id": 10524968444,
-     "prix": 100
-    },
-    {
-     "id": 9616928778,
-     "prix": 100
-    },
-    {
-     "id": 9924420369,
-     "prix": 100
-    }
-   ],
-   "niveau": "modèle"
   },
   "modele:olympus sp 550uz|1@3075": {
    "date": 1794443175714,
@@ -41018,6 +40892,10 @@
    "n": 6,
    "vu": 1794595239836
   },
+  "108433974": {
+   "n": 2,
+   "vu": 1794615220416
+  },
   "108474893": {
    "n": 5,
    "vu": 1794554487001
@@ -45735,8 +45613,8 @@
    "vu": 1794515117148
   },
   "3138957823": {
-   "n": 61,
-   "vu": 1794614838513
+   "n": 63,
+   "vu": 1794615852709
   },
   "3139204198": {
    "n": 4,
@@ -45851,8 +45729,8 @@
    "vu": 1794387670704
   },
   "3142472302": {
-   "n": 10,
-   "vu": 1794613947460
+   "n": 11,
+   "vu": 1794615347397
   },
   "3142918273": {
    "n": 3,
@@ -48597,8 +48475,8 @@
  },
  "bilan": {
   "depuis": 1794609731111,
-  "passages": 71,
-  "nouvelles": 80,
+  "passages": 86,
+  "nouvelles": 84,
   "marque": 13,
   "etat": 5,
   "prix": 6,
@@ -48606,10 +48484,10 @@
   "lot": 0,
   "fausse": 0,
   "imitation": 0,
-  "pro": 3,
-  "vendeurSpecialise": 5,
+  "pro": 5,
+  "vendeurSpecialise": 6,
   "sansCote": 29,
-  "chere": 14,
+  "chere": 15,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,

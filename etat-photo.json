@@ -1,8 +1,5 @@
 {
  "vues": [
-  "10781504323",
-  "10781483951",
-  "10781480193",
   "10781470307",
   "10781473359",
   "10781461121",
@@ -3999,7 +3996,10 @@
   "10799441445",
   "10799510298",
   "10799546673",
-  "10799590238"
+  "10799590238",
+  "10784437241",
+  "10797854784",
+  "10799636348"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -36284,6 +36284,35 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "modele:canon sx410 powershot|2@3075": {
+   "date": 1794626450650,
+   "mediane": 100,
+   "echantillon": 39,
+   "dispersion": 0.28,
+   "fourchette": [
+    40,
+    180
+   ],
+   "exemples": [
+    {
+     "id": 10722546037,
+     "prix": 100
+    },
+    {
+     "id": 9213878357,
+     "prix": 100
+    },
+    {
+     "id": 9940556082,
+     "prix": 100
+    },
+    {
+     "id": 9765422942,
+     "prix": 100
+    }
+   ],
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -48494,9 +48523,9 @@
  },
  "bilan": {
   "depuis": 1794624165709,
-  "passages": 34,
-  "nouvelles": 3,
-  "marque": 0,
+  "passages": 49,
+  "nouvelles": 6,
+  "marque": 1,
   "etat": 0,
   "prix": 0,
   "accessoire": 0,
@@ -48505,8 +48534,8 @@
   "imitation": 0,
   "pro": 0,
   "vendeurSpecialise": 0,
-  "sansCote": 1,
-  "chere": 2,
+  "sansCote": 2,
+  "chere": 3,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,

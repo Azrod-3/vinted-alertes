@@ -1,26 +1,5 @@
 {
  "vues": [
-  "10795183882",
-  "10795177061",
-  "10795183173",
-  "10795161721",
-  "10795154833",
-  "10795160832",
-  "10795153539",
-  "10795144770",
-  "10795128298",
-  "10795122988",
-  "10795122556",
-  "10795085968",
-  "10795087339",
-  "10795083227",
-  "10795082948",
-  "10795075740",
-  "10795033459",
-  "10795026418",
-  "10795006829",
-  "10794910843",
-  "10794960093",
   "10794940451",
   "10794932840",
   "10794870172",
@@ -3999,7 +3978,28 @@
   "10813236599",
   "10813252073",
   "10813246628",
-  "10813270389"
+  "10813270389",
+  "10813331876",
+  "10813327966",
+  "10813337569",
+  "10813336050",
+  "10813350607",
+  "10813348912",
+  "10813371127",
+  "10813383843",
+  "10813384564",
+  "10813375101",
+  "10813385843",
+  "10813394432",
+  "10813427419",
+  "10813426074",
+  "10813441488",
+  "10813437459",
+  "10813434126",
+  "10813366280",
+  "10813446131",
+  "10813421830",
+  "10813453537"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -4063,13 +4063,13 @@
    "lissee": true
   },
   "marque:kodak@3075": {
-   "date": 1794607944659,
+   "date": 1794696103163,
    "mediane": 50,
-   "echantillon": 82,
+   "echantillon": 81,
    "dispersion": 0.98,
    "fourchette": [
-    13,
-    150
+    14,
+    120
    ],
    "exemples": [
     {
@@ -4077,19 +4077,20 @@
      "prix": 50
     },
     {
-     "id": 10794023346,
+     "id": 10724295293,
      "prix": 50
     },
     {
-     "id": 10788276031,
+     "id": 10803971128,
      "prix": 50
     },
     {
-     "id": 10753807373,
-     "prix": 50
+     "id": 10687507641,
+     "prix": 45
     }
    ],
-   "niveau": "marque"
+   "niveau": "marque",
+   "lissee": true
   },
   "marque:samsung@3075": {
    "date": 1794611129573,
@@ -4260,33 +4261,10 @@
    "coteTropBasse": 19
   },
   "marque:canon@3076": {
-   "date": 1794609218531,
-   "mediane": 50,
-   "echantillon": 83,
-   "dispersion": 1.2,
-   "fourchette": [
-    14,
-    150
-   ],
-   "exemples": [
-    {
-     "id": 10790945987,
-     "prix": 50
-    },
-    {
-     "id": 10706271034,
-     "prix": 50
-    },
-    {
-     "id": 10762297047,
-     "prix": 50
-    },
-    {
-     "id": 10745812576,
-     "prix": 50
-    }
-   ],
-   "niveau": "marque"
+   "date": 1794695911770,
+   "mediane": null,
+   "echantillon": 78,
+   "coteTropBasse": 36
   },
   "marque:minolta@3076": {
    "date": 1794641589381,
@@ -4853,13 +4831,13 @@
    "lissee": true
   },
   "modele:canon ae 1 f 1 8|2@3076": {
-   "date": 1794524079836,
-   "mediane": 162,
-   "echantillon": 35,
+   "date": 1794695912507,
+   "mediane": 161,
+   "echantillon": 37,
    "dispersion": 0.33,
    "fourchette": [
     80,
-    249.9
+    289
    ],
    "exemples": [
     {
@@ -5429,36 +5407,6 @@
     {
      "id": 10771621312,
      "prix": 100
-    }
-   ],
-   "niveau": "modèle",
-   "lissee": true
-  },
-  "modele:canon a480 powershot|1@3075": {
-   "date": 1794523184585,
-   "mediane": 67,
-   "echantillon": 31,
-   "dispersion": 0.38,
-   "fourchette": [
-    20,
-    130
-   ],
-   "exemples": [
-    {
-     "id": 9551449379,
-     "prix": 65
-    },
-    {
-     "id": 10282949127,
-     "prix": 65
-    },
-    {
-     "id": 8642189497,
-     "prix": 64
-    },
-    {
-     "id": 9740857063,
-     "prix": 69.99
     }
    ],
    "niveau": "modèle",
@@ -7552,100 +7500,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:olympus ee 2 pen|2@3076": {
-   "date": 1794522928533,
-   "mediane": 93,
-   "echantillon": 14,
-   "dispersion": 0.22,
-   "fourchette": [
-    60,
-    150
-   ],
-   "exemples": [
-    {
-     "id": 10485000075,
-     "prix": 95
-    },
-    {
-     "id": 7906602271,
-     "prix": 90
-    },
-    {
-     "id": 10319955112,
-     "prix": 99.95
-    },
-    {
-     "id": 9953593871,
-     "prix": 100
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:nikon f 3 5 nikkormat|2@3076": {
-   "date": 1794523185401,
-   "mediane": 150,
-   "echantillon": 4,
-   "dispersion": 0,
-   "fourchette": [
-    110,
-    160
-   ],
-   "exemples": [
-    {
-     "id": 10785163380,
-     "prix": 150
-    },
-    {
-     "id": 10296327211,
-     "prix": 150
-    },
-    {
-     "id": 10331836431,
-     "prix": 160
-    },
-    {
-     "id": 10257808721,
-     "prix": 110
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:olympus fe 210|2@3075": {
-   "date": 1794523377316,
-   "mediane": 40,
-   "echantillon": 25,
-   "dispersion": 0.45,
-   "fourchette": [
-    12.55,
-    80
-   ],
-   "exemples": [
-    {
-     "id": 10785183426,
-     "prix": 40
-    },
-    {
-     "id": 10105260113,
-     "prix": 40
-    },
-    {
-     "id": 7197453699,
-     "prix": 40
-    },
-    {
-     "id": 6931142859,
-     "prix": 40
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:nikon d1300 maquina|1@3075": {
-   "date": 1794523504898,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
   },
   "modele:fujifilm s2980 18x|2@3075": {
    "date": 1794523822729,
@@ -39388,6 +39242,107 @@
    "echantillon": 2,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:samsung es15 3x|1@3075": {
+   "date": 1794695847625,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:canon y2k powershot|2@3075": {
+   "date": 1794696103912,
+   "mediane": 60,
+   "echantillon": 37,
+   "dispersion": 0.57,
+   "fourchette": [
+    16,
+    146
+   ],
+   "exemples": [
+    {
+     "id": 10813375101,
+     "prix": 60
+    },
+    {
+     "id": 10811795681,
+     "prix": 60
+    },
+    {
+     "id": 10811993722,
+     "prix": 60
+    },
+    {
+     "id": 10807288243,
+     "prix": 60
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:sony dsc v1 cyber|2@3075": {
+   "date": 1794696420897,
+   "mediane": 87,
+   "echantillon": 12,
+   "dispersion": 0.47,
+   "fourchette": [
+    37,
+    150
+   ],
+   "exemples": [
+    {
+     "id": 10427431854,
+     "prix": 79
+    },
+    {
+     "id": 8419178344,
+     "prix": 95
+    },
+    {
+     "id": 10716322239,
+     "prix": 96
+    },
+    {
+     "id": 10813427419,
+     "prix": 99
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:agfa 100 agfamatic|1@3076": {
+   "date": 1794696484821,
+   "mediane": 13,
+   "echantillon": 60,
+   "dispersion": 0.69,
+   "fourchette": [
+    5,
+    35
+   ],
+   "exemples": [
+    {
+     "id": 9953480106,
+     "prix": 13
+    },
+    {
+     "id": 8245496386,
+     "prix": 13
+    },
+    {
+     "id": 9957149278,
+     "prix": 12.9
+    },
+    {
+     "id": 10319492818,
+     "prix": 12.4
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:nikon en el19 battery|2@3075": {
+   "date": 1794696550003,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -40944,8 +40899,8 @@
    "vu": 1794595239837
   },
   "32306087": {
-   "n": 12,
-   "vu": 1794692816373
+   "n": 13,
+   "vu": 1794696549304
   },
   "32306703": {
    "n": 2,
@@ -43368,8 +43323,8 @@
    "vu": 1794577979782
   },
   "71420791": {
-   "n": 5,
-   "vu": 1794084564977
+   "n": 6,
+   "vu": 1794696615803
   },
   "71453616": {
    "n": 3,
@@ -43558,6 +43513,10 @@
   "74695879": {
    "n": 2,
    "vu": 1793642458718
+  },
+  "74805921": {
+   "n": 2,
+   "vu": 1794696420353
   },
   "74882394": {
    "n": 12,
@@ -45184,8 +45143,8 @@
    "vu": 1793723103157
   },
   "143430597": {
-   "n": 14,
-   "vu": 1794684873687
+   "n": 15,
+   "vu": 1794695847049
   },
   "143439353": {
    "n": 3,
@@ -47614,6 +47573,10 @@
   "263092604": {
    "n": 6,
    "vu": 1794363991659
+  },
+  "263424016": {
+   "n": 2,
+   "vu": 1794695910935
   },
   "263827041": {
    "n": 2,
@@ -51295,6 +51258,10 @@
    "n": 4,
    "vu": 1794478540336
   },
+  "3191738289": {
+   "n": 3,
+   "vu": 1794696615803
+  },
   "3191859598": {
    "n": 5,
    "vu": 1794394497863
@@ -52610,19 +52577,19 @@
  },
  "bilan": {
   "depuis": 1794692842520,
-  "passages": 44,
-  "nouvelles": 74,
-  "marque": 14,
+  "passages": 59,
+  "nouvelles": 95,
+  "marque": 20,
   "etat": 1,
-  "prix": 6,
-  "accessoire": 0,
+  "prix": 9,
+  "accessoire": 1,
   "lot": 0,
   "fausse": 0,
   "imitation": 0,
-  "pro": 0,
-  "vendeurSpecialise": 10,
-  "sansCote": 40,
-  "chere": 7,
+  "pro": 1,
+  "vendeurSpecialise": 11,
+  "sansCote": 45,
+  "chere": 11,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
@@ -55876,14 +55843,37 @@
    "statut": null
   },
   {
+   "id": 10812674211,
+   "titre": "Appareil photo nikon coolpix b500",
+   "prix": 28,
+   "cote": 120,
+   "score": 70,
+   "lien": "https://www.vinted.fr/items/10812674211-appareil-photo-nikon-coolpix-b500",
+   "date": 1794692840624,
+   "statut": "retiree",
+   "verifieA": 1794696485423
+  },
+  {
+   "id": 10812552742,
+   "titre": "Canon eos 450d + Obiettivo 18-55mm IS Kit - Con Scatola  -Non Perfettamente Funz",
+   "prix": 30,
+   "cote": 114,
+   "score": 68,
+   "lien": "https://www.vinted.fr/items/10812552742-canon-eos-450d-obiettivo-18-55mm-is-kit-con-scatola-non-perfettamente-funzionante",
+   "date": 1794692840878,
+   "statut": "en vente",
+   "verifieA": 1794696486154
+  },
+  {
    "id": 10812234239,
    "titre": "Nikon Coolpix P520",
    "prix": 70,
    "cote": 150,
    "score": 64,
    "lien": "https://www.vinted.fr/items/10812234239-nikon-coolpix-p520",
-   "date": 1794690026554,
-   "statut": null
+   "date": 1794692841101,
+   "statut": "en vente",
+   "verifieA": 1794696550648
   },
   {
    "id": 10812171208,
@@ -55892,28 +55882,9 @@
    "cote": 145,
    "score": 50,
    "lien": "https://www.vinted.fr/items/10812171208-reflex-sony-alpha-a390-objectif-18-55-mm",
-   "date": 1794691058933,
-   "statut": null
-  },
-  {
-   "id": 10812552742,
-   "titre": "Canon eos 450d + Obiettivo 18-55mm IS Kit - Con Scatola  -Non Perfettamente Funz",
-   "prix": 30,
-   "cote": 114,
-   "score": 66,
-   "lien": "https://www.vinted.fr/items/10812552742-canon-eos-450d-obiettivo-18-55mm-is-kit-con-scatola-non-perfettamente-funzionante",
-   "date": 1794691506474,
-   "statut": null
-  },
-  {
-   "id": 10812674211,
-   "titre": "Appareil photo nikon coolpix b500",
-   "prix": 28,
-   "cote": 120,
-   "score": 70,
-   "lien": "https://www.vinted.fr/items/10812674211-appareil-photo-nikon-coolpix-b500",
-   "date": 1794692089870,
-   "statut": null
+   "date": 1794692841300,
+   "statut": "en vente",
+   "verifieA": 1794696551442
   },
   {
    "id": 10813166977,

@@ -1,6 +1,5 @@
 {
  "vues": [
-  "10781461121",
   "10781331356",
   "10781438594",
   "10781421621",
@@ -3999,7 +3998,8 @@
   "10797854784",
   "10799636348",
   "10799666683",
-  "10799680023"
+  "10799680023",
+  "10799798325"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -36327,6 +36327,13 @@
    "echantillon": 1,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:nikon ml l3|2@3075": {
+   "date": 1794630006593,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -48541,8 +48548,8 @@
  },
  "bilan": {
   "depuis": 1794624165709,
-  "passages": 79,
-  "nouvelles": 8,
+  "passages": 94,
+  "nouvelles": 9,
   "marque": 1,
   "etat": 0,
   "prix": 0,
@@ -48552,7 +48559,7 @@
   "imitation": 0,
   "pro": 0,
   "vendeurSpecialise": 0,
-  "sansCote": 4,
+  "sansCote": 5,
   "chere": 3,
   "description": 0,
   "scoreFaible": 0,

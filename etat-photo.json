@@ -1,7 +1,5 @@
 {
  "vues": [
-  "10781470307",
-  "10781473359",
   "10781461121",
   "10781331356",
   "10781438594",
@@ -3999,7 +3997,9 @@
   "10799590238",
   "10784437241",
   "10797854784",
-  "10799636348"
+  "10799636348",
+  "10799666683",
+  "10799680023"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -36313,6 +36313,20 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "modele:panasonic y2k dmc fx8|1@3075": {
+   "date": 1794627530520,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:canon a720 wp dc16|1@3075": {
+   "date": 1794627784142,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -46804,6 +46818,10 @@
    "n": 3,
    "vu": 1794495063639
   },
+  "3178612515": {
+   "n": 2,
+   "vu": 1794627783511
+  },
   "3178724662": {
    "n": 6,
    "vu": 1794047810820
@@ -48523,8 +48541,8 @@
  },
  "bilan": {
   "depuis": 1794624165709,
-  "passages": 49,
-  "nouvelles": 6,
+  "passages": 64,
+  "nouvelles": 8,
   "marque": 1,
   "etat": 0,
   "prix": 0,
@@ -48534,7 +48552,7 @@
   "imitation": 0,
   "pro": 0,
   "vendeurSpecialise": 0,
-  "sansCote": 2,
+  "sansCote": 4,
   "chere": 3,
   "description": 0,
   "scoreFaible": 0,

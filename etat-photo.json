@@ -1,15 +1,5 @@
 {
  "vues": [
-  "10781279033",
-  "10781250071",
-  "10781235607",
-  "10781229402",
-  "10781218437",
-  "10781219667",
-  "10781217405",
-  "10781214457",
-  "10781167937",
-  "10781209585",
   "10781213820",
   "10781191637",
   "10781205436",
@@ -3999,7 +3989,17 @@
   "10800062885",
   "10800066688",
   "10800072846",
-  "10800074009"
+  "10800074009",
+  "10800081957",
+  "10800094117",
+  "10800092620",
+  "10800099690",
+  "10800103551",
+  "10800113132",
+  "10800111262",
+  "10800110620",
+  "10800127022",
+  "10800121811"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -7587,100 +7587,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:nikon d50|1@3075": {
-   "date": 1794464350803,
-   "mediane": 85,
-   "echantillon": 79,
-   "dispersion": 0.47,
-   "fourchette": [
-    25,
-    180
-   ],
-   "exemples": [
-    {
-     "id": 6205625400,
-     "prix": 85
-    },
-    {
-     "id": 8976513483,
-     "prix": 85
-    },
-    {
-     "id": 7253275280,
-     "prix": 87
-    },
-    {
-     "id": 10475068980,
-     "prix": 87.5
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:olympus 120 super|1@3076": {
-   "date": 1794464414604,
-   "mediane": 43,
-   "echantillon": 4,
-   "dispersion": 0.12,
-   "fourchette": [
-    32,
-    100
-   ],
-   "exemples": [
-    {
-     "id": 8822810549,
-     "prix": 45
-    },
-    {
-     "id": 10773660308,
-     "prix": 40
-    },
-    {
-     "id": 8065777003,
-     "prix": 32
-    },
-    {
-     "id": 5916177430,
-     "prix": 100
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:voigtlander 120 vitessa|2@3076": {
-   "date": 1794464416140,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:canon foto|1@3076": {
-   "date": 1794464670071,
-   "mediane": 30,
-   "echantillon": 5,
-   "dispersion": 0.64,
-   "fourchette": [
-    10,
-    76
-   ],
-   "exemples": [
-    {
-     "id": 8779862069,
-     "prix": 29.9
-    },
-    {
-     "id": 10183446153,
-     "prix": 34
-    },
-    {
-     "id": 10459254641,
-     "prix": 15
-    },
-    {
-     "id": 10422691036,
-     "prix": 10
-    }
-   ],
-   "niveau": "modèle"
   },
   "modele:yashica t4 safari|1@3076": {
    "date": 1794465809924,
@@ -36422,6 +36328,35 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "modele:sony dsc hx60 dsc|2@3075": {
+   "date": 1794637142348,
+   "mediane": 227,
+   "echantillon": 40,
+   "dispersion": 0.31,
+   "fourchette": [
+    159,
+    350
+   ],
+   "exemples": [
+    {
+     "id": 10773879625,
+     "prix": 225
+    },
+    {
+     "id": 6849071545,
+     "prix": 229
+    },
+    {
+     "id": 10633731012,
+     "prix": 220
+    },
+    {
+     "id": 9873420261,
+     "prix": 220
+    }
+   ],
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -39366,8 +39301,8 @@
    "vu": 1793869146689
   },
   "56906601": {
-   "n": 15,
-   "vu": 1794484828688
+   "n": 18,
+   "vu": 1794637395524
   },
   "57085622": {
    "n": 2,
@@ -47102,8 +47037,8 @@
    "vu": 1794340941563
   },
   "3184556059": {
-   "n": 28,
-   "vu": 1794636632830
+   "n": 29,
+   "vu": 1794637395524
   },
   "3184657944": {
    "n": 4,
@@ -47178,8 +47113,8 @@
    "vu": 1794583556679
   },
   "3186729686": {
-   "n": 9,
-   "vu": 1794512074416
+   "n": 10,
+   "vu": 1794636762894
   },
   "3186748212": {
    "n": 3,
@@ -48636,38 +48571,27 @@
  },
  "bilan": {
   "depuis": 1794631945906,
-  "passages": 75,
-  "nouvelles": 19,
-  "marque": 3,
+  "passages": 90,
+  "nouvelles": 29,
+  "marque": 4,
   "etat": 0,
   "prix": 0,
-  "accessoire": 1,
+  "accessoire": 2,
   "lot": 0,
   "fausse": 0,
   "imitation": 0,
   "pro": 0,
-  "vendeurSpecialise": 4,
-  "sansCote": 5,
+  "vendeurSpecialise": 8,
+  "sansCote": 8,
   "chere": 6,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
-  "alertes": 0
+  "alertes": 1
  },
  "panne": null,
  "panneDebut": null,
  "suivi": [
-  {
-   "id": 10733486569,
-   "titre": "Cámara de fotos canon 1200d",
-   "prix": 75,
-   "cote": 193,
-   "score": 72,
-   "lien": "https://www.vinted.fr/items/10733486569-camara-de-fotos-canon-1200d",
-   "date": 1794224485557,
-   "statut": "retiree",
-   "verifieA": 1794231203411
-  },
   {
    "id": 10733505364,
    "titre": "Minox 35ml",
@@ -51956,6 +51880,16 @@
    "date": 1794618078312,
    "statut": "en vente",
    "verifieA": 1794621696989
+  },
+  {
+   "id": 10800099690,
+   "titre": "Appareil photo numérique Sony DSC-HX60",
+   "prix": 70,
+   "cote": 227,
+   "score": 79,
+   "lien": "https://www.vinted.fr/items/10800099690-appareil-photo-numerique-sony-dsc-hx60",
+   "date": 1794637143228,
+   "statut": null
   }
  ],
  "dernierRecap": "2026-11-13"

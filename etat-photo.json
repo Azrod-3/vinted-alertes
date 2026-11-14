@@ -1,9 +1,5 @@
 {
  "vues": [
-  "10781414696",
-  "10781407152",
-  "10781390819",
-  "10781398904",
   "10781362241",
   "10776123872",
   "10781371892",
@@ -3999,7 +3995,11 @@
   "10799798325",
   "10799831338",
   "10799875717",
-  "10799881234"
+  "10799881234",
+  "10799887084",
+  "10799908713",
+  "10799904038",
+  "10799915402"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -4295,9 +4295,9 @@
    "coteTropBasse": 35
   },
   "marque:yashica@3076": {
-   "date": 1794544945827,
+   "date": 1794632450678,
    "mediane": null,
-   "echantillon": 71,
+   "echantillon": 72,
    "coteTropBasse": 35
   },
   "marque:fujifilm@3076": {
@@ -36315,21 +36315,57 @@
    "niveau": "modèle"
   },
   "modele:panasonic y2k dmc fx8|1@3075": {
-   "date": 1794627530520,
+   "date": 1794631945543,
    "mediane": null,
    "echantillon": 1,
    "dispersion": null,
    "niveau": "modèle"
   },
   "modele:canon a720 wp dc16|1@3075": {
-   "date": 1794627784142,
+   "date": 1794631944788,
    "mediane": null,
    "echantillon": 1,
    "dispersion": null,
    "niveau": "modèle"
   },
   "modele:nikon ml l3|2@3075": {
-   "date": 1794630006593,
+   "date": 1794631944012,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:yashica mg 1|2@3076": {
+   "date": 1794632451388,
+   "mediane": 65,
+   "echantillon": 69,
+   "dispersion": 0.66,
+   "fourchette": [
+    20,
+    150
+   ],
+   "exemples": [
+    {
+     "id": 7014051770,
+     "prix": 65
+    },
+    {
+     "id": 10140632364,
+     "prix": 65
+    },
+    {
+     "id": 6701100744,
+     "prix": 65
+    },
+    {
+     "id": 5710742643,
+     "prix": 65
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:yashica vintag|2@3076": {
+   "date": 1794632704721,
    "mediane": null,
    "echantillon": 1,
    "dispersion": null,
@@ -42462,8 +42498,8 @@
    "vu": 1794238017569
   },
   "190892357": {
-   "n": 3,
-   "vu": 1794557675910
+   "n": 4,
+   "vu": 1794631943204
   },
   "191927217": {
    "n": 2,
@@ -46827,7 +46863,7 @@
   },
   "3178612515": {
    "n": 2,
-   "vu": 1794627783511
+   "vu": 1794631943204
   },
   "3178724662": {
    "n": 6,
@@ -48547,10 +48583,10 @@
   }
  },
  "bilan": {
-  "depuis": 1794631401135,
-  "passages": 8,
-  "nouvelles": 2,
-  "marque": 0,
+  "depuis": 1794631945906,
+  "passages": 15,
+  "nouvelles": 3,
+  "marque": 1,
   "etat": 0,
   "prix": 0,
   "accessoire": 0,
@@ -48559,8 +48595,8 @@
   "imitation": 0,
   "pro": 0,
   "vendeurSpecialise": 0,
-  "sansCote": 2,
-  "chere": 0,
+  "sansCote": 1,
+  "chere": 1,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,

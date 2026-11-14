@@ -1,12 +1,5 @@
 {
  "vues": [
-  "10791655742",
-  "10791657045",
-  "10791655814",
-  "10791655865",
-  "10791705081",
-  "10791702779",
-  "10791702399",
   "10791704021",
   "10791701266",
   "10791699910",
@@ -3999,7 +3992,14 @@
   "10799823295",
   "10793355312",
   "10799852057",
-  "10799855902"
+  "10799855902",
+  "10799871787",
+  "10799871288",
+  "10799881915",
+  "10799883754",
+  "10799886614",
+  "10707905968",
+  "10799894108"
  ],
  "cotes": {
   "marque:fossil": {
@@ -5059,9 +5059,9 @@
    "lissee": true
   },
   "marque:sekonda": {
-   "date": 1794522987657,
+   "date": 1794632077088,
    "mediane": null,
-   "echantillon": 93,
+   "echantillon": 89,
    "coteTropBasse": 20
   },
   "marque:rodania": {
@@ -7884,35 +7884,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:fossil gift|4": {
-   "date": 1794459312739,
-   "mediane": 92,
-   "echantillon": 4,
-   "dispersion": 0.15,
-   "fourchette": [
-    70,
-    130
-   ],
-   "exemples": [
-    {
-     "id": 8492063656,
-     "prix": 85
-    },
-    {
-     "id": 9554677148,
-     "prix": 99
-    },
-    {
-     "id": 9181942764,
-     "prix": 70
-    },
-    {
-     "id": 10773657388,
-     "prix": 130
-    }
-   ],
-   "niveau": "modèle"
   },
   "modele:longines presence|2": {
    "date": 1794460653119,
@@ -27569,6 +27540,13 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "modele:sekonda carre sicura|2": {
+   "date": 1794632077608,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -38205,8 +38183,8 @@
    "vu": 1793633350698
   },
   "39561183": {
-   "n": 9,
-   "vu": 1794537858929
+   "n": 10,
+   "vu": 1794631602093
   },
   "39585119": {
    "n": 2,
@@ -38505,8 +38483,8 @@
    "vu": 1793633350698
   },
   "40409753": {
-   "n": 23,
-   "vu": 1793815723698
+   "n": 24,
+   "vu": 1794631818012
   },
   "40432185": {
    "n": 2,
@@ -38817,8 +38795,8 @@
    "vu": 1793633350698
   },
   "41126993": {
-   "n": 23,
-   "vu": 1794422070261
+   "n": 24,
+   "vu": 1794631947058
   },
   "41138574": {
    "n": 6,
@@ -98713,8 +98691,8 @@
    "vu": 1793633350698
   },
   "3126422506": {
-   "n": 72,
-   "vu": 1794455679027
+   "n": 73,
+   "vu": 1794631602093
   },
   "3126439210": {
    "n": 21,
@@ -114921,8 +114899,8 @@
    "vu": 1794421614767
   },
   "3178520437": {
-   "n": 14,
-   "vu": 1794557069541
+   "n": 15,
+   "vu": 1794631903949
   },
   "3178531622": {
    "n": 7,
@@ -127935,9 +127913,9 @@
  },
  "bilan": {
   "depuis": 1794628653605,
-  "passages": 66,
-  "nouvelles": 17,
-  "marque": 8,
+  "passages": 81,
+  "nouvelles": 24,
+  "marque": 14,
   "etat": 5,
   "prix": 0,
   "accessoire": 0,
@@ -127951,22 +127929,11 @@
   "description": 1,
   "scoreFaible": 0,
   "blocages": 0,
-  "alertes": 0
+  "alertes": 1
  },
  "panne": null,
  "panneDebut": null,
  "suivi": [
-  {
-   "id": 10768650486,
-   "titre": "Vulcain  anni 60",
-   "prix": 120,
-   "cote": 280,
-   "score": 71,
-   "lien": "https://www.vinted.fr/items/10768650486-vulcain-anni-60",
-   "date": 1794423289456,
-   "statut": "en vente",
-   "verifieA": 1794432671989
-  },
   {
    "id": 10768671671,
    "titre": "Lorenz coronò",
@@ -131255,6 +131222,16 @@
    "date": 1794614795777,
    "statut": "en vente",
    "verifieA": 1794618397320
+  },
+  {
+   "id": 10707905968,
+   "titre": "Orologio vintage Carré Sicura meccanico 17 jewels bracciale Shockproof Swiss mad",
+   "prix": 79,
+   "cote": null,
+   "score": 22,
+   "lien": "https://www.vinted.fr/items/10707905968-orologio-vintage-carre-sicura-meccanico-17-jewels-bracciale-shockproof-swiss-made-con-scatola",
+   "date": 1794632078293,
+   "statut": null
   }
  ],
  "dernierRecap": "2026-11-13"

@@ -1,10 +1,5 @@
 {
  "vues": [
-  "10781665781",
-  "10781674277",
-  "10781666281",
-  "10781659000",
-  "10781663280",
   "10781665867",
   "10781650851",
   "10781647092",
@@ -3999,7 +3994,12 @@
   "10798987413",
   "10799007894",
   "10799016112",
-  "10799044269"
+  "10799044269",
+  "10799059598",
+  "10799083984",
+  "10799091229",
+  "10799101331",
+  "10799117170"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -7587,100 +7587,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:canon sx20 20x|1@3075": {
-   "date": 1794446050894,
-   "mediane": 88,
-   "echantillon": 6,
-   "dispersion": 0.43,
-   "fourchette": [
-    50,
-    120
-   ],
-   "exemples": [
-    {
-     "id": 9824762563,
-     "prix": 90
-    },
-    {
-     "id": 10772738241,
-     "prix": 85
-    },
-    {
-     "id": 10582674368,
-     "prix": 75
-    },
-    {
-     "id": 10481077464,
-     "prix": 113
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:pentax a36 y2k|1@3075": {
-   "date": 1794446116071,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:pentax a40 optio|1@3075": {
-   "date": 1794446372575,
-   "mediane": 40,
-   "echantillon": 6,
-   "dispersion": 1.14,
-   "fourchette": [
-    10,
-    99.95
-   ],
-   "exemples": [
-    {
-     "id": 10113685526,
-     "prix": 49
-    },
-    {
-     "id": 10772767347,
-     "prix": 30
-    },
-    {
-     "id": 10689177116,
-     "prix": 60
-    },
-    {
-     "id": 10541957864,
-     "prix": 15
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:canon ae 1 nera|1@3076": {
-   "date": 1794446690391,
-   "mediane": 215,
-   "echantillon": 4,
-   "dispersion": 0.6,
-   "fourchette": [
-    70,
-    299
-   ],
-   "exemples": [
-    {
-     "id": 10617229493,
-     "prix": 150
-    },
-    {
-     "id": 10390484518,
-     "prix": 280
-    },
-    {
-     "id": 10652986169,
-     "prix": 299
-    },
-    {
-     "id": 10772793009,
-     "prix": 70
-    }
-   ],
-   "niveau": "modèle"
   },
   "modele:minolta vendo uma|2@3076": {
    "date": 1794451676804,
@@ -36302,6 +36208,35 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "modele:zenit obiettivo helios|2@3076": {
+   "date": 1794619157736,
+   "mediane": 60,
+   "echantillon": 23,
+   "dispersion": 0.67,
+   "fourchette": [
+    30,
+    130
+   ],
+   "exemples": [
+    {
+     "id": 10069853505,
+     "prix": 60
+    },
+    {
+     "id": 10241795239,
+     "prix": 60
+    },
+    {
+     "id": 9756977985,
+     "prix": 65
+    },
+    {
+     "id": 10484815791,
+     "prix": 69
+    }
+   ],
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -43878,8 +43813,8 @@
    "vu": 1794225191616
   },
   "262867428": {
-   "n": 4,
-   "vu": 1794195208448
+   "n": 5,
+   "vu": 1794618776736
   },
   "262952161": {
    "n": 2,
@@ -45650,8 +45585,8 @@
    "vu": 1794515117148
   },
   "3138957823": {
-   "n": 66,
-   "vu": 1794618204625
+   "n": 67,
+   "vu": 1794619284247
   },
   "3139204198": {
    "n": 4,
@@ -48512,19 +48447,19 @@
  },
  "bilan": {
   "depuis": 1794616934518,
-  "passages": 28,
-  "nouvelles": 10,
-  "marque": 1,
-  "etat": 0,
+  "passages": 43,
+  "nouvelles": 15,
+  "marque": 3,
+  "etat": 1,
   "prix": 0,
   "accessoire": 0,
   "lot": 0,
   "fausse": 0,
   "imitation": 0,
-  "pro": 2,
+  "pro": 3,
   "vendeurSpecialise": 0,
   "sansCote": 3,
-  "chere": 3,
+  "chere": 4,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,

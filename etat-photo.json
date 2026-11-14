@@ -1,17 +1,5 @@
 {
  "vues": [
-  "10794740763",
-  "10794720690",
-  "10794715664",
-  "10794713090",
-  "10794707935",
-  "10794694410",
-  "10794697736",
-  "10794681803",
-  "10794682722",
-  "10794673172",
-  "10794642146",
-  "10794614308",
   "10794655965",
   "10794635954",
   "10794626512",
@@ -3999,7 +3987,19 @@
   "10813571306",
   "10813578965",
   "10813586726",
-  "10813591484"
+  "10813591484",
+  "10813595720",
+  "10813593776",
+  "10813621777",
+  "10813625738",
+  "10813645225",
+  "10813660565",
+  "10813679135",
+  "10813696847",
+  "10813700519",
+  "10813698397",
+  "10813708956",
+  "10813707190"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -4435,10 +4435,10 @@
    "lissee": true
   },
   "marque:zeiss@3076": {
-   "date": 1794604107556,
+   "date": 1794697891639,
    "mediane": null,
-   "echantillon": 55,
-   "coteTropBasse": 30
+   "echantillon": 53,
+   "coteTropBasse": 33
   },
   "marque:ricoh@3076": {
    "date": 1794683399821,
@@ -5467,36 +5467,6 @@
     {
      "id": 10294014794,
      "prix": 154.9
-    }
-   ],
-   "niveau": "modèle",
-   "lissee": true
-  },
-  "modele:nikon camara|2@3075": {
-   "date": 1794524973148,
-   "mediane": 68,
-   "echantillon": 45,
-   "dispersion": 0.36,
-   "fourchette": [
-    20,
-    125
-   ],
-   "exemples": [
-    {
-     "id": 10734271700,
-     "prix": 69
-    },
-    {
-     "id": 10755086761,
-     "prix": 69
-    },
-    {
-     "id": 10585334617,
-     "prix": 70
-    },
-    {
-     "id": 10541481971,
-     "prix": 70
     }
    ],
    "niveau": "modèle",
@@ -20525,9 +20495,9 @@
    "niveau": "modèle"
   },
   "modele:canon af 8 prima|2@3076": {
-   "date": 1794599112816,
+   "date": 1794698525357,
    "mediane": 40,
-   "echantillon": 38,
+   "echantillon": 39,
    "dispersion": 0.5,
    "fourchette": [
     15,
@@ -20535,11 +20505,11 @@
    ],
    "exemples": [
     {
-     "id": 10672884692,
+     "id": 10410778268,
      "prix": 40
     },
     {
-     "id": 10410778268,
+     "id": 10672884692,
      "prix": 40
     },
     {
@@ -20551,7 +20521,8 @@
      "prix": 40
     }
    ],
-   "niveau": "modèle"
+   "niveau": "modèle",
+   "lissee": true
   },
   "modele:kodak camara fotos|3@3075": {
    "date": 1794599240686,
@@ -39321,6 +39292,20 @@
    "echantillon": 1,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:nikon f80 spiegelreflexkamera|1@3076": {
+   "date": 1794697827631,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:zeiss eerste|1@3076": {
+   "date": 1794697892161,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -43651,6 +43636,10 @@
   "77724885": {
    "n": 2,
    "vu": 1794048538023
+  },
+  "77838275": {
+   "n": 2,
+   "vu": 1794698524589
   },
   "78205752": {
    "n": 2,
@@ -49509,8 +49498,8 @@
    "vu": 1794149317410
   },
   "3139548132": {
-   "n": 13,
-   "vu": 1794482568791
+   "n": 15,
+   "vu": 1794698461169
   },
   "3139566119": {
    "n": 2,
@@ -52567,19 +52556,19 @@
  },
  "bilan": {
   "depuis": 1794692842520,
-  "passages": 74,
-  "nouvelles": 114,
-  "marque": 22,
-  "etat": 2,
+  "passages": 89,
+  "nouvelles": 126,
+  "marque": 24,
+  "etat": 3,
   "prix": 10,
   "accessoire": 1,
   "lot": 0,
   "fausse": 0,
   "imitation": 0,
   "pro": 1,
-  "vendeurSpecialise": 11,
-  "sansCote": 54,
-  "chere": 16,
+  "vendeurSpecialise": 13,
+  "sansCote": 60,
+  "chere": 17,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
@@ -55873,7 +55862,8 @@
    "score": 67,
    "lien": "https://www.vinted.fr/items/10813166977-sony-cyber-shot-dsc-w830",
    "date": 1794694765225,
-   "statut": null
+   "statut": "en vente",
+   "verifieA": 1794698397961
   },
   {
    "id": 10813504508,

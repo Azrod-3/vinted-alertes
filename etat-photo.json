@@ -1,11 +1,5 @@
 {
  "vues": [
-  "10781371892",
-  "10781341422",
-  "10781347269",
-  "10781334315",
-  "10781324421",
-  "10781323383",
   "10781318525",
   "10781232510",
   "10781318864",
@@ -3999,7 +3993,13 @@
   "10799904038",
   "10799915402",
   "10799935129",
-  "10784664889"
+  "10784664889",
+  "10800009548",
+  "10800014563",
+  "10800019163",
+  "10800023490",
+  "10800033950",
+  "10800040024"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -7587,35 +7587,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:canon a95 powershot|1@3075": {
-   "date": 1794462135901,
-   "mediane": 66,
-   "echantillon": 28,
-   "dispersion": 0.42,
-   "fourchette": [
-    20,
-    90
-   ],
-   "exemples": [
-    {
-     "id": 9636677491,
-     "prix": 67
-    },
-    {
-     "id": 9717912469,
-     "prix": 65
-    },
-    {
-     "id": 9868620216,
-     "prix": 69
-    },
-    {
-     "id": 7777785595,
-     "prix": 60
-    }
-   ],
-   "niveau": "modèle"
   },
   "modele:nikon d50|1@3075": {
    "date": 1794464350803,
@@ -36363,6 +36334,64 @@
    "echantillon": 1,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:fujifilm ex 10|2@3075": {
+   "date": 1794635112380,
+   "mediane": 22,
+   "echantillon": 4,
+   "dispersion": 0.33,
+   "fourchette": [
+    13,
+    31
+   ],
+   "exemples": [
+    {
+     "id": 10789064742,
+     "prix": 25
+    },
+    {
+     "id": 10800014563,
+     "prix": 18
+    },
+    {
+     "id": 10472248185,
+     "prix": 31
+    },
+    {
+     "id": 7124478256,
+     "prix": 13
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:fujifilm digitalkamera|1@3075": {
+   "date": 1794635618505,
+   "mediane": 50,
+   "echantillon": 53,
+   "dispersion": 0.64,
+   "fourchette": [
+    15.5,
+    117
+   ],
+   "exemples": [
+    {
+     "id": 10800033950,
+     "prix": 50
+    },
+    {
+     "id": 10272553602,
+     "prix": 50
+    },
+    {
+     "id": 10673626151,
+     "prix": 50
+    },
+    {
+     "id": 10160482411,
+     "prix": 49
+    }
+   ],
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -47043,8 +47072,8 @@
    "vu": 1794340941563
   },
   "3184556059": {
-   "n": 24,
-   "vu": 1794550418100
+   "n": 25,
+   "vu": 1794635238780
   },
   "3184657944": {
    "n": 4,
@@ -48577,9 +48606,9 @@
  },
  "bilan": {
   "depuis": 1794631945906,
-  "passages": 45,
-  "nouvelles": 5,
-  "marque": 1,
+  "passages": 60,
+  "nouvelles": 11,
+  "marque": 2,
   "etat": 0,
   "prix": 0,
   "accessoire": 1,
@@ -48587,9 +48616,9 @@
   "fausse": 0,
   "imitation": 0,
   "pro": 0,
-  "vendeurSpecialise": 0,
-  "sansCote": 2,
-  "chere": 1,
+  "vendeurSpecialise": 1,
+  "sansCote": 3,
+  "chere": 4,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,

@@ -1,7 +1,5 @@
 {
  "vues": [
-  "10781362241",
-  "10776123872",
   "10781371892",
   "10781341422",
   "10781347269",
@@ -3999,7 +3997,9 @@
   "10799887084",
   "10799908713",
   "10799904038",
-  "10799915402"
+  "10799915402",
+  "10799935129",
+  "10784664889"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -7587,13 +7587,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:nikon pocket kameras|1@3075": {
-   "date": 1794460489855,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
   },
   "modele:rollei 470 7x|2@3075": {
    "date": 1794461691404,
@@ -36370,6 +36363,13 @@
    "echantillon": 1,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:samsung pl60 5x|2@3075": {
+   "date": 1794633212022,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -48584,18 +48584,18 @@
  },
  "bilan": {
   "depuis": 1794631945906,
-  "passages": 15,
-  "nouvelles": 3,
+  "passages": 30,
+  "nouvelles": 5,
   "marque": 1,
   "etat": 0,
   "prix": 0,
-  "accessoire": 0,
+  "accessoire": 1,
   "lot": 0,
   "fausse": 0,
   "imitation": 0,
   "pro": 0,
   "vendeurSpecialise": 0,
-  "sansCote": 1,
+  "sansCote": 2,
   "chere": 1,
   "description": 0,
   "scoreFaible": 0,

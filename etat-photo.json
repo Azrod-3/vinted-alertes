@@ -1,21 +1,5 @@
 {
  "vues": [
-  "10795328221",
-  "10795313159",
-  "10795312712",
-  "10795301216",
-  "10795296516",
-  "10795277990",
-  "10795273258",
-  "10795266714",
-  "10795265598",
-  "10795263578",
-  "10795246889",
-  "10795220435",
-  "10795211010",
-  "10795212971",
-  "10795189380",
-  "10795204644",
   "10795183882",
   "10795177061",
   "10795183173",
@@ -3999,7 +3983,23 @@
   "10813133202",
   "10813150125",
   "10813155286",
-  "10813155969"
+  "10813155969",
+  "10813169283",
+  "10813166977",
+  "10813164197",
+  "10813162901",
+  "10813161682",
+  "10813189439",
+  "10813216073",
+  "10813207641",
+  "10813223685",
+  "10813228481",
+  "10813233705",
+  "10813225918",
+  "10813236599",
+  "10813252073",
+  "10813246628",
+  "10813270389"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -5129,9 +5129,9 @@
    "lissee": true
   },
   "marque:pentacon@3076": {
-   "date": 1794574151586,
+   "date": 1794695146018,
    "mediane": null,
-   "echantillon": 21,
+   "echantillon": 20,
    "coteTropBasse": 20
   },
   "modele:canon 1000d|2@3075": {
@@ -7552,100 +7552,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:fujifilm 3400|2@3075": {
-   "date": 1794522158012,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:olympus 70g superzoom|2@3076": {
-   "date": 1794522158813,
-   "mediane": 80,
-   "echantillon": 22,
-   "dispersion": 0.39,
-   "fourchette": [
-    45,
-    150
-   ],
-   "exemples": [
-    {
-     "id": 10715725263,
-     "prix": 80
-    },
-    {
-     "id": 9867568342,
-     "prix": 80
-    },
-    {
-     "id": 8728367813,
-     "prix": 80
-    },
-    {
-     "id": 10761563604,
-     "prix": 73
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:samsung s860|2@3075": {
-   "date": 1794522420030,
-   "mediane": 39,
-   "echantillon": 26,
-   "dispersion": 0.51,
-   "fourchette": [
-    10,
-    75
-   ],
-   "exemples": [
-    {
-     "id": 6866584496,
-     "prix": 39
-    },
-    {
-     "id": 9358518440,
-     "prix": 38.99
-    },
-    {
-     "id": 10675292731,
-     "prix": 38
-    },
-    {
-     "id": 6979942158,
-     "prix": 40
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:canon 5000|2@3076": {
-   "date": 1794522421580,
-   "mediane": 38,
-   "echantillon": 74,
-   "dispersion": 0.64,
-   "fourchette": [
-    10,
-    80
-   ],
-   "exemples": [
-    {
-     "id": 10622989518,
-     "prix": 37
-    },
-    {
-     "id": 10433457410,
-     "prix": 39
-    },
-    {
-     "id": 10227328377,
-     "prix": 37
-    },
-    {
-     "id": 10111510940,
-     "prix": 39
-    }
-   ],
-   "niveau": "modèle"
   },
   "modele:olympus ee 2 pen|2@3076": {
    "date": 1794522928533,
@@ -39425,6 +39331,63 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "modele:sony dsc w830 cyber|2@3075": {
+   "date": 1794694763503,
+   "mediane": 150,
+   "echantillon": 23,
+   "dispersion": 0.13,
+   "fourchette": [
+    99.99,
+    219
+   ],
+   "exemples": [
+    {
+     "id": 10535741594,
+     "prix": 150
+    },
+    {
+     "id": 9623580776,
+     "prix": 150
+    },
+    {
+     "id": 10757866521,
+     "prix": 150
+    },
+    {
+     "id": 9149300025,
+     "prix": 150
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:canon a4000is power|4@3075": {
+   "date": 1794694764949,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:canon sx130 camara|2@3075": {
+   "date": 1794695018726,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:pentacon slitta flash|2@3076": {
+   "date": 1794695146773,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:polaroid ix828|1@3075": {
+   "date": 1794695400088,
+   "mediane": null,
+   "echantillon": 2,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -52647,10 +52610,10 @@
  },
  "bilan": {
   "depuis": 1794692842520,
-  "passages": 29,
-  "nouvelles": 58,
-  "marque": 10,
-  "etat": 0,
+  "passages": 44,
+  "nouvelles": 74,
+  "marque": 14,
+  "etat": 1,
   "prix": 6,
   "accessoire": 0,
   "lot": 0,
@@ -52658,27 +52621,16 @@
   "imitation": 0,
   "pro": 0,
   "vendeurSpecialise": 10,
-  "sansCote": 30,
+  "sansCote": 40,
   "chere": 7,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
-  "alertes": 0
+  "alertes": 1
  },
  "panne": null,
  "panneDebut": null,
  "suivi": [
-  {
-   "id": 10749645795,
-   "titre": "Macchine fotografica",
-   "prix": 25,
-   "cote": 95,
-   "score": 66,
-   "lien": "https://www.vinted.fr/items/10749645795-macchine-fotografica",
-   "date": 1794325186588,
-   "statut": "en vente",
-   "verifieA": 1794328830898
-  },
   {
    "id": 10749746439,
    "titre": "Nikon l35af",
@@ -55961,6 +55913,16 @@
    "score": 70,
    "lien": "https://www.vinted.fr/items/10812674211-appareil-photo-nikon-coolpix-b500",
    "date": 1794692089870,
+   "statut": null
+  },
+  {
+   "id": 10813166977,
+   "titre": "Sony Cyber-shot DSC-W830",
+   "prix": 75,
+   "cote": 150,
+   "score": 67,
+   "lien": "https://www.vinted.fr/items/10813166977-sony-cyber-shot-dsc-w830",
+   "date": 1794694765225,
    "statut": null
   }
  ],

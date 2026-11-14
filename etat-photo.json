@@ -1,25 +1,5 @@
 {
  "vues": [
-  "10780980300",
-  "10779961720",
-  "10780534878",
-  "10780924744",
-  "10780969856",
-  "10780951912",
-  "10780927490",
-  "10780945126",
-  "10780917602",
-  "10780917989",
-  "10780889406",
-  "10780887654",
-  "10780885955",
-  "10780745739",
-  "10780864960",
-  "10780686451",
-  "10780837382",
-  "10780858538",
-  "10780834329",
-  "10780836228",
   "10779644454",
   "10780836921",
   "10775720093",
@@ -3999,7 +3979,27 @@
   "10800269871",
   "10800279284",
   "10800290546",
-  "10800286164"
+  "10800286164",
+  "10800303088",
+  "10800295743",
+  "10785208831",
+  "10800308343",
+  "10800244564",
+  "10800323146",
+  "10800339726",
+  "10800338090",
+  "10724835304",
+  "10725094764",
+  "10800348114",
+  "10800346023",
+  "10800343417",
+  "10800361777",
+  "10800359062",
+  "10800354006",
+  "10800360033",
+  "10800369283",
+  "10800364247",
+  "10800365778"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -7620,20 +7620,6 @@
   },
   "modele:nikon sous marin|1@3076": {
    "date": 1794605387371,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:minolta 4 excellent dynax|2@3076": {
-   "date": 1794467969271,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:minox f 2 8 complet|2@3076": {
-   "date": 1794467970071,
    "mediane": null,
    "echantillon": 1,
    "dispersion": null,
@@ -36347,6 +36333,125 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "modele:nikon d70|2@3075": {
+   "date": 1794640568738,
+   "mediane": 97,
+   "echantillon": 62,
+   "dispersion": 0.67,
+   "fourchette": [
+    39,
+    250
+   ],
+   "exemples": [
+    {
+     "id": 10362165218,
+     "prix": 95
+    },
+    {
+     "id": 6996828464,
+     "prix": 99
+    },
+    {
+     "id": 9155719163,
+     "prix": 100
+    },
+    {
+     "id": 10191835042,
+     "prix": 100
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:polaroid instantane zone|2@3076": {
+   "date": 1794640695672,
+   "mediane": 20,
+   "echantillon": 3,
+   "dispersion": null,
+   "fourchette": [
+    10,
+    25
+   ],
+   "exemples": [
+    {
+     "id": 10800244564,
+     "prix": 20
+    },
+    {
+     "id": 10151672425,
+     "prix": 25
+    },
+    {
+     "id": 10330479984,
+     "prix": 10
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:nikon w100 coolpix|2@3075": {
+   "date": 1794641203438,
+   "mediane": 80,
+   "echantillon": 55,
+   "dispersion": 0.38,
+   "fourchette": [
+    40,
+    160
+   ],
+   "exemples": [
+    {
+     "id": 10728405367,
+     "prix": 80
+    },
+    {
+     "id": 10714379192,
+     "prix": 80
+    },
+    {
+     "id": 10699273444,
+     "prix": 80
+    },
+    {
+     "id": 10340494361,
+     "prix": 80
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:yashica spiegelreflexkamera imposantem|2@3076": {
+   "date": 1794641330332,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:sony dsc w510 cyber|1@3075": {
+   "date": 1794641458471,
+   "mediane": 90,
+   "echantillon": 44,
+   "dispersion": 0.22,
+   "fourchette": [
+    65,
+    120
+   ],
+   "exemples": [
+    {
+     "id": 10624920536,
+     "prix": 90
+    },
+    {
+     "id": 9989021750,
+     "prix": 90
+    },
+    {
+     "id": 8586452149,
+     "prix": 90
+    },
+    {
+     "id": 10706882930,
+     "prix": 90
+    }
+   ],
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -46515,8 +46620,8 @@
    "vu": 1794478368334
   },
   "3164537749": {
-   "n": 47,
-   "vu": 1794409957696
+   "n": 49,
+   "vu": 1794641076439
   },
   "3164696548": {
    "n": 13,
@@ -48426,6 +48531,10 @@
    "n": 2,
    "vu": 1794154913307
   },
+  "3211302124": {
+   "n": 2,
+   "vu": 1794640567948
+  },
   "3211321761": {
    "n": 2,
    "vu": 1794159224343
@@ -48561,19 +48670,19 @@
  },
  "bilan": {
   "depuis": 1794639172046,
-  "passages": 21,
-  "nouvelles": 14,
-  "marque": 1,
-  "etat": 0,
+  "passages": 36,
+  "nouvelles": 34,
+  "marque": 5,
+  "etat": 1,
   "prix": 0,
   "accessoire": 1,
   "lot": 0,
-  "fausse": 0,
+  "fausse": 1,
   "imitation": 0,
-  "pro": 0,
+  "pro": 2,
   "vendeurSpecialise": 2,
-  "sansCote": 7,
-  "chere": 3,
+  "sansCote": 15,
+  "chere": 7,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
@@ -51879,7 +51988,8 @@
    "score": 79,
    "lien": "https://www.vinted.fr/items/10800099690-appareil-photo-numerique-sony-dsc-hx60",
    "date": 1794637143228,
-   "statut": null
+   "statut": "retiree",
+   "verifieA": 1794640760317
   }
  ],
  "dernierRecap": "2026-11-13"

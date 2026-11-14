@@ -1,7 +1,5 @@
 {
  "vues": [
-  "10781505497",
-  "10781470621",
   "10781504323",
   "10781483951",
   "10781480193",
@@ -3999,7 +3997,9 @@
   "10799405098",
   "10799410508",
   "10799441445",
-  "10799510298"
+  "10799510298",
+  "10799546673",
+  "10799590238"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -36230,6 +36230,60 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "modele:samsung l210|2@3075": {
+   "date": 1794625561038,
+   "mediane": 50,
+   "echantillon": 3,
+   "dispersion": null,
+   "fourchette": [
+    30,
+    80
+   ],
+   "exemples": [
+    {
+     "id": 10799546673,
+     "prix": 50
+    },
+    {
+     "id": 10376842247,
+     "prix": 30
+    },
+    {
+     "id": 7931293055,
+     "prix": 80
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:panasonic fz38 lumix|2@3075": {
+   "date": 1794626258382,
+   "mediane": 80,
+   "echantillon": 70,
+   "dispersion": 0.5,
+   "fourchette": [
+    25,
+    150
+   ],
+   "exemples": [
+    {
+     "id": 10624493757,
+     "prix": 80
+    },
+    {
+     "id": 8988905990,
+     "prix": 80
+    },
+    {
+     "id": 10533071693,
+     "prix": 80
+    },
+    {
+     "id": 10492415031,
+     "prix": 80
+    }
+   ],
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -48440,8 +48494,8 @@
  },
  "bilan": {
   "depuis": 1794624165709,
-  "passages": 19,
-  "nouvelles": 1,
+  "passages": 34,
+  "nouvelles": 3,
   "marque": 0,
   "etat": 0,
   "prix": 0,
@@ -48452,7 +48506,7 @@
   "pro": 0,
   "vendeurSpecialise": 0,
   "sansCote": 1,
-  "chere": 0,
+  "chere": 2,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,

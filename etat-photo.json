@@ -1,13 +1,5 @@
 {
  "vues": [
-  "10794225157",
-  "10794232456",
-  "10794208389",
-  "10793458104",
-  "10794119564",
-  "10794161463",
-  "10794123544",
-  "10794090690",
   "10794108456",
   "10794098416",
   "10794072553",
@@ -3999,7 +3991,15 @@
   "10814002114",
   "10814008747",
   "10814018379",
-  "10814020594"
+  "10814020594",
+  "10814038701",
+  "10814061853",
+  "10814066316",
+  "10814108630",
+  "10814112709",
+  "10814117614",
+  "10814116129",
+  "10814124837"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -7441,38 +7441,6 @@
    "niveau": "modèle",
    "lissee": true
   },
-  "modele:samsung es74 14 2|2@3075": {
-   "date": 1794529126449,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:agfa 500 silette|2@3076": {
-   "date": 1794529507631,
-   "mediane": 40,
-   "echantillon": 3,
-   "dispersion": null,
-   "fourchette": [
-    25,
-    117.32
-   ],
-   "exemples": [
-    {
-     "id": 10785813404,
-     "prix": 40
-    },
-    {
-     "id": 9924286483,
-     "prix": 25
-    },
-    {
-     "id": 8434446062,
-     "prix": 117.32
-    }
-   ],
-   "niveau": "modèle"
-  },
   "modele:olympus vr 340 16mp|2@3075": {
    "date": 1794529634459,
    "mediane": 55,
@@ -9854,15 +9822,19 @@
    "niveau": "modèle"
   },
   "modele:canon a510 powershot|2@3075": {
-   "date": 1794569397854,
-   "mediane": 65,
-   "echantillon": 9,
-   "dispersion": 0.54,
+   "date": 1794701457585,
+   "mediane": 59,
+   "echantillon": 10,
+   "dispersion": 0.71,
    "fourchette": [
     20,
     110
    ],
    "exemples": [
+    {
+     "id": 10086801112,
+     "prix": 49.95
+    },
     {
      "id": 9265730669,
      "prix": 65
@@ -9872,15 +9844,12 @@
      "prix": 65
     },
     {
-     "id": 10789488536,
-     "prix": 80
-    },
-    {
-     "id": 7581819305,
-     "prix": 80
+     "id": 10672576971,
+     "prix": 40
     }
    ],
-   "niveau": "modèle"
+   "niveau": "modèle",
+   "lissee": true
   },
   "modele:nikon s2700 coolpix|3@3075": {
    "date": 1794569398748,
@@ -39365,6 +39334,13 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "modele:olympus konica pop|1@3076": {
+   "date": 1794702216513,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -43629,8 +43605,8 @@
    "vu": 1793803044990
   },
   "76463575": {
-   "n": 6,
-   "vu": 1794582002764
+   "n": 7,
+   "vu": 1794701773576
   },
   "76551211": {
    "n": 2,
@@ -49373,8 +49349,8 @@
    "vu": 1794668864741
   },
   "3134932364": {
-   "n": 2,
-   "vu": 1794616107930
+   "n": 3,
+   "vu": 1794702342886
   },
   "3134953696": {
    "n": 7,
@@ -52619,9 +52595,9 @@
  },
  "bilan": {
   "depuis": 1794700056586,
-  "passages": 21,
-  "nouvelles": 16,
-  "marque": 4,
+  "passages": 36,
+  "nouvelles": 24,
+  "marque": 6,
   "etat": 0,
   "prix": 0,
   "accessoire": 0,
@@ -52629,9 +52605,9 @@
   "fausse": 0,
   "imitation": 0,
   "pro": 2,
-  "vendeurSpecialise": 2,
-  "sansCote": 4,
-  "chere": 4,
+  "vendeurSpecialise": 3,
+  "sansCote": 8,
+  "chere": 5,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,

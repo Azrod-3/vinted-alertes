@@ -1,32 +1,5 @@
 {
  "vues": [
-  "10795655585",
-  "10795640984",
-  "10795647803",
-  "10795639676",
-  "10795637254",
-  "10795656263",
-  "10795691745",
-  "10795690189",
-  "10795666817",
-  "10795668495",
-  "10795685123",
-  "10795675481",
-  "10795672501",
-  "10795711498",
-  "10795705741",
-  "10795706149",
-  "10795698153",
-  "10795718784",
-  "10795726649",
-  "10795724284",
-  "10795759745",
-  "10795752647",
-  "10795745612",
-  "10795744830",
-  "10795747258",
-  "10795736171",
-  "10795787717",
   "10795786752",
   "10795775764",
   "10795774968",
@@ -3999,7 +3972,34 @@
   "10814805922",
   "10814822491",
   "10814818759",
-  "10814832965"
+  "10814832965",
+  "10793767945",
+  "10794185008",
+  "10793867088",
+  "10794179689",
+  "10795562181",
+  "10795563827",
+  "10795558615",
+  "10795589723",
+  "10795629099",
+  "10795622234",
+  "10795622949",
+  "10795619371",
+  "10795618255",
+  "10795609428",
+  "10795629249",
+  "10795623010",
+  "10795598387",
+  "10795616460",
+  "10795613758",
+  "10795655803",
+  "10814853618",
+  "10814861426",
+  "10814865412",
+  "10814863462",
+  "10814879687",
+  "10814891220",
+  "10814904123"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -4093,30 +4093,30 @@
    "lissee": true
   },
   "marque:samsung@3075": {
-   "date": 1794611129573,
-   "mediane": 55,
-   "echantillon": 80,
-   "dispersion": 0.83,
+   "date": 1794710894237,
+   "mediane": 52,
+   "echantillon": 78,
+   "dispersion": 0.49,
    "fourchette": [
     14.2,
-    160
+    120
    ],
    "exemples": [
     {
-     "id": 10705780994,
-     "prix": 55
-    },
-    {
-     "id": 10783357583,
-     "prix": 55
-    },
-    {
-     "id": 10710195379,
-     "prix": 52.99
+     "id": 10788098830,
+     "prix": 50
     },
     {
      "id": 10796260937,
      "prix": 52
+    },
+    {
+     "id": 10784322166,
+     "prix": 50
+    },
+    {
+     "id": 10798591878,
+     "prix": 50
     }
    ],
    "niveau": "marque",
@@ -39236,7 +39236,7 @@
    "niveau": "modèle"
   },
   "modele:nikon 950 coolpix|2@3075": {
-   "date": 1794703488473,
+   "date": 1794710827705,
    "mediane": 70,
    "echantillon": 14,
    "dispersion": 0.71,
@@ -39265,7 +39265,7 @@
    "niveau": "modèle"
   },
   "modele:fujifilm e500 finepix|1@3075": {
-   "date": 1794706282002,
+   "date": 1794710826912,
    "mediane": 60,
    "echantillon": 9,
    "dispersion": 0.23,
@@ -39294,14 +39294,14 @@
    "niveau": "modèle"
   },
   "modele:canon 888 5000|2@3076": {
-   "date": 1794706851997,
+   "date": 1794710829336,
    "mediane": null,
    "echantillon": 1,
    "dispersion": null,
    "niveau": "modèle"
   },
   "modele:nikon l20 compatta|2@3075": {
-   "date": 1794706978909,
+   "date": 1794710826034,
    "mediane": 64,
    "echantillon": 6,
    "dispersion": 0.53,
@@ -39330,14 +39330,14 @@
    "niveau": "modèle"
   },
   "modele:kodak 177x 70 80|2@3076": {
-   "date": 1794707677249,
+   "date": 1794710828425,
    "mediane": null,
    "echantillon": 1,
    "dispersion": null,
    "niveau": "modèle"
   },
   "modele:sony dsc w830 cyber|1@3075": {
-   "date": 1794707868458,
+   "date": 1794710825471,
    "mediane": 150,
    "echantillon": 22,
    "dispersion": 0.17,
@@ -39366,46 +39366,118 @@
    "niveau": "modèle"
   },
   "modele:nikon digitalkamera|2@3075": {
-   "date": 1794710214172,
-   "mediane": 65,
-   "echantillon": 64,
-   "dispersion": 0.57,
+   "date": 1794710824913,
+   "mediane": 60,
+   "echantillon": 68,
+   "dispersion": 0.58,
    "fourchette": [
     19,
-    155
+    140
    ],
    "exemples": [
     {
-     "id": 10778081080,
-     "prix": 65
+     "id": 10777933379,
+     "prix": 60
     },
     {
-     "id": 10724532812,
-     "prix": 65
+     "id": 10768613557,
+     "prix": 60
     },
     {
-     "id": 10637616508,
-     "prix": 65
+     "id": 10417138647,
+     "prix": 60
     },
     {
-     "id": 10785311852,
-     "prix": 67
+     "id": 10727568966,
+     "prix": 60
     }
    ],
    "niveau": "modèle"
   },
   "modele:panasonic 16mp camara|3@3075": {
-   "date": 1794710468155,
+   "date": 1794710823814,
    "mediane": null,
    "echantillon": 2,
    "dispersion": null,
    "niveau": "modèle"
   },
   "modele:fujifilm jx580 camara|3@3075": {
-   "date": 1794710595059,
+   "date": 1794710822784,
    "mediane": null,
    "echantillon": 1,
    "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:samsung es90 14mp|3@3075": {
+   "date": 1794710894891,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:olympus 14mp vg 130|3@3075": {
+   "date": 1794711084397,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:canon g11 powershot|2@3075": {
+   "date": 1794711211159,
+   "mediane": 400,
+   "echantillon": 5,
+   "dispersion": 0,
+   "fourchette": [
+    390,
+    400
+   ],
+   "exemples": [
+    {
+     "id": 10446119954,
+     "prix": 400
+    },
+    {
+     "id": 9912266035,
+     "prix": 400
+    },
+    {
+     "id": 9970805993,
+     "prix": 400
+    },
+    {
+     "id": 8364410170,
+     "prix": 399
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:kodak s100|1@3076": {
+   "date": 1794711590724,
+   "mediane": 20,
+   "echantillon": 21,
+   "dispersion": 0.65,
+   "fourchette": [
+    5,
+    42
+   ],
+   "exemples": [
+    {
+     "id": 9828003191,
+     "prix": 20
+    },
+    {
+     "id": 7671586697,
+     "prix": 20
+    },
+    {
+     "id": 7974816189,
+     "prix": 20
+    },
+    {
+     "id": 8133188157,
+     "prix": 21
+    }
+   ],
    "niveau": "modèle"
   }
  },
@@ -46726,6 +46798,10 @@
    "n": 5,
    "vu": 1794486885530
   },
+  "232115569": {
+   "n": 2,
+   "vu": 1794711400998
+  },
   "232162714": {
    "n": 4,
    "vu": 1794127831758
@@ -46996,7 +47072,7 @@
   },
   "244837711": {
    "n": 5,
-   "vu": 1794705007998
+   "vu": 1794710822263
   },
   "245102683": {
    "n": 2,
@@ -47367,8 +47443,8 @@
    "vu": 1794579542581
   },
   "254622104": {
-   "n": 2,
-   "vu": 1794710594532
+   "n": 4,
+   "vu": 1794711083764
   },
   "254709163": {
    "n": 2,
@@ -47648,7 +47724,7 @@
   },
   "262867428": {
    "n": 8,
-   "vu": 1794708186619
+   "vu": 1794710822263
   },
   "262879332": {
    "n": 2,
@@ -48196,7 +48272,7 @@
   },
   "279075755": {
    "n": 6,
-   "vu": 1794706851371
+   "vu": 1794710822263
   },
   "279113504": {
    "n": 2,
@@ -49640,7 +49716,7 @@
   },
   "3140278155": {
    "n": 2,
-   "vu": 1794706978256
+   "vu": 1794710822262
   },
   "3140328340": {
    "n": 4,
@@ -50040,7 +50116,7 @@
   },
   "3152090559": {
    "n": 3,
-   "vu": 1794709008505
+   "vu": 1794710822263
   },
   "3152168590": {
    "n": 2,
@@ -50996,7 +51072,7 @@
   },
   "3183245904": {
    "n": 2,
-   "vu": 1794704057392
+   "vu": 1794710822263
   },
   "3183526236": {
    "n": 3,
@@ -52680,39 +52756,28 @@
   }
  },
  "bilan": {
-  "depuis": 1794707297549,
-  "passages": 55,
-  "nouvelles": 11,
+  "depuis": 1794710830510,
+  "passages": 14,
+  "nouvelles": 7,
   "marque": 0,
-  "etat": 1,
-  "prix": 1,
+  "etat": 0,
+  "prix": 0,
   "accessoire": 0,
   "lot": 0,
   "fausse": 0,
   "imitation": 0,
   "pro": 0,
-  "vendeurSpecialise": 1,
-  "sansCote": 6,
-  "chere": 2,
+  "vendeurSpecialise": 0,
+  "sansCote": 5,
+  "chere": 1,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
-  "alertes": 0
+  "alertes": 1
  },
  "panne": null,
  "panneDebut": null,
  "suivi": [
-  {
-   "id": 10750685432,
-   "titre": "Appareil photo eos100D",
-   "prix": 90,
-   "cote": 200,
-   "score": 68,
-   "lien": "https://www.vinted.fr/items/10750685432-appareil-photo-eos100d",
-   "date": 1794340964636,
-   "statut": "en vente",
-   "verifieA": 1794344567550
-  },
   {
    "id": 10750696375,
    "titre": "Agfa optima 1035",
@@ -55933,7 +55998,8 @@
    "score": 62,
    "lien": "https://www.vinted.fr/items/10812216042-olympus-zoom-35-70-mm",
    "date": 1794689960790,
-   "statut": null
+   "statut": "retiree",
+   "verifieA": 1794710830043
   },
   {
    "id": 10812674211,
@@ -56000,6 +56066,16 @@
    "date": 1794696999638,
    "statut": "retiree",
    "verifieA": 1794700630651
+  },
+  {
+   "id": 10814879687,
+   "titre": "Canon PowerShot G11 – Cámara compacta avanzada + accesorios",
+   "prix": 45,
+   "cote": 400,
+   "score": 89,
+   "lien": "https://www.vinted.fr/items/10814879687-canon-powershot-g11-camara-compacta-avanzada-accesorios",
+   "date": 1794711211924,
+   "statut": null
   }
  ],
  "dernierRecap": "2026-11-14"

@@ -1,14 +1,5 @@
 {
  "vues": [
-  "10793750998",
-  "10793863725",
-  "10793857281",
-  "10793849557",
-  "10421972389",
-  "10793768278",
-  "10793786840",
-  "10793834843",
-  "10793717340",
   "10793770753",
   "10793725073",
   "10793762268",
@@ -3999,7 +3990,16 @@
   "10793923599",
   "10814401669",
   "10814435980",
-  "10814446032"
+  "10814446032",
+  "10793880530",
+  "10793898953",
+  "10793906628",
+  "10793736973",
+  "10814474853",
+  "10814482440",
+  "10814532730",
+  "10814535612",
+  "10814543119"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -5501,13 +5501,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:olympus a11 analogkamera|1@3076": {
-   "date": 1794534197103,
-   "mediane": null,
-   "echantillon": 2,
-   "dispersion": null,
-   "niveau": "modèle"
   },
   "modele:olympus e m10 mark|2@3075": {
    "date": 1794586212976,
@@ -7440,13 +7433,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:konica f 1 7 analogica|1@3076": {
-   "date": 1794533560655,
-   "mediane": null,
-   "echantillon": 2,
-   "dispersion": null,
-   "niveau": "modèle"
   },
   "modele:kodak anciens extra|1@3076": {
    "date": 1794537882770,
@@ -39284,6 +39270,71 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "modele:fujifilm e500 finepix|1@3075": {
+   "date": 1794706282002,
+   "mediane": 60,
+   "echantillon": 9,
+   "dispersion": 0.23,
+   "fourchette": [
+    45,
+    100
+   ],
+   "exemples": [
+    {
+     "id": 10717585177,
+     "prix": 60
+    },
+    {
+     "id": 10740017206,
+     "prix": 60
+    },
+    {
+     "id": 10780837382,
+     "prix": 59
+    },
+    {
+     "id": 9826826359,
+     "prix": 67
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:canon 888 5000|2@3076": {
+   "date": 1794706851997,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:nikon l20 compatta|2@3075": {
+   "date": 1794706978909,
+   "mediane": 64,
+   "echantillon": 6,
+   "dispersion": 0.53,
+   "fourchette": [
+    23,
+    80
+   ],
+   "exemples": [
+    {
+     "id": 9078130676,
+     "prix": 50
+    },
+    {
+     "id": 7447477739,
+     "prix": 78
+    },
+    {
+     "id": 8834996402,
+     "prix": 79
+    },
+    {
+     "id": 6527707551,
+     "prix": 80
+    }
+   ],
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -47520,8 +47571,8 @@
    "vu": 1794225191616
   },
   "262867428": {
-   "n": 6,
-   "vu": 1794705769460
+   "n": 7,
+   "vu": 1794706915145
   },
   "262879332": {
    "n": 2,
@@ -48068,8 +48119,8 @@
    "vu": 1793733762684
   },
   "279075755": {
-   "n": 5,
-   "vu": 1794657442525
+   "n": 6,
+   "vu": 1794706851371
   },
   "279113504": {
    "n": 2,
@@ -49510,6 +49561,10 @@
   "3140263510": {
    "n": 2,
    "vu": 1794220036356
+  },
+  "3140278155": {
+   "n": 2,
+   "vu": 1794706978256
   },
   "3140328340": {
    "n": 4,
@@ -52546,19 +52601,19 @@
  },
  "bilan": {
   "depuis": 1794700056586,
-  "passages": 96,
-  "nouvelles": 44,
+  "passages": 111,
+  "nouvelles": 49,
   "marque": 11,
-  "etat": 0,
+  "etat": 1,
   "prix": 3,
   "accessoire": 0,
   "lot": 0,
   "fausse": 0,
   "imitation": 0,
   "pro": 2,
-  "vendeurSpecialise": 3,
-  "sansCote": 18,
-  "chere": 7,
+  "vendeurSpecialise": 4,
+  "sansCote": 19,
+  "chere": 9,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,

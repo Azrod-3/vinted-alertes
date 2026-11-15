@@ -1,10 +1,5 @@
 {
  "vues": [
-  "10794059966",
-  "10793932576",
-  "10794028929",
-  "10793985973",
-  "10794049808",
   "10794046169",
   "10794012224",
   "10794035185",
@@ -3999,7 +3994,12 @@
   "10814155960",
   "10814155655",
   "10814182084",
-  "10814192198"
+  "10814192198",
+  "10794059153",
+  "10814237600",
+  "10814249188",
+  "10814288888",
+  "10814301005"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -7440,20 +7440,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:samsung st200f 16 1|2@3075": {
-   "date": 1794531027979,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:minolta conjunto camara|2@3076": {
-   "date": 1794531029607,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
   },
   "modele:canon canara|1@3075": {
    "date": 1794532041992,
@@ -39312,6 +39298,35 @@
    "echantillon": 1,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:nikon 950 coolpix|2@3075": {
+   "date": 1794703488473,
+   "mediane": 70,
+   "echantillon": 14,
+   "dispersion": 0.71,
+   "fourchette": [
+    30,
+    135
+   ],
+   "exemples": [
+    {
+     "id": 10186832939,
+     "prix": 65
+    },
+    {
+     "id": 9423738741,
+     "prix": 75
+    },
+    {
+     "id": 9788780055,
+     "prix": 80
+    },
+    {
+     "id": 7088094770,
+     "prix": 80
+    }
+   ],
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -50887,6 +50902,10 @@
    "n": 2,
    "vu": 1794058372908
   },
+  "3183245904": {
+   "n": 2,
+   "vu": 1794704057392
+  },
   "3183526236": {
    "n": 3,
    "vu": 1793822052136
@@ -52570,19 +52589,19 @@
  },
  "bilan": {
   "depuis": 1794700056586,
-  "passages": 51,
-  "nouvelles": 31,
-  "marque": 7,
+  "passages": 66,
+  "nouvelles": 35,
+  "marque": 8,
   "etat": 0,
-  "prix": 1,
+  "prix": 2,
   "accessoire": 0,
   "lot": 0,
   "fausse": 0,
   "imitation": 0,
   "pro": 2,
   "vendeurSpecialise": 3,
-  "sansCote": 13,
-  "chere": 5,
+  "sansCote": 14,
+  "chere": 6,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,

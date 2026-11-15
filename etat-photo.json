@@ -1,26 +1,5 @@
 {
  "vues": [
-  "10817389897",
-  "10817399627",
-  "10817454398",
-  "10817449339",
-  "10817442137",
-  "10817435414",
-  "10817437054",
-  "10817436136",
-  "10817429571",
-  "10817425160",
-  "10817420836",
-  "10817425659",
-  "10817422458",
-  "10817431619",
-  "10817418855",
-  "10817426992",
-  "10817485535",
-  "10817484895",
-  "10817448682",
-  "10817467268",
-  "10817470721",
   "10817469012",
   "10817460220",
   "10817483063",
@@ -3999,7 +3978,28 @@
   "10832582650",
   "10832579121",
   "10832572692",
-  "10832585474"
+  "10832585474",
+  "10832606287",
+  "10832599687",
+  "10832640069",
+  "10832654595",
+  "10832651109",
+  "10832651958",
+  "10832648838",
+  "10832674880",
+  "10832672687",
+  "10832670788",
+  "10832678534",
+  "10832697634",
+  "10832688990",
+  "10832686851",
+  "10832686698",
+  "10832684656",
+  "10832723932",
+  "10832712216",
+  "10832703672",
+  "10832723774",
+  "10832740339"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -4237,10 +4237,10 @@
    "coteTropBasse": 18
   },
   "marque:canon@3076": {
-   "date": 1794695911770,
+   "date": 1794782946266,
    "mediane": null,
-   "echantillon": 78,
-   "coteTropBasse": 36
+   "echantillon": 81,
+   "coteTropBasse": 35
   },
   "marque:minolta@3076": {
    "date": 1794728812594,
@@ -7350,93 +7350,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:nikon s550 coolpix|1@3075": {
-   "date": 1794609602237,
-   "mediane": 48,
-   "echantillon": 5,
-   "dispersion": 0.1,
-   "fourchette": [
-    45,
-    69
-   ],
-   "exemples": [
-    {
-     "id": 9213930857,
-     "prix": 48
-    },
-    {
-     "id": 10039849383,
-     "prix": 50
-    },
-    {
-     "id": 10798207314,
-     "prix": 45
-    },
-    {
-     "id": 10380999302,
-     "prix": 45
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:olympus 5060 camedia|1@3075": {
-   "date": 1794609731110,
-   "mediane": 53,
-   "echantillon": 4,
-   "dispersion": 0.29,
-   "fourchette": [
-    40,
-    65
-   ],
-   "exemples": [
-    {
-     "id": 10774515621,
-     "prix": 60
-    },
-    {
-     "id": 10641050707,
-     "prix": 45
-    },
-    {
-     "id": 9852285964,
-     "prix": 65
-    },
-    {
-     "id": 10798210032,
-     "prix": 40
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:kodak t550 advantix|1@3076": {
-   "date": 1794609985699,
-   "mediane": 15,
-   "echantillon": 5,
-   "dispersion": 0.33,
-   "fourchette": [
-    10,
-    35
-   ],
-   "exemples": [
-    {
-     "id": 9274212241,
-     "prix": 15
-    },
-    {
-     "id": 7483170221,
-     "prix": 15
-    },
-    {
-     "id": 8813236433,
-     "prix": 10
-    },
-    {
-     "id": 8567988133,
-     "prix": 20
-    }
-   ],
-   "niveau": "modèle"
   },
   "modele:canon 5000 analogica|2@3076": {
    "date": 1794610492833,
@@ -46625,6 +46538,129 @@
    "echantillon": 1,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:fujifilm finepix|1@3075": {
+   "date": 1794782307519,
+   "mediane": 45,
+   "echantillon": 67,
+   "dispersion": 0.44,
+   "fourchette": [
+    15,
+    85
+   ],
+   "exemples": [
+    {
+     "id": 10812409588,
+     "prix": 45
+    },
+    {
+     "id": 10536440128,
+     "prix": 45
+    },
+    {
+     "id": 10739093272,
+     "prix": 45
+    },
+    {
+     "id": 10815779062,
+     "prix": 45
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:agfa camara analogica|3@3076": {
+   "date": 1794782561878,
+   "mediane": 22,
+   "echantillon": 13,
+   "dispersion": 0.64,
+   "fourchette": [
+    12,
+    35
+   ],
+   "exemples": [
+    {
+     "id": 10642934655,
+     "prix": 22
+    },
+    {
+     "id": 10495462985,
+     "prix": 20
+    },
+    {
+     "id": 10485530330,
+     "prix": 20
+    },
+    {
+     "id": 10651761676,
+     "prix": 25
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:canon 700d eos|2@3075": {
+   "date": 1794782689145,
+   "mediane": 240,
+   "echantillon": 72,
+   "dispersion": 0.33,
+   "fourchette": [
+    100,
+    420
+   ],
+   "exemples": [
+    {
+     "id": 10737675296,
+     "prix": 240
+    },
+    {
+     "id": 10639366131,
+     "prix": 240
+    },
+    {
+     "id": 10832124797,
+     "prix": 250
+    },
+    {
+     "id": 10815514350,
+     "prix": 230
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:minolta 101 srt|1@3076": {
+   "date": 1794782690697,
+   "mediane": 120,
+   "echantillon": 32,
+   "dispersion": 0.42,
+   "fourchette": [
+    50,
+    230
+   ],
+   "exemples": [
+    {
+     "id": 8936038884,
+     "prix": 120
+    },
+    {
+     "id": 7618240113,
+     "prix": 120
+    },
+    {
+     "id": 8025472795,
+     "prix": 120
+    },
+    {
+     "id": 9144129959,
+     "prix": 125
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:canon analogica epoca|1@3076": {
+   "date": 1794782947028,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -47029,8 +47065,8 @@
    "vu": 1794123450133
   },
   "15890891": {
-   "n": 3,
-   "vu": 1794781275571
+   "n": 4,
+   "vu": 1794782818218
   },
   "16004767": {
    "n": 2,
@@ -60229,8 +60265,8 @@
    "vu": 1794234837987
   },
   "3201107056": {
-   "n": 48,
-   "vu": 1794682812571
+   "n": 51,
+   "vu": 1794782945456
   },
   "3201116497": {
    "n": 2,
@@ -60485,8 +60521,8 @@
    "vu": 1794582844335
   },
   "3205117872": {
-   "n": 30,
-   "vu": 1794773413555
+   "n": 31,
+   "vu": 1794782688234
   },
   "3205148019": {
    "n": 2,
@@ -60948,6 +60984,10 @@
    "n": 54,
    "vu": 1794764081927
   },
+  "3210769445": {
+   "n": 2,
+   "vu": 1794782306520
+  },
   "3210799307": {
    "n": 2,
    "vu": 1794072241696
@@ -61202,39 +61242,28 @@
   }
  },
  "bilan": {
-  "depuis": 1794775807597,
-  "passages": 99,
-  "nouvelles": 276,
-  "marque": 35,
-  "etat": 7,
-  "prix": 14,
-  "accessoire": 4,
-  "lot": 4,
+  "depuis": 1794783010219,
+  "passages": 1,
+  "nouvelles": 1,
+  "marque": 1,
+  "etat": 0,
+  "prix": 0,
+  "accessoire": 0,
+  "lot": 0,
   "fausse": 0,
   "imitation": 0,
-  "pro": 4,
-  "vendeurSpecialise": 31,
-  "sansCote": 115,
-  "chere": 53,
-  "description": 2,
+  "pro": 0,
+  "vendeurSpecialise": 0,
+  "sansCote": 0,
+  "chere": 0,
+  "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
-  "alertes": 7
+  "alertes": 0
  },
  "panne": null,
  "panneDebut": null,
  "suivi": [
-  {
-   "id": 10760829275,
-   "titre": "Panasonic Lumix Dmc-Sz10",
-   "prix": 50,
-   "cote": 140,
-   "score": 72,
-   "lien": "https://www.vinted.fr/items/10760829275-panasonic-lumix-dmc-sz10",
-   "date": 1794396691681,
-   "statut": "en vente",
-   "verifieA": 1794409291336
-  },
   {
    "id": 10761173408,
    "titre": "Appareil photo Nikon Coolpix S9600",
@@ -64520,6 +64549,16 @@
    "score": 57,
    "lien": "https://www.vinted.fr/items/10832234004-canon-ixus-185",
    "date": 1794780378765,
+   "statut": null
+  },
+  {
+   "id": 10832672687,
+   "titre": "Canon EOS 700D",
+   "prix": 100,
+   "cote": 240,
+   "score": 74,
+   "lien": "https://www.vinted.fr/items/10832672687-canon-eos-700d",
+   "date": 1794782690910,
    "statut": null
   }
  ],

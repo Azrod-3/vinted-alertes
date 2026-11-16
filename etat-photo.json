@@ -1,11 +1,5 @@
 {
  "vues": [
-  "10797267961",
-  "10797263890",
-  "10797311345",
-  "10797304723",
-  "10797301318",
-  "10797288768",
   "10797289063",
   "10797287342",
   "10797303710",
@@ -3999,7 +3993,13 @@
   "10797216623",
   "10797258362",
   "10797259801",
-  "10833777539"
+  "10833777539",
+  "10797256870",
+  "10797248509",
+  "10797282519",
+  "10797273808",
+  "10833832254",
+  "10818609776"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -7320,35 +7320,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:zenit obiettivo helios|2@3076": {
-   "date": 1794619157736,
-   "mediane": 60,
-   "echantillon": 23,
-   "dispersion": 0.67,
-   "fourchette": [
-    30,
-    130
-   ],
-   "exemples": [
-    {
-     "id": 10069853505,
-     "prix": 60
-    },
-    {
-     "id": 10241795239,
-     "prix": 60
-    },
-    {
-     "id": 9756977985,
-     "prix": 65
-    },
-    {
-     "id": 10484815791,
-     "prix": 69
-    }
-   ],
-   "niveau": "modèle"
   },
   "modele:samsung l210|2@3075": {
    "date": 1794625561038,
@@ -46628,6 +46599,35 @@
    "echantillon": 1,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:canon ae 1 analogkamera|2@3076": {
+   "date": 1794792401942,
+   "mediane": 189,
+   "echantillon": 6,
+   "dispersion": 0.13,
+   "fourchette": [
+    170,
+    199
+   ],
+   "exemples": [
+    {
+     "id": 10818609776,
+     "prix": 189
+    },
+    {
+     "id": 10791943084,
+     "prix": 189
+    },
+    {
+     "id": 9683127748,
+     "prix": 195
+    },
+    {
+     "id": 10095292178,
+     "prix": 199
+    }
+   ],
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -61246,8 +61246,8 @@
  },
  "bilan": {
   "depuis": 1794790755894,
-  "passages": 15,
-  "nouvelles": 1,
+  "passages": 30,
+  "nouvelles": 3,
   "marque": 0,
   "etat": 0,
   "prix": 0,
@@ -61257,8 +61257,8 @@
   "imitation": 0,
   "pro": 0,
   "vendeurSpecialise": 0,
-  "sansCote": 1,
-  "chere": 0,
+  "sansCote": 2,
+  "chere": 1,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,

@@ -1,11 +1,5 @@
 {
  "vues": [
-  "10794666928",
-  "10797148480",
-  "10797155652",
-  "10797143766",
-  "10797183014",
-  "10797178561",
   "10797168329",
   "10797168258",
   "10797207073",
@@ -3999,7 +3993,13 @@
   "10833244361",
   "10833246013",
   "10833268088",
-  "10833261727"
+  "10833261727",
+  "10833294464",
+  "10833302640",
+  "10833299992",
+  "10833327390",
+  "10833329616",
+  "10833346663"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -7261,78 +7261,6 @@
    "niveau": "modèle",
    "lissee": true
   },
-  "modele:samsung pl201|1@3075": {
-   "date": 1794614139820,
-   "mediane": null,
-   "echantillon": 2,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:nikon f 501 nikkor|2@3076": {
-   "date": 1794614266540,
-   "mediane": 110,
-   "echantillon": 4,
-   "dispersion": 0,
-   "fourchette": [
-    75,
-    180
-   ],
-   "exemples": [
-    {
-     "id": 10798700274,
-     "prix": 110
-    },
-    {
-     "id": 9478188463,
-     "prix": 110
-    },
-    {
-     "id": 7200549379,
-     "prix": 75
-    },
-    {
-     "id": 9605538126,
-     "prix": 180
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:canon a520 power|1@3075": {
-   "date": 1794614330293,
-   "mediane": 55,
-   "echantillon": 9,
-   "dispersion": 0.45,
-   "fourchette": [
-    29,
-    80
-   ],
-   "exemples": [
-    {
-     "id": 9263694585,
-     "prix": 55
-    },
-    {
-     "id": 9787160548,
-     "prix": 65
-    },
-    {
-     "id": 5652669145,
-     "prix": 65
-    },
-    {
-     "id": 10745408017,
-     "prix": 40
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:nikon f3 einstellscheiben|4@3076": {
-   "date": 1794614583168,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
   "modele:canon sx510 powershot|2@3075": {
    "date": 1794769144458,
    "mediane": 111,
@@ -7362,35 +7290,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:fuji stx 1 fujica|2@3076": {
-   "date": 1794614648741,
-   "mediane": 100,
-   "echantillon": 9,
-   "dispersion": 0.3,
-   "fourchette": [
-    35,
-    150
-   ],
-   "exemples": [
-    {
-     "id": 9603972669,
-     "prix": 100
-    },
-    {
-     "id": 6589317003,
-     "prix": 100
-    },
-    {
-     "id": 8594440625,
-     "prix": 100
-    },
-    {
-     "id": 7963482172,
-     "prix": 100
-    }
-   ],
-   "niveau": "modèle"
   },
   "modele:canon ixus|2@3076": {
    "date": 1794754146618,
@@ -46711,6 +46610,35 @@
    "echantillon": 1,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:voigtlander analogica vito|2@3076": {
+   "date": 1794787539079,
+   "mediane": 58,
+   "echantillon": 12,
+   "dispersion": 0.7,
+   "fourchette": [
+    24,
+    100
+   ],
+   "exemples": [
+    {
+     "id": 8127890707,
+     "prix": 60
+    },
+    {
+     "id": 10277463161,
+     "prix": 55
+    },
+    {
+     "id": 10833329616,
+     "prix": 70
+    },
+    {
+     "id": 10283077589,
+     "prix": 70
+    }
+   ],
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -49803,8 +49731,8 @@
    "vu": 1794569390086
   },
   "51269344": {
-   "n": 2,
-   "vu": 1794786010172
+   "n": 3,
+   "vu": 1794787537653
   },
   "51330036": {
    "n": 2,
@@ -51943,8 +51871,8 @@
    "vu": 1793993806025
   },
   "89559965": {
-   "n": 7,
-   "vu": 1794490083100
+   "n": 8,
+   "vu": 1794787282471
   },
   "89570722": {
    "n": 2,
@@ -61325,19 +61253,19 @@
  },
  "bilan": {
   "depuis": 1794783010219,
-  "passages": 61,
-  "nouvelles": 83,
+  "passages": 76,
+  "nouvelles": 89,
   "marque": 16,
-  "etat": 4,
-  "prix": 3,
+  "etat": 5,
+  "prix": 4,
   "accessoire": 0,
   "lot": 0,
   "fausse": 0,
   "imitation": 0,
   "pro": 6,
-  "vendeurSpecialise": 6,
-  "sansCote": 34,
-  "chere": 13,
+  "vendeurSpecialise": 7,
+  "sansCote": 36,
+  "chere": 14,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,

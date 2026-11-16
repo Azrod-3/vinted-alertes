@@ -1,30 +1,5 @@
 {
  "vues": [
-  "10825265735",
-  "10825317215",
-  "10825301510",
-  "10825296255",
-  "10825285318",
-  "10825347073",
-  "10825353763",
-  "10825115077",
-  "10825322568",
-  "10825379659",
-  "10825370283",
-  "10825360715",
-  "10825359602",
-  "10825347106",
-  "10825341219",
-  "10825316431",
-  "10825352985",
-  "10825353397",
-  "10825339418",
-  "10825396655",
-  "10813235374",
-  "10818395778",
-  "10825373572",
-  "10825374895",
-  "10825365895",
   "10825342272",
   "10825358729",
   "10825417189",
@@ -3999,7 +3974,32 @@
   "10846638387",
   "10846635394",
   "10846632984",
-  "10846634107"
+  "10846634107",
+  "10846648018",
+  "10846654988",
+  "10846653461",
+  "10846653255",
+  "10846665999",
+  "10846673904",
+  "10846698572",
+  "10846682112",
+  "10846692907",
+  "10846685746",
+  "10846702232",
+  "10846695642",
+  "10735299403",
+  "10846714974",
+  "10846708881",
+  "10846715987",
+  "10846708947",
+  "10846741962",
+  "10846742130",
+  "10846750777",
+  "10846750615",
+  "10846757243",
+  "10846768127",
+  "10846786212",
+  "10846797290"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -7840,164 +7840,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:panasonic videos|2@3075": {
-   "date": 1794693670177,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:fujifilm digitalkamera megapixel|2@3075": {
-   "date": 1794693734863,
-   "mediane": 57,
-   "echantillon": 4,
-   "dispersion": 0.42,
-   "fourchette": [
-    40,
-    100
-   ],
-   "exemples": [
-    {
-     "id": 10168678452,
-     "prix": 45
-    },
-    {
-     "id": 9206176476,
-     "prix": 69
-    },
-    {
-     "id": 10812990860,
-     "prix": 40
-    },
-    {
-     "id": 10541713379,
-     "prix": 100
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:lubitel anni|1@3076": {
-   "date": 1794693736488,
-   "mediane": 45,
-   "echantillon": 4,
-   "dispersion": 0.22,
-   "fourchette": [
-    40,
-    50
-   ],
-   "exemples": [
-    {
-     "id": 10812986000,
-     "prix": 50
-    },
-    {
-     "id": 10692602046,
-     "prix": 40
-    },
-    {
-     "id": 7810169788,
-     "prix": 40
-    },
-    {
-     "id": 10045443648,
-     "prix": 50
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:sony camara grabacion|2@3075": {
-   "date": 1794693802422,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:sony dpf a710 cornice|4@3075": {
-   "date": 1794693803033,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:kodak mini kameras|1@3075": {
-   "date": 1794694186649,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:panasonic fz38 lumix|1@3075": {
-   "date": 1794694188460,
-   "mediane": 76,
-   "echantillon": 68,
-   "dispersion": 0.52,
-   "fourchette": [
-    25,
-    150
-   ],
-   "exemples": [
-    {
-     "id": 6493690708,
-     "prix": 76
-    },
-    {
-     "id": 9747827819,
-     "prix": 75
-    },
-    {
-     "id": 6978164953,
-     "prix": 75
-    },
-    {
-     "id": 9173293083,
-     "prix": 75
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:fujifilm jx420 16mp|2@3075": {
-   "date": 1794694188939,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:canon eos|2@3076": {
-   "date": 1794694190066,
-   "mediane": 35,
-   "echantillon": 75,
-   "dispersion": 0.86,
-   "fourchette": [
-    10,
-    100
-   ],
-   "exemples": [
-    {
-     "id": 10811607432,
-     "prix": 35
-    },
-    {
-     "id": 9924367680,
-     "prix": 35
-    },
-    {
-     "id": 10808220132,
-     "prix": 35
-    },
-    {
-     "id": 10812644586,
-     "prix": 35
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:zorki working|2@3076": {
-   "date": 1794694444325,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
   },
   "modele:olympus 850 waterproof|2@3075": {
    "date": 1794694697797,
@@ -42406,6 +42248,92 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "modele:lomography camaras|1@3076": {
+   "date": 1794866474628,
+   "mediane": null,
+   "echantillon": 2,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:canon lp e17 akku|2@3075": {
+   "date": 1794866728282,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:canon 500d est|2@3075": {
+   "date": 1794866792115,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:panasonic dmc ls2 dmc|1@3075": {
+   "date": 1794866919446,
+   "mediane": 40,
+   "echantillon": 19,
+   "dispersion": 0.5,
+   "fourchette": [
+    20,
+    84
+   ],
+   "exemples": [
+    {
+     "id": 10720722158,
+     "prix": 39.99
+    },
+    {
+     "id": 9196354518,
+     "prix": 39.99
+    },
+    {
+     "id": 10584681390,
+     "prix": 38
+    },
+    {
+     "id": 10788840316,
+     "prix": 35
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:canon 550d eos|2@3075": {
+   "date": 1794867110260,
+   "mediane": 140,
+   "echantillon": 77,
+   "dispersion": 0.36,
+   "fourchette": [
+    70,
+    250
+   ],
+   "exemples": [
+    {
+     "id": 10737443754,
+     "prix": 140
+    },
+    {
+     "id": 8071492489,
+     "prix": 140
+    },
+    {
+     "id": 10592938910,
+     "prix": 140
+    },
+    {
+     "id": 10216475187,
+     "prix": 140
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:canon 300 canonimo|2@3076": {
+   "date": 1794867110728,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -43130,8 +43058,8 @@
    "vu": 1794863543663
   },
   "18873212": {
-   "n": 2,
-   "vu": 1793645405834
+   "n": 3,
+   "vu": 1794866918852
   },
   "18882948": {
    "n": 2,
@@ -47557,6 +47485,10 @@
    "n": 4,
    "vu": 1794264224724
   },
+  "79689554": {
+   "n": 2,
+   "vu": 1794866791483
+  },
   "79731174": {
    "n": 2,
    "vu": 1794153134633
@@ -47814,8 +47746,8 @@
    "vu": 1794818232485
   },
   "85642762": {
-   "n": 2,
-   "vu": 1794865896561
+   "n": 4,
+   "vu": 1794867046209
   },
   "85838352": {
    "n": 2,
@@ -52122,8 +52054,8 @@
    "vu": 1794414504343
   },
   "267120883": {
-   "n": 17,
-   "vu": 1794863630492
+   "n": 18,
+   "vu": 1794866727616
   },
   "267239073": {
    "n": 2,
@@ -53206,12 +53138,12 @@
    "vu": 1794142136798
   },
   "307163434": {
-   "n": 14,
-   "vu": 1794746247779
+   "n": 15,
+   "vu": 1794866855731
   },
   "307195057": {
-   "n": 2,
-   "vu": 1794666723738
+   "n": 4,
+   "vu": 1794866727616
   },
   "307230215": {
    "n": 4,
@@ -55070,8 +55002,8 @@
    "vu": 1794155376167
   },
   "3162059257": {
-   "n": 72,
-   "vu": 1794863543660
+   "n": 73,
+   "vu": 1794866537730
   },
   "3162113072": {
    "n": 2,
@@ -56074,8 +56006,8 @@
    "vu": 1794147146811
   },
   "3190385226": {
-   "n": 8,
-   "vu": 1794577460499
+   "n": 9,
+   "vu": 1794866727615
   },
   "3190443655": {
    "n": 3,
@@ -56438,8 +56370,8 @@
    "vu": 1794754514904
   },
   "3197674396": {
-   "n": 3,
-   "vu": 1794834955021
+   "n": 4,
+   "vu": 1794866727615
   },
   "3197740054": {
    "n": 3,
@@ -57565,6 +57497,10 @@
    "n": 9,
    "vu": 1794844374427
   },
+  "3212957590": {
+   "n": 2,
+   "vu": 1794866727616
+  },
   "3212976224": {
    "n": 2,
    "vu": 1794414964143
@@ -57724,19 +57660,19 @@
  },
  "bilan": {
   "depuis": 1794863567338,
-  "passages": 42,
-  "nouvelles": 118,
-  "marque": 19,
+  "passages": 57,
+  "nouvelles": 143,
+  "marque": 23,
   "etat": 2,
-  "prix": 10,
+  "prix": 13,
   "accessoire": 1,
-  "lot": 2,
+  "lot": 3,
   "fausse": 0,
   "imitation": 1,
-  "pro": 1,
-  "vendeurSpecialise": 7,
-  "sansCote": 95,
-  "chere": 71,
+  "pro": 3,
+  "vendeurSpecialise": 9,
+  "sansCote": 105,
+  "chere": 74,
   "description": 1,
   "scoreFaible": 0,
   "blocages": 3,
@@ -60954,7 +60890,8 @@
    "score": 22,
    "lien": "https://www.vinted.fr/items/10845766196-rollei-powerflex-210-hd-digital-camera-with-a-ccd-image-sensor-has-a-resolution-of-160-megapixels",
    "date": 1794863566616,
-   "statut": null
+   "statut": "en vente",
+   "verifieA": 1794867174425
   },
   {
    "id": 10845329367,

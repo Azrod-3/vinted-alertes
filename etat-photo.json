@@ -1,8 +1,5 @@
 {
  "vues": [
-  "10797197582",
-  "10797192599",
-  "10797172256",
   "10797235994",
   "10797232841",
   "10797228670",
@@ -3999,7 +3996,10 @@
   "10833438917",
   "10833456608",
   "10833481828",
-  "10833472813"
+  "10833472813",
+  "10833485564",
+  "10833523936",
+  "10833558208"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -7320,35 +7320,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:olympus am 100|1@3076": {
-   "date": 1794616742423,
-   "mediane": 45,
-   "echantillon": 30,
-   "dispersion": 0.81,
-   "fourchette": [
-    20,
-    95
-   ],
-   "exemples": [
-    {
-     "id": 10034583307,
-     "prix": 45
-    },
-    {
-     "id": 10719164577,
-     "prix": 45
-    },
-    {
-     "id": 9695699921,
-     "prix": 45
-    },
-    {
-     "id": 9435978474,
-     "prix": 49.8
-    }
-   ],
-   "niveau": "modèle"
   },
   "modele:samsung digitalkamera rot|2@3075": {
    "date": 1794617504652,
@@ -46639,6 +46610,42 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "modele:voigtlander vitoret|2@3076": {
+   "date": 1794788941987,
+   "mediane": 23,
+   "echantillon": 66,
+   "dispersion": 0.61,
+   "fourchette": [
+    10,
+    65
+   ],
+   "exemples": [
+    {
+     "id": 10224326632,
+     "prix": 24
+    },
+    {
+     "id": 9825929436,
+     "prix": 22
+    },
+    {
+     "id": 8232214523,
+     "prix": 22
+    },
+    {
+     "id": 10818529446,
+     "prix": 25
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:fujifilm 10x megapixels|1@3075": {
+   "date": 1794789196450,
+   "mediane": null,
+   "echantillon": 2,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -49731,8 +49738,8 @@
    "vu": 1794569390086
   },
   "51269344": {
-   "n": 3,
-   "vu": 1794787537653
+   "n": 4,
+   "vu": 1794788941116
   },
   "51330036": {
    "n": 2,
@@ -57983,8 +57990,8 @@
    "vu": 1794387670704
   },
   "3142472302": {
-   "n": 12,
-   "vu": 1794786773156
+   "n": 13,
+   "vu": 1794789702260
   },
   "3142918273": {
    "n": 3,
@@ -61253,8 +61260,8 @@
  },
  "bilan": {
   "depuis": 1794783010219,
-  "passages": 91,
-  "nouvelles": 95,
+  "passages": 106,
+  "nouvelles": 98,
   "marque": 16,
   "etat": 6,
   "prix": 4,
@@ -61263,9 +61270,9 @@
   "fausse": 0,
   "imitation": 0,
   "pro": 6,
-  "vendeurSpecialise": 8,
-  "sansCote": 40,
-  "chere": 14,
+  "vendeurSpecialise": 9,
+  "sansCote": 41,
+  "chere": 15,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
@@ -64571,7 +64578,8 @@
    "score": 24,
    "lien": "https://www.vinted.fr/items/10833157911-appareil-photo",
    "date": 1794786010938,
-   "statut": null
+   "statut": "en vente",
+   "verifieA": 1794789639103
   }
  ],
  "dernierRecap": "2026-11-15"

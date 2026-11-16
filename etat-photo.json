@@ -1,6 +1,5 @@
 {
  "vues": [
-  "10820064362",
   "10820109558",
   "10820077425",
   "10820074871",
@@ -3999,7 +3998,8 @@
   "10839062155",
   "10839060085",
   "10839055572",
-  "10839059170"
+  "10839059170",
+  "10839082105"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -4945,36 +4945,6 @@
     {
      "id": 10767348869,
      "prix": 40
-    }
-   ],
-   "niveau": "modèle",
-   "lissee": true
-  },
-  "modele:canon 550d eos|2@3075": {
-   "date": 1794664130524,
-   "mediane": 150,
-   "echantillon": 82,
-   "dispersion": 0.41,
-   "fourchette": [
-    60,
-    250
-   ],
-   "exemples": [
-    {
-     "id": 10752671733,
-     "prix": 150
-    },
-    {
-     "id": 10603977570,
-     "prix": 150
-    },
-    {
-     "id": 10477283092,
-     "prix": 150
-    },
-    {
-     "id": 10768840719,
-     "prix": 150
     }
    ],
    "niveau": "modèle",
@@ -7620,250 +7590,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:fujifilm j150w finepix|1@3075": {
-   "date": 1794663425443,
-   "mediane": 50,
-   "echantillon": 4,
-   "dispersion": 0.8,
-   "fourchette": [
-    15,
-    100
-   ],
-   "exemples": [
-    {
-     "id": 9653316480,
-     "prix": 70
-    },
-    {
-     "id": 9707634826,
-     "prix": 30
-    },
-    {
-     "id": 10804970436,
-     "prix": 15
-    },
-    {
-     "id": 10770143389,
-     "prix": 100
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:canon a2550 power|1@3075": {
-   "date": 1794663489153,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:canon 500d eos|1@3075": {
-   "date": 1794663553075,
-   "mediane": 130,
-   "echantillon": 81,
-   "dispersion": 0.45,
-   "fourchette": [
-    49,
-    259
-   ],
-   "exemples": [
-    {
-     "id": 10795878132,
-     "prix": 130
-    },
-    {
-     "id": 9098767698,
-     "prix": 130
-    },
-    {
-     "id": 10036089186,
-     "prix": 130
-    },
-    {
-     "id": 9789750907,
-     "prix": 130
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:canon g2|1@3075": {
-   "date": 1794663616807,
-   "mediane": 65,
-   "echantillon": 17,
-   "dispersion": 0.85,
-   "fourchette": [
-    18,
-    114
-   ],
-   "exemples": [
-    {
-     "id": 5838334486,
-     "prix": 65
-    },
-    {
-     "id": 10772019685,
-     "prix": 60
-    },
-    {
-     "id": 10638601635,
-     "prix": 60
-    },
-    {
-     "id": 10490972033,
-     "prix": 60
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:kodak ke60 easyload|1@3076": {
-   "date": 1794663617575,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:canon ac e6n dr e6|2@3075": {
-   "date": 1794663744447,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:olympus fe5500|2@3075": {
-   "date": 1794663808117,
-   "mediane": null,
-   "echantillon": 2,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:agfa 3000 agfamatic|2@3076": {
-   "date": 1794663872925,
-   "mediane": 17,
-   "echantillon": 16,
-   "dispersion": 0.88,
-   "fourchette": [
-    9,
-    35
-   ],
-   "exemples": [
-    {
-     "id": 10443623755,
-     "prix": 15
-    },
-    {
-     "id": 9329777318,
-     "prix": 19
-    },
-    {
-     "id": 10760359717,
-     "prix": 19.9
-    },
-    {
-     "id": 10285409496,
-     "prix": 13
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:voigtlander vito fotoapparat|1@3076": {
-   "date": 1794664065461,
-   "mediane": 25,
-   "echantillon": 3,
-   "dispersion": null,
-   "fourchette": [
-    15,
-    25
-   ],
-   "exemples": [
-    {
-     "id": 8179552325,
-     "prix": 25
-    },
-    {
-     "id": 8747132210,
-     "prix": 25
-    },
-    {
-     "id": 10805161640,
-     "prix": 15
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:sony dsc wx100 cyber|1@3075": {
-   "date": 1794664129558,
-   "mediane": 79,
-   "echantillon": 3,
-   "dispersion": null,
-   "fourchette": [
-    75,
-    149
-   ],
-   "exemples": [
-    {
-     "id": 10805187865,
-     "prix": 79
-    },
-    {
-     "id": 10675185264,
-     "prix": 75
-    },
-    {
-     "id": 10252979900,
-     "prix": 149
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:rollei a110 pocketkamera|2@3076": {
-   "date": 1794664132754,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:yashica t3 fotoapparat|1@3076": {
-   "date": 1794664134297,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:nikon d60 only|2@3075": {
-   "date": 1794664263291,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:agfa agfamatic pocket|2@3076": {
-   "date": 1794664264308,
-   "mediane": 12,
-   "echantillon": 52,
-   "dispersion": 0.41,
-   "fourchette": [
-    5,
-    30
-   ],
-   "exemples": [
-    {
-     "id": 10715760554,
-     "prix": 12
-    },
-    {
-     "id": 9335610712,
-     "prix": 12
-    },
-    {
-     "id": 10691165943,
-     "prix": 12
-    },
-    {
-     "id": 10439966156,
-     "prix": 12
-    }
-   ],
-   "niveau": "modèle"
   },
   "modele:panasonic fz18 bridge|2@3075": {
    "date": 1794664392098,
@@ -46386,6 +46112,35 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "modele:olympus 940|2@3075": {
+   "date": 1794836378680,
+   "mediane": 44,
+   "echantillon": 17,
+   "dispersion": 0.48,
+   "fourchette": [
+    15,
+    80
+   ],
+   "exemples": [
+    {
+     "id": 8572095157,
+     "prix": 44
+    },
+    {
+     "id": 9900779025,
+     "prix": 45
+    },
+    {
+     "id": 8599861543,
+     "prix": 40
+    },
+    {
+     "id": 9783687533,
+     "prix": 39.99
+    }
+   ],
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -61348,8 +61103,8 @@
  },
  "bilan": {
   "depuis": 1794830514970,
-  "passages": 88,
-  "nouvelles": 336,
+  "passages": 103,
+  "nouvelles": 337,
   "marque": 62,
   "etat": 12,
   "prix": 9,
@@ -61360,7 +61115,7 @@
   "pro": 5,
   "vendeurSpecialise": 40,
   "sansCote": 128,
-  "chere": 60,
+  "chere": 61,
   "description": 2,
   "scoreFaible": 0,
   "blocages": 0,

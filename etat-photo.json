@@ -1,15 +1,5 @@
 {
  "vues": [
-  "10826287802",
-  "10826269188",
-  "10826256944",
-  "10826252299",
-  "10826322513",
-  "10826321751",
-  "10826302365",
-  "10826344659",
-  "10826337256",
-  "10826338127",
   "10826334921",
   "10826303933",
   "10826305746",
@@ -3999,7 +3989,17 @@
   "10849275793",
   "10849276713",
   "10849277435",
-  "10849277307"
+  "10849277307",
+  "10849280190",
+  "10849288234",
+  "10849306746",
+  "10849312398",
+  "10849309607",
+  "10849309232",
+  "10849307912",
+  "10849313815",
+  "10849318735",
+  "10849322574"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -7810,71 +7810,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:canon 550d eos|1@3075": {
-   "date": 1794723424318,
-   "mediane": 140,
-   "echantillon": 74,
-   "dispersion": 0.5,
-   "fourchette": [
-    69.99,
-    250
-   ],
-   "exemples": [
-    {
-     "id": 10737443754,
-     "prix": 140
-    },
-    {
-     "id": 10592938910,
-     "prix": 140
-    },
-    {
-     "id": 7598542083,
-     "prix": 140
-    },
-    {
-     "id": 8071492489,
-     "prix": 140
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:canon bridge|2@3075": {
-   "date": 1794723615097,
-   "mediane": 92,
-   "echantillon": 33,
-   "dispersion": 0.4,
-   "fourchette": [
-    43,
-    180
-   ],
-   "exemples": [
-    {
-     "id": 10489874180,
-     "prix": 92
-    },
-    {
-     "id": 10603196020,
-     "prix": 90
-    },
-    {
-     "id": 10726906084,
-     "prix": 95
-    },
-    {
-     "id": 9536145263,
-     "prix": 95
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:minolta x 300 pellicola|2@3076": {
-   "date": 1794723931198,
-   "mediane": null,
-   "echantillon": 2,
-   "dispersion": null,
-   "niveau": "modèle"
   },
   "modele:agfa billy historische|1@3076": {
    "date": 1794724438543,
@@ -16034,19 +15969,15 @@
    "niveau": "modèle"
   },
   "modele:canon camara fotos|1@3075": {
-   "date": 1794754062440,
-   "mediane": 93,
-   "echantillon": 26,
-   "dispersion": 0.43,
+   "date": 1794896970810,
+   "mediane": 91,
+   "echantillon": 25,
+   "dispersion": 0.83,
    "fourchette": [
     29,
-    200
+    250
    ],
    "exemples": [
-    {
-     "id": 10653625945,
-     "prix": 95
-    },
     {
      "id": 10330194052,
      "prix": 90
@@ -16058,9 +15989,14 @@
     {
      "id": 10606509163,
      "prix": 90
+    },
+    {
+     "id": 10821344447,
+     "prix": 85
     }
    ],
-   "niveau": "modèle"
+   "niveau": "modèle",
+   "lissee": true
   },
   "modele:fujifilm y2k finepix|2@3075": {
    "date": 1794754063282,
@@ -42387,6 +42323,64 @@
    "echantillon": 1,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:sony camara|2@3075": {
+   "date": 1794896653124,
+   "mediane": 66,
+   "echantillon": 60,
+   "dispersion": 0.38,
+   "fourchette": [
+    19.95,
+    125
+   ],
+   "exemples": [
+    {
+     "id": 10743369531,
+     "prix": 65
+    },
+    {
+     "id": 10819686131,
+     "prix": 65
+    },
+    {
+     "id": 10719703067,
+     "prix": 65
+    },
+    {
+     "id": 10768114915,
+     "prix": 67.5
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:kodak stampante|4@3075": {
+   "date": 1794896717111,
+   "mediane": 25,
+   "echantillon": 7,
+   "dispersion": 0.2,
+   "fourchette": [
+    18,
+    45
+   ],
+   "exemples": [
+    {
+     "id": 10669124737,
+     "prix": 25
+    },
+    {
+     "id": 9923815921,
+     "prix": 25
+    },
+    {
+     "id": 10523041134,
+     "prix": 21
+    },
+    {
+     "id": 10495781982,
+     "prix": 30
+    }
+   ],
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -43785,6 +43779,10 @@
   "27702290": {
    "n": 2,
    "vu": 1794045197823
+  },
+  "27721916": {
+   "n": 2,
+   "vu": 1794896273144
   },
   "27743465": {
    "n": 2,
@@ -57761,9 +57759,9 @@
  },
  "bilan": {
   "depuis": 1794894748283,
-  "passages": 21,
-  "nouvelles": 14,
-  "marque": 3,
+  "passages": 36,
+  "nouvelles": 24,
+  "marque": 5,
   "etat": 1,
   "prix": 2,
   "accessoire": 1,
@@ -57772,8 +57770,8 @@
   "imitation": 0,
   "pro": 0,
   "vendeurSpecialise": 0,
-  "sansCote": 5,
-  "chere": 1,
+  "sansCote": 10,
+  "chere": 4,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,

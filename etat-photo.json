@@ -1,16 +1,5 @@
 {
  "vues": [
-  "10826099173",
-  "10826112119",
-  "10826099043",
-  "10825886356",
-  "10826092682",
-  "10826086821",
-  "10826082971",
-  "10826138628",
-  "10826133561",
-  "10826122711",
-  "10826102320",
   "10826061308",
   "10826045865",
   "10826072638",
@@ -3999,7 +3988,18 @@
   "10847896113",
   "10847905125",
   "10847910730",
-  "10847921208"
+  "10847921208",
+  "10847931030",
+  "10847942020",
+  "10847910747",
+  "10847953537",
+  "10847957687",
+  "10847956293",
+  "10847962883",
+  "10847973844",
+  "10847971168",
+  "10847985370",
+  "10848018118"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -4284,10 +4284,10 @@
    "coteTropBasse": 25
   },
   "marque:polaroid@3076": {
-   "date": 1794758698475,
+   "date": 1794877786520,
    "mediane": null,
-   "echantillon": 52,
-   "coteTropBasse": 12
+   "echantillon": 50,
+   "coteTropBasse": 14
   },
   "marque:rollei@3076": {
    "date": 1794843858894,
@@ -42450,6 +42450,42 @@
    "echantillon": 1,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:canon canon eos600d|2@3075": {
+   "date": 1794877342518,
+   "mediane": 225,
+   "echantillon": 37,
+   "dispersion": 0.51,
+   "fourchette": [
+    115,
+    450
+   ],
+   "exemples": [
+    {
+     "id": 10032271736,
+     "prix": 225
+    },
+    {
+     "id": 7495575206,
+     "prix": 230
+    },
+    {
+     "id": 5937325198,
+     "prix": 220
+    },
+    {
+     "id": 9530920312,
+     "prix": 220
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:polaroid 900 anni|2@3076": {
+   "date": 1794877787092,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -48246,8 +48282,8 @@
    "vu": 1794392627428
   },
   "103387564": {
-   "n": 28,
-   "vu": 1794874367617
+   "n": 32,
+   "vu": 1794877469832
   },
   "103473268": {
    "n": 3,
@@ -54326,8 +54362,8 @@
    "vu": 1794674819700
   },
   "3141779185": {
-   "n": 71,
-   "vu": 1794876835323
+   "n": 72,
+   "vu": 1794876963190
   },
   "3141802510": {
    "n": 2,
@@ -56774,8 +56810,8 @@
    "vu": 1794834183820
   },
   "3201305806": {
-   "n": 2,
-   "vu": 1794863543663
+   "n": 3,
+   "vu": 1794877089409
   },
   "3201432387": {
    "n": 2,
@@ -57030,8 +57066,8 @@
    "vu": 1794582844335
   },
   "3205117872": {
-   "n": 34,
-   "vu": 1794876645874
+   "n": 35,
+   "vu": 1794877215606
   },
   "3205148019": {
    "n": 2,
@@ -57808,38 +57844,27 @@
  },
  "bilan": {
   "depuis": 1794870814596,
-  "passages": 95,
-  "nouvelles": 73,
-  "marque": 8,
+  "passages": 110,
+  "nouvelles": 84,
+  "marque": 9,
   "etat": 4,
-  "prix": 1,
+  "prix": 2,
   "accessoire": 3,
   "lot": 0,
   "fausse": 0,
   "imitation": 0,
-  "pro": 19,
-  "vendeurSpecialise": 10,
-  "sansCote": 19,
+  "pro": 23,
+  "vendeurSpecialise": 12,
+  "sansCote": 21,
   "chere": 9,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
-  "alertes": 0
+  "alertes": 1
  },
  "panne": null,
  "panneDebut": null,
  "suivi": [
-  {
-   "id": 10769115123,
-   "titre": "Minox Kamera Set",
-   "prix": 40,
-   "cote": null,
-   "score": 22,
-   "lien": "https://www.vinted.fr/items/10769115123-minox-kamera-set",
-   "date": 1794424996241,
-   "statut": "retiree",
-   "verifieA": 1794434053127
-  },
   {
    "id": 10769140265,
    "titre": "appareil photo numérique compact Nikon Coolpix S9400",
@@ -61128,6 +61153,16 @@
    "date": 1794867496836,
    "statut": "en vente",
    "verifieA": 1794871132399
+  },
+  {
+   "id": 10847971168,
+   "titre": "Canon-eos600D",
+   "prix": 120,
+   "cote": 225,
+   "score": 61,
+   "lien": "https://www.vinted.fr/items/10847971168-canon-eos600d",
+   "date": 1794877343379,
+   "statut": null
   }
  ],
  "dernierRecap": "2026-11-16"

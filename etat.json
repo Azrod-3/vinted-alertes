@@ -1,13 +1,5 @@
 {
  "vues": [
-  "10843081159",
-  "10780779679",
-  "10843078687",
-  "10780901901",
-  "10843017825",
-  "10843084800",
-  "10843011075",
-  "10843076916",
   "10780788303",
   "10842909342",
   "10843081185",
@@ -3999,7 +3991,15 @@
   "10849044008",
   "10849043133",
   "10832612813",
-  "10790599085"
+  "10790599085",
+  "10849070324",
+  "10849073813",
+  "10790716510",
+  "10846881951",
+  "10849091978",
+  "10849091922",
+  "10849046650",
+  "10849104235"
  ],
  "cotes": {
   "marque:fossil": {
@@ -8063,13 +8063,6 @@
     }
    ],
    "niveau": "marque"
-  },
-  "modele:bulova automatique self|2": {
-   "date": 1794718646575,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
   },
   "modele:kienzle kenzle|2": {
    "date": 1794721223669,
@@ -33547,6 +33540,49 @@
     {
      "id": 8917264186,
      "prix": 15
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:timex allied stile|1": {
+   "date": 1794891514877,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:mondaine quadrante nero|1": {
+   "date": 1794891946969,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:festina multifonctions|2": {
+   "date": 1794892249860,
+   "mediane": 46,
+   "echantillon": 10,
+   "dispersion": 0.57,
+   "fourchette": [
+    25,
+    80
+   ],
+   "exemples": [
+    {
+     "id": 9066762626,
+     "prix": 50
+    },
+    {
+     "id": 7138952384,
+     "prix": 41
+    },
+    {
+     "id": 10769344981,
+     "prix": 55
+    },
+    {
+     "id": 10602714866,
+     "prix": 56
     }
    ],
    "niveau": "modèle"
@@ -68398,8 +68434,8 @@
    "vu": 1794073801078
   },
   "101537933": {
-   "n": 35,
-   "vu": 1794804838804
+   "n": 36,
+   "vu": 1794892119815
   },
   "101543825": {
    "n": 2,
@@ -93694,8 +93730,8 @@
    "vu": 1794156877759
   },
   "242504018": {
-   "n": 13,
-   "vu": 1794868385274
+   "n": 14,
+   "vu": 1794891859854
   },
   "242541783": {
    "n": 12,
@@ -109200,6 +109236,10 @@
   "309098132": {
    "n": 23,
    "vu": 1793633350698
+  },
+  "309120790": {
+   "n": 3,
+   "vu": 1794891946343
   },
   "309129821": {
    "n": 8,
@@ -144388,9 +144428,9 @@
  },
  "bilan": {
   "depuis": 1794891339631,
-  "passages": 0,
-  "nouvelles": 0,
-  "marque": 0,
+  "passages": 21,
+  "nouvelles": 8,
+  "marque": 4,
   "etat": 0,
   "prix": 0,
   "accessoire": 0,
@@ -144398,28 +144438,17 @@
   "fausse": 0,
   "imitation": 0,
   "pro": 0,
-  "vendeurSpecialise": 0,
+  "vendeurSpecialise": 1,
   "sansCote": 0,
-  "chere": 0,
+  "chere": 2,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
-  "alertes": 0
+  "alertes": 1
  },
  "panne": null,
  "panneDebut": null,
  "suivi": [
-  {
-   "id": 10818923657,
-   "titre": "Festina Herren Uhr",
-   "prix": 25,
-   "cote": 105,
-   "score": 60,
-   "lien": "https://www.vinted.fr/items/10818923657-festina-herren-uhr",
-   "date": 1794742061413,
-   "statut": "en vente",
-   "verifieA": 1794745682041
-  },
   {
    "id": 10818949091,
    "titre": "MIDO Belluna II automatic nuovo full set",
@@ -147705,6 +147734,16 @@
    "score": 70,
    "lien": "https://www.vinted.fr/items/10849003612-tissot-unbenutzte-armband-uhr",
    "date": 1794890041303,
+   "statut": null
+  },
+  {
+   "id": 10849073813,
+   "titre": "Timex Allied Quarzo 40mm – Stile Militare",
+   "prix": 40,
+   "cote": 133,
+   "score": 62,
+   "lien": "https://www.vinted.fr/items/10849073813-timex-allied-quarzo-40mm-stile-militare",
+   "date": 1794891515545,
    "statut": null
   }
  ],

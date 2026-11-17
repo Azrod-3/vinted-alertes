@@ -1,13 +1,5 @@
 {
  "vues": [
-  "10838346960",
-  "10838371404",
-  "10838368864",
-  "10838366524",
-  "10838361604",
-  "10838374870",
-  "10838365845",
-  "10838381139",
   "10838362977",
   "10838370002",
   "10838391437",
@@ -3999,7 +3991,15 @@
   "10861392163",
   "10861399706",
   "10861429262",
-  "10861434934"
+  "10861434934",
+  "10861479266",
+  "10861496270",
+  "10861499780",
+  "10861516691",
+  "10861509217",
+  "10861511839",
+  "10861525300",
+  "10861536517"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -4213,10 +4213,10 @@
    "coteTropBasse": 19
   },
   "marque:canon@3076": {
-   "date": 1794871958544,
+   "date": 1794958493282,
    "mediane": null,
-   "echantillon": 84,
-   "coteTropBasse": 40
+   "echantillon": 82,
+   "coteTropBasse": 39
   },
   "marque:minolta@3076": {
    "date": 1794903918582,
@@ -7068,78 +7068,6 @@
    ],
    "niveau": "marque",
    "lissee": true
-  },
-  "modele:fujifilm a850 8 1mp|1@3075": {
-   "date": 1794785118821,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:canon 500n camara|3@3076": {
-   "date": 1794785119815,
-   "mediane": 80,
-   "echantillon": 13,
-   "dispersion": 0.25,
-   "fourchette": [
-    59,
-    120
-   ],
-   "exemples": [
-    {
-     "id": 10627723316,
-     "prix": 80
-    },
-    {
-     "id": 10477283893,
-     "prix": 80
-    },
-    {
-     "id": 8529139629,
-     "prix": 80
-    },
-    {
-     "id": 5839506105,
-     "prix": 80
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:minolta olympus zoom|2@3076": {
-   "date": 1794785628413,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:voigtlander f 2 vitoret|2@3076": {
-   "date": 1794785755516,
-   "mediane": 44,
-   "echantillon": 4,
-   "dispersion": 0.07,
-   "fourchette": [
-    16,
-    50
-   ],
-   "exemples": [
-    {
-     "id": 10181197246,
-     "prix": 45
-    },
-    {
-     "id": 9438566693,
-     "prix": 42
-    },
-    {
-     "id": 9037316614,
-     "prix": 50
-    },
-    {
-     "id": 10550104903,
-     "prix": 16
-    }
-   ],
-   "niveau": "modèle"
   },
   "modele:canon ae 1 50mmf 1 8|2@3076": {
    "date": 1794790754935,
@@ -14875,21 +14803,17 @@
    "niveau": "modèle"
   },
   "modele:canon a1|2@3076": {
-   "date": 1794841839622,
+   "date": 1794958748743,
    "mediane": 200,
-   "echantillon": 59,
-   "dispersion": 0.6,
+   "echantillon": 58,
+   "dispersion": 0.55,
    "fourchette": [
     85,
     400
    ],
    "exemples": [
     {
-     "id": 8318515268,
-     "prix": 200
-    },
-    {
-     "id": 9916761258,
+     "id": 10861536517,
      "prix": 200
     },
     {
@@ -14897,11 +14821,16 @@
      "prix": 200
     },
     {
-     "id": 8270477473,
+     "id": 9916761258,
+     "prix": 200
+    },
+    {
+     "id": 8318515268,
      "prix": 200
     }
    ],
-   "niveau": "modèle"
+   "niveau": "modèle",
+   "lissee": true
   },
   "modele:nikon nikonos iii|2@3076": {
    "date": 1794841907331,
@@ -31555,6 +31484,43 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "modele:canon 700d eos|2@3075": {
+   "date": 1794958298667,
+   "mediane": 230,
+   "echantillon": 71,
+   "dispersion": 0.31,
+   "fourchette": [
+    100,
+    350
+   ],
+   "exemples": [
+    {
+     "id": 9970302931,
+     "prix": 226
+    },
+    {
+     "id": 10818630472,
+     "prix": 230
+    },
+    {
+     "id": 10761688583,
+     "prix": 230
+    },
+    {
+     "id": 10483520095,
+     "prix": 230
+    }
+   ],
+   "niveau": "modèle",
+   "lissee": true
+  },
+  "modele:canon custodia cuoio|1@3076": {
+   "date": 1794958493791,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -43979,8 +43945,8 @@
    "vu": 1794676102748
   },
   "3138957823": {
-   "n": 90,
-   "vu": 1794955239446
+   "n": 91,
+   "vu": 1794958621031
   },
   "3139110308": {
    "n": 3,
@@ -47681,8 +47647,8 @@
  },
  "bilan": {
   "depuis": 1794957471784,
-  "passages": 6,
-  "nouvelles": 6,
+  "passages": 21,
+  "nouvelles": 14,
   "marque": 2,
   "etat": 1,
   "prix": 0,
@@ -47690,29 +47656,18 @@
   "lot": 0,
   "fausse": 0,
   "imitation": 0,
-  "pro": 0,
+  "pro": 1,
   "vendeurSpecialise": 0,
-  "sansCote": 2,
-  "chere": 1,
+  "sansCote": 7,
+  "chere": 2,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
-  "alertes": 0
+  "alertes": 1
  },
  "panne": null,
  "panneDebut": null,
  "suivi": [
-  {
-   "id": 10777280556,
-   "titre": "Canon AE1",
-   "prix": 55,
-   "cote": 150,
-   "score": 62,
-   "lien": "https://www.vinted.fr/items/10777280556-canon-ae1",
-   "date": 1794487933204,
-   "statut": "retiree",
-   "verifieA": 1794491565650
-  },
   {
    "id": 10777276102,
    "titre": "Yashica fx3 super 2000",
@@ -50999,6 +50954,17 @@
    "score": 58,
    "lien": "https://www.vinted.fr/items/10861012564-miranda-auto-sensorex-ee",
    "date": 1794954534785,
+   "statut": "en vente",
+   "verifieA": 1794958171466
+  },
+  {
+   "id": 10861479266,
+   "titre": "Canon EOS 700D",
+   "prix": 120,
+   "cote": 230,
+   "score": 64,
+   "lien": "https://www.vinted.fr/items/10861479266-canon-eos-700d",
+   "date": 1794958366034,
    "statut": null
   }
  ],

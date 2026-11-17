@@ -1,19 +1,5 @@
 {
  "vues": [
-  "10826375773",
-  "10826368699",
-  "10826352401",
-  "10826262032",
-  "10826381562",
-  "10826370551",
-  "10826364637",
-  "10826369255",
-  "10826355056",
-  "10826350920",
-  "10826350441",
-  "10826429020",
-  "10826427788",
-  "10826425162",
   "10826426320",
   "10826416700",
   "10826412026",
@@ -3999,7 +3985,21 @@
   "10849355917",
   "10849361112",
   "10849374716",
-  "10849379624"
+  "10849379624",
+  "10849391067",
+  "10849391147",
+  "10849388571",
+  "10849391823",
+  "10849391352",
+  "10849393543",
+  "10849396772",
+  "10849398827",
+  "10849403907",
+  "10849415973",
+  "10849421694",
+  "10849427632",
+  "10849427201",
+  "10849431095"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -7816,70 +7816,6 @@
    "mediane": null,
    "echantillon": 27,
    "coteTropBasse": 25
-  },
-  "modele:olympus 6000 stylus|1@3075": {
-   "date": 1794725262756,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:yashica fx3 yascica|1@3076": {
-   "date": 1794725453473,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:olympus vr 340 camara|2@3075": {
-   "date": 1794725707543,
-   "mediane": null,
-   "echantillon": 2,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:fujifilm a100 digitalcamera|2@3075": {
-   "date": 1794725708299,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:voigtlander vito analogkamera|2@3076": {
-   "date": 1794725709270,
-   "mediane": 38,
-   "echantillon": 11,
-   "dispersion": 0.53,
-   "fourchette": [
-    10,
-    60
-   ],
-   "exemples": [
-    {
-     "id": 10811188913,
-     "prix": 38
-    },
-    {
-     "id": 10129479831,
-     "prix": 40
-    },
-    {
-     "id": 10815633852,
-     "prix": 45
-    },
-    {
-     "id": 9697479734,
-     "prix": 45
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:fuji st605n f 1 8|2@3076": {
-   "date": 1794725900008,
-   "mediane": null,
-   "echantillon": 0,
-   "dispersion": null,
-   "niveau": "modèle"
   },
   "modele:yashica zoom funzionante|2@3076": {
    "date": 1794728818867,
@@ -42396,6 +42332,107 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "modele:fujifilm x t50 tamron|3@3075": {
+   "date": 1794898242195,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:minolta fotoapparate analog|1@3076": {
+   "date": 1794898372069,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:nikon f 301|1@3076": {
+   "date": 1794898436213,
+   "mediane": 80,
+   "echantillon": 59,
+   "dispersion": 0.75,
+   "fourchette": [
+    23,
+    200
+   ],
+   "exemples": [
+    {
+     "id": 10752428554,
+     "prix": 80
+    },
+    {
+     "id": 9575153491,
+     "prix": 80
+    },
+    {
+     "id": 7832948366,
+     "prix": 80
+    },
+    {
+     "id": 7225205841,
+     "prix": 80
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:canon af35m autoboy|1@3076": {
+   "date": 1794898690059,
+   "mediane": 90,
+   "echantillon": 6,
+   "dispersion": 0.56,
+   "fourchette": [
+    44.9,
+    145
+   ],
+   "exemples": [
+    {
+     "id": 10736936438,
+     "prix": 110
+    },
+    {
+     "id": 7839066585,
+     "prix": 70
+    },
+    {
+     "id": 10242381655,
+     "prix": 70
+    },
+    {
+     "id": 7193905790,
+     "prix": 120
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:canon f 1 new|1@3076": {
+   "date": 1794898816985,
+   "mediane": 175,
+   "echantillon": 5,
+   "dispersion": 0.79,
+   "fourchette": [
+    150,
+    399
+   ],
+   "exemples": [
+    {
+     "id": 9764061817,
+     "prix": 175
+    },
+    {
+     "id": 9872897716,
+     "prix": 160
+    },
+    {
+     "id": 9771822559,
+     "prix": 150
+    },
+    {
+     "id": 10849427201,
+     "prix": 299
+    }
+   ],
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -43388,8 +43425,8 @@
    "vu": 1794569477729
   },
   "21977679": {
-   "n": 7,
-   "vu": 1794383690473
+   "n": 8,
+   "vu": 1794898241638
   },
   "21987299": {
    "n": 3,
@@ -44918,6 +44955,10 @@
   "43392981": {
    "n": 3,
    "vu": 1793782667158
+  },
+  "43413344": {
+   "n": 2,
+   "vu": 1794898816368
   },
   "43477997": {
    "n": 2,
@@ -49096,8 +49137,8 @@
    "vu": 1794595239840
   },
   "136860526": {
-   "n": 37,
-   "vu": 1794835086377
+   "n": 38,
+   "vu": 1794898880245
   },
   "137208117": {
    "n": 5,
@@ -50500,8 +50541,8 @@
    "vu": 1794768494409
   },
   "206744994": {
-   "n": 6,
-   "vu": 1794891002880
+   "n": 7,
+   "vu": 1794898178355
   },
   "206746264": {
    "n": 2,
@@ -54964,8 +55005,8 @@
    "vu": 1793967949916
   },
   "3158536007": {
-   "n": 4,
-   "vu": 1794839434764
+   "n": 5,
+   "vu": 1794898308257
   },
   "3158762984": {
    "n": 3,
@@ -57774,19 +57815,19 @@
  },
  "bilan": {
   "depuis": 1794894748283,
-  "passages": 51,
-  "nouvelles": 31,
-  "marque": 6,
-  "etat": 2,
+  "passages": 66,
+  "nouvelles": 45,
+  "marque": 7,
+  "etat": 3,
   "prix": 2,
-  "accessoire": 1,
+  "accessoire": 2,
   "lot": 0,
   "fausse": 0,
   "imitation": 0,
   "pro": 0,
-  "vendeurSpecialise": 0,
-  "sansCote": 14,
-  "chere": 4,
+  "vendeurSpecialise": 2,
+  "sansCote": 20,
+  "chere": 7,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,

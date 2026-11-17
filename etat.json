@@ -1,23 +1,5 @@
 {
  "vues": [
-  "10843100888",
-  "10843113298",
-  "10843112377",
-  "10843115187",
-  "10843106506",
-  "10843103129",
-  "10843113069",
-  "10843107713",
-  "10843105958",
-  "10843109081",
-  "10843110569",
-  "10843103883",
-  "10843103785",
-  "10843104580",
-  "10843102466",
-  "10843094065",
-  "10843100940",
-  "10843059147",
   "10843088530",
   "10843094074",
   "10843095026",
@@ -3999,7 +3981,25 @@
   "10848955707",
   "10848962994",
   "10848962218",
-  "10848974959"
+  "10848974959",
+  "10848985902",
+  "10848984977",
+  "10848990561",
+  "10848994912",
+  "10848997197",
+  "10848996859",
+  "10849001313",
+  "10849003612",
+  "10849005879",
+  "10849008575",
+  "10849010541",
+  "10849011531",
+  "10849014633",
+  "10849014965",
+  "10849021371",
+  "10830203117",
+  "10834940311",
+  "10834910286"
  ],
  "cotes": {
   "marque:fossil": {
@@ -8063,27 +8063,6 @@
     }
    ],
    "niveau": "marque"
-  },
-  "modele:vagary iv4 519 71 uomo|2": {
-   "date": 1794717107994,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:vagary aqua39 vs1 019 53|2": {
-   "date": 1794717106650,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:frederique constant geneve suisse|4": {
-   "date": 1794717105489,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
   },
   "modele:bulova automatique self|2": {
    "date": 1794718646575,
@@ -33534,6 +33513,42 @@
    "mediane": null,
    "echantillon": 2,
    "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:tissot unbenutzte armband|1": {
+   "date": 1794890040669,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:lotus deportivo|2": {
+   "date": 1794890085098,
+   "mediane": 22,
+   "echantillon": 8,
+   "dispersion": 0.55,
+   "fourchette": [
+    12,
+    55
+   ],
+   "exemples": [
+    {
+     "id": 10594829637,
+     "prix": 22
+    },
+    {
+     "id": 8207446926,
+     "prix": 22
+    },
+    {
+     "id": 10785229387,
+     "prix": 18
+    },
+    {
+     "id": 8917264186,
+     "prix": 15
+    }
+   ],
    "niveau": "modèle"
   }
  },
@@ -63475,8 +63490,8 @@
    "vu": 1793900460622
   },
   "78200246": {
-   "n": 13,
-   "vu": 1794889478989
+   "n": 14,
+   "vu": 1794889867990
   },
   "78231053": {
    "n": 14,
@@ -107162,6 +107177,10 @@
    "n": 33,
    "vu": 1793633350698
   },
+  "293849545": {
+   "n": 2,
+   "vu": 1794890301491
+  },
   "293861330": {
    "n": 2,
    "vu": 1794738384148
@@ -107959,8 +107978,8 @@
    "vu": 1793633350698
   },
   "305059763": {
-   "n": 40,
-   "vu": 1794809705021
+   "n": 43,
+   "vu": 1794890431345
   },
   "305060206": {
    "n": 59,
@@ -112007,8 +112026,8 @@
    "vu": 1793633350698
   },
   "3126422506": {
-   "n": 78,
-   "vu": 1794810185825
+   "n": 79,
+   "vu": 1794890215254
   },
   "3126439210": {
    "n": 21,
@@ -144369,38 +144388,27 @@
  },
  "bilan": {
   "depuis": 1794887707427,
-  "passages": 42,
-  "nouvelles": 12,
-  "marque": 10,
+  "passages": 63,
+  "nouvelles": 30,
+  "marque": 23,
   "etat": 0,
   "prix": 0,
   "accessoire": 0,
   "lot": 0,
   "fausse": 0,
   "imitation": 0,
-  "pro": 0,
-  "vendeurSpecialise": 1,
+  "pro": 1,
+  "vendeurSpecialise": 3,
   "sansCote": 0,
-  "chere": 0,
+  "chere": 1,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
-  "alertes": 1
+  "alertes": 2
  },
  "panne": null,
  "panneDebut": null,
  "suivi": [
-  {
-   "id": 10818902297,
-   "titre": "Montre à quartz",
-   "prix": 20,
-   "cote": 196,
-   "score": 70,
-   "lien": "https://www.vinted.fr/items/10818902297-montre-a-quartz",
-   "date": 1794742016477,
-   "statut": "retiree",
-   "verifieA": 1794745636277
-  },
   {
    "id": 10818923657,
    "titre": "Festina Herren Uhr",
@@ -147687,6 +147695,16 @@
    "score": 65,
    "lien": "https://www.vinted.fr/items/10277058776-montre-marine",
    "date": 1794888832777,
+   "statut": null
+  },
+  {
+   "id": 10849003612,
+   "titre": "Tissot unbenutzte Armband Uhr",
+   "prix": 44.44,
+   "cote": 174,
+   "score": 70,
+   "lien": "https://www.vinted.fr/items/10849003612-tissot-unbenutzte-armband-uhr",
+   "date": 1794890041303,
    "statut": null
   }
  ],

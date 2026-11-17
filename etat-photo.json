@@ -1,7 +1,5 @@
 {
  "vues": [
-  "10826195338",
-  "10826241108",
   "10826223561",
   "10836060530",
   "10836050923",
@@ -3999,7 +3997,9 @@
   "10848213707",
   "10848273382",
   "10844155202",
-  "10848287983"
+  "10848287983",
+  "10848311440",
+  "10846703994"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -42590,6 +42590,31 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "modele:nikon s2600 y2k|1@3075": {
+   "date": 1794880831225,
+   "mediane": 85,
+   "echantillon": 3,
+   "dispersion": null,
+   "fourchette": [
+    70,
+    200
+   ],
+   "exemples": [
+    {
+     "id": 10254243208,
+     "prix": 85
+    },
+    {
+     "id": 10848311440,
+     "prix": 70
+    },
+    {
+     "id": 10675581197,
+     "prix": 200
+    }
+   ],
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -43034,8 +43059,8 @@
    "vu": 1794764597599
   },
   "16019251": {
-   "n": 13,
-   "vu": 1794863543663
+   "n": 14,
+   "vu": 1794881210327
   },
   "16044183": {
    "n": 2,
@@ -57956,8 +57981,8 @@
  },
  "bilan": {
   "depuis": 1794878041467,
-  "passages": 41,
-  "nouvelles": 21,
+  "passages": 55,
+  "nouvelles": 23,
   "marque": 0,
   "etat": 0,
   "prix": 1,
@@ -57966,9 +57991,9 @@
   "fausse": 0,
   "imitation": 0,
   "pro": 2,
-  "vendeurSpecialise": 9,
+  "vendeurSpecialise": 10,
   "sansCote": 6,
-  "chere": 3,
+  "chere": 4,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
@@ -61274,7 +61299,8 @@
    "score": 61,
    "lien": "https://www.vinted.fr/items/10847971168-canon-eos600d",
    "date": 1794877343379,
-   "statut": null
+   "statut": "en vente",
+   "verifieA": 1794880957922
   }
  ],
  "dernierRecap": "2026-11-16"

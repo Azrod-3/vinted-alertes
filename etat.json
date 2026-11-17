@@ -1,12 +1,5 @@
 {
  "vues": [
-  "10843130846",
-  "10843118942",
-  "10843119029",
-  "10843123202",
-  "10843118832",
-  "10843117365",
-  "10843083689",
   "10843100888",
   "10843113298",
   "10843112377",
@@ -3999,7 +3992,14 @@
   "10848897882",
   "10790198723",
   "10847211465",
-  "10848928059"
+  "10848928059",
+  "10277058776",
+  "10848956658",
+  "10848955831",
+  "10848955707",
+  "10848962994",
+  "10848962218",
+  "10848974959"
  ],
  "cotes": {
   "marque:fossil": {
@@ -22998,21 +22998,17 @@
    "niveau": "modèle"
   },
   "marque:bering": {
-   "date": 1794776024183,
+   "date": 1794888831170,
    "mediane": 120,
-   "echantillon": 74,
+   "echantillon": 73,
    "dispersion": 0.29,
    "fourchette": [
-    35,
+    32.8,
     200
    ],
    "exemples": [
     {
      "id": 7609331587,
-     "prix": 120
-    },
-    {
-     "id": 10618582365,
      "prix": 120
     },
     {
@@ -23022,9 +23018,14 @@
     {
      "id": 6821475114,
      "prix": 120
+    },
+    {
+     "id": 9946533723,
+     "prix": 120
     }
    ],
-   "niveau": "marque"
+   "niveau": "marque",
+   "lissee": true
   },
   "modele:junghans taschenuhr|1": {
    "date": 1794776286094,
@@ -33527,6 +33528,13 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "modele:bering marine|1": {
+   "date": 1794888831799,
+   "mediane": null,
+   "echantillon": 2,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -42411,8 +42419,8 @@
    "vu": 1794779296661
   },
   "31226392": {
-   "n": 3,
-   "vu": 1794888613289
+   "n": 4,
+   "vu": 1794889134054
   },
   "31236986": {
    "n": 6,
@@ -63467,8 +63475,8 @@
    "vu": 1793900460622
   },
   "78200246": {
-   "n": 10,
-   "vu": 1793633350698
+   "n": 13,
+   "vu": 1794889478989
   },
   "78231053": {
    "n": 14,
@@ -130391,8 +130399,8 @@
    "vu": 1793633350698
   },
   "3180439159": {
-   "n": 7,
-   "vu": 1793633350698
+   "n": 8,
+   "vu": 1794889262943
   },
   "3180468452": {
    "n": 6,
@@ -144361,9 +144369,9 @@
  },
  "bilan": {
   "depuis": 1794887707427,
-  "passages": 21,
-  "nouvelles": 5,
-  "marque": 5,
+  "passages": 42,
+  "nouvelles": 12,
+  "marque": 10,
   "etat": 0,
   "prix": 0,
   "accessoire": 0,
@@ -144371,28 +144379,17 @@
   "fausse": 0,
   "imitation": 0,
   "pro": 0,
-  "vendeurSpecialise": 0,
+  "vendeurSpecialise": 1,
   "sansCote": 0,
   "chere": 0,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
-  "alertes": 0
+  "alertes": 1
  },
  "panne": null,
  "panneDebut": null,
  "suivi": [
-  {
-   "id": 10818894930,
-   "titre": "Orologio Orient",
-   "prix": 75,
-   "cote": 159,
-   "score": 54,
-   "lien": "https://www.vinted.fr/items/10818894930-orologio-orient",
-   "date": 1794741972112,
-   "statut": "en vente",
-   "verifieA": 1794745591767
-  },
   {
    "id": 10818902297,
    "titre": "Montre à quartz",
@@ -147681,6 +147678,16 @@
    "date": 1794880443517,
    "statut": "en vente",
    "verifieA": 1794884123185
+  },
+  {
+   "id": 10277058776,
+   "titre": "Montre marine",
+   "prix": 15,
+   "cote": 120,
+   "score": 65,
+   "lien": "https://www.vinted.fr/items/10277058776-montre-marine",
+   "date": 1794888832777,
+   "statut": null
   }
  ],
  "dernierRecap": "2026-11-16"

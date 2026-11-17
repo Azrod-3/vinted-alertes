@@ -1,15 +1,5 @@
 {
  "vues": [
-  "10836158658",
-  "10836148802",
-  "10835946312",
-  "10820504359",
-  "10836152964",
-  "10836147542",
-  "10836178198",
-  "10836171606",
-  "10836175406",
-  "10836175920",
   "10826287802",
   "10826269188",
   "10826256944",
@@ -3999,7 +3989,17 @@
   "10849221159",
   "10849229582",
   "10849229202",
-  "10849233524"
+  "10849233524",
+  "10849232025",
+  "10849246015",
+  "10849251314",
+  "10849251062",
+  "10849256222",
+  "10849264684",
+  "10849275793",
+  "10849276713",
+  "10849277435",
+  "10849277307"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -7810,13 +7810,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:nikon f 401s objektive|2@3076": {
-   "date": 1794722915376,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
   },
   "modele:canon 550d eos|1@3075": {
    "date": 1794723424318,
@@ -42351,6 +42344,49 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "modele:nikon f 301 spiegelreflexcamera|1@3076": {
+   "date": 1794895194414,
+   "mediane": null,
+   "echantillon": 2,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:canon 500n 200|1@3076": {
+   "date": 1794895511062,
+   "mediane": 97,
+   "echantillon": 5,
+   "dispersion": 0.35,
+   "fourchette": [
+    35,
+    120
+   ],
+   "exemples": [
+    {
+     "id": 9632606419,
+     "prix": 97
+    },
+    {
+     "id": 8434155577,
+     "prix": 99
+    },
+    {
+     "id": 9593806073,
+     "prix": 120
+    },
+    {
+     "id": 10543009269,
+     "prix": 65
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:canon 1000f fotografico|2@3076": {
+   "date": 1794895828963,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -44851,8 +44887,8 @@
    "vu": 1794385034761
   },
   "43308342": {
-   "n": 7,
-   "vu": 1794734895883
+   "n": 8,
+   "vu": 1794896018613
   },
   "43308710": {
    "n": 2,
@@ -55851,8 +55887,8 @@
    "vu": 1793638396273
   },
   "3186857731": {
-   "n": 4,
-   "vu": 1794841190523
+   "n": 5,
+   "vu": 1794895638458
   },
   "3187100654": {
    "n": 2,
@@ -57725,38 +57761,27 @@
  },
  "bilan": {
   "depuis": 1794894748283,
-  "passages": 6,
-  "nouvelles": 4,
-  "marque": 0,
-  "etat": 0,
+  "passages": 21,
+  "nouvelles": 14,
+  "marque": 3,
+  "etat": 1,
   "prix": 2,
-  "accessoire": 0,
+  "accessoire": 1,
   "lot": 0,
   "fausse": 0,
   "imitation": 0,
   "pro": 0,
   "vendeurSpecialise": 0,
-  "sansCote": 1,
+  "sansCote": 5,
   "chere": 1,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
-  "alertes": 0
+  "alertes": 1
  },
  "panne": null,
  "panneDebut": null,
  "suivi": [
-  {
-   "id": 10769140265,
-   "titre": "appareil photo numérique compact Nikon Coolpix S9400",
-   "prix": 65,
-   "cote": 150,
-   "score": 64,
-   "lien": "https://www.vinted.fr/items/10769140265-appareil-photo-numerique-compact-nikon-coolpix-s9400",
-   "date": 1794425064636,
-   "statut": "retiree",
-   "verifieA": 1794434053927
-  },
   {
    "id": 10769173347,
    "titre": "Nikon 1j1",
@@ -61045,6 +61070,16 @@
    "date": 1794877343379,
    "statut": "en vente",
    "verifieA": 1794880957922
+  },
+  {
+   "id": 10849251062,
+   "titre": "Canon EOS 500N Spiegelreflexkamera mit 28–200 mm Zoomobjektiv – Silber,Schwarz",
+   "prix": 35,
+   "cote": 97,
+   "score": 62,
+   "lien": "https://www.vinted.fr/items/10849251062-canon-eos-500n-spiegelreflexkamera-mit-28-200-mm-zoomobjektiv-silberschwarz",
+   "date": 1794895511999,
+   "statut": null
   }
  ],
  "dernierRecap": "2026-11-16"

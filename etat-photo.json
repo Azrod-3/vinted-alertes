@@ -1,12 +1,5 @@
 {
  "vues": [
-  "10826061308",
-  "10826045865",
-  "10826072638",
-  "10826192630",
-  "10826170580",
-  "10826167089",
-  "10826155873",
   "10826154113",
   "10826154186",
   "10826173708",
@@ -3999,7 +3992,14 @@
   "10847973844",
   "10847971168",
   "10847985370",
-  "10848018118"
+  "10848018118",
+  "10848025731",
+  "10848034905",
+  "10848059902",
+  "10848057249",
+  "10848071652",
+  "10848089066",
+  "10848104101"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -42486,6 +42486,20 @@
    "echantillon": 1,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:nikon l35f|1@3076": {
+   "date": 1794878547598,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:kodak retina iif|2@3076": {
+   "date": 1794878674539,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -48282,8 +48296,8 @@
    "vu": 1794392627428
   },
   "103387564": {
-   "n": 32,
-   "vu": 1794877469832
+   "n": 34,
+   "vu": 1794878357650
   },
   "103473268": {
    "n": 3,
@@ -54362,8 +54376,8 @@
    "vu": 1794674819700
   },
   "3141779185": {
-   "n": 72,
-   "vu": 1794876963190
+   "n": 74,
+   "vu": 1794878230931
   },
   "3141802510": {
    "n": 2,
@@ -57843,24 +57857,24 @@
   }
  },
  "bilan": {
-  "depuis": 1794870814596,
-  "passages": 110,
-  "nouvelles": 84,
-  "marque": 9,
-  "etat": 4,
-  "prix": 2,
-  "accessoire": 3,
+  "depuis": 1794878041467,
+  "passages": 11,
+  "nouvelles": 5,
+  "marque": 0,
+  "etat": 0,
+  "prix": 0,
+  "accessoire": 0,
   "lot": 0,
   "fausse": 0,
   "imitation": 0,
-  "pro": 23,
-  "vendeurSpecialise": 12,
-  "sansCote": 21,
-  "chere": 9,
+  "pro": 2,
+  "vendeurSpecialise": 1,
+  "sansCote": 2,
+  "chere": 0,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
-  "alertes": 1
+  "alertes": 0
  },
  "panne": null,
  "panneDebut": null,

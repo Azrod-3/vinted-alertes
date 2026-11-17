@@ -1,10 +1,5 @@
 {
  "vues": [
-  "10836083896",
-  "10836080828",
-  "10836067420",
-  "10836082725",
-  "10836072816",
   "10836087312",
   "10836093598",
   "10836094262",
@@ -3999,7 +3994,12 @@
   "10848947836",
   "10847212378",
   "10848978792",
-  "10848989752"
+  "10848989752",
+  "10849031425",
+  "10849047888",
+  "10849047954",
+  "10849036868",
+  "10849054558"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -7810,35 +7810,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:agfa silette color|2@3076": {
-   "date": 1794717920358,
-   "mediane": 24,
-   "echantillon": 36,
-   "dispersion": 1.06,
-   "fourchette": [
-    8,
-    75
-   ],
-   "exemples": [
-    {
-     "id": 10681481166,
-     "prix": 24
-    },
-    {
-     "id": 8740375354,
-     "prix": 24.9
-    },
-    {
-     "id": 10638227195,
-     "prix": 25
-    },
-    {
-     "id": 9924286483,
-     "prix": 25
-    }
-   ],
-   "niveau": "modèle"
   },
   "modele:agfa 1960er 8 45|1@3076": {
    "date": 1794721839263,
@@ -20423,9 +20394,9 @@
    "niveau": "modèle"
   },
   "marque:lumix@3075": {
-   "date": 1794759225914,
+   "date": 1794891131900,
    "mediane": null,
-   "echantillon": 1,
+   "echantillon": 0,
    "dispersion": null,
    "niveau": "marque"
   },
@@ -42352,6 +42323,49 @@
    "echantillon": 1,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:nikon 4 5 6d analogica|2@3076": {
+   "date": 1794891003518,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:yashica zoomtec analoge|1@3076": {
+   "date": 1794891004355,
+   "mediane": 23,
+   "echantillon": 4,
+   "dispersion": 0.22,
+   "fourchette": [
+    15,
+    40
+   ],
+   "exemples": [
+    {
+     "id": 10849047954,
+     "prix": 25
+    },
+    {
+     "id": 9957385232,
+     "prix": 20
+    },
+    {
+     "id": 10595026115,
+     "prix": 15
+    },
+    {
+     "id": 5873663134,
+     "prix": 40
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:lumix apareil|2@3075": {
+   "date": 1794891132699,
+   "mediane": null,
+   "echantillon": 0,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -47508,8 +47522,8 @@
    "vu": 1794264224724
   },
   "79689554": {
-   "n": 3,
-   "vu": 1794867493849
+   "n": 4,
+   "vu": 1794891067462
   },
   "79731174": {
    "n": 2,
@@ -50071,6 +50085,10 @@
    "n": 2,
    "vu": 1794844833600
   },
+  "187712163": {
+   "n": 2,
+   "vu": 1794891131047
+  },
   "187861733": {
    "n": 3,
    "vu": 1794834955021
@@ -50444,8 +50462,8 @@
    "vu": 1794768494409
   },
   "206744994": {
-   "n": 5,
-   "vu": 1794755105232
+   "n": 6,
+   "vu": 1794891002880
   },
   "206746264": {
    "n": 2,
@@ -57718,9 +57736,9 @@
  },
  "bilan": {
   "depuis": 1794887516991,
-  "passages": 45,
-  "nouvelles": 5,
-  "marque": 1,
+  "passages": 60,
+  "nouvelles": 10,
+  "marque": 2,
   "etat": 1,
   "prix": 0,
   "accessoire": 0,
@@ -57729,8 +57747,8 @@
   "imitation": 0,
   "pro": 0,
   "vendeurSpecialise": 1,
-  "sansCote": 2,
-  "chere": 0,
+  "sansCote": 5,
+  "chere": 1,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,

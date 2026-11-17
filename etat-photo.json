@@ -1,12 +1,5 @@
 {
  "vues": [
-  "10826334921",
-  "10826303933",
-  "10826305746",
-  "10826296598",
-  "10826393552",
-  "10826393643",
-  "10826390020",
   "10826375773",
   "10826368699",
   "10826352401",
@@ -3999,7 +3992,14 @@
   "10849307912",
   "10849313815",
   "10849318735",
-  "10849322574"
+  "10849322574",
+  "10849338606",
+  "10849343151",
+  "10849354009",
+  "10849355917",
+  "10849361112",
+  "10849374716",
+  "10849379624"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -4392,10 +4392,10 @@
    "lissee": true
   },
   "marque:kodak@3076": {
-   "date": 1794808927449,
+   "date": 1794897352612,
    "mediane": null,
    "echantillon": 73,
-   "coteTropBasse": 19
+   "coteTropBasse": 20
   },
   "marque:agfa@3076": {
    "date": 1794821829258,
@@ -7811,25 +7811,11 @@
    "niveau": "modèle",
    "lissee": true
   },
-  "modele:agfa billy historische|1@3076": {
-   "date": 1794724438543,
-   "mediane": null,
-   "echantillon": 2,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
   "marque:konica@3075": {
    "date": 1794872023116,
    "mediane": null,
    "echantillon": 27,
    "coteTropBasse": 25
-  },
-  "modele:canon program canoned|2@3076": {
-   "date": 1794724755306,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
   },
   "modele:olympus 6000 stylus|1@3075": {
    "date": 1794725262756,
@@ -42381,6 +42367,35 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "modele:nikon d3000 camara|2@3075": {
+   "date": 1794897922915,
+   "mediane": 150,
+   "echantillon": 51,
+   "dispersion": 0.6,
+   "fourchette": [
+    50,
+    300
+   ],
+   "exemples": [
+    {
+     "id": 10774068863,
+     "prix": 150
+    },
+    {
+     "id": 10808867715,
+     "prix": 150
+    },
+    {
+     "id": 10842110341,
+     "prix": 150
+    },
+    {
+     "id": 6319711050,
+     "prix": 150
+    }
+   ],
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -48037,8 +48052,8 @@
    "vu": 1794679264691
   },
   "96671434": {
-   "n": 6,
-   "vu": 1794889797657
+   "n": 7,
+   "vu": 1794897605612
   },
   "96691244": {
    "n": 3,
@@ -57759,10 +57774,10 @@
  },
  "bilan": {
   "depuis": 1794894748283,
-  "passages": 36,
-  "nouvelles": 24,
-  "marque": 5,
-  "etat": 1,
+  "passages": 51,
+  "nouvelles": 31,
+  "marque": 6,
+  "etat": 2,
   "prix": 2,
   "accessoire": 1,
   "lot": 0,
@@ -57770,27 +57785,16 @@
   "imitation": 0,
   "pro": 0,
   "vendeurSpecialise": 0,
-  "sansCote": 10,
+  "sansCote": 14,
   "chere": 4,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
-  "alertes": 1
+  "alertes": 2
  },
  "panne": null,
  "panneDebut": null,
  "suivi": [
-  {
-   "id": 10769173347,
-   "titre": "Nikon 1j1",
-   "prix": 55,
-   "cote": 120,
-   "score": 58,
-   "lien": "https://www.vinted.fr/items/10769173347-nikon-1j1",
-   "date": 1794425197295,
-   "statut": "en vente",
-   "verifieA": 1794434120032
-  },
   {
    "id": 10769224786,
    "titre": "Olympus omd em 10 mark ii",
@@ -61077,6 +61081,16 @@
    "score": 62,
    "lien": "https://www.vinted.fr/items/10849251062-canon-eos-500n-spiegelreflexkamera-mit-28-200-mm-zoomobjektiv-silberschwarz",
    "date": 1794895511999,
+   "statut": null
+  },
+  {
+   "id": 10849374716,
+   "titre": "Cámara Nikon D3000",
+   "prix": 65,
+   "cote": 150,
+   "score": 63,
+   "lien": "https://www.vinted.fr/items/10849374716-camara-nikon-d3000",
+   "date": 1794897923624,
    "statut": null
   }
  ],

@@ -1,7 +1,5 @@
 {
  "vues": [
-  "10797383292",
-  "10834185625",
   "10834219982",
   "10834230644",
   "10642778168",
@@ -3999,7 +3997,9 @@
   "10856846264",
   "10856830372",
   "10856839424",
-  "10856811123"
+  "10856811123",
+  "10849018756",
+  "10856858657"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -4602,30 +4602,30 @@
    "lissee": true
   },
   "marque:contax@3076": {
-   "date": 1794844963444,
-   "mediane": 230,
-   "echantillon": 42,
-   "dispersion": 1.16,
+   "date": 1794936741290,
+   "mediane": 223,
+   "echantillon": 45,
+   "dispersion": 1.18,
    "fourchette": [
     67,
     750
    ],
    "exemples": [
     {
-     "id": 10841245751,
-     "prix": 225
+     "id": 10725713802,
+     "prix": 220
     },
     {
      "id": 10805533014,
      "prix": 225
     },
     {
-     "id": 10725713802,
-     "prix": 220
+     "id": 10841245751,
+     "prix": 225
     },
     {
-     "id": 10751368818,
-     "prix": 210
+     "id": 6897417258,
+     "prix": 200
     }
    ],
    "niveau": "marque",
@@ -7203,42 +7203,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:minolta 7x dimage|2@3075": {
-   "date": 1794763887360,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:nikon 5000|2@3075": {
-   "date": 1794763888324,
-   "mediane": 80,
-   "echantillon": 37,
-   "dispersion": 1.75,
-   "fourchette": [
-    25,
-    300
-   ],
-   "exemples": [
-    {
-     "id": 7076737188,
-     "prix": 80
-    },
-    {
-     "id": 8030236340,
-     "prix": 80
-    },
-    {
-     "id": 9556022248,
-     "prix": 75
-    },
-    {
-     "id": 10617897047,
-     "prix": 70
-    }
-   ],
-   "niveau": "modèle"
   },
   "modele:zenit 12xp 44m 4|2@3076": {
    "date": 1794763952146,
@@ -35792,6 +35756,42 @@
    "echantillon": 1,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:contax rts|2@3076": {
+   "date": 1794936741971,
+   "mediane": 535,
+   "echantillon": 8,
+   "dispersion": 0.24,
+   "fourchette": [
+    135,
+    1000
+   ],
+   "exemples": [
+    {
+     "id": 10383220159,
+     "prix": 520
+    },
+    {
+     "id": 9151245104,
+     "prix": 550
+    },
+    {
+     "id": 7700199993,
+     "prix": 500
+    },
+    {
+     "id": 9546170437,
+     "prix": 630
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:olympus af zoom90|2@3076": {
+   "date": 1794936743575,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -41212,8 +41212,8 @@
    "vu": 1794264224724
   },
   "79689554": {
-   "n": 4,
-   "vu": 1794891067462
+   "n": 5,
+   "vu": 1794936740572
   },
   "79731174": {
    "n": 2,
@@ -51754,8 +51754,8 @@
  },
  "bilan": {
   "depuis": 1794933254850,
-  "passages": 53,
-  "nouvelles": 247,
+  "passages": 54,
+  "nouvelles": 249,
   "marque": 47,
   "etat": 11,
   "prix": 6,
@@ -51765,27 +51765,16 @@
   "imitation": 0,
   "pro": 12,
   "vendeurSpecialise": 17,
-  "sansCote": 96,
+  "sansCote": 97,
   "chere": 47,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
-  "alertes": 5
+  "alertes": 6
  },
  "panne": null,
  "panneDebut": null,
  "suivi": [
-  {
-   "id": 10775792366,
-   "titre": "Minox 35 EL analogue camera",
-   "prix": 30,
-   "cote": null,
-   "score": 20,
-   "lien": "https://www.vinted.fr/items/10775792366-minox-35-el-analogue-camera",
-   "date": 1794480385198,
-   "statut": "en vente",
-   "verifieA": 1794483994834
-  },
   {
    "id": 10775872937,
    "titre": "Canon EOS 6D Vollformat Spiegelreflexkamera – mit OVP – guter gebrauchter Zustan",
@@ -55067,6 +55056,16 @@
    "score": 22,
    "lien": "https://www.vinted.fr/items/10856453332-minox-35gt-flits-lenscap",
    "date": 1794935199828,
+   "statut": null
+  },
+  {
+   "id": 10849018756,
+   "titre": "Contax rts",
+   "prix": 100,
+   "cote": 535,
+   "score": 91,
+   "lien": "https://www.vinted.fr/items/10849018756-contax-rts",
+   "date": 1794936743713,
    "statut": null
   }
  ],

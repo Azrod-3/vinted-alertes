@@ -1,17 +1,5 @@
 {
  "vues": [
-  "10854301441",
-  "10854288767",
-  "10854288435",
-  "10854301109",
-  "10854297865",
-  "10854289451",
-  "10854296399",
-  "10854311103",
-  "10854314006",
-  "10854306535",
-  "10854334598",
-  "10854328417",
   "10854322492",
   "10854321927",
   "10854332875",
@@ -3999,7 +3987,19 @@
   "10875357907",
   "10875360169",
   "10875372486",
-  "10875367727"
+  "10875367727",
+  "10875381420",
+  "10875391635",
+  "10875399040",
+  "10875402070",
+  "10875407355",
+  "10875415697",
+  "10875414866",
+  "10875428035",
+  "10875443457",
+  "10875468395",
+  "10875475862",
+  "10875471243"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -6661,96 +6661,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:voigtlander vogtlander|2@3076": {
-   "date": 1794870878696,
-   "mediane": 58,
-   "echantillon": 4,
-   "dispersion": 1.13,
-   "fourchette": [
-    15,
-    90
-   ],
-   "exemples": [
-    {
-     "id": 10597290727,
-     "prix": 90
-    },
-    {
-     "id": 8274923303,
-     "prix": 90
-    },
-    {
-     "id": 10415657292,
-     "prix": 25
-    },
-    {
-     "id": 10847291900,
-     "prix": 15
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:sony w55 cyber|1@3075": {
-   "date": 1794870942483,
-   "mediane": 73,
-   "echantillon": 26,
-   "dispersion": 0.58,
-   "fourchette": [
-    20,
-    155
-   ],
-   "exemples": [
-    {
-     "id": 9069989068,
-     "prix": 75
-    },
-    {
-     "id": 7512003508,
-     "prix": 75
-    },
-    {
-     "id": 7695741063,
-     "prix": 70
-    },
-    {
-     "id": 10785736305,
-     "prix": 79.95
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:canon ixus per|1@3075": {
-   "date": 1794871197986,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:kodak 233 camara|2@3076": {
-   "date": 1794871514491,
-   "mediane": 20,
-   "echantillon": 3,
-   "dispersion": null,
-   "fourchette": [
-    10,
-    25
-   ],
-   "exemples": [
-    {
-     "id": 9095045173,
-     "prix": 20
-    },
-    {
-     "id": 10755934584,
-     "prix": 25
-    },
-    {
-     "id": 10847369186,
-     "prix": 10
-    }
-   ],
-   "niveau": "modèle"
   },
   "modele:canon a2300 camara|1@3075": {
    "date": 1794871830829,
@@ -31843,6 +31753,42 @@
    "echantillon": 1,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:praktica maquina antiga|2@3076": {
+   "date": 1795043585268,
+   "mediane": null,
+   "echantillon": 2,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:canon av 1 f 1 8|1@3076": {
+   "date": 1795043712930,
+   "mediane": 97,
+   "echantillon": 8,
+   "dispersion": 0.31,
+   "fourchette": [
+    85,
+    150
+   ],
+   "exemples": [
+    {
+     "id": 10715442335,
+     "prix": 95
+    },
+    {
+     "id": 9385563924,
+     "prix": 99.99
+    },
+    {
+     "id": 10515242642,
+     "prix": 90
+    },
+    {
+     "id": 9730814137,
+     "prix": 89.99
+    }
+   ],
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -31869,6 +31815,10 @@
   "199597": {
    "n": 10,
    "vu": 1794932802059
+  },
+  "233993": {
+   "n": 2,
+   "vu": 1795043711539
   },
   "248819": {
    "n": 2,
@@ -32763,8 +32713,8 @@
    "vu": 1794227709308
   },
   "20298892": {
-   "n": 2,
-   "vu": 1794925205623
+   "n": 3,
+   "vu": 1795043711539
   },
   "20300120": {
    "n": 3,
@@ -32955,8 +32905,8 @@
    "vu": 1793823355982
   },
   "22240742": {
-   "n": 52,
-   "vu": 1795040652417
+   "n": 53,
+   "vu": 1795044407988
   },
   "22392776": {
    "n": 2,
@@ -39287,8 +39237,8 @@
    "vu": 1794932225282
   },
   "143430597": {
-   "n": 20,
-   "vu": 1795043197632
+   "n": 21,
+   "vu": 1795043648398
   },
   "143439353": {
    "n": 3,
@@ -42245,6 +42195,10 @@
   "258917156": {
    "n": 2,
    "vu": 1794757973014
+  },
+  "259059809": {
+   "n": 2,
+   "vu": 1795043839412
   },
   "259153388": {
    "n": 2,
@@ -48692,39 +48646,28 @@
   }
  },
  "bilan": {
-  "depuis": 1795036554775,
-  "passages": 109,
-  "nouvelles": 200,
-  "marque": 39,
-  "etat": 16,
-  "prix": 6,
-  "accessoire": 2,
-  "lot": 1,
-  "fausse": 1,
+  "depuis": 1795043776333,
+  "passages": 11,
+  "nouvelles": 7,
+  "marque": 3,
+  "etat": 0,
+  "prix": 0,
+  "accessoire": 0,
+  "lot": 0,
+  "fausse": 0,
   "imitation": 0,
-  "pro": 4,
-  "vendeurSpecialise": 25,
-  "sansCote": 79,
-  "chere": 23,
+  "pro": 1,
+  "vendeurSpecialise": 0,
+  "sansCote": 3,
+  "chere": 0,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
-  "alertes": 4
+  "alertes": 0
  },
  "panne": null,
  "panneDebut": null,
  "suivi": [
-  {
-   "id": 10784954314,
-   "titre": "Câmara Digital Sony Cyber-shot DSC-W830 (20.1MP, 8x Zoom) + Carregador e Bateria",
-   "prix": 45,
-   "cote": 134,
-   "score": 63,
-   "lien": "https://www.vinted.fr/items/10784954314-camara-digital-sony-cyber-shot-dsc-w830-201mp-8x-zoom-carregador-e-bateria",
-   "date": 1794521709530,
-   "statut": "retiree",
-   "verifieA": 1794525355558
-  },
   {
    "id": 10784960163,
    "titre": "Canon EOS Rebel XTi + 18-55mm | Cámara réflex digital",
@@ -52011,6 +51954,16 @@
    "score": 58,
    "lien": "https://www.vinted.fr/items/10875278055-appareil-photo-olympus-mju-1",
    "date": 1795042689922,
+   "statut": null
+  },
+  {
+   "id": 10875399040,
+   "titre": "Appareil photo Canon EOS 450D - Reflex boîtier nu",
+   "prix": 50,
+   "cote": 119,
+   "score": 64,
+   "lien": "https://www.vinted.fr/items/10875399040-appareil-photo-canon-eos-450d-reflex-boitier-nu",
+   "date": 1795043713235,
    "statut": null
   }
  ],

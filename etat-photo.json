@@ -1,26 +1,5 @@
 {
  "vues": [
-  "10839068082",
-  "10839055210",
-  "10839062155",
-  "10839060085",
-  "10839055572",
-  "10839059170",
-  "10839082105",
-  "10839211159",
-  "10839312439",
-  "10839293011",
-  "10839156991",
-  "10836431739",
-  "10839100634",
-  "10839200689",
-  "10839162420",
-  "10839153694",
-  "10839147596",
-  "10839148551",
-  "10839143959",
-  "10839141452",
-  "10839133804",
   "10839136618",
   "10839128833",
   "10839116540",
@@ -3999,7 +3978,28 @@
   "10863467324",
   "10863466939",
   "10863471786",
-  "10863477724"
+  "10863477724",
+  "10863482518",
+  "10863482836",
+  "10863493111",
+  "10863494990",
+  "10863500702",
+  "10863500254",
+  "10863506959",
+  "10863508060",
+  "10863509988",
+  "10863508017",
+  "10863514864",
+  "10863519663",
+  "10863522970",
+  "10863528647",
+  "10863533424",
+  "10863535666",
+  "10863542886",
+  "10863542798",
+  "10863540867",
+  "10863546044",
+  "10863547742"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -5054,7 +5054,7 @@
    "lissee": true
   },
   "marque:fujica@3076": {
-   "date": 1794880385864,
+   "date": 1794986141261,
    "mediane": null,
    "echantillon": 28,
    "coteTropBasse": 40
@@ -7038,89 +7038,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:kodak c643 easyshare|1@3075": {
-   "date": 1794813124868,
-   "mediane": 52,
-   "echantillon": 3,
-   "dispersion": null,
-   "fourchette": [
-    42,
-    69
-   ],
-   "exemples": [
-    {
-     "id": 7694738318,
-     "prix": 52
-    },
-    {
-     "id": 10835165807,
-     "prix": 42
-    },
-    {
-     "id": 9683859985,
-     "prix": 69
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:canon 500n eos|1@3075": {
-   "date": 1794813252045,
-   "mediane": 75,
-   "echantillon": 15,
-   "dispersion": 0.53,
-   "fourchette": [
-    35,
-    180
-   ],
-   "exemples": [
-    {
-     "id": 10023094982,
-     "prix": 75
-    },
-    {
-     "id": 10835172821,
-     "prix": 70
-    },
-    {
-     "id": 7297818262,
-     "prix": 80
-    },
-    {
-     "id": 9002324379,
-     "prix": 65
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:panasonic dmc tz6 lumix|1@3075": {
-   "date": 1794813634747,
-   "mediane": 70,
-   "echantillon": 21,
-   "dispersion": 0.14,
-   "fourchette": [
-    45,
-    85
-   ],
-   "exemples": [
-    {
-     "id": 10807060415,
-     "prix": 70
-    },
-    {
-     "id": 10074931839,
-     "prix": 70
-    },
-    {
-     "id": 10566944465,
-     "prix": 70
-    },
-    {
-     "id": 8800742267,
-     "prix": 70
-    }
-   ],
-   "niveau": "modèle"
   },
   "modele:canon pied|2@3075": {
    "date": 1794814269444,
@@ -16969,10 +16886,10 @@
    "niveau": "modèle"
   },
   "modele:agfa isolette|2@3076": {
-   "date": 1794863816629,
+   "date": 1794986652001,
    "mediane": 45,
-   "echantillon": 65,
-   "dispersion": 0.56,
+   "echantillon": 66,
+   "dispersion": 0.58,
    "fourchette": [
     15,
     100
@@ -16995,7 +16912,8 @@
      "prix": 44
     }
    ],
-   "niveau": "modèle"
+   "niveau": "modèle",
+   "lissee": true
   },
   "modele:fujifilm stx 1n f1 9|2@3076": {
    "date": 1794863817224,
@@ -31790,6 +31708,154 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "modele:nikon l320 coolpix|2@3075": {
+   "date": 1794986012459,
+   "mediane": 80,
+   "echantillon": 40,
+   "dispersion": 0.57,
+   "fourchette": [
+    20,
+    150
+   ],
+   "exemples": [
+    {
+     "id": 9246704359,
+     "prix": 80
+    },
+    {
+     "id": 9742292025,
+     "prix": 80
+    },
+    {
+     "id": 6533501542,
+     "prix": 80
+    },
+    {
+     "id": 5643202118,
+     "prix": 80
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:konica apparreil kanpai|2@3076": {
+   "date": 1794986076409,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:nikon l840 coolpix|2@3075": {
+   "date": 1794986140334,
+   "mediane": 100,
+   "echantillon": 45,
+   "dispersion": 0.6,
+   "fourchette": [
+    60,
+    200
+   ],
+   "exemples": [
+    {
+     "id": 10795040144,
+     "prix": 100
+    },
+    {
+     "id": 10854537687,
+     "prix": 100
+    },
+    {
+     "id": 10105197782,
+     "prix": 100
+    },
+    {
+     "id": 10362143212,
+     "prix": 100
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:zeiss ikon contina|1@3076": {
+   "date": 1794986205222,
+   "mediane": 30,
+   "echantillon": 67,
+   "dispersion": 0.67,
+   "fourchette": [
+    10,
+    70
+   ],
+   "exemples": [
+    {
+     "id": 10712202924,
+     "prix": 30
+    },
+    {
+     "id": 10544105589,
+     "prix": 30
+    },
+    {
+     "id": 9420201740,
+     "prix": 30
+    },
+    {
+     "id": 9234204360,
+     "prix": 30
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:pentax espio|1@3076": {
+   "date": 1794986269333,
+   "mediane": 40,
+   "echantillon": 83,
+   "dispersion": 0.63,
+   "fourchette": [
+    10,
+    105
+   ],
+   "exemples": [
+    {
+     "id": 10736941753,
+     "prix": 40
+    },
+    {
+     "id": 10243535009,
+     "prix": 40
+    },
+    {
+     "id": 10780978013,
+     "prix": 40
+    },
+    {
+     "id": 10856006265,
+     "prix": 39
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:fujifilm z70 y2k|2@3075": {
+   "date": 1794986524224,
+   "mediane": 97,
+   "echantillon": 3,
+   "dispersion": null,
+   "fourchette": [
+    69,
+    99
+   ],
+   "exemples": [
+    {
+     "id": 10013244788,
+     "prix": 97
+    },
+    {
+     "id": 9789151527,
+     "prix": 99
+    },
+    {
+     "id": 10863528647,
+     "prix": 69
+    }
+   ],
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -40138,8 +40204,8 @@
    "vu": 1793973084548
   },
   "197400246": {
-   "n": 6,
-   "vu": 1794983462940
+   "n": 7,
+   "vu": 1794986460379
   },
   "197759853": {
    "n": 5,
@@ -40930,8 +40996,8 @@
    "vu": 1793978329360
   },
   "236601472": {
-   "n": 204,
-   "vu": 1794936285973
+   "n": 206,
+   "vu": 1794986716025
   },
   "236676597": {
    "n": 2,
@@ -41436,6 +41502,10 @@
   "251778666": {
    "n": 2,
    "vu": 1793905041340
+  },
+  "251794798": {
+   "n": 2,
+   "vu": 1794986523671
   },
   "252129144": {
    "n": 4,
@@ -47939,24 +48009,24 @@
   }
  },
  "bilan": {
-  "depuis": 1794979205750,
-  "passages": 104,
-  "nouvelles": 76,
-  "marque": 18,
-  "etat": 2,
-  "prix": 5,
+  "depuis": 1794986460380,
+  "passages": 5,
+  "nouvelles": 8,
+  "marque": 0,
+  "etat": 0,
+  "prix": 3,
   "accessoire": 0,
-  "lot": 1,
+  "lot": 0,
   "fausse": 0,
   "imitation": 0,
-  "pro": 0,
-  "vendeurSpecialise": 3,
-  "sansCote": 36,
-  "chere": 8,
+  "pro": 1,
+  "vendeurSpecialise": 0,
+  "sansCote": 2,
+  "chere": 2,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
-  "alertes": 3
+  "alertes": 0
  },
  "panne": null,
  "panneDebut": null,
@@ -51236,7 +51306,8 @@
    "score": 54,
    "lien": "https://www.vinted.fr/items/10863316434-canon-ixus-185",
    "date": 1794983015954,
-   "statut": null
+   "statut": "en vente",
+   "verifieA": 1794986652577
   },
   {
    "id": 10863438421,

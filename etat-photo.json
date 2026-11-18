@@ -1,17 +1,5 @@
 {
  "vues": [
-  "10838784363",
-  "10838780984",
-  "10838786610",
-  "10838783349",
-  "10838792554",
-  "10838803696",
-  "10838808114",
-  "10838935257",
-  "10838941976",
-  "10838941916",
-  "10838938362",
-  "10838931152",
   "10838923752",
   "10838905741",
   "10838903372",
@@ -3999,7 +3987,19 @@
   "10863239142",
   "10863238427",
   "10863235684",
-  "10863243128"
+  "10863243128",
+  "10863098071",
+  "10863268275",
+  "10863276754",
+  "10863284604",
+  "10863288009",
+  "10863287731",
+  "10863291479",
+  "10863296792",
+  "10861081041",
+  "10863309060",
+  "10863313858",
+  "10863310827"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -5763,9 +5763,9 @@
    "niveau": "modèle"
   },
   "marque:panasonic@3076": {
-   "date": 1794838296021,
+   "date": 1794982568566,
    "mediane": null,
-   "echantillon": 78,
+   "echantillon": 81,
    "coteTropBasse": 20
   },
   "modele:sony dsc w830 cyber|2@3075": {
@@ -7039,13 +7039,6 @@
    "niveau": "modèle",
    "lissee": true
   },
-  "modele:olympus 500 fotokamera|2@3076": {
-   "date": 1794809559024,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
   "modele:nikon f2 dp 1|1@3076": {
    "date": 1794924884465,
    "mediane": 308,
@@ -7075,13 +7068,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:konica aa 35|2@3076": {
-   "date": 1794809815969,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
   },
   "modele:panasonic dmc ls75 lumix|1@3075": {
    "date": 1794810321697,
@@ -31796,6 +31782,13 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "modele:panasonic dmc gx1 f 3 5 5 6|1@3076": {
+   "date": 1794982569146,
+   "mediane": null,
+   "echantillon": 0,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -40012,8 +40005,8 @@
    "vu": 1794845611154
   },
   "190758733": {
-   "n": 5,
-   "vu": 1794903723513
+   "n": 6,
+   "vu": 1794982061176
   },
   "190761423": {
    "n": 2,
@@ -46012,8 +46005,8 @@
    "vu": 1793638396273
   },
   "3186857731": {
-   "n": 6,
-   "vu": 1794918789377
+   "n": 7,
+   "vu": 1794982822179
   },
   "3187100654": {
    "n": 2,
@@ -47946,18 +47939,18 @@
  },
  "bilan": {
   "depuis": 1794979205750,
-  "passages": 44,
-  "nouvelles": 14,
-  "marque": 4,
+  "passages": 59,
+  "nouvelles": 26,
+  "marque": 9,
   "etat": 1,
-  "prix": 0,
+  "prix": 1,
   "accessoire": 0,
   "lot": 0,
   "fausse": 0,
   "imitation": 0,
   "pro": 0,
   "vendeurSpecialise": 0,
-  "sansCote": 7,
+  "sansCote": 13,
   "chere": 2,
   "description": 0,
   "scoreFaible": 0,

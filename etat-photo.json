@@ -1,28 +1,5 @@
 {
  "vues": [
-  "10853911094",
-  "10853935939",
-  "10853927335",
-  "10853927930",
-  "10853924331",
-  "10853953517",
-  "10853947998",
-  "10853939694",
-  "10853941493",
-  "10853964159",
-  "10853959845",
-  "10853962908",
-  "10853967511",
-  "10853959722",
-  "10853971731",
-  "10839736793",
-  "10853982086",
-  "10853983319",
-  "10853978455",
-  "10853972892",
-  "10853992207",
-  "10853990205",
-  "10853997982",
   "10854007393",
   "10854011757",
   "10840947760",
@@ -3999,7 +3976,30 @@
   "10874844898",
   "10874844362",
   "10874858100",
-  "10874854398"
+  "10874854398",
+  "10874867815",
+  "10874883624",
+  "10874882257",
+  "10874877415",
+  "10874885595",
+  "10874907287",
+  "10874917527",
+  "10874916737",
+  "10874916147",
+  "10874932632",
+  "10874928657",
+  "10874938843",
+  "10874937074",
+  "10874951411",
+  "10874947565",
+  "10874946630",
+  "10874962533",
+  "10874954828",
+  "10874963607",
+  "10874978643",
+  "10874984926",
+  "10875003814",
+  "10874999436"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -6658,165 +6658,6 @@
    "niveau": "modèle",
    "lissee": true
   },
-  "modele:panasonic dmc ls2 dmc|1@3075": {
-   "date": 1794866919446,
-   "mediane": 40,
-   "echantillon": 19,
-   "dispersion": 0.5,
-   "fourchette": [
-    20,
-    84
-   ],
-   "exemples": [
-    {
-     "id": 10720722158,
-     "prix": 39.99
-    },
-    {
-     "id": 9196354518,
-     "prix": 39.99
-    },
-    {
-     "id": 10584681390,
-     "prix": 38
-    },
-    {
-     "id": 10788840316,
-     "prix": 35
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:canon 550d eos|2@3075": {
-   "date": 1794867110260,
-   "mediane": 140,
-   "echantillon": 77,
-   "dispersion": 0.36,
-   "fourchette": [
-    70,
-    250
-   ],
-   "exemples": [
-    {
-     "id": 10737443754,
-     "prix": 140
-    },
-    {
-     "id": 8071492489,
-     "prix": 140
-    },
-    {
-     "id": 10592938910,
-     "prix": 140
-    },
-    {
-     "id": 10216475187,
-     "prix": 140
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:canon 300 canonimo|2@3076": {
-   "date": 1794867110728,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:canon efs|1@3075": {
-   "date": 1794867494640,
-   "mediane": 165,
-   "echantillon": 14,
-   "dispersion": 0.91,
-   "fourchette": [
-    55,
-    340
-   ],
-   "exemples": [
-    {
-     "id": 10782206800,
-     "prix": 180
-    },
-    {
-     "id": 9739356720,
-     "prix": 150
-    },
-    {
-     "id": 10223917893,
-     "prix": 120
-    },
-    {
-     "id": 10365564863,
-     "prix": 210
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:sony dsc wx1 cyber|2@3075": {
-   "date": 1794867496697,
-   "mediane": 78,
-   "echantillon": 4,
-   "dispersion": 0.06,
-   "fourchette": [
-    60,
-    82
-   ],
-   "exemples": [
-    {
-     "id": 10015425712,
-     "prix": 80
-    },
-    {
-     "id": 6943223085,
-     "prix": 75
-    },
-    {
-     "id": 6943140269,
-     "prix": 82
-    },
-    {
-     "id": 10846784245,
-     "prix": 60
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:olympus am 100 point|2@3076": {
-   "date": 1794867562153,
-   "mediane": null,
-   "echantillon": 0,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:zenit 12xp|2@3076": {
-   "date": 1794867626859,
-   "mediane": 63,
-   "echantillon": 52,
-   "dispersion": 0.56,
-   "fourchette": [
-    35,
-    130
-   ],
-   "exemples": [
-    {
-     "id": 9125275553,
-     "prix": 65
-    },
-    {
-     "id": 6265310202,
-     "prix": 65
-    },
-    {
-     "id": 10846853176,
-     "prix": 60
-    },
-    {
-     "id": 10832686698,
-     "prix": 60
-    }
-   ],
-   "niveau": "modèle"
-  },
   "modele:nikon camara|1@3075": {
    "date": 1795004233975,
    "mediane": 71,
@@ -6846,13 +6687,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:praktica analogico petri|2@3076": {
-   "date": 1794867754623,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
   },
   "modele:canon lp e6 battery|4@3075": {
    "date": 1794867944878,
@@ -32176,6 +32010,71 @@
    "echantillon": 1,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:agfa iso rapid|2@3076": {
+   "date": 1795039765282,
+   "mediane": 13,
+   "echantillon": 75,
+   "dispersion": 0.62,
+   "fourchette": [
+    5,
+    35
+   ],
+   "exemples": [
+    {
+     "id": 10658689298,
+     "prix": 13
+    },
+    {
+     "id": 9630283453,
+     "prix": 13
+    },
+    {
+     "id": 9910766799,
+     "prix": 13
+    },
+    {
+     "id": 9759390846,
+     "prix": 12.99
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:sony dsc w130 cyber|1@3075": {
+   "date": 1795040082681,
+   "mediane": 80,
+   "echantillon": 21,
+   "dispersion": 0.56,
+   "fourchette": [
+    30,
+    155
+   ],
+   "exemples": [
+    {
+     "id": 9653682632,
+     "prix": 80
+    },
+    {
+     "id": 10267411155,
+     "prix": 80
+    },
+    {
+     "id": 7080749836,
+     "prix": 80
+    },
+    {
+     "id": 7020583842,
+     "prix": 85
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:fujifilm xt30 xc13 33mm|2@3075": {
+   "date": 1795040335762,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -33288,8 +33187,8 @@
    "vu": 1793823355982
   },
   "22240742": {
-   "n": 51,
-   "vu": 1794872593067
+   "n": 52,
+   "vu": 1795040652417
   },
   "22392776": {
    "n": 2,
@@ -35348,8 +35247,8 @@
    "vu": 1793821518617
   },
   "47992236": {
-   "n": 12,
-   "vu": 1795029289840
+   "n": 13,
+   "vu": 1795040208927
   },
   "48013915": {
    "n": 2,
@@ -37932,8 +37831,8 @@
    "vu": 1794582910000
   },
   "81578962": {
-   "n": 4,
-   "vu": 1795039631713
+   "n": 6,
+   "vu": 1795040145824
   },
   "81614652": {
    "n": 4,
@@ -41228,8 +41127,8 @@
    "vu": 1794595239838
   },
   "216162452": {
-   "n": 3,
-   "vu": 1795039567813
+   "n": 4,
+   "vu": 1795039764382
   },
   "216276956": {
    "n": 10,
@@ -45792,8 +45691,8 @@
    "vu": 1794073081747
   },
   "3155310647": {
-   "n": 9,
-   "vu": 1795029289840
+   "n": 11,
+   "vu": 1795040398874
   },
   "3155354355": {
    "n": 5,
@@ -45892,8 +45791,8 @@
    "vu": 1794933959766
   },
   "3157432423": {
-   "n": 5,
-   "vu": 1795034432317
+   "n": 8,
+   "vu": 1795040525570
   },
   "3157464107": {
    "n": 8,
@@ -49002,19 +48901,19 @@
  },
  "bilan": {
   "depuis": 1795036554775,
-  "passages": 49,
-  "nouvelles": 122,
-  "marque": 24,
-  "etat": 5,
+  "passages": 64,
+  "nouvelles": 145,
+  "marque": 29,
+  "etat": 9,
   "prix": 4,
   "accessoire": 1,
   "lot": 1,
   "fausse": 1,
   "imitation": 0,
-  "pro": 1,
-  "vendeurSpecialise": 13,
-  "sansCote": 57,
-  "chere": 12,
+  "pro": 2,
+  "vendeurSpecialise": 16,
+  "sansCote": 64,
+  "chere": 15,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
@@ -52287,7 +52186,8 @@
    "score": 18,
    "lien": "https://www.vinted.fr/items/10874152139-voigtlander-vito-automatik-1-kamera-fotoapparat",
    "date": 1795036168250,
-   "statut": null
+   "statut": "en vente",
+   "verifieA": 1795039829212
   },
   {
    "id": 10874313375,
@@ -52297,7 +52197,8 @@
    "score": 24,
    "lien": "https://www.vinted.fr/items/10874313375-mini-digitalkamera-rollei-vintage-retro-braun-1080p-fhd-neu",
    "date": 1795036750290,
-   "statut": null
+   "statut": "retiree",
+   "verifieA": 1795040399406
   },
   {
    "id": 10874346528,
@@ -52307,7 +52208,8 @@
    "score": 75,
    "lien": "https://www.vinted.fr/items/10874346528-panasonic-lumix-dmc-ft5-blauw",
    "date": 1795036879844,
-   "statut": null
+   "statut": "en vente",
+   "verifieA": 1795040526113
   },
   {
    "id": 10874844362,

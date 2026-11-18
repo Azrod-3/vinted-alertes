@@ -1,24 +1,5 @@
 {
  "vues": [
-  "10854426273",
-  "10854423524",
-  "10735344090",
-  "10854418319",
-  "10854445549",
-  "10854447560",
-  "10854434782",
-  "10854439348",
-  "10854463795",
-  "10854456201",
-  "10854459223",
-  "10854476607",
-  "10854467940",
-  "10854475500",
-  "10854472599",
-  "10854470781",
-  "10854463306",
-  "10854482221",
-  "10854490659",
   "10854488809",
   "10854510480",
   "10854501991",
@@ -3999,7 +3980,26 @@
   "10875576885",
   "10875582934",
   "10875579767",
-  "10875579449"
+  "10875579449",
+  "10875603571",
+  "10875610064",
+  "10875608470",
+  "10875613415",
+  "10875623228",
+  "10875621782",
+  "10875624225",
+  "10875623950",
+  "10875634482",
+  "10875632786",
+  "10875639273",
+  "10875638910",
+  "10875648701",
+  "10875664995",
+  "10875671397",
+  "10875678847",
+  "10875678712",
+  "10875676835",
+  "10875678508"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -6655,13 +6655,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:zeiss vetrino messa|1@3076": {
-   "date": 1794872909939,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
   },
   "modele:canon ixus digi|1@3075": {
    "date": 1794873797040,
@@ -9507,33 +9500,34 @@
    "niveau": "modèle"
   },
   "modele:kodak 4000 disc|2@3076": {
-   "date": 1794919069210,
-   "mediane": 12,
-   "echantillon": 76,
-   "dispersion": 0.6,
+   "date": 1795045619053,
+   "mediane": 13,
+   "echantillon": 81,
+   "dispersion": 0.54,
    "fourchette": [
     4,
-    29
+    30
    ],
    "exemples": [
+    {
+     "id": 10708194931,
+     "prix": 13
+    },
+    {
+     "id": 10053073598,
+     "prix": 13
+    },
     {
      "id": 10736244999,
      "prix": 12
     },
     {
-     "id": 10443872717,
-     "prix": 12
-    },
-    {
-     "id": 10434926625,
-     "prix": 12
-    },
-    {
-     "id": 8336077953,
-     "prix": 12
+     "id": 5493717848,
+     "prix": 14
     }
    ],
-   "niveau": "modèle"
+   "niveau": "modèle",
+   "lissee": true
   },
   "modele:zenit pellicola made|1@3076": {
    "date": 1794919133425,
@@ -31842,6 +31836,162 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "modele:nikon s225 coolpix|2@3075": {
+   "date": 1795046256377,
+   "mediane": 69,
+   "echantillon": 25,
+   "dispersion": 0.45,
+   "fourchette": [
+    33,
+    95
+   ],
+   "exemples": [
+    {
+     "id": 10846412271,
+     "prix": 69
+    },
+    {
+     "id": 9965907318,
+     "prix": 69
+    },
+    {
+     "id": 8858009007,
+     "prix": 69.9
+    },
+    {
+     "id": 8241534021,
+     "prix": 69.99
+    }
+   ],
+   "niveau": "modèle",
+   "lissee": true
+  },
+  "modele:kodak brownie flash|2@3076": {
+   "date": 1795045683308,
+   "mediane": 15,
+   "echantillon": 49,
+   "dispersion": 0.53,
+   "fourchette": [
+    9,
+    35
+   ],
+   "exemples": [
+    {
+     "id": 10767719947,
+     "prix": 15
+    },
+    {
+     "id": 10818748700,
+     "prix": 15
+    },
+    {
+     "id": 9689978453,
+     "prix": 15
+    },
+    {
+     "id": 10076554269,
+     "prix": 15
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:kodak 6x9 coronet|2@3076": {
+   "date": 1795045873910,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:kodak brownie vecta|2@3076": {
+   "date": 1795045937828,
+   "mediane": 20,
+   "echantillon": 3,
+   "dispersion": null,
+   "fourchette": [
+    18,
+    20
+   ],
+   "exemples": [
+    {
+     "id": 10801103647,
+     "prix": 20
+    },
+    {
+     "id": 9232636779,
+     "prix": 20
+    },
+    {
+     "id": 10875632786,
+     "prix": 18
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:olympus x 940 maquina|2@3075": {
+   "date": 1795046001528,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:nikon s3700 coolpix|1@3075": {
+   "date": 1795046065446,
+   "mediane": 110,
+   "echantillon": 39,
+   "dispersion": 0.28,
+   "fourchette": [
+    79.99,
+    160
+   ],
+   "exemples": [
+    {
+     "id": 10795912266,
+     "prix": 110
+    },
+    {
+     "id": 9908933843,
+     "prix": 110
+    },
+    {
+     "id": 8972895801,
+     "prix": 104.99
+    },
+    {
+     "id": 10680785664,
+     "prix": 119.95
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:samsung wb35f|2@3075": {
+   "date": 1795046320204,
+   "mediane": 90,
+   "echantillon": 24,
+   "dispersion": 0.27,
+   "fourchette": [
+    45,
+    130
+   ],
+   "exemples": [
+    {
+     "id": 10606676136,
+     "prix": 90
+    },
+    {
+     "id": 8889085113,
+     "prix": 90
+    },
+    {
+     "id": 9507864186,
+     "prix": 90
+    },
+    {
+     "id": 10859986503,
+     "prix": 89.9
+    }
+   ],
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -36265,6 +36415,10 @@
    "n": 3,
    "vu": 1794478368330
   },
+  "61068652": {
+   "n": 2,
+   "vu": 1795045810066
+  },
   "61090522": {
    "n": 3,
    "vu": 1794347892677
@@ -38093,6 +38247,10 @@
    "n": 2,
    "vu": 1793709025344
   },
+  "98767955": {
+   "n": 3,
+   "vu": 1795046255751
+  },
   "98912549": {
    "n": 2,
    "vu": 1794051126489
@@ -38654,8 +38812,8 @@
    "vu": 1793912040954
   },
   "119375187": {
-   "n": 7,
-   "vu": 1795045362004
+   "n": 8,
+   "vu": 1795045682682
   },
   "119404230": {
    "n": 2,
@@ -47137,6 +47295,10 @@
    "n": 3,
    "vu": 1794776128811
   },
+  "3194986925": {
+   "n": 5,
+   "vu": 1795045937192
+  },
   "3195030389": {
    "n": 4,
    "vu": 1794844505626
@@ -48309,6 +48471,10 @@
    "n": 5,
    "vu": 1794513043202
   },
+  "3210693493": {
+   "n": 2,
+   "vu": 1795045937192
+  },
   "3210716197": {
    "n": 9,
    "vu": 1794141589030
@@ -48704,38 +48870,27 @@
  },
  "bilan": {
   "depuis": 1795043776333,
-  "passages": 26,
-  "nouvelles": 25,
-  "marque": 7,
+  "passages": 41,
+  "nouvelles": 44,
+  "marque": 9,
   "etat": 0,
-  "prix": 1,
-  "accessoire": 0,
+  "prix": 4,
+  "accessoire": 2,
   "lot": 0,
   "fausse": 0,
   "imitation": 0,
   "pro": 4,
-  "vendeurSpecialise": 2,
-  "sansCote": 5,
-  "chere": 6,
+  "vendeurSpecialise": 3,
+  "sansCote": 10,
+  "chere": 11,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
-  "alertes": 0
+  "alertes": 1
  },
  "panne": null,
  "panneDebut": null,
  "suivi": [
-  {
-   "id": 10784960163,
-   "titre": "Canon EOS Rebel XTi + 18-55mm | Cámara réflex digital",
-   "prix": 95,
-   "cote": 180,
-   "score": 59,
-   "lien": "https://www.vinted.fr/items/10784960163-canon-eos-rebel-xti-18-55mm-camara-reflex-digital",
-   "date": 1794521709707,
-   "statut": "en vente",
-   "verifieA": 1794525356328
-  },
   {
    "id": 10785300177,
    "titre": "2 Flash Rollei E19 vintage con caricabatterie e custodia in pelle",
@@ -52011,7 +52166,8 @@
    "score": 58,
    "lien": "https://www.vinted.fr/items/10875278055-appareil-photo-olympus-mju-1",
    "date": 1795042689922,
-   "statut": null
+   "statut": "en vente",
+   "verifieA": 1795046320748
   },
   {
    "id": 10875399040,
@@ -52021,6 +52177,16 @@
    "score": 64,
    "lien": "https://www.vinted.fr/items/10875399040-appareil-photo-canon-eos-450d-reflex-boitier-nu",
    "date": 1795043713235,
+   "statut": null
+  },
+  {
+   "id": 10875648701,
+   "titre": "Nikon Coolpix S3700 Vintage Kamera",
+   "prix": 40,
+   "cote": 110,
+   "score": 65,
+   "lien": "https://www.vinted.fr/items/10875648701-nikon-coolpix-s3700-vintage-kamera",
+   "date": 1795046066336,
    "statut": null
   }
  ],

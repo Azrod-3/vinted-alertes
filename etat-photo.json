@@ -1,21 +1,5 @@
 {
  "vues": [
-  "10838998957",
-  "10838993990",
-  "10838984630",
-  "10823945893",
-  "10839013749",
-  "10839012392",
-  "10838999275",
-  "10838994238",
-  "10838993219",
-  "10838965186",
-  "10839025400",
-  "10825857153",
-  "10839046421",
-  "10839040727",
-  "10839070424",
-  "10839071285",
   "10839068082",
   "10839055210",
   "10839062155",
@@ -3999,7 +3983,23 @@
   "10863394199",
   "10863404490",
   "10863404791",
-  "10863379886"
+  "10863379886",
+  "10863426982",
+  "10863423894",
+  "10863428102",
+  "10863430660",
+  "10863438046",
+  "10863438421",
+  "10863442609",
+  "10863441901",
+  "10863444071",
+  "10863453908",
+  "10863456252",
+  "10863457260",
+  "10863467324",
+  "10863466939",
+  "10863471786",
+  "10863477724"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -4567,9 +4567,9 @@
    "coteTropBasse": 31
   },
   "marque:rollei@3075": {
-   "date": 1794863551779,
+   "date": 1794985692932,
    "mediane": null,
-   "echantillon": 85,
+   "echantillon": 88,
    "coteTropBasse": 30
   },
   "marque:ricoh@3075": {
@@ -7038,13 +7038,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:fujifilm a610 6 3mp|2@3075": {
-   "date": 1794812490011,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
   },
   "modele:kodak c643 easyshare|1@3075": {
    "date": 1794813124868,
@@ -31736,6 +31729,67 @@
    "echantillon": 1,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:canon 185 apn|3@3075": {
+   "date": 1794984992396,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:canon a495 10 0|2@3075": {
+   "date": 1794985247579,
+   "mediane": 75,
+   "echantillon": 3,
+   "dispersion": null,
+   "fourchette": [
+    75,
+    85
+   ],
+   "exemples": [
+    {
+     "id": 10440297159,
+     "prix": 75
+    },
+    {
+     "id": 10181575357,
+     "prix": 75
+    },
+    {
+     "id": 10863441901,
+     "prix": 85
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:nikon ftn photomic|2@3076": {
+   "date": 1794985628873,
+   "mediane": 413,
+   "echantillon": 8,
+   "dispersion": 0.27,
+   "fourchette": [
+    290,
+    630
+   ],
+   "exemples": [
+    {
+     "id": 10690368467,
+     "prix": 425
+    },
+    {
+     "id": 10447679348,
+     "prix": 400
+    },
+    {
+     "id": 10654542294,
+     "prix": 380
+    },
+    {
+     "id": 10839339936,
+     "prix": 490
+    }
+   ],
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -45396,8 +45450,8 @@
    "vu": 1794935391589
   },
   "3171415152": {
-   "n": 7,
-   "vu": 1794918789380
+   "n": 8,
+   "vu": 1794985820032
   },
   "3171555293": {
    "n": 83,
@@ -45944,8 +45998,8 @@
    "vu": 1794903916876
   },
   "3186729686": {
-   "n": 12,
-   "vu": 1794950221943
+   "n": 13,
+   "vu": 1794985501592
   },
   "3186748212": {
    "n": 3,
@@ -46260,8 +46314,8 @@
    "vu": 1794176584444
   },
   "3192065507": {
-   "n": 5,
-   "vu": 1794901105635
+   "n": 7,
+   "vu": 1794985182949
   },
   "3192188640": {
    "n": 12,
@@ -47886,49 +47940,27 @@
  },
  "bilan": {
   "depuis": 1794979205750,
-  "passages": 89,
-  "nouvelles": 60,
-  "marque": 16,
+  "passages": 104,
+  "nouvelles": 76,
+  "marque": 18,
   "etat": 2,
-  "prix": 4,
+  "prix": 5,
   "accessoire": 0,
-  "lot": 0,
+  "lot": 1,
   "fausse": 0,
   "imitation": 0,
   "pro": 0,
-  "vendeurSpecialise": 1,
-  "sansCote": 30,
-  "chere": 6,
+  "vendeurSpecialise": 3,
+  "sansCote": 36,
+  "chere": 8,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
-  "alertes": 1
+  "alertes": 3
  },
  "panne": null,
  "panneDebut": null,
  "suivi": [
-  {
-   "id": 10777557965,
-   "titre": "Canon Eos 1200D",
-   "prix": 65,
-   "cote": 150,
-   "score": 62,
-   "lien": "https://www.vinted.fr/items/10777557965-canon-eos-1200d",
-   "date": 1794489232044,
-   "statut": "retiree",
-   "verifieA": 1794492867937
-  },
-  {
-   "id": 10777548796,
-   "titre": "Canon ixus 175",
-   "prix": 88,
-   "cote": 150,
-   "score": 55,
-   "lien": "https://www.vinted.fr/items/10777548796-canon-ixus-175",
-   "date": 1794489232264,
-   "statut": "en vente",
-   "verifieA": 1794492868741
-  },
   {
    "id": 10777602851,
    "titre": "Olympus OM-1 MD analoog spiegelreflexcamera + F.Zuiko 50mm f/1.8 lens",
@@ -51204,6 +51236,26 @@
    "score": 54,
    "lien": "https://www.vinted.fr/items/10863316434-canon-ixus-185",
    "date": 1794983015954,
+   "statut": null
+  },
+  {
+   "id": 10863438421,
+   "titre": "Nikon Coolpix S6200 Digitalkamera in Silber",
+   "prix": 45,
+   "cote": 129,
+   "score": 71,
+   "lien": "https://www.vinted.fr/items/10863438421-nikon-coolpix-s6200-digitalkamera-in-silber",
+   "date": 1794985183664,
+   "statut": null
+  },
+  {
+   "id": 10863471786,
+   "titre": "Digitale Kamera Rollei",
+   "prix": 20,
+   "cote": null,
+   "score": 22,
+   "lien": "https://www.vinted.fr/items/10863471786-digitale-kamera-rollei",
+   "date": 1794985693645,
    "statut": null
   }
  ],

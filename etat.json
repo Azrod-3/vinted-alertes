@@ -1,8 +1,5 @@
 {
  "vues": [
-  "10853962787",
-  "10853962626",
-  "10853960112",
   "10853958035",
   "10853955466",
   "10853979369",
@@ -3999,7 +3996,10 @@
   "10862402740",
   "10862430707",
   "10862430777",
-  "10862454545"
+  "10862454545",
+  "10862484105",
+  "10862531137",
+  "10862532357"
  ],
  "cotes": {
   "marque:fossil": {
@@ -7674,34 +7674,6 @@
    ],
    "niveau": "marque",
    "lissee": true
-  },
-  "modele:festina 8920 jamais|3": {
-   "date": 1794796339314,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:fossil old fasion|2": {
-   "date": 1794796338693,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:longines l3 633 2 cronografo|2": {
-   "date": 1794796338132,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:skagen 2451405 denmark|2": {
-   "date": 1794796337498,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
   },
   "modele:timex weekender|3": {
    "date": 1794797114288,
@@ -70833,8 +70805,8 @@
    "vu": 1793633350698
   },
   "147869355": {
-   "n": 21,
-   "vu": 1794960403701
+   "n": 22,
+   "vu": 1794969311681
   },
   "147910196": {
    "n": 6,
@@ -139062,20 +139034,20 @@
   }
  },
  "bilan": {
-  "depuis": 1794965905526,
-  "passages": 62,
-  "nouvelles": 20,
-  "marque": 14,
+  "depuis": 1794969527174,
+  "passages": 0,
+  "nouvelles": 0,
+  "marque": 0,
   "etat": 0,
-  "prix": 1,
+  "prix": 0,
   "accessoire": 0,
   "lot": 0,
   "fausse": 0,
   "imitation": 0,
   "pro": 0,
-  "vendeurSpecialise": 2,
-  "sansCote": 1,
-  "chere": 2,
+  "vendeurSpecialise": 0,
+  "sansCote": 0,
+  "chere": 0,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
@@ -142381,7 +142353,8 @@
    "score": 76,
    "lien": "https://www.vinted.fr/items/10861773338-hebilla-longine-16-mm",
    "date": 1794965905107,
-   "statut": null
+   "statut": "en vente",
+   "verifieA": 1794969526712
   }
  ],
  "dernierRecap": "2026-11-17"

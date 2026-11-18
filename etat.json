@@ -1,11 +1,5 @@
 {
  "vues": [
-  "10853985538",
-  "10853984089",
-  "10853978733",
-  "10853984963",
-  "10853976301",
-  "10853981394",
   "10853979567",
   "10853979928",
   "10853975883",
@@ -3999,7 +3993,13 @@
   "10862654716",
   "10862674129",
   "10862680032",
-  "10862760573"
+  "10862760573",
+  "10862777762",
+  "10862777267",
+  "10862791675",
+  "10862809733",
+  "10862819660",
+  "10862818442"
  ],
  "cotes": {
   "marque:fossil": {
@@ -14288,10 +14288,10 @@
    "niveau": "modèle"
   },
   "marque:potens": {
-   "date": 1794858411965,
+   "date": 1794972936979,
    "mediane": null,
-   "echantillon": 72,
-   "coteTropBasse": 34
+   "echantillon": 71,
+   "coteTropBasse": 35
   },
   "modele:potens resistente gua|3": {
    "date": 1794858412550,
@@ -26007,6 +26007,20 @@
   },
   "modele:fossil y2k uomo|2": {
    "date": 1794970481932,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:fossil fs5237 grant|1": {
+   "date": 1794972419249,
+   "mediane": null,
+   "echantillon": 2,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:potens solar|2": {
+   "date": 1794972937491,
    "mediane": null,
    "echantillon": 1,
    "dispersion": null,
@@ -41541,6 +41555,10 @@
   "48291830": {
    "n": 13,
    "vu": 1793633350698
+  },
+  "48306421": {
+   "n": 2,
+   "vu": 1794972676840
   },
   "48330081": {
    "n": 3,
@@ -73935,8 +73953,8 @@
    "vu": 1793633350698
   },
   "165544081": {
-   "n": 35,
-   "vu": 1794957998406
+   "n": 36,
+   "vu": 1794972418651
   },
   "165560648": {
    "n": 2,
@@ -139056,20 +139074,20 @@
   }
  },
  "bilan": {
-  "depuis": 1794969527174,
-  "passages": 63,
-  "nouvelles": 16,
-  "marque": 11,
-  "etat": 1,
+  "depuis": 1794973152963,
+  "passages": 0,
+  "nouvelles": 0,
+  "marque": 0,
+  "etat": 0,
   "prix": 0,
   "accessoire": 0,
   "lot": 0,
   "fausse": 0,
   "imitation": 0,
   "pro": 0,
-  "vendeurSpecialise": 1,
-  "sansCote": 1,
-  "chere": 2,
+  "vendeurSpecialise": 0,
+  "sansCote": 0,
+  "chere": 0,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,

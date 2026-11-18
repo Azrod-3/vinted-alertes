@@ -1,10 +1,5 @@
 {
  "vues": [
-  "10838766587",
-  "10838768365",
-  "10838767827",
-  "10838765560",
-  "10838773870",
   "10838791306",
   "10838788352",
   "10838789278",
@@ -3999,7 +3994,12 @@
   "10863163404",
   "10863157750",
   "10863173857",
-  "10863175430"
+  "10863175430",
+  "10863179311",
+  "10862459234",
+  "10863198847",
+  "10863203133",
+  "10863210970"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -31855,6 +31855,42 @@
    "echantillon": 1,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:nikon kodak pixpro|2@3075": {
+   "date": 1794980159184,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:olympus c 765 camedia|1@3075": {
+   "date": 1794980603009,
+   "mediane": 47,
+   "echantillon": 14,
+   "dispersion": 0.64,
+   "fourchette": [
+    30,
+    100
+   ],
+   "exemples": [
+    {
+     "id": 7950190773,
+     "prix": 49
+    },
+    {
+     "id": 8780478674,
+     "prix": 44.9
+    },
+    {
+     "id": 7526652271,
+     "prix": 50
+    },
+    {
+     "id": 7781883956,
+     "prix": 50
+    }
+   ],
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -48005,9 +48041,9 @@
  },
  "bilan": {
   "depuis": 1794979205750,
-  "passages": 14,
-  "nouvelles": 5,
-  "marque": 0,
+  "passages": 29,
+  "nouvelles": 10,
+  "marque": 1,
   "etat": 1,
   "prix": 0,
   "accessoire": 0,
@@ -48016,8 +48052,8 @@
   "imitation": 0,
   "pro": 0,
   "vendeurSpecialise": 0,
-  "sansCote": 3,
-  "chere": 1,
+  "sansCote": 6,
+  "chere": 2,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,

@@ -1,9 +1,5 @@
 {
  "vues": [
-  "10838791306",
-  "10838788352",
-  "10838789278",
-  "10823747855",
   "10838784363",
   "10838780984",
   "10838786610",
@@ -3999,7 +3995,11 @@
   "10862459234",
   "10863198847",
   "10863203133",
-  "10863210970"
+  "10863210970",
+  "10863239142",
+  "10863238427",
+  "10863235684",
+  "10863243128"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -5174,36 +5174,6 @@
     {
      "id": 7997480588,
      "prix": 55
-    }
-   ],
-   "niveau": "modèle",
-   "lissee": true
-  },
-  "modele:panasonic fs6 lumix|4@3075": {
-   "date": 1794808733522,
-   "mediane": 55,
-   "echantillon": 4,
-   "dispersion": 0.1,
-   "fourchette": [
-    50,
-    90
-   ],
-   "exemples": [
-    {
-     "id": 10800460965,
-     "prix": 55
-    },
-    {
-     "id": 10834857659,
-     "prix": 50
-    },
-    {
-     "id": 10797258660,
-     "prix": 50
-    },
-    {
-     "id": 10586239003,
-     "prix": 90
     }
    ],
    "niveau": "modèle",
@@ -7039,64 +7009,6 @@
    "niveau": "marque",
    "lissee": true
   },
-  "modele:kodak z650 easyshare|2@3075": {
-   "date": 1794808734985,
-   "mediane": 51,
-   "echantillon": 6,
-   "dispersion": 0.82,
-   "fourchette": [
-    25,
-    70
-   ],
-   "exemples": [
-    {
-     "id": 10216940135,
-     "prix": 60
-    },
-    {
-     "id": 10519965253,
-     "prix": 42
-    },
-    {
-     "id": 10834439674,
-     "prix": 70
-    },
-    {
-     "id": 8554784681,
-     "prix": 70
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:zenit f 2 obiettivo|1@3076": {
-   "date": 1794808737040,
-   "mediane": 60,
-   "echantillon": 25,
-   "dispersion": 0.5,
-   "fourchette": [
-    26,
-    100
-   ],
-   "exemples": [
-    {
-     "id": 10069853505,
-     "prix": 60
-    },
-    {
-     "id": 10241795239,
-     "prix": 60
-    },
-    {
-     "id": 10820829416,
-     "prix": 65
-    },
-    {
-     "id": 10484815791,
-     "prix": 69
-    }
-   ],
-   "niveau": "modèle"
-  },
   "modele:nikon f55|2@3076": {
    "date": 1794950318933,
    "mediane": 60,
@@ -7126,13 +7038,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:kodak 919 pn2011|2@3076": {
-   "date": 1794808927898,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
   },
   "modele:olympus 500 fotokamera|2@3076": {
    "date": 1794809559024,
@@ -48041,9 +47946,9 @@
  },
  "bilan": {
   "depuis": 1794979205750,
-  "passages": 29,
-  "nouvelles": 10,
-  "marque": 1,
+  "passages": 44,
+  "nouvelles": 14,
+  "marque": 4,
   "etat": 1,
   "prix": 0,
   "accessoire": 0,
@@ -48052,7 +47957,7 @@
   "imitation": 0,
   "pro": 0,
   "vendeurSpecialise": 0,
-  "sansCote": 6,
+  "sansCote": 7,
   "chere": 2,
   "description": 0,
   "scoreFaible": 0,

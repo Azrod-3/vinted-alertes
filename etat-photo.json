@@ -1,26 +1,5 @@
 {
  "vues": [
-  "10839188321",
-  "10839184851",
-  "10839171943",
-  "10839162669",
-  "10839187148",
-  "10839181083",
-  "10839226787",
-  "10839214577",
-  "10839186832",
-  "10839186298",
-  "10824546037",
-  "10839181666",
-  "10839173608",
-  "10839174460",
-  "10839162913",
-  "10839297876",
-  "10839320087",
-  "10839317798",
-  "10839308954",
-  "10839300042",
-  "10839288617",
   "10839290407",
   "10839247259",
   "10665952410",
@@ -3999,7 +3978,28 @@
   "10863610267",
   "10863619734",
   "10863622970",
-  "10863624449"
+  "10863624449",
+  "10863636166",
+  "10863635682",
+  "10863642165",
+  "10863637801",
+  "10863642871",
+  "10863640966",
+  "10863648341",
+  "10863645694",
+  "10863655810",
+  "10863664970",
+  "10863665008",
+  "10863668664",
+  "10863676938",
+  "10863675894",
+  "10863676121",
+  "10863677137",
+  "10863681137",
+  "10863679974",
+  "10810748867",
+  "10863686575",
+  "10863694047"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -4345,9 +4345,9 @@
    "lissee": true
   },
   "marque:kodak@3076": {
-   "date": 1794897352612,
+   "date": 1794988381858,
    "mediane": null,
-   "echantillon": 73,
+   "echantillon": 74,
    "coteTropBasse": 20
   },
   "marque:agfa@3076": {
@@ -4435,13 +4435,13 @@
    "lissee": true
   },
   "modele:canon 1100d eos|2@3075": {
-   "date": 1794865769981,
+   "date": 1794987933894,
    "mediane": 120,
-   "echantillon": 80,
-   "dispersion": 0.42,
+   "echantillon": 81,
+   "dispersion": 0.46,
    "fourchette": [
     50,
-    230
+    250
    ],
    "exemples": [
     {
@@ -4449,15 +4449,15 @@
      "prix": 120
     },
     {
-     "id": 10373074291,
+     "id": 10012109241,
+     "prix": 120
+    },
+    {
+     "id": 10485392523,
      "prix": 120
     },
     {
      "id": 10754125516,
-     "prix": 120
-    },
-    {
-     "id": 10012109241,
      "prix": 120
     }
    ],
@@ -6442,9 +6442,9 @@
    "lissee": true
   },
   "marque:lumix@3075": {
-   "date": 1794891131900,
+   "date": 1794987999736,
    "mediane": null,
-   "echantillon": 0,
+   "echantillon": 1,
    "dispersion": null,
    "niveau": "marque"
   },
@@ -7038,74 +7038,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:canon etiquettes peu|3@3075": {
-   "date": 1794815158587,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:nikon d80 corpo|1@3075": {
-   "date": 1794815672150,
-   "mediane": 50,
-   "echantillon": 3,
-   "dispersion": null,
-   "fourchette": [
-    39,
-    60.65
-   ],
-   "exemples": [
-    {
-     "id": 10835357997,
-     "prix": 50
-    },
-    {
-     "id": 7002860081,
-     "prix": 60.65
-    },
-    {
-     "id": 9646896091,
-     "prix": 39
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:sony hx5v cybershot|2@3075": {
-   "date": 1794815672972,
-   "mediane": 135,
-   "echantillon": 4,
-   "dispersion": 0.22,
-   "fourchette": [
-    80,
-    160
-   ],
-   "exemples": [
-    {
-     "id": 10724961555,
-     "prix": 150
-    },
-    {
-     "id": 9862005398,
-     "prix": 120
-    },
-    {
-     "id": 8154312674,
-     "prix": 160
-    },
-    {
-     "id": 10835352746,
-     "prix": 80
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:konica lenzen|2@3076": {
-   "date": 1794815673607,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
   },
   "modele:olympus vg120|2@3075": {
    "date": 1794815800795,
@@ -32018,6 +31950,63 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "modele:fujifilm x a5|1@3075": {
+   "date": 1794987869789,
+   "mediane": 500,
+   "echantillon": 7,
+   "dispersion": 0.39,
+   "fourchette": [
+    350,
+    670
+   ],
+   "exemples": [
+    {
+     "id": 9003617446,
+     "prix": 500
+    },
+    {
+     "id": 6733248969,
+     "prix": 475
+    },
+    {
+     "id": 10385388941,
+     "prix": 550
+    },
+    {
+     "id": 10863636166,
+     "prix": 360
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:fujifilm x100vi camara|3@3075": {
+   "date": 1794987934550,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:agfa macchine fotografiche|2@3076": {
+   "date": 1794987935494,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:lumix gt70 systemkamera|3@3075": {
+   "date": 1794988000312,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:olympus tg6|2@3075": {
+   "date": 1794988380890,
+   "mediane": null,
+   "echantillon": 2,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -39049,6 +39038,10 @@
    "n": 2,
    "vu": 1794072499796
   },
+  "135734385": {
+   "n": 2,
+   "vu": 1794988253743
+  },
   "135909868": {
    "n": 2,
    "vu": 1794234773071
@@ -40086,8 +40079,8 @@
    "vu": 1794655061755
   },
   "183665911": {
-   "n": 5,
-   "vu": 1794248674098
+   "n": 6,
+   "vu": 1794988380277
   },
   "183675780": {
    "n": 4,
@@ -41162,8 +41155,8 @@
    "vu": 1793978329360
   },
   "236601472": {
-   "n": 209,
-   "vu": 1794987676276
+   "n": 211,
+   "vu": 1794988316981
   },
   "236676597": {
    "n": 2,
@@ -45938,8 +45931,8 @@
    "vu": 1793909628666
   },
   "3179097628": {
-   "n": 4,
-   "vu": 1794899767636
+   "n": 5,
+   "vu": 1794987869191
   },
   "3179142710": {
    "n": 6,
@@ -46234,8 +46227,8 @@
    "vu": 1794160229630
   },
   "3186599319": {
-   "n": 18,
-   "vu": 1794903916876
+   "n": 19,
+   "vu": 1794988445487
   },
   "3186729686": {
    "n": 13,
@@ -48180,19 +48173,19 @@
  },
  "bilan": {
   "depuis": 1794986460380,
-  "passages": 20,
-  "nouvelles": 26,
-  "marque": 1,
-  "etat": 0,
+  "passages": 32,
+  "nouvelles": 47,
+  "marque": 7,
+  "etat": 2,
   "prix": 3,
   "accessoire": 0,
   "lot": 0,
   "fausse": 0,
   "imitation": 0,
-  "pro": 4,
-  "vendeurSpecialise": 2,
-  "sansCote": 7,
-  "chere": 8,
+  "pro": 7,
+  "vendeurSpecialise": 3,
+  "sansCote": 14,
+  "chere": 10,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,

@@ -1,9 +1,5 @@
 {
  "vues": [
-  "10853965111",
-  "10853963407",
-  "10809074021",
-  "10853963318",
   "10853962787",
   "10853962626",
   "10853960112",
@@ -3999,7 +3995,11 @@
   "10862351338",
   "10862378919",
   "10862392080",
-  "10862386509"
+  "10862386509",
+  "10862402740",
+  "10862430707",
+  "10862430777",
+  "10862454545"
  ],
  "cotes": {
   "marque:fossil": {
@@ -25999,6 +25999,35 @@
    "mediane": null,
    "echantillon": 1,
    "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:citizen relogio pulso|1": {
+   "date": 1794968408236,
+   "mediane": 50,
+   "echantillon": 4,
+   "dispersion": 0,
+   "fourchette": [
+    16,
+    99.9
+   ],
+   "exemples": [
+    {
+     "id": 10862454545,
+     "prix": 50
+    },
+    {
+     "id": 10181694232,
+     "prix": 50
+    },
+    {
+     "id": 8638603320,
+     "prix": 16
+    },
+    {
+     "id": 4653861992,
+     "prix": 99.9
+    }
+   ],
    "niveau": "modèle"
   }
  },
@@ -139034,9 +139063,9 @@
  },
  "bilan": {
   "depuis": 1794965905526,
-  "passages": 42,
-  "nouvelles": 16,
-  "marque": 12,
+  "passages": 62,
+  "nouvelles": 20,
+  "marque": 14,
   "etat": 0,
   "prix": 1,
   "accessoire": 0,
@@ -139046,7 +139075,7 @@
   "pro": 0,
   "vendeurSpecialise": 2,
   "sansCote": 1,
-  "chere": 0,
+  "chere": 2,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,

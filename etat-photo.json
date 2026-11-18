@@ -1,8 +1,5 @@
 {
  "vues": [
-  "10838588715",
-  "10838587686",
-  "10838611209",
   "10838619810",
   "10838610229",
   "10838637485",
@@ -3999,7 +3996,10 @@
   "10861988466",
   "10862015621",
   "10862014387",
-  "10862074470"
+  "10862074470",
+  "10862145622",
+  "10862163936",
+  "10862174910"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -7038,35 +7038,6 @@
    ],
    "niveau": "marque",
    "lissee": true
-  },
-  "modele:canon ae 1 analogkamera|2@3076": {
-   "date": 1794792401942,
-   "mediane": 189,
-   "echantillon": 6,
-   "dispersion": 0.13,
-   "fourchette": [
-    170,
-    199
-   ],
-   "exemples": [
-    {
-     "id": 10818609776,
-     "prix": 189
-    },
-    {
-     "id": 10791943084,
-     "prix": 189
-    },
-    {
-     "id": 9683127748,
-     "prix": 195
-    },
-    {
-     "id": 10095292178,
-     "prix": 199
-    }
-   ],
-   "niveau": "modèle"
   },
   "modele:panasonic dmc s1 lumix|2@3075": {
    "date": 1794796977390,
@@ -31639,6 +31610,13 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "modele:minolta 100x accessoires|2@3076": {
+   "date": 1794965224963,
+   "mediane": null,
+   "echantillon": 0,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -41095,8 +41073,8 @@
    "vu": 1794433715081
   },
   "247668732": {
-   "n": 27,
-   "vu": 1794364771030
+   "n": 28,
+   "vu": 1794965288127
   },
   "247906150": {
    "n": 6,
@@ -44071,8 +44049,8 @@
    "vu": 1794676102748
   },
   "3138957823": {
-   "n": 99,
-   "vu": 1794964274450
+   "n": 100,
+   "vu": 1794965034614
   },
   "3139110308": {
    "n": 3,
@@ -47772,24 +47750,24 @@
   }
  },
  "bilan": {
-  "depuis": 1794957471784,
-  "passages": 111,
-  "nouvelles": 65,
-  "marque": 7,
-  "etat": 3,
-  "prix": 1,
+  "depuis": 1794964718381,
+  "passages": 12,
+  "nouvelles": 3,
+  "marque": 1,
+  "etat": 0,
+  "prix": 0,
   "accessoire": 0,
   "lot": 0,
   "fausse": 0,
   "imitation": 0,
-  "pro": 9,
-  "vendeurSpecialise": 8,
-  "sansCote": 25,
-  "chere": 9,
+  "pro": 1,
+  "vendeurSpecialise": 0,
+  "sansCote": 1,
+  "chere": 0,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
-  "alertes": 3
+  "alertes": 0
  },
  "panne": null,
  "panneDebut": null,

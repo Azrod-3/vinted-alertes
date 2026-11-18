@@ -1,11 +1,5 @@
 {
  "vues": [
-  "10823392334",
-  "10838581028",
-  "10838579105",
-  "10838571715",
-  "10838574548",
-  "10838611497",
   "10838598458",
   "10838594857",
   "10838588278",
@@ -3999,7 +3993,13 @@
   "10861881644",
   "10861893889",
   "10861911511",
-  "10861919032"
+  "10861919032",
+  "10861933365",
+  "10861921388",
+  "10861942223",
+  "10861982679",
+  "10861981807",
+  "10861988466"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -5798,36 +5798,6 @@
    "echantillon": 78,
    "coteTropBasse": 20
   },
-  "modele:pentax camara|2@3075": {
-   "date": 1794790751136,
-   "mediane": 30,
-   "echantillon": 56,
-   "dispersion": 0.67,
-   "fourchette": [
-    10,
-    85
-   ],
-   "exemples": [
-    {
-     "id": 10833193038,
-     "prix": 30
-    },
-    {
-     "id": 10780082079,
-     "prix": 30
-    },
-    {
-     "id": 8834394849,
-     "prix": 30
-    },
-    {
-     "id": 10812255187,
-     "prix": 30
-    }
-   ],
-   "niveau": "modèle",
-   "lissee": true
-  },
   "modele:sony dsc w830 cyber|2@3075": {
    "date": 1794840095676,
    "mediane": 150,
@@ -7068,136 +7038,6 @@
    ],
    "niveau": "marque",
    "lissee": true
-  },
-  "modele:canon ae 1 50mmf 1 8|2@3076": {
-   "date": 1794790754935,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:fujifilm a340 finepix|1@3075": {
-   "date": 1794790750266,
-   "mediane": 42,
-   "echantillon": 13,
-   "dispersion": 0.38,
-   "fourchette": [
-    20,
-    65
-   ],
-   "exemples": [
-    {
-     "id": 10599592560,
-     "prix": 42
-    },
-    {
-     "id": 10533659672,
-     "prix": 40
-    },
-    {
-     "id": 9946926446,
-     "prix": 44.99
-    },
-    {
-     "id": 7373813403,
-     "prix": 45
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:minolta ton silver|3@3076": {
-   "date": 1794790754092,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:voigtlander analogica vito|2@3076": {
-   "date": 1794790753443,
-   "mediane": 58,
-   "echantillon": 12,
-   "dispersion": 0.7,
-   "fourchette": [
-    24,
-    100
-   ],
-   "exemples": [
-    {
-     "id": 8127890707,
-     "prix": 60
-    },
-    {
-     "id": 10277463161,
-     "prix": 55
-    },
-    {
-     "id": 10833329616,
-     "prix": 70
-    },
-    {
-     "id": 7958116274,
-     "prix": 70
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:voigtlander vitoret|2@3076": {
-   "date": 1794790752691,
-   "mediane": 25,
-   "echantillon": 63,
-   "dispersion": 0.72,
-   "fourchette": [
-    10,
-    65
-   ],
-   "exemples": [
-    {
-     "id": 10818529446,
-     "prix": 25
-    },
-    {
-     "id": 10726563454,
-     "prix": 25
-    },
-    {
-     "id": 10685928075,
-     "prix": 25
-    },
-    {
-     "id": 10523801679,
-     "prix": 25
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:panasonic fs16 lumix|2@3075": {
-   "date": 1794790749401,
-   "mediane": 67,
-   "echantillon": 32,
-   "dispersion": 0.47,
-   "fourchette": [
-    25,
-    149
-   ],
-   "exemples": [
-    {
-     "id": 9531014831,
-     "prix": 66.95
-    },
-    {
-     "id": 10213914652,
-     "prix": 68
-    },
-    {
-     "id": 9701903921,
-     "prix": 69
-    },
-    {
-     "id": 10739124187,
-     "prix": 65
-    }
-   ],
-   "niveau": "modèle"
   },
   "modele:kodak az527 pix|2@3075": {
    "date": 1794791639034,
@@ -31719,6 +31559,93 @@
    "echantillon": 1,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:olympus vh 210 camara|3@3075": {
+   "date": 1794963258246,
+   "mediane": 60,
+   "echantillon": 6,
+   "dispersion": 0.3,
+   "fourchette": [
+    21,
+    70
+   ],
+   "exemples": [
+    {
+     "id": 9189614807,
+     "prix": 65
+    },
+    {
+     "id": 10861982679,
+     "prix": 54
+    },
+    {
+     "id": 10563280032,
+     "prix": 52
+    },
+    {
+     "id": 10128334027,
+     "prix": 70
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "marque:dji@3076": {
+   "date": 1794963322133,
+   "mediane": 435,
+   "echantillon": 14,
+   "dispersion": 0.48,
+   "fourchette": [
+    170,
+    650
+   ],
+   "exemples": [
+    {
+     "id": 9350395320,
+     "prix": 420
+    },
+    {
+     "id": 10493280588,
+     "prix": 450
+    },
+    {
+     "id": 9141418083,
+     "prix": 399
+    },
+    {
+     "id": 9753866576,
+     "prix": 370
+    }
+   ],
+   "niveau": "marque"
+  },
+  "modele:dji osmo pocket|2@3076": {
+   "date": 1794963322905,
+   "mediane": 420,
+   "echantillon": 9,
+   "dispersion": 0.4,
+   "fourchette": [
+    240,
+    550
+   ],
+   "exemples": [
+    {
+     "id": 9350395320,
+     "prix": 420
+    },
+    {
+     "id": 9141418083,
+     "prix": 399
+    },
+    {
+     "id": 9753866576,
+     "prix": 370
+    },
+    {
+     "id": 9550152074,
+     "prix": 500
+    }
+   ],
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -41527,8 +41454,8 @@
    "vu": 1794579542581
   },
   "254622104": {
-   "n": 5,
-   "vu": 1794829419989
+   "n": 6,
+   "vu": 1794963257593
   },
   "254709163": {
    "n": 2,
@@ -41909,6 +41836,10 @@
   "264071254": {
    "n": 2,
    "vu": 1794409204408
+  },
+  "264118304": {
+   "n": 2,
+   "vu": 1794962878151
   },
   "264141109": {
    "n": 2,
@@ -44063,8 +43994,8 @@
    "vu": 1794072499796
   },
   "3137477584": {
-   "n": 10,
-   "vu": 1794959131901
+   "n": 11,
+   "vu": 1794962751742
   },
   "3137567499": {
    "n": 6,
@@ -44147,8 +44078,8 @@
    "vu": 1794676102748
   },
   "3138957823": {
-   "n": 96,
-   "vu": 1794961990394
+   "n": 97,
+   "vu": 1794962751742
   },
   "3139110308": {
    "n": 3,
@@ -47849,8 +47780,8 @@
  },
  "bilan": {
   "depuis": 1794957471784,
-  "passages": 81,
-  "nouvelles": 56,
+  "passages": 96,
+  "nouvelles": 62,
   "marque": 6,
   "etat": 3,
   "prix": 1,
@@ -47858,29 +47789,18 @@
   "lot": 0,
   "fausse": 0,
   "imitation": 0,
-  "pro": 6,
-  "vendeurSpecialise": 7,
-  "sansCote": 23,
-  "chere": 8,
+  "pro": 7,
+  "vendeurSpecialise": 8,
+  "sansCote": 25,
+  "chere": 9,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
-  "alertes": 2
+  "alertes": 3
  },
  "panne": null,
  "panneDebut": null,
  "suivi": [
-  {
-   "id": 10777376319,
-   "titre": "Fotocamera analogica vintage Canon Prima Super 135 Caption (35mm)",
-   "prix": 40,
-   "cote": 105,
-   "score": 57,
-   "lien": "https://www.vinted.fr/items/10777376319-fotocamera-analogica-vintage-canon-prima-super-135-caption-35mm",
-   "date": 1794488385563,
-   "statut": "en vente",
-   "verifieA": 1794492018907
-  },
   {
    "id": 10777543355,
    "titre": "Canon EOS 1200D spiegelreflexcamera",
@@ -51167,6 +51087,16 @@
    "score": 59,
    "lien": "https://www.vinted.fr/items/10861719458-fujifilm-xm1-objectif-xc-16-50",
    "date": 1794960592270,
+   "statut": null
+  },
+  {
+   "id": 10861988466,
+   "titre": "Dji osmo pocket 3, dji mic mini",
+   "prix": 240,
+   "cote": 420,
+   "score": 64,
+   "lien": "https://www.vinted.fr/items/10861988466-dji-osmo-pocket-3-dji-mic-mini",
+   "date": 1794963323923,
    "statut": null
   }
  ],

@@ -1,12 +1,5 @@
 {
  "vues": [
-  "10838535563",
-  "10838554340",
-  "10823289077",
-  "10838539265",
-  "10838561308",
-  "10838567743",
-  "10838564071",
   "10823392334",
   "10838581028",
   "10838579105",
@@ -3999,7 +3992,14 @@
   "10861793181",
   "10847292571",
   "10861829666",
-  "10861821962"
+  "10861821962",
+  "10861841470",
+  "10861849128",
+  "10861859680",
+  "10861881644",
+  "10861893889",
+  "10861911511",
+  "10861919032"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -7168,13 +7168,6 @@
      "prix": 25
     }
    ],
-   "niveau": "modèle"
-  },
-  "modele:fujifilm 10x megapixels|1@3075": {
-   "date": 1794789196450,
-   "mediane": null,
-   "echantillon": 2,
-   "dispersion": null,
    "niveau": "modèle"
   },
   "modele:panasonic fs16 lumix|2@3075": {
@@ -31719,6 +31712,13 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "modele:canon ixus172|2@3075": {
+   "date": 1794962244075,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -35279,8 +35279,8 @@
    "vu": 1794950221939
   },
   "52729617": {
-   "n": 6,
-   "vu": 1794957152390
+   "n": 7,
+   "vu": 1794962623570
   },
   "52742868": {
    "n": 2,
@@ -44147,8 +44147,8 @@
    "vu": 1794676102748
   },
   "3138957823": {
-   "n": 95,
-   "vu": 1794961356100
+   "n": 96,
+   "vu": 1794961990394
   },
   "3139110308": {
    "n": 3,
@@ -47849,18 +47849,18 @@
  },
  "bilan": {
   "depuis": 1794957471784,
-  "passages": 66,
-  "nouvelles": 49,
-  "marque": 5,
-  "etat": 2,
-  "prix": 0,
+  "passages": 81,
+  "nouvelles": 56,
+  "marque": 6,
+  "etat": 3,
+  "prix": 1,
   "accessoire": 0,
   "lot": 0,
   "fausse": 0,
   "imitation": 0,
-  "pro": 5,
-  "vendeurSpecialise": 6,
-  "sansCote": 21,
+  "pro": 6,
+  "vendeurSpecialise": 7,
+  "sansCote": 23,
   "chere": 8,
   "description": 0,
   "scoreFaible": 0,
@@ -51156,7 +51156,8 @@
    "score": 64,
    "lien": "https://www.vinted.fr/items/10861479266-canon-eos-700d",
    "date": 1794958366034,
-   "statut": null
+   "statut": "en vente",
+   "verifieA": 1794961990936
   },
   {
    "id": 10861719458,

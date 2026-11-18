@@ -1,19 +1,5 @@
 {
  "vues": [
-  "10838890006",
-  "10838849672",
-  "10838855294",
-  "10838834507",
-  "10838868465",
-  "10838981269",
-  "10838981801",
-  "10838979919",
-  "10838977824",
-  "10838969374",
-  "10838958246",
-  "10838949979",
-  "10838949430",
-  "10838989488",
   "10838998957",
   "10838993990",
   "10838984630",
@@ -3999,7 +3985,21 @@
   "10863353232",
   "10863361081",
   "10863364803",
-  "10863363716"
+  "10863363716",
+  "10863368061",
+  "10863367664",
+  "10863370133",
+  "10863378679",
+  "10863377418",
+  "10863387789",
+  "10863392456",
+  "10863391409",
+  "10863396625",
+  "10863395151",
+  "10863394199",
+  "10863404490",
+  "10863404791",
+  "10863379886"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -4825,36 +4825,6 @@
     {
      "id": 10771621312,
      "prix": 100
-    }
-   ],
-   "niveau": "modèle",
-   "lissee": true
-  },
-  "modele:olympus camara fotos|2@3075": {
-   "date": 1794811983194,
-   "mediane": 35,
-   "echantillon": 27,
-   "dispersion": 0.57,
-   "fourchette": [
-    11,
-    85
-   ],
-   "exemples": [
-    {
-     "id": 10721431605,
-     "prix": 35
-    },
-    {
-     "id": 9466702771,
-     "prix": 35
-    },
-    {
-     "id": 10672322668,
-     "prix": 35
-    },
-    {
-     "id": 10463912484,
-     "prix": 35
     }
    ],
    "niveau": "modèle",
@@ -7068,64 +7038,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:fujifilm x t100|2@3075": {
-   "date": 1794811338123,
-   "mediane": 450,
-   "echantillon": 13,
-   "dispersion": 0.22,
-   "fourchette": [
-    350,
-    600
-   ],
-   "exemples": [
-    {
-     "id": 9451966975,
-     "prix": 450
-    },
-    {
-     "id": 7376997120,
-     "prix": 449
-    },
-    {
-     "id": 9174344891,
-     "prix": 440
-    },
-    {
-     "id": 9992448198,
-     "prix": 470
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:kodak 022 retinette|1@3076": {
-   "date": 1794811719902,
-   "mediane": 35,
-   "echantillon": 7,
-   "dispersion": 0,
-   "fourchette": [
-    10,
-    80
-   ],
-   "exemples": [
-    {
-     "id": 10835085649,
-     "prix": 35
-    },
-    {
-     "id": 10609505206,
-     "prix": 35
-    },
-    {
-     "id": 10623094588,
-     "prix": 35
-    },
-    {
-     "id": 8341614417,
-     "prix": 35
-    }
-   ],
-   "niveau": "modèle"
   },
   "modele:fujifilm a610 6 3mp|2@3075": {
    "date": 1794812490011,
@@ -31796,6 +31708,34 @@
    "echantillon": 1,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:olympus 3000 mustek|2@3076": {
+   "date": 1794983974625,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:fujifilm camara cute|3@3075": {
+   "date": 1794984165896,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:fujifilm x t100 ois|2@3075": {
+   "date": 1794984483200,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:zorki industar 22 camara|1@3076": {
+   "date": 1794984736890,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -33260,8 +33200,8 @@
    "vu": 1794745276154
   },
   "26924586": {
-   "n": 6,
-   "vu": 1794556205267
+   "n": 7,
+   "vu": 1794984355844
   },
   "27039451": {
    "n": 3,
@@ -33836,8 +33776,8 @@
    "vu": 1794745666239
   },
   "34047294": {
-   "n": 5,
-   "vu": 1794950221943
+   "n": 6,
+   "vu": 1794984672940
   },
   "34095096": {
    "n": 6,
@@ -43576,8 +43516,8 @@
    "vu": 1794507581386
   },
   "315366400": {
-   "n": 3,
-   "vu": 1794903341853
+   "n": 4,
+   "vu": 1794983974083
   },
   "315697142": {
    "n": 2,
@@ -47946,18 +47886,18 @@
  },
  "bilan": {
   "depuis": 1794979205750,
-  "passages": 74,
-  "nouvelles": 46,
-  "marque": 13,
+  "passages": 89,
+  "nouvelles": 60,
+  "marque": 16,
   "etat": 2,
-  "prix": 3,
+  "prix": 4,
   "accessoire": 0,
   "lot": 0,
   "fausse": 0,
   "imitation": 0,
   "pro": 0,
   "vendeurSpecialise": 1,
-  "sansCote": 20,
+  "sansCote": 30,
   "chere": 6,
   "description": 0,
   "scoreFaible": 0,

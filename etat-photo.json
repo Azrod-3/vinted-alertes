@@ -1,21 +1,5 @@
 {
  "vues": [
-  "10849031425",
-  "10849047888",
-  "10849047954",
-  "10849036868",
-  "10849054558",
-  "10849068123",
-  "10849072843",
-  "10849070998",
-  "10849089822",
-  "10849097183",
-  "10844103674",
-  "10843848057",
-  "10849137712",
-  "10849159995",
-  "10849164133",
-  "10849166631",
   "10849170850",
   "10849182443",
   "10849185394",
@@ -3999,7 +3983,23 @@
   "10869407356",
   "10869448673",
   "10869453415",
-  "10869433079"
+  "10869433079",
+  "10869465022",
+  "10869467942",
+  "10856700070",
+  "10869457476",
+  "10869464738",
+  "10869467814",
+  "10606448838",
+  "10869474356",
+  "10869520019",
+  "10869512591",
+  "10869508714",
+  "10869495026",
+  "10869496090",
+  "10869525952",
+  "10869517373",
+  "10869505187"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -4948,36 +4948,6 @@
    "echantillon": 1,
    "dispersion": null,
    "niveau": "modèle"
-  },
-  "modele:canon digitalkamera|2@3075": {
-   "date": 1794844440367,
-   "mediane": 120,
-   "echantillon": 68,
-   "dispersion": 0.67,
-   "fourchette": [
-    30,
-    257
-   ],
-   "exemples": [
-    {
-     "id": 10803683109,
-     "prix": 120
-    },
-    {
-     "id": 10831421819,
-     "prix": 120
-    },
-    {
-     "id": 10720474803,
-     "prix": 120
-    },
-    {
-     "id": 10582966086,
-     "prix": 120
-    }
-   ],
-   "niveau": "modèle",
-   "lissee": true
   },
   "marque:fujica@3076": {
    "date": 1794986141261,
@@ -6713,66 +6683,6 @@
    "niveau": "modèle",
    "lissee": true
   },
-  "modele:kodak c300 easyshare|2@3075": {
-   "date": 1794844506323,
-   "mediane": 30,
-   "echantillon": 14,
-   "dispersion": 0.33,
-   "fourchette": [
-    16,
-    40
-   ],
-   "exemples": [
-    {
-     "id": 10538342561,
-     "prix": 30
-    },
-    {
-     "id": 7277800486,
-     "prix": 30
-    },
-    {
-     "id": 10264296032,
-     "prix": 29
-    },
-    {
-     "id": 10175751568,
-     "prix": 28
-    }
-   ],
-   "niveau": "modèle",
-   "lissee": true
-  },
-  "modele:canon 400d eos|2@3075": {
-   "date": 1794844571813,
-   "mediane": 88,
-   "echantillon": 76,
-   "dispersion": 0.4,
-   "fourchette": [
-    25,
-    179
-   ],
-   "exemples": [
-    {
-     "id": 10587034990,
-     "prix": 85
-    },
-    {
-     "id": 10762509157,
-     "prix": 85
-    },
-    {
-     "id": 9888743596,
-     "prix": 85
-    },
-    {
-     "id": 10351629892,
-     "prix": 89.9
-    }
-   ],
-   "niveau": "modèle",
-   "lissee": true
-  },
   "modele:canon 80u prima|2@3076": {
    "date": 1794936031859,
    "mediane": 61,
@@ -6828,168 +6738,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:nikon s31 subacquea|2@3075": {
-   "date": 1794844375108,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:nikon cool pix|2@3075": {
-   "date": 1794844376000,
-   "mediane": 45,
-   "echantillon": 25,
-   "dispersion": 0.67,
-   "fourchette": [
-    18,
-    110
-   ],
-   "exemples": [
-    {
-     "id": 8525782596,
-     "prix": 45
-    },
-    {
-     "id": 10550006641,
-     "prix": 45
-    },
-    {
-     "id": 10778328761,
-     "prix": 40
-    },
-    {
-     "id": 6767940141,
-     "prix": 50
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:canon t70 277t|1@3076": {
-   "date": 1794844441764,
-   "mediane": 89,
-   "echantillon": 3,
-   "dispersion": null,
-   "fourchette": [
-    56,
-    299.95
-   ],
-   "exemples": [
-    {
-     "id": 10709607154,
-     "prix": 89
-    },
-    {
-     "id": 8734628719,
-     "prix": 56
-    },
-    {
-     "id": 10235289882,
-     "prix": 299.95
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:nikon f 1 8|2@3076": {
-   "date": 1794844507362,
-   "mediane": 120,
-   "echantillon": 33,
-   "dispersion": 0.58,
-   "fourchette": [
-    65,
-    250
-   ],
-   "exemples": [
-    {
-     "id": 10606031274,
-     "prix": 120
-    },
-    {
-     "id": 10377952579,
-     "prix": 125
-    },
-    {
-     "id": 10681179665,
-     "prix": 110
-    },
-    {
-     "id": 8275540320,
-     "prix": 130
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:panasonic wasserdichte digitalkamera|2@3075": {
-   "date": 1794844637751,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:olympus corredo|2@3075": {
-   "date": 1794844638708,
-   "mediane": 395,
-   "echantillon": 4,
-   "dispersion": 0.28,
-   "fourchette": [
-    180,
-    550
-   ],
-   "exemples": [
-    {
-     "id": 10665965760,
-     "prix": 450
-    },
-    {
-     "id": 10707241191,
-     "prix": 340
-    },
-    {
-     "id": 7654019294,
-     "prix": 550
-    },
-    {
-     "id": 10841151251,
-     "prix": 180
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:olympus fe 120 compatta|1@3075": {
-   "date": 1794844641004,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:zenit helios 44 2 f 2|1@3076": {
-   "date": 1794844641758,
-   "mediane": 85,
-   "echantillon": 17,
-   "dispersion": 0.35,
-   "fourchette": [
-    50,
-    150
-   ],
-   "exemples": [
-    {
-     "id": 10540377903,
-     "prix": 85
-    },
-    {
-     "id": 10801611151,
-     "prix": 85
-    },
-    {
-     "id": 10841158896,
-     "prix": 80
-    },
-    {
-     "id": 10658672198,
-     "prix": 90
-    }
-   ],
-   "niveau": "modèle"
   },
   "modele:pentax 1500|4@3075": {
    "date": 1794844706282,
@@ -31509,6 +31257,125 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "modele:canon digicam|1@3075": {
+   "date": 1795017289061,
+   "mediane": 85,
+   "echantillon": 47,
+   "dispersion": 1.12,
+   "fourchette": [
+    25,
+    250
+   ],
+   "exemples": [
+    {
+     "id": 10324070341,
+     "prix": 85
+    },
+    {
+     "id": 10867471764,
+     "prix": 85
+    },
+    {
+     "id": 10559741445,
+     "prix": 85
+    },
+    {
+     "id": 10347144856,
+     "prix": 85
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:pentax pc 50 analoge|2@3076": {
+   "date": 1795017290531,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:kodak 133 x instamatic|1@3076": {
+   "date": 1795017291398,
+   "mediane": 11,
+   "echantillon": 59,
+   "dispersion": 0.55,
+   "fourchette": [
+    3,
+    25
+   ],
+   "exemples": [
+    {
+     "id": 9708719175,
+     "prix": 11
+    },
+    {
+     "id": 8843302455,
+     "prix": 10.99
+    },
+    {
+     "id": 9603965209,
+     "prix": 11.9
+    },
+    {
+     "id": 10869474356,
+     "prix": 10
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:canon a3000 digitalkamera|2@3075": {
+   "date": 1795017418709,
+   "mediane": 84,
+   "echantillon": 3,
+   "dispersion": null,
+   "fourchette": [
+    65,
+    90
+   ],
+   "exemples": [
+    {
+     "id": 8663103437,
+     "prix": 84
+    },
+    {
+     "id": 10869520019,
+     "prix": 90
+    },
+    {
+     "id": 8937616522,
+     "prix": 65
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:nikon 2200 coolpix|1@3075": {
+   "date": 1795017419490,
+   "mediane": 32,
+   "echantillon": 29,
+   "dispersion": 0.63,
+   "fourchette": [
+    16,
+    60
+   ],
+   "exemples": [
+    {
+     "id": 10232656708,
+     "prix": 32
+    },
+    {
+     "id": 10869495026,
+     "prix": 30
+    },
+    {
+     "id": 7432242715,
+     "prix": 30
+    },
+    {
+     "id": 9461171620,
+     "prix": 30
+    }
+   ],
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -36001,8 +35868,8 @@
    "vu": 1794824024672
   },
   "62492894": {
-   "n": 2,
-   "vu": 1793993806021
+   "n": 3,
+   "vu": 1795017288103
   },
   "62564030": {
    "n": 5,
@@ -37297,8 +37164,8 @@
    "vu": 1794489163889
   },
   "83954787": {
-   "n": 44,
-   "vu": 1795008558148
+   "n": 45,
+   "vu": 1795017417998
   },
   "84042891": {
    "n": 7,
@@ -38605,8 +38472,8 @@
    "vu": 1794136038559
   },
   "131384850": {
-   "n": 5,
-   "vu": 1795015935847
+   "n": 6,
+   "vu": 1795017417998
   },
   "131397862": {
    "n": 2,
@@ -42497,8 +42364,8 @@
    "vu": 1793871408728
   },
   "276957234": {
-   "n": 10,
-   "vu": 1795017094726
+   "n": 11,
+   "vu": 1795017417998
   },
   "276996754": {
    "n": 7,
@@ -42729,8 +42596,8 @@
    "vu": 1793711052303
   },
   "283633039": {
-   "n": 20,
-   "vu": 1794745536036
+   "n": 21,
+   "vu": 1795017288103
   },
   "283936429": {
    "n": 4,
@@ -45257,8 +45124,8 @@
    "vu": 1794155376167
   },
   "3162059257": {
-   "n": 85,
-   "vu": 1795014640764
+   "n": 86,
+   "vu": 1795017288103
   },
   "3162113072": {
    "n": 2,
@@ -45657,8 +45524,8 @@
    "vu": 1794582522455
   },
   "3174574355": {
-   "n": 15,
-   "vu": 1795017159643
+   "n": 16,
+   "vu": 1795017417998
   },
   "3174580328": {
    "n": 2,
@@ -48111,42 +47978,35 @@
   "3216611802": {
    "n": 2,
    "vu": 1795008888220
+  },
+  "3216677585": {
+   "n": 2,
+   "vu": 1795017288103
   }
  },
  "bilan": {
   "depuis": 1795013980396,
-  "passages": 49,
-  "nouvelles": 185,
-  "marque": 27,
-  "etat": 4,
+  "passages": 54,
+  "nouvelles": 201,
+  "marque": 28,
+  "etat": 5,
   "prix": 11,
   "accessoire": 3,
   "lot": 3,
   "fausse": 0,
   "imitation": 0,
-  "pro": 2,
-  "vendeurSpecialise": 14,
-  "sansCote": 74,
-  "chere": 43,
+  "pro": 3,
+  "vendeurSpecialise": 18,
+  "sansCote": 78,
+  "chere": 47,
   "description": 1,
   "scoreFaible": 0,
   "blocages": 0,
-  "alertes": 3
+  "alertes": 4
  },
  "panne": null,
  "panneDebut": null,
  "suivi": [
-  {
-   "id": 10782242072,
-   "titre": "Appareil photo reflex numérique Canon EOS 60D (Boîtier nu)",
-   "prix": 130,
-   "cote": 235,
-   "score": 61,
-   "lien": "https://www.vinted.fr/items/10782242072-appareil-photo-reflex-numerique-canon-eos-60d-boitier-nu",
-   "date": 1794509092031,
-   "statut": "en vente",
-   "verifieA": 1794512720076
-  },
   {
    "id": 10782343660,
    "titre": "Macchinetta Digitale Canon",
@@ -51431,6 +51291,16 @@
    "score": 50,
    "lien": "https://www.vinted.fr/items/10869140710-canon-ixus-115hs",
    "date": 1795015940978,
+   "statut": null
+  },
+  {
+   "id": 10869464738,
+   "titre": "Digicam Canon",
+   "prix": 15,
+   "cote": 85,
+   "score": 58,
+   "lien": "https://www.vinted.fr/items/10869464738-digicam-canon",
+   "date": 1795017291623,
    "statut": null
   }
  ],

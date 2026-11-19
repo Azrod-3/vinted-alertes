@@ -1,42 +1,5 @@
 {
  "vues": [
-  "10867259428",
-  "10867255972",
-  "10867288382",
-  "10867288896",
-  "10867280978",
-  "10867284506",
-  "10867265694",
-  "10867296050",
-  "10867280642",
-  "10867320149",
-  "10867309491",
-  "10867304054",
-  "10867304767",
-  "10867304624",
-  "10867291361",
-  "10867332337",
-  "10867320766",
-  "10867325500",
-  "10867324125",
-  "10807850174",
-  "10867313515",
-  "10867309878",
-  "10867306403",
-  "10867343663",
-  "10867339715",
-  "10867332286",
-  "10867333166",
-  "10867324281",
-  "10867324510",
-  "10867326575",
-  "10867317158",
-  "10867314179",
-  "10867360846",
-  "10867358395",
-  "10867335469",
-  "10867378799",
-  "10867366472",
   "10867365191",
   "10867361500",
   "10867352448",
@@ -3999,7 +3962,44 @@
   "10887606923",
   "10887609254",
   "10887598821",
-  "10887615572"
+  "10887615572",
+  "10887640231",
+  "10887635599",
+  "10887627981",
+  "10887619385",
+  "10887632439",
+  "10887625003",
+  "10887651501",
+  "10887649294",
+  "10887641834",
+  "10887654599",
+  "10887644434",
+  "10887682604",
+  "10887671135",
+  "10887670694",
+  "10887667077",
+  "10887694023",
+  "10887694174",
+  "10887686364",
+  "10887689917",
+  "10887694106",
+  "10887688815",
+  "10887693048",
+  "10887726756",
+  "10887723050",
+  "10887715155",
+  "10887711232",
+  "10887705720",
+  "10887709478",
+  "10887711577",
+  "10887740046",
+  "10887739128",
+  "10887633705",
+  "10887761365",
+  "10887749632",
+  "10887752220",
+  "10887746697",
+  "10887751896"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -4392,10 +4392,10 @@
    "coteTropBasse": 30
   },
   "marque:ricoh@3076": {
-   "date": 1795037978074,
+   "date": 1795124777116,
    "mediane": null,
-   "echantillon": 79,
-   "coteTropBasse": 35
+   "echantillon": 77,
+   "coteTropBasse": 40
   },
   "marque:praktica@3076": {
    "date": 1795119003381,
@@ -4464,30 +4464,30 @@
    "coteTropBasse": 40
   },
   "modele:panasonic lumix|2@3075": {
-   "date": 1795029379037,
-   "mediane": 51,
+   "date": 1795124907928,
+   "mediane": 57,
    "echantillon": 68,
-   "dispersion": 0.4,
+   "dispersion": 0.59,
    "fourchette": [
-    17,
-    115
+    19.99,
+    140
    ],
    "exemples": [
     {
-     "id": 10867942006,
-     "prix": 50
+     "id": 10870364091,
+     "prix": 60
     },
     {
-     "id": 10850352898,
-     "prix": 50
+     "id": 10878879766,
+     "prix": 60
     },
     {
-     "id": 10853655083,
-     "prix": 50
+     "id": 10873363321,
+     "prix": 60
     },
     {
-     "id": 10705257251,
-     "prix": 50
+     "id": 10851339844,
+     "prix": 60
     }
    ],
    "niveau": "modèle",
@@ -6581,182 +6581,6 @@
    ],
    "niveau": "marque",
    "lissee": true
-  },
-  "modele:sony w190 12 1|1@3075": {
-   "date": 1794951714463,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:minolta 7000|2@3076": {
-   "date": 1794951715250,
-   "mediane": 58,
-   "echantillon": 64,
-   "dispersion": 0.87,
-   "fourchette": [
-    18,
-    150
-   ],
-   "exemples": [
-    {
-     "id": 10860531361,
-     "prix": 60
-    },
-    {
-     "id": 10077236606,
-     "prix": 60
-    },
-    {
-     "id": 9736568429,
-     "prix": 55
-    },
-    {
-     "id": 8388460680,
-     "prix": 55
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:nikon 401 usata|2@3076": {
-   "date": 1794951715788,
-   "mediane": null,
-   "echantillon": 2,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:canon eos450d|2@3075": {
-   "date": 1794951843223,
-   "mediane": 138,
-   "echantillon": 20,
-   "dispersion": 0.36,
-   "fourchette": [
-    75,
-    220
-   ],
-   "exemples": [
-    {
-     "id": 9945480774,
-     "prix": 145
-    },
-    {
-     "id": 10859501982,
-     "prix": 130
-    },
-    {
-     "id": 10089879459,
-     "prix": 130
-    },
-    {
-     "id": 9127283737,
-     "prix": 130
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:panasonic verkaufe viel|1@3075": {
-   "date": 1794951843960,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:yashica yashica10 carte|2@3075": {
-   "date": 1794951971053,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:kodak charmera|3@3075": {
-   "date": 1794952098382,
-   "mediane": 40,
-   "echantillon": 68,
-   "dispersion": 0.28,
-   "fourchette": [
-    25,
-    70
-   ],
-   "exemples": [
-    {
-     "id": 10818781016,
-     "prix": 40
-    },
-    {
-     "id": 10850651789,
-     "prix": 40
-    },
-    {
-     "id": 9947219647,
-     "prix": 40
-    },
-    {
-     "id": 10091196700,
-     "prix": 40
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:olympus tg 850 tough|2@3075": {
-   "date": 1794952227763,
-   "mediane": 125,
-   "echantillon": 3,
-   "dispersion": null,
-   "fourchette": [
-    119.95,
-    149
-   ],
-   "exemples": [
-    {
-     "id": 10860624219,
-     "prix": 125
-    },
-    {
-     "id": 10847467541,
-     "prix": 119.95
-    },
-    {
-     "id": 9567533828,
-     "prix": 149
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:agfa retro billy|1@3076": {
-   "date": 1794952228619,
-   "mediane": null,
-   "echantillon": 2,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:panasonic dmc tz8 dmc|2@3075": {
-   "date": 1794952355688,
-   "mediane": 75,
-   "echantillon": 32,
-   "dispersion": 0.2,
-   "fourchette": [
-    45,
-    120
-   ],
-   "exemples": [
-    {
-     "id": 10827388846,
-     "prix": 75
-    },
-    {
-     "id": 9772605264,
-     "prix": 75
-    },
-    {
-     "id": 5681263056,
-     "prix": 75
-    },
-    {
-     "id": 8571132611,
-     "prix": 75
-    }
-   ],
-   "niveau": "modèle"
   },
   "marque:leica@3075": {
    "date": 1795078262533,
@@ -32693,6 +32517,193 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "modele:sony np fw50 caricabatteria|2@3075": {
+   "date": 1795124390728,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:olympus apreil|2@3076": {
+   "date": 1795124391452,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:kodak charmera mini|4@3075": {
+   "date": 1795124519177,
+   "mediane": 40,
+   "echantillon": 7,
+   "dispersion": 0.5,
+   "fourchette": [
+    32.95,
+    65
+   ],
+   "exemples": [
+    {
+     "id": 9947219647,
+     "prix": 40
+    },
+    {
+     "id": 10016625934,
+     "prix": 40
+    },
+    {
+     "id": 10313244222,
+     "prix": 39
+    },
+    {
+     "id": 10252257528,
+     "prix": 32.95
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:olympus az 230 complete|1@3076": {
+   "date": 1795124520151,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:nikon s01 compatta|4@3075": {
+   "date": 1795124774370,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:olympus u700 completo|2@3075": {
+   "date": 1795124775415,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:kodak camara fotos|2@3076": {
+   "date": 1795124776169,
+   "mediane": 16,
+   "echantillon": 46,
+   "dispersion": 0.94,
+   "fourchette": [
+    5,
+    50
+   ],
+   "exemples": [
+    {
+     "id": 10691663377,
+     "prix": 15
+    },
+    {
+     "id": 10859677260,
+     "prix": 15
+    },
+    {
+     "id": 10764362328,
+     "prix": 17
+    },
+    {
+     "id": 10769832963,
+     "prix": 15
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:ricoh digitalkamera silber|2@3076": {
+   "date": 1795124777638,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:panasonic lumix digitalkamera|1@3075": {
+   "date": 1795124905406,
+   "mediane": 52,
+   "echantillon": 61,
+   "dispersion": 0.77,
+   "fourchette": [
+    14,
+    140
+   ],
+   "exemples": [
+    {
+     "id": 9921104441,
+     "prix": 52
+    },
+    {
+     "id": 10875031539,
+     "prix": 52
+    },
+    {
+     "id": 10768673000,
+     "prix": 51
+    },
+    {
+     "id": 10887682346,
+     "prix": 50
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:canon 100d eos|2@3075": {
+   "date": 1795124906213,
+   "mediane": 180,
+   "echantillon": 76,
+   "dispersion": 0.33,
+   "fourchette": [
+    85,
+    320
+   ],
+   "exemples": [
+    {
+     "id": 10624250911,
+     "prix": 180
+    },
+    {
+     "id": 10692053256,
+     "prix": 180
+    },
+    {
+     "id": 10880273346,
+     "prix": 180
+    },
+    {
+     "id": 10442532536,
+     "prix": 180
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:canon a1 analogica|2@3076": {
+   "date": 1795124908696,
+   "mediane": 225,
+   "echantillon": 6,
+   "dispersion": 0.49,
+   "fourchette": [
+    85,
+    349
+   ],
+   "exemples": [
+    {
+     "id": 9852706949,
+     "prix": 250
+    },
+    {
+     "id": 8463056651,
+     "prix": 200
+    },
+    {
+     "id": 10887711577,
+     "prix": 260
+    },
+    {
+     "id": 9463181915,
+     "prix": 150
+    }
+   ],
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -37357,8 +37368,8 @@
    "vu": 1795008112036
   },
   "62097070": {
-   "n": 91,
-   "vu": 1795121184814
+   "n": 92,
+   "vu": 1795125035178
   },
   "62198012": {
    "n": 4,
@@ -37657,8 +37668,8 @@
    "vu": 1794412020911
   },
   "66997288": {
-   "n": 58,
-   "vu": 1794585559640
+   "n": 59,
+   "vu": 1795125161782
   },
   "67050405": {
    "n": 5,
@@ -38392,6 +38403,10 @@
    "n": 7,
    "vu": 1794950221943
   },
+  "77551143": {
+   "n": 2,
+   "vu": 1795124390033
+  },
   "77598985": {
    "n": 4,
    "vu": 1794417006174
@@ -38999,6 +39014,10 @@
   "93590418": {
    "n": 2,
    "vu": 1794587127286
+  },
+  "93665643": {
+   "n": 2,
+   "vu": 1795125161782
   },
   "93796742": {
    "n": 4,
@@ -39868,6 +39887,10 @@
    "n": 2,
    "vu": 1794314836962
   },
+  "123853073": {
+   "n": 2,
+   "vu": 1795124773619
+  },
   "123880733": {
    "n": 2,
    "vu": 1794071394711
@@ -40231,6 +40254,10 @@
   "135734385": {
    "n": 2,
    "vu": 1794988253743
+  },
+  "135851388": {
+   "n": 2,
+   "vu": 1795125161782
   },
   "135909868": {
    "n": 2,
@@ -42617,8 +42644,8 @@
    "vu": 1794735024531
   },
   "240689733": {
-   "n": 72,
-   "vu": 1795118741890
+   "n": 73,
+   "vu": 1795124904286
   },
   "240720049": {
    "n": 3,
@@ -44121,8 +44148,8 @@
    "vu": 1794918789382
   },
   "274853710": {
-   "n": 8,
-   "vu": 1794931517373
+   "n": 9,
+   "vu": 1795124773619
   },
   "274946759": {
    "n": 10,
@@ -46436,6 +46463,10 @@
    "n": 3,
    "vu": 1794779479576
   },
+  "3147666647": {
+   "n": 3,
+   "vu": 1795125161782
+  },
   "3147774237": {
    "n": 2,
    "vu": 1794571158314
@@ -48061,8 +48092,8 @@
    "vu": 1794296753558
   },
   "3187862661": {
-   "n": 3,
-   "vu": 1795118102307
+   "n": 4,
+   "vu": 1795124773619
   },
   "3187877852": {
    "n": 2,
@@ -48307,6 +48338,10 @@
   "3191062321": {
    "n": 4,
    "vu": 1794905263311
+  },
+  "3191070023": {
+   "n": 2,
+   "vu": 1795124390033
   },
   "3191164301": {
    "n": 3,
@@ -48885,8 +48920,8 @@
    "vu": 1794342775502
   },
   "3200724039": {
-   "n": 3,
-   "vu": 1794515052617
+   "n": 4,
+   "vu": 1795124904286
   },
   "3200733457": {
    "n": 2,
@@ -50150,39 +50185,28 @@
   }
  },
  "bilan": {
-  "depuis": 1795117511867,
-  "passages": 105,
-  "nouvelles": 307,
-  "marque": 52,
-  "etat": 12,
-  "prix": 4,
-  "accessoire": 7,
+  "depuis": 1795124777639,
+  "passages": 7,
+  "nouvelles": 15,
+  "marque": 3,
+  "etat": 1,
+  "prix": 1,
+  "accessoire": 0,
   "lot": 0,
-  "fausse": 1,
+  "fausse": 0,
   "imitation": 0,
-  "pro": 11,
-  "vendeurSpecialise": 37,
-  "sansCote": 114,
-  "chere": 62,
-  "description": 1,
+  "pro": 0,
+  "vendeurSpecialise": 3,
+  "sansCote": 3,
+  "chere": 3,
+  "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
-  "alertes": 6
+  "alertes": 1
  },
  "panne": null,
  "panneDebut": null,
  "suivi": [
-  {
-   "id": 10796228767,
-   "titre": "Manual Adapter per Olympus OM10 (adattatore per tempi in manuale)",
-   "prix": 35,
-   "cote": 105,
-   "score": 69,
-   "lien": "https://www.vinted.fr/items/10796228767-manual-adapter-per-olympus-om10-adattatore-per-tempi-in-manuale",
-   "date": 1794598851460,
-   "statut": "en vente",
-   "verifieA": 1794602507819
-  },
   {
    "id": 10796764962,
    "titre": "Macchina fotografica voigtlander",
@@ -53469,6 +53493,16 @@
    "score": 53,
    "lien": "https://www.vinted.fr/items/10887292050-canon-50d",
    "date": 1795122600620,
+   "statut": null
+  },
+  {
+   "id": 10887715155,
+   "titre": "Canon EOS 100D+ EF-S 18-55",
+   "prix": 85,
+   "cote": 180,
+   "score": 66,
+   "lien": "https://www.vinted.fr/items/10887715155-canon-eos-100d-ef-s-18-55",
+   "date": 1795124908898,
    "statut": null
   }
  ],

@@ -1,9 +1,5 @@
 {
  "vues": [
-  "10854772510",
-  "10854774739",
-  "10854770237",
-  "10854772825",
   "10854791560",
   "10854784505",
   "10854812362",
@@ -3999,7 +3995,11 @@
   "10877126542",
   "10877125336",
   "10877132020",
-  "10877129378"
+  "10877129378",
+  "10877136879",
+  "10877153546",
+  "10877159388",
+  "10877170213"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -6655,49 +6655,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:olympus 135 analogica|1@3076": {
-   "date": 1794894684768,
-   "mediane": null,
-   "echantillon": 2,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:nikon rollen|2@3076": {
-   "date": 1794894875237,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:fujifilm a202|2@3075": {
-   "date": 1794895128922,
-   "mediane": 30,
-   "echantillon": 7,
-   "dispersion": 0.63,
-   "fourchette": [
-    17,
-    50
-   ],
-   "exemples": [
-    {
-     "id": 9856257615,
-     "prix": 30
-    },
-    {
-     "id": 9460399089,
-     "prix": 30
-    },
-    {
-     "id": 10849233524,
-     "prix": 29
-    },
-    {
-     "id": 8070147501,
-     "prix": 25
-    }
-   ],
-   "niveau": "modèle"
   },
   "modele:nikon f 301 spiegelreflexcamera|1@3076": {
    "date": 1794895194414,
@@ -32027,6 +31984,31 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "modele:olympus is 300|2@3075": {
+   "date": 1795067554016,
+   "mediane": 50,
+   "echantillon": 3,
+   "dispersion": null,
+   "fourchette": [
+    49,
+    55
+   ],
+   "exemples": [
+    {
+     "id": 9717563116,
+     "prix": 50
+    },
+    {
+     "id": 10818751770,
+     "prix": 49
+    },
+    {
+     "id": 10877159388,
+     "prix": 55
+    }
+   ],
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -41803,8 +41785,8 @@
    "vu": 1794433715080
   },
   "246109591": {
-   "n": 5,
-   "vu": 1795065909442
+   "n": 6,
+   "vu": 1795067048907
   },
   "246137471": {
    "n": 15,
@@ -46767,8 +46749,8 @@
    "vu": 1794340941563
   },
   "3184556059": {
-   "n": 39,
-   "vu": 1794814268742
+   "n": 41,
+   "vu": 1795067806147
   },
   "3184657944": {
    "n": 4,
@@ -48921,19 +48903,19 @@
  },
  "bilan": {
   "depuis": 1795065404921,
-  "passages": 25,
-  "nouvelles": 9,
+  "passages": 40,
+  "nouvelles": 13,
   "marque": 1,
   "etat": 0,
-  "prix": 3,
-  "accessoire": 0,
+  "prix": 4,
+  "accessoire": 1,
   "lot": 0,
   "fausse": 0,
   "imitation": 0,
   "pro": 0,
-  "vendeurSpecialise": 1,
+  "vendeurSpecialise": 2,
   "sansCote": 2,
-  "chere": 2,
+  "chere": 3,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,

@@ -1,7 +1,5 @@
 {
  "vues": [
-  "10854684747",
-  "10854679187",
   "10854675846",
   "10854702518",
   "10854695734",
@@ -3999,7 +3997,9 @@
   "10876407195",
   "10876461378",
   "10876634311",
-  "10876811318"
+  "10876811318",
+  "10876835606",
+  "10876839929"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -6655,13 +6655,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:chinon macchine fotografiche|1@3076": {
-   "date": 1794887895707,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
   },
   "modele:nikon 4 5 6d analogica|2@3076": {
    "date": 1794891003518,
@@ -39608,6 +39601,10 @@
    "n": 14,
    "vu": 1794080833767
   },
+  "153341534": {
+   "n": 2,
+   "vu": 1795060591330
+  },
   "153469074": {
    "n": 2,
    "vu": 1793796641045
@@ -48843,9 +48840,9 @@
  },
  "bilan": {
   "depuis": 1795058189654,
-  "passages": 34,
-  "nouvelles": 1,
-  "marque": 0,
+  "passages": 49,
+  "nouvelles": 3,
+  "marque": 1,
   "etat": 0,
   "prix": 0,
   "accessoire": 0,
@@ -48854,7 +48851,7 @@
   "imitation": 0,
   "pro": 0,
   "vendeurSpecialise": 0,
-  "sansCote": 0,
+  "sansCote": 1,
   "chere": 1,
   "description": 0,
   "scoreFaible": 0,

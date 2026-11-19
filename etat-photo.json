@@ -1,13 +1,5 @@
 {
  "vues": [
-  "10854791560",
-  "10854784505",
-  "10854812362",
-  "10854804680",
-  "10853946792",
-  "10854802845",
-  "10854830949",
-  "10854824693",
   "10854820492",
   "10854817178",
   "10854821528",
@@ -3999,7 +3991,15 @@
   "10877136879",
   "10877153546",
   "10877159388",
-  "10877170213"
+  "10877170213",
+  "10877162429",
+  "10877177055",
+  "10877183927",
+  "10877190860",
+  "10877189547",
+  "10877217492",
+  "10877215683",
+  "10877213711"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -6655,49 +6655,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:nikon f 301 spiegelreflexcamera|1@3076": {
-   "date": 1794895194414,
-   "mediane": null,
-   "echantillon": 2,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:canon 500n 200|1@3076": {
-   "date": 1794895511062,
-   "mediane": 97,
-   "echantillon": 5,
-   "dispersion": 0.35,
-   "fourchette": [
-    35,
-    120
-   ],
-   "exemples": [
-    {
-     "id": 9632606419,
-     "prix": 97
-    },
-    {
-     "id": 8434155577,
-     "prix": 99
-    },
-    {
-     "id": 9593806073,
-     "prix": 120
-    },
-    {
-     "id": 10543009269,
-     "prix": 65
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:canon 1000f fotografico|2@3076": {
-   "date": 1794895828963,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
   },
   "modele:sony camara|2@3075": {
    "date": 1794896653124,
@@ -32009,6 +31966,42 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "modele:sony dsc w350 cyber|1@3075": {
+   "date": 1795068312759,
+   "mediane": 120,
+   "echantillon": 13,
+   "dispersion": 0.25,
+   "fourchette": [
+    90,
+    165
+   ],
+   "exemples": [
+    {
+     "id": 7643899198,
+     "prix": 120
+    },
+    {
+     "id": 7754731114,
+     "prix": 120
+    },
+    {
+     "id": 10664095134,
+     "prix": 119.9
+    },
+    {
+     "id": 10727696522,
+     "prix": 110
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:nikon w100 16gb|2@3075": {
+   "date": 1795068818395,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -36361,8 +36354,8 @@
    "vu": 1794757381282
   },
   "60185966": {
-   "n": 34,
-   "vu": 1795032633933
+   "n": 35,
+   "vu": 1795068817651
   },
   "60209689": {
    "n": 2,
@@ -46749,8 +46742,8 @@
    "vu": 1794340941563
   },
   "3184556059": {
-   "n": 41,
-   "vu": 1795067806147
+   "n": 44,
+   "vu": 1795068311932
   },
   "3184657944": {
    "n": 4,
@@ -48903,8 +48896,8 @@
  },
  "bilan": {
   "depuis": 1795065404921,
-  "passages": 40,
-  "nouvelles": 13,
+  "passages": 54,
+  "nouvelles": 21,
   "marque": 1,
   "etat": 0,
   "prix": 4,
@@ -48913,28 +48906,17 @@
   "fausse": 0,
   "imitation": 0,
   "pro": 0,
-  "vendeurSpecialise": 2,
-  "sansCote": 2,
+  "vendeurSpecialise": 6,
+  "sansCote": 5,
   "chere": 3,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
-  "alertes": 0
+  "alertes": 1
  },
  "panne": null,
  "panneDebut": null,
  "suivi": [
-  {
-   "id": 10785300177,
-   "titre": "2 Flash Rollei E19 vintage con caricabatterie e custodia in pelle",
-   "prix": 13,
-   "cote": null,
-   "score": 20,
-   "lien": "https://www.vinted.fr/items/10785300177-2-flash-rollei-e19-vintage-con-caricabatterie-e-custodia-in-pelle",
-   "date": 1794524275814,
-   "statut": "en vente",
-   "verifieA": 1794527922367
-  },
   {
    "id": 10787706934,
    "titre": "Rollei 35 B mit Carl Zeiss Triotar 3.5/40 #38",
@@ -52223,6 +52205,16 @@
    "date": 1795046066336,
    "statut": "en vente",
    "verifieA": 1795050860294
+  },
+  {
+   "id": 10877190860,
+   "titre": "Sony Cyber-shot DSC-W350",
+   "prix": 18,
+   "cote": 120,
+   "score": 73,
+   "lien": "https://www.vinted.fr/items/10877190860-sony-cyber-shot-dsc-w350",
+   "date": 1795068313461,
+   "statut": null
   }
  ],
  "dernierRecap": "2026-11-18"

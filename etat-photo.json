@@ -1,62 +1,5 @@
 {
  "vues": [
-  "10849808938",
-  "10864198686",
-  "10864126092",
-  "10864215614",
-  "10863944741",
-  "10864100334",
-  "10864086728",
-  "10864095734",
-  "10864196237",
-  "10863816697",
-  "10864170128",
-  "10864122902",
-  "10864070012",
-  "10864105533",
-  "10864033778",
-  "10863780523",
-  "10864035675",
-  "10864050569",
-  "10864050713",
-  "10863829805",
-  "10863873647",
-  "10863841143",
-  "10863894867",
-  "10864015822",
-  "10863932561",
-  "10863931596",
-  "10863921136",
-  "10858783784",
-  "10863870136",
-  "10863911897",
-  "10863913762",
-  "10863918320",
-  "10863703520",
-  "10863865033",
-  "10863873145",
-  "10863795527",
-  "10863793366",
-  "10863753614",
-  "10863779870",
-  "10865427537",
-  "10850810580",
-  "10865455545",
-  "10865440773",
-  "10865440968",
-  "10865427597",
-  "10863959338",
-  "10864298820",
-  "10865458932",
-  "10865448893",
-  "10865436881",
-  "10865434416",
-  "10865430262",
-  "10865431197",
-  "10865495194",
-  "10865486816",
-  "10865483971",
-  "10850801528",
   "10865471848",
   "10865502038",
   "10865519224",
@@ -3999,7 +3942,64 @@
   "10885364345",
   "10885344452",
   "10885342863",
-  "10885358825"
+  "10885358825",
+  "10885372315",
+  "10885388366",
+  "10885380797",
+  "10885380436",
+  "10885378898",
+  "10885375592",
+  "10885373736",
+  "10885386205",
+  "10885387212",
+  "10885384473",
+  "10885379164",
+  "10885372733",
+  "10885425104",
+  "10885426529",
+  "10885424459",
+  "10885416981",
+  "10885416509",
+  "10885406602",
+  "10885421199",
+  "10885418266",
+  "10885353167",
+  "10885407881",
+  "10885454386",
+  "10885450879",
+  "10883540151",
+  "10885443969",
+  "10885432530",
+  "10885450987",
+  "10885449417",
+  "10885445112",
+  "10885442918",
+  "10885471386",
+  "10885475194",
+  "10815804248",
+  "10885474417",
+  "10885475092",
+  "10885472392",
+  "10885508957",
+  "10880595921",
+  "10885495230",
+  "10885519516",
+  "10885515289",
+  "10885510736",
+  "10885540701",
+  "10885544450",
+  "10885535924",
+  "10881197599",
+  "10885527077",
+  "10885528423",
+  "10885544723",
+  "10885540580",
+  "10885531702",
+  "10885524707",
+  "10885576771",
+  "10885561410",
+  "10885561549",
+  "10885576837"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -4854,10 +4854,10 @@
    "coteTropBasse": 40
   },
   "marque:fujica@3076": {
-   "date": 1794986141261,
+   "date": 1795114095426,
    "mediane": null,
    "echantillon": 28,
-   "coteTropBasse": 40
+   "coteTropBasse": 47
   },
   "modele:canon 1000f eos|1@3076": {
    "date": 1795002686464,
@@ -31881,6 +31881,243 @@
    "echantillon": 1,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:canon charger ixus|2@3075": {
+   "date": 1795114091297,
+   "mediane": 137,
+   "echantillon": 5,
+   "dispersion": 0.43,
+   "fourchette": [
+    45,
+    195
+   ],
+   "exemples": [
+    {
+     "id": 10674695637,
+     "prix": 137
+    },
+    {
+     "id": 10708766484,
+     "prix": 159
+    },
+    {
+     "id": 10782463631,
+     "prix": 99.99
+    },
+    {
+     "id": 10393217846,
+     "prix": 195
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:canon rebel|1@3075": {
+   "date": 1795114092938,
+   "mediane": 150,
+   "echantillon": 67,
+   "dispersion": 0.73,
+   "fourchette": [
+    45,
+    350
+   ],
+   "exemples": [
+    {
+     "id": 8474018162,
+     "prix": 150
+    },
+    {
+     "id": 9250423292,
+     "prix": 150
+    },
+    {
+     "id": 10505705384,
+     "prix": 150
+    },
+    {
+     "id": 10603977570,
+     "prix": 150
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:nikon f 401x spiegelreflexcamera|2@3076": {
+   "date": 1795114094299,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:fujica ax 1 sangle|2@3076": {
+   "date": 1795114095989,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:canon 400d y2k|1@3075": {
+   "date": 1795114225396,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:fujifilm stx 1 fujica|2@3076": {
+   "date": 1795114226216,
+   "mediane": 70,
+   "echantillon": 15,
+   "dispersion": 0.71,
+   "fourchette": [
+    30,
+    150
+   ],
+   "exemples": [
+    {
+     "id": 10259317601,
+     "prix": 70
+    },
+    {
+     "id": 8091489305,
+     "prix": 65
+    },
+    {
+     "id": 8117093216,
+     "prix": 78
+    },
+    {
+     "id": 10790989932,
+     "prix": 79.9
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:minolta 450ex genuine|2@3076": {
+   "date": 1795114226965,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:minolta x700 camara|2@3076": {
+   "date": 1795114227794,
+   "mediane": null,
+   "echantillon": 2,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:voigtlander voigalander|3@3076": {
+   "date": 1795114355130,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:kodak megapixels|2@3076": {
+   "date": 1795114356710,
+   "mediane": null,
+   "echantillon": 2,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:fujifilm f2 pro|1@3075": {
+   "date": 1795114483912,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:kodak 200 extra|2@3076": {
+   "date": 1795114485118,
+   "mediane": 11,
+   "echantillon": 21,
+   "dispersion": 0.91,
+   "fourchette": [
+    5,
+    30
+   ],
+   "exemples": [
+    {
+     "id": 6287149605,
+     "prix": 11
+    },
+    {
+     "id": 10509085974,
+     "prix": 10
+    },
+    {
+     "id": 7407455636,
+     "prix": 10
+    },
+    {
+     "id": 5375561030,
+     "prix": 10
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:nikon lenses|2@3075": {
+   "date": 1795114739494,
+   "mediane": 130,
+   "echantillon": 4,
+   "dispersion": 0.46,
+   "fourchette": [
+    78,
+    220
+   ],
+   "exemples": [
+    {
+     "id": 10840113620,
+     "prix": 100
+    },
+    {
+     "id": 9996459308,
+     "prix": 160
+    },
+    {
+     "id": 10885528423,
+     "prix": 78
+    },
+    {
+     "id": 10540710671,
+     "prix": 220
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:zenit helios 44m 4 f 2|2@3076": {
+   "date": 1795114740256,
+   "mediane": 54,
+   "echantillon": 24,
+   "dispersion": 0.37,
+   "fourchette": [
+    30,
+    95
+   ],
+   "exemples": [
+    {
+     "id": 10642350663,
+     "prix": 54
+    },
+    {
+     "id": 10868559054,
+     "prix": 55
+    },
+    {
+     "id": 8626310203,
+     "prix": 53
+    },
+    {
+     "id": 10885540580,
+     "prix": 50
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:yashica f 2 8 meetzoekercamera|1@3076": {
+   "date": 1795114740844,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -34669,8 +34906,8 @@
    "vu": 1795110256521
   },
   "42951497": {
-   "n": 10,
-   "vu": 1794863543659
+   "n": 11,
+   "vu": 1795114738511
   },
   "43007193": {
    "n": 2,
@@ -35021,8 +35258,8 @@
    "vu": 1793974180225
   },
   "45905133": {
-   "n": 104,
-   "vu": 1795034624417
+   "n": 105,
+   "vu": 1795114738511
   },
   "45966490": {
    "n": 21,
@@ -35997,8 +36234,8 @@
    "vu": 1794478368330
   },
   "56296495": {
-   "n": 4,
-   "vu": 1795004233137
+   "n": 5,
+   "vu": 1795114738511
   },
   "56318656": {
    "n": 4,
@@ -40629,8 +40866,8 @@
    "vu": 1795045106607
   },
   "188722252": {
-   "n": 2,
-   "vu": 1795113832116
+   "n": 6,
+   "vu": 1795114354516
   },
   "188804366": {
    "n": 2,
@@ -42473,8 +42710,8 @@
    "vu": 1794153402791
   },
   "256104911": {
-   "n": 2,
-   "vu": 1795029810388
+   "n": 3,
+   "vu": 1795114090500
   },
   "256135542": {
    "n": 2,
@@ -43841,8 +44078,8 @@
    "vu": 1794927335552
   },
   "290737625": {
-   "n": 3,
-   "vu": 1794360598120
+   "n": 4,
+   "vu": 1795114738511
   },
   "290753288": {
    "n": 2,
@@ -45069,8 +45306,8 @@
    "vu": 1794235161828
   },
   "3136778911": {
-   "n": 12,
-   "vu": 1795031734341
+   "n": 13,
+   "vu": 1795114354516
   },
   "3136785899": {
    "n": 4,
@@ -45357,8 +45594,8 @@
    "vu": 1793862045175
   },
   "3142056889": {
-   "n": 21,
-   "vu": 1795112019975
+   "n": 22,
+   "vu": 1795114354516
   },
   "3142290143": {
    "n": 2,
@@ -45809,8 +46046,8 @@
    "vu": 1794433715077
   },
   "3153076501": {
-   "n": 12,
-   "vu": 1795031091847
+   "n": 13,
+   "vu": 1795114738511
   },
   "3153102563": {
    "n": 7,
@@ -45825,8 +46062,8 @@
    "vu": 1794321611161
   },
   "3153149450": {
-   "n": 27,
-   "vu": 1795110256517
+   "n": 28,
+   "vu": 1795114611981
   },
   "3153162991": {
    "n": 2,
@@ -46077,8 +46314,8 @@
    "vu": 1793967949916
   },
   "3158536007": {
-   "n": 8,
-   "vu": 1795078175523
+   "n": 9,
+   "vu": 1795114224815
   },
   "3158624838": {
    "n": 2,
@@ -46225,8 +46462,8 @@
    "vu": 1794155376167
   },
   "3162059257": {
-   "n": 94,
-   "vu": 1795090414629
+   "n": 96,
+   "vu": 1795114738511
   },
   "3162113072": {
    "n": 2,
@@ -48597,8 +48834,8 @@
    "vu": 1795110256521
   },
   "3208121965": {
-   "n": 35,
-   "vu": 1795052375338
+   "n": 36,
+   "vu": 1795114090499
   },
   "3208150892": {
    "n": 2,
@@ -49243,60 +49480,27 @@
  },
  "bilan": {
   "depuis": 1795110290610,
-  "passages": 56,
-  "nouvelles": 208,
-  "marque": 27,
-  "etat": 4,
+  "passages": 70,
+  "nouvelles": 265,
+  "marque": 36,
+  "etat": 6,
   "prix": 11,
   "accessoire": 4,
-  "lot": 2,
-  "fausse": 0,
+  "lot": 3,
+  "fausse": 1,
   "imitation": 0,
-  "pro": 3,
-  "vendeurSpecialise": 44,
-  "sansCote": 118,
-  "chere": 86,
+  "pro": 5,
+  "vendeurSpecialise": 49,
+  "sansCote": 147,
+  "chere": 91,
   "description": 3,
   "scoreFaible": 0,
   "blocages": 2,
-  "alertes": 6
+  "alertes": 9
  },
  "panne": null,
  "panneDebut": null,
  "suivi": [
-  {
-   "id": 10779760822,
-   "titre": "Sony cybershot DSC-W810",
-   "prix": 85,
-   "cote": 150,
-   "score": 53,
-   "lien": "https://www.vinted.fr/items/10779760822-sony-cybershot-dsc-w810",
-   "date": 1794586601961,
-   "statut": "en vente",
-   "verifieA": 1794595581221
-  },
-  {
-   "id": 10793437103,
-   "titre": "Brochure Catalogue Publicitaire Appareil Photo Olympus XA 35mm Vintage France",
-   "prix": 18,
-   "cote": null,
-   "score": 20,
-   "lien": "https://www.vinted.fr/items/10793437103-brochure-catalogue-publicitaire-appareil-photo-olympus-xa-35mm-vintage-france",
-   "date": 1794586602194,
-   "statut": "en vente",
-   "verifieA": 1794595581967
-  },
-  {
-   "id": 10793475689,
-   "titre": "Appareil photo canon 500D",
-   "prix": 45,
-   "cote": 130,
-   "score": 69,
-   "lien": "https://www.vinted.fr/items/10793475689-appareil-photo-canon-500d",
-   "date": 1794586734572,
-   "statut": "retiree",
-   "verifieA": 1794595645668
-  },
   {
    "id": 10793549684,
    "titre": "Olympus XA3",
@@ -52506,7 +52710,8 @@
    "score": 20,
    "lien": "https://www.vinted.fr/items/10884279914-kamera-voigtlander-vitomatic-ib-1960er-modell-sammlerstuck",
    "date": 1795110375973,
-   "statut": null
+   "statut": "en vente",
+   "verifieA": 1795114027062
   },
   {
    "id": 10883277033,
@@ -52516,7 +52721,8 @@
    "score": 20,
    "lien": "https://www.vinted.fr/items/10883277033-apareille-photo",
    "date": 1795110462042,
-   "statut": null
+   "statut": "en vente",
+   "verifieA": 1795114097001
   },
   {
    "id": 10882422556,
@@ -52526,7 +52732,8 @@
    "score": 18,
    "lien": "https://www.vinted.fr/items/10882422556-appareil-photo-voigtland",
    "date": 1795110462238,
-   "statut": null
+   "statut": "en vente",
+   "verifieA": 1795114097866
   },
   {
    "id": 10882394660,
@@ -52536,7 +52743,8 @@
    "score": 16,
    "lien": "https://www.vinted.fr/items/10882394660-voigtlander-vitessa-105-analoge-kompaktkamera-35-mm",
    "date": 1795110543809,
-   "statut": null
+   "statut": "en vente",
+   "verifieA": 1795114161550
   },
   {
    "id": 10884619332,
@@ -52546,7 +52754,8 @@
    "score": 57,
    "lien": "https://www.vinted.fr/items/10884619332-camera-equipment",
    "date": 1795110870096,
-   "statut": null
+   "statut": "en vente",
+   "verifieA": 1795114485592
   },
   {
    "id": 10885048354,
@@ -52556,6 +52765,36 @@
    "score": 73,
    "lien": "https://www.vinted.fr/items/10885048354-maquina-fotografica-canon-eos-1300d",
    "date": 1795112670674,
+   "statut": null
+  },
+  {
+   "id": 10885378898,
+   "titre": "Canon charger (Canon IXUS compact digital camera)",
+   "prix": 45,
+   "cote": 137,
+   "score": 69,
+   "lien": "https://www.vinted.fr/items/10885378898-canon-charger-canon-ixus-compact-digital-camera",
+   "date": 1795114096310,
+   "statut": null
+  },
+  {
+   "id": 10885375592,
+   "titre": "Canon rebel XS camera",
+   "prix": 29,
+   "cote": 150,
+   "score": 68,
+   "lien": "https://www.vinted.fr/items/10885375592-canon-rebel-xs-camera",
+   "date": 1795114096531,
+   "statut": null
+  },
+  {
+   "id": 10885445112,
+   "titre": "Camera photos voigalander",
+   "prix": 78,
+   "cote": null,
+   "score": 24,
+   "lien": "https://www.vinted.fr/items/10885445112-camera-photos-voigalander",
+   "date": 1795114356900,
    "statut": null
   }
  ],

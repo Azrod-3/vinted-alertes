@@ -1,6 +1,5 @@
 {
  "vues": [
-  "10854662618",
   "10854684747",
   "10854679187",
   "10854675846",
@@ -3999,7 +3998,8 @@
   "10876335147",
   "10876407195",
   "10876461378",
-  "10876634311"
+  "10876634311",
+  "10876811318"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -6655,42 +6655,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:sony dsc p72 y2k|2@3075": {
-   "date": 1794887515776,
-   "mediane": 65,
-   "echantillon": 5,
-   "dispersion": 0.08,
-   "fourchette": [
-    44.99,
-    70
-   ],
-   "exemples": [
-    {
-     "id": 10066183908,
-     "prix": 65
-    },
-    {
-     "id": 9856496503,
-     "prix": 65
-    },
-    {
-     "id": 10780412656,
-     "prix": 60
-    },
-    {
-     "id": 7801337043,
-     "prix": 70
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:nikon 220 camara|1@3076": {
-   "date": 1794887516640,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
   },
   "modele:chinon macchine fotografiche|1@3076": {
    "date": 1794887895707,
@@ -31968,6 +31932,35 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "modele:kodak camara|2@3076": {
+   "date": 1795060211463,
+   "mediane": 20,
+   "echantillon": 58,
+   "dispersion": 1.13,
+   "fourchette": [
+    5,
+    60
+   ],
+   "exemples": [
+    {
+     "id": 10763926077,
+     "prix": 20
+    },
+    {
+     "id": 10866092606,
+     "prix": 20
+    },
+    {
+     "id": 10126351709,
+     "prix": 20
+    },
+    {
+     "id": 10679983711,
+     "prix": 20
+    }
+   ],
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -48850,8 +48843,8 @@
  },
  "bilan": {
   "depuis": 1795058189654,
-  "passages": 19,
-  "nouvelles": 0,
+  "passages": 34,
+  "nouvelles": 1,
   "marque": 0,
   "etat": 0,
   "prix": 0,
@@ -48862,7 +48855,7 @@
   "pro": 0,
   "vendeurSpecialise": 0,
   "sansCote": 0,
-  "chere": 0,
+  "chere": 1,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,

@@ -1,8 +1,5 @@
 {
  "vues": [
-  "10871303809",
-  "10871298602",
-  "10871299584",
   "10871296421",
   "10871292333",
   "10871296950",
@@ -3999,7 +3996,10 @@
   "10876406981",
   "10876410250",
   "10876409650",
-  "10876420100"
+  "10876420100",
+  "10876449272",
+  "10876453965",
+  "10876466040"
  ],
  "cotes": {
   "marque:fossil": {
@@ -49578,8 +49578,8 @@
    "vu": 1795030478307
   },
   "58311391": {
-   "n": 10,
-   "vu": 1795054742963
+   "n": 11,
+   "vu": 1795055092082
   },
   "58313026": {
    "n": 6,
@@ -84598,8 +84598,8 @@
    "vu": 1794414714287
   },
   "212701432": {
-   "n": 10,
-   "vu": 1795054613050
+   "n": 11,
+   "vu": 1795055135212
   },
   "212706050": {
    "n": 11,
@@ -142788,9 +142788,9 @@
  },
  "bilan": {
   "depuis": 1795054742964,
-  "passages": 1,
-  "nouvelles": 0,
-  "marque": 0,
+  "passages": 22,
+  "nouvelles": 3,
+  "marque": 2,
   "etat": 0,
   "prix": 0,
   "accessoire": 0,
@@ -142804,22 +142804,11 @@
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
-  "alertes": 0
+  "alertes": 1
  },
  "panne": null,
  "panneDebut": null,
  "suivi": [
-  {
-   "id": 10847295374,
-   "titre": "Orologio submariner",
-   "prix": 50,
-   "cote": null,
-   "score": 20,
-   "lien": "https://www.vinted.fr/items/10847295374-orologio-submariner",
-   "date": 1794870870421,
-   "statut": "en vente",
-   "verifieA": 1794880661312
-  },
   {
    "id": 10785670733,
    "titre": "Cronógrafo Vintage Husex (Anos 40/50) Calibre Suíço Landeron Mostrador Taquímetr",
@@ -146106,6 +146095,17 @@
    "score": 54,
    "lien": "https://www.vinted.fr/items/10876179299-longines-oposition-cronografo",
    "date": 1795051906537,
+   "statut": "en vente",
+   "verifieA": 1795055525770
+  },
+  {
+   "id": 10876466040,
+   "titre": "Montre Festina",
+   "prix": 35,
+   "cote": 115,
+   "score": 61,
+   "lien": "https://www.vinted.fr/items/10876466040-montre-festina",
+   "date": 1795055265496,
    "statut": null
   }
  ],

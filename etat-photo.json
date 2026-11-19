@@ -1,7 +1,5 @@
 {
  "vues": [
-  "10854675846",
-  "10854702518",
   "10854695734",
   "10854692886",
   "10854717335",
@@ -3999,7 +3997,9 @@
   "10876634311",
   "10876811318",
   "10876835606",
-  "10876839929"
+  "10876839929",
+  "10876899259",
+  "10876908490"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -31954,6 +31954,35 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "modele:minolta srt100x|2@3076": {
+   "date": 1795061864501,
+   "mediane": 100,
+   "echantillon": 23,
+   "dispersion": 0.7,
+   "fourchette": [
+    35,
+    200
+   ],
+   "exemples": [
+    {
+     "id": 8157757299,
+     "prix": 100
+    },
+    {
+     "id": 10876908490,
+     "prix": 90
+    },
+    {
+     "id": 10182587140,
+     "prix": 90
+    },
+    {
+     "id": 10079755746,
+     "prix": 110
+    }
+   ],
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -48840,9 +48869,9 @@
  },
  "bilan": {
   "depuis": 1795058189654,
-  "passages": 49,
-  "nouvelles": 3,
-  "marque": 1,
+  "passages": 64,
+  "nouvelles": 5,
+  "marque": 2,
   "etat": 0,
   "prix": 0,
   "accessoire": 0,
@@ -48852,7 +48881,7 @@
   "pro": 0,
   "vendeurSpecialise": 0,
   "sansCote": 1,
-  "chere": 1,
+  "chere": 2,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,

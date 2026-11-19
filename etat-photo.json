@@ -1,9 +1,5 @@
 {
  "vues": [
-  "10854717335",
-  "10854719812",
-  "10854712746",
-  "10854704987",
   "10854720219",
   "10854727237",
   "10854735857",
@@ -3999,7 +3995,11 @@
   "10876899259",
   "10876908490",
   "10876946373",
-  "10876952334"
+  "10876952334",
+  "10876976371",
+  "10876995913",
+  "10877000791",
+  "10877005399"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -6655,49 +6655,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:nikon 4 5 6d analogica|2@3076": {
-   "date": 1794891003518,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:yashica zoomtec analoge|1@3076": {
-   "date": 1794891004355,
-   "mediane": 23,
-   "echantillon": 4,
-   "dispersion": 0.22,
-   "fourchette": [
-    15,
-    40
-   ],
-   "exemples": [
-    {
-     "id": 10849047954,
-     "prix": 25
-    },
-    {
-     "id": 9957385232,
-     "prix": 20
-    },
-    {
-     "id": 10595026115,
-     "prix": 15
-    },
-    {
-     "id": 5873663134,
-     "prix": 40
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:lumix apareil|2@3075": {
-   "date": 1794891132699,
-   "mediane": null,
-   "echantillon": 0,
-   "dispersion": null,
-   "niveau": "modèle"
   },
   "modele:kodak automatic sacoche|1@3076": {
    "date": 1794891451449,
@@ -14307,30 +14264,30 @@
    "lissee": true
   },
   "modele:olympus camara fotos|1@3076": {
-   "date": 1794933123506,
-   "mediane": 34,
+   "date": 1795063761388,
+   "mediane": 43,
    "echantillon": 43,
-   "dispersion": 1.32,
+   "dispersion": 0.91,
    "fourchette": [
-    10,
-    100
+    15,
+    150
    ],
    "exemples": [
     {
-     "id": 10161354256,
-     "prix": 34
+     "id": 10794960093,
+     "prix": 47
     },
     {
-     "id": 10314627276,
-     "prix": 34
+     "id": 10788817341,
+     "prix": 50
     },
     {
-     "id": 8627212717,
-     "prix": 33
+     "id": 8567028984,
+     "prix": 50
     },
     {
-     "id": 10824767626,
-     "prix": 37
+     "id": 10113238170,
+     "prix": 50
     }
    ],
    "niveau": "modèle",
@@ -31983,6 +31940,42 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "modele:fujifilm xt10 solo|2@3075": {
+   "date": 1795063381956,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:canon 1200d|2@3075": {
+   "date": 1795064014384,
+   "mediane": 150,
+   "echantillon": 82,
+   "dispersion": 0.4,
+   "fourchette": [
+    75,
+    280
+   ],
+   "exemples": [
+    {
+     "id": 10875784033,
+     "prix": 150
+    },
+    {
+     "id": 10863378679,
+     "prix": 150
+    },
+    {
+     "id": 10856186555,
+     "prix": 150
+    },
+    {
+     "id": 10650128108,
+     "prix": 150
+    }
+   ],
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -37399,8 +37392,8 @@
    "vu": 1794055388259
   },
   "75596424": {
-   "n": 4,
-   "vu": 1794639933928
+   "n": 5,
+   "vu": 1795063887516
   },
   "75761820": {
    "n": 17,
@@ -48873,8 +48866,8 @@
  },
  "bilan": {
   "depuis": 1795058189654,
-  "passages": 79,
-  "nouvelles": 7,
+  "passages": 94,
+  "nouvelles": 11,
   "marque": 2,
   "etat": 0,
   "prix": 0,
@@ -48884,8 +48877,8 @@
   "imitation": 0,
   "pro": 0,
   "vendeurSpecialise": 0,
-  "sansCote": 2,
-  "chere": 3,
+  "sansCote": 3,
+  "chere": 6,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,

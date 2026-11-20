@@ -1,15 +1,5 @@
 {
  "vues": [
-  "10868534279",
-  "10868518156",
-  "10868515967",
-  "10868510576",
-  "10868511495",
-  "10868548689",
-  "10868540843",
-  "10868543019",
-  "10868551334",
-  "10868541716",
   "10868543082",
   "10868581888",
   "10868586513",
@@ -3999,7 +3989,17 @@
   "10890160684",
   "10890159658",
   "10890168486",
-  "10890167161"
+  "10890167161",
+  "10890189665",
+  "10890196311",
+  "10890195269",
+  "10890200969",
+  "10890204655",
+  "10890212106",
+  "10890230440",
+  "10890223701",
+  "10890237037",
+  "10890233723"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -6666,49 +6666,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:fujifilm x t4|3@3075": {
-   "date": 1794983271629,
-   "mediane": 1250,
-   "echantillon": 31,
-   "dispersion": 0.32,
-   "fourchette": [
-    799,
-    2000
-   ],
-   "exemples": [
-    {
-     "id": 10789568701,
-     "prix": 1250
-    },
-    {
-     "id": 10575070291,
-     "prix": 1250
-    },
-    {
-     "id": 9229553626,
-     "prix": 1250
-    },
-    {
-     "id": 10624239580,
-     "prix": 1250
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:fujifilm y2k s304|1@3075": {
-   "date": 1794983718787,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:olympus 3000 mustek|2@3076": {
-   "date": 1794983974625,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
   },
   "modele:fujifilm camara cute|3@3075": {
    "date": 1795122340553,
@@ -32525,6 +32482,42 @@
    "echantillon": 1,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:fujifilm xt1|1@3075": {
+   "date": 1795156852351,
+   "mediane": 490,
+   "echantillon": 9,
+   "dispersion": 0.59,
+   "fourchette": [
+    300,
+    900
+   ],
+   "exemples": [
+    {
+     "id": 10703165266,
+     "prix": 490
+    },
+    {
+     "id": 10818122735,
+     "prix": 480
+    },
+    {
+     "id": 10219193436,
+     "prix": 459
+    },
+    {
+     "id": 7127490049,
+     "prix": 600
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:panasonic dmc fs15 5x|1@3075": {
+   "date": 1795156980433,
+   "mediane": null,
+   "echantillon": 2,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -41464,6 +41457,10 @@
    "n": 6,
    "vu": 1794177195312
   },
+  "193659165": {
+   "n": 2,
+   "vu": 1795156472220
+  },
   "193674583": {
    "n": 3,
    "vu": 1795007981557
@@ -50087,38 +50084,27 @@
  },
  "bilan": {
   "depuis": 1795153994369,
-  "passages": 32,
-  "nouvelles": 17,
+  "passages": 47,
+  "nouvelles": 27,
   "marque": 3,
-  "etat": 0,
-  "prix": 0,
+  "etat": 1,
+  "prix": 2,
   "accessoire": 0,
   "lot": 0,
   "fausse": 0,
   "imitation": 0,
   "pro": 0,
   "vendeurSpecialise": 5,
-  "sansCote": 7,
-  "chere": 2,
+  "sansCote": 12,
+  "chere": 3,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
-  "alertes": 0
+  "alertes": 1
  },
  "panne": null,
  "panneDebut": null,
  "suivi": [
-  {
-   "id": 10800669390,
-   "titre": "Canon Prima Tele",
-   "prix": 12,
-   "cote": 115,
-   "score": 66,
-   "lien": "https://www.vinted.fr/items/10800669390-canon-prima-tele",
-   "date": 1794644391819,
-   "statut": "retiree",
-   "verifieA": 1794648050019
-  },
   {
    "id": 10800683534,
    "titre": "NIKON F-801",
@@ -53405,6 +53391,16 @@
    "score": 68,
    "lien": "https://www.vinted.fr/items/10890076436-canon-650d",
    "date": 1795153677406,
+   "statut": null
+  },
+  {
+   "id": 10890230440,
+   "titre": "Fujifilm XT1",
+   "prix": 300,
+   "cote": 490,
+   "score": 59,
+   "lien": "https://www.vinted.fr/items/10890230440-fujifilm-xt1",
+   "date": 1795156853183,
    "statut": null
   }
  ],

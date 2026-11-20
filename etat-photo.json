@@ -1,8 +1,5 @@
 {
  "vues": [
-  "10868301627",
-  "10868311643",
-  "10868310248",
   "10868306810",
   "10868297764",
   "10868312691",
@@ -3999,7 +3996,10 @@
   "10889608729",
   "10889701059",
   "10889699226",
-  "10889706896"
+  "10889706896",
+  "10805029130",
+  "10889788036",
+  "10889794622"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -41844,8 +41844,8 @@
    "vu": 1794775998264
   },
   "210169312": {
-   "n": 16,
-   "vu": 1795082065982
+   "n": 17,
+   "vu": 1795147293491
   },
   "210218926": {
    "n": 2,
@@ -47400,8 +47400,8 @@
    "vu": 1795015160423
   },
   "3174266873": {
-   "n": 2,
-   "vu": 1795110866540
+   "n": 4,
+   "vu": 1795147419643
   },
   "3174278264": {
    "n": 2,
@@ -50077,39 +50077,28 @@
   }
  },
  "bilan": {
-  "depuis": 1795139570445,
-  "passages": 110,
-  "nouvelles": 24,
-  "marque": 4,
-  "etat": 4,
+  "depuis": 1795146788183,
+  "passages": 11,
+  "nouvelles": 3,
+  "marque": 0,
+  "etat": 0,
   "prix": 0,
   "accessoire": 0,
   "lot": 0,
   "fausse": 0,
   "imitation": 0,
-  "pro": 4,
-  "vendeurSpecialise": 0,
-  "sansCote": 8,
-  "chere": 3,
-  "description": 1,
+  "pro": 0,
+  "vendeurSpecialise": 1,
+  "sansCote": 1,
+  "chere": 0,
+  "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
-  "alertes": 0
+  "alertes": 1
  },
  "panne": null,
  "panneDebut": null,
  "suivi": [
-  {
-   "id": 10799007894,
-   "titre": "Canon SX60",
-   "prix": 95,
-   "cote": 250,
-   "score": 77,
-   "lien": "https://www.vinted.fr/items/10799007894-canon-sx60",
-   "date": 1794618078312,
-   "statut": "en vente",
-   "verifieA": 1794621696989
-  },
   {
    "id": 10800099690,
    "titre": "Appareil photo numérique Sony DSC-HX60",
@@ -53398,6 +53387,16 @@
    "date": 1795132345322,
    "statut": "en vente",
    "verifieA": 1795135962640
+  },
+  {
+   "id": 10805029130,
+   "titre": "Fotocamera",
+   "prix": 80,
+   "cote": null,
+   "score": 20,
+   "lien": "https://www.vinted.fr/items/10805029130-fotocamera",
+   "date": 1795146915071,
+   "statut": null
   }
  ],
  "dernierRecap": "2026-11-19"

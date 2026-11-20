@@ -1,11 +1,5 @@
 {
  "vues": [
-  "10884292129",
-  "10884292443",
-  "10884289595",
-  "10884287155",
-  "10884281537",
-  "10884281818",
   "10884279857",
   "10884289163",
   "10845519427",
@@ -3999,7 +3993,13 @@
   "10889604097",
   "10889598804",
   "10889610124",
-  "10889608126"
+  "10889608126",
+  "10889616646",
+  "10889639552",
+  "10889635995",
+  "10889664177",
+  "10889660343",
+  "10889659695"
  ],
  "cotes": {
   "marque:fossil": {
@@ -7492,13 +7492,6 @@
    ],
    "niveau": "marque",
    "lissee": true
-  },
-  "modele:fossil fs5237 grant|1": {
-   "date": 1794972419249,
-   "mediane": null,
-   "echantillon": 2,
-   "dispersion": null,
-   "niveau": "modèle"
   },
   "modele:potens solar|2": {
    "date": 1794972937491,
@@ -43692,8 +43685,8 @@
    "vu": 1795122666424
   },
   "47706568": {
-   "n": 71,
-   "vu": 1795144237108
+   "n": 72,
+   "vu": 1795144494784
   },
   "47711859": {
    "n": 28,
@@ -47320,8 +47313,8 @@
    "vu": 1794925834372
   },
   "52794219": {
-   "n": 19,
-   "vu": 1795143341862
+   "n": 21,
+   "vu": 1795145133890
   },
   "52796695": {
    "n": 3,
@@ -124880,8 +124873,8 @@
    "vu": 1793633350698
   },
   "3167524353": {
-   "n": 7,
-   "vu": 1793702101986
+   "n": 8,
+   "vu": 1795145133890
   },
   "3167533660": {
    "n": 2,
@@ -145921,24 +145914,24 @@
   }
  },
  "bilan": {
-  "depuis": 1795141122033,
-  "passages": 76,
-  "nouvelles": 26,
-  "marque": 19,
+  "depuis": 1795144749980,
+  "passages": 13,
+  "nouvelles": 3,
+  "marque": 3,
   "etat": 0,
   "prix": 0,
-  "accessoire": 1,
+  "accessoire": 0,
   "lot": 0,
   "fausse": 0,
   "imitation": 0,
   "pro": 0,
-  "vendeurSpecialise": 4,
+  "vendeurSpecialise": 0,
   "sansCote": 0,
-  "chere": 1,
+  "chere": 0,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
-  "alertes": 1
+  "alertes": 0
  },
  "panne": null,
  "panneDebut": null,
@@ -149229,7 +149222,8 @@
    "score": 63,
    "lien": "https://www.vinted.fr/items/10889345289-orologio-locman-donna-cinturino-rosso-in-pelle-usato-con-leggere-imperfezioni-come-in-foto",
    "date": 1795140781118,
-   "statut": null
+   "statut": "en vente",
+   "verifieA": 1795144409632
   },
   {
    "id": 10889474993,

@@ -1,14 +1,5 @@
 {
  "vues": [
-  "10868422497",
-  "10868466422",
-  "10868456526",
-  "10868452330",
-  "10868463669",
-  "10868462724",
-  "10868460179",
-  "10868456616",
-  "10868456258",
   "10868496991",
   "10868478245",
   "10868492933",
@@ -3999,7 +3990,16 @@
   "10890016964",
   "10890027766",
   "10890033489",
-  "10890054418"
+  "10890054418",
+  "10890071347",
+  "10890076436",
+  "10890073034",
+  "10890079922",
+  "10890078272",
+  "10890085334",
+  "10890092955",
+  "10890093257",
+  "10890091069"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -6636,35 +6636,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:olympus c 765 camedia|1@3075": {
-   "date": 1794980603009,
-   "mediane": 47,
-   "echantillon": 14,
-   "dispersion": 0.64,
-   "fourchette": [
-    30,
-    100
-   ],
-   "exemples": [
-    {
-     "id": 7950190773,
-     "prix": 49
-    },
-    {
-     "id": 8780478674,
-     "prix": 44.9
-    },
-    {
-     "id": 7526652271,
-     "prix": 50
-    },
-    {
-     "id": 7781883956,
-     "prix": 50
-    }
-   ],
-   "niveau": "modèle"
   },
   "modele:panasonic dmc gx1 f 3 5 5 6|1@3076": {
    "date": 1794982569146,
@@ -32496,6 +32467,71 @@
    "echantillon": 1,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:canon 650d|2@3075": {
+   "date": 1795153675720,
+   "mediane": 250,
+   "echantillon": 77,
+   "dispersion": 0.4,
+   "fourchette": [
+    95,
+    470
+   ],
+   "exemples": [
+    {
+     "id": 10704035909,
+     "prix": 250
+    },
+    {
+     "id": 10871100953,
+     "prix": 250
+    },
+    {
+     "id": 8219411644,
+     "prix": 250
+    },
+    {
+     "id": 10871355562,
+     "prix": 250
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:minolta vectis aps|1@3076": {
+   "date": 1795153677174,
+   "mediane": 20,
+   "echantillon": 45,
+   "dispersion": 0.36,
+   "fourchette": [
+    5,
+    35
+   ],
+   "exemples": [
+    {
+     "id": 10857651850,
+     "prix": 20
+    },
+    {
+     "id": 10267166403,
+     "prix": 20
+    },
+    {
+     "id": 10642485421,
+     "prix": 20
+    },
+    {
+     "id": 10523510917,
+     "prix": 20
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:canon canons dial|1@3076": {
+   "date": 1795153804778,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -34932,8 +34968,8 @@
    "vu": 1795029289845
   },
   "37400177": {
-   "n": 3,
-   "vu": 1794863630492
+   "n": 4,
+   "vu": 1795154057601
   },
   "37521375": {
    "n": 3,
@@ -37136,8 +37172,8 @@
    "vu": 1793967949913
   },
   "61602659": {
-   "n": 2,
-   "vu": 1794863543660
+   "n": 4,
+   "vu": 1795153931159
   },
   "61783362": {
    "n": 3,
@@ -50057,39 +50093,28 @@
   }
  },
  "bilan": {
-  "depuis": 1795146788183,
-  "passages": 72,
-  "nouvelles": 22,
-  "marque": 3,
+  "depuis": 1795153994369,
+  "passages": 2,
+  "nouvelles": 3,
+  "marque": 2,
   "etat": 0,
-  "prix": 1,
+  "prix": 0,
   "accessoire": 0,
   "lot": 0,
   "fausse": 0,
   "imitation": 0,
   "pro": 0,
-  "vendeurSpecialise": 2,
-  "sansCote": 11,
-  "chere": 4,
+  "vendeurSpecialise": 0,
+  "sansCote": 1,
+  "chere": 0,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
-  "alertes": 1
+  "alertes": 0
  },
  "panne": null,
  "panneDebut": null,
  "suivi": [
-  {
-   "id": 10800099690,
-   "titre": "Appareil photo numérique Sony DSC-HX60",
-   "prix": 70,
-   "cote": 227,
-   "score": 79,
-   "lien": "https://www.vinted.fr/items/10800099690-appareil-photo-numerique-sony-dsc-hx60",
-   "date": 1794637143228,
-   "statut": "retiree",
-   "verifieA": 1794640760317
-  },
   {
    "id": 10800669390,
    "titre": "Canon Prima Tele",
@@ -53378,6 +53403,16 @@
    "date": 1795146915071,
    "statut": "en vente",
    "verifieA": 1795150568074
+  },
+  {
+   "id": 10890076436,
+   "titre": "Canon 650D",
+   "prix": 120,
+   "cote": 250,
+   "score": 68,
+   "lien": "https://www.vinted.fr/items/10890076436-canon-650d",
+   "date": 1795153677406,
+   "statut": null
   }
  ],
  "dernierRecap": "2026-11-19"

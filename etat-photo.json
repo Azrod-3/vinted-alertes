@@ -1,9 +1,5 @@
 {
  "vues": [
-  "10868133658",
-  "10868160856",
-  "10868146844",
-  "10868191839",
   "10868176698",
   "10868176276",
   "10868168411",
@@ -3999,7 +3995,11 @@
   "10889056518",
   "10889067387",
   "10889084209",
-  "10889077672"
+  "10889077672",
+  "10889114272",
+  "10889156458",
+  "10889167778",
+  "10889169804"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -6605,78 +6605,6 @@
      "prix": 290
     }
    ],
-   "niveau": "modèle"
-  },
-  "modele:minolta 100x accessoires|2@3076": {
-   "date": 1794965224963,
-   "mediane": null,
-   "echantillon": 0,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:kodak pixpro|3@3075": {
-   "date": 1794965923157,
-   "mediane": 85,
-   "echantillon": 80,
-   "dispersion": 0.35,
-   "fourchette": [
-    25,
-    150
-   ],
-   "exemples": [
-    {
-     "id": 10856702759,
-     "prix": 85
-    },
-    {
-     "id": 10756164216,
-     "prix": 85
-    },
-    {
-     "id": 10637147397,
-     "prix": 85
-    },
-    {
-     "id": 10847230799,
-     "prix": 85
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:konica pop point|3@3076": {
-   "date": 1794965987137,
-   "mediane": 45,
-   "echantillon": 9,
-   "dispersion": 0.94,
-   "fourchette": [
-    17,
-    120
-   ],
-   "exemples": [
-    {
-     "id": 9114559165,
-     "prix": 45
-    },
-    {
-     "id": 10252725285,
-     "prix": 50
-    },
-    {
-     "id": 10820537190,
-     "prix": 25.5
-    },
-    {
-     "id": 10127587230,
-     "prix": 65
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:olympus m 900 tianma|3@3076": {
-   "date": 1794966114290,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
    "niveau": "modèle"
   },
   "modele:fujifilm clear shot|3@3076": {
@@ -38667,8 +38595,8 @@
    "vu": 1795092087506
   },
   "84029127": {
-   "n": 3,
-   "vu": 1795136406619
+   "n": 4,
+   "vu": 1795138430662
   },
   "84042891": {
    "n": 7,
@@ -46051,8 +45979,8 @@
    "vu": 1795029289842
   },
   "3138957823": {
-   "n": 109,
-   "vu": 1795136659003
+   "n": 111,
+   "vu": 1795138683127
   },
   "3139110308": {
    "n": 3,
@@ -50153,18 +50081,18 @@
  },
  "bilan": {
   "depuis": 1795132346691,
-  "passages": 89,
-  "nouvelles": 52,
+  "passages": 104,
+  "nouvelles": 56,
   "marque": 5,
-  "etat": 3,
+  "etat": 4,
   "prix": 4,
   "accessoire": 1,
   "lot": 0,
   "fausse": 0,
   "imitation": 0,
-  "pro": 4,
+  "pro": 6,
   "vendeurSpecialise": 5,
-  "sansCote": 25,
+  "sansCote": 26,
   "chere": 5,
   "description": 0,
   "scoreFaible": 0,

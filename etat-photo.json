@@ -1,21 +1,5 @@
 {
  "vues": [
-  "10884392325",
-  "10884375900",
-  "10884376169",
-  "10884375333",
-  "10884352575",
-  "10884336587",
-  "10884338716",
-  "10884336459",
-  "10884334241",
-  "10884309291",
-  "10884313728",
-  "10884299022",
-  "10884301303",
-  "10884289001",
-  "10884285554",
-  "10884255733",
   "10884274200",
   "10884255341",
   "10884251487",
@@ -3999,7 +3983,23 @@
   "10901071843",
   "10901080779",
   "10901080814",
-  "10901092492"
+  "10901092492",
+  "10901103334",
+  "10901104895",
+  "10901103540",
+  "10901115432",
+  "10901129894",
+  "10901138460",
+  "10901138521",
+  "10901161415",
+  "10901159484",
+  "10901166760",
+  "10901163118",
+  "10901069899",
+  "10901180229",
+  "10901185397",
+  "10901185088",
+  "10901190262"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -5062,36 +5062,6 @@
     {
      "id": 10796215463,
      "prix": 30
-    }
-   ],
-   "niveau": "modèle",
-   "lissee": true
-  },
-  "modele:kodak 4000 disc|2@3076": {
-   "date": 1795045619053,
-   "mediane": 13,
-   "echantillon": 81,
-   "dispersion": 0.54,
-   "fourchette": [
-    4,
-    30
-   ],
-   "exemples": [
-    {
-     "id": 10708194931,
-     "prix": 13
-    },
-    {
-     "id": 10053073598,
-     "prix": 13
-    },
-    {
-     "id": 10736244999,
-     "prix": 12
-    },
-    {
-     "id": 5493717848,
-     "prix": 14
     }
    ],
    "niveau": "modèle",
@@ -6519,191 +6489,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:ricoh digitalkamera silber|2@3075": {
-   "date": 1795045425870,
-   "mediane": 72,
-   "echantillon": 5,
-   "dispersion": 0.89,
-   "fourchette": [
-    35,
-    147.44
-   ],
-   "exemples": [
-    {
-     "id": 10875582934,
-     "prix": 72
-    },
-    {
-     "id": 10847232387,
-     "prix": 99
-    },
-    {
-     "id": 10227722039,
-     "prix": 35
-    },
-    {
-     "id": 10866929465,
-     "prix": 35
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:canon maquina|2@3076": {
-   "date": 1795045427491,
-   "mediane": 45,
-   "echantillon": 57,
-   "dispersion": 0.78,
-   "fourchette": [
-    13,
-    120
-   ],
-   "exemples": [
-    {
-     "id": 10839871268,
-     "prix": 45
-    },
-    {
-     "id": 9974056968,
-     "prix": 45
-    },
-    {
-     "id": 9875991076,
-     "prix": 45
-    },
-    {
-     "id": 7763316854,
-     "prix": 49
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:nikon s225 coolpix|2@3075": {
-   "date": 1795046256377,
-   "mediane": 69,
-   "echantillon": 25,
-   "dispersion": 0.45,
-   "fourchette": [
-    33,
-    95
-   ],
-   "exemples": [
-    {
-     "id": 10846412271,
-     "prix": 69
-    },
-    {
-     "id": 9965907318,
-     "prix": 69
-    },
-    {
-     "id": 8858009007,
-     "prix": 69.9
-    },
-    {
-     "id": 8241534021,
-     "prix": 69.99
-    }
-   ],
-   "niveau": "modèle",
-   "lissee": true
-  },
-  "modele:kodak brownie flash|2@3076": {
-   "date": 1795045683308,
-   "mediane": 15,
-   "echantillon": 49,
-   "dispersion": 0.53,
-   "fourchette": [
-    9,
-    35
-   ],
-   "exemples": [
-    {
-     "id": 10767719947,
-     "prix": 15
-    },
-    {
-     "id": 10818748700,
-     "prix": 15
-    },
-    {
-     "id": 9689978453,
-     "prix": 15
-    },
-    {
-     "id": 10076554269,
-     "prix": 15
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:kodak 6x9 coronet|2@3076": {
-   "date": 1795045873910,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:kodak brownie vecta|2@3076": {
-   "date": 1795045937828,
-   "mediane": 20,
-   "echantillon": 3,
-   "dispersion": null,
-   "fourchette": [
-    18,
-    20
-   ],
-   "exemples": [
-    {
-     "id": 10801103647,
-     "prix": 20
-    },
-    {
-     "id": 9232636779,
-     "prix": 20
-    },
-    {
-     "id": 10875632786,
-     "prix": 18
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:olympus x 940 maquina|2@3075": {
-   "date": 1795046001528,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:nikon s3700 coolpix|1@3075": {
-   "date": 1795046065446,
-   "mediane": 110,
-   "echantillon": 39,
-   "dispersion": 0.28,
-   "fourchette": [
-    79.99,
-    160
-   ],
-   "exemples": [
-    {
-     "id": 10795912266,
-     "prix": 110
-    },
-    {
-     "id": 9908933843,
-     "prix": 110
-    },
-    {
-     "id": 8972895801,
-     "prix": 104.99
-    },
-    {
-     "id": 10680785664,
-     "prix": 119.95
-    }
-   ],
-   "niveau": "modèle"
   },
   "modele:samsung wb35f|2@3075": {
    "date": 1795046320204,
@@ -32737,6 +32522,107 @@
    "echantillon": 1,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:nikon fm2|1@3076": {
+   "date": 1795218177442,
+   "mediane": 450,
+   "echantillon": 38,
+   "dispersion": 0.38,
+   "fourchette": [
+    150,
+    800
+   ],
+   "exemples": [
+    {
+     "id": 10769056553,
+     "prix": 450
+    },
+    {
+     "id": 10894102510,
+     "prix": 450
+    },
+    {
+     "id": 10608008216,
+     "prix": 450
+    },
+    {
+     "id": 10831866870,
+     "prix": 450
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:panasonic fs11 lumix|2@3075": {
+   "date": 1795218304770,
+   "mediane": 79,
+   "echantillon": 15,
+   "dispersion": 0.25,
+   "fourchette": [
+    39.5,
+    120
+   ],
+   "exemples": [
+    {
+     "id": 9977879422,
+     "prix": 79
+    },
+    {
+     "id": 8980870283,
+     "prix": 79.99
+    },
+    {
+     "id": 10872201318,
+     "prix": 80
+    },
+    {
+     "id": 10898926719,
+     "prix": 82
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:yashica zoomate70 pellicola|2@3076": {
+   "date": 1795218431565,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:nikon s6300 coolpix|1@3075": {
+   "date": 1795218684502,
+   "mediane": 123,
+   "echantillon": 40,
+   "dispersion": 0.57,
+   "fourchette": [
+    39.99,
+    205
+   ],
+   "exemples": [
+    {
+     "id": 8709179290,
+     "prix": 125
+    },
+    {
+     "id": 10777184506,
+     "prix": 120
+    },
+    {
+     "id": 7864361890,
+     "prix": 120
+    },
+    {
+     "id": 10516445753,
+     "prix": 110
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:mamiya 1 35 pentor|1@3076": {
+   "date": 1795219064692,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -38680,6 +38566,10 @@
    "n": 2,
    "vu": 1795087078479
   },
+  "78490260": {
+   "n": 2,
+   "vu": 1795218937136
+  },
   "78570568": {
    "n": 2,
    "vu": 1794214433303
@@ -42401,8 +42291,8 @@
    "vu": 1794768885259
   },
   "210631129": {
-   "n": 4,
-   "vu": 1795112540875
+   "n": 5,
+   "vu": 1795218937135
   },
   "211067397": {
    "n": 9,
@@ -43473,8 +43363,8 @@
    "vu": 1795033407814
   },
   "250268637": {
-   "n": 40,
-   "vu": 1795216779988
+   "n": 41,
+   "vu": 1795218937135
   },
   "250363993": {
    "n": 2,
@@ -44240,6 +44130,10 @@
    "n": 2,
    "vu": 1794088371718
   },
+  "265399271": {
+   "n": 2,
+   "vu": 1795218683782
+  },
   "265434366": {
    "n": 3,
    "vu": 1794159224343
@@ -44481,8 +44375,8 @@
    "vu": 1794233835875
   },
   "270532107": {
-   "n": 13,
-   "vu": 1795081678976
+   "n": 14,
+   "vu": 1795218176557
   },
   "270572555": {
    "n": 7,
@@ -44925,8 +44819,8 @@
    "vu": 1794831801284
   },
   "282232565": {
-   "n": 17,
-   "vu": 1795217795331
+   "n": 18,
+   "vu": 1795218430828
   },
   "282255195": {
    "n": 2,
@@ -50911,60 +50805,27 @@
  },
  "bilan": {
   "depuis": 1795216843118,
-  "passages": 20,
-  "nouvelles": 26,
-  "marque": 6,
-  "etat": 0,
+  "passages": 35,
+  "nouvelles": 42,
+  "marque": 11,
+  "etat": 3,
   "prix": 2,
   "accessoire": 0,
   "lot": 0,
   "fausse": 0,
   "imitation": 0,
   "pro": 0,
-  "vendeurSpecialise": 3,
-  "sansCote": 8,
-  "chere": 7,
+  "vendeurSpecialise": 4,
+  "sansCote": 10,
+  "chere": 9,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
-  "alertes": 0
+  "alertes": 3
  },
  "panne": null,
  "panneDebut": null,
  "suivi": [
-  {
-   "id": 10811734613,
-   "titre": "Sony Cyber-Shot DSC - HX200V",
-   "prix": 80,
-   "cote": 145,
-   "score": 54,
-   "lien": "https://www.vinted.fr/items/10811734613-sony-cyber-shot-dsc-hx200v",
-   "date": 1794687840574,
-   "statut": "en vente",
-   "verifieA": 1794692842512
-  },
-  {
-   "id": 10812216042,
-   "titre": "Olympus zoom 35 - 70 mm",
-   "prix": 12,
-   "cote": 98,
-   "score": 62,
-   "lien": "https://www.vinted.fr/items/10812216042-olympus-zoom-35-70-mm",
-   "date": 1794689960790,
-   "statut": "retiree",
-   "verifieA": 1794710830043
-  },
-  {
-   "id": 10812674211,
-   "titre": "Appareil photo nikon coolpix b500",
-   "prix": 28,
-   "cote": 120,
-   "score": 70,
-   "lien": "https://www.vinted.fr/items/10812674211-appareil-photo-nikon-coolpix-b500",
-   "date": 1794692840624,
-   "statut": "retiree",
-   "verifieA": 1794696485423
-  },
   {
    "id": 10812552742,
    "titre": "Canon eos 450d + Obiettivo 18-55mm IS Kit - Con Scatola  -Non Perfettamente Funz",
@@ -54218,7 +54079,8 @@
    "score": 69,
    "lien": "https://www.vinted.fr/items/10900818945-camara-canon",
    "date": 1795215378376,
-   "statut": null
+   "statut": "retiree",
+   "verifieA": 1795219001040
   },
   {
    "id": 10900888124,
@@ -54228,6 +54090,36 @@
    "score": 60,
    "lien": "https://www.vinted.fr/items/10900888124-camara-canon",
    "date": 1795216013084,
+   "statut": null
+  },
+  {
+   "id": 10901103540,
+   "titre": "Nikon vintage FM2",
+   "prix": 53,
+   "cote": 450,
+   "score": 94,
+   "lien": "https://www.vinted.fr/items/10901103540-nikon-vintage-fm2",
+   "date": 1795218178082,
+   "statut": null
+  },
+  {
+   "id": 10901161415,
+   "titre": "Nikon Coolpix S6300",
+   "prix": 50,
+   "cote": 123,
+   "score": 61,
+   "lien": "https://www.vinted.fr/items/10901161415-nikon-coolpix-s6300",
+   "date": 1795218685186,
+   "statut": null
+  },
+  {
+   "id": 10901190262,
+   "titre": "Appareil photo Mamiya - Z.E. Avec objectif Pentor supplémentaire 1/35",
+   "prix": 40,
+   "cote": null,
+   "score": 20,
+   "lien": "https://www.vinted.fr/items/10901190262-appareil-photo-mamiya-ze-avec-objectif-pentor-supplementaire-135",
+   "date": 1795219065554,
    "statut": null
   }
  ],

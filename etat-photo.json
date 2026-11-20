@@ -1,8 +1,5 @@
 {
  "vues": [
-  "10868310990",
-  "10868312203",
-  "10868302929",
   "10868301627",
   "10868311643",
   "10868310248",
@@ -3999,7 +3996,10 @@
   "10889559697",
   "10889573556",
   "10889587203",
-  "10889608729"
+  "10889608729",
+  "10889701059",
+  "10889699226",
+  "10889706896"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -4063,30 +4063,30 @@
    "lissee": true
   },
   "marque:kodak@3075": {
-   "date": 1795047019474,
-   "mediane": 51,
-   "echantillon": 86,
-   "dispersion": 0.8,
+   "date": 1795145774658,
+   "mediane": 56,
+   "echantillon": 85,
+   "dispersion": 0.89,
    "fourchette": [
     15,
-    125
+    170
    ],
    "exemples": [
     {
-     "id": 10583531778,
-     "prix": 50
+     "id": 10884943324,
+     "prix": 58.2
     },
     {
-     "id": 10865227642,
-     "prix": 50
+     "id": 10854148249,
+     "prix": 60
     },
     {
-     "id": 10868213834,
-     "prix": 50
+     "id": 10864755478,
+     "prix": 60
     },
     {
-     "id": 10870816363,
-     "prix": 50
+     "id": 10865668009,
+     "prix": 52
     }
    ],
    "niveau": "marque",
@@ -32495,6 +32495,35 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "modele:kodak c1 pixpro|1@3075": {
+   "date": 1795145775432,
+   "mediane": 89,
+   "echantillon": 14,
+   "dispersion": 0.17,
+   "fourchette": [
+    74.9,
+    100
+   ],
+   "exemples": [
+    {
+     "id": 10647988794,
+     "prix": 88
+    },
+    {
+     "id": 10739134920,
+     "prix": 90
+    },
+    {
+     "id": 10292958245,
+     "prix": 90
+    },
+    {
+     "id": 8696749931,
+     "prix": 90
+    }
+   ],
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -50049,9 +50078,9 @@
  },
  "bilan": {
   "depuis": 1795139570445,
-  "passages": 95,
-  "nouvelles": 21,
-  "marque": 3,
+  "passages": 110,
+  "nouvelles": 24,
+  "marque": 4,
   "etat": 4,
   "prix": 0,
   "accessoire": 0,
@@ -50060,8 +50089,8 @@
   "imitation": 0,
   "pro": 4,
   "vendeurSpecialise": 0,
-  "sansCote": 7,
-  "chere": 2,
+  "sansCote": 8,
+  "chere": 3,
   "description": 1,
   "scoreFaible": 0,
   "blocages": 0,

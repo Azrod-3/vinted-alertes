@@ -1,9 +1,5 @@
 {
  "vues": [
-  "10868405130",
-  "10868394260",
-  "10868429294",
-  "10868425786",
   "10868422497",
   "10868466422",
   "10868456526",
@@ -3999,7 +3995,11 @@
   "10889968554",
   "10889976903",
   "10874874613",
-  "10874829654"
+  "10874829654",
+  "10890016964",
+  "10890027766",
+  "10890033489",
+  "10890054418"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -6637,49 +6637,6 @@
    "niveau": "modèle",
    "lissee": true
   },
-  "modele:canon sx20 20x|1@3075": {
-   "date": 1794979965380,
-   "mediane": 83,
-   "echantillon": 6,
-   "dispersion": 0.58,
-   "fourchette": [
-    50,
-    120
-   ],
-   "exemples": [
-    {
-     "id": 9824762563,
-     "prix": 90
-    },
-    {
-     "id": 10582674368,
-     "prix": 75
-    },
-    {
-     "id": 10863157750,
-     "prix": 65
-    },
-    {
-     "id": 10481077464,
-     "prix": 113
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:polaroid 900z analogica|2@3076": {
-   "date": 1794980030029,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:nikon kodak pixpro|2@3075": {
-   "date": 1794980159184,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
   "modele:olympus c 765 camedia|1@3075": {
    "date": 1794980603009,
    "mediane": 47,
@@ -8747,33 +8704,34 @@
    "niveau": "modèle"
   },
   "modele:fujifilm fujica|2@3076": {
-   "date": 1794999773535,
-   "mediane": 41,
-   "echantillon": 58,
-   "dispersion": 0.85,
+   "date": 1795152660182,
+   "mediane": 47,
+   "echantillon": 67,
+   "dispersion": 0.82,
    "fourchette": [
-    20,
-    100
+    17,
+    120
    ],
    "exemples": [
     {
-     "id": 9857992478,
-     "prix": 40
+     "id": 10812619719,
+     "prix": 49
     },
     {
-     "id": 9298253950,
-     "prix": 40
+     "id": 10289049259,
+     "prix": 49
     },
     {
-     "id": 10637852082,
-     "prix": 40
+     "id": 10825076620,
+     "prix": 50
     },
     {
-     "id": 10336052168,
-     "prix": 40
+     "id": 10844290075,
+     "prix": 50
     }
    ],
-   "niveau": "modèle"
+   "niveau": "modèle",
+   "lissee": true
   },
   "modele:zenit fs 122 2 3s|2@3076": {
    "date": 1794999773994,
@@ -50100,8 +50058,8 @@
  },
  "bilan": {
   "depuis": 1795146788183,
-  "passages": 57,
-  "nouvelles": 18,
+  "passages": 72,
+  "nouvelles": 22,
   "marque": 3,
   "etat": 0,
   "prix": 1,
@@ -50111,8 +50069,8 @@
   "imitation": 0,
   "pro": 0,
   "vendeurSpecialise": 2,
-  "sansCote": 9,
-  "chere": 2,
+  "sansCote": 11,
+  "chere": 4,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,

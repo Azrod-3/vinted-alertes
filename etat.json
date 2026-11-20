@@ -1,9 +1,5 @@
 {
  "vues": [
-  "10884266147",
-  "10884264776",
-  "10884242662",
-  "10884225565",
   "10884264105",
   "10884264892",
   "10884266020",
@@ -3999,7 +3995,11 @@
   "10889290548",
   "10889306305",
   "10889304553",
-  "10889319789"
+  "10889319789",
+  "10889345289",
+  "10889357016",
+  "10889363294",
+  "10889371147"
  ],
  "cotes": {
   "marque:fossil": {
@@ -7492,35 +7492,6 @@
    ],
    "niveau": "marque",
    "lissee": true
-  },
-  "modele:citizen relogio pulso|1": {
-   "date": 1794968408236,
-   "mediane": 50,
-   "echantillon": 4,
-   "dispersion": 0,
-   "fourchette": [
-    16,
-    99.9
-   ],
-   "exemples": [
-    {
-     "id": 10862454545,
-     "prix": 50
-    },
-    {
-     "id": 10181694232,
-     "prix": 50
-    },
-    {
-     "id": 8638603320,
-     "prix": 16
-    },
-    {
-     "id": 4653861992,
-     "prix": 99.9
-    }
-   ],
-   "niveau": "modèle"
   },
   "modele:jaguar relogio pulso|1": {
    "date": 1794969702730,
@@ -27757,6 +27728,13 @@
      "prix": 25
     }
    ],
+   "niveau": "modèle"
+  },
+  "modele:locman donna cinturino|1": {
+   "date": 1795140780253,
+   "mediane": null,
+   "echantillon": 2,
+   "dispersion": null,
    "niveau": "modèle"
   }
  },
@@ -145960,23 +145938,27 @@
   "3217331843": {
    "n": 2,
    "vu": 1795130624279
+  },
+  "3217404897": {
+   "n": 3,
+   "vu": 1795141164619
   }
  },
  "bilan": {
-  "depuis": 1795137488363,
-  "passages": 73,
-  "nouvelles": 45,
-  "marque": 36,
+  "depuis": 1795141122033,
+  "passages": 10,
+  "nouvelles": 1,
+  "marque": 1,
   "etat": 0,
-  "prix": 1,
+  "prix": 0,
   "accessoire": 0,
   "lot": 0,
   "fausse": 0,
   "imitation": 0,
   "pro": 0,
-  "vendeurSpecialise": 4,
+  "vendeurSpecialise": 0,
   "sansCote": 0,
-  "chere": 4,
+  "chere": 0,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
@@ -145985,17 +145967,6 @@
  "panne": null,
  "panneDebut": null,
  "suivi": [
-  {
-   "id": 10863892900,
-   "titre": "Timex Expedition North",
-   "prix": 85,
-   "cote": 190,
-   "score": 62,
-   "lien": "https://www.vinted.fr/items/10863892900-timex-expedition-north",
-   "date": 1794993058433,
-   "statut": "en vente",
-   "verifieA": 1794996781544
-  },
   {
    "id": 10863638397,
    "titre": "Montres earnshaw automatique",
@@ -149284,6 +149255,16 @@
    "date": 1795130625397,
    "statut": "en vente",
    "verifieA": 1795134237525
+  },
+  {
+   "id": 10889345289,
+   "titre": "Orologio Locman donna – cinturino rosso in pelle – usato con leggere imperfezion",
+   "prix": 30,
+   "cote": 149,
+   "score": 63,
+   "lien": "https://www.vinted.fr/items/10889345289-orologio-locman-donna-cinturino-rosso-in-pelle-usato-con-leggere-imperfezioni-come-in-foto",
+   "date": 1795140781118,
+   "statut": null
   }
  ],
  "dernierRecap": "2026-11-19"

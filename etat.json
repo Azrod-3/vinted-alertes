@@ -1,12 +1,5 @@
 {
  "vues": [
-  "10884264105",
-  "10884264892",
-  "10884266020",
-  "10884262166",
-  "10884261663",
-  "10884263685",
-  "10884257051",
   "10884250047",
   "10884251981",
   "10884251157",
@@ -3999,7 +3992,14 @@
   "10889345289",
   "10889357016",
   "10889363294",
-  "10889371147"
+  "10889371147",
+  "10889424355",
+  "10889433341",
+  "10889449588",
+  "10889467792",
+  "10889474993",
+  "10889474636",
+  "10889465900"
  ],
  "cotes": {
   "marque:fossil": {
@@ -5695,12 +5695,12 @@
    "lissee": true
   },
   "marque:edox": {
-   "date": 1795031324976,
+   "date": 1795142445021,
    "mediane": 150,
-   "echantillon": 60,
+   "echantillon": 62,
    "dispersion": 0.47,
    "fourchette": [
-    60,
+    55,
     370
    ],
    "exemples": [
@@ -5713,11 +5713,11 @@
      "prix": 150
     },
     {
-     "id": 10249208659,
+     "id": 9917193524,
      "prix": 150
     },
     {
-     "id": 9917193524,
+     "id": 10249208659,
      "prix": 150
     }
    ],
@@ -27736,6 +27736,13 @@
    "echantillon": 2,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:edox alte armbanduhr|2": {
+   "date": 1795142445505,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -47232,8 +47239,8 @@
    "vu": 1794005653438
   },
   "52618507": {
-   "n": 36,
-   "vu": 1795007362181
+   "n": 39,
+   "vu": 1795142444254
   },
   "52620891": {
    "n": 32,
@@ -92868,8 +92875,8 @@
    "vu": 1794494904281
   },
   "247350670": {
-   "n": 10,
-   "vu": 1793633350698
+   "n": 12,
+   "vu": 1795142316207
   },
   "247398000": {
    "n": 44,
@@ -145946,9 +145953,9 @@
  },
  "bilan": {
   "depuis": 1795141122033,
-  "passages": 10,
-  "nouvelles": 1,
-  "marque": 1,
+  "passages": 32,
+  "nouvelles": 8,
+  "marque": 4,
   "etat": 0,
   "prix": 0,
   "accessoire": 0,
@@ -145956,28 +145963,17 @@
   "fausse": 0,
   "imitation": 0,
   "pro": 0,
-  "vendeurSpecialise": 0,
+  "vendeurSpecialise": 3,
   "sansCote": 0,
   "chere": 0,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
-  "alertes": 0
+  "alertes": 1
  },
  "panne": null,
  "panneDebut": null,
  "suivi": [
-  {
-   "id": 10863638397,
-   "titre": "Montres earnshaw automatique",
-   "prix": 48,
-   "cote": 150,
-   "score": 63,
-   "lien": "https://www.vinted.fr/items/10863638397-montres-earnshaw-automatique",
-   "date": 1794993272387,
-   "statut": "en vente",
-   "verifieA": 1794996913033
-  },
   {
    "id": 10864282155,
    "titre": "Serica 6190 – COSC Chronometer – Taupe Dial",
@@ -149264,6 +149260,16 @@
    "score": 63,
    "lien": "https://www.vinted.fr/items/10889345289-orologio-locman-donna-cinturino-rosso-in-pelle-usato-con-leggere-imperfezioni-come-in-foto",
    "date": 1795140781118,
+   "statut": null
+  },
+  {
+   "id": 10889474993,
+   "titre": "Alte Edox Armbanduhr",
+   "prix": 40,
+   "cote": 150,
+   "score": 66,
+   "lien": "https://www.vinted.fr/items/10889474993-alte-edox-armbanduhr",
+   "date": 1795142446340,
    "statut": null
   }
  ],

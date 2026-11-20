@@ -1,12 +1,5 @@
 {
  "vues": [
-  "10868065831",
-  "10868058195",
-  "10868034943",
-  "10868058610",
-  "10868053277",
-  "10868048704",
-  "10868040524",
   "10868080188",
   "10868071326",
   "10868069162",
@@ -3999,7 +3992,14 @@
   "10888776239",
   "10888773556",
   "10888795011",
-  "10888787175"
+  "10888787175",
+  "10888802016",
+  "10888818689",
+  "10888826095",
+  "10888853372",
+  "10888870520",
+  "10888868059",
+  "10888861804"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -6605,13 +6605,6 @@
      "prix": 290
     }
    ],
-   "niveau": "modèle"
-  },
-  "modele:canon ixus172|2@3075": {
-   "date": 1794962244075,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
    "niveau": "modèle"
   },
   "modele:olympus vh 210 camara|3@3075": {
@@ -32622,6 +32615,20 @@
     }
    ],
    "niveau": "marque"
+  },
+  "modele:kodak 035 042 1950er jahren|1@3076": {
+   "date": 1795134503946,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:fujifilm 50r gfx|2@3075": {
+   "date": 1795134883641,
+   "mediane": null,
+   "echantillon": 2,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -46066,8 +46073,8 @@
    "vu": 1795029289842
   },
   "3138957823": {
-   "n": 106,
-   "vu": 1795133869452
+   "n": 107,
+   "vu": 1795134630076
   },
   "3139110308": {
    "n": 3,
@@ -50152,22 +50159,26 @@
   "3217261371": {
    "n": 2,
    "vu": 1795115646012
+  },
+  "3217358954": {
+   "n": 2,
+   "vu": 1795135009801
   }
  },
  "bilan": {
   "depuis": 1795132346691,
-  "passages": 29,
-  "nouvelles": 19,
+  "passages": 44,
+  "nouvelles": 26,
   "marque": 3,
-  "etat": 1,
-  "prix": 0,
-  "accessoire": 0,
+  "etat": 2,
+  "prix": 1,
+  "accessoire": 1,
   "lot": 0,
   "fausse": 0,
   "imitation": 0,
-  "pro": 1,
+  "pro": 2,
   "vendeurSpecialise": 0,
-  "sansCote": 11,
+  "sansCote": 14,
   "chere": 3,
   "description": 0,
   "scoreFaible": 0,

@@ -1,14 +1,5 @@
 {
  "vues": [
-  "10868013090",
-  "10868000499",
-  "10854065550",
-  "10867989249",
-  "10868028257",
-  "10868001073",
-  "10867997746",
-  "10868026293",
-  "10868019578",
   "10868065831",
   "10868058195",
   "10868034943",
@@ -3999,7 +3990,16 @@
   "10888662386",
   "10888491311",
   "10862681082",
-  "10888704170"
+  "10888704170",
+  "10888728130",
+  "10888722197",
+  "10888724766",
+  "10888760146",
+  "10888764574",
+  "10888776239",
+  "10888773556",
+  "10888795011",
+  "10888787175"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -6603,103 +6603,6 @@
     {
      "id": 10861290420,
      "prix": 290
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:fujifilm xm1|2@3075": {
-   "date": 1794960591406,
-   "mediane": 490,
-   "echantillon": 3,
-   "dispersion": null,
-   "fourchette": [
-    460,
-    500
-   ],
-   "exemples": [
-    {
-     "id": 10221699948,
-     "prix": 490
-    },
-    {
-     "id": 9362731570,
-     "prix": 500
-    },
-    {
-     "id": 9962604490,
-     "prix": 460
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:olympus 505 camara|1@3076": {
-   "date": 1794960784657,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:canon g3 powershot|1@3075": {
-   "date": 1794961101951,
-   "mediane": 60,
-   "echantillon": 14,
-   "dispersion": 0.5,
-   "fourchette": [
-    40,
-    99
-   ],
-   "exemples": [
-    {
-     "id": 10236219606,
-     "prix": 60
-    },
-    {
-     "id": 6003563326,
-     "prix": 60
-    },
-    {
-     "id": 9814854359,
-     "prix": 60
-    },
-    {
-     "id": 10531634832,
-     "prix": 55
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:canon sl35 rolleiflex|3@3076": {
-   "date": 1794961165772,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:kodak v603 easyshare|2@3075": {
-   "date": 1794961229628,
-   "mediane": 48,
-   "echantillon": 4,
-   "dispersion": 0.06,
-   "fourchette": [
-    44.99,
-    50
-   ],
-   "exemples": [
-    {
-     "id": 8897422364,
-     "prix": 49
-    },
-    {
-     "id": 10861784869,
-     "prix": 46
-    },
-    {
-     "id": 10075881916,
-     "prix": 50
-    },
-    {
-     "id": 10584744223,
-     "prix": 44.99
     }
    ],
    "niveau": "modèle"
@@ -32654,6 +32557,71 @@
    "echantillon": 2,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:fujifilm xt20|2@3075": {
+   "date": 1795133363433,
+   "mediane": 520,
+   "echantillon": 7,
+   "dispersion": 0.29,
+   "fourchette": [
+    450,
+    650
+   ],
+   "exemples": [
+    {
+     "id": 9873062038,
+     "prix": 519.9
+    },
+    {
+     "id": 10803374367,
+     "prix": 500
+    },
+    {
+     "id": 10605951427,
+     "prix": 499.9
+    },
+    {
+     "id": 10888728130,
+     "prix": 550
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:canon seagull|2@3076": {
+   "date": 1795133364314,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "marque:topcon@3076": {
+   "date": 1795134122659,
+   "mediane": 100,
+   "echantillon": 25,
+   "dispersion": 0.82,
+   "fourchette": [
+    28,
+    250
+   ],
+   "exemples": [
+    {
+     "id": 10472323963,
+     "prix": 100
+    },
+    {
+     "id": 7191125974,
+     "prix": 100
+    },
+    {
+     "id": 8677445401,
+     "prix": 100
+    },
+    {
+     "id": 6540943147,
+     "prix": 100
+    }
+   ],
+   "niveau": "marque"
   }
  },
  "vendeurs": {
@@ -46098,8 +46066,8 @@
    "vu": 1795029289842
   },
   "3138957823": {
-   "n": 105,
-   "vu": 1794970576549
+   "n": 106,
+   "vu": 1795133869452
   },
   "3139110308": {
    "n": 3,
@@ -50188,19 +50156,19 @@
  },
  "bilan": {
   "depuis": 1795132346691,
-  "passages": 14,
-  "nouvelles": 10,
-  "marque": 2,
+  "passages": 29,
+  "nouvelles": 19,
+  "marque": 3,
   "etat": 1,
   "prix": 0,
   "accessoire": 0,
   "lot": 0,
   "fausse": 0,
   "imitation": 0,
-  "pro": 0,
+  "pro": 1,
   "vendeurSpecialise": 0,
-  "sansCote": 5,
-  "chere": 2,
+  "sansCote": 11,
+  "chere": 3,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,

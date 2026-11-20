@@ -1,8 +1,5 @@
 {
  "vues": [
-  "10868278646",
-  "10868271165",
-  "10868292522",
   "10868289584",
   "10868285599",
   "10868261829",
@@ -3999,7 +3996,10 @@
   "10889396668",
   "10889411475",
   "10889470627",
-  "10889466139"
+  "10889466139",
+  "10889534012",
+  "10889540450",
+  "10889559697"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -6603,71 +6603,6 @@
     {
      "id": 10861290420,
      "prix": 290
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:nikon 7600 y2k|2@3075": {
-   "date": 1794970577112,
-   "mediane": 56,
-   "echantillon": 4,
-   "dispersion": 0.13,
-   "fourchette": [
-    34,
-    61
-   ],
-   "exemples": [
-    {
-     "id": 10712895844,
-     "prix": 59.4
-    },
-    {
-     "id": 9801136376,
-     "prix": 52
-    },
-    {
-     "id": 7665284687,
-     "prix": 61
-    },
-    {
-     "id": 10862525989,
-     "prix": 34
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:sony dsc p31 y2k|1@3075": {
-   "date": 1794970577984,
-   "mediane": null,
-   "echantillon": 2,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:kodak cinepresa|2@3076": {
-   "date": 1794970578962,
-   "mediane": 40,
-   "echantillon": 50,
-   "dispersion": 0.63,
-   "fourchette": [
-    10,
-    90
-   ],
-   "exemples": [
-    {
-     "id": 10801390254,
-     "prix": 40
-    },
-    {
-     "id": 10722405426,
-     "prix": 40
-    },
-    {
-     "id": 10562921515,
-     "prix": 40
-    },
-    {
-     "id": 10063686405,
-     "prix": 40
     }
    ],
    "niveau": "modèle"
@@ -50092,9 +50027,9 @@
  },
  "bilan": {
   "depuis": 1795139570445,
-  "passages": 50,
-  "nouvelles": 15,
-  "marque": 2,
+  "passages": 65,
+  "nouvelles": 18,
+  "marque": 3,
   "etat": 4,
   "prix": 0,
   "accessoire": 0,
@@ -50103,7 +50038,7 @@
   "imitation": 0,
   "pro": 4,
   "vendeurSpecialise": 0,
-  "sansCote": 4,
+  "sansCote": 6,
   "chere": 1,
   "description": 0,
   "scoreFaible": 0,

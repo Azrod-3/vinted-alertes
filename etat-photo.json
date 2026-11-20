@@ -1,7 +1,5 @@
 {
  "vues": [
-  "10868306810",
-  "10868297764",
   "10868312691",
   "10868342480",
   "10868344832",
@@ -3999,7 +3997,9 @@
   "10889706896",
   "10805029130",
   "10889788036",
-  "10889794622"
+  "10889794622",
+  "10889821867",
+  "10889832591"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -32524,6 +32524,13 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "modele:agfa isola1 camara|2@3076": {
+   "date": 1795147927339,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -47575,6 +47582,10 @@
    "n": 6,
    "vu": 1794047810820
   },
+  "3178935244": {
+   "n": 2,
+   "vu": 1795148054315
+  },
   "3178997835": {
    "n": 2,
    "vu": 1794425718467
@@ -50078,9 +50089,9 @@
  },
  "bilan": {
   "depuis": 1795146788183,
-  "passages": 11,
-  "nouvelles": 3,
-  "marque": 0,
+  "passages": 26,
+  "nouvelles": 5,
+  "marque": 1,
   "etat": 0,
   "prix": 0,
   "accessoire": 0,
@@ -50089,7 +50100,7 @@
   "imitation": 0,
   "pro": 0,
   "vendeurSpecialise": 1,
-  "sansCote": 1,
+  "sansCote": 2,
   "chere": 0,
   "description": 0,
   "scoreFaible": 0,

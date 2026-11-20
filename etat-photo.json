@@ -1,13 +1,5 @@
 {
  "vues": [
-  "10868482848",
-  "10868533870",
-  "10868529852",
-  "10868519953",
-  "10868521738",
-  "10868511454",
-  "10868508664",
-  "10868508649",
   "10868534279",
   "10868518156",
   "10868515967",
@@ -3999,7 +3991,15 @@
   "10890116416",
   "10890122154",
   "10890119554",
-  "10890127226"
+  "10890127226",
+  "10890152359",
+  "10890150404",
+  "10890149818",
+  "10890162197",
+  "10890160684",
+  "10890159658",
+  "10890168486",
+  "10890167161"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -6637,13 +6637,6 @@
    "niveau": "modèle",
    "lissee": true
   },
-  "modele:panasonic dmc gx1 f 3 5 5 6|1@3076": {
-   "date": 1794982569146,
-   "mediane": null,
-   "echantillon": 0,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
   "modele:canon 185 ixus|2@3075": {
    "date": 1795118743125,
    "mediane": 155,
@@ -6673,71 +6666,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:samsung nx100 500|2@3075": {
-   "date": 1794983079695,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:olympus c 370 camara|2@3075": {
-   "date": 1794983143692,
-   "mediane": 35,
-   "echantillon": 5,
-   "dispersion": 0.06,
-   "fourchette": [
-    24,
-    40
-   ],
-   "exemples": [
-    {
-     "id": 10401754868,
-     "prix": 35
-    },
-    {
-     "id": 9867399778,
-     "prix": 35
-    },
-    {
-     "id": 7953572274,
-     "prix": 37
-    },
-    {
-     "id": 10863321472,
-     "prix": 40
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:fujifilm a500 y2k|2@3075": {
-   "date": 1794983207557,
-   "mediane": 45,
-   "echantillon": 4,
-   "dispersion": 0.25,
-   "fourchette": [
-    35,
-    50
-   ],
-   "exemples": [
-    {
-     "id": 10863324953,
-     "prix": 50
-    },
-    {
-     "id": 9711539099,
-     "prix": 50
-    },
-    {
-     "id": 9771453864,
-     "prix": 39
-    },
-    {
-     "id": 10551133627,
-     "prix": 35
-    }
-   ],
-   "niveau": "modèle"
   },
   "modele:fujifilm x t4|3@3075": {
    "date": 1794983271629,
@@ -32590,6 +32518,13 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "modele:nikon l14 100|2@3075": {
+   "date": 1795155582879,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -33118,8 +33053,8 @@
    "vu": 1794658274555
   },
   "16300634": {
-   "n": 8,
-   "vu": 1795120157228
+   "n": 9,
+   "vu": 1795155709508
   },
   "16329531": {
    "n": 3,
@@ -37086,8 +37021,8 @@
    "vu": 1794757381282
   },
   "60185966": {
-   "n": 38,
-   "vu": 1795111890288
+   "n": 40,
+   "vu": 1795155709508
   },
   "60209689": {
    "n": 2,
@@ -50152,9 +50087,9 @@
  },
  "bilan": {
   "depuis": 1795153994369,
-  "passages": 17,
-  "nouvelles": 9,
-  "marque": 2,
+  "passages": 32,
+  "nouvelles": 17,
+  "marque": 3,
   "etat": 0,
   "prix": 0,
   "accessoire": 0,
@@ -50162,8 +50097,8 @@
   "fausse": 0,
   "imitation": 0,
   "pro": 0,
-  "vendeurSpecialise": 2,
-  "sansCote": 3,
+  "vendeurSpecialise": 5,
+  "sansCote": 7,
   "chere": 2,
   "description": 0,
   "scoreFaible": 0,

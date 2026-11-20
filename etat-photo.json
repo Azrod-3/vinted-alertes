@@ -1,19 +1,5 @@
 {
  "vues": [
-  "10868721352",
-  "10868718780",
-  "10868706882",
-  "10868706015",
-  "10868692504",
-  "10868689941",
-  "10868686007",
-  "10868706928",
-  "10868709967",
-  "10868708995",
-  "10868754780",
-  "10868746926",
-  "10868736362",
-  "10868731150",
   "10868744423",
   "10868746453",
   "10868731181",
@@ -3999,7 +3985,21 @@
   "10890338397",
   "10890350189",
   "10890347149",
-  "10890344771"
+  "10890344771",
+  "10890360943",
+  "10890359464",
+  "10890367127",
+  "10890365964",
+  "10890366433",
+  "10890371404",
+  "10890384594",
+  "10890382727",
+  "10875971674",
+  "10890387251",
+  "10890400077",
+  "10890406600",
+  "10890406005",
+  "10890405501"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -6692,64 +6692,6 @@
    ],
    "niveau": "modèle"
   },
-  "modele:nikon l840 coolpix|2@3075": {
-   "date": 1794986140334,
-   "mediane": 100,
-   "echantillon": 45,
-   "dispersion": 0.6,
-   "fourchette": [
-    60,
-    200
-   ],
-   "exemples": [
-    {
-     "id": 10795040144,
-     "prix": 100
-    },
-    {
-     "id": 10854537687,
-     "prix": 100
-    },
-    {
-     "id": 10105197782,
-     "prix": 100
-    },
-    {
-     "id": 10362143212,
-     "prix": 100
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:zeiss ikon contina|1@3076": {
-   "date": 1794986205222,
-   "mediane": 30,
-   "echantillon": 67,
-   "dispersion": 0.67,
-   "fourchette": [
-    10,
-    70
-   ],
-   "exemples": [
-    {
-     "id": 10712202924,
-     "prix": 30
-    },
-    {
-     "id": 10544105589,
-     "prix": 30
-    },
-    {
-     "id": 9420201740,
-     "prix": 30
-    },
-    {
-     "id": 9234204360,
-     "prix": 30
-    }
-   ],
-   "niveau": "modèle"
-  },
   "modele:pentax espio|1@3076": {
    "date": 1795090415558,
    "mediane": 44,
@@ -6779,31 +6721,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:fujifilm z70 y2k|2@3075": {
-   "date": 1794986524224,
-   "mediane": 97,
-   "echantillon": 3,
-   "dispersion": null,
-   "fourchette": [
-    69,
-    99
-   ],
-   "exemples": [
-    {
-     "id": 10013244788,
-     "prix": 97
-    },
-    {
-     "id": 9789151527,
-     "prix": 99
-    },
-    {
-     "id": 10863528647,
-     "prix": 69
-    }
-   ],
-   "niveau": "modèle"
   },
   "modele:canon r50 24 2|2@3075": {
    "date": 1794987098724,
@@ -32526,6 +32443,114 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "modele:kodak telemetria tascabile|2@3076": {
+   "date": 1795159144331,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:nikon j1|2@3075": {
+   "date": 1795159271707,
+   "mediane": 120,
+   "echantillon": 79,
+   "dispersion": 0.47,
+   "fourchette": [
+    40,
+    230
+   ],
+   "exemples": [
+    {
+     "id": 10774909490,
+     "prix": 120
+    },
+    {
+     "id": 10266420618,
+     "prix": 120
+    },
+    {
+     "id": 10226817771,
+     "prix": 120
+    },
+    {
+     "id": 10398352400,
+     "prix": 120
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:lomography fishye|4@3076": {
+   "date": 1795159398889,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:olympus conjunto eletronica|2@3075": {
+   "date": 1795159526058,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:kodak 192 instamatic|1@3076": {
+   "date": 1795159526810,
+   "mediane": 10,
+   "echantillon": 15,
+   "dispersion": 0.51,
+   "fourchette": [
+    4,
+    23
+   ],
+   "exemples": [
+    {
+     "id": 7292954193,
+     "prix": 10
+    },
+    {
+     "id": 6332666793,
+     "prix": 10
+    },
+    {
+     "id": 10670798624,
+     "prix": 9.99
+    },
+    {
+     "id": 5572581818,
+     "prix": 9.9
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:olympus 300|2@3076": {
+   "date": 1795159781539,
+   "mediane": 30,
+   "echantillon": 74,
+   "dispersion": 0.51,
+   "fourchette": [
+    12,
+    65
+   ],
+   "exemples": [
+    {
+     "id": 7537670033,
+     "prix": 30
+    },
+    {
+     "id": 10277295284,
+     "prix": 30
+    },
+    {
+     "id": 8024570444,
+     "prix": 30
+    },
+    {
+     "id": 10364158708,
+     "prix": 30
+    }
+   ],
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -47386,8 +47411,8 @@
    "vu": 1794926497566
   },
   "3173578431": {
-   "n": 12,
-   "vu": 1795158760721
+   "n": 13,
+   "vu": 1795159780627
   },
   "3173740397": {
    "n": 2,
@@ -49906,8 +49931,8 @@
    "vu": 1794670538669
   },
   "3213636002": {
-   "n": 4,
-   "vu": 1794554615871
+   "n": 5,
+   "vu": 1795159017041
   },
   "3213699815": {
    "n": 4,
@@ -50104,19 +50129,19 @@
  },
  "bilan": {
   "depuis": 1795153994369,
-  "passages": 77,
-  "nouvelles": 62,
-  "marque": 9,
+  "passages": 92,
+  "nouvelles": 76,
+  "marque": 10,
   "etat": 2,
-  "prix": 5,
+  "prix": 6,
   "accessoire": 1,
   "lot": 1,
   "fausse": 0,
   "imitation": 0,
   "pro": 0,
-  "vendeurSpecialise": 12,
-  "sansCote": 24,
-  "chere": 7,
+  "vendeurSpecialise": 13,
+  "sansCote": 32,
+  "chere": 10,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,

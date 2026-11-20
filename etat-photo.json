@@ -1,7 +1,5 @@
 {
  "vues": [
-  "10868415341",
-  "10868410464",
   "10868405130",
   "10868394260",
   "10868429294",
@@ -3999,7 +3997,9 @@
   "10889874894",
   "10889966208",
   "10889968554",
-  "10889976903"
+  "10889976903",
+  "10874874613",
+  "10874829654"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -5573,30 +5573,30 @@
    "lissee": true
   },
   "modele:samsung camara|2@3075": {
-   "date": 1795035776694,
-   "mediane": 50,
-   "echantillon": 62,
-   "dispersion": 0.78,
+   "date": 1795152025189,
+   "mediane": 54,
+   "echantillon": 61,
+   "dispersion": 0.8,
    "fourchette": [
     15,
     137
    ],
    "exemples": [
     {
-     "id": 10798591878,
-     "prix": 50
+     "id": 10884227864,
+     "prix": 55
     },
     {
-     "id": 10771266915,
-     "prix": 50
+     "id": 10814853618,
+     "prix": 55
     },
     {
-     "id": 9915937244,
-     "prix": 50
+     "id": 10830897839,
+     "prix": 55
     },
     {
-     "id": 10444448643,
-     "prix": 50
+     "id": 10708287692,
+     "prix": 55
     }
    ],
    "niveau": "modèle",
@@ -6636,13 +6636,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:olympus bcn 1 ladegerat|2@3075": {
-   "date": 1794978950422,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
   },
   "modele:canon sx20 20x|1@3075": {
    "date": 1794979965380,
@@ -39588,6 +39581,10 @@
    "n": 2,
    "vu": 1794738132896
   },
+  "117958987": {
+   "n": 2,
+   "vu": 1795152024323
+  },
   "118089409": {
    "n": 2,
    "vu": 1794324162559
@@ -50103,8 +50100,8 @@
  },
  "bilan": {
   "depuis": 1795146788183,
-  "passages": 42,
-  "nouvelles": 16,
+  "passages": 57,
+  "nouvelles": 18,
   "marque": 3,
   "etat": 0,
   "prix": 1,
@@ -50115,7 +50112,7 @@
   "pro": 0,
   "vendeurSpecialise": 2,
   "sansCote": 9,
-  "chere": 0,
+  "chere": 2,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,

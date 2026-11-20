@@ -1,35 +1,5 @@
 {
  "vues": [
-  "10880738772",
-  "10880734053",
-  "10880773884",
-  "10880780382",
-  "10880755176",
-  "10880780165",
-  "10880793671",
-  "10878576221",
-  "10880789566",
-  "10880789599",
-  "10880783006",
-  "10880786105",
-  "10880783713",
-  "10880850487",
-  "10880847183",
-  "10880842024",
-  "10880839781",
-  "10880837669",
-  "10880839560",
-  "8929294319",
-  "10880819556",
-  "10880818545",
-  "10880814358",
-  "10880810058",
-  "10880809539",
-  "10880853899",
-  "10880815726",
-  "10880811751",
-  "10880884979",
-  "10880875468",
   "10880878906",
   "10880871779",
   "10880862414",
@@ -3999,7 +3969,37 @@
   "10900260648",
   "10896147361",
   "10900413653",
-  "10900414722"
+  "10900414722",
+  "10900442773",
+  "10900428745",
+  "10900460629",
+  "10900462648",
+  "10900458059",
+  "10900455514",
+  "10900452789",
+  "10900462658",
+  "10900468691",
+  "10900380092",
+  "10900473188",
+  "10900484659",
+  "10900478969",
+  "10900471743",
+  "10900501949",
+  "10900492989",
+  "10900517559",
+  "10900515864",
+  "10900516340",
+  "10900513498",
+  "10900510254",
+  "10900535567",
+  "10900533394",
+  "10900524237",
+  "10900444261",
+  "10900556932",
+  "10900547114",
+  "10900381754",
+  "10900570013",
+  "10900567650"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -6520,139 +6520,6 @@
    "niveau": "modèle",
    "lissee": true
   },
-  "modele:yashica j2 camara|2@3076": {
-   "date": 1795039632318,
-   "mediane": 60,
-   "echantillon": 3,
-   "dispersion": null,
-   "fourchette": [
-    40,
-    65
-   ],
-   "exemples": [
-    {
-     "id": 7610371155,
-     "prix": 59.99
-    },
-    {
-     "id": 10874844797,
-     "prix": 65
-    },
-    {
-     "id": 10638113043,
-     "prix": 40
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:minolta 3000i dynax|2@3076": {
-   "date": 1795039633365,
-   "mediane": 30,
-   "echantillon": 26,
-   "dispersion": 0.68,
-   "fourchette": [
-    10,
-    69
-   ],
-   "exemples": [
-    {
-     "id": 10607916367,
-     "prix": 30
-    },
-    {
-     "id": 6629011059,
-     "prix": 30
-    },
-    {
-     "id": 8293774542,
-     "prix": 30
-    },
-    {
-     "id": 8016928764,
-     "prix": 29
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:rollei 115 camara|1@3076": {
-   "date": 1795039634768,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:canon 1100 limited|2@3075": {
-   "date": 1795039699403,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:agfa iso rapid|2@3076": {
-   "date": 1795039765282,
-   "mediane": 13,
-   "echantillon": 75,
-   "dispersion": 0.62,
-   "fourchette": [
-    5,
-    35
-   ],
-   "exemples": [
-    {
-     "id": 10658689298,
-     "prix": 13
-    },
-    {
-     "id": 9630283453,
-     "prix": 13
-    },
-    {
-     "id": 9910766799,
-     "prix": 13
-    },
-    {
-     "id": 9759390846,
-     "prix": 12.99
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:sony dsc w130 cyber|1@3075": {
-   "date": 1795040082681,
-   "mediane": 80,
-   "echantillon": 21,
-   "dispersion": 0.56,
-   "fourchette": [
-    30,
-    155
-   ],
-   "exemples": [
-    {
-     "id": 9653682632,
-     "prix": 80
-    },
-    {
-     "id": 10267411155,
-     "prix": 80
-    },
-    {
-     "id": 7080749836,
-     "prix": 80
-    },
-    {
-     "id": 7020583842,
-     "prix": 85
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:fujifilm xt30 xc13 33mm|2@3075": {
-   "date": 1795040335762,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
   "modele:nikon f 301|2@3076": {
    "date": 1795041480152,
    "mediane": 87,
@@ -8325,33 +8192,34 @@
    "niveau": "modèle"
   },
   "modele:olympus mju|2@3076": {
-   "date": 1795078272894,
-   "mediane": 140,
-   "echantillon": 76,
-   "dispersion": 0.5,
+   "date": 1795212959666,
+   "mediane": 139,
+   "echantillon": 75,
+   "dispersion": 0.47,
    "fourchette": [
-    40,
-    299
+    35,
+    290
    ],
    "exemples": [
     {
      "id": 10687377438,
+     "prix": 138
+    },
+    {
+     "id": 10689739741,
+     "prix": 139
+    },
+    {
+     "id": 10878555884,
      "prix": 140
     },
     {
      "id": 10750404139,
      "prix": 140
-    },
-    {
-     "id": 10870147208,
-     "prix": 140
-    },
-    {
-     "id": 10689739741,
-     "prix": 139
     }
    ],
-   "niveau": "modèle"
+   "niveau": "modèle",
+   "lissee": true
   },
   "modele:agfa agata optima|2@3076": {
    "date": 1795078274296,
@@ -32350,6 +32218,168 @@
    "echantillon": 1,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:canon a2500 powershot|2@3075": {
+   "date": 1795212448407,
+   "mediane": 110,
+   "echantillon": 40,
+   "dispersion": 0.23,
+   "fourchette": [
+    50,
+    150
+   ],
+   "exemples": [
+    {
+     "id": 10702072380,
+     "prix": 110
+    },
+    {
+     "id": 10806627328,
+     "prix": 110
+    },
+    {
+     "id": 10702014699,
+     "prix": 110
+    },
+    {
+     "id": 10755865360,
+     "prix": 110
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:canon sx620 20 2mp|1@3075": {
+   "date": 1795212576074,
+   "mediane": 255,
+   "echantillon": 4,
+   "dispersion": 0.04,
+   "fourchette": [
+    95,
+    260
+   ],
+   "exemples": [
+    {
+     "id": 10655380169,
+     "prix": 250
+    },
+    {
+     "id": 9909796059,
+     "prix": 260
+    },
+    {
+     "id": 10075656662,
+     "prix": 260
+    },
+    {
+     "id": 10900462648,
+     "prix": 95
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:kodak video kokac|2@3075": {
+   "date": 1795212704925,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:canon a640 y2k|1@3075": {
+   "date": 1795212957864,
+   "mediane": null,
+   "echantillon": 2,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:praktica bms electronic|1@3076": {
+   "date": 1795212958753,
+   "mediane": 40,
+   "echantillon": 9,
+   "dispersion": 1.18,
+   "fourchette": [
+    15,
+    120
+   ],
+   "exemples": [
+    {
+     "id": 10900516340,
+     "prix": 40
+    },
+    {
+     "id": 9946488687,
+     "prix": 40
+    },
+    {
+     "id": 9862591585,
+     "prix": 28
+    },
+    {
+     "id": 10756063731,
+     "prix": 18
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:canon t70 spiegelreflexkamera|1@3076": {
+   "date": 1795212961213,
+   "mediane": 95,
+   "echantillon": 5,
+   "dispersion": 0.53,
+   "fourchette": [
+    56,
+    158
+   ],
+   "exemples": [
+    {
+     "id": 10900510254,
+     "prix": 95
+    },
+    {
+     "id": 9393017077,
+     "prix": 120
+    },
+    {
+     "id": 10475603789,
+     "prix": 70
+    },
+    {
+     "id": 8734628719,
+     "prix": 56
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:fujifilm p2mce64 ww memory|2@3075": {
+   "date": 1795213214289,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:canon bf90 prima|1@3076": {
+   "date": 1795213215046,
+   "mediane": 70,
+   "echantillon": 3,
+   "dispersion": null,
+   "fourchette": [
+    25,
+    100
+   ],
+   "exemples": [
+    {
+     "id": 10151853173,
+     "prix": 70
+    },
+    {
+     "id": 8875806180,
+     "prix": 100
+    },
+    {
+     "id": 10900547114,
+     "prix": 25
+    }
+   ],
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -34574,8 +34604,8 @@
    "vu": 1794745666239
   },
   "34047294": {
-   "n": 6,
-   "vu": 1794984672940
+   "n": 7,
+   "vu": 1795212704204
   },
   "34095096": {
    "n": 6,
@@ -36382,8 +36412,8 @@
    "vu": 1794665752956
   },
   "53541930": {
-   "n": 2,
-   "vu": 1794740596812
+   "n": 4,
+   "vu": 1795213213547
   },
   "53564522": {
    "n": 2,
@@ -37486,8 +37516,8 @@
    "vu": 1794412020911
   },
   "66997288": {
-   "n": 77,
-   "vu": 1795210024313
+   "n": 78,
+   "vu": 1795212575353
   },
   "67050405": {
    "n": 5,
@@ -38294,8 +38324,8 @@
    "vu": 1794150039868
   },
   "78577380": {
-   "n": 2,
-   "vu": 1794600518799
+   "n": 3,
+   "vu": 1795213343339
   },
   "78604506": {
    "n": 2,
@@ -38530,8 +38560,8 @@
    "vu": 1794414180682
   },
   "81857709": {
-   "n": 5,
-   "vu": 1795095884758
+   "n": 6,
+   "vu": 1795213087548
   },
   "81870263": {
    "n": 8,
@@ -41390,8 +41420,8 @@
    "vu": 1794845547022
   },
   "187342899": {
-   "n": 2,
-   "vu": 1795210533501
+   "n": 3,
+   "vu": 1795212704204
   },
   "187498851": {
    "n": 4,
@@ -47090,8 +47120,8 @@
    "vu": 1794684553401
   },
   "3157005272": {
-   "n": 22,
-   "vu": 1794843793177
+   "n": 25,
+   "vu": 1795213087548
   },
   "3157009248": {
    "n": 4,
@@ -48176,6 +48206,10 @@
   "3184947109": {
    "n": 2,
    "vu": 1794359355870
+  },
+  "3185026737": {
+   "n": 2,
+   "vu": 1795213213547
   },
   "3185031147": {
    "n": 2,
@@ -50484,60 +50518,27 @@
  },
  "bilan": {
   "depuis": 1795209585205,
-  "passages": 43,
-  "nouvelles": 103,
-  "marque": 13,
+  "passages": 58,
+  "nouvelles": 133,
+  "marque": 19,
   "etat": 3,
-  "prix": 9,
+  "prix": 11,
   "accessoire": 2,
-  "lot": 1,
+  "lot": 2,
   "fausse": 0,
   "imitation": 0,
   "pro": 2,
-  "vendeurSpecialise": 13,
-  "sansCote": 96,
-  "chere": 60,
-  "description": 2,
+  "vendeurSpecialise": 17,
+  "sansCote": 105,
+  "chere": 64,
+  "description": 3,
   "scoreFaible": 0,
   "blocages": 2,
-  "alertes": 2
+  "alertes": 5
  },
  "panne": null,
  "panneDebut": null,
  "suivi": [
-  {
-   "id": 10809801052,
-   "titre": "Appareil Photo Vintage à Soufflet Zeiss Ikon Nettar 515/2 Format 6x9",
-   "prix": 40,
-   "cote": 110,
-   "score": 62,
-   "lien": "https://www.vinted.fr/items/10809801052-appareil-photo-vintage-a-soufflet-zeiss-ikon-nettar-5152-format-6x9",
-   "date": 1794680112315,
-   "statut": "en vente",
-   "verifieA": 1794683722185
-  },
-  {
-   "id": 10810035169,
-   "titre": "Appareil Photo Voigtländer Vito CL (modèle des années 60)",
-   "prix": 40,
-   "cote": null,
-   "score": 22,
-   "lien": "https://www.vinted.fr/items/10810035169-appareil-photo-voigtlander-vito-cl-modele-des-annees-60",
-   "date": 1794680947176,
-   "statut": "en vente",
-   "verifieA": 1794684554676
-  },
-  {
-   "id": 10809208686,
-   "titre": "Appareil photo Canon ixus 105 🚨négociable",
-   "prix": 70,
-   "cote": 149,
-   "score": 61,
-   "lien": "https://www.vinted.fr/items/10809208686-appareil-photo-canon-ixus-105-negociable",
-   "date": 1794681976450,
-   "statut": "en vente",
-   "verifieA": 1794685583470
-  },
   {
    "id": 10810426102,
    "titre": "Nikon FE2",
@@ -53769,7 +53770,8 @@
    "score": 58,
    "lien": "https://www.vinted.fr/items/10899454171-appareil-photo-numerique-panasonic-lumix-dmc-tz37-fonctionnel",
    "date": 1795209581761,
-   "statut": null
+   "statut": "en vente",
+   "verifieA": 1795213215797
   },
   {
    "id": 10899900926,
@@ -53779,7 +53781,8 @@
    "score": 48,
    "lien": "https://www.vinted.fr/items/10899900926-canon-500d-dslr-inkl-kit-objektiv-18-55-is",
    "date": 1795209585063,
-   "statut": null
+   "statut": "en vente",
+   "verifieA": 1795213216581
   },
   {
    "id": 10898664811,
@@ -53789,7 +53792,8 @@
    "score": 62,
    "lien": "https://www.vinted.fr/items/10898664811-canon-500d",
    "date": 1795209670380,
-   "statut": null
+   "statut": "en vente",
+   "verifieA": 1795213280345
   },
   {
    "id": 10898620011,
@@ -53799,6 +53803,36 @@
    "score": 63,
    "lien": "https://www.vinted.fr/items/10898620011-contax-rts",
    "date": 1795209757071,
+   "statut": null
+  },
+  {
+   "id": 10900442773,
+   "titre": "Appareil photo numérique Canon PowerShot A2500 – 16 MP – Rouge",
+   "prix": 50,
+   "cote": 110,
+   "score": 62,
+   "lien": "https://www.vinted.fr/items/10900442773-appareil-photo-numerique-canon-powershot-a2500-16-mp-rouge",
+   "date": 1795212449390,
+   "statut": null
+  },
+  {
+   "id": 10900455514,
+   "titre": "Fotocamera digitale",
+   "prix": 24,
+   "cote": null,
+   "score": 24,
+   "lien": "https://www.vinted.fr/items/10900455514-fotocamera-digitale",
+   "date": 1795212577729,
+   "statut": null
+  },
+  {
+   "id": 10900513498,
+   "titre": "Macchina fotografica vintage mju Olympus",
+   "prix": 45,
+   "cote": 139,
+   "score": 71,
+   "lien": "https://www.vinted.fr/items/10900513498-macchina-fotografica-vintage-mju-olympus",
+   "date": 1795212961326,
    "statut": null
   }
  ],

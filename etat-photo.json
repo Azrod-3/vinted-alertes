@@ -1,6 +1,5 @@
 {
  "vues": [
-  "10868261829",
   "10868310990",
   "10868312203",
   "10868302929",
@@ -3999,7 +3998,8 @@
   "10889540450",
   "10889559697",
   "10889573556",
-  "10889587203"
+  "10889587203",
+  "10889608729"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -6605,13 +6605,6 @@
      "prix": 290
     }
    ],
-   "niveau": "modèle"
-  },
-  "modele:pentax 70 x tested|2@3076": {
-   "date": 1794972289990,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
    "niveau": "modèle"
   },
   "modele:fujifilm camara|2@3075": {
@@ -32473,6 +32466,35 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "modele:canon ixus carte|1@3075": {
+   "date": 1795145014058,
+   "mediane": 135,
+   "echantillon": 7,
+   "dispersion": 0.73,
+   "fourchette": [
+    54,
+    230
+   ],
+   "exemples": [
+    {
+     "id": 10753536875,
+     "prix": 135
+    },
+    {
+     "id": 9888639315,
+     "prix": 140
+    },
+    {
+     "id": 10693293184,
+     "prix": 170
+    },
+    {
+     "id": 10889608729,
+     "prix": 71
+    }
+   ],
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -50027,8 +50049,8 @@
  },
  "bilan": {
   "depuis": 1795139570445,
-  "passages": 80,
-  "nouvelles": 20,
+  "passages": 95,
+  "nouvelles": 21,
   "marque": 3,
   "etat": 4,
   "prix": 0,
@@ -50040,7 +50062,7 @@
   "vendeurSpecialise": 0,
   "sansCote": 7,
   "chere": 2,
-  "description": 0,
+  "description": 1,
   "scoreFaible": 0,
   "blocages": 0,
   "alertes": 0

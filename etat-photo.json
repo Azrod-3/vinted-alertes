@@ -1,11 +1,5 @@
 {
  "vues": [
-  "10868090246",
-  "10868331214",
-  "10868364848",
-  "10868355589",
-  "10868387856",
-  "10868384336",
   "10868415341",
   "10868410464",
   "10868405130",
@@ -3999,7 +3993,13 @@
   "10889895821",
   "10889918561",
   "10889918656",
-  "10889926272"
+  "10889926272",
+  "10889936205",
+  "10889949208",
+  "10889874894",
+  "10889966208",
+  "10889968554",
+  "10889976903"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -32533,14 +32533,14 @@
    "niveau": "modèle"
   },
   "modele:konica fx70 analogica|2@3076": {
-   "date": 1795149954311,
+   "date": 1795150315305,
    "mediane": null,
    "echantillon": 1,
    "dispersion": null,
    "niveau": "modèle"
   },
   "modele:nikon 995 es e28|2@3075": {
-   "date": 1795150081204,
+   "date": 1795150314407,
    "mediane": null,
    "echantillon": 1,
    "dispersion": null,
@@ -38558,7 +38558,7 @@
   },
   "82052375": {
    "n": 5,
-   "vu": 1795149953695
+   "vu": 1795150313807
   },
   "82283056": {
    "n": 2,
@@ -41421,8 +41421,8 @@
    "vu": 1795110256518
   },
   "190758733": {
-   "n": 7,
-   "vu": 1794999508280
+   "n": 8,
+   "vu": 1795150757257
   },
   "190761423": {
    "n": 2,
@@ -50103,18 +50103,18 @@
  },
  "bilan": {
   "depuis": 1795146788183,
-  "passages": 55,
-  "nouvelles": 10,
-  "marque": 2,
+  "passages": 42,
+  "nouvelles": 16,
+  "marque": 3,
   "etat": 0,
-  "prix": 0,
+  "prix": 1,
   "accessoire": 0,
   "lot": 0,
   "fausse": 0,
   "imitation": 0,
   "pro": 0,
-  "vendeurSpecialise": 1,
-  "sansCote": 6,
+  "vendeurSpecialise": 2,
+  "sansCote": 9,
   "chere": 0,
   "description": 0,
   "scoreFaible": 0,
@@ -53421,7 +53421,8 @@
    "score": 20,
    "lien": "https://www.vinted.fr/items/10805029130-fotocamera",
    "date": 1795146915071,
-   "statut": null
+   "statut": "en vente",
+   "verifieA": 1795150568074
   }
  ],
  "dernierRecap": "2026-11-19"

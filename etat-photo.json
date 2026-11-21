@@ -1,25 +1,5 @@
 {
  "vues": [
-  "10897153275",
-  "10897142563",
-  "10897142539",
-  "10897140631",
-  "10896866189",
-  "10897140412",
-  "10897131305",
-  "10897138688",
-  "10897173787",
-  "10897161979",
-  "10897114925",
-  "10897183068",
-  "10897181938",
-  "10897180684",
-  "10897174251",
-  "10897209725",
-  "10897207880",
-  "10897197834",
-  "10897192661",
-  "10897191082",
   "10897221474",
   "10897213332",
   "10897208777",
@@ -3999,7 +3979,27 @@
   "10915476718",
   "10915501367",
   "10914923374",
-  "10915479372"
+  "10915479372",
+  "10915520277",
+  "10915515974",
+  "10915508449",
+  "10915537825",
+  "10915539436",
+  "10915528295",
+  "10915553233",
+  "10915569038",
+  "10915576227",
+  "10915582438",
+  "10915577397",
+  "10915597444",
+  "10915594169",
+  "10915590608",
+  "10915608641",
+  "10915607745",
+  "10915608911",
+  "10915604777",
+  "10915621798",
+  "10915616204"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -37476,6 +37476,156 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "modele:canon 300d eos|2@3075": {
+   "date": 1795302710214,
+   "mediane": 75,
+   "echantillon": 67,
+   "dispersion": 0.6,
+   "fourchette": [
+    30,
+    180
+   ],
+   "exemples": [
+    {
+     "id": 10478699557,
+     "prix": 75
+    },
+    {
+     "id": 10546705884,
+     "prix": 75
+    },
+    {
+     "id": 10604873010,
+     "prix": 75
+    },
+    {
+     "id": 9115067151,
+     "prix": 75
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:kodak vr35 kompaktkamera|1@3076": {
+   "date": 1795302837058,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:yashica yashoca anni|2@3076": {
+   "date": 1795302963733,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:kodak h35n ektar|4@3076": {
+   "date": 1795303090490,
+   "mediane": 60,
+   "echantillon": 3,
+   "dispersion": null,
+   "fourchette": [
+    59,
+    60
+   ],
+   "exemples": [
+    {
+     "id": 10915569038,
+     "prix": 60
+    },
+    {
+     "id": 9480205668,
+     "prix": 60
+    },
+    {
+     "id": 10787992049,
+     "prix": 59
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:kodak wpz2 pizpro|2@3075": {
+   "date": 1795303343187,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:pentax 60s analogica|1@3076": {
+   "date": 1795303344051,
+   "mediane": 25,
+   "echantillon": 3,
+   "dispersion": null,
+   "fourchette": [
+    15,
+    55
+   ],
+   "exemples": [
+    {
+     "id": 10223608910,
+     "prix": 25
+    },
+    {
+     "id": 10882605882,
+     "prix": 15
+    },
+    {
+     "id": 10915590608,
+     "prix": 55
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:canon eos2000d|1@3075": {
+   "date": 1795303471108,
+   "mediane": 300,
+   "echantillon": 59,
+   "dispersion": 0.33,
+   "fourchette": [
+    80,
+    500
+   ],
+   "exemples": [
+    {
+     "id": 10906904766,
+     "prix": 300
+    },
+    {
+     "id": 10843737514,
+     "prix": 300
+    },
+    {
+     "id": 10634417368,
+     "prix": 300
+    },
+    {
+     "id": 10429513330,
+     "prix": 300
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:fujifilm 10 2 pink|1@3075": {
+   "date": 1795303472576,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:kodak 4000 dic|2@3076": {
+   "date": 1795303473315,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:minolta xd5 analog|1@3076": {
+   "date": 1795303600232,
+   "mediane": null,
+   "echantillon": 2,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -44536,8 +44686,8 @@
    "vu": 1793865750027
   },
   "99813849": {
-   "n": 8,
-   "vu": 1794264224726
+   "n": 11,
+   "vu": 1795303470185
   },
   "100000211": {
    "n": 2,
@@ -52916,8 +53066,8 @@
    "vu": 1794606919342
   },
   "3155244578": {
-   "n": 16,
-   "vu": 1795132331459
+   "n": 17,
+   "vu": 1795302709370
   },
   "3155274971": {
    "n": 2,
@@ -55084,8 +55234,8 @@
    "vu": 1794844117003
   },
   "3199086622": {
-   "n": 22,
-   "vu": 1795301186212
+   "n": 23,
+   "vu": 1795303599534
   },
   "3199148969": {
    "n": 4,
@@ -56625,21 +56775,21 @@
   }
  },
  "bilan": {
-  "depuis": 1795296306664,
-  "passages": 88,
-  "nouvelles": 186,
-  "marque": 27,
-  "etat": 13,
-  "prix": 4,
-  "accessoire": 2,
-  "lot": 3,
+  "depuis": 1795303536484,
+  "passages": 1,
+  "nouvelles": 2,
+  "marque": 0,
+  "etat": 0,
+  "prix": 0,
+  "accessoire": 0,
+  "lot": 0,
   "fausse": 0,
   "imitation": 0,
-  "pro": 5,
-  "vendeurSpecialise": 24,
-  "sansCote": 70,
-  "chere": 35,
-  "description": 3,
+  "pro": 0,
+  "vendeurSpecialise": 1,
+  "sansCote": 1,
+  "chere": 0,
+  "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
   "alertes": 0
@@ -56647,17 +56797,6 @@
  "panne": null,
  "panneDebut": null,
  "suivi": [
-  {
-   "id": 10829909266,
-   "titre": "Manuale Contax",
-   "prix": 20,
-   "cote": null,
-   "score": 20,
-   "lien": "https://www.vinted.fr/items/10829909266-manuale-contax",
-   "date": 1794772037450,
-   "statut": "en vente",
-   "verifieA": 1794775675813
-  },
   {
    "id": 10830197758,
    "titre": "Cámara fotográfica  EOS1300D",
@@ -59946,6 +60085,16 @@
    "date": 1795295665537,
    "statut": "en vente",
    "verifieA": 1795299793519
+  },
+  {
+   "id": 10915608641,
+   "titre": "Canon EOS2000D",
+   "prix": 80,
+   "cote": 300,
+   "score": 82,
+   "lien": "https://www.vinted.fr/items/10915608641-canon-eos2000d",
+   "date": 1795303473472,
+   "statut": null
   }
  ],
  "dernierRecap": "2026-11-21"

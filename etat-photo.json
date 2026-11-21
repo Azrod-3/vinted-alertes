@@ -1,15 +1,5 @@
 {
  "vues": [
-  "10884274200",
-  "10884255341",
-  "10884251487",
-  "10884251636",
-  "10884250184",
-  "10884238645",
-  "10884230823",
-  "10884227864",
-  "10884204794",
-  "10884185221",
   "10884191913",
   "10884181838",
   "10884183612",
@@ -3999,34 +3989,44 @@
   "10901180229",
   "10901185397",
   "10901185088",
-  "10901190262"
+  "10901190262",
+  "10901199853",
+  "10901199830",
+  "10901197780",
+  "10901226908",
+  "10901235579",
+  "10901236250",
+  "10901156038",
+  "10901268552",
+  "10901266693",
+  "10898265730"
  ],
  "cotes": {
   "marque:sony@3075": {
-   "date": 1795132332313,
-   "mediane": 68,
-   "echantillon": 80,
-   "dispersion": 0.88,
+   "date": 1795219953903,
+   "mediane": 69,
+   "echantillon": 78,
+   "dispersion": 0.86,
    "fourchette": [
-    19,
-    180
+    20,
+    230
    ],
    "exemples": [
     {
-     "id": 10833954614,
-     "prix": 65
+     "id": 10887975819,
+     "prix": 70
     },
     {
-     "id": 10885380797,
-     "prix": 65
+     "id": 10896543709,
+     "prix": 70
     },
     {
-     "id": 10786117912,
-     "prix": 65
+     "id": 10887598821,
+     "prix": 70
     },
     {
-     "id": 10786151544,
-     "prix": 65
+     "id": 10871610003,
+     "prix": 72
     }
    ],
    "niveau": "marque",
@@ -4213,10 +4213,33 @@
    "coteTropBasse": 20
   },
   "marque:canon@3076": {
-   "date": 1795132341851,
-   "mediane": null,
-   "echantillon": 86,
-   "coteTropBasse": 37
+   "date": 1795219573844,
+   "mediane": 50,
+   "echantillon": 82,
+   "dispersion": 1,
+   "fourchette": [
+    14,
+    150
+   ],
+   "exemples": [
+    {
+     "id": 10851473468,
+     "prix": 50
+    },
+    {
+     "id": 10895455689,
+     "prix": 50
+    },
+    {
+     "id": 10894124099,
+     "prix": 50
+    },
+    {
+     "id": 10619256352,
+     "prix": 50
+    }
+   ],
+   "niveau": "marque"
   },
   "marque:minolta@3076": {
    "date": 1795181039399,
@@ -6489,78 +6512,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:samsung wb35f|2@3075": {
-   "date": 1795046320204,
-   "mediane": 90,
-   "echantillon": 24,
-   "dispersion": 0.27,
-   "fourchette": [
-    45,
-    130
-   ],
-   "exemples": [
-    {
-     "id": 10606676136,
-     "prix": 90
-    },
-    {
-     "id": 8889085113,
-     "prix": 90
-    },
-    {
-     "id": 9507864186,
-     "prix": 90
-    },
-    {
-     "id": 10859986503,
-     "prix": 89.9
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:canon a1250 12 2|1@3075": {
-   "date": 1795046449171,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:sony dsc w330 camara|1@3075": {
-   "date": 1795046828845,
-   "mediane": 88,
-   "echantillon": 4,
-   "dispersion": 0.06,
-   "fourchette": [
-    85,
-    105
-   ],
-   "exemples": [
-    {
-     "id": 10870329590,
-     "prix": 90
-    },
-    {
-     "id": 10875715377,
-     "prix": 85
-    },
-    {
-     "id": 10760858677,
-     "prix": 85
-    },
-    {
-     "id": 10051909789,
-     "prix": 105
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:canon sx30 14 1|3@3075": {
-   "date": 1795046892521,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
   },
   "modele:nikon camara|2@3075": {
    "date": 1795050855828,
@@ -32623,6 +32574,42 @@
    "echantillon": 1,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:nikon s600 coolpix|2@3075": {
+   "date": 1795219194066,
+   "mediane": 95,
+   "echantillon": 11,
+   "dispersion": 0.21,
+   "fourchette": [
+    25,
+    140
+   ],
+   "exemples": [
+    {
+     "id": 10853120925,
+     "prix": 95
+    },
+    {
+     "id": 9491722794,
+     "prix": 95
+    },
+    {
+     "id": 10221964434,
+     "prix": 99.95
+    },
+    {
+     "id": 10878464668,
+     "prix": 100
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:nikon 103 nikonos|2@3075": {
+   "date": 1795219572821,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -38567,8 +38554,8 @@
    "vu": 1795087078479
   },
   "78490260": {
-   "n": 2,
-   "vu": 1795218937136
+   "n": 3,
+   "vu": 1795219193303
   },
   "78570568": {
    "n": 2,
@@ -50805,10 +50792,10 @@
  },
  "bilan": {
   "depuis": 1795216843118,
-  "passages": 35,
-  "nouvelles": 42,
-  "marque": 11,
-  "etat": 3,
+  "passages": 50,
+  "nouvelles": 52,
+  "marque": 12,
+  "etat": 4,
   "prix": 2,
   "accessoire": 0,
   "lot": 0,
@@ -50816,8 +50803,8 @@
   "imitation": 0,
   "pro": 0,
   "vendeurSpecialise": 4,
-  "sansCote": 10,
-  "chere": 9,
+  "sansCote": 17,
+  "chere": 10,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
@@ -54090,7 +54077,8 @@
    "score": 60,
    "lien": "https://www.vinted.fr/items/10900888124-camara-canon",
    "date": 1795216013084,
-   "statut": null
+   "statut": "en vente",
+   "verifieA": 1795219637452
   },
   {
    "id": 10901103540,

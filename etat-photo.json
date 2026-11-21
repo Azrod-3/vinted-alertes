@@ -1,8 +1,5 @@
 {
  "vues": [
-  "10883648891",
-  "10883622805",
-  "10883592801",
   "10883597526",
   "10883584315",
   "10883588498",
@@ -3999,7 +3996,10 @@
   "10902485826",
   "10902520683",
   "10902526636",
-  "10902531336"
+  "10902531336",
+  "10902564599",
+  "10902572947",
+  "10902579261"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -6451,35 +6451,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:sony dsc w350 cyber|1@3075": {
-   "date": 1795068312759,
-   "mediane": 120,
-   "echantillon": 13,
-   "dispersion": 0.25,
-   "fourchette": [
-    90,
-    165
-   ],
-   "exemples": [
-    {
-     "id": 7643899198,
-     "prix": 120
-    },
-    {
-     "id": 7754731114,
-     "prix": 120
-    },
-    {
-     "id": 10664095134,
-     "prix": 119.9
-    },
-    {
-     "id": 10727696522,
-     "prix": 110
-    }
-   ],
-   "niveau": "modèle"
   },
   "modele:nikon w100 16gb|2@3075": {
    "date": 1795068818395,
@@ -32439,6 +32410,20 @@
    "echantillon": 1,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:samsung 120 finio|2@3076": {
+   "date": 1795241088009,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:samsung serie housse|2@3075": {
+   "date": 1795241340931,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -33979,8 +33964,8 @@
    "vu": 1795093952865
   },
   "26568982": {
-   "n": 4,
-   "vu": 1794322696139
+   "n": 5,
+   "vu": 1795241340224
   },
   "26584269": {
    "n": 4,
@@ -41907,8 +41892,8 @@
    "vu": 1794595239840
   },
   "203054511": {
-   "n": 8,
-   "vu": 1794741567355
+   "n": 9,
+   "vu": 1795241214038
   },
   "203139353": {
    "n": 9,
@@ -50633,10 +50618,10 @@
  },
  "bilan": {
   "depuis": 1795238495343,
-  "passages": 31,
-  "nouvelles": 8,
+  "passages": 46,
+  "nouvelles": 11,
   "marque": 1,
-  "etat": 0,
+  "etat": 1,
   "prix": 0,
   "accessoire": 0,
   "lot": 0,
@@ -50644,7 +50629,7 @@
   "imitation": 0,
   "pro": 0,
   "vendeurSpecialise": 4,
-  "sansCote": 3,
+  "sansCote": 5,
   "chere": 0,
   "description": 0,
   "scoreFaible": 0,

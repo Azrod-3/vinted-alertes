@@ -1,9 +1,5 @@
 {
  "vues": [
-  "10883663010",
-  "10883657967",
-  "10883650024",
-  "10883640269",
   "10883648891",
   "10883622805",
   "10883592801",
@@ -3999,7 +3995,11 @@
   "10902424381",
   "10902489071",
   "10902490926",
-  "10902496526"
+  "10902496526",
+  "10902485826",
+  "10902520683",
+  "10902526636",
+  "10902531336"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -6451,89 +6451,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:konica pop junior|1@3076": {
-   "date": 1795066920541,
-   "mediane": 15,
-   "echantillon": 29,
-   "dispersion": 0.8,
-   "fourchette": [
-    5,
-    40
-   ],
-   "exemples": [
-    {
-     "id": 7292922393,
-     "prix": 15
-    },
-    {
-     "id": 8836073537,
-     "prix": 15
-    },
-    {
-     "id": 9827901204,
-     "prix": 14
-    },
-    {
-     "id": 10012487178,
-     "prix": 16
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:panasonic tz8|2@3075": {
-   "date": 1795066984367,
-   "mediane": 75,
-   "echantillon": 51,
-   "dispersion": 0.4,
-   "fourchette": [
-    25,
-    125
-   ],
-   "exemples": [
-    {
-     "id": 10827388846,
-     "prix": 75
-    },
-    {
-     "id": 7349941937,
-     "prix": 75
-    },
-    {
-     "id": 5681263056,
-     "prix": 75
-    },
-    {
-     "id": 9772605264,
-     "prix": 75
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:olympus is 300|2@3075": {
-   "date": 1795067554016,
-   "mediane": 50,
-   "echantillon": 3,
-   "dispersion": null,
-   "fourchette": [
-    49,
-    55
-   ],
-   "exemples": [
-    {
-     "id": 9717563116,
-     "prix": 50
-    },
-    {
-     "id": 10818751770,
-     "prix": 49
-    },
-    {
-     "id": 10877159388,
-     "prix": 55
-    }
-   ],
-   "niveau": "modèle"
   },
   "modele:sony dsc w350 cyber|1@3075": {
    "date": 1795068312759,
@@ -38726,8 +38643,8 @@
    "vu": 1794927725295
   },
   "82052375": {
-   "n": 7,
-   "vu": 1795239190743
+   "n": 8,
+   "vu": 1795240076522
   },
   "82283056": {
    "n": 2,
@@ -43266,8 +43183,8 @@
    "vu": 1795033407814
   },
   "250268637": {
-   "n": 59,
-   "vu": 1795238686185
+   "n": 60,
+   "vu": 1795239824453
   },
   "250363993": {
    "n": 2,
@@ -50716,9 +50633,9 @@
  },
  "bilan": {
   "depuis": 1795238495343,
-  "passages": 16,
-  "nouvelles": 4,
-  "marque": 0,
+  "passages": 31,
+  "nouvelles": 8,
+  "marque": 1,
   "etat": 0,
   "prix": 0,
   "accessoire": 0,
@@ -50726,8 +50643,8 @@
   "fausse": 0,
   "imitation": 0,
   "pro": 0,
-  "vendeurSpecialise": 2,
-  "sansCote": 2,
+  "vendeurSpecialise": 4,
+  "sansCote": 3,
   "chere": 0,
   "description": 0,
   "scoreFaible": 0,

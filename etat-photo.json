@@ -1,8 +1,5 @@
 {
  "vues": [
-  "10883691686",
-  "10883704854",
-  "10883707034",
   "10883689784",
   "10883689866",
   "10883695292",
@@ -3999,7 +3996,10 @@
   "10902226649",
   "10902272311",
   "10902271331",
-  "10902313030"
+  "10902313030",
+  "10902331157",
+  "10902348170",
+  "10902363868"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -5268,36 +5268,6 @@
    "niveau": "modèle",
    "lissee": true
   },
-  "modele:olympus camara fotos|1@3076": {
-   "date": 1795063761388,
-   "mediane": 43,
-   "echantillon": 43,
-   "dispersion": 0.91,
-   "fourchette": [
-    15,
-    150
-   ],
-   "exemples": [
-    {
-     "id": 10794960093,
-     "prix": 47
-    },
-    {
-     "id": 10788817341,
-     "prix": 50
-    },
-    {
-     "id": 8567028984,
-     "prix": 50
-    },
-    {
-     "id": 10113238170,
-     "prix": 50
-    }
-   ],
-   "niveau": "modèle",
-   "lissee": true
-  },
   "modele:panasonic g3 lumix|2@3075": {
    "date": 1795082832046,
    "mediane": 148,
@@ -6481,13 +6451,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:fujifilm xt10 solo|2@3075": {
-   "date": 1795063381956,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
   },
   "modele:canon 1200d|2@3075": {
    "date": 1795064014384,
@@ -32567,6 +32530,13 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "modele:praktica b100 praktika|2@3076": {
+   "date": 1795235905216,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -43311,8 +43281,8 @@
    "vu": 1795033407814
   },
   "250268637": {
-   "n": 54,
-   "vu": 1795235398118
+   "n": 56,
+   "vu": 1795236409519
   },
   "250363993": {
    "n": 2,
@@ -50761,9 +50731,9 @@
  },
  "bilan": {
   "depuis": 1795231287263,
-  "passages": 70,
-  "nouvelles": 11,
-  "marque": 1,
+  "passages": 85,
+  "nouvelles": 14,
+  "marque": 2,
   "etat": 0,
   "prix": 0,
   "accessoire": 0,
@@ -50771,8 +50741,8 @@
   "fausse": 0,
   "imitation": 0,
   "pro": 0,
-  "vendeurSpecialise": 6,
-  "sansCote": 2,
+  "vendeurSpecialise": 7,
+  "sansCote": 3,
   "chere": 1,
   "description": 0,
   "scoreFaible": 0,

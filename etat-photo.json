@@ -1,15 +1,5 @@
 {
  "vues": [
-  "10883910383",
-  "10883930806",
-  "10883960907",
-  "10883946555",
-  "10883942665",
-  "10883935365",
-  "10883930310",
-  "10883914192",
-  "10883885802",
-  "10883842945",
   "10883864283",
   "10883849065",
   "10883846965",
@@ -3999,7 +3989,17 @@
   "10901546624",
   "10901433167",
   "10901560364",
-  "10901566552"
+  "10901566552",
+  "10901580665",
+  "10901589878",
+  "10901597888",
+  "10901594723",
+  "10901612025",
+  "10901614069",
+  "10901630788",
+  "10901628376",
+  "10901640336",
+  "10901638815"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -5022,13 +5022,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:canon canomatic statief|1@3076": {
-   "date": 1795051238303,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
   },
   "modele:canon eos analog|2@3076": {
    "date": 1795078279222,
@@ -32638,6 +32631,13 @@
    "echantillon": 1,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:fujifilm x t4 trappe|3@3075": {
+   "date": 1795224132750,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -44998,8 +44998,8 @@
    "vu": 1794127185713
   },
   "287382401": {
-   "n": 4,
-   "vu": 1795188788884
+   "n": 6,
+   "vu": 1795224512122
   },
   "287508760": {
    "n": 4,
@@ -47950,8 +47950,8 @@
    "vu": 1794985820032
   },
   "3171555293": {
-   "n": 100,
-   "vu": 1795223752071
+   "n": 104,
+   "vu": 1795224512122
   },
   "3171601350": {
    "n": 2,
@@ -50831,24 +50831,24 @@
   }
  },
  "bilan": {
-  "depuis": 1795216843118,
-  "passages": 110,
-  "nouvelles": 92,
-  "marque": 22,
-  "etat": 5,
-  "prix": 2,
-  "accessoire": 1,
-  "lot": 1,
+  "depuis": 1795224068978,
+  "passages": 11,
+  "nouvelles": 8,
+  "marque": 1,
+  "etat": 1,
+  "prix": 0,
+  "accessoire": 0,
+  "lot": 0,
   "fausse": 0,
   "imitation": 0,
-  "pro": 2,
-  "vendeurSpecialise": 11,
-  "sansCote": 30,
-  "chere": 15,
+  "pro": 3,
+  "vendeurSpecialise": 0,
+  "sansCote": 3,
+  "chere": 0,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
-  "alertes": 3
+  "alertes": 0
  },
  "panne": null,
  "panneDebut": null,

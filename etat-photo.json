@@ -1,8 +1,5 @@
 {
  "vues": [
-  "10883846965",
-  "10876623013",
-  "10883821619",
   "10877803083",
   "10883808134",
   "10883808540",
@@ -3999,7 +3996,10 @@
   "10901640336",
   "10901638815",
   "10901563218",
-  "10901700971"
+  "10901700971",
+  "10901742082",
+  "10901696283",
+  "10901769103"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -6505,60 +6505,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:kodak voigtlander brillant|1@3076": {
-   "date": 1795053008410,
-   "mediane": 90,
-   "echantillon": 3,
-   "dispersion": null,
-   "fourchette": [
-    90,
-    100
-   ],
-   "exemples": [
-    {
-     "id": 10638877190,
-     "prix": 90
-    },
-    {
-     "id": 10604084945,
-     "prix": 90
-    },
-    {
-     "id": 10876271399,
-     "prix": 100
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:fujifilm finepix|1@3075": {
-   "date": 1795053261720,
-   "mediane": 48,
-   "echantillon": 76,
-   "dispersion": 0.52,
-   "fourchette": [
-    15,
-    90
-   ],
-   "exemples": [
-    {
-     "id": 10716848646,
-     "prix": 47
-    },
-    {
-     "id": 10287089881,
-     "prix": 49
-    },
-    {
-     "id": 10852168964,
-     "prix": 50
-    },
-    {
-     "id": 10723073676,
-     "prix": 50
-    }
-   ],
-   "niveau": "modèle"
   },
   "modele:kodak camara|2@3076": {
    "date": 1795060211463,
@@ -43382,8 +43328,8 @@
    "vu": 1795033407814
   },
   "250268637": {
-   "n": 45,
-   "vu": 1795225270457
+   "n": 46,
+   "vu": 1795226406827
   },
   "250363993": {
    "n": 2,
@@ -50832,8 +50778,8 @@
  },
  "bilan": {
   "depuis": 1795224068978,
-  "passages": 26,
-  "nouvelles": 10,
+  "passages": 41,
+  "nouvelles": 13,
   "marque": 2,
   "etat": 1,
   "prix": 0,
@@ -50842,8 +50788,8 @@
   "fausse": 0,
   "imitation": 0,
   "pro": 3,
-  "vendeurSpecialise": 1,
-  "sansCote": 3,
+  "vendeurSpecialise": 2,
+  "sansCote": 5,
   "chere": 0,
   "description": 0,
   "scoreFaible": 0,

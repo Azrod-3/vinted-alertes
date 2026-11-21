@@ -1,17 +1,5 @@
 {
  "vues": [
-  "10883373759",
-  "10883362019",
-  "10883361857",
-  "10883355049",
-  "10883351358",
-  "10883312082",
-  "10883353942",
-  "10883343834",
-  "10883351495",
-  "10883347720",
-  "10883323179",
-  "10883310656",
   "10883307965",
   "10870604282",
   "10882924862",
@@ -3999,7 +3987,19 @@
   "10902722278",
   "10902719709",
   "10902722309",
-  "10902724526"
+  "10902724526",
+  "10902733511",
+  "10902753204",
+  "10902765030",
+  "10902776575",
+  "10902774408",
+  "10902774983",
+  "10902772210",
+  "10902777765",
+  "10902787392",
+  "10902786496",
+  "10902784963",
+  "10902785592"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -4075,30 +4075,30 @@
    "coteTropBasse": 49
   },
   "marque:panasonic@3075": {
-   "date": 1795133107696,
-   "mediane": 58,
-   "echantillon": 73,
-   "dispersion": 0.63,
+   "date": 1795245147287,
+   "mediane": 56,
+   "echantillon": 75,
+   "dispersion": 0.73,
    "fourchette": [
-    19.99,
+    18,
     140
    ],
    "exemples": [
+    {
+     "id": 10793291103,
+     "prix": 55
+    },
+    {
+     "id": 10888123353,
+     "prix": 55
+    },
     {
      "id": 10878735666,
      "prix": 59
     },
     {
-     "id": 10870364091,
-     "prix": 60
-    },
-    {
-     "id": 10883930806,
-     "prix": 60
-    },
-    {
-     "id": 10878879766,
-     "prix": 60
+     "id": 10271343777,
+     "prix": 59
     }
    ],
    "niveau": "marque",
@@ -4230,9 +4230,9 @@
    "coteTropBasse": 46
   },
   "marque:fujifilm@3076": {
-   "date": 1795110444724,
+   "date": 1795245019163,
    "mediane": null,
-   "echantillon": 59,
+   "echantillon": 67,
    "coteTropBasse": 25
   },
   "marque:polaroid@3076": {
@@ -4314,30 +4314,30 @@
    "lissee": true
   },
   "marque:leica@3076": {
-   "date": 1795118744812,
+   "date": 1795245148843,
    "mediane": 170,
    "echantillon": 57,
-   "dispersion": 1.08,
+   "dispersion": 1.24,
    "fourchette": [
     50,
-    500
+    550
    ],
    "exemples": [
     {
-     "id": 10795183882,
-     "prix": 165
+     "id": 10782472014,
+     "prix": 170
     },
     {
      "id": 10723566063,
      "prix": 165
     },
     {
-     "id": 10871310737,
-     "prix": 160
+     "id": 10864859755,
+     "prix": 180
     },
     {
-     "id": 10782472014,
-     "prix": 170
+     "id": 10851160589,
+     "prix": 180
     }
    ],
    "niveau": "marque",
@@ -32686,6 +32686,100 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "modele:olympus 300 super|1@3076": {
+   "date": 1795244386437,
+   "mediane": 25,
+   "echantillon": 37,
+   "dispersion": 0.8,
+   "fourchette": [
+    15,
+    51
+   ],
+   "exemples": [
+    {
+     "id": 9606034964,
+     "prix": 25
+    },
+    {
+     "id": 10071753677,
+     "prix": 25
+    },
+    {
+     "id": 7767928495,
+     "prix": 25
+    },
+    {
+     "id": 9270517150,
+     "prix": 25
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:sony 530|2@3075": {
+   "date": 1795245018180,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:fujifilm nexia auto|2@3076": {
+   "date": 1795245019885,
+   "mediane": 15,
+   "echantillon": 9,
+   "dispersion": 0.87,
+   "fourchette": [
+    10,
+    30
+   ],
+   "exemples": [
+    {
+     "id": 10585780344,
+     "prix": 15
+    },
+    {
+     "id": 6632531153,
+     "prix": 15
+    },
+    {
+     "id": 10902777765,
+     "prix": 16
+    },
+    {
+     "id": 7095490270,
+     "prix": 12
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:panasonic dmc tz18 lumix|1@3075": {
+   "date": 1795245148114,
+   "mediane": 67,
+   "echantillon": 22,
+   "dispersion": 0.36,
+   "fourchette": [
+    25,
+    99
+   ],
+   "exemples": [
+    {
+     "id": 9755019082,
+     "prix": 69
+    },
+    {
+     "id": 10738964354,
+     "prix": 69.99
+    },
+    {
+     "id": 10713720042,
+     "prix": 64
+    },
+    {
+     "id": 10505842156,
+     "prix": 70
+    }
+   ],
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -39174,8 +39268,8 @@
    "vu": 1793731724309
   },
   "89789615": {
-   "n": 4,
-   "vu": 1795244256397
+   "n": 5,
+   "vu": 1795244385652
   },
   "89943342": {
    "n": 2,
@@ -49010,8 +49104,8 @@
    "vu": 1794176584444
   },
   "3192065507": {
-   "n": 15,
-   "vu": 1795209558389
+   "n": 17,
+   "vu": 1795245146049
   },
   "3192188640": {
    "n": 12,
@@ -50888,19 +50982,19 @@
  },
  "bilan": {
   "depuis": 1795238495343,
-  "passages": 91,
-  "nouvelles": 50,
-  "marque": 6,
+  "passages": 106,
+  "nouvelles": 62,
+  "marque": 8,
   "etat": 3,
-  "prix": 2,
+  "prix": 3,
   "accessoire": 1,
   "lot": 0,
   "fausse": 0,
   "imitation": 0,
   "pro": 0,
-  "vendeurSpecialise": 11,
-  "sansCote": 16,
-  "chere": 9,
+  "vendeurSpecialise": 13,
+  "sansCote": 20,
+  "chere": 12,
   "description": 1,
   "scoreFaible": 0,
   "blocages": 0,

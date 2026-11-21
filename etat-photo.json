@@ -1,16 +1,5 @@
 {
  "vues": [
-  "10883597526",
-  "10883584315",
-  "10883588498",
-  "10883580515",
-  "10883558185",
-  "10883564019",
-  "10883557802",
-  "10883550522",
-  "10883542536",
-  "10883474058",
-  "10883528113",
   "10883533160",
   "10883525155",
   "10883534932",
@@ -3999,7 +3988,18 @@
   "10902531336",
   "10902564599",
   "10902572947",
-  "10902579261"
+  "10902579261",
+  "10902584180",
+  "10902584782",
+  "10902592106",
+  "10902591168",
+  "10902596775",
+  "10902595177",
+  "10902601636",
+  "10902600061",
+  "10902611385",
+  "10902621708",
+  "10902623450"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -6452,13 +6452,6 @@
    "niveau": "modèle",
    "lissee": true
   },
-  "modele:nikon w100 16gb|2@3075": {
-   "date": 1795068818395,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
   "modele:canon 500d|2@3075": {
    "date": 1795209656136,
    "mediane": 132,
@@ -8513,15 +8506,19 @@
    "niveau": "modèle"
   },
   "modele:canon 300 camara|2@3076": {
-   "date": 1795082705207,
+   "date": 1795241848753,
    "mediane": 95,
-   "echantillon": 30,
+   "echantillon": 32,
    "dispersion": 0.48,
    "fourchette": [
     35,
     200
    ],
    "exemples": [
+    {
+     "id": 10880129781,
+     "prix": 99
+    },
     {
      "id": 6852891756,
      "prix": 99
@@ -8531,15 +8528,12 @@
      "prix": 90
     },
     {
-     "id": 9767674036,
-     "prix": 100
-    },
-    {
      "id": 8688945480,
      "prix": 90
     }
    ],
-   "niveau": "modèle"
+   "niveau": "modèle",
+   "lissee": true
   },
   "modele:sony a390 spiegelreflexkamera|2@3075": {
    "date": 1795082959708,
@@ -32424,6 +32418,64 @@
    "echantillon": 1,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:canon 1100 ixus|3@3075": {
+   "date": 1795241469538,
+   "mediane": 160,
+   "echantillon": 5,
+   "dispersion": 0.43,
+   "fourchette": [
+    125,
+    230
+   ],
+   "exemples": [
+    {
+     "id": 10327710310,
+     "prix": 160
+    },
+    {
+     "id": 10534912210,
+     "prix": 130
+    },
+    {
+     "id": 10902584180,
+     "prix": 125
+    },
+    {
+     "id": 10417421960,
+     "prix": 199
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:canon 1200d eos|2@3075": {
+   "date": 1795241975922,
+   "mediane": 150,
+   "echantillon": 82,
+   "dispersion": 0.4,
+   "fourchette": [
+    70,
+    280
+   ],
+   "exemples": [
+    {
+     "id": 10863378679,
+     "prix": 150
+    },
+    {
+     "id": 10898474957,
+     "prix": 150
+    },
+    {
+     "id": 10557295319,
+     "prix": 150
+    },
+    {
+     "id": 10565189021,
+     "prix": 150
+    }
+   ],
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -37080,8 +37132,8 @@
    "vu": 1794757381282
   },
   "60185966": {
-   "n": 44,
-   "vu": 1795209558389
+   "n": 47,
+   "vu": 1795241847912
   },
   "60209689": {
    "n": 2,
@@ -50618,19 +50670,19 @@
  },
  "bilan": {
   "depuis": 1795238495343,
-  "passages": 46,
-  "nouvelles": 11,
-  "marque": 1,
+  "passages": 61,
+  "nouvelles": 22,
+  "marque": 4,
   "etat": 1,
   "prix": 0,
-  "accessoire": 0,
+  "accessoire": 1,
   "lot": 0,
   "fausse": 0,
   "imitation": 0,
   "pro": 0,
-  "vendeurSpecialise": 4,
-  "sansCote": 5,
-  "chere": 0,
+  "vendeurSpecialise": 7,
+  "sansCote": 6,
+  "chere": 3,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,

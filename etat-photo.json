@@ -1,7 +1,5 @@
 {
  "vues": [
-  "10883689784",
-  "10883689866",
   "10883695292",
   "10883681867",
   "10883684967",
@@ -3999,7 +3997,9 @@
   "10902313030",
   "10902331157",
   "10902348170",
-  "10902363868"
+  "10902363868",
+  "10902377606",
+  "10902393782"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -6451,35 +6451,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:canon 1200d|2@3075": {
-   "date": 1795064014384,
-   "mediane": 150,
-   "echantillon": 82,
-   "dispersion": 0.4,
-   "fourchette": [
-    75,
-    280
-   ],
-   "exemples": [
-    {
-     "id": 10875784033,
-     "prix": 150
-    },
-    {
-     "id": 10863378679,
-     "prix": 150
-    },
-    {
-     "id": 10856186555,
-     "prix": 150
-    },
-    {
-     "id": 10650128108,
-     "prix": 150
-    }
-   ],
-   "niveau": "modèle"
   },
   "modele:konica pop junior|1@3076": {
    "date": 1795066920541,
@@ -43281,8 +43252,8 @@
    "vu": 1795033407814
   },
   "250268637": {
-   "n": 56,
-   "vu": 1795236409519
+   "n": 58,
+   "vu": 1795237294557
   },
   "250363993": {
    "n": 2,
@@ -50731,8 +50702,8 @@
  },
  "bilan": {
   "depuis": 1795231287263,
-  "passages": 85,
-  "nouvelles": 14,
+  "passages": 100,
+  "nouvelles": 16,
   "marque": 2,
   "etat": 0,
   "prix": 0,
@@ -50741,7 +50712,7 @@
   "fausse": 0,
   "imitation": 0,
   "pro": 0,
-  "vendeurSpecialise": 7,
+  "vendeurSpecialise": 9,
   "sansCote": 3,
   "chere": 1,
   "description": 0,
@@ -54049,7 +54020,8 @@
    "score": 56,
    "lien": "https://www.vinted.fr/items/10902238739-kodak-az528",
    "date": 1795233628729,
-   "statut": null
+   "statut": "en vente",
+   "verifieA": 1795237231517
   }
  ],
  "dernierRecap": "2026-11-20"

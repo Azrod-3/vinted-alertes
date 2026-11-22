@@ -1,11 +1,5 @@
 {
  "vues": [
-  "10898474957",
-  "10898671195",
-  "10897728734",
-  "10898761716",
-  "10898674089",
-  "10898547720",
   "10874945498",
   "10898664811",
   "10898647319",
@@ -3999,7 +3993,13 @@
   "10933116635",
   "10933142746",
   "10933142368",
-  "10933135235"
+  "10933135235",
+  "10933169587",
+  "10933166329",
+  "10933166815",
+  "10933152334",
+  "10933156022",
+  "10933167592"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -7240,13 +7240,6 @@
    ],
    "niveau": "marque",
    "lissee": true
-  },
-  "modele:olympus c 315 y2k|1@3075": {
-   "date": 1795213472221,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
   },
   "modele:nikon coolpix|1@3075": {
    "date": 1795213977723,
@@ -44023,6 +44016,42 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "modele:nikon s33 coolpix|1@3075": {
+   "date": 1795386302823,
+   "mediane": 75,
+   "echantillon": 59,
+   "dispersion": 0.4,
+   "fourchette": [
+    30,
+    120
+   ],
+   "exemples": [
+    {
+     "id": 10265338204,
+     "prix": 75
+    },
+    {
+     "id": 10853334084,
+     "prix": 75
+    },
+    {
+     "id": 9434143480,
+     "prix": 75
+    },
+    {
+     "id": 6582527165,
+     "prix": 75
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:nikon nikkormat obiettivi|1@3076": {
+   "date": 1795386303487,
+   "mediane": null,
+   "echantillon": 2,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -61035,8 +61064,8 @@
    "vu": 1794985820032
   },
   "3171555293": {
-   "n": 115,
-   "vu": 1795350903014
+   "n": 116,
+   "vu": 1795386302136
   },
   "3171601350": {
    "n": 2,
@@ -64233,19 +64262,19 @@
  },
  "bilan": {
   "depuis": 1795382922079,
-  "passages": 52,
-  "nouvelles": 122,
+  "passages": 54,
+  "nouvelles": 128,
   "marque": 21,
   "etat": 2,
   "prix": 5,
-  "accessoire": 4,
-  "lot": 0,
+  "accessoire": 5,
+  "lot": 1,
   "fausse": 0,
   "imitation": 0,
   "pro": 1,
   "vendeurSpecialise": 11,
-  "sansCote": 56,
-  "chere": 18,
+  "sansCote": 59,
+  "chere": 19,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,

@@ -1,19 +1,5 @@
 {
  "vues": [
-  "10897290686",
-  "10897287224",
-  "10897272937",
-  "10897288626",
-  "10897283953",
-  "10897288366",
-  "10897278015",
-  "10897267085",
-  "10897266154",
-  "10897253137",
-  "10897247323",
-  "10897245125",
-  "10897304355",
-  "10897302160",
   "10897296899",
   "10897289860",
   "10897309559",
@@ -3999,7 +3985,21 @@
   "10915830245",
   "10915823903",
   "10915822450",
-  "10915834043"
+  "10915834043",
+  "10915842171",
+  "10915832975",
+  "10901702776",
+  "10915867823",
+  "10901701274",
+  "10901699927",
+  "10915876318",
+  "10915876042",
+  "10901698648",
+  "10915885316",
+  "10915885105",
+  "10915894960",
+  "10901697472",
+  "10915915783"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -4362,10 +4362,10 @@
    "coteTropBasse": 40
   },
   "marque:zeiss@3076": {
-   "date": 1795209741424,
+   "date": 1795306131352,
    "mediane": null,
-   "echantillon": 53,
-   "coteTropBasse": 35
+   "echantillon": 47,
+   "coteTropBasse": 30
   },
   "marque:ricoh@3076": {
    "date": 1795255688867,
@@ -6820,78 +6820,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:canon ixus|3@3075": {
-   "date": 1795132854621,
-   "mediane": 120,
-   "echantillon": 64,
-   "dispersion": 0.38,
-   "fourchette": [
-    50,
-    199
-   ],
-   "exemples": [
-    {
-     "id": 10886474291,
-     "prix": 120
-    },
-    {
-     "id": 10887468382,
-     "prix": 120
-    },
-    {
-     "id": 10880960000,
-     "prix": 120
-    },
-    {
-     "id": 10887752220,
-     "prix": 120
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:panasonic dmc tz4 y2k|2@3075": {
-   "date": 1795133108275,
-   "mediane": null,
-   "echantillon": 2,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:fujifilm xt20|2@3075": {
-   "date": 1795133363433,
-   "mediane": 520,
-   "echantillon": 7,
-   "dispersion": 0.29,
-   "fourchette": [
-    450,
-    650
-   ],
-   "exemples": [
-    {
-     "id": 9873062038,
-     "prix": 519.9
-    },
-    {
-     "id": 10803374367,
-     "prix": 500
-    },
-    {
-     "id": 10605951427,
-     "prix": 499.9
-    },
-    {
-     "id": 10888728130,
-     "prix": 550
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:canon seagull|2@3076": {
-   "date": 1795133364314,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
   },
   "marque:topcon@3076": {
    "date": 1795134122659,
@@ -37388,6 +37316,42 @@
    "echantillon": 1,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:canon 400d eos|1@3075": {
+   "date": 1795305625184,
+   "mediane": 80,
+   "echantillon": 82,
+   "dispersion": 0.5,
+   "fourchette": [
+    25,
+    165
+   ],
+   "exemples": [
+    {
+     "id": 10709160083,
+     "prix": 80
+    },
+    {
+     "id": 10841917979,
+     "prix": 80
+    },
+    {
+     "id": 10269968912,
+     "prix": 80
+    },
+    {
+     "id": 10434861309,
+     "prix": 80
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:zeiss apparecchio fotografico|1@3076": {
+   "date": 1795306131954,
+   "mediane": null,
+   "echantillon": 2,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -45036,8 +45000,8 @@
    "vu": 1794423749451
   },
   "118596630": {
-   "n": 2,
-   "vu": 1794869672016
+   "n": 3,
+   "vu": 1795306129769
   },
   "118725722": {
    "n": 2,
@@ -48492,8 +48456,8 @@
    "vu": 1794233448164
   },
   "246537509": {
-   "n": 133,
-   "vu": 1795300297425
+   "n": 138,
+   "vu": 1795306258447
   },
   "246562424": {
    "n": 5,
@@ -52064,8 +52028,8 @@
    "vu": 1795029289842
   },
   "3138957823": {
-   "n": 120,
-   "vu": 1795305244405
+   "n": 121,
+   "vu": 1795306129769
   },
   "3139110308": {
    "n": 3,
@@ -55000,8 +54964,8 @@
    "vu": 1794844117003
   },
   "3199086622": {
-   "n": 23,
-   "vu": 1795303599534
+   "n": 24,
+   "vu": 1795305624254
   },
   "3199148969": {
    "n": 4,
@@ -55072,8 +55036,8 @@
    "vu": 1794433715080
   },
   "3200205960": {
-   "n": 11,
-   "vu": 1794817593050
+   "n": 12,
+   "vu": 1795306003528
   },
   "3200255532": {
    "n": 2,
@@ -56542,38 +56506,27 @@
  },
  "bilan": {
   "depuis": 1795303536484,
-  "passages": 31,
-  "nouvelles": 24,
-  "marque": 5,
+  "passages": 46,
+  "nouvelles": 38,
+  "marque": 8,
   "etat": 0,
   "prix": 1,
   "accessoire": 0,
   "lot": 0,
   "fausse": 0,
   "imitation": 0,
-  "pro": 2,
-  "vendeurSpecialise": 6,
-  "sansCote": 6,
-  "chere": 4,
+  "pro": 8,
+  "vendeurSpecialise": 7,
+  "sansCote": 8,
+  "chere": 5,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
-  "alertes": 0
+  "alertes": 1
  },
  "panne": null,
  "panneDebut": null,
  "suivi": [
-  {
-   "id": 10830197758,
-   "titre": "Cámara fotográfica  EOS1300D",
-   "prix": 112,
-   "cote": 230,
-   "score": 69,
-   "lien": "https://www.vinted.fr/items/10830197758-camara-fotografica-eos1300d",
-   "date": 1794772903960,
-   "statut": "retiree",
-   "verifieA": 1794776520930
-  },
   {
    "id": 10830705369,
    "titre": "Voigtländer Vitoret AF 35-80 analoog fototoestel fotocamera",
@@ -59860,6 +59813,16 @@
    "score": 82,
    "lien": "https://www.vinted.fr/items/10915608641-canon-eos2000d",
    "date": 1795303473472,
+   "statut": null
+  },
+  {
+   "id": 10915885105,
+   "titre": "Canon EOS 1200D 2 Objekte",
+   "prix": 20,
+   "cote": 150,
+   "score": 74,
+   "lien": "https://www.vinted.fr/items/10915885105-canon-eos-1200d-2-objekte",
+   "date": 1795306132307,
    "statut": null
   }
  ],

@@ -1,14 +1,5 @@
 {
  "vues": [
-  "10897330640",
-  "10897378907",
-  "10897372657",
-  "10897370127",
-  "10897357553",
-  "10897320853",
-  "10897360939",
-  "10897358309",
-  "10897352656",
   "10897392260",
   "10897382714",
   "10897380682",
@@ -3999,7 +3990,16 @@
   "10915971911",
   "10915984106",
   "10915618172",
-  "10916009055"
+  "10916009055",
+  "10916037245",
+  "10916029043",
+  "10916043371",
+  "10916049581",
+  "10916066955",
+  "10916062416",
+  "10916070341",
+  "10916080881",
+  "10916088239"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -6820,74 +6820,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:fujifilm 50r gfx|2@3075": {
-   "date": 1795134883641,
-   "mediane": null,
-   "echantillon": 2,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:olympus x 15 camara|1@3075": {
-   "date": 1795135391290,
-   "mediane": 65,
-   "echantillon": 3,
-   "dispersion": null,
-   "fourchette": [
-    40,
-    65
-   ],
-   "exemples": [
-    {
-     "id": 10783214924,
-     "prix": 65
-    },
-    {
-     "id": 10783391890,
-     "prix": 65
-    },
-    {
-     "id": 10888903170,
-     "prix": 40
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:nikon f70 camara|2@3076": {
-   "date": 1795135392100,
-   "mediane": 75,
-   "echantillon": 18,
-   "dispersion": 0.6,
-   "fourchette": [
-    25,
-    156
-   ],
-   "exemples": [
-    {
-     "id": 7131716582,
-     "prix": 75
-    },
-    {
-     "id": 6714978153,
-     "prix": 75
-    },
-    {
-     "id": 10888897392,
-     "prix": 80
-    },
-    {
-     "id": 5706647342,
-     "prix": 80
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:minolta weathermatic camara|2@3076": {
-   "date": 1795135519064,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
   },
   "modele:panasonic dmc fx9 lumix|1@3075": {
    "date": 1795139316758,
@@ -37389,6 +37321,49 @@
    "echantillon": 2,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "marque:dji@3075": {
+   "date": 1795307654088,
+   "mediane": 260,
+   "echantillon": 52,
+   "dispersion": 0.58,
+   "fourchette": [
+    65,
+    570
+   ],
+   "exemples": [
+    {
+     "id": 8198960787,
+     "prix": 250
+    },
+    {
+     "id": 9623444090,
+     "prix": 250
+    },
+    {
+     "id": 10197901046,
+     "prix": 270
+    },
+    {
+     "id": 7922328662,
+     "prix": 250
+    }
+   ],
+   "niveau": "marque"
+  },
+  "modele:dji sehr gut|2@3075": {
+   "date": 1795307654815,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:agfa app fotograficoagfa|2@3076": {
+   "date": 1795308033984,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -42513,8 +42488,8 @@
    "vu": 1795185111280
   },
   "62760003": {
-   "n": 52,
-   "vu": 1794520995556
+   "n": 57,
+   "vu": 1795308285990
   },
   "62774310": {
    "n": 3,
@@ -43739,6 +43714,10 @@
   "79811914": {
    "n": 2,
    "vu": 1794663229330
+  },
+  "79843950": {
+   "n": 2,
+   "vu": 1795308033384
   },
   "79867657": {
    "n": 3,
@@ -55525,8 +55504,8 @@
    "vu": 1794582844335
   },
   "3205117872": {
-   "n": 52,
-   "vu": 1795304992315
+   "n": 53,
+   "vu": 1795307653239
   },
   "3205148019": {
    "n": 2,
@@ -56551,18 +56530,18 @@
  },
  "bilan": {
   "depuis": 1795303536484,
-  "passages": 61,
-  "nouvelles": 46,
-  "marque": 9,
-  "etat": 0,
+  "passages": 76,
+  "nouvelles": 55,
+  "marque": 10,
+  "etat": 1,
   "prix": 2,
   "accessoire": 0,
   "lot": 0,
   "fausse": 0,
   "imitation": 0,
-  "pro": 8,
+  "pro": 13,
   "vendeurSpecialise": 7,
-  "sansCote": 11,
+  "sansCote": 13,
   "chere": 7,
   "description": 0,
   "scoreFaible": 0,

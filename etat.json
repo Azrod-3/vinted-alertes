@@ -7248,56 +7248,6 @@
    "niveau": "marque",
    "lissee": true
   },
-  "modele:certina pro titanium|2": {
-   "date": 1795185076440,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:ice watch braccio|2": {
-   "date": 1795185077019,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:festina 1653 multifunction|2": {
-   "date": 1795185077668,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:tissot woodwatch|1": {
-   "date": 1795185078319,
-   "mediane": 93,
-   "echantillon": 20,
-   "dispersion": 0.32,
-   "fourchette": [
-    49,
-    165
-   ],
-   "exemples": [
-    {
-     "id": 9650163575,
-     "prix": 95
-    },
-    {
-     "id": 10894694365,
-     "prix": 90
-    },
-    {
-     "id": 9128733214,
-     "prix": 90
-    },
-    {
-     "id": 7033303234,
-     "prix": 90
-    }
-   ],
-   "niveau": "modèle"
-  },
   "modele:yonger bresson automatique|2": {
    "date": 1795350953660,
    "mediane": 107,
@@ -7327,63 +7277,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:rolex kit quadrante|2": {
-   "date": 1795185209842,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:breil tw0470 uomo|2": {
-   "date": 1795185212417,
-   "mediane": null,
-   "echantillon": 2,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:locman italy small second|2": {
-   "date": 1795185213016,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "marque:unimatic": {
-   "date": 1795185347948,
-   "mediane": 750,
-   "echantillon": 29,
-   "dispersion": 0.39,
-   "fourchette": [
-    399,
-    1400
-   ],
-   "exemples": [
-    {
-     "id": 8637430097,
-     "prix": 750
-    },
-    {
-     "id": 10712574009,
-     "prix": 750
-    },
-    {
-     "id": 9628747393,
-     "prix": 750
-    },
-    {
-     "id": 10556264166,
-     "prix": 750
-    }
-   ],
-   "niveau": "marque"
-  },
-  "modele:unimatic strap milanese|2": {
-   "date": 1795185348518,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
   },
   "modele:ice watch limited edition|4": {
    "date": 1795185610383,
@@ -155786,7 +155679,7 @@
  },
  "bilan": {
   "depuis": 1795354840852,
-  "passages": 68,
+  "passages": 81,
   "nouvelles": 155,
   "marque": 104,
   "etat": 1,

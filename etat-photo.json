@@ -1,11 +1,5 @@
 {
  "vues": [
-  "10899197205",
-  "10899155202",
-  "10899192985",
-  "10899191408",
-  "10898803519",
-  "10899181477",
   "10899179656",
   "10899169004",
   "10899162851",
@@ -3999,7 +3993,13 @@
   "10933700155",
   "10933698106",
   "10933708788",
-  "10933703703"
+  "10933703703",
+  "10933746538",
+  "10933747513",
+  "10933751100",
+  "10933775630",
+  "10933764936",
+  "10933819549"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -7331,35 +7331,6 @@
    "niveau": "modèle",
    "lissee": true
   },
-  "modele:sony dsc h300 20 1|3@3075": {
-   "date": 1795217288078,
-   "mediane": 80,
-   "echantillon": 18,
-   "dispersion": 0.13,
-   "fourchette": [
-    70,
-    110
-   ],
-   "exemples": [
-    {
-     "id": 10901027563,
-     "prix": 80
-    },
-    {
-     "id": 10886351493,
-     "prix": 80
-    },
-    {
-     "id": 10512914917,
-     "prix": 80
-    },
-    {
-     "id": 10149112830,
-     "prix": 80
-    }
-   ],
-   "niveau": "modèle"
-  },
   "modele:canon camara ixus|2@3075": {
    "date": 1795387859564,
    "mediane": 77,
@@ -7389,96 +7360,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:pentax program|2@3076": {
-   "date": 1795217289557,
-   "mediane": 112,
-   "echantillon": 13,
-   "dispersion": 0.3,
-   "fourchette": [
-    50,
-    160
-   ],
-   "exemples": [
-    {
-     "id": 10143105111,
-     "prix": 111.9
-    },
-    {
-     "id": 6536122845,
-     "prix": 115
-    },
-    {
-     "id": 8520895001,
-     "prix": 120
-    },
-    {
-     "id": 10731057889,
-     "prix": 100
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:olympus 5010 mju|2@3075": {
-   "date": 1795217542517,
-   "mediane": 65,
-   "echantillon": 3,
-   "dispersion": null,
-   "fourchette": [
-    40,
-    65
-   ],
-   "exemples": [
-    {
-     "id": 10448331879,
-     "prix": 65
-    },
-    {
-     "id": 9685043260,
-     "prix": 65
-    },
-    {
-     "id": 10901048617,
-     "prix": 40
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:panasonic dmc tz10 lumix|2@3075": {
-   "date": 1795217669324,
-   "mediane": 89,
-   "echantillon": 25,
-   "dispersion": 0.45,
-   "fourchette": [
-    30,
-    170
-   ],
-   "exemples": [
-    {
-     "id": 10590757653,
-     "prix": 89
-    },
-    {
-     "id": 10477892746,
-     "prix": 89.95
-    },
-    {
-     "id": 9853478793,
-     "prix": 90
-    },
-    {
-     "id": 10215446335,
-     "prix": 95
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:nikon 35 mm kompaktkamera rf2|2@3076": {
-   "date": 1795217796787,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
   },
   "modele:nikon fm2|1@3076": {
    "date": 1795218177442,
@@ -21010,9 +20891,9 @@
    "niveau": "modèle"
   },
   "modele:kodak h35 ektar|3@3076": {
-   "date": 1795284140444,
+   "date": 1795390279983,
    "mediane": 50,
-   "echantillon": 36,
+   "echantillon": 38,
    "dispersion": 0.2,
    "fourchette": [
     28,
@@ -21024,7 +20905,7 @@
      "prix": 50
     },
     {
-     "id": 10624601327,
+     "id": 10606173626,
      "prix": 50
     },
     {
@@ -21032,11 +20913,12 @@
      "prix": 50
     },
     {
-     "id": 10606173626,
+     "id": 10624601327,
      "prix": 50
     }
    ],
-   "niveau": "modèle"
+   "niveau": "modèle",
+   "lissee": true
   },
   "modele:nikon l25 10 1mp|2@3075": {
    "date": 1795284647228,
@@ -63993,24 +63875,24 @@
   }
  },
  "bilan": {
-  "depuis": 1795382922079,
-  "passages": 99,
-  "nouvelles": 203,
-  "marque": 30,
-  "etat": 3,
-  "prix": 5,
-  "accessoire": 6,
+  "depuis": 1795390152923,
+  "passages": 13,
+  "nouvelles": 6,
+  "marque": 0,
+  "etat": 0,
+  "prix": 1,
+  "accessoire": 0,
   "lot": 1,
   "fausse": 0,
   "imitation": 0,
-  "pro": 1,
-  "vendeurSpecialise": 21,
-  "sansCote": 103,
-  "chere": 28,
+  "pro": 0,
+  "vendeurSpecialise": 0,
+  "sansCote": 3,
+  "chere": 1,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
-  "alertes": 5
+  "alertes": 0
  },
  "panne": null,
  "panneDebut": null,

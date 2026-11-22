@@ -1,9 +1,5 @@
 {
  "vues": [
-  "10896845841",
-  "10897519043",
-  "10897515504",
-  "10897518854",
   "10897511633",
   "10897500491",
   "10897511683",
@@ -3999,7 +3995,11 @@
   "10916346031",
   "10916355627",
   "10916387907",
-  "10916403008"
+  "10916403008",
+  "10916434476",
+  "10916441134",
+  "10916462192",
+  "10916471746"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -37393,6 +37393,31 @@
    "echantillon": 1,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:canon 40d viel|2@3075": {
+   "date": 1795312716007,
+   "mediane": 65,
+   "echantillon": 3,
+   "dispersion": null,
+   "fourchette": [
+    59,
+    190
+   ],
+   "exemples": [
+    {
+     "id": 9261915283,
+     "prix": 65
+    },
+    {
+     "id": 10916462192,
+     "prix": 59
+    },
+    {
+     "id": 10761599558,
+     "prix": 190
+    }
+   ],
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -55541,8 +55566,8 @@
    "vu": 1794582844335
   },
   "3205117872": {
-   "n": 54,
-   "vu": 1795311326188
+   "n": 55,
+   "vu": 1795312463205
   },
   "3205148019": {
    "n": 2,
@@ -56567,19 +56592,19 @@
  },
  "bilan": {
   "depuis": 1795310757295,
-  "passages": 22,
-  "nouvelles": 5,
+  "passages": 37,
+  "nouvelles": 9,
   "marque": 2,
   "etat": 0,
-  "prix": 0,
+  "prix": 1,
   "accessoire": 0,
   "lot": 0,
   "fausse": 0,
   "imitation": 0,
   "pro": 0,
-  "vendeurSpecialise": 1,
-  "sansCote": 1,
-  "chere": 1,
+  "vendeurSpecialise": 2,
+  "sansCote": 2,
+  "chere": 2,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,

@@ -1,7 +1,5 @@
 {
  "vues": [
-  "10897522385",
-  "10897553360",
   "10897546815",
   "10897606997",
   "10897538672",
@@ -3999,7 +3997,9 @@
   "10916725750",
   "10916742583",
   "10916806730",
-  "10916830800"
+  "10916830800",
+  "10916870532",
+  "10916877985"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -4135,10 +4135,33 @@
    "lissee": true
   },
   "marque:fujifilm@3075": {
-   "date": 1795313222495,
-   "mediane": null,
-   "echantillon": 68,
-   "coteTropBasse": 46
+   "date": 1795317808495,
+   "mediane": 50,
+   "echantillon": 67,
+   "dispersion": 0.44,
+   "fourchette": [
+    20,
+    99.8
+   ],
+   "exemples": [
+    {
+     "id": 10914780644,
+     "prix": 50
+    },
+    {
+     "id": 10898660174,
+     "prix": 50
+    },
+    {
+     "id": 10385889754,
+     "prix": 50
+    },
+    {
+     "id": 10871130254,
+     "prix": 50
+    }
+   ],
+   "niveau": "marque"
   },
   "marque:olympus@3075": {
    "date": 1795255502033,
@@ -4189,34 +4212,10 @@
    "coteTropBasse": 20
   },
   "marque:canon@3076": {
-   "date": 1795313477158,
-   "mediane": 50,
-   "echantillon": 81,
-   "dispersion": 0.9,
-   "fourchette": [
-    14,
-    150
-   ],
-   "exemples": [
-    {
-     "id": 10895455689,
-     "prix": 50
-    },
-    {
-     "id": 10894124099,
-     "prix": 50
-    },
-    {
-     "id": 10912589653,
-     "prix": 50
-    },
-    {
-     "id": 10619256352,
-     "prix": 50
-    }
-   ],
-   "niveau": "marque",
-   "lissee": true
+   "date": 1795317810162,
+   "mediane": null,
+   "echantillon": 76,
+   "coteTropBasse": 40
   },
   "marque:minolta@3076": {
    "date": 1795268468911,
@@ -6852,64 +6851,6 @@
    "niveau": "modèle",
    "lissee": true
   },
-  "modele:canon ixus carte|1@3075": {
-   "date": 1795145014058,
-   "mediane": 135,
-   "echantillon": 7,
-   "dispersion": 0.73,
-   "fourchette": [
-    54,
-    230
-   ],
-   "exemples": [
-    {
-     "id": 10753536875,
-     "prix": 135
-    },
-    {
-     "id": 9888639315,
-     "prix": 140
-    },
-    {
-     "id": 10693293184,
-     "prix": 170
-    },
-    {
-     "id": 10889608729,
-     "prix": 71
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:kodak c1 pixpro|1@3075": {
-   "date": 1795145775432,
-   "mediane": 89,
-   "echantillon": 14,
-   "dispersion": 0.17,
-   "fourchette": [
-    74.9,
-    100
-   ],
-   "exemples": [
-    {
-     "id": 10647988794,
-     "prix": 88
-    },
-    {
-     "id": 10739134920,
-     "prix": 90
-    },
-    {
-     "id": 10292958245,
-     "prix": 90
-    },
-    {
-     "id": 8696749931,
-     "prix": 90
-    }
-   ],
-   "niveau": "modèle"
-  },
   "modele:agfa isola1 camara|2@3076": {
    "date": 1795147927339,
    "mediane": null,
@@ -7127,7 +7068,7 @@
    "niveau": "modèle"
   },
   "modele:pentax 738g camara|2@3076": {
-   "date": 1795314490223,
+   "date": 1795317809137,
    "mediane": 60,
    "echantillon": 4,
    "dispersion": 0,
@@ -37419,16 +37360,45 @@
    "niveau": "modèle"
   },
   "marque:voigtlander@3075": {
-   "date": 1795314235766,
+   "date": 1795317806005,
    "mediane": null,
    "echantillon": 10,
    "coteTropBasse": 45
   },
   "modele:voigtlander 1060 virtus|2@3075": {
-   "date": 1795314236388,
+   "date": 1795317806664,
    "mediane": null,
    "echantillon": 1,
    "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:kodak fz55 pix|3@3075": {
+   "date": 1795318314814,
+   "mediane": 140,
+   "echantillon": 8,
+   "dispersion": 0.07,
+   "fourchette": [
+    125,
+    160
+   ],
+   "exemples": [
+    {
+     "id": 9998458481,
+     "prix": 145
+    },
+    {
+     "id": 10656622185,
+     "prix": 135
+    },
+    {
+     "id": 10164592451,
+     "prix": 135
+    },
+    {
+     "id": 10022211688,
+     "prix": 145
+    }
+   ],
    "niveau": "modèle"
   }
  },
@@ -55579,7 +55549,7 @@
   },
   "3205117872": {
    "n": 60,
-   "vu": 1795317395083
+   "vu": 1795317805181
   },
   "3205148019": {
    "n": 2,
@@ -56603,24 +56573,24 @@
   }
  },
  "bilan": {
-  "depuis": 1795310757295,
-  "passages": 111,
-  "nouvelles": 23,
-  "marque": 3,
+  "depuis": 1795317999668,
+  "passages": 12,
+  "nouvelles": 2,
+  "marque": 1,
   "etat": 0,
-  "prix": 2,
+  "prix": 0,
   "accessoire": 0,
   "lot": 0,
   "fausse": 0,
   "imitation": 0,
   "pro": 0,
-  "vendeurSpecialise": 7,
-  "sansCote": 5,
-  "chere": 4,
+  "vendeurSpecialise": 0,
+  "sansCote": 0,
+  "chere": 1,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
-  "alertes": 2
+  "alertes": 0
  },
  "panne": null,
  "panneDebut": null,

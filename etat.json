@@ -1,11 +1,5 @@
 {
  "vues": [
-  "10910962647",
-  "10910966727",
-  "10911039434",
-  "10911039059",
-  "10911037039",
-  "10911030718",
   "10911035871",
   "10911031637",
   "10910943279",
@@ -3999,7 +3993,13 @@
   "10916845353",
   "10916866095",
   "10916890896",
-  "10916362649"
+  "10916362649",
+  "10916908606",
+  "10916934643",
+  "10916939459",
+  "10916944648",
+  "10916942588",
+  "10916963448"
  ],
  "cotes": {
   "marque:fossil": {
@@ -4483,30 +4483,30 @@
    "lissee": true
   },
   "marque:breitling": {
-   "date": 1795217404683,
-   "mediane": 1311,
-   "echantillon": 38,
-   "dispersion": 1.07,
+   "date": 1795319611065,
+   "mediane": 1566,
+   "echantillon": 40,
+   "dispersion": 1.28,
    "fourchette": [
-    280,
-    3100
+    330,
+    4499
    ],
    "exemples": [
     {
-     "id": 10886518623,
-     "prix": 1300
-    },
-    {
-     "id": 10158280337,
-     "prix": 1300
-    },
-    {
-     "id": 10900456970,
-     "prix": 1250
-    },
-    {
-     "id": 10881005961,
+     "id": 10905035282,
      "prix": 1500
+    },
+    {
+     "id": 10374246108,
+     "prix": 1850
+    },
+    {
+     "id": 10873086326,
+     "prix": 1500
+    },
+    {
+     "id": 10913534571,
+     "prix": 1400
     }
    ],
    "niveau": "marque",
@@ -7290,13 +7290,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:time force mundial espana|3": {
-   "date": 1795146297558,
-   "mediane": null,
-   "echantillon": 2,
-   "dispersion": null,
-   "niveau": "modèle"
   },
   "modele:citizen 2000 2010 relogio|2": {
    "date": 1795148251463,
@@ -27555,6 +27548,13 @@
   },
   "modele:glashutte 60er gub|1": {
    "date": 1795316327099,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:citizen junta estanqueidad|4": {
+   "date": 1795318972217,
    "mediane": null,
    "echantillon": 1,
    "dispersion": null,
@@ -139942,6 +139942,10 @@
    "n": 28,
    "vu": 1794993915393
   },
+  "3191356354": {
+   "n": 2,
+   "vu": 1795319482916
+  },
   "3191357204": {
    "n": 10,
    "vu": 1793648526705
@@ -150860,20 +150864,20 @@
   }
  },
  "bilan": {
-  "depuis": 1795316157308,
-  "passages": 65,
-  "nouvelles": 14,
-  "marque": 10,
+  "depuis": 1795319782155,
+  "passages": 2,
+  "nouvelles": 1,
+  "marque": 1,
   "etat": 0,
-  "prix": 1,
+  "prix": 0,
   "accessoire": 0,
   "lot": 0,
   "fausse": 0,
   "imitation": 0,
   "pro": 0,
-  "vendeurSpecialise": 1,
+  "vendeurSpecialise": 0,
   "sansCote": 0,
-  "chere": 2,
+  "chere": 0,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
@@ -150882,17 +150886,6 @@
  "panne": null,
  "panneDebut": null,
  "suivi": [
-  {
-   "id": 10886654784,
-   "titre": "Orologio timex quarzo",
-   "prix": 30,
-   "cote": 129,
-   "score": 66,
-   "lien": "https://www.vinted.fr/items/10886654784-orologio-timex-quarzo",
-   "date": 1795119645685,
-   "statut": "en vente",
-   "verifieA": 1795123271075
-  },
   {
    "id": 10886767446,
    "titre": "Montre",
@@ -154150,34 +154143,46 @@
    "verifieA": 1795309751393
   },
   {
-   "id": 10916389979,
-   "titre": "Tudor Hydronaut Automatic",
-   "prix": 1100,
-   "cote": 1901,
-   "score": 68,
-   "lien": "https://www.vinted.fr/items/10916389979-tudor-hydronaut-automatic",
-   "date": 1795311821092,
-   "statut": "en vente",
-   "verifieA": 1795315436396
-  },
-  {
-   "id": 10916444566,
-   "titre": "tissot pr516",
-   "prix": 210,
-   "cote": 305,
-   "score": 57,
-   "lien": "https://www.vinted.fr/items/10916444566-tissot-pr516",
-   "date": 1795312553698,
-   "statut": null
-  },
-  {
    "id": 10916588128,
    "titre": "Tissot PRX 40mm",
    "prix": 80,
    "cote": 226,
    "score": 83,
    "lien": "https://www.vinted.fr/items/10916588128-tissot-prx-40mm",
-   "date": 1795314359626,
+   "date": 1795316156210,
+   "statut": "retiree",
+   "verifieA": 1795319781586
+  },
+  {
+   "id": 10916389979,
+   "titre": "Tudor Hydronaut Automatic",
+   "prix": 1100,
+   "cote": 1953,
+   "score": 70,
+   "lien": "https://www.vinted.fr/items/10916389979-tudor-hydronaut-automatic",
+   "date": 1795316156362,
+   "statut": "en vente",
+   "verifieA": 1795319782155
+  },
+  {
+   "id": 10916444566,
+   "titre": "tissot pr516",
+   "prix": 210,
+   "cote": 305,
+   "score": 56,
+   "lien": "https://www.vinted.fr/items/10916444566-tissot-pr516",
+   "date": 1795316157294,
+   "statut": "en vente",
+   "verifieA": 1795319824983
+  },
+  {
+   "id": 10916908606,
+   "titre": "Junta de estanqueidad original reloj Citizen.",
+   "prix": 6,
+   "cote": 154,
+   "score": 74,
+   "lien": "https://www.vinted.fr/items/10916908606-junta-de-estanqueidad-original-reloj-citizen",
+   "date": 1795318972820,
    "statut": null
   }
  ],

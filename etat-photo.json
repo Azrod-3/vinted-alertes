@@ -6986,163 +6986,11 @@
    "niveau": "modèle",
    "lissee": true
   },
-  "modele:samsung st95 y2k|2@3075": {
-   "date": 1795183751149,
-   "mediane": 80,
-   "echantillon": 5,
-   "dispersion": 0.31,
-   "fourchette": [
-    31,
-    119
-   ],
-   "exemples": [
-    {
-     "id": 10252243924,
-     "prix": 80
-    },
-    {
-     "id": 10894392085,
-     "prix": 75
-    },
-    {
-     "id": 9724270903,
-     "prix": 100
-    },
-    {
-     "id": 10876623013,
-     "prix": 119
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:pentax annees|2@3076": {
-   "date": 1795183752195,
-   "mediane": 60,
-   "echantillon": 5,
-   "dispersion": 0.8,
-   "fourchette": [
-    25,
-    90
-   ],
-   "exemples": [
-    {
-     "id": 10894401679,
-     "prix": 60
-    },
-    {
-     "id": 10796679534,
-     "prix": 73
-    },
-    {
-     "id": 10455477064,
-     "prix": 90
-    },
-    {
-     "id": 9106481946,
-     "prix": 25
-    }
-   ],
-   "niveau": "modèle"
-  },
   "marque:petri@3076": {
    "date": 1795271708370,
    "mediane": null,
    "echantillon": 54,
    "coteTropBasse": 30
-  },
-  "modele:kodak 100 110|2@3076": {
-   "date": 1795183880192,
-   "mediane": 19,
-   "echantillon": 7,
-   "dispersion": 0.21,
-   "fourchette": [
-    5.9,
-    25
-   ],
-   "exemples": [
-    {
-     "id": 9804327084,
-     "prix": 19
-    },
-    {
-     "id": 9622491467,
-     "prix": 20
-    },
-    {
-     "id": 9610975063,
-     "prix": 20
-    },
-    {
-     "id": 9307210508,
-     "prix": 16
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:canon a3500 powershot|2@3075": {
-   "date": 1795183944153,
-   "mediane": 120,
-   "echantillon": 16,
-   "dispersion": 0.35,
-   "fourchette": [
-    75,
-    180
-   ],
-   "exemples": [
-    {
-     "id": 10198086929,
-     "prix": 120
-    },
-    {
-     "id": 10893619856,
-     "prix": 120
-    },
-    {
-     "id": 10530457125,
-     "prix": 120
-    },
-    {
-     "id": 9917870908,
-     "prix": 115.95
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:zeiss ikon contaflex|1@3076": {
-   "date": 1795184008099,
-   "mediane": 80,
-   "echantillon": 56,
-   "dispersion": 0.63,
-   "fourchette": [
-    20,
-    210
-   ],
-   "exemples": [
-    {
-     "id": 10817286515,
-     "prix": 80
-    },
-    {
-     "id": 5532376962,
-     "prix": 80
-    },
-    {
-     "id": 10331284642,
-     "prix": 80
-    },
-    {
-     "id": 10606096461,
-     "prix": 79
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:nikon l31 compatta|2@3075": {
-   "date": 1795184072773,
-   "mediane": null,
-   "echantillon": 2,
-   "dispersion": null,
-   "niveau": "modèle"
   },
   "modele:nikon digitalkamera|2@3075": {
    "date": 1795286006618,
@@ -7173,107 +7021,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:minolta xd5 analogkamera|1@3076": {
-   "date": 1795184266088,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:kodak early|2@3076": {
-   "date": 1795184266650,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:zeiss 515 2 ikon|2@3076": {
-   "date": 1795184267504,
-   "mediane": 90,
-   "echantillon": 12,
-   "dispersion": 0.22,
-   "fourchette": [
-    40,
-    133
-   ],
-   "exemples": [
-    {
-     "id": 7074368459,
-     "prix": 90
-    },
-    {
-     "id": 7582296737,
-     "prix": 90
-    },
-    {
-     "id": 5876791764,
-     "prix": 90
-    },
-    {
-     "id": 10894511213,
-     "prix": 80
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:olympus e m10|1@3075": {
-   "date": 1795184331725,
-   "mediane": 320,
-   "echantillon": 73,
-   "dispersion": 0.39,
-   "fourchette": [
-    150,
-    600
-   ],
-   "exemples": [
-    {
-     "id": 10681883214,
-     "prix": 320
-    },
-    {
-     "id": 9939929132,
-     "prix": 325
-    },
-    {
-     "id": 10474677110,
-     "prix": 315
-    },
-    {
-     "id": 9737267727,
-     "prix": 310
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:canon at 1|1@3076": {
-   "date": 1795184396022,
-   "mediane": 120,
-   "echantillon": 42,
-   "dispersion": 0.42,
-   "fourchette": [
-    35,
-    225
-   ],
-   "exemples": [
-    {
-     "id": 9941951931,
-     "prix": 120
-    },
-    {
-     "id": 10556102937,
-     "prix": 120
-    },
-    {
-     "id": 7636307344,
-     "prix": 120
-    },
-    {
-     "id": 10587305362,
-     "prix": 120
-    }
-   ],
-   "niveau": "modèle"
   },
   "modele:nikon s2800 coolpix|2@3075": {
    "date": 1795286007366,
@@ -7334,42 +7081,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:ricoh ff 10 zoom|2@3076": {
-   "date": 1795184652887,
-   "mediane": 45,
-   "echantillon": 4,
-   "dispersion": 0,
-   "fourchette": [
-    25,
-    48
-   ],
-   "exemples": [
-    {
-     "id": 10894595473,
-     "prix": 45
-    },
-    {
-     "id": 8614807360,
-     "prix": 45
-    },
-    {
-     "id": 10660559437,
-     "prix": 48
-    },
-    {
-     "id": 9535363198,
-     "prix": 25
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:fuji dl 8 camara|2@3076": {
-   "date": 1795184653628,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
   },
   "modele:nikon onderwater camerw|2@3075": {
    "date": 1795184718351,
@@ -62640,7 +62351,7 @@
  },
  "bilan": {
   "depuis": 1795355454885,
-  "passages": 17,
+  "passages": 32,
   "nouvelles": 0,
   "marque": 0,
   "etat": 0,
@@ -65892,7 +65603,8 @@
    "score": 20,
    "lien": "https://www.vinted.fr/items/10922578726-appareil-photo-vintageavec-son-flash",
    "date": 1795353178251,
-   "statut": null
+   "statut": "en vente",
+   "verifieA": 1795356784427
   },
   {
    "id": 10922599391,
@@ -65902,7 +65614,8 @@
    "score": 65,
    "lien": "https://www.vinted.fr/items/10922599391-appareil-photo-numerique-samsung-pl-120-rose",
    "date": 1795353244885,
-   "statut": null
+   "statut": "en vente",
+   "verifieA": 1795356848084
   },
   {
    "id": 10922675581,
@@ -65912,7 +65625,8 @@
    "score": 22,
    "lien": "https://www.vinted.fr/items/10922675581-macchina-fotografica-mamiya-dsx-1000b",
    "date": 1795353439767,
-   "statut": null
+   "statut": "en vente",
+   "verifieA": 1795357101175
   },
   {
    "id": 10922713603,
@@ -65922,7 +65636,8 @@
    "score": 20,
    "lien": "https://www.vinted.fr/items/10922713603-appareil-photo",
    "date": 1795353634259,
-   "statut": null
+   "statut": "en vente",
+   "verifieA": 1795357291257
   },
   {
    "id": 10922824633,

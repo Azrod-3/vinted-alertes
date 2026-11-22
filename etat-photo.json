@@ -1,8 +1,5 @@
 {
  "vues": [
-  "10897494177",
-  "10897418243",
-  "10897469063",
   "10897465555",
   "10897486532",
   "10897477819",
@@ -3999,7 +3996,10 @@
   "10916193672",
   "10916221342",
   "10916226146",
-  "10916233302"
+  "10916233302",
+  "10916260143",
+  "10916296086",
+  "10916341130"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -37415,6 +37415,13 @@
    "echantillon": 1,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:kodak 1a apparecchio|2@3076": {
+   "date": 1795310694291,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -43771,8 +43778,8 @@
    "vu": 1794663229330
   },
   "79843950": {
-   "n": 3,
-   "vu": 1795309299853
+   "n": 5,
+   "vu": 1795311198501
   },
   "79867657": {
    "n": 3,
@@ -49327,8 +49334,8 @@
    "vu": 1795300932689
   },
   "260332438": {
-   "n": 13,
-   "vu": 1795304233206
+   "n": 14,
+   "vu": 1795310567487
   },
   "260443069": {
    "n": 30,
@@ -56588,24 +56595,24 @@
   }
  },
  "bilan": {
-  "depuis": 1795303536484,
-  "passages": 106,
-  "nouvelles": 79,
-  "marque": 13,
-  "etat": 1,
-  "prix": 4,
-  "accessoire": 1,
+  "depuis": 1795310757295,
+  "passages": 7,
+  "nouvelles": 1,
+  "marque": 1,
+  "etat": 0,
+  "prix": 0,
+  "accessoire": 0,
   "lot": 0,
   "fausse": 0,
   "imitation": 0,
-  "pro": 25,
-  "vendeurSpecialise": 7,
-  "sansCote": 17,
-  "chere": 9,
+  "pro": 0,
+  "vendeurSpecialise": 0,
+  "sansCote": 0,
+  "chere": 0,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
-  "alertes": 2
+  "alertes": 0
  },
  "panne": null,
  "panneDebut": null,
@@ -59907,7 +59914,8 @@
    "score": 63,
    "lien": "https://www.vinted.fr/items/10915960759-nikon-coolpix-a100-digitalkamera",
    "date": 1795306892571,
-   "statut": null
+   "statut": "en vente",
+   "verifieA": 1795310504486
   }
  ],
  "dernierRecap": "2026-11-21"

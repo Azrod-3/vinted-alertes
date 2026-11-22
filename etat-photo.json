@@ -1,13 +1,5 @@
 {
  "vues": [
-  "10897296899",
-  "10897289860",
-  "10897309559",
-  "10897293114",
-  "10897339526",
-  "10896328244",
-  "10897323585",
-  "10897338986",
   "10897330640",
   "10897378907",
   "10897372657",
@@ -3999,7 +3991,15 @@
   "10915885105",
   "10915894960",
   "10901697472",
-  "10915915783"
+  "10915915783",
+  "10907859413",
+  "10915940504",
+  "10915960759",
+  "10915587469",
+  "10915971911",
+  "10915984106",
+  "10915618172",
+  "10916009055"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -6820,42 +6820,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "marque:topcon@3076": {
-   "date": 1795134122659,
-   "mediane": 100,
-   "echantillon": 25,
-   "dispersion": 0.82,
-   "fourchette": [
-    28,
-    250
-   ],
-   "exemples": [
-    {
-     "id": 10472323963,
-     "prix": 100
-    },
-    {
-     "id": 7191125974,
-     "prix": 100
-    },
-    {
-     "id": 8677445401,
-     "prix": 100
-    },
-    {
-     "id": 6540943147,
-     "prix": 100
-    }
-   ],
-   "niveau": "marque"
-  },
-  "modele:kodak 035 042 1950er jahren|1@3076": {
-   "date": 1795134503946,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
   },
   "modele:fujifilm 50r gfx|2@3075": {
    "date": 1795134883641,
@@ -16681,15 +16645,19 @@
    "niveau": "modèle"
   },
   "modele:nikon a100 coolpix|1@3075": {
-   "date": 1795197958856,
-   "mediane": 99,
+   "date": 1795306891887,
+   "mediane": 98,
    "echantillon": 36,
-   "dispersion": 0.39,
+   "dispersion": 0.42,
    "fourchette": [
-    50,
+    35,
     170
    ],
    "exemples": [
+    {
+     "id": 10228038594,
+     "prix": 95
+    },
     {
      "id": 10827711742,
      "prix": 99
@@ -16701,13 +16669,10 @@
     {
      "id": 10504053593,
      "prix": 99.99
-    },
-    {
-     "id": 9554584954,
-     "prix": 100
     }
    ],
-   "niveau": "modèle"
+   "niveau": "modèle",
+   "lissee": true
   },
   "modele:sony dsc h300 china|2@3075": {
    "date": 1795197959553,
@@ -37352,6 +37317,78 @@
    "echantillon": 2,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:nikon s1000pj 12 1mp|1@3075": {
+   "date": 1795306638717,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:nikon s30 coolpix|2@3075": {
+   "date": 1795307019437,
+   "mediane": 60,
+   "echantillon": 35,
+   "dispersion": 0.33,
+   "fourchette": [
+    20,
+    95
+   ],
+   "exemples": [
+    {
+     "id": 6686450499,
+     "prix": 60
+    },
+    {
+     "id": 8788920944,
+     "prix": 60
+    },
+    {
+     "id": 7026440170,
+     "prix": 60
+    },
+    {
+     "id": 8237618662,
+     "prix": 60
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:nikon s2700 coolpix|1@3075": {
+   "date": 1795307020339,
+   "mediane": 90,
+   "echantillon": 53,
+   "dispersion": 0.38,
+   "fourchette": [
+    35,
+    150
+   ],
+   "exemples": [
+    {
+     "id": 10311597573,
+     "prix": 90
+    },
+    {
+     "id": 9904809223,
+     "prix": 90
+    },
+    {
+     "id": 7659107774,
+     "prix": 90
+    },
+    {
+     "id": 8040036651,
+     "prix": 90
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:nikon 2900 coolpix|2@3075": {
+   "date": 1795307273674,
+   "mediane": null,
+   "echantillon": 2,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -42159,6 +42196,10 @@
    "n": 4,
    "vu": 1795255500384
   },
+  "59470277": {
+   "n": 2,
+   "vu": 1795307273004
+  },
   "59480794": {
    "n": 2,
    "vu": 1795127719574
@@ -42806,6 +42847,10 @@
   "67542547": {
    "n": 2,
    "vu": 1795181673397
+  },
+  "67570874": {
+   "n": 3,
+   "vu": 1795307018726
   },
   "67656266": {
    "n": 2,
@@ -56506,38 +56551,27 @@
  },
  "bilan": {
   "depuis": 1795303536484,
-  "passages": 46,
-  "nouvelles": 38,
-  "marque": 8,
+  "passages": 61,
+  "nouvelles": 46,
+  "marque": 9,
   "etat": 0,
-  "prix": 1,
+  "prix": 2,
   "accessoire": 0,
   "lot": 0,
   "fausse": 0,
   "imitation": 0,
   "pro": 8,
   "vendeurSpecialise": 7,
-  "sansCote": 8,
-  "chere": 5,
+  "sansCote": 11,
+  "chere": 7,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
-  "alertes": 1
+  "alertes": 2
  },
  "panne": null,
  "panneDebut": null,
  "suivi": [
-  {
-   "id": 10830705369,
-   "titre": "Voigtländer Vitoret AF 35-80 analoog fototoestel fotocamera",
-   "prix": 39,
-   "cote": null,
-   "score": 16,
-   "lien": "https://www.vinted.fr/items/10830705369-voigtlander-vitoret-af-35-80-analoog-fototoestel-fotocamera",
-   "date": 1794774575145,
-   "statut": "en vente",
-   "verifieA": 1794778200960
-  },
   {
    "id": 10830777342,
    "titre": "Pentax un + Obiettivo 50mm f/2 SMC Pentax-M - Analogica 35mm",
@@ -59813,7 +59847,8 @@
    "score": 82,
    "lien": "https://www.vinted.fr/items/10915608641-canon-eos2000d",
    "date": 1795303473472,
-   "statut": null
+   "statut": "retiree",
+   "verifieA": 1795307084000
   },
   {
    "id": 10915885105,
@@ -59823,6 +59858,16 @@
    "score": 74,
    "lien": "https://www.vinted.fr/items/10915885105-canon-eos-1200d-2-objekte",
    "date": 1795306132307,
+   "statut": null
+  },
+  {
+   "id": 10915960759,
+   "titre": "Nikon Coolpix A100 Digitalkamera",
+   "prix": 35,
+   "cote": 98,
+   "score": 63,
+   "lien": "https://www.vinted.fr/items/10915960759-nikon-coolpix-a100-digitalkamera",
+   "date": 1795306892571,
    "statut": null
   }
  ],

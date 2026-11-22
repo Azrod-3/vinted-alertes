@@ -1,16 +1,5 @@
 {
  "vues": [
-  "10911051010",
-  "10911049981",
-  "10910965967",
-  "10911047491",
-  "10911044451",
-  "10911040407",
-  "10911042061",
-  "10911043575",
-  "10911113215",
-  "10836538365",
-  "10911109820",
   "10911105200",
   "10911112532",
   "10911109357",
@@ -3999,7 +3988,18 @@
   "10917176197",
   "10917176051",
   "10917179617",
-  "10917187890"
+  "10917187890",
+  "10917192329",
+  "10917191908",
+  "10917195167",
+  "10917204189",
+  "10917206495",
+  "10917204938",
+  "10917212615",
+  "10917187585",
+  "10898952470",
+  "10887657452",
+  "10917227100"
  ],
  "cotes": {
   "marque:fossil": {
@@ -4387,30 +4387,30 @@
    "lissee": true
   },
   "marque:orient": {
-   "date": 1795211937674,
-   "mediane": 140,
-   "echantillon": 69,
-   "dispersion": 0.49,
+   "date": 1795324599179,
+   "mediane": 144,
+   "echantillon": 72,
+   "dispersion": 0.38,
    "fourchette": [
-    69.99,
+    48,
     260
    ],
    "exemples": [
     {
-     "id": 10897327487,
-     "prix": 135
+     "id": 10731802158,
+     "prix": 149
     },
     {
-     "id": 10870107157,
-     "prix": 135
+     "id": 10838052036,
+     "prix": 150
     },
     {
-     "id": 10812076936,
-     "prix": 135
+     "id": 10910907580,
+     "prix": 140
     },
     {
-     "id": 10872967297,
-     "prix": 135
+     "id": 10891823383,
+     "prix": 150
     }
    ],
    "niveau": "marque",
@@ -27544,6 +27544,42 @@
    "mediane": null,
    "echantillon": 1,
    "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:orient automatisch horloge|1": {
+   "date": 1795324599641,
+   "mediane": null,
+   "echantillon": 2,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:tissot couturier chronograph|1": {
+   "date": 1795324982760,
+   "mediane": 295,
+   "echantillon": 50,
+   "dispersion": 0.41,
+   "fourchette": [
+    150,
+    605
+   ],
+   "exemples": [
+    {
+     "id": 9711702504,
+     "prix": 299
+    },
+    {
+     "id": 9659417230,
+     "prix": 290
+    },
+    {
+     "id": 10054732291,
+     "prix": 300
+    },
+    {
+     "id": 8171836769,
+     "prix": 300
+    }
+   ],
    "niveau": "modèle"
   }
  },
@@ -99364,6 +99400,10 @@
    "n": 2,
    "vu": 1794069280853
   },
+  "259114936": {
+   "n": 3,
+   "vu": 1795325111809
+  },
   "259124524": {
    "n": 6,
    "vu": 1793633350698
@@ -115157,8 +115197,8 @@
    "vu": 1795286275096
   },
   "3128220373": {
-   "n": 9,
-   "vu": 1795241530085
+   "n": 11,
+   "vu": 1795325324345
   },
   "3128222891": {
    "n": 2,
@@ -127237,8 +127277,8 @@
    "vu": 1794597099342
   },
   "3163579406": {
-   "n": 25,
-   "vu": 1795324001291
+   "n": 26,
+   "vu": 1795325111810
   },
   "3163586126": {
    "n": 6,
@@ -131745,8 +131785,8 @@
    "vu": 1794493222794
   },
   "3175395032": {
-   "n": 136,
-   "vu": 1794910375439
+   "n": 137,
+   "vu": 1795325452163
   },
   "3175399616": {
    "n": 200,
@@ -143957,8 +143997,8 @@
    "vu": 1794311837418
   },
   "3200903275": {
-   "n": 4,
-   "vu": 1795324256258
+   "n": 5,
+   "vu": 1795324598474
   },
   "3200908823": {
    "n": 6,
@@ -150855,38 +150895,27 @@
  },
  "bilan": {
   "depuis": 1795323404706,
-  "passages": 27,
-  "nouvelles": 15,
-  "marque": 12,
+  "passages": 49,
+  "nouvelles": 26,
+  "marque": 19,
   "etat": 0,
   "prix": 0,
-  "accessoire": 0,
+  "accessoire": 1,
   "lot": 0,
   "fausse": 0,
   "imitation": 0,
   "pro": 0,
-  "vendeurSpecialise": 3,
+  "vendeurSpecialise": 4,
   "sansCote": 0,
-  "chere": 0,
+  "chere": 1,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
-  "alertes": 0
+  "alertes": 1
  },
  "panne": null,
  "panneDebut": null,
  "suivi": [
-  {
-   "id": 10886767446,
-   "titre": "Montre",
-   "prix": 35,
-   "cote": 115,
-   "score": 59,
-   "lien": "https://www.vinted.fr/items/10886767446-montre",
-   "date": 1795120036636,
-   "statut": "retiree",
-   "verifieA": 1795123659426
-  },
   {
    "id": 10886890724,
    "titre": "Festina Chronograph F6702 herenhorloge staal zwart 41mm",
@@ -154175,6 +154204,16 @@
    "date": 1795318972820,
    "statut": "en vente",
    "verifieA": 1795322594295
+  },
+  {
+   "id": 10917204938,
+   "titre": "Montre Tissot Couturier Quartz Chronograph",
+   "prix": 200,
+   "cote": 295,
+   "score": 55,
+   "lien": "https://www.vinted.fr/items/10917204938-montre-tissot-couturier-quartz-chronograph",
+   "date": 1795324983508,
+   "statut": null
   }
  ],
  "dernierRecap": "2026-11-21"

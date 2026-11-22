@@ -1,12 +1,5 @@
 {
  "vues": [
-  "10897457945",
-  "10897443280",
-  "10897440885",
-  "10897440666",
-  "10897462279",
-  "10897447883",
-  "10885947731",
   "10897494177",
   "10897418243",
   "10897469063",
@@ -3999,7 +3992,14 @@
   "10916181206",
   "10916179848",
   "10916174781",
-  "10916176886"
+  "10916176886",
+  "10916187378",
+  "10916190832",
+  "10916200943",
+  "10916193672",
+  "10916221342",
+  "10916226146",
+  "10916233302"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -37408,6 +37408,13 @@
    "echantillon": 1,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:kodak baby brown|1@3076": {
+   "date": 1795309429656,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -42536,8 +42543,8 @@
    "vu": 1795185111280
   },
   "62760003": {
-   "n": 65,
-   "vu": 1795309299852
+   "n": 69,
+   "vu": 1795309934565
   },
   "62774310": {
    "n": 3,
@@ -56582,18 +56589,18 @@
  },
  "bilan": {
   "depuis": 1795303536484,
-  "passages": 91,
-  "nouvelles": 72,
-  "marque": 12,
+  "passages": 106,
+  "nouvelles": 79,
+  "marque": 13,
   "etat": 1,
-  "prix": 3,
+  "prix": 4,
   "accessoire": 1,
   "lot": 0,
   "fausse": 0,
   "imitation": 0,
-  "pro": 21,
+  "pro": 25,
   "vendeurSpecialise": 7,
-  "sansCote": 16,
+  "sansCote": 17,
   "chere": 9,
   "description": 0,
   "scoreFaible": 0,
@@ -59889,7 +59896,8 @@
    "score": 74,
    "lien": "https://www.vinted.fr/items/10915885105-canon-eos-1200d-2-objekte",
    "date": 1795306132307,
-   "statut": null
+   "statut": "retiree",
+   "verifieA": 1795309745190
   },
   {
    "id": 10915960759,

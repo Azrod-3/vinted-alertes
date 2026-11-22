@@ -1,41 +1,5 @@
 {
  "vues": [
-  "10874945498",
-  "10898664811",
-  "10898647319",
-  "10899969591",
-  "10899953474",
-  "10899952932",
-  "10899947064",
-  "10899944537",
-  "10899945024",
-  "10899938595",
-  "10899903534",
-  "10899866871",
-  "10899853605",
-  "10899838995",
-  "10899757947",
-  "10899743074",
-  "10899741605",
-  "10899691915",
-  "10899723181",
-  "10899713395",
-  "10899705913",
-  "10899691820",
-  "10899676602",
-  "10899621454",
-  "10899604997",
-  "10899594108",
-  "10895341678",
-  "10899553881",
-  "10899530222",
-  "10899506348",
-  "10899484576",
-  "10899482297",
-  "10899481822",
-  "10899479335",
-  "10899461005",
-  "10899464697",
   "10899452357",
   "10899463541",
   "10899441162",
@@ -3999,7 +3963,43 @@
   "10933166815",
   "10933152334",
   "10933156022",
-  "10933167592"
+  "10933167592",
+  "10933318636",
+  "10933314327",
+  "10933298022",
+  "10933279338",
+  "10933267656",
+  "10933239544",
+  "10933213344",
+  "10933213389",
+  "10933206209",
+  "10933211025",
+  "10933200432",
+  "10933196606",
+  "10933181842",
+  "10917301158",
+  "10933284034",
+  "10933266111",
+  "10933327242",
+  "10933353724",
+  "10933347249",
+  "10933362948",
+  "10933348443",
+  "10929028892",
+  "10929611326",
+  "10933418205",
+  "10933417470",
+  "10933408384",
+  "10933408738",
+  "10933410410",
+  "10933436435",
+  "10933457444",
+  "10933453215",
+  "10933448217",
+  "10933448486",
+  "10933444197",
+  "10933443218",
+  "10933446858"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -5496,13 +5496,13 @@
    "lissee": true
   },
   "modele:canon 300 camara|2@3076": {
-   "date": 1795241848753,
-   "mediane": 95,
-   "echantillon": 32,
-   "dispersion": 0.48,
+   "date": 1795387347999,
+   "mediane": 98,
+   "echantillon": 34,
+   "dispersion": 0.66,
    "fourchette": [
     35,
-    200
+    250
    ],
    "exemples": [
     {
@@ -5514,12 +5514,12 @@
      "prix": 99
     },
     {
-     "id": 10700523579,
-     "prix": 90
+     "id": 5981706106,
+     "prix": 100
     },
     {
-     "id": 8688945480,
-     "prix": 90
+     "id": 6852064221,
+     "prix": 100
     }
    ],
    "niveau": "modèle",
@@ -7241,273 +7241,6 @@
    "niveau": "marque",
    "lissee": true
   },
-  "modele:nikon coolpix|1@3075": {
-   "date": 1795213977723,
-   "mediane": 55,
-   "echantillon": 79,
-   "dispersion": 0.64,
-   "fourchette": [
-    15,
-    130
-   ],
-   "exemples": [
-    {
-     "id": 10882035390,
-     "prix": 55
-    },
-    {
-     "id": 10899594968,
-     "prix": 55
-    },
-    {
-     "id": 10818285196,
-     "prix": 55
-    },
-    {
-     "id": 10892702239,
-     "prix": 56
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:nikon fotocamere digitali|1@3075": {
-   "date": 1795214104838,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:samsung nx300 systemkamera|2@3075": {
-   "date": 1795214611843,
-   "mediane": 230,
-   "echantillon": 4,
-   "dispersion": 0,
-   "fourchette": [
-    210,
-    259
-   ],
-   "exemples": [
-    {
-     "id": 10690100638,
-     "prix": 230
-    },
-    {
-     "id": 10836159042,
-     "prix": 229
-    },
-    {
-     "id": 10900726753,
-     "prix": 210
-    },
-    {
-     "id": 10869587398,
-     "prix": 259
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:olympus e m10 mark|1@3075": {
-   "date": 1795214738854,
-   "mediane": 380,
-   "echantillon": 66,
-   "dispersion": 0.42,
-   "fourchette": [
-    190,
-    680
-   ],
-   "exemples": [
-    {
-     "id": 10391095830,
-     "prix": 380
-    },
-    {
-     "id": 10384897612,
-     "prix": 380
-    },
-    {
-     "id": 9799747960,
-     "prix": 380
-    },
-    {
-     "id": 8871576217,
-     "prix": 380
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:fujifilm x100v|2@3075": {
-   "date": 1795214739568,
-   "mediane": 1310,
-   "echantillon": 18,
-   "dispersion": 0.15,
-   "fourchette": [
-    1000,
-    1800
-   ],
-   "exemples": [
-    {
-     "id": 10892537564,
-     "prix": 1300
-    },
-    {
-     "id": 10893187383,
-     "prix": 1300
-    },
-    {
-     "id": 10736510941,
-     "prix": 1320
-    },
-    {
-     "id": 10647193217,
-     "prix": 1330
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:olympus camara waterproof|1@3075": {
-   "date": 1795214866429,
-   "mediane": 44,
-   "echantillon": 4,
-   "dispersion": 0.16,
-   "fourchette": [
-    28,
-    79
-   ],
-   "exemples": [
-    {
-     "id": 9925055375,
-     "prix": 47
-    },
-    {
-     "id": 10256188541,
-     "prix": 40
-    },
-    {
-     "id": 10896628691,
-     "prix": 28
-    },
-    {
-     "id": 9617043038,
-     "prix": 79
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:agfa silette sensor|1@3076": {
-   "date": 1795214993299,
-   "mediane": 29,
-   "echantillon": 30,
-   "dispersion": 0.59,
-   "fourchette": [
-    10,
-    70
-   ],
-   "exemples": [
-    {
-     "id": 10604222403,
-     "prix": 30
-    },
-    {
-     "id": 9390138520,
-     "prix": 28
-    },
-    {
-     "id": 5752675193,
-     "prix": 28
-    },
-    {
-     "id": 8511897707,
-     "prix": 30
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:canon canomatic optical|2@3076": {
-   "date": 1795214994085,
-   "mediane": 50,
-   "echantillon": 3,
-   "dispersion": null,
-   "fourchette": [
-    45,
-    55
-   ],
-   "exemples": [
-    {
-     "id": 10743062824,
-     "prix": 50
-    },
-    {
-     "id": 10900771575,
-     "prix": 45
-    },
-    {
-     "id": 10639182960,
-     "prix": 55
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:nikon 70ws point|1@3076": {
-   "date": 1795215120842,
-   "mediane": 49,
-   "echantillon": 3,
-   "dispersion": null,
-   "fourchette": [
-    32,
-    75
-   ],
-   "exemples": [
-    {
-     "id": 10571868855,
-     "prix": 49
-    },
-    {
-     "id": 10900782249,
-     "prix": 32
-    },
-    {
-     "id": 10241916502,
-     "prix": 75
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:agfa 335 f 3 5|1@3076": {
-   "date": 1795215121642,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:kodak camara|3@3076": {
-   "date": 1795215248950,
-   "mediane": 24,
-   "echantillon": 44,
-   "dispersion": 0.85,
-   "fourchette": [
-    9,
-    60
-   ],
-   "exemples": [
-    {
-     "id": 10734147187,
-     "prix": 25
-    },
-    {
-     "id": 10648173876,
-     "prix": 25
-    },
-    {
-     "id": 10877504572,
-     "prix": 22
-    },
-    {
-     "id": 10722484841,
-     "prix": 21.99
-    }
-   ],
-   "niveau": "modèle"
-  },
   "modele:nikon p500 12 1|2@3075": {
    "date": 1795215757375,
    "mediane": null,
@@ -7867,33 +7600,34 @@
    "niveau": "modèle"
   },
   "modele:canon camara ixus|2@3075": {
-   "date": 1795217288959,
-   "mediane": 80,
-   "echantillon": 34,
-   "dispersion": 0.94,
+   "date": 1795387859564,
+   "mediane": 77,
+   "echantillon": 31,
+   "dispersion": 1.13,
    "fourchette": [
     20,
     155
    ],
    "exemples": [
     {
-     "id": 10695901132,
-     "prix": 80
+     "id": 10770809500,
+     "prix": 75
     },
     {
-     "id": 10897433488,
-     "prix": 79
+     "id": 10347780812,
+     "prix": 75
+    },
+    {
+     "id": 10789886581,
+     "prix": 69
     },
     {
      "id": 10243725047,
      "prix": 85
-    },
-    {
-     "id": 10770809500,
-     "prix": 85
     }
    ],
-   "niveau": "modèle"
+   "niveau": "modèle",
+   "lissee": true
   },
   "modele:pentax program|2@3076": {
    "date": 1795217289557,
@@ -44052,6 +43786,99 @@
    "echantillon": 2,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:praktica maquina|2@3076": {
+   "date": 1795387221153,
+   "mediane": 60,
+   "echantillon": 13,
+   "dispersion": 1.08,
+   "fourchette": [
+    18,
+    200
+   ],
+   "exemples": [
+    {
+     "id": 8106904254,
+     "prix": 60
+    },
+    {
+     "id": 7387943201,
+     "prix": 50
+    },
+    {
+     "id": 10875381420,
+     "prix": 35
+    },
+    {
+     "id": 9825977455,
+     "prix": 85
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:canon a2300 16mp|2@3075": {
+   "date": 1795387475244,
+   "mediane": null,
+   "echantillon": 2,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:mamiya g2 bellows|2@3076": {
+   "date": 1795387475955,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:minolta conjunto maquinas|1@3076": {
+   "date": 1795387477551,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:canon camra antigua|4@3075": {
+   "date": 1795387857791,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:canon digitalkamera|2@3075": {
+   "date": 1795387858802,
+   "mediane": 120,
+   "echantillon": 77,
+   "dispersion": 0.63,
+   "fourchette": [
+    30,
+    269
+   ],
+   "exemples": [
+    {
+     "id": 10866851770,
+     "prix": 120
+    },
+    {
+     "id": 10198086929,
+     "prix": 120
+    },
+    {
+     "id": 10930483076,
+     "prix": 120
+    },
+    {
+     "id": 10879516173,
+     "prix": 120
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:canon eos400d camara|1@3075": {
+   "date": 1795388113199,
+   "mediane": null,
+   "echantillon": 2,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -48396,8 +48223,8 @@
    "vu": 1794950221939
   },
   "52729617": {
-   "n": 8,
-   "vu": 1795282650901
+   "n": 9,
+   "vu": 1795387857060
   },
   "52742868": {
    "n": 2,
@@ -50132,8 +49959,8 @@
    "vu": 1794879561553
   },
   "71420791": {
-   "n": 11,
-   "vu": 1795300805872
+   "n": 12,
+   "vu": 1795387220274
   },
   "71453616": {
    "n": 3,
@@ -56732,8 +56559,8 @@
    "vu": 1794740726150
   },
   "262867428": {
-   "n": 12,
-   "vu": 1795380807610
+   "n": 13,
+   "vu": 1795387220274
   },
   "262879332": {
    "n": 8,
@@ -57164,8 +56991,8 @@
    "vu": 1793732269875
   },
   "271607801": {
-   "n": 14,
-   "vu": 1795377214906
+   "n": 15,
+   "vu": 1795388112502
   },
   "271622104": {
    "n": 43,
@@ -58130,6 +57957,10 @@
   "294113690": {
    "n": 2,
    "vu": 1794970576549
+  },
+  "294241236": {
+   "n": 2,
+   "vu": 1795387474594
   },
   "294258882": {
    "n": 4,
@@ -59676,8 +59507,8 @@
    "vu": 1794674819700
   },
   "3141779185": {
-   "n": 83,
-   "vu": 1795132331460
+   "n": 84,
+   "vu": 1795387220274
   },
   "3141802510": {
    "n": 2,
@@ -60852,8 +60683,8 @@
    "vu": 1794237367694
   },
   "3165918147": {
-   "n": 2,
-   "vu": 1795294133977
+   "n": 3,
+   "vu": 1795387857060
   },
   "3166110930": {
    "n": 3,
@@ -64262,38 +64093,27 @@
  },
  "bilan": {
   "depuis": 1795382922079,
-  "passages": 54,
-  "nouvelles": 128,
-  "marque": 21,
+  "passages": 69,
+  "nouvelles": 164,
+  "marque": 25,
   "etat": 2,
   "prix": 5,
-  "accessoire": 5,
+  "accessoire": 6,
   "lot": 1,
   "fausse": 0,
   "imitation": 0,
   "pro": 1,
-  "vendeurSpecialise": 11,
-  "sansCote": 59,
-  "chere": 19,
+  "vendeurSpecialise": 16,
+  "sansCote": 78,
+  "chere": 25,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
-  "alertes": 4
+  "alertes": 5
  },
  "panne": null,
  "panneDebut": null,
  "suivi": [
-  {
-   "id": 10804801735,
-   "titre": "Fotocamera Fujifilm x-T2",
-   "prix": 380,
-   "cote": 600,
-   "score": 63,
-   "lien": "https://www.vinted.fr/items/10804801735-fotocamera-fujifilm-x-t2",
-   "date": 1794921146222,
-   "statut": "en vente",
-   "verifieA": 1794924753721
-  },
   {
    "id": 10853049456,
    "titre": "Canon Kamera",
@@ -67547,7 +67367,8 @@
    "score": 20,
    "lien": "https://www.vinted.fr/items/10932669471-rollei-digitalkamera-5-megapixel-vintage-digital-camera",
    "date": 1795383879202,
-   "statut": null
+   "statut": "en vente",
+   "verifieA": 1795387541473
   },
   {
    "id": 10932705459,
@@ -67557,7 +67378,8 @@
    "score": 55,
    "lien": "https://www.vinted.fr/items/10932705459-camara-sony-cyber-shot-dsc-w710-5x-optical-zoom-lens-f32-65",
    "date": 1795384008102,
-   "statut": null
+   "statut": "retiree",
+   "verifieA": 1795387668063
   },
   {
    "id": 10933057100,
@@ -67577,6 +67399,16 @@
    "score": 85,
    "lien": "https://www.vinted.fr/items/10933142824-canon-eos-200d",
    "date": 1795386173448,
+   "statut": null
+  },
+  {
+   "id": 10933362948,
+   "titre": "Mamiya Bellows G2 Lens Hood",
+   "prix": 55,
+   "cote": null,
+   "score": 20,
+   "lien": "https://www.vinted.fr/items/10933362948-mamiya-bellows-g2-lens-hood",
+   "date": 1795387477813,
    "statut": null
   }
  ],

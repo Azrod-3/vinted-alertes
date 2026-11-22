@@ -1,9 +1,5 @@
 {
  "vues": [
-  "10897497925",
-  "10897536304",
-  "10897529793",
-  "10897537686",
   "10883722199",
   "10897530353",
   "10897531007",
@@ -3999,7 +3995,11 @@
   "10916524323",
   "10916553438",
   "10916548894",
-  "10916563713"
+  "10916563713",
+  "10916578576",
+  "10916576270",
+  "10916597821",
+  "10916620504"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -7127,15 +7127,19 @@
    "niveau": "modèle"
   },
   "modele:pentax 738g camara|2@3076": {
-   "date": 1795157618826,
+   "date": 1795314490223,
    "mediane": 60,
-   "echantillon": 3,
-   "dispersion": null,
+   "echantillon": 4,
+   "dispersion": 0,
    "fourchette": [
     57,
-    160
+    65
    ],
    "exemples": [
+    {
+     "id": 10890271380,
+     "prix": 60
+    },
     {
      "id": 10389858689,
      "prix": 60
@@ -7145,11 +7149,12 @@
      "prix": 57
     },
     {
-     "id": 10890271380,
-     "prix": 160
+     "id": 10916597821,
+     "prix": 65
     }
    ],
-   "niveau": "modèle"
+   "niveau": "modèle",
+   "lissee": true
   },
   "modele:sony t300 cybershot|2@3075": {
    "date": 1795157872290,
@@ -37412,6 +37417,19 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "marque:voigtlander@3075": {
+   "date": 1795314235766,
+   "mediane": null,
+   "echantillon": 10,
+   "coteTropBasse": 45
+  },
+  "modele:voigtlander 1060 virtus|2@3075": {
+   "date": 1795314236388,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -55560,8 +55578,8 @@
    "vu": 1794582844335
   },
   "3205117872": {
-   "n": 56,
-   "vu": 1795313981223
+   "n": 57,
+   "vu": 1795314742381
   },
   "3205148019": {
    "n": 2,
@@ -56586,38 +56604,27 @@
  },
  "bilan": {
   "depuis": 1795310757295,
-  "passages": 52,
-  "nouvelles": 14,
+  "passages": 67,
+  "nouvelles": 18,
   "marque": 2,
   "etat": 0,
-  "prix": 1,
+  "prix": 2,
   "accessoire": 0,
   "lot": 0,
   "fausse": 0,
   "imitation": 0,
   "pro": 0,
-  "vendeurSpecialise": 3,
+  "vendeurSpecialise": 4,
   "sansCote": 4,
-  "chere": 3,
+  "chere": 4,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
-  "alertes": 1
+  "alertes": 2
  },
  "panne": null,
  "panneDebut": null,
  "suivi": [
-  {
-   "id": 10831162035,
-   "titre": "Canon EOS 1300D",
-   "prix": 100,
-   "cote": 190,
-   "score": 61,
-   "lien": "https://www.vinted.fr/items/10831162035-canon-eos-1300d",
-   "date": 1794776134592,
-   "statut": "retiree",
-   "verifieA": 1794779737860
-  },
   {
    "id": 10831338717,
    "titre": "Appareil photo numérique Canon IXUS 130",
@@ -59904,6 +59911,16 @@
    "score": 92,
    "lien": "https://www.vinted.fr/items/10916495483-fujifilm-x100vi",
    "date": 1795313224046,
+   "statut": null
+  },
+  {
+   "id": 10916576270,
+   "titre": "Voigtländer Virtus XM 1060 digital compact camera",
+   "prix": 50,
+   "cote": null,
+   "score": 22,
+   "lien": "https://www.vinted.fr/items/10916576270-voigtlander-virtus-xm-1060-digital-compact-camera",
+   "date": 1795314237344,
    "statut": null
   }
  ],

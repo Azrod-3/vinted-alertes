@@ -1,10 +1,5 @@
 {
  "vues": [
-  "10897511633",
-  "10897500491",
-  "10897511683",
-  "10897505060",
-  "10897499686",
   "10897497925",
   "10897536304",
   "10897529793",
@@ -3999,7 +3994,12 @@
   "10916434476",
   "10916441134",
   "10916462192",
-  "10916471746"
+  "10916471746",
+  "10916495483",
+  "10916524323",
+  "10916553438",
+  "10916548894",
+  "10916563713"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -4135,10 +4135,10 @@
    "lissee": true
   },
   "marque:fujifilm@3075": {
-   "date": 1795223246476,
+   "date": 1795313222495,
    "mediane": null,
-   "echantillon": 69,
-   "coteTropBasse": 45
+   "echantillon": 68,
+   "coteTropBasse": 46
   },
   "marque:olympus@3075": {
    "date": 1795255502033,
@@ -4189,19 +4189,15 @@
    "coteTropBasse": 20
   },
   "marque:canon@3076": {
-   "date": 1795219573844,
+   "date": 1795313477158,
    "mediane": 50,
-   "echantillon": 82,
-   "dispersion": 1,
+   "echantillon": 81,
+   "dispersion": 0.9,
    "fourchette": [
     14,
     150
    ],
    "exemples": [
-    {
-     "id": 10851473468,
-     "prix": 50
-    },
     {
      "id": 10895455689,
      "prix": 50
@@ -4211,11 +4207,16 @@
      "prix": 50
     },
     {
+     "id": 10912589653,
+     "prix": 50
+    },
+    {
      "id": 10619256352,
      "prix": 50
     }
    ],
-   "niveau": "marque"
+   "niveau": "marque",
+   "lissee": true
   },
   "marque:minolta@3076": {
    "date": 1795268468911,
@@ -5894,10 +5895,10 @@
    "lissee": true
   },
   "modele:fujifilm x100vi|2@3075": {
-   "date": 1795193319407,
+   "date": 1795313223191,
    "mediane": 1700,
    "echantillon": 21,
-   "dispersion": 0.06,
+   "dispersion": 0.09,
    "fourchette": [
     1440,
     2000
@@ -5908,11 +5909,11 @@
      "prix": 1700
     },
     {
-     "id": 9578791399,
+     "id": 9131443326,
      "prix": 1700
     },
     {
-     "id": 10636686271,
+     "id": 8977493531,
      "prix": 1700
     },
     {
@@ -6820,13 +6821,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:kodak flash einwegkamera|4@3076": {
-   "date": 1795140583890,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
   },
   "modele:samsung es65|2@3075": {
    "date": 1795282137589,
@@ -55566,8 +55560,8 @@
    "vu": 1794582844335
   },
   "3205117872": {
-   "n": 55,
-   "vu": 1795312463205
+   "n": 56,
+   "vu": 1795313981223
   },
   "3205148019": {
    "n": 2,
@@ -56592,8 +56586,8 @@
  },
  "bilan": {
   "depuis": 1795310757295,
-  "passages": 37,
-  "nouvelles": 9,
+  "passages": 52,
+  "nouvelles": 14,
   "marque": 2,
   "etat": 0,
   "prix": 1,
@@ -56602,28 +56596,17 @@
   "fausse": 0,
   "imitation": 0,
   "pro": 0,
-  "vendeurSpecialise": 2,
-  "sansCote": 2,
-  "chere": 2,
+  "vendeurSpecialise": 3,
+  "sansCote": 4,
+  "chere": 3,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
-  "alertes": 0
+  "alertes": 1
  },
  "panne": null,
  "panneDebut": null,
  "suivi": [
-  {
-   "id": 10830777342,
-   "titre": "Pentax un + Obiettivo 50mm f/2 SMC Pentax-M - Analogica 35mm",
-   "prix": 40,
-   "cote": 115,
-   "score": 63,
-   "lien": "https://www.vinted.fr/items/10830777342-pentax-un-obiettivo-50mm-f2-smc-pentax-m-analogica-35mm",
-   "date": 1794774967783,
-   "statut": "en vente",
-   "verifieA": 1794778586562
-  },
   {
    "id": 10831162035,
    "titre": "Canon EOS 1300D",
@@ -59912,6 +59895,16 @@
    "date": 1795306892571,
    "statut": "en vente",
    "verifieA": 1795310504486
+  },
+  {
+   "id": 10916495483,
+   "titre": "Fujifilm X100VI",
+   "prix": 650,
+   "cote": 1700,
+   "score": 92,
+   "lien": "https://www.vinted.fr/items/10916495483-fujifilm-x100vi",
+   "date": 1795313224046,
+   "statut": null
   }
  ],
  "dernierRecap": "2026-11-21"

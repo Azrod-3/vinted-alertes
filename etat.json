@@ -1,14 +1,5 @@
 {
  "vues": [
-  "10928654494",
-  "10928940422",
-  "10928937352",
-  "10928931744",
-  "10928925271",
-  "10928930301",
-  "10928928824",
-  "10928931708",
-  "10928933089",
   "10928920466",
   "10928924999",
   "10928918578",
@@ -3999,7 +3990,16 @@
   "10900793930",
   "10935105061",
   "10935116648",
-  "10935134316"
+  "10935134316",
+  "10935145571",
+  "10935085678",
+  "10935160186",
+  "10935159941",
+  "10935182474",
+  "10932992617",
+  "10932855010",
+  "10935177348",
+  "10935198640"
  ],
  "cotes": {
   "marque:fossil": {
@@ -4171,9 +4171,9 @@
    "lissee": true
   },
   "marque:vagary": {
-   "date": 1795299307057,
+   "date": 1795405841668,
    "mediane": null,
-   "echantillon": 86,
+   "echantillon": 91,
    "coteTropBasse": 30
   },
   "marque:pierre lannier": {
@@ -6786,10 +6786,10 @@
    "lissee": true
   },
   "marque:bell ross": {
-   "date": 1795402754538,
-   "mediane": 1700,
-   "echantillon": 64,
-   "dispersion": 0.86,
+   "date": 1795405286095,
+   "mediane": 1739,
+   "echantillon": 63,
+   "dispersion": 0.83,
    "fourchette": [
     800,
     4150
@@ -6800,16 +6800,16 @@
      "prix": 1800
     },
     {
-     "id": 10785378658,
-     "prix": 1690
-    },
-    {
      "id": 10890394037,
      "prix": 1800
     },
     {
-     "id": 10410431513,
-     "prix": 1690
+     "id": 9032544515,
+     "prix": 1800
+    },
+    {
+     "id": 10775890679,
+     "prix": 1830
     }
    ],
    "niveau": "marque",
@@ -7454,13 +7454,6 @@
    ],
    "niveau": "marque",
    "lissee": true
-  },
-  "modele:pulsar damenuhr|2": {
-   "date": 1795233285755,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
   },
   "modele:breil milano|2": {
    "date": 1795233671136,
@@ -9043,19 +9036,15 @@
    "niveau": "modèle"
   },
   "modele:citizen tsuyosa|2": {
-   "date": 1795402884557,
+   "date": 1795405285415,
    "mediane": 200,
-   "echantillon": 65,
-   "dispersion": 0.13,
+   "echantillon": 71,
+   "dispersion": 0.18,
    "fourchette": [
-    150,
-    265
+    130,
+    284.99
    ],
    "exemples": [
-    {
-     "id": 10907538033,
-     "prix": 200
-    },
     {
      "id": 10677860224,
      "prix": 200
@@ -9065,7 +9054,11 @@
      "prix": 200
     },
     {
-     "id": 10760837227,
+     "id": 10907538033,
+     "prix": 200
+    },
+    {
+     "id": 10762784714,
      "prix": 200
     }
    ],
@@ -32986,7 +32979,7 @@
    "niveau": "modèle"
   },
   "modele:bell ross br03 94|2": {
-   "date": 1795402755067,
+   "date": 1795405286581,
    "mediane": 2475,
    "echantillon": 4,
    "dispersion": 0.02,
@@ -33015,9 +33008,110 @@
    "niveau": "modèle"
   },
   "modele:fossil neutra chronogr|1": {
-   "date": 1795404692711,
+   "date": 1795405284725,
    "mediane": null,
    "echantillon": 0,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:lorenz ginevra|4": {
+   "date": 1795405372136,
+   "mediane": 168,
+   "echantillon": 24,
+   "dispersion": 0.47,
+   "fourchette": [
+    70,
+    300
+   ],
+   "exemples": [
+    {
+     "id": 4727042202,
+     "prix": 170
+    },
+    {
+     "id": 9806619737,
+     "prix": 165
+    },
+    {
+     "id": 10573950308,
+     "prix": 180
+    },
+    {
+     "id": 10875226072,
+     "prix": 180
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:fossil herrenuhr nate|2": {
+   "date": 1795405458769,
+   "mediane": 50,
+   "echantillon": 56,
+   "dispersion": 0.6,
+   "fourchette": [
+    14,
+    110
+   ],
+   "exemples": [
+    {
+     "id": 10819742183,
+     "prix": 50
+    },
+    {
+     "id": 9141592366,
+     "prix": 50
+    },
+    {
+     "id": 6245874117,
+     "prix": 50
+    },
+    {
+     "id": 10263682330,
+     "prix": 50
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:vostok 710059 vas 1 b|1": {
+   "date": 1795405840885,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:vagary citizen|4": {
+   "date": 1795405842351,
+   "mediane": 60,
+   "echantillon": 29,
+   "dispersion": 0.52,
+   "fourchette": [
+    20,
+    159
+   ],
+   "exemples": [
+    {
+     "id": 10759414376,
+     "prix": 60
+    },
+    {
+     "id": 10865854109,
+     "prix": 60
+    },
+    {
+     "id": 10515532199,
+     "prix": 60
+    },
+    {
+     "id": 10140972485,
+     "prix": 60
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:maurice lacroix een daarvan|1": {
+   "date": 1795406099370,
+   "mediane": null,
+   "echantillon": 1,
    "dispersion": null,
    "niveau": "modèle"
   }
@@ -62484,8 +62578,8 @@
    "vu": 1793633350698
   },
   "67918641": {
-   "n": 83,
-   "vu": 1795384252903
+   "n": 85,
+   "vu": 1795405840408
   },
   "67921182": {
    "n": 6,
@@ -106885,7 +106979,7 @@
   },
   "259340684": {
    "n": 2,
-   "vu": 1795403142281
+   "vu": 1795405284183
   },
   "259352786": {
    "n": 8,
@@ -146345,7 +146439,7 @@
   },
   "3187311035": {
    "n": 6,
-   "vu": 1795403528615
+   "vu": 1795405284183
   },
   "3187313069": {
    "n": 8,
@@ -157448,8 +157542,8 @@
    "vu": 1794265077950
   },
   "3212135506": {
-   "n": 3,
-   "vu": 1795404821817
+   "n": 5,
+   "vu": 1795405840409
   },
   "3212152646": {
    "n": 5,
@@ -159797,20 +159891,20 @@
   }
  },
  "bilan": {
-  "depuis": 1795401804767,
-  "passages": 80,
-  "nouvelles": 19,
-  "marque": 12,
+  "depuis": 1795405415548,
+  "passages": 18,
+  "nouvelles": 8,
+  "marque": 3,
   "etat": 0,
   "prix": 0,
-  "accessoire": 2,
+  "accessoire": 0,
   "lot": 0,
   "fausse": 0,
   "imitation": 0,
   "pro": 0,
   "vendeurSpecialise": 0,
-  "sansCote": 1,
-  "chere": 4,
+  "sansCote": 0,
+  "chere": 5,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,

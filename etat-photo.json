@@ -1,9 +1,5 @@
 {
  "vues": [
-  "10898361199",
-  "10886778853",
-  "10898416636",
-  "10898416791",
   "10898367611",
   "10898385537",
   "10898134030",
@@ -3999,7 +3995,11 @@
   "10934854144",
   "10934863408",
   "10934903112",
-  "10916815480"
+  "10916815480",
+  "10934940401",
+  "10934950249",
+  "10934983593",
+  "10935006786"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -4301,9 +4301,9 @@
    "coteTropBasse": 45
   },
   "marque:lomography@3076": {
-   "date": 1795308414549,
+   "date": 1795402508579,
    "mediane": null,
-   "echantillon": 64,
+   "echantillon": 65,
    "coteTropBasse": 20
   },
   "marque:olympus@3076": {
@@ -21636,33 +21636,34 @@
    "niveau": "modèle"
   },
   "modele:canon camara analogica|1@3076": {
-   "date": 1795287161405,
-   "mediane": 50,
-   "echantillon": 25,
-   "dispersion": 0.3,
+   "date": 1795403016240,
+   "mediane": 47,
+   "echantillon": 23,
+   "dispersion": 0.33,
    "fourchette": [
     19,
-    105
+    60
    ],
    "exemples": [
     {
-     "id": 10910092654,
-     "prix": 50
+     "id": 10932465097,
+     "prix": 45
     },
     {
-     "id": 10859952991,
-     "prix": 50
+     "id": 10885450987,
+     "prix": 45
     },
     {
-     "id": 10902600061,
-     "prix": 50
+     "id": 10540609113,
+     "prix": 45
     },
     {
-     "id": 10629781924,
-     "prix": 50
+     "id": 10792333365,
+     "prix": 45
     }
    ],
-   "niveau": "modèle"
+   "niveau": "modèle",
+   "lissee": true
   },
   "modele:konica camara analogica|1@3076": {
    "date": 1795287352686,
@@ -43745,6 +43746,42 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "modele:lomography camara analogica|2@3076": {
+   "date": 1795402509352,
+   "mediane": 40,
+   "echantillon": 17,
+   "dispersion": 1,
+   "fourchette": [
+    12,
+    89
+   ],
+   "exemples": [
+    {
+     "id": 7661009664,
+     "prix": 40
+    },
+    {
+     "id": 9718680249,
+     "prix": 45
+    },
+    {
+     "id": 10170975308,
+     "prix": 45
+    },
+    {
+     "id": 10329544615,
+     "prix": 33
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:fuji fz 5 point|1@3076": {
+   "date": 1795403269789,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -59249,8 +59286,8 @@
    "vu": 1795374509967
   },
   "3138957823": {
-   "n": 132,
-   "vu": 1795401999461
+   "n": 133,
+   "vu": 1795402636416
   },
   "3139110308": {
    "n": 3,
@@ -60395,6 +60432,10 @@
   "3160962557": {
    "n": 2,
    "vu": 1793972179666
+  },
+  "3160970698": {
+   "n": 4,
+   "vu": 1795403269170
   },
   "3161055238": {
    "n": 19,
@@ -64003,8 +64044,8 @@
  },
  "bilan": {
   "depuis": 1795397365146,
-  "passages": 79,
-  "nouvelles": 24,
+  "passages": 94,
+  "nouvelles": 28,
   "marque": 2,
   "etat": 0,
   "prix": 1,
@@ -64012,10 +64053,10 @@
   "lot": 0,
   "fausse": 0,
   "imitation": 0,
-  "pro": 4,
+  "pro": 5,
   "vendeurSpecialise": 2,
-  "sansCote": 7,
-  "chere": 6,
+  "sansCote": 8,
+  "chere": 8,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,

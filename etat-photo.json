@@ -1,15 +1,5 @@
 {
  "vues": [
-  "10900034700",
-  "10900028604",
-  "10900017629",
-  "10900040662",
-  "10900021087",
-  "10900066173",
-  "10900065209",
-  "10900060037",
-  "10900056580",
-  "10900062127",
   "10900086007",
   "10900077907",
   "10900081414",
@@ -3999,7 +3989,17 @@
   "10935578623",
   "10935585681",
   "10935595010",
-  "10935591762"
+  "10935591762",
+  "10935604801",
+  "10935605953",
+  "10935618795",
+  "10935618369",
+  "10935632405",
+  "10935634934",
+  "10935641310",
+  "10935638935",
+  "10935646807",
+  "10935646226"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -7421,35 +7421,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:kodak charmera|2@3075": {
-   "date": 1795242735029,
-   "mediane": 40,
-   "echantillon": 29,
-   "dispersion": 0.2,
-   "fourchette": [
-    20,
-    60
-   ],
-   "exemples": [
-    {
-     "id": 10753070381,
-     "prix": 40
-    },
-    {
-     "id": 10791418866,
-     "prix": 40
-    },
-    {
-     "id": 10091196700,
-     "prix": 40
-    },
-    {
-     "id": 10016625934,
-     "prix": 40
-    }
-   ],
-   "niveau": "modèle"
   },
   "modele:kodak 100 analogica|1@3076": {
    "date": 1795242988396,
@@ -44025,6 +43996,107 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "modele:pentax 60 x analogica|1@3076": {
+   "date": 1795414843057,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:kodak dx4530 easyshare|1@3075": {
+   "date": 1795415096299,
+   "mediane": 25,
+   "echantillon": 12,
+   "dispersion": 0.6,
+   "fourchette": [
+    13,
+    50
+   ],
+   "exemples": [
+    {
+     "id": 10700584492,
+     "prix": 25
+    },
+    {
+     "id": 10558590611,
+     "prix": 25
+    },
+    {
+     "id": 10269006622,
+     "prix": 28
+    },
+    {
+     "id": 10935618795,
+     "prix": 30
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:praktica 10 4 dcz|1@3075": {
+   "date": 1795415349527,
+   "mediane": 30,
+   "echantillon": 4,
+   "dispersion": 0.33,
+   "fourchette": [
+    22,
+    40
+   ],
+   "exemples": [
+    {
+     "id": 10935632405,
+     "prix": 25
+    },
+    {
+     "id": 8286977655,
+     "prix": 35
+    },
+    {
+     "id": 10558279759,
+     "prix": 22
+    },
+    {
+     "id": 9523249534,
+     "prix": 40
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:panasonic dmc fh25 lumix|3@3075": {
+   "date": 1795415476491,
+   "mediane": null,
+   "echantillon": 2,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:nikon w100 coolpix|1@3075": {
+   "date": 1795415477409,
+   "mediane": 75,
+   "echantillon": 51,
+   "dispersion": 0.4,
+   "fourchette": [
+    30,
+    147
+   ],
+   "exemples": [
+    {
+     "id": 10816721410,
+     "prix": 75
+    },
+    {
+     "id": 10171738428,
+     "prix": 75
+    },
+    {
+     "id": 10172490805,
+     "prix": 75
+    },
+    {
+     "id": 9211931743,
+     "prix": 75
+    }
+   ],
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -51433,8 +51505,8 @@
    "vu": 1794840799033
   },
   "96529364": {
-   "n": 2,
-   "vu": 1795268857162
+   "n": 3,
+   "vu": 1795415095300
   },
   "96533468": {
    "n": 2,
@@ -62572,6 +62644,10 @@
    "n": 2,
    "vu": 1794058759679
   },
+  "3197452982": {
+   "n": 2,
+   "vu": 1795415348844
+  },
   "3197632742": {
    "n": 4,
    "vu": 1795255500385
@@ -64303,9 +64379,9 @@
  },
  "bilan": {
   "depuis": 1795412435098,
-  "passages": 36,
-  "nouvelles": 14,
-  "marque": 4,
+  "passages": 51,
+  "nouvelles": 24,
+  "marque": 6,
   "etat": 0,
   "prix": 0,
   "accessoire": 0,
@@ -64314,8 +64390,8 @@
   "imitation": 0,
   "pro": 0,
   "vendeurSpecialise": 1,
-  "sansCote": 5,
-  "chere": 3,
+  "sansCote": 9,
+  "chere": 7,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,

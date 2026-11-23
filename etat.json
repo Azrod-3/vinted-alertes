@@ -1,14 +1,5 @@
 {
  "vues": [
-  "10928848319",
-  "10928847055",
-  "10928849092",
-  "10928844520",
-  "10928845752",
-  "10928840926",
-  "10928844121",
-  "10928841200",
-  "10928836535",
   "10928841213",
   "10928842508",
   "10928841325",
@@ -3999,7 +3990,16 @@
   "10934332226",
   "10934350365",
   "10934347594",
-  "10934343833"
+  "10934343833",
+  "10934404430",
+  "10934449255",
+  "10934443840",
+  "10934440286",
+  "10934459380",
+  "10934473236",
+  "10934469891",
+  "10934467084",
+  "10934466113"
  ],
  "cotes": {
   "marque:fossil": {
@@ -32957,6 +32957,49 @@
      "prix": 319
     }
    ],
+   "niveau": "modèle"
+  },
+  "modele:tissot prx automatique powermatic|2": {
+   "date": 1795396538684,
+   "mediane": 499,
+   "echantillon": 10,
+   "dispersion": 0.14,
+   "fourchette": [
+    400,
+    600
+   ],
+   "exemples": [
+    {
+     "id": 9911119560,
+     "prix": 499
+    },
+    {
+     "id": 10656486494,
+     "prix": 499
+    },
+    {
+     "id": 10312480028,
+     "prix": 499
+    },
+    {
+     "id": 9871888663,
+     "prix": 520
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:ice watch bracelet taille|2": {
+   "date": 1795397186623,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:citizen citzen horloge|2": {
+   "date": 1795397187235,
+   "mediane": null,
+   "echantillon": 2,
+   "dispersion": null,
    "niveau": "modèle"
   }
  },
@@ -108685,6 +108728,10 @@
    "n": 3,
    "vu": 1795031188454
   },
+  "265342534": {
+   "n": 2,
+   "vu": 1795397056190
+  },
   "265356398": {
    "n": 2,
    "vu": 1794777329121
@@ -149081,6 +149128,10 @@
    "n": 36,
    "vu": 1794974234364
   },
+  "3193190133": {
+   "n": 2,
+   "vu": 1795397185829
+  },
   "3193253077": {
    "n": 8,
    "vu": 1793633350698
@@ -159712,9 +159763,9 @@
  },
  "bilan": {
   "depuis": 1795394552434,
-  "passages": 42,
-  "nouvelles": 28,
-  "marque": 21,
+  "passages": 63,
+  "nouvelles": 37,
+  "marque": 27,
   "etat": 2,
   "prix": 0,
   "accessoire": 0,
@@ -159723,27 +159774,16 @@
   "imitation": 0,
   "pro": 0,
   "vendeurSpecialise": 2,
-  "sansCote": 0,
-  "chere": 3,
+  "sansCote": 1,
+  "chere": 4,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
-  "alertes": 0
+  "alertes": 1
  },
  "panne": null,
  "panneDebut": null,
  "suivi": [
-  {
-   "id": 10905064977,
-   "titre": "Montre Lip",
-   "prix": 30,
-   "cote": 120,
-   "score": 66,
-   "lien": "https://www.vinted.fr/items/10905064977-montre-lip",
-   "date": 1795259326006,
-   "statut": "en vente",
-   "verifieA": 1795262969561
-  },
   {
    "id": 10905110059,
    "titre": "Timex slim line dual time watch",
@@ -163008,7 +163048,8 @@
    "score": 66,
    "lien": "https://www.vinted.fr/items/10934046080-tissot-t-tempo-automatic-heren-39mm",
    "date": 1795392910832,
-   "statut": null
+   "statut": "en vente",
+   "verifieA": 1795396540009
   },
   {
    "id": 10934068745,
@@ -163018,7 +163059,8 @@
    "score": 61,
    "lien": "https://www.vinted.fr/items/10934068745-orologio-lorenz-originale",
    "date": 1795393171524,
-   "statut": null
+   "statut": "en vente",
+   "verifieA": 1795396797959
   },
   {
    "id": 10934108106,
@@ -163028,6 +163070,17 @@
    "score": 62,
    "lien": "https://www.vinted.fr/items/10934108106-montre-tissot",
    "date": 1795393559418,
+   "statut": "en vente",
+   "verifieA": 1795397187891
+  },
+  {
+   "id": 10934404430,
+   "titre": "Tissot prx blanche automatique powermatic 80",
+   "prix": 190,
+   "cote": 499,
+   "score": 94,
+   "lien": "https://www.vinted.fr/items/10934404430-tissot-prx-blanche-automatique-powermatic-80",
+   "date": 1795396539516,
    "statut": null
   }
  ],

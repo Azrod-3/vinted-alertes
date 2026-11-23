@@ -1,13 +1,5 @@
 {
  "vues": [
-  "10898169700",
-  "10898155374",
-  "10898041772",
-  "10898078385",
-  "10898117574",
-  "10897889478",
-  "10898095425",
-  "10897937128",
   "10898053785",
   "10898058555",
   "10897891032",
@@ -3999,7 +3991,15 @@
   "10935368039",
   "10935390323",
   "10935458567",
-  "10935474863"
+  "10935474863",
+  "10935490639",
+  "10935490428",
+  "10935489705",
+  "10935497302",
+  "10935496245",
+  "10935507969",
+  "10935512143",
+  "10935515806"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -7361,20 +7361,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:samsung pl120 camara|2@3075": {
-   "date": 1795239191447,
-   "mediane": null,
-   "echantillon": 2,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:yashica fitocamera yashika|2@3076": {
-   "date": 1795239318197,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
   },
   "modele:samsung 120 finio|2@3076": {
    "date": 1795241088009,
@@ -43880,6 +43866,71 @@
    "echantillon": 1,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:minolta batterie|1@3075": {
+   "date": 1795412181989,
+   "mediane": null,
+   "echantillon": 2,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:olympus em 10 mark|2@3075": {
+   "date": 1795412308879,
+   "mediane": 275,
+   "echantillon": 4,
+   "dispersion": 0.18,
+   "fourchette": [
+    210,
+    360
+   ],
+   "exemples": [
+    {
+     "id": 10935497302,
+     "prix": 300
+    },
+    {
+     "id": 9367467483,
+     "prix": 250
+    },
+    {
+     "id": 10769224786,
+     "prix": 210
+    },
+    {
+     "id": 10600386442,
+     "prix": 360
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:panasonic dmc tz18 16x|1@3075": {
+   "date": 1795412813972,
+   "mediane": 60,
+   "echantillon": 5,
+   "dispersion": 0.48,
+   "fourchette": [
+    50,
+    99
+   ],
+   "exemples": [
+    {
+     "id": 10713697814,
+     "prix": 60
+    },
+    {
+     "id": 10570984562,
+     "prix": 60
+    },
+    {
+     "id": 10935515806,
+     "prix": 50
+    },
+    {
+     "id": 10832048304,
+     "prix": 89
+    }
+   ],
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -47210,6 +47261,10 @@
   "43729803": {
    "n": 3,
    "vu": 1795029289847
+  },
+  "43733831": {
+   "n": 3,
+   "vu": 1795412308208
   },
   "43737670": {
    "n": 2,
@@ -55791,6 +55846,10 @@
    "n": 2,
    "vu": 1795078175525
   },
+  "249274052": {
+   "n": 2,
+   "vu": 1795412813264
+  },
   "249315938": {
    "n": 2,
    "vu": 1795281801757
@@ -64149,24 +64208,24 @@
   }
  },
  "bilan": {
-  "depuis": 1795405224954,
-  "passages": 105,
-  "nouvelles": 20,
-  "marque": 7,
+  "depuis": 1795412435098,
+  "passages": 6,
+  "nouvelles": 3,
+  "marque": 1,
   "etat": 0,
-  "prix": 2,
+  "prix": 0,
   "accessoire": 0,
   "lot": 0,
   "fausse": 0,
   "imitation": 0,
-  "pro": 1,
-  "vendeurSpecialise": 1,
-  "sansCote": 6,
-  "chere": 2,
+  "pro": 0,
+  "vendeurSpecialise": 0,
+  "sansCote": 1,
+  "chere": 1,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
-  "alertes": 1
+  "alertes": 0
  },
  "panne": null,
  "panneDebut": null,

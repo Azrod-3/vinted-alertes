@@ -1,13 +1,5 @@
 {
  "vues": [
-  "10917613786",
-  "10917615983",
-  "10917615359",
-  "10898203869",
-  "10898526012",
-  "10898335238",
-  "10898619778",
-  "10898558866",
   "10898345305",
   "10898370717",
   "10898556761",
@@ -3999,7 +3991,15 @@
   "10934646670",
   "10934636065",
   "10934667687",
-  "10934681478"
+  "10934681478",
+  "10934782690",
+  "10934792953",
+  "10934803008",
+  "10934814484",
+  "10934833893",
+  "10934828341",
+  "10934842166",
+  "10934845559"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -43568,6 +43568,154 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "modele:canon ql19 canonet|2@3076": {
+   "date": 1795400599666,
+   "mediane": 150,
+   "echantillon": 18,
+   "dispersion": 0.43,
+   "fourchette": [
+    45,
+    280
+   ],
+   "exemples": [
+    {
+     "id": 10225106063,
+     "prix": 150
+    },
+    {
+     "id": 10214366545,
+     "prix": 150
+    },
+    {
+     "id": 6790006274,
+     "prix": 150
+    },
+    {
+     "id": 7078875144,
+     "prix": 150
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:nikon camara|2@3076": {
+   "date": 1795400854078,
+   "mediane": 30,
+   "echantillon": 62,
+   "dispersion": 0.85,
+   "fourchette": [
+    10,
+    79.99
+   ],
+   "exemples": [
+    {
+     "id": 10718884016,
+     "prix": 30
+    },
+    {
+     "id": 9671551230,
+     "prix": 30
+    },
+    {
+     "id": 10409550551,
+     "prix": 30
+    },
+    {
+     "id": 10595992259,
+     "prix": 29
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:nikon 3300|1@3075": {
+   "date": 1795400981172,
+   "mediane": 200,
+   "echantillon": 23,
+   "dispersion": 0.4,
+   "fourchette": [
+    60,
+    450
+   ],
+   "exemples": [
+    {
+     "id": 10682768547,
+     "prix": 200
+    },
+    {
+     "id": 10636765603,
+     "prix": 200
+    },
+    {
+     "id": 9006485819,
+     "prix": 200
+    },
+    {
+     "id": 7031470285,
+     "prix": 200
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:kodak camara|2@3076": {
+   "date": 1795401109324,
+   "mediane": 20,
+   "echantillon": 55,
+   "dispersion": 0.95,
+   "fourchette": [
+    5,
+    60
+   ],
+   "exemples": [
+    {
+     "id": 10934828341,
+     "prix": 20
+    },
+    {
+     "id": 10883912725,
+     "prix": 20
+    },
+    {
+     "id": 10887632439,
+     "prix": 20
+    },
+    {
+     "id": 10881197035,
+     "prix": 20
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:nikon camara profesional|2@3076": {
+   "date": 1795401236405,
+   "mediane": 400,
+   "echantillon": 3,
+   "dispersion": null,
+   "fourchette": [
+    350,
+    499.99
+   ],
+   "exemples": [
+    {
+     "id": 6161273635,
+     "prix": 400
+    },
+    {
+     "id": 5498041585,
+     "prix": 350
+    },
+    {
+     "id": 10934842166,
+     "prix": 499.99
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:canon impresora antigua|2@3075": {
+   "date": 1795401364090,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -57067,6 +57215,10 @@
    "n": 9,
    "vu": 1794950221944
   },
+  "281170324": {
+   "n": 2,
+   "vu": 1795400598794
+  },
   "281281386": {
    "n": 4,
    "vu": 1794610365521
@@ -60496,8 +60648,8 @@
    "vu": 1793710595596
   },
   "3168798817": {
-   "n": 8,
-   "vu": 1795271120296
+   "n": 9,
+   "vu": 1795401108405
   },
   "3168862868": {
    "n": 2,
@@ -61806,6 +61958,10 @@
   "3193102037": {
    "n": 2,
    "vu": 1794165448239
+  },
+  "3193141477": {
+   "n": 2,
+   "vu": 1795401108405
   },
   "3193270022": {
    "n": 2,
@@ -63818,8 +63974,8 @@
  },
  "bilan": {
   "depuis": 1795397365146,
-  "passages": 49,
-  "nouvelles": 12,
+  "passages": 64,
+  "nouvelles": 20,
   "marque": 2,
   "etat": 0,
   "prix": 1,
@@ -63828,39 +63984,17 @@
   "fausse": 0,
   "imitation": 0,
   "pro": 1,
-  "vendeurSpecialise": 1,
-  "sansCote": 5,
-  "chere": 2,
+  "vendeurSpecialise": 2,
+  "sansCote": 7,
+  "chere": 5,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
-  "alertes": 0
+  "alertes": 2
  },
  "panne": null,
  "panneDebut": null,
  "suivi": [
-  {
-   "id": 10853081829,
-   "titre": "Canon T50 + zoom Canon",
-   "prix": 25,
-   "cote": 120,
-   "score": 60,
-   "lien": "https://www.vinted.fr/items/10853081829-canon-t50-zoom-canon",
-   "date": 1794921404947,
-   "statut": "retiree",
-   "verifieA": 1794925014665
-  },
-  {
-   "id": 10853419971,
-   "titre": "Canon EOS 60D perfecte staat",
-   "prix": 95,
-   "cote": 220,
-   "score": 68,
-   "lien": "https://www.vinted.fr/items/10853419971-canon-eos-60d-perfecte-staat",
-   "date": 1794922885838,
-   "statut": "en vente",
-   "verifieA": 1794926501248
-  },
   {
    "id": 10853685620,
    "titre": "Olympus E-400",
@@ -67138,6 +67272,26 @@
    "date": 1795392689992,
    "statut": "en vente",
    "verifieA": 1795396350810
+  },
+  {
+   "id": 10934782690,
+   "titre": "Canon \"Canonet QL19\"- 1:1,9/45mm del 1965",
+   "prix": 35,
+   "cote": 150,
+   "score": 72,
+   "lien": "https://www.vinted.fr/items/10934782690-canon-canonet-ql19-11945mm-del-1965",
+   "date": 1795400600647,
+   "statut": null
+  },
+  {
+   "id": 10934814484,
+   "titre": "Nikon s 3300",
+   "prix": 60,
+   "cote": 200,
+   "score": 75,
+   "lien": "https://www.vinted.fr/items/10934814484-nikon-s-3300",
+   "date": 1795400982198,
+   "statut": null
   }
  ],
  "dernierRecap": "2026-11-22"

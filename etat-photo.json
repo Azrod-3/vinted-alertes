@@ -1,13 +1,5 @@
 {
  "vues": [
-  "10898301055",
-  "10898204991",
-  "10898377477",
-  "10898369270",
-  "10897999484",
-  "10898336998",
-  "10898274680",
-  "10898292267",
   "10898211033",
   "10898274996",
   "10898207982",
@@ -3999,7 +3991,15 @@
   "10935071652",
   "10935111056",
   "10935126534",
-  "10935140742"
+  "10935140742",
+  "10935150220",
+  "10935157556",
+  "10935169005",
+  "10935164498",
+  "10935164637",
+  "10935171961",
+  "10935172343",
+  "10935190700"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -4158,33 +4158,34 @@
    "lissee": true
   },
   "marque:fujifilm@3075": {
-   "date": 1795317808495,
+   "date": 1795405218657,
    "mediane": 50,
-   "echantillon": 67,
-   "dispersion": 0.44,
+   "echantillon": 69,
+   "dispersion": 0.5,
    "fourchette": [
-    20,
-    99.8
+    15,
+    95
    ],
    "exemples": [
     {
-     "id": 10914780644,
+     "id": 10924093974,
      "prix": 50
     },
     {
-     "id": 10898660174,
+     "id": 10922401483,
      "prix": 50
     },
     {
-     "id": 10385889754,
+     "id": 10929793157,
      "prix": 50
     },
     {
-     "id": 10871130254,
+     "id": 10934898923,
      "prix": 50
     }
    ],
-   "niveau": "marque"
+   "niveau": "marque",
+   "lissee": true
   },
   "marque:olympus@3075": {
    "date": 1795341986639,
@@ -4235,10 +4236,10 @@
    "coteTropBasse": 20
   },
   "marque:canon@3076": {
-   "date": 1795317810162,
+   "date": 1795405220316,
    "mediane": null,
-   "echantillon": 76,
-   "coteTropBasse": 40
+   "echantillon": 77,
+   "coteTropBasse": 35
   },
   "marque:minolta@3076": {
    "date": 1795355121687,
@@ -5496,13 +5497,13 @@
    "lissee": true
   },
   "modele:canon 400d eos|2@3075": {
-   "date": 1795297068314,
+   "date": 1795405477379,
    "mediane": 85,
-   "echantillon": 80,
-   "dispersion": 0.36,
+   "echantillon": 81,
+   "dispersion": 0.58,
    "fourchette": [
     25,
-    179
+    200
    ],
    "exemples": [
     {
@@ -7360,35 +7361,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:fujifilm 14mp y2k|2@3075": {
-   "date": 1795233248018,
-   "mediane": 58,
-   "echantillon": 4,
-   "dispersion": 0.09,
-   "fourchette": [
-    54.2,
-    67
-   ],
-   "exemples": [
-    {
-     "id": 10602038818,
-     "prix": 60
-    },
-    {
-     "id": 10893560764,
-     "prix": 55
-    },
-    {
-     "id": 10879453437,
-     "prix": 54.2
-    },
-    {
-     "id": 10152349078,
-     "prix": 67
-    }
-   ],
-   "niveau": "modèle"
   },
   "modele:kodak az528|3@3075": {
    "date": 1795233628036,
@@ -21629,9 +21601,9 @@
    "niveau": "modèle"
   },
   "modele:canon camara analogica|1@3076": {
-   "date": 1795403016240,
+   "date": 1795405221963,
    "mediane": 47,
-   "echantillon": 23,
+   "echantillon": 25,
    "dispersion": 0.33,
    "fourchette": [
     19,
@@ -43770,21 +43742,21 @@
    "niveau": "modèle"
   },
   "modele:fuji fz 5 point|1@3076": {
-   "date": 1795403269789,
+   "date": 1795405223296,
    "mediane": null,
    "echantillon": 1,
    "dispersion": null,
    "niveau": "modèle"
   },
   "modele:fujifilm av230 y2k|2@3075": {
-   "date": 1795403777866,
+   "date": 1795405219355,
    "mediane": null,
    "echantillon": 1,
    "dispersion": null,
    "niveau": "modèle"
   },
   "modele:pentax 105 r camara|1@3076": {
-   "date": 1795403778652,
+   "date": 1795405222545,
    "mediane": 35,
    "echantillon": 4,
    "dispersion": 0.29,
@@ -43813,7 +43785,7 @@
    "niveau": "modèle"
   },
   "modele:panasonic dmc tz18 lumix|2@3075": {
-   "date": 1795405193282,
+   "date": 1795405217754,
    "mediane": 69,
    "echantillon": 20,
    "dispersion": 0.27,
@@ -43837,6 +43809,64 @@
     {
      "id": 7134839031,
      "prix": 70
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:canon 115u prima|1@3076": {
+   "date": 1795405220950,
+   "mediane": 69,
+   "echantillon": 9,
+   "dispersion": 0.51,
+   "fourchette": [
+    24.5,
+    150
+   ],
+   "exemples": [
+    {
+     "id": 10718559080,
+     "prix": 69
+    },
+    {
+     "id": 7549394048,
+     "prix": 70
+    },
+    {
+     "id": 9747598644,
+     "prix": 80
+    },
+    {
+     "id": 10935111056,
+     "prix": 50
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:canon chargeur batterie|2@3075": {
+   "date": 1795405604069,
+   "mediane": 100,
+   "echantillon": 6,
+   "dispersion": 0.45,
+   "fourchette": [
+    30,
+    170
+   ],
+   "exemples": [
+    {
+     "id": 9799192776,
+     "prix": 85
+    },
+    {
+     "id": 10646329119,
+     "prix": 115
+    },
+    {
+     "id": 10906297220,
+     "prix": 120
+    },
+    {
+     "id": 10515336674,
+     "prix": 75
     }
    ],
    "niveau": "modèle"
@@ -49430,6 +49460,10 @@
   "65265107": {
    "n": 4,
    "vu": 1793737586582
+  },
+  "65337059": {
+   "n": 2,
+   "vu": 1795405730755
   },
   "65457452": {
    "n": 7,
@@ -59344,8 +59378,8 @@
    "vu": 1795374509967
   },
   "3138957823": {
-   "n": 133,
-   "vu": 1795402636416
+   "n": 134,
+   "vu": 1795405603189
   },
   "3139110308": {
    "n": 3,
@@ -60492,8 +60526,8 @@
    "vu": 1793972179666
   },
   "3160970698": {
-   "n": 8,
-   "vu": 1795405065039
+   "n": 10,
+   "vu": 1795405983208
   },
   "3161055238": {
    "n": 19,
@@ -64101,39 +64135,28 @@
   }
  },
  "bilan": {
-  "depuis": 1795404621439,
-  "passages": 9,
-  "nouvelles": 3,
-  "marque": 1,
+  "depuis": 1795405224954,
+  "passages": 15,
+  "nouvelles": 8,
+  "marque": 5,
   "etat": 0,
   "prix": 0,
   "accessoire": 0,
   "lot": 0,
   "fausse": 0,
   "imitation": 0,
-  "pro": 0,
-  "vendeurSpecialise": 1,
+  "pro": 1,
+  "vendeurSpecialise": 0,
   "sansCote": 0,
   "chere": 1,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
-  "alertes": 0
+  "alertes": 1
  },
  "panne": null,
  "panneDebut": null,
  "suivi": [
-  {
-   "id": 10853685620,
-   "titre": "Olympus E-400",
-   "prix": 100,
-   "cote": 165,
-   "score": 45,
-   "lien": "https://www.vinted.fr/items/10853685620-olympus-e-400",
-   "date": 1794923976706,
-   "statut": "en vente",
-   "verifieA": 1794927598811
-  },
   {
    "id": 10853827599,
    "titre": "Pentax K1000",
@@ -67410,7 +67433,7 @@
    "lien": "https://www.vinted.fr/items/10934782690-canon-canonet-ql19-11945mm-del-1965",
    "date": 1795400600647,
    "statut": "en vente",
-   "verifieA": 1795404221791
+   "verifieA": 1795405224082
   },
   {
    "id": 10934814484,
@@ -67421,7 +67444,17 @@
    "lien": "https://www.vinted.fr/items/10934814484-nikon-s-3300",
    "date": 1795400982198,
    "statut": "en vente",
-   "verifieA": 1795404621438
+   "verifieA": 1795405224940
+  },
+  {
+   "id": 10935169005,
+   "titre": "Canon chargeur batterie appareil photo",
+   "prix": 10,
+   "cote": 100,
+   "score": 69,
+   "lien": "https://www.vinted.fr/items/10935169005-canon-chargeur-batterie-appareil-photo",
+   "date": 1795405604845,
+   "statut": null
   }
  ],
  "dernierRecap": "2026-11-22"

@@ -1,14 +1,5 @@
 {
  "vues": [
-  "10900183845",
-  "10900177560",
-  "10883857471",
-  "10900170144",
-  "10900207486",
-  "10900197224",
-  "10917627274",
-  "10917624219",
-  "10917638609",
   "10917650171",
   "10917649806",
   "10917649865",
@@ -3999,7 +3990,16 @@
   "10935733934",
   "10935730580",
   "10935742730",
-  "10935740401"
+  "10935740401",
+  "10935753774",
+  "10935755898",
+  "10935755446",
+  "10935747651",
+  "10935781951",
+  "10935791101",
+  "10935788888",
+  "10935812904",
+  "10934026042"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -4602,29 +4602,29 @@
    "coteTropBasse": 25
   },
   "modele:canon ixus|2@3075": {
-   "date": 1795255775023,
-   "mediane": 119,
-   "echantillon": 72,
-   "dispersion": 0.46,
+   "date": 1795418266964,
+   "mediane": 120,
+   "echantillon": 81,
+   "dispersion": 0.36,
    "fourchette": [
-    35,
-    250
+    30,
+    210
    ],
    "exemples": [
     {
-     "id": 10903590141,
-     "prix": 125
-    },
-    {
-     "id": 10888050925,
-     "prix": 125
-    },
-    {
-     "id": 10892884709,
+     "id": 10915285246,
      "prix": 120
     },
     {
-     "id": 10767782212,
+     "id": 10933854449,
+     "prix": 120
+    },
+    {
+     "id": 10908357233,
+     "prix": 120
+    },
+    {
+     "id": 10927887433,
      "prix": 120
     }
    ],
@@ -7421,107 +7421,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:sony 530|2@3075": {
-   "date": 1795245018180,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:fujifilm nexia auto|2@3076": {
-   "date": 1795245019885,
-   "mediane": 15,
-   "echantillon": 9,
-   "dispersion": 0.87,
-   "fourchette": [
-    10,
-    30
-   ],
-   "exemples": [
-    {
-     "id": 10585780344,
-     "prix": 15
-    },
-    {
-     "id": 6632531153,
-     "prix": 15
-    },
-    {
-     "id": 10902777765,
-     "prix": 16
-    },
-    {
-     "id": 7095490270,
-     "prix": 12
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:panasonic dmc tz18 lumix|1@3075": {
-   "date": 1795245148114,
-   "mediane": 67,
-   "echantillon": 22,
-   "dispersion": 0.36,
-   "fourchette": [
-    25,
-    99
-   ],
-   "exemples": [
-    {
-     "id": 9755019082,
-     "prix": 69
-    },
-    {
-     "id": 10738964354,
-     "prix": 69.99
-    },
-    {
-     "id": 10713720042,
-     "prix": 64
-    },
-    {
-     "id": 10505842156,
-     "prix": 70
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:fujifilm x100|2@3075": {
-   "date": 1795245655844,
-   "mediane": 497,
-   "echantillon": 19,
-   "dispersion": 0.26,
-   "fourchette": [
-    315,
-    720
-   ],
-   "exemples": [
-    {
-     "id": 9293397268,
-     "prix": 497
-    },
-    {
-     "id": 10870028281,
-     "prix": 490
-    },
-    {
-     "id": 9851763068,
-     "prix": 490
-    },
-    {
-     "id": 10861919032,
-     "prix": 450
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:konica e50 minolta|2@3075": {
-   "date": 1795245656534,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
   },
   "modele:nikon fm2 lista|2@3076": {
    "date": 1795245783579,
@@ -13846,12 +13745,12 @@
    "niveau": "modèle"
   },
   "modele:nikon l840 coolpix|2@3075": {
-   "date": 1795264852038,
+   "date": 1795418520638,
    "mediane": 100,
-   "echantillon": 43,
+   "echantillon": 41,
    "dispersion": 0.6,
    "fourchette": [
-    50,
+    57,
     200
    ],
    "exemples": [
@@ -13860,11 +13759,11 @@
      "prix": 100
     },
     {
-     "id": 10105197782,
+     "id": 10854537687,
      "prix": 100
     },
     {
-     "id": 10854537687,
+     "id": 10105197782,
      "prix": 100
     },
     {
@@ -13872,7 +13771,8 @@
      "prix": 100
     }
    ],
-   "niveau": "modèle"
+   "niveau": "modèle",
+   "lissee": true
   },
   "modele:lomography camara fotos|3@3076": {
    "date": 1795264916004,
@@ -44018,6 +43918,13 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "modele:agfa cinepresa proiettore|1@3076": {
+   "date": 1795417635136,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -54710,8 +54617,8 @@
    "vu": 1795287288008
   },
   "206744994": {
-   "n": 11,
-   "vu": 1795368385818
+   "n": 12,
+   "vu": 1795417634481
   },
   "206746264": {
    "n": 2,
@@ -56018,8 +55925,8 @@
    "vu": 1795033407814
   },
   "250268637": {
-   "n": 62,
-   "vu": 1795242734177
+   "n": 63,
+   "vu": 1795417887511
   },
   "250363993": {
    "n": 5,
@@ -57490,8 +57397,8 @@
    "vu": 1793733762684
   },
   "279075755": {
-   "n": 9,
-   "vu": 1795389387297
+   "n": 10,
+   "vu": 1795418519785
   },
   "279113504": {
    "n": 2,
@@ -64316,19 +64223,19 @@
  },
  "bilan": {
   "depuis": 1795412435098,
-  "passages": 81,
-  "nouvelles": 58,
-  "marque": 13,
-  "etat": 2,
+  "passages": 96,
+  "nouvelles": 67,
+  "marque": 14,
+  "etat": 3,
   "prix": 0,
   "accessoire": 1,
   "lot": 1,
   "fausse": 0,
   "imitation": 0,
   "pro": 0,
-  "vendeurSpecialise": 4,
-  "sansCote": 21,
-  "chere": 15,
+  "vendeurSpecialise": 7,
+  "sansCote": 23,
+  "chere": 17,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
@@ -67634,7 +67541,8 @@
    "score": 56,
    "lien": "https://www.vinted.fr/items/10935595010-fotocamera-digitale-canon-ixus-100-is-silver-treppiede",
    "date": 1795414714582,
-   "statut": null
+   "statut": "retiree",
+   "verifieA": 1795418330578
   }
  ],
  "dernierRecap": "2026-11-22"

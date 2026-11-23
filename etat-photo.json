@@ -1,8 +1,5 @@
 {
  "vues": [
-  "10898261924",
-  "10898185356",
-  "10898370102",
   "10898301055",
   "10898204991",
   "10898377477",
@@ -3999,7 +3996,10 @@
   "10935006786",
   "10934898923",
   "10935043447",
-  "10935071652"
+  "10935071652",
+  "10935111056",
+  "10935126534",
+  "10935140742"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -43811,6 +43811,35 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "modele:panasonic dmc tz18 lumix|2@3075": {
+   "date": 1795405193282,
+   "mediane": 69,
+   "echantillon": 20,
+   "dispersion": 0.27,
+   "fourchette": [
+    45,
+    99
+   ],
+   "exemples": [
+    {
+     "id": 9755019082,
+     "prix": 69
+    },
+    {
+     "id": 10738964354,
+     "prix": 69.99
+    },
+    {
+     "id": 10505842156,
+     "prix": 70
+    },
+    {
+     "id": 7134839031,
+     "prix": 70
+    }
+   ],
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -60463,8 +60492,8 @@
    "vu": 1793972179666
   },
   "3160970698": {
-   "n": 6,
-   "vu": 1795404157663
+   "n": 8,
+   "vu": 1795405065039
   },
   "3161055238": {
    "n": 19,
@@ -64072,24 +64101,24 @@
   }
  },
  "bilan": {
-  "depuis": 1795397365146,
-  "passages": 109,
-  "nouvelles": 31,
-  "marque": 2,
+  "depuis": 1795404621439,
+  "passages": 9,
+  "nouvelles": 3,
+  "marque": 1,
   "etat": 0,
-  "prix": 1,
+  "prix": 0,
   "accessoire": 0,
   "lot": 0,
   "fausse": 0,
   "imitation": 0,
-  "pro": 5,
-  "vendeurSpecialise": 2,
-  "sansCote": 9,
-  "chere": 10,
+  "pro": 0,
+  "vendeurSpecialise": 1,
+  "sansCote": 0,
+  "chere": 1,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
-  "alertes": 2
+  "alertes": 0
  },
  "panne": null,
  "panneDebut": null,
@@ -67391,7 +67420,8 @@
    "score": 75,
    "lien": "https://www.vinted.fr/items/10934814484-nikon-s-3300",
    "date": 1795400982198,
-   "statut": null
+   "statut": "en vente",
+   "verifieA": 1795404621438
   }
  ],
  "dernierRecap": "2026-11-22"

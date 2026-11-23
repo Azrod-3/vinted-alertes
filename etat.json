@@ -1,24 +1,5 @@
 {
  "vues": [
-  "10930905229",
-  "10930897789",
-  "10930894790",
-  "10930893610",
-  "10930897501",
-  "10930892664",
-  "10930888315",
-  "10930889983",
-  "10930890662",
-  "10930887557",
-  "10930887904",
-  "10930886143",
-  "10930876113",
-  "10930886159",
-  "10930883318",
-  "10930878008",
-  "10930824243",
-  "10930873142",
-  "10930895505",
   "10930946068",
   "10930951637",
   "10930950810",
@@ -3999,7 +3980,26 @@
   "10937560091",
   "10939328119",
   "10937920504",
-  "10937907499"
+  "10937907499",
+  "10939332164",
+  "10939320602",
+  "10939334055",
+  "10939332614",
+  "10939328589",
+  "10939337440",
+  "10939312655",
+  "10937485055",
+  "10939336221",
+  "10938074649",
+  "10939336657",
+  "10927669834",
+  "10938003098",
+  "10938090739",
+  "10927787323",
+  "10927782865",
+  "10937893204",
+  "10938027838",
+  "10939328382"
  ],
  "cotes": {
   "marque:fossil": {
@@ -5269,29 +5269,29 @@
    "lissee": true
   },
   "marque:alpina": {
-   "date": 1795348075406,
-   "mediane": 265,
+   "date": 1795440804519,
+   "mediane": 255,
    "echantillon": 67,
-   "dispersion": 0.74,
+   "dispersion": 0.8,
    "fourchette": [
     105,
-    670
+    690
    ],
    "exemples": [
     {
-     "id": 10328988463,
-     "prix": 265
-    },
-    {
-     "id": 10166754168,
-     "prix": 260
-    },
-    {
-     "id": 10870785464,
-     "prix": 270
-    },
-    {
      "id": 10243988185,
+     "prix": 250
+    },
+    {
+     "id": 10055439050,
+     "prix": 250
+    },
+    {
+     "id": 9251486906,
+     "prix": 250
+    },
+    {
+     "id": 4949346372,
      "prix": 250
     }
    ],
@@ -5563,36 +5563,6 @@
     {
      "id": 7490807832,
      "prix": 150
-    }
-   ],
-   "niveau": "marque",
-   "lissee": true
-  },
-  "marque:girard perregaux": {
-   "date": 1795268293612,
-   "mediane": 271,
-   "echantillon": 44,
-   "dispersion": 1.16,
-   "fourchette": [
-    70,
-    775
-   ],
-   "exemples": [
-    {
-     "id": 10255792686,
-     "prix": 269
-    },
-    {
-     "id": 10642517313,
-     "prix": 269
-    },
-    {
-     "id": 10897812857,
-     "prix": 250
-    },
-    {
-     "id": 10716941903,
-     "prix": 250
     }
    ],
    "niveau": "marque",
@@ -6363,36 +6333,6 @@
     }
    ],
    "niveau": "marque",
-   "lissee": true
-  },
-  "modele:tissot prx|3": {
-   "date": 1795268295935,
-   "mediane": 226,
-   "echantillon": 73,
-   "dispersion": 0.43,
-   "fourchette": [
-    70,
-    500
-   ],
-   "exemples": [
-    {
-     "id": 10868919039,
-     "prix": 230
-    },
-    {
-     "id": 10895369926,
-     "prix": 225
-    },
-    {
-     "id": 10624994735,
-     "prix": 225
-    },
-    {
-     "id": 10872452693,
-     "prix": 225
-    }
-   ],
-   "niveau": "modèle",
    "lissee": true
   },
   "modele:lip croix sud|2": {
@@ -7640,388 +7580,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:breil horloge|1": {
-   "date": 1795267718288,
-   "mediane": 45,
-   "echantillon": 52,
-   "dispersion": 0.56,
-   "fourchette": [
-    17.5,
-    100
-   ],
-   "exemples": [
-    {
-     "id": 10871314482,
-     "prix": 45
-    },
-    {
-     "id": 10156647952,
-     "prix": 45
-    },
-    {
-     "id": 8179387320,
-     "prix": 45
-    },
-    {
-     "id": 9166162822,
-     "prix": 44
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:citizen chronograph|1": {
-   "date": 1795267849701,
-   "mediane": 127,
-   "echantillon": 28,
-   "dispersion": 0.39,
-   "fourchette": [
-    50,
-    240
-   ],
-   "exemples": [
-    {
-     "id": 10885937569,
-     "prix": 129
-    },
-    {
-     "id": 10517392728,
-     "prix": 125
-    },
-    {
-     "id": 10714541165,
-     "prix": 120
-    },
-    {
-     "id": 10431299557,
-     "prix": 120
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:tissot tank roman|2": {
-   "date": 1795267850299,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:fossil am4547 acciaio|2": {
-   "date": 1795267850895,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:citizen donna|3": {
-   "date": 1795267851656,
-   "mediane": 69,
-   "echantillon": 33,
-   "dispersion": 0.57,
-   "fourchette": [
-    20,
-    169
-   ],
-   "exemples": [
-    {
-     "id": 8451704109,
-     "prix": 69
-    },
-    {
-     "id": 10907170276,
-     "prix": 70
-    },
-    {
-     "id": 10582529853,
-     "prix": 70
-    },
-    {
-     "id": 10056999321,
-     "prix": 70
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:dugena funkuhr|2": {
-   "date": 1795267982140,
-   "mediane": 68,
-   "echantillon": 9,
-   "dispersion": 0.4,
-   "fourchette": [
-    26,
-    95
-   ],
-   "exemples": [
-    {
-     "id": 10679929476,
-     "prix": 68
-    },
-    {
-     "id": 7521266445,
-     "prix": 70
-    },
-    {
-     "id": 10495645319,
-     "prix": 75
-    },
-    {
-     "id": 10495407168,
-     "prix": 59
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:squale 1545 blue|2": {
-   "date": 1795268113689,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:citizen ca0131 55l eco|1": {
-   "date": 1795268114779,
-   "mediane": null,
-   "echantillon": 2,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:molnija gousset|2": {
-   "date": 1795268115551,
-   "mediane": 59,
-   "echantillon": 14,
-   "dispersion": 0.76,
-   "fourchette": [
-    25,
-    110
-   ],
-   "exemples": [
-    {
-     "id": 10874273016,
-     "prix": 50
-    },
-    {
-     "id": 10077271317,
-     "prix": 68
-    },
-    {
-     "id": 10072527355,
-     "prix": 68
-    },
-    {
-     "id": 10818904821,
-     "prix": 68.8
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:citizen tsuyosa|1": {
-   "date": 1795268162173,
-   "mediane": 200,
-   "echantillon": 44,
-   "dispersion": 0.25,
-   "fourchette": [
-    150,
-    295
-   ],
-   "exemples": [
-    {
-     "id": 10668191795,
-     "prix": 200
-    },
-    {
-     "id": 10760837227,
-     "prix": 200
-    },
-    {
-     "id": 10895618512,
-     "prix": 200
-    },
-    {
-     "id": 10014783157,
-     "prix": 200
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:festina mos60|2": {
-   "date": 1795268292141,
-   "mediane": 49,
-   "echantillon": 5,
-   "dispersion": 1.22,
-   "fourchette": [
-    30,
-    130
-   ],
-   "exemples": [
-    {
-     "id": 10241002214,
-     "prix": 49
-    },
-    {
-     "id": 10907311650,
-     "prix": 30
-    },
-    {
-     "id": 6068918388,
-     "prix": 30
-    },
-    {
-     "id": 9057787980,
-     "prix": 90
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:ice watch water resitant|3": {
-   "date": 1795268292689,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:girard perregaux 50 60 anni|1": {
-   "date": 1795268294114,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:citizen ny0120 promaster|2": {
-   "date": 1795268297161,
-   "mediane": 200,
-   "echantillon": 5,
-   "dispersion": 0.03,
-   "fourchette": [
-    130,
-    200
-   ],
-   "exemples": [
-    {
-     "id": 10595932369,
-     "prix": 200
-    },
-    {
-     "id": 7459642686,
-     "prix": 200
-    },
-    {
-     "id": 9536683271,
-     "prix": 200
-    },
-    {
-     "id": 10031483889,
-     "prix": 195
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:lanco bracelet zrc|1": {
-   "date": 1795268298301,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:tissot race|1": {
-   "date": 1795268428994,
-   "mediane": 190,
-   "echantillon": 63,
-   "dispersion": 0.53,
-   "fourchette": [
-    110,
-    390
-   ],
-   "exemples": [
-    {
-     "id": 10470220107,
-     "prix": 190
-    },
-    {
-     "id": 9191633393,
-     "prix": 190
-    },
-    {
-     "id": 9110162077,
-     "prix": 190
-    },
-    {
-     "id": 8494112755,
-     "prix": 185
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:skagen elegante|2": {
-   "date": 1795268430539,
-   "mediane": 25,
-   "echantillon": 4,
-   "dispersion": 0,
-   "fourchette": [
-    15,
-    59
-   ],
-   "exemples": [
-    {
-     "id": 10907340123,
-     "prix": 25
-    },
-    {
-     "id": 10391066633,
-     "prix": 25
-    },
-    {
-     "id": 3262546866,
-     "prix": 15
-    },
-    {
-     "id": 10273316692,
-     "prix": 59
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:breil tribe beil|2": {
-   "date": 1795268560230,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:orient ra wj0003s mako|2": {
-   "date": 1795268560828,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:mondaine sbb|1": {
-   "date": 1795268561494,
-   "mediane": 160,
-   "echantillon": 13,
-   "dispersion": 0.72,
-   "fourchette": [
-    70,
-    280
-   ],
-   "exemples": [
-    {
-     "id": 10455720847,
-     "prix": 160
-    },
-    {
-     "id": 10837966566,
-     "prix": 160
-    },
-    {
-     "id": 6721619375,
-     "prix": 150
-    },
-    {
-     "id": 2209576040,
-     "prix": 150
-    }
-   ],
-   "niveau": "modèle"
   },
   "modele:lip chronographe cadran|2": {
    "date": 1795268820882,
@@ -19417,21 +18975,21 @@
    "niveau": "modèle"
   },
   "modele:fossil smartwatch|2": {
-   "date": 1795353451582,
+   "date": 1795441362452,
    "mediane": 40,
-   "echantillon": 23,
-   "dispersion": 0.63,
+   "echantillon": 25,
+   "dispersion": 0.5,
    "fourchette": [
     18,
-    85
+    100
    ],
    "exemples": [
     {
-     "id": 10555186371,
+     "id": 10939328382,
      "prix": 40
     },
     {
-     "id": 8811685172,
+     "id": 10555186371,
      "prix": 40
     },
     {
@@ -19439,11 +18997,12 @@
      "prix": 40
     },
     {
-     "id": 10919040349,
-     "prix": 35
+     "id": 8811685172,
+     "prix": 40
     }
    ],
-   "niveau": "modèle"
+   "niveau": "modèle",
+   "lissee": true
   },
   "modele:fossil fossiel|2": {
    "date": 1795353581203,
@@ -51706,8 +51265,8 @@
    "vu": 1794242516321
   },
   "54948535": {
-   "n": 12,
-   "vu": 1794926409061
+   "n": 13,
+   "vu": 1795440718612
   },
   "54949616": {
    "n": 10,
@@ -55226,8 +54785,8 @@
    "vu": 1793633350698
   },
   "61042883": {
-   "n": 28,
-   "vu": 1794921557367
+   "n": 29,
+   "vu": 1795440975913
   },
   "61044112": {
    "n": 6,
@@ -59082,8 +58641,8 @@
    "vu": 1793633350698
   },
   "68951716": {
-   "n": 39,
-   "vu": 1795368603268
+   "n": 40,
+   "vu": 1795440975914
   },
   "68972219": {
    "n": 7,
@@ -70994,8 +70553,8 @@
    "vu": 1795350165470
   },
   "110943036": {
-   "n": 11,
-   "vu": 1793633350698
+   "n": 12,
+   "vu": 1795440718612
   },
   "110979100": {
    "n": 32,
@@ -123114,8 +122673,8 @@
    "vu": 1795029233420
   },
   "3139195877": {
-   "n": 15,
-   "vu": 1795340335870
+   "n": 16,
+   "vu": 1795440590367
   },
   "3139223980": {
    "n": 6,
@@ -136330,8 +135889,8 @@
    "vu": 1794455853784
   },
   "3175526614": {
-   "n": 6,
-   "vu": 1793633350698
+   "n": 7,
+   "vu": 1795441232701
   },
   "3175529372": {
    "n": 8,
@@ -154586,8 +154145,8 @@
    "vu": 1795025070685
   },
   "3214209825": {
-   "n": 5,
-   "vu": 1795439291294
+   "n": 7,
+   "vu": 1795440975914
   },
   "3214237296": {
    "n": 2,
@@ -156123,24 +155682,24 @@
   }
  },
  "bilan": {
-  "depuis": 1795437757677,
-  "passages": 62,
-  "nouvelles": 451,
-  "marque": 320,
-  "etat": 10,
-  "prix": 8,
-  "accessoire": 7,
+  "depuis": 1795441363451,
+  "passages": 0,
+  "nouvelles": 0,
+  "marque": 0,
+  "etat": 0,
+  "prix": 0,
+  "accessoire": 0,
   "lot": 0,
-  "fausse": 9,
+  "fausse": 0,
   "imitation": 0,
-  "pro": 2,
-  "vendeurSpecialise": 25,
-  "sansCote": 21,
-  "chere": 48,
-  "description": 1,
+  "pro": 0,
+  "vendeurSpecialise": 0,
+  "sansCote": 0,
+  "chere": 0,
+  "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
-  "alertes": 9
+  "alertes": 0
  },
  "panne": null,
  "panneDebut": null,
@@ -159321,7 +158880,8 @@
    "score": 70,
    "lien": "https://www.vinted.fr/items/10938734902-jugendstil-taschenuhr-um-1900-vintage-guillochiert-mit-wappen-kleine-sekunde",
    "date": 1795437757047,
-   "statut": null
+   "statut": "retiree",
+   "verifieA": 1795441362847
   },
   {
    "id": 10938776303,
@@ -159331,7 +158891,8 @@
    "score": 65,
    "lien": "https://www.vinted.fr/items/10938776303-orologio-tissot",
    "date": 1795437757462,
-   "statut": null
+   "statut": "en vente",
+   "verifieA": 1795441363450
   },
   {
    "id": 10938574009,

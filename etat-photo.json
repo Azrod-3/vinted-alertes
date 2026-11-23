@@ -1,8 +1,5 @@
 {
  "vues": [
-  "10898367611",
-  "10898385537",
-  "10898134030",
   "10898261924",
   "10898185356",
   "10898370102",
@@ -3999,7 +3996,10 @@
   "10934940401",
   "10934950249",
   "10934983593",
-  "10935006786"
+  "10935006786",
+  "10934898923",
+  "10935043447",
+  "10935071652"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -7360,13 +7360,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:olympus fonction|2@3075": {
-   "date": 1795230969980,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
   },
   "modele:fujifilm 14mp y2k|2@3075": {
    "date": 1795233248018,
@@ -43782,6 +43775,42 @@
    "echantillon": 1,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:fujifilm av230 y2k|2@3075": {
+   "date": 1795403777866,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:pentax 105 r camara|1@3076": {
+   "date": 1795403778652,
+   "mediane": 35,
+   "echantillon": 4,
+   "dispersion": 0.29,
+   "fourchette": [
+    19.95,
+    90
+   ],
+   "exemples": [
+    {
+     "id": 10935043447,
+     "prix": 30
+    },
+    {
+     "id": 7456114747,
+     "prix": 40
+    },
+    {
+     "id": 7247116936,
+     "prix": 19.95
+    },
+    {
+     "id": 5941759752,
+     "prix": 90
+    }
+   ],
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -60434,8 +60463,8 @@
    "vu": 1793972179666
   },
   "3160970698": {
-   "n": 4,
-   "vu": 1795403269170
+   "n": 6,
+   "vu": 1795404157663
   },
   "3161055238": {
    "n": 19,
@@ -64044,8 +64073,8 @@
  },
  "bilan": {
   "depuis": 1795397365146,
-  "passages": 94,
-  "nouvelles": 28,
+  "passages": 109,
+  "nouvelles": 31,
   "marque": 2,
   "etat": 0,
   "prix": 1,
@@ -64055,8 +64084,8 @@
   "imitation": 0,
   "pro": 5,
   "vendeurSpecialise": 2,
-  "sansCote": 8,
-  "chere": 8,
+  "sansCote": 9,
+  "chere": 10,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
@@ -67351,7 +67380,8 @@
    "score": 72,
    "lien": "https://www.vinted.fr/items/10934782690-canon-canonet-ql19-11945mm-del-1965",
    "date": 1795400600647,
-   "statut": null
+   "statut": "en vente",
+   "verifieA": 1795404221791
   },
   {
    "id": 10934814484,

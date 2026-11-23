@@ -1,7 +1,5 @@
 {
  "vues": [
-  "10898274996",
-  "10898207982",
   "10897861369",
   "10850323264",
   "10898144304",
@@ -3999,7 +3997,9 @@
   "10935171961",
   "10935172343",
   "10935190700",
-  "10935219250"
+  "10935219250",
+  "10935269428",
+  "10935302714"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -43848,6 +43848,31 @@
    "echantillon": 1,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:kodak bilora|2@3076": {
+   "date": 1795407375823,
+   "mediane": 25,
+   "echantillon": 3,
+   "dispersion": null,
+   "fourchette": [
+    12,
+    30
+   ],
+   "exemples": [
+    {
+     "id": 10891452348,
+     "prix": 25
+    },
+    {
+     "id": 10873910825,
+     "prix": 30
+    },
+    {
+     "id": 10935269428,
+     "prix": 12
+    }
+   ],
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -64114,8 +64139,8 @@
  },
  "bilan": {
   "depuis": 1795405224954,
-  "passages": 30,
-  "nouvelles": 9,
+  "passages": 45,
+  "nouvelles": 11,
   "marque": 5,
   "etat": 0,
   "prix": 0,
@@ -64125,8 +64150,8 @@
   "imitation": 0,
   "pro": 1,
   "vendeurSpecialise": 0,
-  "sansCote": 1,
-  "chere": 1,
+  "sansCote": 2,
+  "chere": 2,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,

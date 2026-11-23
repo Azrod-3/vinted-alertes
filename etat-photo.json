@@ -1,14 +1,5 @@
 {
  "vues": [
-  "10897891032",
-  "10897718617",
-  "10900013520",
-  "10900005162",
-  "10899997696",
-  "10374232273",
-  "10898287473",
-  "10898047442",
-  "10899925845",
   "10900034700",
   "10900028604",
   "10900017629",
@@ -3999,7 +3990,16 @@
   "10935512143",
   "10935515806",
   "10935524987",
-  "10935547491"
+  "10935547491",
+  "10935565686",
+  "10935566413",
+  "10935565285",
+  "10935571803",
+  "10933711172",
+  "10935578623",
+  "10935585681",
+  "10935595010",
+  "10935591762"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -7361,20 +7361,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:samsung 120 finio|2@3076": {
-   "date": 1795241088009,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:samsung serie housse|2@3075": {
-   "date": 1795241340931,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
   },
   "modele:canon 1100 ixus|3@3075": {
    "date": 1795327923242,
@@ -43938,6 +43924,107 @@
    "echantillon": 1,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:nikon s3000 y2k|2@3075": {
+   "date": 1795413953759,
+   "mediane": 107,
+   "echantillon": 8,
+   "dispersion": 0.36,
+   "fourchette": [
+    55,
+    139
+   ],
+   "exemples": [
+    {
+     "id": 9789082389,
+     "prix": 114
+    },
+    {
+     "id": 9789062710,
+     "prix": 99
+    },
+    {
+     "id": 8562296953,
+     "prix": 115
+    },
+    {
+     "id": 9789108499,
+     "prix": 129
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:samsung 512 y2k|2@3075": {
+   "date": 1795414080810,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:canon slide open|3@3075": {
+   "date": 1795414207604,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:kodak six 20 six|1@3076": {
+   "date": 1795414334659,
+   "mediane": 25,
+   "echantillon": 52,
+   "dispersion": 0.68,
+   "fourchette": [
+    8,
+    60
+   ],
+   "exemples": [
+    {
+     "id": 10935585681,
+     "prix": 25
+    },
+    {
+     "id": 10654611331,
+     "prix": 25
+    },
+    {
+     "id": 8670280702,
+     "prix": 25
+    },
+    {
+     "id": 10808538644,
+     "prix": 25
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:canon 100 ixus|2@3075": {
+   "date": 1795414713672,
+   "mediane": 125,
+   "echantillon": 34,
+   "dispersion": 0.32,
+   "fourchette": [
+    45,
+    210
+   ],
+   "exemples": [
+    {
+     "id": 10887998637,
+     "prix": 125
+    },
+    {
+     "id": 10887958604,
+     "prix": 125
+    },
+    {
+     "id": 10887916181,
+     "prix": 125
+    },
+    {
+     "id": 10558653527,
+     "prix": 125
+    }
+   ],
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -45690,8 +45777,8 @@
    "vu": 1795093952865
   },
   "26568982": {
-   "n": 5,
-   "vu": 1795241340224
+   "n": 6,
+   "vu": 1795414079953
   },
   "26584269": {
    "n": 4,
@@ -56714,8 +56801,8 @@
    "vu": 1794149187763
   },
   "264692327": {
-   "n": 4,
-   "vu": 1794760278578
+   "n": 5,
+   "vu": 1795414712892
   },
   "264701679": {
    "n": 3,
@@ -62098,8 +62185,8 @@
    "vu": 1794770689812
   },
   "3191535397": {
-   "n": 35,
-   "vu": 1795350323469
+   "n": 36,
+   "vu": 1795413953079
   },
   "3191563393": {
    "n": 3,
@@ -64216,9 +64303,9 @@
  },
  "bilan": {
   "depuis": 1795412435098,
-  "passages": 21,
-  "nouvelles": 5,
-  "marque": 2,
+  "passages": 36,
+  "nouvelles": 14,
+  "marque": 4,
   "etat": 0,
   "prix": 0,
   "accessoire": 0,
@@ -64226,28 +64313,17 @@
   "fausse": 0,
   "imitation": 0,
   "pro": 0,
-  "vendeurSpecialise": 0,
-  "sansCote": 2,
-  "chere": 1,
+  "vendeurSpecialise": 1,
+  "sansCote": 5,
+  "chere": 3,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
-  "alertes": 0
+  "alertes": 1
  },
  "panne": null,
  "panneDebut": null,
  "suivi": [
-  {
-   "id": 10853827599,
-   "titre": "Pentax K1000",
-   "prix": 80,
-   "cote": 153,
-   "score": 55,
-   "lien": "https://www.vinted.fr/items/10853827599-pentax-k1000",
-   "date": 1794924562057,
-   "statut": "retiree",
-   "verifieA": 1794928173320
-  },
   {
    "id": 10853850019,
    "titre": "Nikon Coolpix S6200",
@@ -67536,6 +67612,16 @@
    "date": 1795405604845,
    "statut": "en vente",
    "verifieA": 1795409210262
+  },
+  {
+   "id": 10935595010,
+   "titre": "Fotocamera digitale Canon IXUS 100 IS Silver + Treppiede",
+   "prix": 63,
+   "cote": 125,
+   "score": 56,
+   "lien": "https://www.vinted.fr/items/10935595010-fotocamera-digitale-canon-ixus-100-is-silver-treppiede",
+   "date": 1795414714582,
+   "statut": null
   }
  ],
  "dernierRecap": "2026-11-22"

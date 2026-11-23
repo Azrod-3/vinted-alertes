@@ -1,11 +1,5 @@
 {
  "vues": [
-  "10898666142",
-  "10898605448",
-  "10898640935",
-  "10898162974",
-  "10898507901",
-  "10917549771",
   "10917559408",
   "10917566581",
   "10917575391",
@@ -3999,7 +3993,13 @@
   "10934261863",
   "10934278507",
   "10931766918",
-  "10934293442"
+  "10934293442",
+  "10934336779",
+  "10934346558",
+  "10934359371",
+  "10934356079",
+  "10934399519",
+  "10934410133"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -7360,71 +7360,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:sony cam|2@3075": {
-   "date": 1795222993399,
-   "mediane": 95,
-   "echantillon": 8,
-   "dispersion": 0.67,
-   "fourchette": [
-    60,
-    200
-   ],
-   "exemples": [
-    {
-     "id": 10618816015,
-     "prix": 90
-    },
-    {
-     "id": 8946077822,
-     "prix": 100
-    },
-    {
-     "id": 10901513319,
-     "prix": 80
-    },
-    {
-     "id": 5600034896,
-     "prix": 75
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:fujifilm instax mini|2@3075": {
-   "date": 1795223247200,
-   "mediane": 75,
-   "echantillon": 23,
-   "dispersion": 1.13,
-   "fourchette": [
-    30,
-    200
-   ],
-   "exemples": [
-    {
-     "id": 9436543668,
-     "prix": 75
-    },
-    {
-     "id": 10901531341,
-     "prix": 80
-    },
-    {
-     "id": 8910322459,
-     "prix": 70
-    },
-    {
-     "id": 9189371737,
-     "prix": 80
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:lomography acessorios diana|2@3076": {
-   "date": 1795223500029,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
   },
   "modele:fujifilm x t4 trappe|3@3075": {
    "date": 1795224132750,
@@ -59106,8 +59041,8 @@
    "vu": 1795374509967
   },
   "3138957823": {
-   "n": 126,
-   "vu": 1795395139694
+   "n": 127,
+   "vu": 1795395903025
   },
   "3139110308": {
    "n": 3,
@@ -61194,8 +61129,8 @@
    "vu": 1794159634514
   },
   "3182576464": {
-   "n": 15,
-   "vu": 1795395012939
+   "n": 16,
+   "vu": 1795396031745
   },
   "3182740391": {
    "n": 8,
@@ -63753,6 +63688,10 @@
    "n": 2,
    "vu": 1795085018477
   },
+  "3216937060": {
+   "n": 2,
+   "vu": 1795395776736
+  },
   "3217036931": {
    "n": 3,
    "vu": 1795094657405
@@ -63848,19 +63787,19 @@
  },
  "bilan": {
   "depuis": 1795390152923,
-  "passages": 87,
-  "nouvelles": 59,
-  "marque": 4,
+  "passages": 102,
+  "nouvelles": 65,
+  "marque": 6,
   "etat": 2,
   "prix": 1,
   "accessoire": 1,
   "lot": 2,
   "fausse": 0,
   "imitation": 0,
-  "pro": 5,
-  "vendeurSpecialise": 19,
-  "sansCote": 18,
-  "chere": 6,
+  "pro": 6,
+  "vendeurSpecialise": 20,
+  "sansCote": 19,
+  "chere": 7,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
@@ -67166,7 +67105,8 @@
    "score": 50,
    "lien": "https://www.vinted.fr/items/10934022446-fotocamera-digitale-vintage-canon-powershot-a620",
    "date": 1795392689992,
-   "statut": null
+   "statut": "en vente",
+   "verifieA": 1795396350810
   }
  ],
  "dernierRecap": "2026-11-22"

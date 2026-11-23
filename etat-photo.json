@@ -1,7 +1,5 @@
 {
  "vues": [
-  "10898153954",
-  "10897777756",
   "10898169700",
   "10898155374",
   "10898041772",
@@ -3999,7 +3997,9 @@
   "10935339173",
   "10935355883",
   "10935368039",
-  "10935390323"
+  "10935390323",
+  "10935458567",
+  "10935474863"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -4386,10 +4386,10 @@
    "coteTropBasse": 38
   },
   "marque:zeiss@3076": {
-   "date": 1795306131352,
+   "date": 1795411800642,
    "mediane": null,
-   "echantillon": 47,
-   "coteTropBasse": 30
+   "echantillon": 56,
+   "coteTropBasse": 28
   },
   "marque:ricoh@3076": {
    "date": 1795347519008,
@@ -43873,6 +43873,13 @@
    "echantillon": 1,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:zeiss contarex fotokamera|2@3076": {
+   "date": 1795411801246,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -46877,8 +46884,8 @@
    "vu": 1794838496076
   },
   "39260546": {
-   "n": 2,
-   "vu": 1793791585838
+   "n": 3,
+   "vu": 1795411421388
   },
   "39280665": {
    "n": 2,
@@ -64143,8 +64150,8 @@
  },
  "bilan": {
   "depuis": 1795405224954,
-  "passages": 90,
-  "nouvelles": 18,
+  "passages": 105,
+  "nouvelles": 20,
   "marque": 7,
   "etat": 0,
   "prix": 2,
@@ -64154,7 +64161,7 @@
   "imitation": 0,
   "pro": 1,
   "vendeurSpecialise": 1,
-  "sansCote": 4,
+  "sansCote": 6,
   "chere": 2,
   "description": 0,
   "scoreFaible": 0,

@@ -1,6 +1,5 @@
 {
  "vues": [
-  "10898211033",
   "10898274996",
   "10898207982",
   "10897861369",
@@ -3999,7 +3998,8 @@
   "10935164637",
   "10935171961",
   "10935172343",
-  "10935190700"
+  "10935190700",
+  "10935219250"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -7361,35 +7361,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:kodak az528|3@3075": {
-   "date": 1795233628036,
-   "mediane": 190,
-   "echantillon": 71,
-   "dispersion": 0.26,
-   "fourchette": [
-    65,
-    300
-   ],
-   "exemples": [
-    {
-     "id": 10633822528,
-     "prix": 190
-    },
-    {
-     "id": 9800058174,
-     "prix": 190
-    },
-    {
-     "id": 7922098448,
-     "prix": 190
-    },
-    {
-     "id": 7574175226,
-     "prix": 190
-    }
-   ],
-   "niveau": "modèle"
   },
   "modele:praktica b100 praktika|2@3076": {
    "date": 1795235905216,
@@ -43870,6 +43841,13 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "modele:zenit kodak|1@3076": {
+   "date": 1795406490350,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -64136,8 +64114,8 @@
  },
  "bilan": {
   "depuis": 1795405224954,
-  "passages": 15,
-  "nouvelles": 8,
+  "passages": 30,
+  "nouvelles": 9,
   "marque": 5,
   "etat": 0,
   "prix": 0,
@@ -64147,7 +64125,7 @@
   "imitation": 0,
   "pro": 1,
   "vendeurSpecialise": 0,
-  "sansCote": 0,
+  "sansCote": 1,
   "chere": 1,
   "description": 0,
   "scoreFaible": 0,

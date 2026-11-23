@@ -1,19 +1,5 @@
 {
  "vues": [
-  "10900307927",
-  "10900310531",
-  "10900309073",
-  "10900301226",
-  "10900300106",
-  "10900295497",
-  "10900301913",
-  "10900300205",
-  "10900327468",
-  "10900319294",
-  "10900318168",
-  "10900318008",
-  "10900335797",
-  "10900335823",
   "10900368430",
   "10900367560",
   "10896491262",
@@ -3999,7 +3985,21 @@
   "10935940649",
   "10935939657",
   "10935947626",
-  "10935957984"
+  "10935957984",
+  "10935962661",
+  "10935967165",
+  "10935965364",
+  "10935967122",
+  "10935973298",
+  "10935974883",
+  "10936004248",
+  "10935996794",
+  "10936006193",
+  "10936018669",
+  "10936028867",
+  "10936023157",
+  "10936030966",
+  "10936034069"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -23289,12 +23289,12 @@
    "niveau": "modèle"
   },
   "modele:canon a80 powershot|2@3075": {
-   "date": 1795297963529,
+   "date": 1795421188151,
    "mediane": 50,
    "echantillon": 25,
    "dispersion": 0.72,
    "fourchette": [
-    20,
+    15,
     129
    ],
    "exemples": [
@@ -23315,7 +23315,8 @@
      "prix": 45
     }
    ],
-   "niveau": "modèle"
+   "niveau": "modèle",
+   "lissee": true
   },
   "modele:pentax f1 7 super|2@3076": {
    "date": 1795297964267,
@@ -44063,6 +44064,78 @@
    "echantillon": 1,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:nikon f 401s analogica|1@3076": {
+   "date": 1795420554299,
+   "mediane": 50,
+   "echantillon": 11,
+   "dispersion": 0.2,
+   "fourchette": [
+    25,
+    90
+   ],
+   "exemples": [
+    {
+     "id": 10682130503,
+     "prix": 50
+    },
+    {
+     "id": 9421178240,
+     "prix": 50
+    },
+    {
+     "id": 5571758791,
+     "prix": 50
+    },
+    {
+     "id": 6442619240,
+     "prix": 50
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:nikon s9050 coolpix|2@3075": {
+   "date": 1795420681035,
+   "mediane": null,
+   "echantillon": 2,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:zeiss contax|2@3076": {
+   "date": 1795421189039,
+   "mediane": 300,
+   "echantillon": 16,
+   "dispersion": 0.63,
+   "fourchette": [
+    100,
+    450
+   ],
+   "exemples": [
+    {
+     "id": 10183942273,
+     "prix": 300
+    },
+    {
+     "id": 9873753199,
+     "prix": 299.99
+    },
+    {
+     "id": 8981555216,
+     "prix": 310
+    },
+    {
+     "id": 7789749152,
+     "prix": 350
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:zeiss ikon tenax|2@3076": {
+   "date": 1795421316697,
+   "mediane": null,
+   "echantillon": 2,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -53278,6 +53351,10 @@
    "n": 2,
    "vu": 1795281801755
   },
+  "154487203": {
+   "n": 2,
+   "vu": 1795420934342
+  },
   "154647030": {
    "n": 20,
    "vu": 1794936544488
@@ -54691,8 +54768,8 @@
    "vu": 1794675259023
   },
   "204416727": {
-   "n": 3,
-   "vu": 1795255500382
+   "n": 4,
+   "vu": 1795420553619
   },
   "204741285": {
    "n": 3,
@@ -55653,6 +55730,10 @@
   "241585513": {
    "n": 3,
    "vu": 1794409204404
+  },
+  "241658992": {
+   "n": 2,
+   "vu": 1795421315992
   },
   "241684739": {
    "n": 2,
@@ -60155,8 +60236,8 @@
    "vu": 1795015935847
   },
   "3150290417": {
-   "n": 2,
-   "vu": 1793690847692
+   "n": 3,
+   "vu": 1795420553619
   },
   "3150331592": {
    "n": 11,
@@ -64361,38 +64442,27 @@
  },
  "bilan": {
   "depuis": 1795419664146,
-  "passages": 12,
-  "nouvelles": 16,
-  "marque": 2,
+  "passages": 27,
+  "nouvelles": 30,
+  "marque": 6,
   "etat": 0,
-  "prix": 2,
-  "accessoire": 0,
+  "prix": 3,
+  "accessoire": 1,
   "lot": 0,
   "fausse": 0,
   "imitation": 0,
   "pro": 0,
   "vendeurSpecialise": 2,
-  "sansCote": 6,
-  "chere": 3,
+  "sansCote": 10,
+  "chere": 6,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
-  "alertes": 1
+  "alertes": 2
  },
  "panne": null,
  "panneDebut": null,
  "suivi": [
-  {
-   "id": 10853920984,
-   "titre": "Macchina fotografica niko",
-   "prix": 35,
-   "cote": 125,
-   "score": 58,
-   "lien": "https://www.vinted.fr/items/10853920984-macchina-fotografica-niko",
-   "date": 1794924950197,
-   "statut": "en vente",
-   "verifieA": 1794928561243
-  },
   {
    "id": 10854021672,
    "titre": "Minolta flash meter III posemètre flash mètre pro",
@@ -67679,6 +67749,16 @@
    "score": 51,
    "lien": "https://www.vinted.fr/items/10935913950-olympus-mju-1-fotocamera-analogica-compatta-35mm-vintage-anni-90",
    "date": 1795419919001,
+   "statut": null
+  },
+  {
+   "id": 10936023157,
+   "titre": "Zeiss Contax S",
+   "prix": 200,
+   "cote": 300,
+   "score": 50,
+   "lien": "https://www.vinted.fr/items/10936023157-zeiss-contax-s",
+   "date": 1795421189837,
    "statut": null
   }
  ],

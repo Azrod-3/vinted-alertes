@@ -1,7 +1,5 @@
 {
  "vues": [
-  "10898053785",
-  "10898058555",
   "10897891032",
   "10897718617",
   "10900013520",
@@ -3999,7 +3997,9 @@
   "10935496245",
   "10935507969",
   "10935512143",
-  "10935515806"
+  "10935515806",
+  "10935524987",
+  "10935547491"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -43931,6 +43931,13 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "modele:canon 1100 bel|3@3075": {
+   "date": 1795412942348,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -64209,9 +64216,9 @@
  },
  "bilan": {
   "depuis": 1795412435098,
-  "passages": 6,
-  "nouvelles": 3,
-  "marque": 1,
+  "passages": 21,
+  "nouvelles": 5,
+  "marque": 2,
   "etat": 0,
   "prix": 0,
   "accessoire": 0,
@@ -64220,7 +64227,7 @@
   "imitation": 0,
   "pro": 0,
   "vendeurSpecialise": 0,
-  "sansCote": 1,
+  "sansCote": 2,
   "chere": 1,
   "description": 0,
   "scoreFaible": 0,

@@ -1,14 +1,5 @@
 {
  "vues": [
-  "10899061013",
-  "10899087724",
-  "10899075502",
-  "10898215612",
-  "10899072177",
-  "10899035214",
-  "10899054198",
-  "10899037384",
-  "10899017307",
   "10899019248",
   "10899002088",
   "10898992852",
@@ -3999,7 +3990,16 @@
   "10933926207",
   "10933936331",
   "10933938220",
-  "10933931705"
+  "10933931705",
+  "10933980330",
+  "10933987625",
+  "10933973055",
+  "10934001156",
+  "10934025499",
+  "10934022446",
+  "10934013241",
+  "10934017302",
+  "10934036443"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -7390,13 +7390,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:nikon 103 nikonos|2@3075": {
-   "date": 1795219572821,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
   },
   "modele:yashica m1002 minitec|4@3076": {
    "date": 1795220082776,
@@ -43618,6 +43611,35 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "modele:canon a620 powershot|1@3075": {
+   "date": 1795392689317,
+   "mediane": 130,
+   "echantillon": 6,
+   "dispersion": 0.42,
+   "fourchette": [
+    70,
+    150
+   ],
+   "exemples": [
+    {
+     "id": 9965341012,
+     "prix": 139.95
+    },
+    {
+     "id": 10540307567,
+     "prix": 119.99
+    },
+    {
+     "id": 9940484698,
+     "prix": 149.99
+    },
+    {
+     "id": 7326029060,
+     "prix": 150
+    }
+   ],
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -46706,8 +46728,8 @@
    "vu": 1794934026878
   },
   "40437130": {
-   "n": 18,
-   "vu": 1795287673095
+   "n": 22,
+   "vu": 1795392688532
   },
   "40545409": {
    "n": 5,
@@ -52370,8 +52392,8 @@
    "vu": 1795011982606
   },
   "137176009": {
-   "n": 2,
-   "vu": 1795391802198
+   "n": 4,
+   "vu": 1795392817277
   },
   "137208117": {
    "n": 5,
@@ -59106,8 +59128,8 @@
    "vu": 1795374509967
   },
   "3138957823": {
-   "n": 122,
-   "vu": 1795391928500
+   "n": 123,
+   "vu": 1795392688532
   },
   "3139110308": {
    "n": 3,
@@ -63848,8 +63870,8 @@
  },
  "bilan": {
   "depuis": 1795390152923,
-  "passages": 28,
-  "nouvelles": 21,
+  "passages": 43,
+  "nouvelles": 30,
   "marque": 3,
   "etat": 0,
   "prix": 1,
@@ -63857,29 +63879,18 @@
   "lot": 1,
   "fausse": 0,
   "imitation": 0,
-  "pro": 1,
-  "vendeurSpecialise": 3,
-  "sansCote": 8,
+  "pro": 2,
+  "vendeurSpecialise": 7,
+  "sansCote": 11,
   "chere": 4,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
-  "alertes": 0
+  "alertes": 1
  },
  "panne": null,
  "panneDebut": null,
  "suivi": [
-  {
-   "id": 10853049456,
-   "titre": "Canon Kamera",
-   "prix": 25,
-   "cote": 89,
-   "score": 66,
-   "lien": "https://www.vinted.fr/items/10853049456-canon-kamera",
-   "date": 1794921210735,
-   "statut": "retiree",
-   "verifieA": 1794924818143
-  },
   {
    "id": 10853081829,
    "titre": "Canon T50 + zoom Canon",
@@ -67168,6 +67179,16 @@
    "date": 1795387477813,
    "statut": "en vente",
    "verifieA": 1795391104553
+  },
+  {
+   "id": 10934022446,
+   "titre": "Fotocamera digitale vintage Canon PowerShot A620",
+   "prix": 70,
+   "cote": 130,
+   "score": 50,
+   "lien": "https://www.vinted.fr/items/10934022446-fotocamera-digitale-vintage-canon-powershot-a620",
+   "date": 1795392689992,
+   "statut": null
   }
  ],
  "dernierRecap": "2026-11-22"

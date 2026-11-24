@@ -1,7 +1,5 @@
 {
  "vues": [
-  "10922380666",
-  "10922367570",
   "10922366706",
   "10922366174",
   "10922351057",
@@ -3999,7 +3997,9 @@
   "10935710043",
   "10948223464",
   "10935711059",
-  "10935712017"
+  "10935712017",
+  "10948264534",
+  "10948287437"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -35616,6 +35616,13 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "modele:nikon fe2 corcho|1@3076": {
+   "date": 1795487523900,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -56410,8 +56417,8 @@
  },
  "bilan": {
   "depuis": 1795485807509,
-  "passages": 20,
-  "nouvelles": 15,
+  "passages": 35,
+  "nouvelles": 17,
   "marque": 1,
   "etat": 0,
   "prix": 0,
@@ -56421,7 +56428,7 @@
   "imitation": 0,
   "pro": 10,
   "vendeurSpecialise": 0,
-  "sansCote": 2,
+  "sansCote": 4,
   "chere": 1,
   "description": 0,
   "scoreFaible": 0,

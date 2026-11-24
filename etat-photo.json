@@ -1,18 +1,5 @@
 {
  "vues": [
-  "10932131488",
-  "10932131731",
-  "10932127827",
-  "10932152731",
-  "10931933071",
-  "10932178319",
-  "10932178407",
-  "10932171801",
-  "10932164422",
-  "10932158341",
-  "10932159970",
-  "10932147539",
-  "10932151045",
   "10932158793",
   "10932175528",
   "10932160124",
@@ -3999,7 +3986,20 @@
   "10960175591",
   "10960175060",
   "10960193802",
-  "10960189024"
+  "10960189024",
+  "10960227245",
+  "10960219923",
+  "10960219966",
+  "10960241892",
+  "10960239492",
+  "10960266256",
+  "10960267084",
+  "10960262568",
+  "10960270393",
+  "10960281504",
+  "10960299630",
+  "10960312917",
+  "10960311203"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -6660,56 +6660,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:kodak mini porte|4@3075": {
-   "date": 1795388749963,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:canon maquina outras|2@3076": {
-   "date": 1795389133169,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:canon s3 powershot|2@3075": {
-   "date": 1795389260323,
-   "mediane": 64,
-   "echantillon": 20,
-   "dispersion": 0.23,
-   "fourchette": [
-    40,
-    115
-   ],
-   "exemples": [
-    {
-     "id": 8352136276,
-     "prix": 63
-    },
-    {
-     "id": 6107404752,
-     "prix": 65
-    },
-    {
-     "id": 10387614335,
-     "prix": 60
-    },
-    {
-     "id": 9366593937,
-     "prix": 60
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:ricoh kr10x camara|2@3076": {
-   "date": 1795389261029,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
   },
   "modele:kodak ek4 istantanea|1@3076": {
    "date": 1795389641026,
@@ -24849,6 +24799,92 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "modele:nikon camara|3@3075": {
+   "date": 1795561332727,
+   "mediane": 67,
+   "echantillon": 46,
+   "dispersion": 0.37,
+   "fourchette": [
+    25,
+    126
+   ],
+   "exemples": [
+    {
+     "id": 10956863623,
+     "prix": 67
+    },
+    {
+     "id": 10939294084,
+     "prix": 67
+    },
+    {
+     "id": 10541481971,
+     "prix": 68
+    },
+    {
+     "id": 10937951174,
+     "prix": 65
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:nikon j1 bianca|2@3075": {
+   "date": 1795561333237,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:pentax analogica asaky|1@3076": {
+   "date": 1795561334127,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:sony dsc w30 y2k|3@3075": {
+   "date": 1795561461458,
+   "mediane": null,
+   "echantillon": 2,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:olympus c 725 camedia|1@3075": {
+   "date": 1795561714482,
+   "mediane": 35,
+   "echantillon": 4,
+   "dispersion": 0.03,
+   "fourchette": [
+    31,
+    35
+   ],
+   "exemples": [
+    {
+     "id": 10453539833,
+     "prix": 35
+    },
+    {
+     "id": 8386027874,
+     "prix": 35
+    },
+    {
+     "id": 10313960655,
+     "prix": 34
+    },
+    {
+     "id": 9477701319,
+     "prix": 31
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:canon a1 black|2@3076": {
+   "date": 1795561715322,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -31233,8 +31269,8 @@
    "vu": 1793736776781
   },
   "70832706": {
-   "n": 51,
-   "vu": 1795447851739
+   "n": 52,
+   "vu": 1795561461021
   },
   "70865626": {
    "n": 2,
@@ -35905,8 +35941,8 @@
    "vu": 1794387733981
   },
   "200346885": {
-   "n": 2,
-   "vu": 1794676230290
+   "n": 3,
+   "vu": 1795561713807
   },
   "200760940": {
    "n": 2,
@@ -36539,6 +36575,10 @@
   "225975517": {
    "n": 23,
    "vu": 1795354280681
+  },
+  "225992572": {
+   "n": 2,
+   "vu": 1795561461021
   },
   "226170121": {
    "n": 8,
@@ -41369,8 +41409,8 @@
    "vu": 1795266594793
   },
   "3143766521": {
-   "n": 5,
-   "vu": 1795560698381
+   "n": 6,
+   "vu": 1795561841420
   },
   "3143780308": {
    "n": 3,
@@ -46111,23 +46151,27 @@
   "3219469525": {
    "n": 2,
    "vu": 1795524274014
+  },
+  "3219692193": {
+   "n": 2,
+   "vu": 1795561331843
   }
  },
  "bilan": {
   "depuis": 1795558914595,
-  "passages": 35,
-  "nouvelles": 65,
-  "marque": 11,
+  "passages": 50,
+  "nouvelles": 78,
+  "marque": 13,
   "etat": 0,
   "prix": 1,
   "accessoire": 3,
   "lot": 0,
   "fausse": 0,
   "imitation": 0,
-  "pro": 2,
+  "pro": 4,
   "vendeurSpecialise": 6,
-  "sansCote": 31,
-  "chere": 11,
+  "sansCote": 38,
+  "chere": 13,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
@@ -49433,7 +49477,8 @@
    "score": 92,
    "lien": "https://www.vinted.fr/items/10959747357-fujifilm-x100vi",
    "date": 1795557768683,
-   "statut": null
+   "statut": "en vente",
+   "verifieA": 1795561397744
   }
  ],
  "dernierRecap": "2026-11-24"

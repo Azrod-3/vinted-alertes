@@ -1,12 +1,5 @@
 {
  "vues": [
-  "10922115679",
-  "10922143965",
-  "10922167735",
-  "10922185810",
-  "10922175408",
-  "10922175042",
-  "10922169981",
   "10922161102",
   "10922162480",
   "10922165041",
@@ -3999,7 +3992,14 @@
   "10947513181",
   "10944091965",
   "10943686266",
-  "10947549382"
+  "10947549382",
+  "10943978134",
+  "10947611132",
+  "10947589979",
+  "10947626819",
+  "10944003127",
+  "10947640469",
+  "10947657209"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -5977,36 +5977,6 @@
    "niveau": "modèle",
    "lissee": true
   },
-  "modele:nikon a100 coolpix|1@3075": {
-   "date": 1795306891887,
-   "mediane": 98,
-   "echantillon": 36,
-   "dispersion": 0.42,
-   "fourchette": [
-    35,
-    170
-   ],
-   "exemples": [
-    {
-     "id": 10228038594,
-     "prix": 95
-    },
-    {
-     "id": 10827711742,
-     "prix": 99
-    },
-    {
-     "id": 9392699235,
-     "prix": 99
-    },
-    {
-     "id": 10504053593,
-     "prix": 99.99
-    }
-   ],
-   "niveau": "modèle",
-   "lissee": true
-  },
   "modele:nikon l22 coolpix|1@3075": {
    "date": 1795368387147,
    "mediane": 50,
@@ -7607,71 +7577,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:nikon s30 coolpix|2@3075": {
-   "date": 1795307019437,
-   "mediane": 60,
-   "echantillon": 35,
-   "dispersion": 0.33,
-   "fourchette": [
-    20,
-    95
-   ],
-   "exemples": [
-    {
-     "id": 6686450499,
-     "prix": 60
-    },
-    {
-     "id": 8788920944,
-     "prix": 60
-    },
-    {
-     "id": 7026440170,
-     "prix": 60
-    },
-    {
-     "id": 8237618662,
-     "prix": 60
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:nikon s2700 coolpix|1@3075": {
-   "date": 1795307020339,
-   "mediane": 90,
-   "echantillon": 53,
-   "dispersion": 0.38,
-   "fourchette": [
-    35,
-    150
-   ],
-   "exemples": [
-    {
-     "id": 10311597573,
-     "prix": 90
-    },
-    {
-     "id": 9904809223,
-     "prix": 90
-    },
-    {
-     "id": 7659107774,
-     "prix": 90
-    },
-    {
-     "id": 8040036651,
-     "prix": 90
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:nikon 2900 coolpix|2@3075": {
-   "date": 1795307273674,
-   "mediane": null,
-   "echantillon": 2,
-   "dispersion": null,
-   "niveau": "modèle"
   },
   "marque:dji@3075": {
    "date": 1795307654088,
@@ -35749,6 +35654,27 @@
    "echantillon": 1,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:fujifilm junjifilm|2@3075": {
+   "date": 1795479901106,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:olympus maquina antiga|1@3076": {
+   "date": 1795480154754,
+   "mediane": null,
+   "echantillon": 2,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:sony w170 digitalcamera|2@3075": {
+   "date": 1795480281844,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -54729,8 +54655,8 @@
    "vu": 1794779992898
   },
   "3197180185": {
-   "n": 18,
-   "vu": 1795112019975
+   "n": 19,
+   "vu": 1795479773564
   },
   "3197190722": {
    "n": 6,
@@ -56539,9 +56465,9 @@
  },
  "bilan": {
   "depuis": 1795478553627,
-  "passages": 13,
-  "nouvelles": 9,
-  "marque": 1,
+  "passages": 28,
+  "nouvelles": 16,
+  "marque": 3,
   "etat": 0,
   "prix": 0,
   "accessoire": 1,
@@ -56549,8 +56475,8 @@
   "fausse": 0,
   "imitation": 0,
   "pro": 0,
-  "vendeurSpecialise": 1,
-  "sansCote": 40,
+  "vendeurSpecialise": 2,
+  "sansCote": 44,
   "chere": 62,
   "description": 0,
   "scoreFaible": 0,

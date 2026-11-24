@@ -1,15 +1,5 @@
 {
  "vues": [
-  "10922251723",
-  "10922254346",
-  "10922302016",
-  "10922290716",
-  "10922280754",
-  "10922273962",
-  "10922321953",
-  "10922308709",
-  "10922300625",
-  "10922252961",
   "10922284430",
   "10922344389",
   "10922343809",
@@ -3999,7 +3989,17 @@
   "10948004549",
   "10948003944",
   "10948033811",
-  "10948042580"
+  "10948042580",
+  "10948099398",
+  "10948103861",
+  "10935700615",
+  "10935701472",
+  "10935702400",
+  "10947111546",
+  "10935703244",
+  "10935704299",
+  "10935705286",
+  "10948167708"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -5118,36 +5118,6 @@
     {
      "id": 10373590506,
      "prix": 135
-    }
-   ],
-   "niveau": "modèle",
-   "lissee": true
-  },
-  "modele:fujifilm x100vi|2@3075": {
-   "date": 1795313223191,
-   "mediane": 1700,
-   "echantillon": 21,
-   "dispersion": 0.09,
-   "fourchette": [
-    1440,
-    2000
-   ],
-   "exemples": [
-    {
-     "id": 10877344252,
-     "prix": 1700
-    },
-    {
-     "id": 9131443326,
-     "prix": 1700
-    },
-    {
-     "id": 8977493531,
-     "prix": 1700
-    },
-    {
-     "id": 10882755936,
-     "prix": 1700
     }
    ],
    "niveau": "modèle",
@@ -7547,31 +7517,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:canon 40d viel|2@3075": {
-   "date": 1795312716007,
-   "mediane": 65,
-   "echantillon": 3,
-   "dispersion": null,
-   "fourchette": [
-    59,
-    190
-   ],
-   "exemples": [
-    {
-     "id": 9261915283,
-     "prix": 65
-    },
-    {
-     "id": 10916462192,
-     "prix": 59
-    },
-    {
-     "id": 10761599558,
-     "prix": 190
-    }
-   ],
-   "niveau": "modèle"
   },
   "marque:voigtlander@3075": {
    "date": 1795317806005,
@@ -20430,33 +20375,34 @@
    "niveau": "modèle"
   },
   "modele:canon 1300d eos|2@3075": {
-   "date": 1795369647901,
-   "mediane": 183,
-   "echantillon": 76,
-   "dispersion": 0.41,
+   "date": 1795486125327,
+   "mediane": 181,
+   "echantillon": 70,
+   "dispersion": 0.28,
    "fourchette": [
     100,
-    325
+    300
    ],
    "exemples": [
     {
-     "id": 10775583434,
-     "prix": 185
-    },
-    {
-     "id": 9605619242,
-     "prix": 185
-    },
-    {
-     "id": 8876442220,
-     "prix": 185
-    },
-    {
      "id": 10918854527,
+     "prix": 180
+    },
+    {
+     "id": 10942190828,
+     "prix": 180
+    },
+    {
+     "id": 10694010226,
+     "prix": 180
+    },
+    {
+     "id": 10835932234,
      "prix": 180
     }
    ],
-   "niveau": "modèle"
+   "niveau": "modèle",
+   "lissee": true
   },
   "modele:canon 10mg camara|2@3075": {
    "date": 1795369649321,
@@ -35634,6 +35580,13 @@
    "echantillon": 1,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:fujifilm antica|2@3076": {
+   "date": 1795485364413,
+   "mediane": null,
+   "echantillon": 2,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -47346,8 +47299,8 @@
    "vu": 1793978329360
   },
   "236380353": {
-   "n": 5,
-   "vu": 1795484602635
+   "n": 6,
+   "vu": 1795485237358
   },
   "236601472": {
    "n": 280,
@@ -47710,8 +47663,8 @@
    "vu": 1794233448164
   },
   "246537509": {
-   "n": 140,
-   "vu": 1795402378710
+   "n": 146,
+   "vu": 1795486124530
   },
   "246562424": {
    "n": 8,
@@ -56427,39 +56380,28 @@
   }
  },
  "bilan": {
-  "depuis": 1795478553627,
-  "passages": 103,
-  "nouvelles": 49,
-  "marque": 13,
-  "etat": 4,
+  "depuis": 1795485807509,
+  "passages": 5,
+  "nouvelles": 4,
+  "marque": 0,
+  "etat": 0,
   "prix": 0,
-  "accessoire": 1,
+  "accessoire": 0,
   "lot": 0,
   "fausse": 0,
   "imitation": 0,
-  "pro": 2,
-  "vendeurSpecialise": 6,
-  "sansCote": 53,
-  "chere": 65,
+  "pro": 3,
+  "vendeurSpecialise": 0,
+  "sansCote": 0,
+  "chere": 0,
   "description": 0,
   "scoreFaible": 0,
-  "blocages": 3,
-  "alertes": 5
+  "blocages": 0,
+  "alertes": 1
  },
  "panne": null,
  "panneDebut": null,
  "suivi": [
-  {
-   "id": 10866753376,
-   "titre": "Cámara bridge Canon",
-   "prix": 85,
-   "cote": 150,
-   "score": 52,
-   "lien": "https://www.vinted.fr/items/10866753376-camara-bridge-canon",
-   "date": 1795006040296,
-   "statut": "en vente",
-   "verifieA": 1795009659097
-  },
   {
    "id": 10866923355,
    "titre": "fotocamera canon G10",
@@ -59746,6 +59688,17 @@
    "score": 18,
    "lien": "https://www.vinted.fr/items/10944170043-mamiya-rb67-220-back",
    "date": 1795482184829,
+   "statut": "en vente",
+   "verifieA": 1795485807509
+  },
+  {
+   "id": 10948167708,
+   "titre": "Canon EOS 1300D + obiettivo 18-55 mm – Kit completo",
+   "prix": 120,
+   "cote": 181,
+   "score": 51,
+   "lien": "https://www.vinted.fr/items/10948167708-canon-eos-1300d-obiettivo-18-55-mm-kit-completo",
+   "date": 1795486126014,
    "statut": null
   }
  ],

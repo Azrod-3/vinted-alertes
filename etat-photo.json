@@ -1,11 +1,5 @@
 {
  "vues": [
-  "10922161102",
-  "10922162480",
-  "10922165041",
-  "10922212144",
-  "10922206330",
-  "10922192580",
   "10922188873",
   "10922191087",
   "10922181245",
@@ -3999,7 +3993,13 @@
   "10947626819",
   "10944003127",
   "10947640469",
-  "10947657209"
+  "10947657209",
+  "10943256048",
+  "10944880105",
+  "10947705732",
+  "10947699717",
+  "10947715384",
+  "10947736664"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -7577,78 +7577,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "marque:dji@3075": {
-   "date": 1795307654088,
-   "mediane": 260,
-   "echantillon": 52,
-   "dispersion": 0.58,
-   "fourchette": [
-    65,
-    570
-   ],
-   "exemples": [
-    {
-     "id": 8198960787,
-     "prix": 250
-    },
-    {
-     "id": 9623444090,
-     "prix": 250
-    },
-    {
-     "id": 10197901046,
-     "prix": 270
-    },
-    {
-     "id": 7922328662,
-     "prix": 250
-    }
-   ],
-   "niveau": "marque"
-  },
-  "modele:dji sehr gut|2@3075": {
-   "date": 1795307654815,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:agfa app fotograficoagfa|2@3076": {
-   "date": 1795308033984,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:lomography diana mini|3@3076": {
-   "date": 1795308415271,
-   "mediane": 40,
-   "echantillon": 46,
-   "dispersion": 0.5,
-   "fourchette": [
-    14,
-    95
-   ],
-   "exemples": [
-    {
-     "id": 10471205430,
-     "prix": 40
-    },
-    {
-     "id": 8453497468,
-     "prix": 40
-    },
-    {
-     "id": 10072298496,
-     "prix": 40
-    },
-    {
-     "id": 6008751340,
-     "prix": 40
-    }
-   ],
-   "niveau": "modèle"
   },
   "modele:sony sono pixels|2@3075": {
    "date": 1795309047883,
@@ -44051,8 +43979,8 @@
    "vu": 1795270604310
   },
   "119375187": {
-   "n": 8,
-   "vu": 1795045682682
+   "n": 9,
+   "vu": 1795481295596
   },
   "119404230": {
    "n": 2,
@@ -51959,8 +51887,8 @@
    "vu": 1795345162955
   },
   "3146809999": {
-   "n": 4,
-   "vu": 1795295026405
+   "n": 5,
+   "vu": 1795480790243
   },
   "3146884423": {
    "n": 10,
@@ -56465,9 +56393,9 @@
  },
  "bilan": {
   "depuis": 1795478553627,
-  "passages": 28,
-  "nouvelles": 16,
-  "marque": 3,
+  "passages": 43,
+  "nouvelles": 22,
+  "marque": 5,
   "etat": 0,
   "prix": 0,
   "accessoire": 1,
@@ -56475,8 +56403,8 @@
   "fausse": 0,
   "imitation": 0,
   "pro": 0,
-  "vendeurSpecialise": 2,
-  "sansCote": 44,
+  "vendeurSpecialise": 3,
+  "sansCote": 47,
   "chere": 62,
   "description": 0,
   "scoreFaible": 0,

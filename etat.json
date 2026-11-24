@@ -1,7 +1,5 @@
 {
  "vues": [
-  "10938839616",
-  "10934245638",
   "10938855972",
   "10938855413",
   "10938854988",
@@ -3999,7 +3997,9 @@
   "10948352427",
   "10948344685",
   "10948340803",
-  "10948357578"
+  "10948357578",
+  "10948407951",
+  "10948421956"
  ],
  "cotes": {
   "marque:fossil": {
@@ -7621,13 +7621,6 @@
    "dispersion": null,
    "niveau": "modèle"
   },
-  "modele:tudor hydronaut automatic|2": {
-   "date": 1795316155223,
-   "mediane": null,
-   "echantillon": 2,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
   "marque:jaeger lecoultre": {
    "date": 1795446090602,
    "mediane": 662,
@@ -7657,42 +7650,6 @@
    ],
    "niveau": "marque",
    "lissee": true
-  },
-  "modele:tissot pr516|2": {
-   "date": 1795316153357,
-   "mediane": 305,
-   "echantillon": 54,
-   "dispersion": 0.49,
-   "fourchette": [
-    120,
-    649
-   ],
-   "exemples": [
-    {
-     "id": 10842104672,
-     "prix": 305
-    },
-    {
-     "id": 10858009086,
-     "prix": 305
-    },
-    {
-     "id": 10470346971,
-     "prix": 305
-    },
-    {
-     "id": 10473735683,
-     "prix": 305
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:glashutte 60er gub|1": {
-   "date": 1795316327099,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
   },
   "modele:citizen junta estanqueidad|4": {
    "date": 1795318972217,
@@ -53906,8 +53863,8 @@
    "vu": 1793723960392
   },
   "61195898": {
-   "n": 47,
-   "vu": 1795392386665
+   "n": 48,
+   "vu": 1795488964519
   },
   "61207330": {
    "n": 2,
@@ -155568,9 +155525,9 @@
  },
  "bilan": {
   "depuis": 1795487078148,
-  "passages": 29,
-  "nouvelles": 16,
-  "marque": 10,
+  "passages": 51,
+  "nouvelles": 18,
+  "marque": 12,
   "etat": 2,
   "prix": 1,
   "accessoire": 0,

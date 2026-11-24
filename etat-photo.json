@@ -1,19 +1,5 @@
 {
  "vues": [
-  "10922188873",
-  "10922191087",
-  "10922181245",
-  "10922176769",
-  "10922230557",
-  "10922218232",
-  "10922212468",
-  "10905843666",
-  "10922218026",
-  "10922217771",
-  "10922238595",
-  "10922228812",
-  "10922229016",
-  "10922226956",
   "10922206951",
   "10922276493",
   "10922275340",
@@ -3999,7 +3985,21 @@
   "10947705732",
   "10947699717",
   "10947715384",
-  "10947736664"
+  "10947736664",
+  "10947758284",
+  "10947742177",
+  "10947786396",
+  "10947787518",
+  "10947745188",
+  "10947778698",
+  "10947779925",
+  "10858267486",
+  "10947796853",
+  "10942833893",
+  "10944138542",
+  "10947820135",
+  "10944170043",
+  "10947819707"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -6247,36 +6247,6 @@
    "niveau": "modèle",
    "lissee": true
   },
-  "modele:nikon s600 coolpix|2@3075": {
-   "date": 1795308668009,
-   "mediane": 95,
-   "echantillon": 13,
-   "dispersion": 0.42,
-   "fourchette": [
-    25,
-    210
-   ],
-   "exemples": [
-    {
-     "id": 10853120925,
-     "prix": 95
-    },
-    {
-     "id": 9491722794,
-     "prix": 95
-    },
-    {
-     "id": 10221964434,
-     "prix": 99.95
-    },
-    {
-     "id": 10878464668,
-     "prix": 100
-    }
-   ],
-   "niveau": "modèle",
-   "lissee": true
-  },
   "modele:canon 1100 ixus|3@3075": {
    "date": 1795327923242,
    "mediane": 160,
@@ -7577,27 +7547,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:sony sono pixels|2@3075": {
-   "date": 1795309047883,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:lubitel 166 lubitell|1@3076": {
-   "date": 1795309301391,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:kodak baby brown|1@3076": {
-   "date": 1795309429656,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
   },
   "modele:kodak 1a apparecchio|2@3076": {
    "date": 1795310694291,
@@ -35603,6 +35552,42 @@
    "echantillon": 1,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:sony dsc h300 20 1mp|2@3075": {
+   "date": 1795481677210,
+   "mediane": 80,
+   "echantillon": 10,
+   "dispersion": 0.43,
+   "fourchette": [
+    55,
+    120
+   ],
+   "exemples": [
+    {
+     "id": 9829326741,
+     "prix": 80
+    },
+    {
+     "id": 9698926669,
+     "prix": 80
+    },
+    {
+     "id": 8581806787,
+     "prix": 79
+    },
+    {
+     "id": 10348476988,
+     "prix": 75
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:mamiya rb67 220|1@3076": {
+   "date": 1795482183900,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -36199,8 +36184,8 @@
    "vu": 1794391661988
   },
   "15846314": {
-   "n": 16,
-   "vu": 1794936479767
+   "n": 17,
+   "vu": 1795481803733
   },
   "15860909": {
    "n": 2,
@@ -38071,8 +38056,8 @@
    "vu": 1795299787976
   },
   "32871909": {
-   "n": 6,
-   "vu": 1795140204276
+   "n": 9,
+   "vu": 1795481930140
   },
   "32956375": {
    "n": 2,
@@ -48823,8 +48808,8 @@
    "vu": 1794935647273
   },
   "267120883": {
-   "n": 27,
-   "vu": 1795010817108
+   "n": 28,
+   "vu": 1795481803733
   },
   "267239073": {
    "n": 2,
@@ -52879,8 +52864,8 @@
    "vu": 1794237367694
   },
   "3165918147": {
-   "n": 3,
-   "vu": 1795387857060
+   "n": 4,
+   "vu": 1795481676603
   },
   "3166110930": {
    "n": 3,
@@ -56393,38 +56378,27 @@
  },
  "bilan": {
   "depuis": 1795478553627,
-  "passages": 43,
-  "nouvelles": 22,
-  "marque": 5,
-  "etat": 0,
+  "passages": 58,
+  "nouvelles": 36,
+  "marque": 10,
+  "etat": 2,
   "prix": 0,
   "accessoire": 1,
   "lot": 0,
   "fausse": 0,
   "imitation": 0,
-  "pro": 0,
-  "vendeurSpecialise": 3,
+  "pro": 1,
+  "vendeurSpecialise": 6,
   "sansCote": 47,
-  "chere": 62,
+  "chere": 64,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 3,
-  "alertes": 4
+  "alertes": 5
  },
  "panne": null,
  "panneDebut": null,
  "suivi": [
-  {
-   "id": 10865772369,
-   "titre": "3 macchine fotografiche",
-   "prix": 36,
-   "cote": null,
-   "score": 20,
-   "lien": "https://www.vinted.fr/items/10865772369-3-macchine-fotografiche",
-   "date": 1795001274640,
-   "statut": "en vente",
-   "verifieA": 1795004883098
-  },
   {
    "id": 10866753376,
    "titre": "Cámara bridge Canon",
@@ -59656,7 +59630,8 @@
    "score": 61,
    "lien": "https://www.vinted.fr/items/10947314608-fototoestel",
    "date": 1795478553381,
-   "statut": null
+   "statut": "en vente",
+   "verifieA": 1795482185321
   },
   {
    "id": 10946384536,
@@ -59666,7 +59641,8 @@
    "score": 51,
    "lien": "https://www.vinted.fr/items/10946384536-canon-eos-600d-boitier-nu",
    "date": 1795478553611,
-   "statut": null
+   "statut": "en vente",
+   "verifieA": 1795482186149
   },
   {
    "id": 10946137468,
@@ -59676,7 +59652,8 @@
    "score": 73,
    "lien": "https://www.vinted.fr/items/10946137468-olympus-manual-adapter",
    "date": 1795478640352,
-   "statut": null
+   "statut": "en vente",
+   "verifieA": 1795482249884
   },
   {
    "id": 10947367497,
@@ -59686,7 +59663,8 @@
    "score": 69,
    "lien": "https://www.vinted.fr/items/10947367497-boitier-reflex-olympus-om10",
    "date": 1795478640548,
-   "statut": null
+   "statut": "retiree",
+   "verifieA": 1795482250658
   },
   {
    "id": 10946040863,
@@ -59706,6 +59684,16 @@
    "score": 54,
    "lien": "https://www.vinted.fr/items/10944503357-fotocamera-analogica-olympus-superzoom-70g-con-custodia-e-rullino-nuovo",
    "date": 1795478811101,
+   "statut": null
+  },
+  {
+   "id": 10944170043,
+   "titre": "Mamiya RB67 220 back",
+   "prix": 45,
+   "cote": null,
+   "score": 18,
+   "lien": "https://www.vinted.fr/items/10944170043-mamiya-rb67-220-back",
+   "date": 1795482184829,
    "statut": null
   }
  ],

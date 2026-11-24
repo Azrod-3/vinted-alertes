@@ -1,13 +1,5 @@
 {
  "vues": [
-  "10922206951",
-  "10922276493",
-  "10922275340",
-  "10922269269",
-  "10922266278",
-  "10922261105",
-  "10922249054",
-  "10922256523",
   "10922252424",
   "10922281389",
   "10922275690",
@@ -3999,7 +3991,15 @@
   "10944138542",
   "10947820135",
   "10944170043",
-  "10947819707"
+  "10947819707",
+  "10947841514",
+  "10947840584",
+  "10947837543",
+  "10947866200",
+  "10947868674",
+  "10947863814",
+  "10947859835",
+  "10947916678"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -35588,6 +35588,45 @@
    "echantillon": 1,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:ricoh maquina|3@3075": {
+   "date": 1795482443729,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:pentax 120mi espio|2@3076": {
+   "date": 1795482697924,
+   "mediane": 69,
+   "echantillon": 3,
+   "dispersion": null,
+   "fourchette": [
+    60,
+    110
+   ],
+   "exemples": [
+    {
+     "id": 10947868674,
+     "prix": 69
+    },
+    {
+     "id": 10638648042,
+     "prix": 60
+    },
+    {
+     "id": 9069221618,
+     "prix": 110
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:praktica 1000 maquina|1@3076": {
+   "date": 1795482698712,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -44843,6 +44882,10 @@
    "n": 2,
    "vu": 1793789691937
   },
+  "147343420": {
+   "n": 2,
+   "vu": 1795482697220
+  },
   "147379116": {
    "n": 9,
    "vu": 1795416875957
@@ -51716,8 +51759,8 @@
    "vu": 1794239117376
   },
   "3143409658": {
-   "n": 2,
-   "vu": 1794301172506
+   "n": 3,
+   "vu": 1795482697220
   },
   "3143435718": {
    "n": 2,
@@ -52724,8 +52767,8 @@
    "vu": 1794155376167
   },
   "3162059257": {
-   "n": 117,
-   "vu": 1795436343921
+   "n": 118,
+   "vu": 1795482697220
   },
   "3162113072": {
    "n": 2,
@@ -56378,19 +56421,19 @@
  },
  "bilan": {
   "depuis": 1795478553627,
-  "passages": 58,
-  "nouvelles": 36,
-  "marque": 10,
-  "etat": 2,
+  "passages": 73,
+  "nouvelles": 44,
+  "marque": 12,
+  "etat": 3,
   "prix": 0,
   "accessoire": 1,
   "lot": 0,
   "fausse": 0,
   "imitation": 0,
-  "pro": 1,
+  "pro": 2,
   "vendeurSpecialise": 6,
-  "sansCote": 47,
-  "chere": 64,
+  "sansCote": 50,
+  "chere": 65,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 3,
@@ -59674,7 +59717,8 @@
    "score": 60,
    "lien": "https://www.vinted.fr/items/10946040863-minolta-srt100x",
    "date": 1795478725767,
-   "statut": null
+   "statut": "en vente",
+   "verifieA": 1795482379889
   },
   {
    "id": 10944503357,
@@ -59684,7 +59728,8 @@
    "score": 54,
    "lien": "https://www.vinted.fr/items/10944503357-fotocamera-analogica-olympus-superzoom-70g-con-custodia-e-rullino-nuovo",
    "date": 1795478811101,
-   "statut": null
+   "statut": "en vente",
+   "verifieA": 1795482444489
   },
   {
    "id": 10944170043,

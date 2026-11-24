@@ -1,10 +1,5 @@
 {
  "vues": [
-  "10932158793",
-  "10932175528",
-  "10932160124",
-  "10932203348",
-  "10932204587",
   "10932202525",
   "10932191180",
   "10932239471",
@@ -3999,7 +3994,12 @@
   "10960281504",
   "10960299630",
   "10960312917",
-  "10960311203"
+  "10960311203",
+  "10960316298",
+  "10960315706",
+  "10960374188",
+  "10960380453",
+  "10960379812"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -6660,59 +6660,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:kodak ek4 istantanea|1@3076": {
-   "date": 1795389641026,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:samsung pl50 maquina|2@3075": {
-   "date": 1795389895605,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:kodak revue pocket|1@3076": {
-   "date": 1795389896402,
-   "mediane": null,
-   "echantillon": 2,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:kodak camara werlisa|2@3076": {
-   "date": 1795389897226,
-   "mediane": 75,
-   "echantillon": 3,
-   "dispersion": null,
-   "fourchette": [
-    20,
-    89
-   ],
-   "exemples": [
-    {
-     "id": 10933698106,
-     "prix": 75
-    },
-    {
-     "id": 5379462451,
-     "prix": 89
-    },
-    {
-     "id": 10008658655,
-     "prix": 20
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:zeiss icon contarex|2@3076": {
-   "date": 1795390024559,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
   },
   "modele:olympus analogkamera|1@3076": {
    "date": 1795391040826,
@@ -24883,6 +24830,20 @@
    "date": 1795561715322,
    "mediane": null,
    "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:kodak funsaver disposable|3@3076": {
+   "date": 1795562222285,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:kodak xl33 super|1@3076": {
+   "date": 1795562223063,
+   "mediane": null,
+   "echantillon": 2,
    "dispersion": null,
    "niveau": "modèle"
   }
@@ -46159,9 +46120,9 @@
  },
  "bilan": {
   "depuis": 1795558914595,
-  "passages": 50,
-  "nouvelles": 78,
-  "marque": 13,
+  "passages": 65,
+  "nouvelles": 83,
+  "marque": 15,
   "etat": 0,
   "prix": 1,
   "accessoire": 3,
@@ -46170,7 +46131,7 @@
   "imitation": 0,
   "pro": 4,
   "vendeurSpecialise": 6,
-  "sansCote": 38,
+  "sansCote": 41,
   "chere": 13,
   "description": 0,
   "scoreFaible": 0,

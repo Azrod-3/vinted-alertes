@@ -1,8 +1,5 @@
 {
  "vues": [
-  "10922252424",
-  "10922281389",
-  "10922275690",
   "10922268096",
   "10922272885",
   "10922251723",
@@ -3999,7 +3996,10 @@
   "10947868674",
   "10947863814",
   "10947859835",
-  "10947916678"
+  "10947916678",
+  "10947925389",
+  "10948004549",
+  "10948003944"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -7547,13 +7547,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:kodak 1a apparecchio|2@3076": {
-   "date": 1795310694291,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
   },
   "modele:canon 40d viel|2@3075": {
    "date": 1795312716007,
@@ -35627,6 +35620,20 @@
    "echantillon": 1,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:agfa cinepresa custodia|2@3076": {
+   "date": 1795483333419,
+   "mediane": null,
+   "echantillon": 2,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:olympus tg 7 system|4@3075": {
+   "date": 1795484220592,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -54219,8 +54226,8 @@
    "vu": 1794478368335
   },
   "3191062321": {
-   "n": 5,
-   "vu": 1795436343922
+   "n": 6,
+   "vu": 1795484219949
   },
   "3191070023": {
    "n": 2,
@@ -56421,9 +56428,9 @@
  },
  "bilan": {
   "depuis": 1795478553627,
-  "passages": 73,
-  "nouvelles": 44,
-  "marque": 12,
+  "passages": 88,
+  "nouvelles": 47,
+  "marque": 13,
   "etat": 3,
   "prix": 0,
   "accessoire": 1,
@@ -56432,7 +56439,7 @@
   "imitation": 0,
   "pro": 2,
   "vendeurSpecialise": 6,
-  "sansCote": 50,
+  "sansCote": 52,
   "chere": 65,
   "description": 0,
   "scoreFaible": 0,

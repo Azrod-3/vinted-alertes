@@ -1,14 +1,5 @@
 {
  "vues": [
-  "10938797583",
-  "10938795495",
-  "10938797256",
-  "10938792619",
-  "10938794332",
-  "10938788586",
-  "10938793138",
-  "10938790584",
-  "10938791197",
   "10938787825",
   "10938790890",
   "10938788154",
@@ -3999,7 +3990,16 @@
   "10948850777",
   "10948865855",
   "10948874722",
-  "10948880759"
+  "10948880759",
+  "10948894153",
+  "10948892111",
+  "10948889403",
+  "10948896666",
+  "10948896686",
+  "10948906246",
+  "10948907045",
+  "10948917005",
+  "10948919253"
  ],
  "cotes": {
   "marque:fossil": {
@@ -4171,10 +4171,10 @@
    "lissee": true
   },
   "marque:vagary": {
-   "date": 1795405841668,
+   "date": 1795497553457,
    "mediane": null,
-   "echantillon": 91,
-   "coteTropBasse": 30
+   "echantillon": 88,
+   "coteTropBasse": 35
   },
   "marque:pierre lannier": {
    "date": 1795368284691,
@@ -7650,13 +7650,6 @@
    ],
    "niveau": "marque",
    "lissee": true
-  },
-  "modele:orient automatisch horloge|1": {
-   "date": 1795324599641,
-   "mediane": null,
-   "echantillon": 2,
-   "dispersion": null,
-   "niveau": "modèle"
   },
   "modele:tissot couturier chronograph|1": {
    "date": 1795324982760,
@@ -27273,6 +27266,35 @@
     {
      "id": 7839500722,
      "prix": 150
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:vagary polso|4": {
+   "date": 1795497554105,
+   "mediane": 35,
+   "echantillon": 14,
+   "dispersion": 0.46,
+   "fourchette": [
+    11,
+    55
+   ],
+   "exemples": [
+    {
+     "id": 10776504034,
+     "prix": 30
+    },
+    {
+     "id": 5626620198,
+     "prix": 40
+    },
+    {
+     "id": 3883079612,
+     "prix": 40
+    },
+    {
+     "id": 8035289414,
+     "prix": 30
     }
    ],
    "niveau": "modèle"
@@ -155522,9 +155544,9 @@
  },
  "bilan": {
   "depuis": 1795494350170,
-  "passages": 57,
-  "nouvelles": 20,
-  "marque": 14,
+  "passages": 79,
+  "nouvelles": 29,
+  "marque": 21,
   "etat": 0,
   "prix": 0,
   "accessoire": 2,
@@ -155534,7 +155556,7 @@
   "pro": 0,
   "vendeurSpecialise": 4,
   "sansCote": 0,
-  "chere": 0,
+  "chere": 2,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,

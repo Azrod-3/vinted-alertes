@@ -1,17 +1,5 @@
 {
  "vues": [
-  "10932202525",
-  "10932191180",
-  "10932239471",
-  "10932228999",
-  "10932243792",
-  "10932219417",
-  "10932261167",
-  "10932260854",
-  "10932301901",
-  "10932301668",
-  "10932327241",
-  "10932332062",
   "10932132267",
   "10932320537",
   "10932308398",
@@ -3999,7 +3987,19 @@
   "10960315706",
   "10960374188",
   "10960380453",
-  "10960379812"
+  "10960379812",
+  "10960413338",
+  "10960410942",
+  "10960408153",
+  "10960403543",
+  "10960419521",
+  "10960419631",
+  "10960447718",
+  "10960462662",
+  "10960455920",
+  "10955000311",
+  "10960461437",
+  "10960474335"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -5533,36 +5533,6 @@
    "niveau": "marque",
    "lissee": true
   },
-  "modele:kodak h35 ektar|3@3076": {
-   "date": 1795390279983,
-   "mediane": 50,
-   "echantillon": 38,
-   "dispersion": 0.2,
-   "fourchette": [
-    28,
-    70
-   ],
-   "exemples": [
-    {
-     "id": 10879562580,
-     "prix": 50
-    },
-    {
-     "id": 10606173626,
-     "prix": 50
-    },
-    {
-     "id": 10819478842,
-     "prix": 50
-    },
-    {
-     "id": 10624601327,
-     "prix": 50
-    }
-   ],
-   "niveau": "modèle",
-   "lissee": true
-  },
   "modele:panasonic camara|2@3075": {
    "date": 1795438890378,
    "mediane": 50,
@@ -6660,35 +6630,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:olympus analogkamera|1@3076": {
-   "date": 1795391040826,
-   "mediane": 40,
-   "echantillon": 37,
-   "dispersion": 0.63,
-   "fourchette": [
-    14,
-    100
-   ],
-   "exemples": [
-    {
-     "id": 9327848905,
-     "prix": 40
-    },
-    {
-     "id": 10505888058,
-     "prix": 40
-    },
-    {
-     "id": 10188137960,
-     "prix": 40
-    },
-    {
-     "id": 9210750816,
-     "prix": 40
-    }
-   ],
-   "niveau": "modèle"
   },
   "modele:yashica fx 2 flash|2@3076": {
    "date": 1795391294733,
@@ -24846,6 +24787,129 @@
    "echantillon": 2,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:nikon s3000 coolpix|3@3075": {
+   "date": 1795563112377,
+   "mediane": 73,
+   "echantillon": 58,
+   "dispersion": 0.48,
+   "fourchette": [
+    25,
+    139
+   ],
+   "exemples": [
+    {
+     "id": 10935566413,
+     "prix": 75
+    },
+    {
+     "id": 9922638526,
+     "prix": 75
+    },
+    {
+     "id": 6727625750,
+     "prix": 75
+    },
+    {
+     "id": 10941795697,
+     "prix": 70
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:nikon l35af2|1@3076": {
+   "date": 1795563491695,
+   "mediane": 125,
+   "echantillon": 7,
+   "dispersion": 0.25,
+   "fourchette": [
+    49,
+    180
+   ],
+   "exemples": [
+    {
+     "id": 7739287474,
+     "prix": 125
+    },
+    {
+     "id": 10789848212,
+     "prix": 130
+    },
+    {
+     "id": 10845000381,
+     "prix": 119
+    },
+    {
+     "id": 10864840722,
+     "prix": 150
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:fujifilm x100t fuji|1@3075": {
+   "date": 1795563619220,
+   "mediane": 687,
+   "echantillon": 4,
+   "dispersion": 0.17,
+   "fourchette": [
+    600,
+    800
+   ],
+   "exemples": [
+    {
+     "id": 10891705920,
+     "prix": 629.9
+    },
+    {
+     "id": 10536146583,
+     "prix": 745
+    },
+    {
+     "id": 10960462662,
+     "prix": 600
+    },
+    {
+     "id": 9850345217,
+     "prix": 800
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:panasonic dmc fz10 lumix|2@3075": {
+   "date": 1795563620000,
+   "mediane": 28,
+   "echantillon": 6,
+   "dispersion": 0.89,
+   "fourchette": [
+    10,
+    80
+   ],
+   "exemples": [
+    {
+     "id": 10678190917,
+     "prix": 20
+    },
+    {
+     "id": 10822786541,
+     "prix": 36
+    },
+    {
+     "id": 9469603015,
+     "prix": 20
+    },
+    {
+     "id": 10955000311,
+     "prix": 45
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:praktica defekt|1@3076": {
+   "date": 1795563620818,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -25610,8 +25674,8 @@
    "vu": 1794409570352
   },
   "17003331": {
-   "n": 2,
-   "vu": 1795556364181
+   "n": 3,
+   "vu": 1795563746992
   },
   "17026989": {
    "n": 2,
@@ -31500,6 +31564,10 @@
   "73666340": {
    "n": 2,
    "vu": 1794918789380
+  },
+  "73688057": {
+   "n": 2,
+   "vu": 1795563238545
   },
   "73811053": {
    "n": 3,
@@ -42742,8 +42810,8 @@
    "vu": 1794985820032
   },
   "3171555293": {
-   "n": 125,
-   "vu": 1795478530423
+   "n": 126,
+   "vu": 1795563618482
   },
   "3171601350": {
    "n": 2,
@@ -46120,38 +46188,27 @@
  },
  "bilan": {
   "depuis": 1795558914595,
-  "passages": 65,
-  "nouvelles": 83,
-  "marque": 15,
-  "etat": 0,
-  "prix": 1,
+  "passages": 80,
+  "nouvelles": 95,
+  "marque": 16,
+  "etat": 1,
+  "prix": 3,
   "accessoire": 3,
   "lot": 0,
   "fausse": 0,
   "imitation": 0,
-  "pro": 4,
+  "pro": 5,
   "vendeurSpecialise": 6,
-  "sansCote": 41,
-  "chere": 13,
+  "sansCote": 43,
+  "chere": 17,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
-  "alertes": 0
+  "alertes": 1
  },
  "panne": null,
  "panneDebut": null,
  "suivi": [
-  {
-   "id": 10877190860,
-   "titre": "Sony Cyber-shot DSC-W350",
-   "prix": 18,
-   "cote": 120,
-   "score": 73,
-   "lien": "https://www.vinted.fr/items/10877190860-sony-cyber-shot-dsc-w350",
-   "date": 1795068313461,
-   "statut": "retiree",
-   "verifieA": 1795078286440
-  },
   {
    "id": 10877608148,
    "titre": "CyberShot caméra",
@@ -49440,6 +49497,16 @@
    "date": 1795557768683,
    "statut": "en vente",
    "verifieA": 1795561397744
+  },
+  {
+   "id": 10960447718,
+   "titre": "Nikon L35AF2",
+   "prix": 60,
+   "cote": 125,
+   "score": 58,
+   "lien": "https://www.vinted.fr/items/10960447718-nikon-l35af2",
+   "date": 1795563492473,
+   "statut": null
   }
  ],
  "dernierRecap": "2026-11-24"

@@ -1,25 +1,5 @@
 {
  "vues": [
-  "10950533335",
-  "10950534127",
-  "10950537489",
-  "10947093410",
-  "10950531363",
-  "10946476544",
-  "10950521206",
-  "10950530995",
-  "10950533020",
-  "10946457514",
-  "10950530767",
-  "10950532406",
-  "10950530231",
-  "10950529775",
-  "10950518881",
-  "10950528884",
-  "10946424648",
-  "10950522476",
-  "10950527888",
-  "10950526019",
   "10950518379",
   "10950517253",
   "10945986800",
@@ -3999,7 +3979,27 @@
   "10961916292",
   "10961925387",
   "10955544648",
-  "10961925613"
+  "10961925613",
+  "10961935602",
+  "10961940316",
+  "10955559779",
+  "10961937756",
+  "10961947050",
+  "10961952061",
+  "10961959603",
+  "10955581994",
+  "10961957302",
+  "10961957467",
+  "10961966529",
+  "10961964971",
+  "10961964433",
+  "10961964080",
+  "10961963531",
+  "10961961438",
+  "10961961626",
+  "10961970897",
+  "10961969042",
+  "10961968464"
  ],
  "cotes": {
   "marque:fossil": {
@@ -5526,10 +5526,10 @@
    "lissee": true
   },
   "marque:titan": {
-   "date": 1795437803736,
+   "date": 1795586227441,
    "mediane": null,
-   "echantillon": 34,
-   "coteTropBasse": 38
+   "echantillon": 36,
+   "coteTropBasse": 37
   },
   "marque:cauny": {
    "date": 1795516473141,
@@ -6678,42 +6678,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:festina chronograph alarm|2": {
-   "date": 1795413037722,
-   "mediane": 75,
-   "echantillon": 21,
-   "dispersion": 0.6,
-   "fourchette": [
-    30,
-    150
-   ],
-   "exemples": [
-    {
-     "id": 10905343601,
-     "prix": 75
-    },
-    {
-     "id": 9664955675,
-     "prix": 75
-    },
-    {
-     "id": 10686695445,
-     "prix": 75
-    },
-    {
-     "id": 9875218553,
-     "prix": 78
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:festina chronograph tungstene|2": {
-   "date": 1795413166523,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
   },
   "modele:lip 60 70 besancon|2": {
    "date": 1795414066171,
@@ -17687,6 +17651,33 @@
   },
   "modele:sekonda antico|1": {
    "date": 1795584935400,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:nixon gunmetal grey|4": {
+   "date": 1795585840192,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:poljot sovietico piljot|2": {
+   "date": 1795586228045,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "marque:luch": {
+   "date": 1795586358125,
+   "mediane": null,
+   "echantillon": 50,
+   "coteTropBasse": 42
+  },
+  "modele:luch raro sovietico|2": {
+   "date": 1795586358904,
    "mediane": null,
    "echantillon": 1,
    "dispersion": null,
@@ -70279,8 +70270,8 @@
    "vu": 1795522904312
   },
   "155244653": {
-   "n": 160,
-   "vu": 1795414710062
+   "n": 161,
+   "vu": 1795586357371
   },
   "155245233": {
    "n": 3,
@@ -80933,6 +80924,10 @@
   "207056282": {
    "n": 13,
    "vu": 1793633350698
+  },
+  "207088124": {
+   "n": 2,
+   "vu": 1795586357371
   },
   "207135179": {
    "n": 14,
@@ -101691,8 +101686,8 @@
    "vu": 1793633350698
   },
   "289499728": {
-   "n": 306,
-   "vu": 1795585580139
+   "n": 309,
+   "vu": 1795586357371
   },
   "289503375": {
    "n": 5,
@@ -138095,8 +138090,8 @@
    "vu": 1794510350141
   },
   "3197865204": {
-   "n": 2,
-   "vu": 1795154710004
+   "n": 3,
+   "vu": 1795586487852
   },
   "3197867344": {
    "n": 2,
@@ -143279,8 +143274,8 @@
    "vu": 1793897856052
   },
   "3209749527": {
-   "n": 2,
-   "vu": 1793975665056
+   "n": 3,
+   "vu": 1795586487852
   },
   "3209755119": {
    "n": 5,
@@ -147121,38 +147116,27 @@
  },
  "bilan": {
   "depuis": 1795585665970,
-  "passages": 0,
-  "nouvelles": 0,
-  "marque": 0,
-  "etat": 0,
-  "prix": 0,
+  "passages": 21,
+  "nouvelles": 20,
+  "marque": 9,
+  "etat": 1,
+  "prix": 1,
   "accessoire": 0,
   "lot": 0,
-  "fausse": 0,
+  "fausse": 1,
   "imitation": 0,
-  "pro": 0,
-  "vendeurSpecialise": 0,
-  "sansCote": 0,
-  "chere": 0,
+  "pro": 1,
+  "vendeurSpecialise": 1,
+  "sansCote": 4,
+  "chere": 1,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
-  "alertes": 0
+  "alertes": 1
  },
  "panne": null,
  "panneDebut": null,
  "suivi": [
-  {
-   "id": 10920960946,
-   "titre": "Montre Orient Open Heart",
-   "prix": 60,
-   "cote": 200,
-   "score": 74,
-   "lien": "https://www.vinted.fr/items/10920960946-montre-orient-open-heart",
-   "date": 1795348075893,
-   "statut": "retiree",
-   "verifieA": 1795351707721
-  },
   {
    "id": 10920930410,
    "titre": "Original Citizen Lederarmband 20 mm Krokoprägung mit Faltschließe Schwarz Neu & ",
@@ -150438,6 +150422,16 @@
    "score": 74,
    "lien": "https://www.vinted.fr/items/10961835003-orologio-breil-chronograph-330ft",
    "date": 1795583513491,
+   "statut": null
+  },
+  {
+   "id": 10961957467,
+   "titre": "Orologio Sovietico Vintage al Quarzo Piljot",
+   "prix": 41,
+   "cote": 150,
+   "score": 72,
+   "lien": "https://www.vinted.fr/items/10961957467-orologio-sovietico-vintage-al-quarzo-piljot",
+   "date": 1795586228686,
    "statut": null
   }
  ],

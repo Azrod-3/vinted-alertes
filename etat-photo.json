@@ -1,25 +1,5 @@
 {
  "vues": [
-  "10945638978",
-  "10945612308",
-  "10945544464",
-  "10945620106",
-  "10945426963",
-  "10945492829",
-  "10945470114",
-  "10945430169",
-  "10945420472",
-  "10945422179",
-  "10945401234",
-  "10945417238",
-  "10945405991",
-  "10945404992",
-  "10945377872",
-  "10945261722",
-  "10945366222",
-  "10945182793",
-  "10945308073",
-  "10945321155",
   "10945310219",
   "10945249962",
   "10945006068",
@@ -3999,7 +3979,27 @@
   "10973046584",
   "10973046380",
   "10973041872",
-  "10973057470"
+  "10973057470",
+  "10973076896",
+  "10973076303",
+  "10973069150",
+  "10973072064",
+  "10973066147",
+  "10973090786",
+  "10973104057",
+  "10973101161",
+  "10973107280",
+  "10969891937",
+  "10973121030",
+  "10973133172",
+  "10973140879",
+  "10973140932",
+  "10973157629",
+  "10973154901",
+  "10973150179",
+  "10973149622",
+  "10973169743",
+  "10973156697"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -5058,30 +5058,30 @@
    "lissee": true
   },
   "marque:zorki@3076": {
-   "date": 1795513467041,
-   "mediane": 59,
-   "echantillon": 12,
-   "dispersion": 0.54,
+   "date": 1795647962001,
+   "mediane": 70,
+   "echantillon": 61,
+   "dispersion": 0.52,
    "fourchette": [
-    15,
-    99
+    24,
+    150
    ],
    "exemples": [
     {
-     "id": 9795936023,
-     "prix": 50
+     "id": 10882231903,
+     "prix": 75
     },
     {
-     "id": 9223054714,
-     "prix": 50
+     "id": 5794642453,
+     "prix": 78
     },
     {
-     "id": 10259474539,
-     "prix": 50
+     "id": 10972171349,
+     "prix": 70
     },
     {
-     "id": 9091457965,
-     "prix": 50
+     "id": 10877528141,
+     "prix": 80
     }
    ],
    "niveau": "marque",
@@ -29238,6 +29238,197 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "marque:fed@3076": {
+   "date": 1795647326593,
+   "mediane": null,
+   "echantillon": 6,
+   "dispersion": null,
+   "niveau": "marque"
+  },
+  "modele:canon prima mini|1@3076": {
+   "date": 1795647327711,
+   "mediane": 70,
+   "echantillon": 40,
+   "dispersion": 1.07,
+   "fourchette": [
+    18,
+    170
+   ],
+   "exemples": [
+    {
+     "id": 10973066147,
+     "prix": 70
+    },
+    {
+     "id": 10730992686,
+     "prix": 70
+    },
+    {
+     "id": 10406329503,
+     "prix": 70
+    },
+    {
+     "id": 7300477318,
+     "prix": 70
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:fujifilm x t30|2@3075": {
+   "date": 1795647581122,
+   "mediane": 850,
+   "echantillon": 62,
+   "dispersion": 0.24,
+   "fourchette": [
+    486,
+    1200
+   ],
+   "exemples": [
+    {
+     "id": 10457614028,
+     "prix": 850
+    },
+    {
+     "id": 10753310763,
+     "prix": 850
+    },
+    {
+     "id": 10411410001,
+     "prix": 850
+    },
+    {
+     "id": 6006200104,
+     "prix": 850
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:olympus 110 superzoom|2@3076": {
+   "date": 1795647708686,
+   "mediane": 40,
+   "echantillon": 36,
+   "dispersion": 0.4,
+   "fourchette": [
+    15,
+    75
+   ],
+   "exemples": [
+    {
+     "id": 10969891937,
+     "prix": 40
+    },
+    {
+     "id": 8548353757,
+     "prix": 40
+    },
+    {
+     "id": 7107751005,
+     "prix": 40
+    },
+    {
+     "id": 10774800932,
+     "prix": 39
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:zorki zorki 5 sovietica|1@3076": {
+   "date": 1795647962606,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:rollei e24 elektronenblitzgerat|2@3076": {
+   "date": 1795648089536,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:fuji dl 900 zoom|2@3076": {
+   "date": 1795648091257,
+   "mediane": 37,
+   "echantillon": 16,
+   "dispersion": 0.3,
+   "fourchette": [
+    15,
+    55
+   ],
+   "exemples": [
+    {
+     "id": 9262661829,
+     "prix": 39
+    },
+    {
+     "id": 10179797355,
+     "prix": 35
+    },
+    {
+     "id": 6924551131,
+     "prix": 39
+    },
+    {
+     "id": 10937471806,
+     "prix": 40
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:canon eos3000n analogica|2@3076": {
+   "date": 1795648091900,
+   "mediane": 90,
+   "echantillon": 3,
+   "dispersion": null,
+   "fourchette": [
+    50,
+    130
+   ],
+   "exemples": [
+    {
+     "id": 9073804969,
+     "prix": 90
+    },
+    {
+     "id": 10973149622,
+     "prix": 50
+    },
+    {
+     "id": 9365924874,
+     "prix": 130
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:kodak bencini koroll|1@3076": {
+   "date": 1795648219300,
+   "mediane": 23,
+   "echantillon": 12,
+   "dispersion": 0.67,
+   "fourchette": [
+    11,
+    50
+   ],
+   "exemples": [
+    {
+     "id": 9025158548,
+     "prix": 25
+    },
+    {
+     "id": 10973169743,
+     "prix": 20
+    },
+    {
+     "id": 10942910558,
+     "prix": 20
+    },
+    {
+     "id": 10247621326,
+     "prix": 20
+    }
+   ],
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -36793,6 +36984,10 @@
    "n": 2,
    "vu": 1794926949953
   },
+  "82723039": {
+   "n": 2,
+   "vu": 1795648088851
+  },
   "82783657": {
    "n": 4,
    "vu": 1795255500384
@@ -38486,8 +38681,8 @@
    "vu": 1793908982463
   },
   "130657786": {
-   "n": 51,
-   "vu": 1795646814458
+   "n": 52,
+   "vu": 1795647325926
   },
   "130777925": {
    "n": 4,
@@ -40938,8 +41133,8 @@
    "vu": 1793816470535
   },
   "211364085": {
-   "n": 4,
-   "vu": 1795646346222
+   "n": 5,
+   "vu": 1795647707807
   },
   "211478377": {
    "n": 2,
@@ -41412,6 +41607,10 @@
   "230550113": {
    "n": 2,
    "vu": 1794177195312
+  },
+  "230741608": {
+   "n": 2,
+   "vu": 1795648218695
   },
   "230936666": {
    "n": 4,
@@ -44934,8 +45133,8 @@
    "vu": 1794295792004
   },
   "311507207": {
-   "n": 52,
-   "vu": 1795646346219
+   "n": 54,
+   "vu": 1795648218695
   },
   "311732607": {
    "n": 3,
@@ -48218,8 +48417,8 @@
    "vu": 1794165969645
   },
   "3182534950": {
-   "n": 2,
-   "vu": 1795646346219
+   "n": 3,
+   "vu": 1795647580161
   },
   "3182550105": {
    "n": 2,
@@ -51094,8 +51293,8 @@
    "vu": 1795524274014
   },
   "3219692193": {
-   "n": 4,
-   "vu": 1795646814457
+   "n": 5,
+   "vu": 1795647325927
   },
   "3219897218": {
    "n": 2,
@@ -51120,38 +51319,27 @@
  },
  "bilan": {
   "depuis": 1795646368536,
-  "passages": 13,
-  "nouvelles": 27,
-  "marque": 1,
+  "passages": 28,
+  "nouvelles": 47,
+  "marque": 4,
   "etat": 1,
-  "prix": 1,
+  "prix": 3,
   "accessoire": 0,
   "lot": 1,
   "fausse": 1,
   "imitation": 0,
   "pro": 0,
-  "vendeurSpecialise": 8,
-  "sansCote": 57,
-  "chere": 55,
+  "vendeurSpecialise": 9,
+  "sansCote": 63,
+  "chere": 62,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 3,
-  "alertes": 2
+  "alertes": 3
  },
  "panne": null,
  "panneDebut": null,
  "suivi": [
-  {
-   "id": 10885378898,
-   "titre": "Canon charger (Canon IXUS compact digital camera)",
-   "prix": 45,
-   "cote": 137,
-   "score": 69,
-   "lien": "https://www.vinted.fr/items/10885378898-canon-charger-canon-ixus-compact-digital-camera",
-   "date": 1795114096310,
-   "statut": "en vente",
-   "verifieA": 1795117708759
-  },
   {
    "id": 10885375592,
    "titre": "Canon rebel XS camera",
@@ -54437,6 +54625,16 @@
    "score": 65,
    "lien": "https://www.vinted.fr/items/10970969379-canon-ae1-program-black",
    "date": 1795646623091,
+   "statut": null
+  },
+  {
+   "id": 10973157629,
+   "titre": "Vintage Rollei E24 Elektronenblitzgerät – Sammlerstück mit Zubehör",
+   "prix": 40,
+   "cote": null,
+   "score": 22,
+   "lien": "https://www.vinted.fr/items/10973157629-vintage-rollei-e24-elektronenblitzgerat-sammlerstuck-mit-zubehor",
+   "date": 1795648092372,
    "statut": null
   }
  ],

@@ -1,19 +1,5 @@
 {
  "vues": [
-  "10933002351",
-  "10932990015",
-  "10932982363",
-  "10932984911",
-  "10932985143",
-  "10933029396",
-  "10933014981",
-  "10933012893",
-  "10933008286",
-  "10933024332",
-  "10933048348",
-  "10933044684",
-  "10933021481",
-  "10933043070",
   "10933075393",
   "10933060233",
   "10933067136",
@@ -3999,7 +3985,21 @@
   "10962144945",
   "10962158011",
   "10962169187",
-  "10962167609"
+  "10962167609",
+  "10962184076",
+  "10962192171",
+  "10962187335",
+  "10962195856",
+  "10962194690",
+  "10962200849",
+  "10962200995",
+  "10962208877",
+  "10962208569",
+  "10962214589",
+  "10962210698",
+  "10962213982",
+  "10962221325",
+  "10962228270"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -4375,9 +4375,9 @@
    "coteTropBasse": 15
   },
   "marque:agfa@3076": {
-   "date": 1795478634868,
+   "date": 1795590579096,
    "mediane": null,
-   "echantillon": 80,
+   "echantillon": 78,
    "coteTropBasse": 15
   },
   "marque:pentax@3076": {
@@ -6623,13 +6623,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:agfa cinepresa proiettore|1@3076": {
-   "date": 1795417635136,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
   },
   "modele:sony dsc w130 cyber|2@3075": {
    "date": 1795418775464,
@@ -24538,6 +24531,172 @@
    "echantillon": 1,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:fujifilm j10|2@3075": {
+   "date": 1795590323259,
+   "mediane": 60,
+   "echantillon": 21,
+   "dispersion": 0.33,
+   "fourchette": [
+    19.95,
+    90
+   ],
+   "exemples": [
+    {
+     "id": 9930543319,
+     "prix": 60
+    },
+    {
+     "id": 9477198466,
+     "prix": 60
+    },
+    {
+     "id": 10883483698,
+     "prix": 65
+    },
+    {
+     "id": 10910876683,
+     "prix": 65
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:fujifilm f 4 fuji|2@3075": {
+   "date": 1795590577262,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:nikon s3000 camara|2@3075": {
+   "date": 1795590578122,
+   "mediane": null,
+   "echantillon": 2,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:agfa isolette foto|2@3076": {
+   "date": 1795590579644,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:kodak soffietto|1@3076": {
+   "date": 1795590580685,
+   "mediane": 48,
+   "echantillon": 49,
+   "dispersion": 0.63,
+   "fourchette": [
+    20,
+    100
+   ],
+   "exemples": [
+    {
+     "id": 10804505604,
+     "prix": 48
+    },
+    {
+     "id": 10120577137,
+     "prix": 50
+    },
+    {
+     "id": 10594860436,
+     "prix": 50
+    },
+    {
+     "id": 10594160546,
+     "prix": 50
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:pentax 160 espio|1@3076": {
+   "date": 1795590708647,
+   "mediane": 55,
+   "echantillon": 31,
+   "dispersion": 0.55,
+   "fourchette": [
+    15,
+    120
+   ],
+   "exemples": [
+    {
+     "id": 10771495434,
+     "prix": 55
+    },
+    {
+     "id": 10453325108,
+     "prix": 55
+    },
+    {
+     "id": 10184307879,
+     "prix": 56.9
+    },
+    {
+     "id": 8709376860,
+     "prix": 50
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:pentax espio|1@3076": {
+   "date": 1795590835852,
+   "mediane": 40,
+   "echantillon": 85,
+   "dispersion": 0.75,
+   "fourchette": [
+    10,
+    105
+   ],
+   "exemples": [
+    {
+     "id": 10865364243,
+     "prix": 40
+    },
+    {
+     "id": 10926350474,
+     "prix": 40
+    },
+    {
+     "id": 10845648569,
+     "prix": 40
+    },
+    {
+     "id": 10959947091,
+     "prix": 39
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:canon 3000 eos|2@3076": {
+   "date": 1795590962998,
+   "mediane": 47,
+   "echantillon": 68,
+   "dispersion": 0.54,
+   "fourchette": [
+    15,
+    120
+   ],
+   "exemples": [
+    {
+     "id": 8395078845,
+     "prix": 48
+    },
+    {
+     "id": 10939010168,
+     "prix": 45
+    },
+    {
+     "id": 10684464094,
+     "prix": 45
+    },
+    {
+     "id": 10780972728,
+     "prix": 45
+    }
+   ],
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -25418,8 +25577,8 @@
    "vu": 1793972890395
   },
   "18003198": {
-   "n": 2,
-   "vu": 1795552008901
+   "n": 4,
+   "vu": 1795590834850
   },
   "18017880": {
    "n": 7,
@@ -29610,8 +29769,8 @@
    "vu": 1795551670493
   },
   "56753478": {
-   "n": 2,
-   "vu": 1795513283640
+   "n": 3,
+   "vu": 1795590708015
   },
   "56773463": {
    "n": 7,
@@ -38550,8 +38709,8 @@
    "vu": 1795521952837
   },
   "275694533": {
-   "n": 9,
-   "vu": 1795513283638
+   "n": 10,
+   "vu": 1795590449386
   },
   "275751350": {
    "n": 2,
@@ -45852,19 +46011,19 @@
  },
  "bilan": {
   "depuis": 1795584986319,
-  "passages": 80,
-  "nouvelles": 45,
-  "marque": 7,
+  "passages": 95,
+  "nouvelles": 59,
+  "marque": 8,
   "etat": 0,
   "prix": 0,
   "accessoire": 2,
-  "lot": 0,
+  "lot": 1,
   "fausse": 0,
   "imitation": 0,
   "pro": 0,
-  "vendeurSpecialise": 5,
-  "sansCote": 24,
-  "chere": 6,
+  "vendeurSpecialise": 6,
+  "sansCote": 30,
+  "chere": 11,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,

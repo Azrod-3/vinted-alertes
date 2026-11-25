@@ -1,9 +1,5 @@
 {
  "vues": [
-  "10932645839",
-  "10932653566",
-  "10932645562",
-  "10932679931",
   "10932674839",
   "10932669471",
   "10932668052",
@@ -3999,7 +3995,11 @@
   "10961698081",
   "10950876980",
   "10961720112",
-  "10961744553"
+  "10961744553",
+  "10961760064",
+  "10961780611",
+  "10961786086",
+  "10961787271"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -6623,13 +6623,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:olympus exakta|2@3076": {
-   "date": 1795409146620,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
   },
   "modele:zeiss contarex fotokamera|2@3076": {
    "date": 1795411801246,
@@ -24676,6 +24669,35 @@
    "echantillon": 2,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:samsung es80|2@3075": {
+   "date": 1795582198418,
+   "mediane": 55,
+   "echantillon": 13,
+   "dispersion": 0.18,
+   "fourchette": [
+    35,
+    65
+   ],
+   "exemples": [
+    {
+     "id": 10830897839,
+     "prix": 55
+    },
+    {
+     "id": 9417979764,
+     "prix": 55
+    },
+    {
+     "id": 9693090931,
+     "prix": 59
+    },
+    {
+     "id": 10939058542,
+     "prix": 59.99
+    }
+   ],
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -30530,6 +30552,10 @@
   "64736296": {
    "n": 11,
    "vu": 1795347128193
+  },
+  "64737957": {
+   "n": 2,
+   "vu": 1795582324626
   },
   "64815510": {
    "n": 21,
@@ -45974,9 +46000,9 @@
  },
  "bilan": {
   "depuis": 1795577770461,
-  "passages": 59,
-  "nouvelles": 6,
-  "marque": 1,
+  "passages": 74,
+  "nouvelles": 10,
+  "marque": 2,
   "etat": 0,
   "prix": 0,
   "accessoire": 1,
@@ -45985,8 +46011,8 @@
   "imitation": 0,
   "pro": 0,
   "vendeurSpecialise": 1,
-  "sansCote": 2,
-  "chere": 0,
+  "sansCote": 4,
+  "chere": 1,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,

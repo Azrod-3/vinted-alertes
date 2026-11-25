@@ -1,11 +1,5 @@
 {
  "vues": [
-  "10932694470",
-  "10932714145",
-  "10932709568",
-  "10932743388",
-  "10932733475",
-  "10932729663",
   "10932731673",
   "10932772998",
   "10932774180",
@@ -3999,7 +3993,13 @@
   "10961878344",
   "10961886201",
   "10961899962",
-  "10961897917"
+  "10961897917",
+  "10961921273",
+  "10961920427",
+  "10961919508",
+  "10961917642",
+  "10961924106",
+  "10955535216"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -6623,42 +6623,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:panasonic dmc tz18 16x|1@3075": {
-   "date": 1795412813972,
-   "mediane": 60,
-   "echantillon": 5,
-   "dispersion": 0.48,
-   "fourchette": [
-    50,
-    99
-   ],
-   "exemples": [
-    {
-     "id": 10713697814,
-     "prix": 60
-    },
-    {
-     "id": 10570984562,
-     "prix": 60
-    },
-    {
-     "id": 10935515806,
-     "prix": 50
-    },
-    {
-     "id": 10832048304,
-     "prix": 89
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:canon 1100 bel|3@3075": {
-   "date": 1795412942348,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
   },
   "modele:nikon s3000 y2k|2@3075": {
    "date": 1795413953759,
@@ -24720,6 +24684,31 @@
    "echantillon": 2,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:fujifilm x t4 fuji|2@3075": {
+   "date": 1795585368793,
+   "mediane": 1199,
+   "echantillon": 3,
+   "dispersion": null,
+   "fourchette": [
+    820,
+    1500
+   ],
+   "exemples": [
+    {
+     "id": 9240586108,
+     "prix": 1199
+    },
+    {
+     "id": 10606024219,
+     "prix": 1500
+    },
+    {
+     "id": 10961917642,
+     "prix": 820
+    }
+   ],
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -25164,8 +25153,8 @@
    "vu": 1794487928361
   },
   "14254404": {
-   "n": 6,
-   "vu": 1795444943288
+   "n": 7,
+   "vu": 1795585368129
   },
   "14260536": {
    "n": 2,
@@ -33460,8 +33449,8 @@
    "vu": 1794232257070
   },
   "123390350": {
-   "n": 3,
-   "vu": 1795520924639
+   "n": 4,
+   "vu": 1795585622190
   },
   "123660931": {
    "n": 2,
@@ -40920,8 +40909,8 @@
    "vu": 1794572522123
   },
   "3137260735": {
-   "n": 19,
-   "vu": 1795551839151
+   "n": 20,
+   "vu": 1795585495955
   },
   "3137271894": {
    "n": 2,
@@ -46022,8 +46011,8 @@
  },
  "bilan": {
   "depuis": 1795584986319,
-  "passages": 5,
-  "nouvelles": 0,
+  "passages": 20,
+  "nouvelles": 6,
   "marque": 0,
   "etat": 0,
   "prix": 0,
@@ -46032,28 +46021,17 @@
   "fausse": 0,
   "imitation": 0,
   "pro": 0,
-  "vendeurSpecialise": 0,
-  "sansCote": 0,
-  "chere": 0,
+  "vendeurSpecialise": 2,
+  "sansCote": 2,
+  "chere": 1,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
-  "alertes": 0
+  "alertes": 1
  },
  "panne": null,
  "panneDebut": null,
  "suivi": [
-  {
-   "id": 10877608148,
-   "titre": "CyberShot caméra",
-   "prix": 15,
-   "cote": 75,
-   "score": 65,
-   "lien": "https://www.vinted.fr/items/10877608148-cybershot-camera",
-   "date": 1795078198503,
-   "statut": "retiree",
-   "verifieA": 1795081806381
-  },
   {
    "id": 10877960857,
    "titre": "Appareil photo reflex canon 500D",
@@ -49342,6 +49320,16 @@
    "date": 1795563492473,
    "statut": "en vente",
    "verifieA": 1795577770447
+  },
+  {
+   "id": 10961917642,
+   "titre": "Fujifilm Fuji X-T4   XT4  XT-4 Silver",
+   "prix": 820,
+   "cote": 1199,
+   "score": 69,
+   "lien": "https://www.vinted.fr/items/10961917642-fujifilm-fuji-x-t4-xt4-xt-4-silver",
+   "date": 1795585369770,
+   "statut": null
   }
  ],
  "dernierRecap": "2026-11-24"

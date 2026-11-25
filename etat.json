@@ -1,23 +1,5 @@
 {
  "vues": [
-  "10947669847",
-  "10947688684",
-  "10947688084",
-  "10947682556",
-  "10947681427",
-  "10947702316",
-  "10945208251",
-  "10947725488",
-  "10947717781",
-  "10947728248",
-  "10947728388",
-  "10947728477",
-  "10947728013",
-  "10947753898",
-  "10947770506",
-  "10947782960",
-  "10946724791",
-  "10947794818",
   "10947791631",
   "10947787725",
   "10947786050",
@@ -3999,7 +3981,25 @@
   "10955164495",
   "10960567940",
   "10960565092",
-  "10960561569"
+  "10960561569",
+  "10960580169",
+  "10960581948",
+  "10960606422",
+  "10960600473",
+  "10960599959",
+  "10960599559",
+  "10960590884",
+  "10960617721",
+  "10960609228",
+  "10960631220",
+  "10960641931",
+  "10960633691",
+  "10960636132",
+  "10960634458",
+  "10960631637",
+  "10960631482",
+  "10960649541",
+  "10960642872"
  ],
  "cotes": {
   "marque:fossil": {
@@ -6202,12 +6202,6 @@
    "niveau": "modèle",
    "lissee": true
   },
-  "marque:lucerne": {
-   "date": 1795392778449,
-   "mediane": null,
-   "echantillon": 64,
-   "coteTropBasse": 35
-  },
   "modele:certina 113 4085 25 ungetragen|4": {
    "date": 1795420005562,
    "mediane": null,
@@ -6706,171 +6700,6 @@
    "mediane": null,
    "echantillon": 2,
    "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:timex expedition north|4": {
-   "date": 1795392126706,
-   "mediane": 165,
-   "echantillon": 18,
-   "dispersion": 0.67,
-   "fourchette": [
-    59,
-    300
-   ],
-   "exemples": [
-    {
-     "id": 10789794418,
-     "prix": 179
-    },
-    {
-     "id": 10933961981,
-     "prix": 150
-    },
-    {
-     "id": 7452354964,
-     "prix": 140
-    },
-    {
-     "id": 3618924703,
-     "prix": 190
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:eterna matic 1000 automatique|1": {
-   "date": 1795392127341,
-   "mediane": 280,
-   "echantillon": 3,
-   "dispersion": null,
-   "fourchette": [
-    180,
-    380
-   ],
-   "exemples": [
-    {
-     "id": 10689050302,
-     "prix": 280
-    },
-    {
-     "id": 10933960724,
-     "prix": 180
-    },
-    {
-     "id": 10891469717,
-     "prix": 380
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:festina f6795|1": {
-   "date": 1795392387258,
-   "mediane": 90,
-   "echantillon": 4,
-   "dispersion": 0.22,
-   "fourchette": [
-    45,
-    129.99
-   ],
-   "exemples": [
-    {
-     "id": 7830641895,
-     "prix": 100
-    },
-    {
-     "id": 7932459647,
-     "prix": 80
-    },
-    {
-     "id": 10933655135,
-     "prix": 129.99
-    },
-    {
-     "id": 10933980025,
-     "prix": 45
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:tudor 7969 1 rolex|2": {
-   "date": 1795392387824,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:timex indiglo pepsi|1": {
-   "date": 1795392646672,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:lucerne swiss mechanical|1": {
-   "date": 1795392778980,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:fossil fs 3068|2": {
-   "date": 1795392779571,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:breil fs20 chrono|2": {
-   "date": 1795392780214,
-   "mediane": 50,
-   "echantillon": 6,
-   "dispersion": 0.6,
-   "fourchette": [
-    20,
-    75
-   ],
-   "exemples": [
-    {
-     "id": 2463548107,
-     "prix": 50
-    },
-    {
-     "id": 3036793532,
-     "prix": 50
-    },
-    {
-     "id": 7805114224,
-     "prix": 60
-    },
-    {
-     "id": 8521622753,
-     "prix": 30
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:tissot tempo automatic|1": {
-   "date": 1795392910028,
-   "mediane": 350,
-   "echantillon": 3,
-   "dispersion": null,
-   "fourchette": [
-    195,
-    650
-   ],
-   "exemples": [
-    {
-     "id": 10718248236,
-     "prix": 350
-    },
-    {
-     "id": 10934046080,
-     "prix": 195
-    },
-    {
-     "id": 10872328418,
-     "prix": 650
-    }
-   ],
    "niveau": "modèle"
   },
   "modele:fossil fossiles|4": {
@@ -17958,6 +17787,42 @@
    "echantillon": 1,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:lotus edicion limitada|3": {
+   "date": 1795565203578,
+   "mediane": 115,
+   "echantillon": 12,
+   "dispersion": 0.74,
+   "fourchette": [
+    40,
+    300
+   ],
+   "exemples": [
+    {
+     "id": 8848930876,
+     "prix": 110
+    },
+    {
+     "id": 10937779433,
+     "prix": 120
+    },
+    {
+     "id": 1153199589,
+     "prix": 130
+    },
+    {
+     "id": 369740136,
+     "prix": 85
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:fossil 3r1156|2": {
+   "date": 1795565718942,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -27898,8 +27763,8 @@
    "vu": 1795088381065
   },
   "30312961": {
-   "n": 28,
-   "vu": 1795562486181
+   "n": 29,
+   "vu": 1795565589883
   },
   "30326405": {
    "n": 9,
@@ -37426,8 +37291,8 @@
    "vu": 1794226235897
   },
   "50354717": {
-   "n": 5,
-   "vu": 1795116771088
+   "n": 6,
+   "vu": 1795565589883
   },
   "50354997": {
    "n": 7,
@@ -45382,8 +45247,8 @@
    "vu": 1793633350698
   },
   "62372494": {
-   "n": 105,
-   "vu": 1795564813688
+   "n": 106,
+   "vu": 1795564945014
   },
   "62378695": {
    "n": 9,
@@ -129334,8 +129199,8 @@
    "vu": 1794268056068
   },
   "3179832021": {
-   "n": 45,
-   "vu": 1795522119320
+   "n": 48,
+   "vu": 1795565589883
   },
   "3179837611": {
    "n": 9,
@@ -138662,8 +138527,8 @@
    "vu": 1795372002456
   },
   "3198825741": {
-   "n": 642,
-   "vu": 1795564038602
+   "n": 644,
+   "vu": 1795565589883
   },
   "3198828604": {
    "n": 4,
@@ -147250,8 +147115,8 @@
    "vu": 1795448186375
   },
   "3219098733": {
-   "n": 7,
-   "vu": 1795559881988
+   "n": 8,
+   "vu": 1795565589883
   },
   "3219102134": {
    "n": 2,
@@ -147300,19 +147165,19 @@
  },
  "bilan": {
   "depuis": 1795563863155,
-  "passages": 23,
-  "nouvelles": 38,
-  "marque": 27,
+  "passages": 44,
+  "nouvelles": 56,
+  "marque": 42,
   "etat": 1,
-  "prix": 0,
+  "prix": 1,
   "accessoire": 2,
   "lot": 0,
   "fausse": 2,
   "imitation": 0,
   "pro": 0,
   "vendeurSpecialise": 2,
-  "sansCote": 0,
-  "chere": 4,
+  "sansCote": 1,
+  "chere": 5,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,

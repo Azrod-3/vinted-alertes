@@ -1,12 +1,5 @@
 {
  "vues": [
-  "10944324533",
-  "10944373092",
-  "10944898395",
-  "10944878351",
-  "10943295674",
-  "10944766329",
-  "10944837568",
   "10944792962",
   "10944741860",
   "10944704495",
@@ -3999,7 +3992,14 @@
   "10973332245",
   "10973336725",
   "10973341867",
-  "10973336859"
+  "10973336859",
+  "10973356656",
+  "10965813333",
+  "10965782498",
+  "10973386331",
+  "10973385470",
+  "10973378445",
+  "10973393988"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -15550,15 +15550,19 @@
    "niveau": "modèle"
   },
   "modele:minolta camara fotos|2@3076": {
-   "date": 1795553173515,
+   "date": 1795650633295,
    "mediane": 40,
-   "echantillon": 43,
+   "echantillon": 39,
    "dispersion": 0.63,
    "fourchette": [
     12,
     100
    ],
    "exemples": [
+    {
+     "id": 10963074365,
+     "prix": 40
+    },
     {
      "id": 10940553201,
      "prix": 40
@@ -15568,15 +15572,12 @@
      "prix": 40
     },
     {
-     "id": 8253033145,
-     "prix": 40
-    },
-    {
      "id": 6759364414,
      "prix": 40
     }
    ],
-   "niveau": "modèle"
+   "niveau": "modèle",
+   "lissee": true
   },
   "modele:canon sx500 30x|2@3075": {
    "date": 1795553426416,
@@ -29526,6 +29527,42 @@
   },
   "modele:olympus c 60 camara|2@3075": {
    "date": 1795649996297,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:olympus camara|2@3075": {
+   "date": 1795650379416,
+   "mediane": 50,
+   "echantillon": 49,
+   "dispersion": 0.58,
+   "fourchette": [
+    14,
+    79
+   ],
+   "exemples": [
+    {
+     "id": 10973356656,
+     "prix": 50
+    },
+    {
+     "id": 10972089009,
+     "prix": 50
+    },
+    {
+     "id": 10923716803,
+     "prix": 50
+    },
+    {
+     "id": 10946451811,
+     "prix": 50
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:canon l2|2@3076": {
+   "date": 1795650506307,
    "mediane": null,
    "echantillon": 1,
    "dispersion": null,
@@ -47558,8 +47595,8 @@
    "vu": 1793994528086
   },
   "3162009653": {
-   "n": 7,
-   "vu": 1795132331459
+   "n": 8,
+   "vu": 1795650632256
   },
   "3162028329": {
    "n": 2,
@@ -50878,8 +50915,8 @@
    "vu": 1794240811136
   },
   "3211708834": {
-   "n": 2,
-   "vu": 1795514370342
+   "n": 3,
+   "vu": 1795650505768
   },
   "3211786856": {
    "n": 2,
@@ -51274,8 +51311,8 @@
    "vu": 1795478530424
   },
   "3217171469": {
-   "n": 40,
-   "vu": 1795478530429
+   "n": 41,
+   "vu": 1795650759420
   },
   "3217261371": {
    "n": 2,
@@ -51424,9 +51461,9 @@
  },
  "bilan": {
   "depuis": 1795646368536,
-  "passages": 58,
-  "nouvelles": 76,
-  "marque": 11,
+  "passages": 73,
+  "nouvelles": 83,
+  "marque": 12,
   "etat": 2,
   "prix": 3,
   "accessoire": 0,
@@ -51434,9 +51471,9 @@
   "fausse": 1,
   "imitation": 0,
   "pro": 3,
-  "vendeurSpecialise": 13,
-  "sansCote": 73,
-  "chere": 65,
+  "vendeurSpecialise": 15,
+  "sansCote": 75,
+  "chere": 67,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 3,
@@ -54731,7 +54768,8 @@
    "score": 65,
    "lien": "https://www.vinted.fr/items/10970969379-canon-ae1-program-black",
    "date": 1795646623091,
-   "statut": null
+   "statut": "en vente",
+   "verifieA": 1795650252354
   },
   {
    "id": 10973157629,

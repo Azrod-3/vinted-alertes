@@ -1,13 +1,5 @@
 {
  "vues": [
-  "10950562884",
-  "10950563451",
-  "10588485317",
-  "10950563708",
-  "10950554516",
-  "10950559271",
-  "10950560628",
-  "10950559580",
   "10950558174",
   "10947292897",
   "10950554216",
@@ -3999,7 +3991,15 @@
   "10961759056",
   "10961769394",
   "10961765002",
-  "10961765093"
+  "10961765093",
+  "10961775446",
+  "10961781688",
+  "10961797380",
+  "10961804688",
+  "10961804676",
+  "10961803980",
+  "10961807718",
+  "10961806617"
  ],
  "cotes": {
   "marque:fossil": {
@@ -6142,36 +6142,6 @@
    "niveau": "modèle",
    "lissee": true
   },
-  "modele:fossil herrenarmbanduhr|2": {
-   "date": 1795409313657,
-   "mediane": 32,
-   "echantillon": 54,
-   "dispersion": 0.63,
-   "fourchette": [
-    12,
-    75
-   ],
-   "exemples": [
-    {
-     "id": 8934924462,
-     "prix": 32
-    },
-    {
-     "id": 10386921260,
-     "prix": 32
-    },
-    {
-     "id": 10065611969,
-     "prix": 30
-    },
-    {
-     "id": 10755169184,
-     "prix": 30
-    }
-   ],
-   "niveau": "modèle",
-   "lissee": true
-  },
   "modele:certina 113 4085 25 ungetragen|4": {
    "date": 1795420005562,
    "mediane": null,
@@ -6708,13 +6678,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:festina analogici marchio|1": {
-   "date": 1795409314191,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
   },
   "modele:festina chronograph alarm|2": {
    "date": 1795413037722,
@@ -17623,6 +17586,13 @@
   },
   "modele:daniel wellington dapper york|2": {
    "date": 1795580536388,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:breil tri|2": {
+   "date": 1795582216992,
    "mediane": null,
    "echantillon": 1,
    "dispersion": null,
@@ -74463,8 +74433,8 @@
    "vu": 1794686857016
   },
   "174400773": {
-   "n": 55,
-   "vu": 1795241015409
+   "n": 56,
+   "vu": 1795582861518
   },
   "174406031": {
    "n": 34,
@@ -113307,8 +113277,8 @@
    "vu": 1793633350698
   },
   "3139120972": {
-   "n": 121,
-   "vu": 1795033108306
+   "n": 122,
+   "vu": 1795582861518
   },
   "3139130899": {
    "n": 10,
@@ -147053,9 +147023,9 @@
  },
  "bilan": {
   "depuis": 1795582043051,
-  "passages": 0,
-  "nouvelles": 0,
-  "marque": 0,
+  "passages": 21,
+  "nouvelles": 8,
+  "marque": 6,
   "etat": 0,
   "prix": 0,
   "accessoire": 0,
@@ -147063,8 +147033,8 @@
   "fausse": 0,
   "imitation": 0,
   "pro": 0,
-  "vendeurSpecialise": 0,
-  "sansCote": 0,
+  "vendeurSpecialise": 1,
+  "sansCote": 1,
   "chere": 0,
   "description": 0,
   "scoreFaible": 0,

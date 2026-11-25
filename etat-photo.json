@@ -1,9 +1,5 @@
 {
  "vues": [
-  "10932678843",
-  "10932673800",
-  "10932705459",
-  "10932699287",
   "10932694470",
   "10932714145",
   "10932709568",
@@ -3999,7 +3995,11 @@
   "10961787271",
   "10961799262",
   "10961861287",
-  "10961865750"
+  "10961865750",
+  "10961878344",
+  "10961886201",
+  "10961899962",
+  "10961897917"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -6623,49 +6623,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:zeiss contarex fotokamera|2@3076": {
-   "date": 1795411801246,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:minolta batterie|1@3075": {
-   "date": 1795412181989,
-   "mediane": null,
-   "echantillon": 2,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:olympus em 10 mark|2@3075": {
-   "date": 1795412308879,
-   "mediane": 275,
-   "echantillon": 4,
-   "dispersion": 0.18,
-   "fourchette": [
-    210,
-    360
-   ],
-   "exemples": [
-    {
-     "id": 10935497302,
-     "prix": 300
-    },
-    {
-     "id": 9367467483,
-     "prix": 250
-    },
-    {
-     "id": 10769224786,
-     "prix": 210
-    },
-    {
-     "id": 10600386442,
-     "prix": 360
-    }
-   ],
-   "niveau": "modèle"
   },
   "modele:panasonic dmc tz18 16x|1@3075": {
    "date": 1795412813972,
@@ -24697,6 +24654,71 @@
      "prix": 59.99
     }
    ],
+   "niveau": "modèle"
+  },
+  "modele:panasonic lz2 lumix|2@3075": {
+   "date": 1795584605345,
+   "mediane": 40,
+   "echantillon": 9,
+   "dispersion": 0.38,
+   "fourchette": [
+    20,
+    60
+   ],
+   "exemples": [
+    {
+     "id": 9887175283,
+     "prix": 40
+    },
+    {
+     "id": 7459647038,
+     "prix": 40
+    },
+    {
+     "id": 8545360380,
+     "prix": 43
+    },
+    {
+     "id": 10525196373,
+     "prix": 35
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:panasonic dmc fx35 lumix|2@3075": {
+   "date": 1795584984997,
+   "mediane": 70,
+   "echantillon": 9,
+   "dispersion": 0.21,
+   "fourchette": [
+    42,
+    110
+   ],
+   "exemples": [
+    {
+     "id": 10961899962,
+     "prix": 70
+    },
+    {
+     "id": 10601572067,
+     "prix": 69.95
+    },
+    {
+     "id": 6581483870,
+     "prix": 65
+    },
+    {
+     "id": 10759352950,
+     "prix": 79.99
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:praktica praktika super|2@3076": {
+   "date": 1795584985882,
+   "mediane": null,
+   "echantillon": 2,
+   "dispersion": null,
    "niveau": "modèle"
   }
  },
@@ -45999,20 +46021,20 @@
   }
  },
  "bilan": {
-  "depuis": 1795577770461,
-  "passages": 104,
-  "nouvelles": 13,
-  "marque": 2,
+  "depuis": 1795584986319,
+  "passages": 5,
+  "nouvelles": 0,
+  "marque": 0,
   "etat": 0,
   "prix": 0,
-  "accessoire": 1,
+  "accessoire": 0,
   "lot": 0,
-  "fausse": 1,
+  "fausse": 0,
   "imitation": 0,
   "pro": 0,
-  "vendeurSpecialise": 1,
-  "sansCote": 6,
-  "chere": 2,
+  "vendeurSpecialise": 0,
+  "sansCote": 0,
+  "chere": 0,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,

@@ -1,6 +1,5 @@
 {
  "vues": [
-  "10932320894",
   "10932364793",
   "10932353437",
   "10932367754",
@@ -3999,7 +3998,8 @@
   "10960530609",
   "10960542977",
   "10960538565",
-  "10960558000"
+  "10960558000",
+  "10956850416"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -6623,49 +6623,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:canon a620 powershot|1@3075": {
-   "date": 1795392689317,
-   "mediane": 130,
-   "echantillon": 6,
-   "dispersion": 0.42,
-   "fourchette": [
-    70,
-    150
-   ],
-   "exemples": [
-    {
-     "id": 9965341012,
-     "prix": 139.95
-    },
-    {
-     "id": 10540307567,
-     "prix": 119.99
-    },
-    {
-     "id": 9940484698,
-     "prix": 149.99
-    },
-    {
-     "id": 7326029060,
-     "prix": 150
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:canon m50 case|3@3075": {
-   "date": 1795392946510,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:sony cyber shotl|1@3075": {
-   "date": 1795393073558,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
   },
   "modele:kodak retina serie|1@3076": {
    "date": 1795395140501,
@@ -24896,6 +24853,35 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "modele:fujifilm s5500 finepix|2@3075": {
+   "date": 1795565643945,
+   "mediane": 47,
+   "echantillon": 14,
+   "dispersion": 0.22,
+   "fourchette": [
+    20,
+    69
+   ],
+   "exemples": [
+    {
+     "id": 10830713208,
+     "prix": 48
+    },
+    {
+     "id": 9639367489,
+     "prix": 49
+    },
+    {
+     "id": 7836024896,
+     "prix": 45
+    },
+    {
+     "id": 9452126474,
+     "prix": 50
+    }
+   ],
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -35736,8 +35722,8 @@
    "vu": 1795132601799
   },
   "192933431": {
-   "n": 3,
-   "vu": 1795551670495
+   "n": 4,
+   "vu": 1795565643279
   },
   "192965520": {
    "n": 7,
@@ -46178,8 +46164,8 @@
  },
  "bilan": {
   "depuis": 1795558914595,
-  "passages": 95,
-  "nouvelles": 100,
+  "passages": 110,
+  "nouvelles": 101,
   "marque": 16,
   "etat": 2,
   "prix": 4,
@@ -46190,7 +46176,7 @@
   "pro": 5,
   "vendeurSpecialise": 6,
   "sansCote": 45,
-  "chere": 18,
+  "chere": 19,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,

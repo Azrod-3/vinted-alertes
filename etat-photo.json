@@ -1,16 +1,5 @@
 {
  "vues": [
-  "10932878608",
-  "10932869532",
-  "10932858571",
-  "10932874881",
-  "10932902491",
-  "10932901932",
-  "10927348047",
-  "10932898162",
-  "10932882813",
-  "10932925348",
-  "10932924175",
   "10932915723",
   "10932908269",
   "10932911323",
@@ -3999,7 +3988,18 @@
   "10962029369",
   "10962032903",
   "10962039190",
-  "10962058388"
+  "10962058388",
+  "10962065869",
+  "10962060670",
+  "10962071064",
+  "10962069755",
+  "10962080405",
+  "10951112691",
+  "10962075607",
+  "10962088253",
+  "10962094176",
+  "10962098886",
+  "10962097528"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -5201,36 +5201,6 @@
     {
      "id": 10898474957,
      "prix": 150
-    }
-   ],
-   "niveau": "modèle",
-   "lissee": true
-  },
-  "modele:minolta 404si dynax|2@3076": {
-   "date": 1795416240228,
-   "mediane": 31,
-   "echantillon": 64,
-   "dispersion": 0.5,
-   "fourchette": [
-    10,
-    70
-   ],
-   "exemples": [
-    {
-     "id": 10781584390,
-     "prix": 30
-    },
-    {
-     "id": 10603941555,
-     "prix": 30
-    },
-    {
-     "id": 10853793445,
-     "prix": 30
-    },
-    {
-     "id": 10150583985,
-     "prix": 30
     }
    ],
    "niveau": "modèle",
@@ -6653,114 +6623,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:panasonic dmc fh25 lumix|3@3075": {
-   "date": 1795415476491,
-   "mediane": null,
-   "echantillon": 2,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:nikon w100 coolpix|1@3075": {
-   "date": 1795415477409,
-   "mediane": 75,
-   "echantillon": 51,
-   "dispersion": 0.4,
-   "fourchette": [
-    30,
-    147
-   ],
-   "exemples": [
-    {
-     "id": 10816721410,
-     "prix": 75
-    },
-    {
-     "id": 10171738428,
-     "prix": 75
-    },
-    {
-     "id": 10172490805,
-     "prix": 75
-    },
-    {
-     "id": 9211931743,
-     "prix": 75
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:pentax exakta focus|1@3076": {
-   "date": 1795415731976,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:minolta x50 konica|1@3075": {
-   "date": 1795415984960,
-   "mediane": 30,
-   "echantillon": 7,
-   "dispersion": 1.17,
-   "fourchette": [
-    20,
-    60
-   ],
-   "exemples": [
-    {
-     "id": 7303974631,
-     "prix": 30
-    },
-    {
-     "id": 10935665628,
-     "prix": 25
-    },
-    {
-     "id": 9512452758,
-     "prix": 36
-    },
-    {
-     "id": 10531723787,
-     "prix": 21
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:yashica fx 3 super|2@3076": {
-   "date": 1795415986004,
-   "mediane": 100,
-   "echantillon": 67,
-   "dispersion": 0.65,
-   "fourchette": [
-    40,
-    199
-   ],
-   "exemples": [
-    {
-     "id": 10935662319,
-     "prix": 100
-    },
-    {
-     "id": 10836824046,
-     "prix": 100
-    },
-    {
-     "id": 10429746877,
-     "prix": 100
-    },
-    {
-     "id": 9497298412,
-     "prix": 100
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:konica kd 200z minolta|1@3075": {
-   "date": 1795416239334,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
   },
   "modele:canon a1 spiegelreflexkamera|2@3076": {
    "date": 1795416748181,
@@ -24604,6 +24466,64 @@
    "echantillon": 1,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:nikon l120 coolpix|1@3075": {
+   "date": 1795588291468,
+   "mediane": 65,
+   "echantillon": 73,
+   "dispersion": 0.46,
+   "fourchette": [
+    22,
+    130
+   ],
+   "exemples": [
+    {
+     "id": 9590359074,
+     "prix": 65
+    },
+    {
+     "id": 9477832263,
+     "prix": 65
+    },
+    {
+     "id": 8385203127,
+     "prix": 68
+    },
+    {
+     "id": 10707541343,
+     "prix": 69
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:zeiss esposimetro|2@3076": {
+   "date": 1795588418686,
+   "mediane": 34,
+   "echantillon": 12,
+   "dispersion": 0.29,
+   "fourchette": [
+    20,
+    60
+   ],
+   "exemples": [
+    {
+     "id": 10868488671,
+     "prix": 35
+    },
+    {
+     "id": 10732131444,
+     "prix": 33
+    },
+    {
+     "id": 8393197092,
+     "prix": 35
+    },
+    {
+     "id": 10604807790,
+     "prix": 30
+    }
+   ],
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -42184,8 +42104,8 @@
    "vu": 1795209558389
   },
   "3162420259": {
-   "n": 11,
-   "vu": 1795341000854
+   "n": 13,
+   "vu": 1795588924308
   },
   "3162426493": {
    "n": 8,
@@ -44835,6 +44755,10 @@
    "n": 9,
    "vu": 1795421444491
   },
+  "3206075850": {
+   "n": 2,
+   "vu": 1795588671800
+  },
   "3206115695": {
    "n": 3,
    "vu": 1794680303470
@@ -45910,9 +45834,9 @@
  },
  "bilan": {
   "depuis": 1795584986319,
-  "passages": 50,
-  "nouvelles": 22,
-  "marque": 3,
+  "passages": 65,
+  "nouvelles": 33,
+  "marque": 7,
   "etat": 0,
   "prix": 0,
   "accessoire": 2,
@@ -45920,9 +45844,9 @@
   "fausse": 0,
   "imitation": 0,
   "pro": 0,
-  "vendeurSpecialise": 3,
-  "sansCote": 11,
-  "chere": 2,
+  "vendeurSpecialise": 4,
+  "sansCote": 15,
+  "chere": 4,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
@@ -49228,7 +49152,8 @@
    "score": 69,
    "lien": "https://www.vinted.fr/items/10961917642-fujifilm-fuji-x-t4-xt4-xt-4-silver",
    "date": 1795585369770,
-   "statut": null
+   "statut": "en vente",
+   "verifieA": 1795588987997
   }
  ],
  "dernierRecap": "2026-11-24"

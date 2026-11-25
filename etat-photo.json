@@ -1,36 +1,5 @@
 {
  "vues": [
-  "10937616556",
-  "10937532945",
-  "10937518111",
-  "10936802411",
-  "10937566946",
-  "10937590121",
-  "10937579251",
-  "10937586437",
-  "10937498285",
-  "10937573291",
-  "10937580305",
-  "10928396565",
-  "10937569967",
-  "10937540617",
-  "10937198389",
-  "10921096527",
-  "10922071206",
-  "10921909295",
-  "10925378976",
-  "10920979232",
-  "10921308296",
-  "10921656178",
-  "10922386572",
-  "10921753811",
-  "10938557627",
-  "10938552026",
-  "10938485045",
-  "10938455233",
-  "10938467958",
-  "10938457875",
-  "10938452100",
   "10938445378",
   "10938439089",
   "10938416574",
@@ -3999,7 +3968,38 @@
   "10966158038",
   "10966163563",
   "10966190006",
-  "10966169128"
+  "10966169128",
+  "10966206710",
+  "10966204286",
+  "10966192329",
+  "10966195282",
+  "10966243206",
+  "10966236583",
+  "10966234815",
+  "10966220861",
+  "10966271077",
+  "10966264135",
+  "10966249827",
+  "10966268480",
+  "10966255182",
+  "10966284540",
+  "10966283213",
+  "10966279328",
+  "10966310389",
+  "10966289251",
+  "10966315312",
+  "10965898821",
+  "10966346456",
+  "10966350727",
+  "10966346685",
+  "10966309141",
+  "10965525573",
+  "10966323802",
+  "10966348267",
+  "10966328963",
+  "10966373236",
+  "10966324472",
+  "10966348454"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -6226,179 +6226,6 @@
      "prix": 50
     }
    ],
-   "niveau": "modèle"
-  },
-  "modele:kodak charmera|2@3075": {
-   "date": 1795442345664,
-   "mediane": 40,
-   "echantillon": 27,
-   "dispersion": 0.25,
-   "fourchette": [
-    22,
-    60
-   ],
-   "exemples": [
-    {
-     "id": 10753070381,
-     "prix": 40
-    },
-    {
-     "id": 10791418866,
-     "prix": 40
-    },
-    {
-     "id": 10091196700,
-     "prix": 40
-    },
-    {
-     "id": 10016625934,
-     "prix": 40
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:pentax 35s compatta|2@3076": {
-   "date": 1795442346302,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:samsung es80 manuali|2@3075": {
-   "date": 1795442473897,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:canon 860 ixus|1@3075": {
-   "date": 1795442474682,
-   "mediane": 135,
-   "echantillon": 9,
-   "dispersion": 0.3,
-   "fourchette": [
-    95,
-    180
-   ],
-   "exemples": [
-    {
-     "id": 9647018594,
-     "prix": 134.99
-    },
-    {
-     "id": 10553205453,
-     "prix": 134.96
-    },
-    {
-     "id": 10892842862,
-     "prix": 149
-    },
-    {
-     "id": 10679359412,
-     "prix": 150
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:pentax ei 100 64mb|2@3076": {
-   "date": 1795442730988,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:panasonic dmc lx2 dmc|3@3075": {
-   "date": 1795442858034,
-   "mediane": 100,
-   "echantillon": 7,
-   "dispersion": 0.72,
-   "fourchette": [
-    49,
-    160
-   ],
-   "exemples": [
-    {
-     "id": 10926460696,
-     "prix": 100
-    },
-    {
-     "id": 10193283757,
-     "prix": 88
-    },
-    {
-     "id": 10183315744,
-     "prix": 85
-    },
-    {
-     "id": 10752905007,
-     "prix": 119.9
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:nikon s4300 coolpix|1@3075": {
-   "date": 1795442988069,
-   "mediane": 95,
-   "echantillon": 27,
-   "dispersion": 0.53,
-   "fourchette": [
-    25,
-    135
-   ],
-   "exemples": [
-    {
-     "id": 10861859680,
-     "prix": 95
-    },
-    {
-     "id": 8910445670,
-     "prix": 99.99
-    },
-    {
-     "id": 9347499444,
-     "prix": 100
-    },
-    {
-     "id": 10171686061,
-     "prix": 90
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:olympus x 940 camara|2@3075": {
-   "date": 1795443116029,
-   "mediane": 39,
-   "echantillon": 6,
-   "dispersion": 0.76,
-   "fourchette": [
-    32.99,
-    68
-   ],
-   "exemples": [
-    {
-     "id": 10012139712,
-     "prix": 38.99
-    },
-    {
-     "id": 9783687533,
-     "prix": 39.99
-    },
-    {
-     "id": 10875941099,
-     "prix": 35
-    },
-    {
-     "id": 10162153168,
-     "prix": 32.99
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:exakta hs 10 analogica|2@3076": {
-   "date": 1795443244316,
-   "mediane": null,
-   "echantillon": 2,
-   "dispersion": null,
    "niveau": "modèle"
   },
   "modele:sony dsc w150 cyber|1@3075": {
@@ -23987,6 +23814,182 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "modele:nikon fe2 finition|2@3076": {
+   "date": 1795615351469,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:canon 1000 10x|2@3075": {
+   "date": 1795615478547,
+   "mediane": null,
+   "echantillon": 2,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:samsung wb32f|2@3075": {
+   "date": 1795615605614,
+   "mediane": 70,
+   "echantillon": 7,
+   "dispersion": 0.59,
+   "fourchette": [
+    43,
+    90
+   ],
+   "exemples": [
+    {
+     "id": 10339252853,
+     "prix": 70
+    },
+    {
+     "id": 8142025129,
+     "prix": 75
+    },
+    {
+     "id": 7066441406,
+     "prix": 90
+    },
+    {
+     "id": 10355867309,
+     "prix": 90
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:nikon d40 accessoires|1@3075": {
+   "date": 1795615606451,
+   "mediane": 125,
+   "echantillon": 3,
+   "dispersion": null,
+   "fourchette": [
+    70,
+    150
+   ],
+   "exemples": [
+    {
+     "id": 7795063431,
+     "prix": 125
+    },
+    {
+     "id": 10874081413,
+     "prix": 150
+    },
+    {
+     "id": 10966279328,
+     "prix": 70
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:nikon l3 case|3@3075": {
+   "date": 1795615733372,
+   "mediane": null,
+   "echantillon": 2,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:sony dsc t10 cyber|1@3075": {
+   "date": 1795615734231,
+   "mediane": 79,
+   "echantillon": 10,
+   "dispersion": 0.32,
+   "fourchette": [
+    50,
+    130
+   ],
+   "exemples": [
+    {
+     "id": 9524161653,
+     "prix": 82
+    },
+    {
+     "id": 10555740707,
+     "prix": 75
+    },
+    {
+     "id": 10842505576,
+     "prix": 75
+    },
+    {
+     "id": 9770583097,
+     "prix": 70
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:fujifilm fuji|4@3075": {
+   "date": 1795615861614,
+   "mediane": 1485,
+   "echantillon": 4,
+   "dispersion": 0.15,
+   "fourchette": [
+    520,
+    1750
+   ],
+   "exemples": [
+    {
+     "id": 10599247620,
+     "prix": 1370
+    },
+    {
+     "id": 9854809238,
+     "prix": 1600
+    },
+    {
+     "id": 10192718949,
+     "prix": 1750
+    },
+    {
+     "id": 10966346456,
+     "prix": 520
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:agfa camara isoly|2@3076": {
+   "date": 1795615989228,
+   "mediane": 38,
+   "echantillon": 7,
+   "dispersion": 0.53,
+   "fourchette": [
+    20,
+    60
+   ],
+   "exemples": [
+    {
+     "id": 6549002778,
+     "prix": 38
+    },
+    {
+     "id": 5883754559,
+     "prix": 40
+    },
+    {
+     "id": 10516436781,
+     "prix": 30
+    },
+    {
+     "id": 5775744272,
+     "prix": 50
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:zenit zenith pentacon|1@3076": {
+   "date": 1795615990075,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:canon 80 90 canomatic|2@3076": {
+   "date": 1795615990828,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -28263,8 +28266,8 @@
    "vu": 1794166354770
   },
   "49999242": {
-   "n": 6,
-   "vu": 1795613205013
+   "n": 7,
+   "vu": 1795615477776
   },
   "50025195": {
    "n": 2,
@@ -30222,6 +30225,10 @@
    "n": 3,
    "vu": 1794643625889
   },
+  "68688640": {
+   "n": 2,
+   "vu": 1795615224494
+  },
   "68707039": {
    "n": 2,
    "vu": 1793911697560
@@ -31411,8 +31418,8 @@
    "vu": 1795255500384
   },
   "82795656": {
-   "n": 3,
-   "vu": 1795615093353
+   "n": 4,
+   "vu": 1795615860684
   },
   "82933467": {
    "n": 4,
@@ -34671,8 +34678,8 @@
    "vu": 1793828678519
   },
   "183116390": {
-   "n": 6,
-   "vu": 1795080782429
+   "n": 7,
+   "vu": 1795615860684
   },
   "183194538": {
    "n": 9,
@@ -40850,6 +40857,10 @@
    "n": 22,
    "vu": 1795270990624
   },
+  "3147037134": {
+   "n": 2,
+   "vu": 1795615477776
+  },
   "3147194415": {
    "n": 3,
    "vu": 1793739155034
@@ -42943,8 +42954,8 @@
    "vu": 1794387220640
   },
   "3188059377": {
-   "n": 2,
-   "vu": 1795517577452
+   "n": 3,
+   "vu": 1795615477776
   },
   "3188080396": {
    "n": 2,
@@ -43527,8 +43538,8 @@
    "vu": 1795121701271
   },
   "3196295209": {
-   "n": 33,
-   "vu": 1795613205010
+   "n": 34,
+   "vu": 1795615860684
   },
   "3196355961": {
    "n": 2,
@@ -44443,8 +44454,8 @@
    "vu": 1794685968655
   },
   "3206887874": {
-   "n": 56,
-   "vu": 1795613205010
+   "n": 57,
+   "vu": 1795615604759
   },
   "3206939730": {
    "n": 12,
@@ -45469,38 +45480,27 @@
  },
  "bilan": {
   "depuis": 1795613227938,
-  "passages": 28,
-  "nouvelles": 90,
-  "marque": 12,
+  "passages": 43,
+  "nouvelles": 121,
+  "marque": 18,
   "etat": 2,
-  "prix": 4,
+  "prix": 5,
   "accessoire": 2,
   "lot": 0,
   "fausse": 0,
   "imitation": 0,
-  "pro": 2,
-  "vendeurSpecialise": 4,
-  "sansCote": 93,
-  "chere": 64,
+  "pro": 3,
+  "vendeurSpecialise": 6,
+  "sansCote": 108,
+  "chere": 69,
   "description": 1,
   "scoreFaible": 0,
   "blocages": 3,
-  "alertes": 6
+  "alertes": 7
  },
  "panne": null,
  "panneDebut": null,
  "suivi": [
-  {
-   "id": 10878680237,
-   "titre": "Lumix G3",
-   "prix": 55,
-   "cote": 148,
-   "score": 68,
-   "lien": "https://www.vinted.fr/items/10878680237-lumix-g3",
-   "date": 1795082832863,
-   "statut": "retiree",
-   "verifieA": 1795086437120
-  },
   {
    "id": 10878801425,
    "titre": "Pentax pc35AF",
@@ -48781,6 +48781,16 @@
    "score": 20,
    "lien": "https://www.vinted.fr/items/10966096055-rollei-kamera",
    "date": 1795614713894,
+   "statut": null
+  },
+  {
+   "id": 10966346456,
+   "titre": "Macchina fotografica Fuji film",
+   "prix": 520,
+   "cote": 1485,
+   "score": 91,
+   "lien": "https://www.vinted.fr/items/10966346456-macchina-fotografica-fuji-film",
+   "date": 1795615862392,
    "statut": null
   }
  ],

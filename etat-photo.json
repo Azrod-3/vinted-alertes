@@ -1,17 +1,5 @@
 {
  "vues": [
-  "10932915723",
-  "10932908269",
-  "10932911323",
-  "10932956700",
-  "10932948405",
-  "10932928336",
-  "10932978397",
-  "10932971276",
-  "10932963411",
-  "10932963596",
-  "10932974918",
-  "10932998569",
   "10933002351",
   "10932990015",
   "10932982363",
@@ -3999,7 +3987,19 @@
   "10962088253",
   "10962094176",
   "10962098886",
-  "10962097528"
+  "10962097528",
+  "10962116473",
+  "10962110801",
+  "10962110529",
+  "10962119505",
+  "10962124086",
+  "10962130270",
+  "10962138232",
+  "10962137059",
+  "10962144945",
+  "10962158011",
+  "10962169187",
+  "10962167609"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -4249,10 +4249,10 @@
    "coteTropBasse": 35
   },
   "marque:yashica@3076": {
-   "date": 1795478622133,
+   "date": 1795589433995,
    "mediane": null,
-   "echantillon": 72,
-   "coteTropBasse": 36
+   "echantillon": 70,
+   "coteTropBasse": 39
   },
   "marque:fujifilm@3076": {
    "date": 1795436442181,
@@ -6623,64 +6623,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:canon a1 spiegelreflexkamera|2@3076": {
-   "date": 1795416748181,
-   "mediane": 200,
-   "echantillon": 4,
-   "dispersion": 0.01,
-   "fourchette": [
-    120,
-    210
-   ],
-   "exemples": [
-    {
-     "id": 9916761258,
-     "prix": 200
-    },
-    {
-     "id": 10935703651,
-     "prix": 199
-    },
-    {
-     "id": 9618715598,
-     "prix": 210
-    },
-    {
-     "id": 9813577977,
-     "prix": 120
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:canon z3 elph|2@3076": {
-   "date": 1795416749823,
-   "mediane": 40,
-   "echantillon": 4,
-   "dispersion": 0.5,
-   "fourchette": [
-    25,
-    79
-   ],
-   "exemples": [
-    {
-     "id": 10912927500,
-     "prix": 30
-    },
-    {
-     "id": 8623845613,
-     "prix": 50
-    },
-    {
-     "id": 10935692503,
-     "prix": 25
-    },
-    {
-     "id": 7935754856,
-     "prix": 79
-    }
-   ],
-   "niveau": "modèle"
   },
   "modele:agfa cinepresa proiettore|1@3076": {
    "date": 1795417635136,
@@ -24524,6 +24466,78 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "modele:canon 105 prima|2@3076": {
+   "date": 1795589306620,
+   "mediane": 50,
+   "echantillon": 71,
+   "dispersion": 0.78,
+   "fourchette": [
+    15,
+    105
+   ],
+   "exemples": [
+    {
+     "id": 10962119505,
+     "prix": 50
+    },
+    {
+     "id": 10895455689,
+     "prix": 50
+    },
+    {
+     "id": 10949820885,
+     "prix": 50
+    },
+    {
+     "id": 10837415334,
+     "prix": 50
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:yashica 108 manuale|2@3076": {
+   "date": 1795589434648,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:kodak etui instamatic|2@3076": {
+   "date": 1795589562332,
+   "mediane": 10,
+   "echantillon": 42,
+   "dispersion": 0.9,
+   "fourchette": [
+    4,
+    25
+   ],
+   "exemples": [
+    {
+     "id": 10962137059,
+     "prix": 10
+    },
+    {
+     "id": 10151961928,
+     "prix": 10
+    },
+    {
+     "id": 10549953884,
+     "prix": 10
+    },
+    {
+     "id": 10061923168,
+     "prix": 10
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:fujifilm 35 135|1@3075": {
+   "date": 1795590067731,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -26408,8 +26422,8 @@
    "vu": 1795011397161
   },
   "26924586": {
-   "n": 10,
-   "vu": 1795513283639
+   "n": 11,
+   "vu": 1795589940867
   },
   "27039451": {
    "n": 9,
@@ -29022,6 +29036,10 @@
   "52207156": {
    "n": 2,
    "vu": 1794595239840
+  },
+  "52219331": {
+   "n": 2,
+   "vu": 1795589179516
   },
   "52301237": {
    "n": 2,
@@ -42468,8 +42486,8 @@
    "vu": 1794149976299
   },
   "3171920640": {
-   "n": 2,
-   "vu": 1795329447441
+   "n": 3,
+   "vu": 1795589433105
   },
   "3171942874": {
    "n": 23,
@@ -45834,8 +45852,8 @@
  },
  "bilan": {
   "depuis": 1795584986319,
-  "passages": 65,
-  "nouvelles": 33,
+  "passages": 80,
+  "nouvelles": 45,
   "marque": 7,
   "etat": 0,
   "prix": 0,
@@ -45844,9 +45862,9 @@
   "fausse": 0,
   "imitation": 0,
   "pro": 0,
-  "vendeurSpecialise": 4,
-  "sansCote": 15,
-  "chere": 4,
+  "vendeurSpecialise": 5,
+  "sansCote": 24,
+  "chere": 6,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,

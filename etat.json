@@ -1,21 +1,5 @@
 {
  "vues": [
-  "10966956790",
-  "10966956898",
-  "10966951900",
-  "10966933360",
-  "10966948079",
-  "10966949299",
-  "10966947219",
-  "10966945811",
-  "10966945070",
-  "10966948003",
-  "10966940069",
-  "10966942717",
-  "10966943116",
-  "10966937474",
-  "10966939826",
-  "10966938286",
   "10946409042",
   "10966997402",
   "10966997242",
@@ -3999,14 +3983,30 @@
   "10965962755",
   "10974516661",
   "10974522311",
-  "10974057057"
+  "10974057057",
+  "10974528635",
+  "10973541041",
+  "10974528213",
+  "10974534596",
+  "10974532544",
+  "10974532526",
+  "10974532777",
+  "10974539229",
+  "10974547210",
+  "10974543182",
+  "10974550084",
+  "10974549149",
+  "10974561684",
+  "10974561444",
+  "10974561558",
+  "10950169869"
  ],
  "cotes": {
   "marque:fossil": {
-   "date": 1795578471657,
+   "date": 1795672039733,
    "mediane": null,
-   "echantillon": 87,
-   "coteTropBasse": 25
+   "echantillon": 81,
+   "coteTropBasse": 28
   },
   "marque:festina": {
    "date": 1795613906317,
@@ -4579,10 +4579,10 @@
    "lissee": true
   },
   "marque:ice watch": {
-   "date": 1795552954702,
+   "date": 1795671518921,
    "mediane": null,
-   "echantillon": 86,
-   "coteTropBasse": 15
+   "echantillon": 88,
+   "coteTropBasse": 12
   },
   "marque:viceroy": {
    "date": 1795552946942,
@@ -4591,9 +4591,9 @@
    "coteTropBasse": 22
   },
   "marque:nixon": {
-   "date": 1795558045975,
+   "date": 1795671777764,
    "mediane": null,
-   "echantillon": 87,
+   "echantillon": 88,
    "coteTropBasse": 35
   },
   "marque:bulova": {
@@ -19512,6 +19512,49 @@
    "date": 1795670090672,
    "mediane": null,
    "echantillon": 2,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:ice watch bracelet taille|2": {
+   "date": 1795671519884,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:nixon gold|2": {
+   "date": 1795671778531,
+   "mediane": 140,
+   "echantillon": 38,
+   "dispersion": 0.68,
+   "fourchette": [
+    35,
+    355
+   ],
+   "exemples": [
+    {
+     "id": 10957562727,
+     "prix": 140
+    },
+    {
+     "id": 10398235235,
+     "prix": 140
+    },
+    {
+     "id": 6270382360,
+     "prix": 140
+    },
+    {
+     "id": 7078890170,
+     "prix": 139
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:fossil long range|4": {
+   "date": 1795672040268,
+   "mediane": null,
+   "echantillon": 1,
    "dispersion": null,
    "niveau": "modèle"
   }
@@ -45046,8 +45089,8 @@
    "vu": 1793633350698
   },
   "58288309": {
-   "n": 62,
-   "vu": 1795087854173
+   "n": 63,
+   "vu": 1795671389130
   },
   "58298698": {
    "n": 73,
@@ -72270,8 +72313,8 @@
    "vu": 1794916344703
   },
   "151789531": {
-   "n": 424,
-   "vu": 1795668406353
+   "n": 425,
+   "vu": 1795671389129
   },
   "151797378": {
    "n": 7,
@@ -104798,8 +104841,8 @@
    "vu": 1793633350698
   },
   "289499728": {
-   "n": 314,
-   "vu": 1795651473474
+   "n": 315,
+   "vu": 1795671776984
   },
   "289503375": {
    "n": 5,
@@ -116426,8 +116469,8 @@
    "vu": 1793633350698
   },
   "3138337670": {
-   "n": 2,
-   "vu": 1795652628439
+   "n": 3,
+   "vu": 1795671260373
   },
   "3138369083": {
    "n": 3,
@@ -117874,8 +117917,8 @@
    "vu": 1793633350698
   },
   "3143126110": {
-   "n": 6,
-   "vu": 1793633350698
+   "n": 7,
+   "vu": 1795671648481
   },
   "3143128450": {
    "n": 3,
@@ -136214,8 +136257,8 @@
    "vu": 1793885536746
   },
   "3186367220": {
-   "n": 49,
-   "vu": 1795552943906
+   "n": 50,
+   "vu": 1795671260373
   },
   "3186368462": {
    "n": 21,
@@ -146770,8 +146813,8 @@
    "vu": 1795351219497
   },
   "3209547388": {
-   "n": 30,
-   "vu": 1795628598567
+   "n": 32,
+   "vu": 1795672038934
   },
   "3209569096": {
    "n": 12,
@@ -150908,38 +150951,27 @@
  },
  "bilan": {
   "depuis": 1795671129062,
-  "passages": 0,
-  "nouvelles": 0,
-  "marque": 0,
-  "etat": 0,
-  "prix": 0,
+  "passages": 21,
+  "nouvelles": 16,
+  "marque": 9,
+  "etat": 1,
+  "prix": 1,
   "accessoire": 0,
   "lot": 0,
-  "fausse": 0,
+  "fausse": 1,
   "imitation": 0,
   "pro": 0,
-  "vendeurSpecialise": 0,
-  "sansCote": 0,
+  "vendeurSpecialise": 1,
+  "sansCote": 2,
   "chere": 0,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
-  "alertes": 0
+  "alertes": 1
  },
  "panne": null,
  "panneDebut": null,
  "suivi": [
-  {
-   "id": 10933159002,
-   "titre": "Baltic aquascaphe",
-   "prix": 400,
-   "cote": 605,
-   "score": 62,
-   "lien": "https://www.vinted.fr/items/10933159002-baltic-aquascaphe",
-   "date": 1795387274628,
-   "statut": "en vente",
-   "verifieA": 1795390911285
-  },
   {
    "id": 10933228745,
    "titre": "Timex horloge met blauwe stoffen band",
@@ -154226,6 +154258,16 @@
    "score": 62,
    "lien": "https://www.vinted.fr/items/10974435446-lip-souveraine",
    "date": 1795668926638,
+   "statut": null
+  },
+  {
+   "id": 10974550084,
+   "titre": "Nixon Uhr gold",
+   "prix": 15,
+   "cote": 140,
+   "score": 71,
+   "lien": "https://www.vinted.fr/items/10974550084-nixon-uhr-gold",
+   "date": 1795671779139,
    "statut": null
   }
  ],

@@ -1,25 +1,5 @@
 {
  "vues": [
-  "10949178759",
-  "10965595440",
-  "10955796524",
-  "10965586371",
-  "10965534751",
-  "10965563847",
-  "10965570985",
-  "10965550254",
-  "10965545663",
-  "10965528764",
-  "10965505459",
-  "10965501721",
-  "10965496006",
-  "10965477817",
-  "10965452812",
-  "10965408195",
-  "10965435836",
-  "10965387018",
-  "10965428260",
-  "10965408336",
   "10965375344",
   "10965398440",
   "10965373339",
@@ -3999,7 +3979,27 @@
   "10984589322",
   "10984600761",
   "10984602378",
-  "10984599061"
+  "10984599061",
+  "10984618319",
+  "10984613758",
+  "10984608368",
+  "10984603061",
+  "10984624034",
+  "10984619903",
+  "10984619031",
+  "10984634362",
+  "10984632437",
+  "10984630293",
+  "10984645503",
+  "10984643447",
+  "10975833546",
+  "10984649080",
+  "10984650063",
+  "10984657781",
+  "10984674689",
+  "10984668829",
+  "10984681910",
+  "10984680313"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -4266,30 +4266,30 @@
    "coteTropBasse": 12
   },
   "marque:rollei@3076": {
-   "date": 1795646534349,
+   "date": 1795734995685,
    "mediane": 80,
-   "echantillon": 75,
-   "dispersion": 1.12,
+   "echantillon": 74,
+   "dispersion": 0.88,
    "fourchette": [
-    25,
-    249
+    20,
+    200
    ],
    "exemples": [
     {
-     "id": 10852607766,
-     "prix": 85
+     "id": 10898901017,
+     "prix": 80
     },
     {
-     "id": 9669291217,
-     "prix": 85
+     "id": 10920706782,
+     "prix": 80
     },
     {
-     "id": 10180567601,
-     "prix": 85
+     "id": 10692985264,
+     "prix": 80
     },
     {
-     "id": 10967564201,
-     "prix": 89
+     "id": 10554089686,
+     "prix": 80
     }
    ],
    "niveau": "marque",
@@ -5785,20 +5785,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:kodak funsaver disposable|3@3076": {
-   "date": 1795562222285,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:kodak xl33 super|1@3076": {
-   "date": 1795562223063,
-   "mediane": null,
-   "echantillon": 2,
-   "dispersion": null,
-   "niveau": "modèle"
   },
   "modele:nikon s3000 coolpix|3@3075": {
    "date": 1795563112377,
@@ -29197,6 +29183,84 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "modele:nikon l14 nikkon|3@3075": {
+   "date": 1795734738131,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:sony dsc h2 0mp|2@3075": {
+   "date": 1795734738898,
+   "mediane": null,
+   "echantillon": 0,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:samsung st200f 16mp|1@3075": {
+   "date": 1795734739752,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:canon edition speciale|2@3076": {
+   "date": 1795734740553,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:canon bf 9s analogica|1@3076": {
+   "date": 1795734868433,
+   "mediane": 20,
+   "echantillon": 14,
+   "dispersion": 0.55,
+   "fourchette": [
+    8,
+    30
+   ],
+   "exemples": [
+    {
+     "id": 9125253467,
+     "prix": 20
+    },
+    {
+     "id": 8048417628,
+     "prix": 20
+    },
+    {
+     "id": 8584821563,
+     "prix": 19
+    },
+    {
+     "id": 7837226137,
+     "prix": 22
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:minolta machina fotografi|2@3076": {
+   "date": 1795735123025,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:olympus omd marki|2@3075": {
+   "date": 1795735249954,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:kodak machina fotografi|2@3076": {
+   "date": 1795735250770,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -38513,8 +38577,8 @@
    "vu": 1795628667699
   },
   "125739741": {
-   "n": 2,
-   "vu": 1795734099472
+   "n": 3,
+   "vu": 1795734867658
   },
   "125757042": {
    "n": 5,
@@ -41277,8 +41341,8 @@
    "vu": 1795705939819
   },
   "214080989": {
-   "n": 2,
-   "vu": 1795734354500
+   "n": 3,
+   "vu": 1795734994716
   },
   "214128070": {
    "n": 2,
@@ -42861,8 +42925,8 @@
    "vu": 1795266267620
   },
   "254709163": {
-   "n": 2,
-   "vu": 1794057007251
+   "n": 3,
+   "vu": 1795735629846
   },
   "254742583": {
    "n": 5,
@@ -43875,6 +43939,10 @@
   "273212118": {
    "n": 2,
    "vu": 1795083343876
+  },
+  "273267718": {
+   "n": 3,
+   "vu": 1795734994716
   },
   "273269071": {
    "n": 3,
@@ -49513,8 +49581,8 @@
    "vu": 1795613205011
   },
   "3194691564": {
-   "n": 3,
-   "vu": 1795613205012
+   "n": 4,
+   "vu": 1795735629846
   },
   "3194692572": {
    "n": 3,
@@ -51616,6 +51684,10 @@
    "n": 3,
    "vu": 1795523108782
   },
+  "3218832302": {
+   "n": 2,
+   "vu": 1795735249264
+  },
   "3219025271": {
    "n": 2,
    "vu": 1795709543967
@@ -51675,19 +51747,19 @@
  },
  "bilan": {
   "depuis": 1795733785474,
-  "passages": 13,
-  "nouvelles": 20,
-  "marque": 4,
+  "passages": 28,
+  "nouvelles": 40,
+  "marque": 6,
   "etat": 1,
-  "prix": 1,
+  "prix": 2,
   "accessoire": 1,
-  "lot": 0,
+  "lot": 2,
   "fausse": 0,
   "imitation": 0,
   "pro": 1,
   "vendeurSpecialise": 2,
-  "sansCote": 63,
-  "chere": 46,
+  "sansCote": 76,
+  "chere": 48,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 2,

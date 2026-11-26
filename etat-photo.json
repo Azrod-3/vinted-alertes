@@ -1,14 +1,5 @@
 {
  "vues": [
-  "10942251195",
-  "10948381408",
-  "10942946742",
-  "10943460978",
-  "10948528209",
-  "10948546150",
-  "10948568201",
-  "10948565586",
-  "10948565963",
   "10942050710",
   "10948582666",
   "10948605652",
@@ -3999,7 +3990,16 @@
   "10974634635",
   "10974648361",
   "10974647886",
-  "10974679750"
+  "10974679750",
+  "10974680843",
+  "10974684387",
+  "10974694239",
+  "10974705690",
+  "10974705929",
+  "10974710116",
+  "10966731680",
+  "10974717130",
+  "10974722302"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -27398,6 +27398,42 @@
    "echantillon": 1,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:minolta af35|2@3076": {
+   "date": 1795674904759,
+   "mediane": 33,
+   "echantillon": 28,
+   "dispersion": 0.57,
+   "fourchette": [
+    15,
+    80
+   ],
+   "exemples": [
+    {
+     "id": 10866636675,
+     "prix": 33
+    },
+    {
+     "id": 10416001303,
+     "prix": 33
+    },
+    {
+     "id": 10689917989,
+     "prix": 31
+    },
+    {
+     "id": 5873749653,
+     "prix": 35
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:canon cannon ixus|1@3075": {
+   "date": 1795675284560,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -49323,20 +49359,20 @@
   }
  },
  "bilan": {
-  "depuis": 1795668057336,
-  "passages": 102,
-  "nouvelles": 36,
-  "marque": 6,
-  "etat": 2,
-  "prix": 1,
-  "accessoire": 3,
+  "depuis": 1795675287587,
+  "passages": 3,
+  "nouvelles": 1,
+  "marque": 1,
+  "etat": 0,
+  "prix": 0,
+  "accessoire": 0,
   "lot": 0,
   "fausse": 0,
   "imitation": 0,
   "pro": 0,
-  "vendeurSpecialise": 3,
-  "sansCote": 16,
-  "chere": 5,
+  "vendeurSpecialise": 0,
+  "sansCote": 0,
+  "chere": 0,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,

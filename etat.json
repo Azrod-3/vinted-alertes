@@ -1,27 +1,5 @@
 {
  "vues": [
-  "10966753544",
-  "10966749524",
-  "10966753722",
-  "10966753149",
-  "10966749089",
-  "10966750486",
-  "10966751890",
-  "10966744333",
-  "10966747523",
-  "10966742169",
-  "10966748222",
-  "10966747352",
-  "10966747442",
-  "10966745432",
-  "10966739278",
-  "10966722777",
-  "10966743473",
-  "10966737116",
-  "10966737926",
-  "10966736449",
-  "10966735221",
-  "10966735555",
   "10966723910",
   "10966726505",
   "10964628323",
@@ -3999,7 +3977,29 @@
   "10973491945",
   "10973501627",
   "10973501065",
-  "10973510671"
+  "10973510671",
+  "10973522137",
+  "10973533549",
+  "10973528377",
+  "10973537673",
+  "10973534201",
+  "10972649860",
+  "10973535838",
+  "10973547520",
+  "10973546408",
+  "10973546676",
+  "10973545195",
+  "10973560236",
+  "10973559638",
+  "10973557518",
+  "10973553363",
+  "10973564435",
+  "10973565113",
+  "10973563933",
+  "10973575214",
+  "10973572918",
+  "10973572872",
+  "10973571980"
  ],
  "cotes": {
   "marque:fossil": {
@@ -5932,36 +5932,6 @@
    "niveau": "modèle",
    "lissee": true
   },
-  "marque:hanhart": {
-   "date": 1795479865327,
-   "mediane": 91,
-   "echantillon": 70,
-   "dispersion": 1.05,
-   "fourchette": [
-    29.5,
-    300
-   ],
-   "exemples": [
-    {
-     "id": 10042037162,
-     "prix": 90
-    },
-    {
-     "id": 9992352092,
-     "prix": 100
-    },
-    {
-     "id": 4589652225,
-     "prix": 105
-    },
-    {
-     "id": 10823944642,
-     "prix": 80
-    }
-   ],
-   "niveau": "marque",
-   "lissee": true
-  },
   "modele:fossil fossiles|2": {
    "date": 1795558176642,
    "mediane": null,
@@ -6131,381 +6101,6 @@
    "mediane": null,
    "echantillon": 80,
    "coteTropBasse": 10
-  },
-  "modele:lorenz gmt|3": {
-   "date": 1795479851474,
-   "mediane": 350,
-   "echantillon": 21,
-   "dispersion": 1.21,
-   "fourchette": [
-    90,
-    599
-   ],
-   "exemples": [
-    {
-     "id": 10606750540,
-     "prix": 350
-    },
-    {
-     "id": 5774574062,
-     "prix": 400
-    },
-    {
-     "id": 7262253937,
-     "prix": 300
-    },
-    {
-     "id": 7416279103,
-     "prix": 280
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:citizen eagle automatik|1": {
-   "date": 1795479852694,
-   "mediane": 110,
-   "echantillon": 7,
-   "dispersion": 0.36,
-   "fourchette": [
-    75,
-    162
-   ],
-   "exemples": [
-    {
-     "id": 10947353304,
-     "prix": 110
-    },
-    {
-     "id": 10914461995,
-     "prix": 109
-    },
-    {
-     "id": 10788197364,
-     "prix": 129
-    },
-    {
-     "id": 10651564542,
-     "prix": 89
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:tissot 1853 schweizer|1": {
-   "date": 1795479853245,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:vostok automatique russe|3": {
-   "date": 1795479855012,
-   "mediane": 100,
-   "echantillon": 4,
-   "dispersion": 0,
-   "fourchette": [
-    80,
-    105
-   ],
-   "exemples": [
-    {
-     "id": 10878577180,
-     "prix": 100
-    },
-    {
-     "id": 10878551031,
-     "prix": 100
-    },
-    {
-     "id": 10947333647,
-     "prix": 105
-    },
-    {
-     "id": 7738212940,
-     "prix": 80
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:breil tribe knock|2": {
-   "date": 1795479855543,
-   "mediane": null,
-   "echantillon": 2,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:invicta racing collectie 69649 horloge|4": {
-   "date": 1795479856127,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:ice watch bmw motorsport|2": {
-   "date": 1795479856921,
-   "mediane": 50,
-   "echantillon": 49,
-   "dispersion": 0.64,
-   "fourchette": [
-    15,
-    110
-   ],
-   "exemples": [
-    {
-     "id": 10662935194,
-     "prix": 50
-    },
-    {
-     "id": 10183184360,
-     "prix": 50
-    },
-    {
-     "id": 9976926362,
-     "prix": 50
-    },
-    {
-     "id": 7830254809,
-     "prix": 50
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:citizen compact automatique|2": {
-   "date": 1795479857953,
-   "mediane": null,
-   "echantillon": 2,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:locman stealth acciaio|4": {
-   "date": 1795479859381,
-   "mediane": 160,
-   "echantillon": 5,
-   "dispersion": 0.69,
-   "fourchette": [
-    65,
-    300
-   ],
-   "exemples": [
-    {
-     "id": 3441954152,
-     "prix": 160
-    },
-    {
-     "id": 7944083755,
-     "prix": 190
-    },
-    {
-     "id": 8441922631,
-     "prix": 80
-    },
-    {
-     "id": 10947166261,
-     "prix": 65
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:breil sistemare|2": {
-   "date": 1795479860566,
-   "mediane": 6,
-   "echantillon": 4,
-   "dispersion": 0.33,
-   "fourchette": [
-    3.99,
-    10
-   ],
-   "exemples": [
-    {
-     "id": 10947052313,
-     "prix": 7
-    },
-    {
-     "id": 10407866500,
-     "prix": 5
-    },
-    {
-     "id": 10929557235,
-     "prix": 3.99
-    },
-    {
-     "id": 10204662953,
-     "prix": 10
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:festina f16362 cronografo|1": {
-   "date": 1795479861022,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:festina veritable|2": {
-   "date": 1795479862973,
-   "mediane": 46,
-   "echantillon": 8,
-   "dispersion": 0.98,
-   "fourchette": [
-    20,
-    75
-   ],
-   "exemples": [
-    {
-     "id": 3670591725,
-     "prix": 30
-    },
-    {
-     "id": 10229191148,
-     "prix": 62
-    },
-    {
-     "id": 10947094651,
-     "prix": 25
-    },
-    {
-     "id": 7801069831,
-     "prix": 22
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:tissot t109 610 11 031 00 everytime|3": {
-   "date": 1795479863384,
-   "mediane": null,
-   "echantillon": 0,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:fossil men stainless|1": {
-   "date": 1795479864157,
-   "mediane": 30,
-   "echantillon": 10,
-   "dispersion": 0.6,
-   "fourchette": [
-    15,
-    50
-   ],
-   "exemples": [
-    {
-     "id": 10947039601,
-     "prix": 35
-    },
-    {
-     "id": 8920659247,
-     "prix": 25
-    },
-    {
-     "id": 8358539025,
-     "prix": 25
-    },
-    {
-     "id": 10290451149,
-     "prix": 21.9
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:invicta pro diver|3": {
-   "date": 1795479866033,
-   "mediane": 75,
-   "echantillon": 81,
-   "dispersion": 0.68,
-   "fourchette": [
-    20,
-    185
-   ],
-   "exemples": [
-    {
-     "id": 10426095068,
-     "prix": 75
-    },
-    {
-     "id": 10587353150,
-     "prix": 75
-    },
-    {
-     "id": 10542267270,
-     "prix": 75
-    },
-    {
-     "id": 10872273734,
-     "prix": 72
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:nixon minimal|2": {
-   "date": 1795479866638,
-   "mediane": 45,
-   "echantillon": 46,
-   "dispersion": 0.44,
-   "fourchette": [
-    12,
-    80
-   ],
-   "exemples": [
-    {
-     "id": 10038912160,
-     "prix": 45
-    },
-    {
-     "id": 7883397381,
-     "prix": 45
-    },
-    {
-     "id": 10082000302,
-     "prix": 45
-    },
-    {
-     "id": 6795889422,
-     "prix": 45
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:festina f20358 classic|3": {
-   "date": 1795479867149,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:skagen skw6920 316l|4": {
-   "date": 1795479868189,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:citizen quarzuhr|1": {
-   "date": 1795480087527,
-   "mediane": 49,
-   "echantillon": 13,
-   "dispersion": 0.71,
-   "fourchette": [
-    30,
-    120
-   ],
-   "exemples": [
-    {
-     "id": 10946016710,
-     "prix": 49
-    },
-    {
-     "id": 10548651414,
-     "prix": 50
-    },
-    {
-     "id": 10073753097,
-     "prix": 42
-    },
-    {
-     "id": 10336652686,
-     "prix": 39
-    }
-   ],
-   "niveau": "modèle"
   },
   "modele:molnija tasca|2": {
    "date": 1795485878122,
@@ -49734,8 +49329,8 @@
    "vu": 1795593114486
   },
   "66450876": {
-   "n": 10,
-   "vu": 1795570004582
+   "n": 11,
+   "vu": 1795653271853
   },
   "66453210": {
    "n": 4,
@@ -72002,8 +71597,8 @@
    "vu": 1794752771909
   },
   "148174284": {
-   "n": 51,
-   "vu": 1794376965210
+   "n": 52,
+   "vu": 1795653140251
   },
   "148202682": {
    "n": 26,
@@ -75841,6 +75436,10 @@
    "n": 21,
    "vu": 1793633350698
   },
+  "167230340": {
+   "n": 2,
+   "vu": 1795652884388
+  },
   "167244811": {
    "n": 107,
    "vu": 1795647993995
@@ -79258,8 +78857,8 @@
    "vu": 1794570937532
   },
   "182559479": {
-   "n": 17,
-   "vu": 1795619247557
+   "n": 18,
+   "vu": 1795652628439
   },
   "182600911": {
    "n": 9,
@@ -87810,8 +87409,8 @@
    "vu": 1795257472907
   },
   "229442933": {
-   "n": 6,
-   "vu": 1795649409406
+   "n": 7,
+   "vu": 1795652884388
   },
   "229452199": {
    "n": 6,
@@ -106362,8 +105961,8 @@
    "vu": 1794064198518
   },
   "292990165": {
-   "n": 53,
-   "vu": 1793633350698
+   "n": 54,
+   "vu": 1795653271853
   },
   "292993734": {
    "n": 2,
@@ -116720,6 +116319,10 @@
   "3138333016": {
    "n": 14,
    "vu": 1793633350698
+  },
+  "3138337670": {
+   "n": 2,
+   "vu": 1795652628439
   },
   "3138369083": {
    "n": 3,
@@ -146030,8 +145633,8 @@
    "vu": 1794666170897
   },
   "3207697885": {
-   "n": 7,
-   "vu": 1795389003599
+   "n": 9,
+   "vu": 1795653140251
   },
   "3207723742": {
    "n": 2,
@@ -151192,9 +150795,9 @@
  },
  "bilan": {
   "depuis": 1795650441712,
-  "passages": 46,
-  "nouvelles": 56,
-  "marque": 44,
+  "passages": 68,
+  "nouvelles": 78,
+  "marque": 63,
   "etat": 0,
   "prix": 0,
   "accessoire": 0,
@@ -151202,9 +150805,9 @@
   "fausse": 1,
   "imitation": 0,
   "pro": 0,
-  "vendeurSpecialise": 9,
+  "vendeurSpecialise": 11,
   "sansCote": 1,
-  "chere": 0,
+  "chere": 1,
   "description": 1,
   "scoreFaible": 0,
   "blocages": 0,
@@ -154510,7 +154113,8 @@
    "score": 49,
    "lien": "https://www.vinted.fr/items/10973286130-reloj-longines-ano1918",
    "date": 1795649540907,
-   "statut": null
+   "statut": "en vente",
+   "verifieA": 1795653186618
   }
  ],
  "dernierRecap": "2026-11-25"

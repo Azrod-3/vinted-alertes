@@ -1,10 +1,5 @@
 {
  "vues": [
-  "10947840584",
-  "10947837543",
-  "10947866200",
-  "10947868674",
-  "10947863814",
   "10947859835",
   "10947916678",
   "10947925389",
@@ -3999,34 +3994,39 @@
   "10974246660",
   "10974231483",
   "10974268186",
-  "10974369840"
+  "10974369840",
+  "10974405662",
+  "10974411876",
+  "10974410055",
+  "10974414086",
+  "10974421495"
  ],
  "cotes": {
   "marque:sony@3075": {
-   "date": 1795577760977,
-   "mediane": 72,
-   "echantillon": 81,
-   "dispersion": 0.76,
+   "date": 1795668184575,
+   "mediane": 66,
+   "echantillon": 80,
+   "dispersion": 0.72,
    "fourchette": [
-    20,
-    200
+    19,
+    170
    ],
    "exemples": [
     {
-     "id": 10871610003,
-     "prix": 72
+     "id": 10967262605,
+     "prix": 65
     },
     {
-     "id": 10939711225,
-     "prix": 69.99
+     "id": 10926720565,
+     "prix": 65
     },
     {
-     "id": 10738938456,
-     "prix": 69.99
+     "id": 10952382886,
+     "prix": 65
     },
     {
-     "id": 10803228779,
-     "prix": 69.99
+     "id": 10969009428,
+     "prix": 60
     }
    ],
    "niveau": "marque",
@@ -49214,24 +49214,24 @@
   }
  },
  "bilan": {
-  "depuis": 1795660839766,
-  "passages": 71,
-  "nouvelles": 17,
-  "marque": 4,
+  "depuis": 1795668057336,
+  "passages": 12,
+  "nouvelles": 5,
+  "marque": 1,
   "etat": 0,
-  "prix": 2,
+  "prix": 0,
   "accessoire": 0,
   "lot": 0,
   "fausse": 0,
   "imitation": 0,
   "pro": 0,
-  "vendeurSpecialise": 1,
-  "sansCote": 6,
+  "vendeurSpecialise": 0,
+  "sansCote": 3,
   "chere": 1,
-  "description": 1,
+  "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
-  "alertes": 2
+  "alertes": 0
  },
  "panne": null,
  "panneDebut": null,

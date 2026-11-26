@@ -1,8 +1,5 @@
 {
  "vues": [
-  "10947640469",
-  "10947657209",
-  "10943256048",
   "10944880105",
   "10947705732",
   "10947699717",
@@ -3999,7 +3996,10 @@
   "10973825820",
   "10969428440",
   "10973861647",
-  "10973868624"
+  "10973868624",
+  "10973921365",
+  "10973940430",
+  "10973943360"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -5362,36 +5362,6 @@
    ],
    "niveau": "modèle"
   },
-  "modele:canon 1300d eos|2@3075": {
-   "date": 1795486125327,
-   "mediane": 181,
-   "echantillon": 70,
-   "dispersion": 0.28,
-   "fourchette": [
-    100,
-    300
-   ],
-   "exemples": [
-    {
-     "id": 10918854527,
-     "prix": 180
-    },
-    {
-     "id": 10942190828,
-     "prix": 180
-    },
-    {
-     "id": 10694010226,
-     "prix": 180
-    },
-    {
-     "id": 10835932234,
-     "prix": 180
-    }
-   ],
-   "niveau": "modèle",
-   "lissee": true
-  },
   "modele:kodak h35 ektar|2@3076": {
    "date": 1795551937828,
    "mediane": 50,
@@ -5869,35 +5839,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:kodak charmera|3@3075": {
-   "date": 1795486761865,
-   "mediane": 45,
-   "echantillon": 64,
-   "dispersion": 0.22,
-   "fourchette": [
-    32.95,
-    70
-   ],
-   "exemples": [
-    {
-     "id": 10687529834,
-     "prix": 45
-    },
-    {
-     "id": 10893873102,
-     "prix": 45
-    },
-    {
-     "id": 10910368654,
-     "prix": 45
-    },
-    {
-     "id": 10686190945,
-     "prix": 45
-    }
-   ],
-   "niveau": "modèle"
   },
   "modele:nikon fe2 corcho|1@3076": {
    "date": 1795487523900,
@@ -27337,6 +27278,35 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "modele:praktica maquina|2@3076": {
+   "date": 1795659129541,
+   "mediane": 50,
+   "echantillon": 13,
+   "dispersion": 1.3,
+   "fourchette": [
+    18,
+    135
+   ],
+   "exemples": [
+    {
+     "id": 7387943201,
+     "prix": 50
+    },
+    {
+     "id": 8106904254,
+     "prix": 60
+    },
+    {
+     "id": 10875381420,
+     "prix": 35
+    },
+    {
+     "id": 10973940430,
+     "prix": 25
+    }
+   ],
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -45153,8 +45123,8 @@
    "vu": 1795613205009
   },
   "3157464107": {
-   "n": 13,
-   "vu": 1795657864549
+   "n": 14,
+   "vu": 1795659255972
   },
   "3157684651": {
    "n": 3,
@@ -49243,19 +49213,19 @@
  },
  "bilan": {
   "depuis": 1795653611287,
-  "passages": 80,
-  "nouvelles": 24,
+  "passages": 95,
+  "nouvelles": 27,
   "marque": 5,
   "etat": 0,
-  "prix": 0,
+  "prix": 1,
   "accessoire": 0,
   "lot": 0,
   "fausse": 0,
   "imitation": 3,
   "pro": 1,
-  "vendeurSpecialise": 3,
+  "vendeurSpecialise": 4,
   "sansCote": 8,
-  "chere": 4,
+  "chere": 5,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,

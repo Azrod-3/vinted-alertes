@@ -1,12 +1,5 @@
 {
  "vues": [
-  "10944569500",
-  "10944556361",
-  "10944268193",
-  "10944530476",
-  "10944503357",
-  "10944461749",
-  "10944557968",
   "10944460595",
   "10944481051",
   "10944441733",
@@ -3999,7 +3992,14 @@
   "10973483499",
   "10973481158",
   "10973474335",
-  "10970324947"
+  "10970324947",
+  "10973517842",
+  "10973535267",
+  "10973529709",
+  "10973545144",
+  "10973545396",
+  "10973541825",
+  "10973547366"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -5869,20 +5869,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:fujifilm junjifilm|2@3075": {
-   "date": 1795479901106,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:olympus maquina antiga|1@3076": {
-   "date": 1795480154754,
-   "mediane": null,
-   "echantillon": 2,
-   "dispersion": null,
-   "niveau": "modèle"
   },
   "modele:sony w170 digitalcamera|2@3075": {
    "date": 1795480281844,
@@ -27310,6 +27296,20 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "modele:canon 114xl|3@3076": {
+   "date": 1795652409210,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:sony gps della|1@3075": {
+   "date": 1795652914896,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -27994,8 +27994,8 @@
    "vu": 1794658274555
   },
   "16300634": {
-   "n": 10,
-   "vu": 1795515656038
+   "n": 11,
+   "vu": 1795652661695
   },
   "16329531": {
    "n": 3,
@@ -49204,9 +49204,9 @@
  },
  "bilan": {
   "depuis": 1795646368536,
-  "passages": 88,
-  "nouvelles": 95,
-  "marque": 12,
+  "passages": 103,
+  "nouvelles": 102,
+  "marque": 14,
   "etat": 2,
   "prix": 3,
   "accessoire": 1,
@@ -49214,8 +49214,8 @@
   "fausse": 1,
   "imitation": 0,
   "pro": 3,
-  "vendeurSpecialise": 17,
-  "sansCote": 81,
+  "vendeurSpecialise": 18,
+  "sansCote": 85,
   "chere": 70,
   "description": 0,
   "scoreFaible": 0,

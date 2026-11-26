@@ -1,10 +1,5 @@
 {
  "vues": [
-  "10935711059",
-  "10935712017",
-  "10948264534",
-  "10948287437",
-  "10948364241",
   "10942251195",
   "10948381408",
   "10942946742",
@@ -3999,7 +3994,12 @@
   "10974598585",
   "10974602588",
   "10974607160",
-  "10974608811"
+  "10974608811",
+  "10974636827",
+  "10974634635",
+  "10974648361",
+  "10974647886",
+  "10974679750"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -27362,6 +27362,42 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "modele:fujica st701|2@3076": {
+   "date": 1795673764262,
+   "mediane": 58,
+   "echantillon": 8,
+   "dispersion": 0.35,
+   "fourchette": [
+    25,
+    125
+   ],
+   "exemples": [
+    {
+     "id": 10271552549,
+     "prix": 60
+    },
+    {
+     "id": 10974634635,
+     "prix": 55
+    },
+    {
+     "id": 10673365818,
+     "prix": 50
+    },
+    {
+     "id": 10507481571,
+     "prix": 50
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:canon e0s 500d|1@3075": {
+   "date": 1795674017669,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -49288,10 +49324,10 @@
  },
  "bilan": {
   "depuis": 1795668057336,
-  "passages": 87,
-  "nouvelles": 31,
-  "marque": 5,
-  "etat": 1,
+  "passages": 102,
+  "nouvelles": 36,
+  "marque": 6,
+  "etat": 2,
   "prix": 1,
   "accessoire": 3,
   "lot": 0,
@@ -49299,8 +49335,8 @@
   "imitation": 0,
   "pro": 0,
   "vendeurSpecialise": 3,
-  "sansCote": 14,
-  "chere": 4,
+  "sansCote": 16,
+  "chere": 5,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,

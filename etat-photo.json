@@ -1,9 +1,5 @@
 {
  "vues": [
-  "10935705286",
-  "10948167708",
-  "10935706361",
-  "10935707300",
   "10948189626",
   "10935708209",
   "10948204951",
@@ -3999,7 +3995,11 @@
   "10974514375",
   "10974528939",
   "10974530224",
-  "10974537912"
+  "10974537912",
+  "10974549497",
+  "10974559024",
+  "10974558979",
+  "10974576648"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -4357,10 +4357,10 @@
    "coteTropBasse": 15
   },
   "marque:pentax@3076": {
-   "date": 1795577767642,
+   "date": 1795671988328,
    "mediane": null,
-   "echantillon": 79,
-   "coteTropBasse": 38
+   "echantillon": 78,
+   "coteTropBasse": 43
   },
   "marque:zeiss@3076": {
    "date": 1795613305388,
@@ -27326,6 +27326,42 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "modele:canon cineprese anni|2@3076": {
+   "date": 1795671987183,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:pentax 80v espio|2@3076": {
+   "date": 1795671988900,
+   "mediane": 47,
+   "echantillon": 18,
+   "dispersion": 0.64,
+   "fourchette": [
+    20,
+    85
+   ],
+   "exemples": [
+    {
+     "id": 9169467865,
+     "prix": 45
+    },
+    {
+     "id": 6922571809,
+     "prix": 49
+    },
+    {
+     "id": 6869465989,
+     "prix": 40
+    },
+    {
+     "id": 10974558979,
+     "prix": 35
+    }
+   ],
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -41457,6 +41493,10 @@
    "n": 2,
    "vu": 1793739427638
   },
+  "269497455": {
+   "n": 2,
+   "vu": 1795671986511
+  },
   "269515995": {
    "n": 3,
    "vu": 1795554966797
@@ -45762,8 +45802,8 @@
    "vu": 1794985820032
   },
   "3171555293": {
-   "n": 136,
-   "vu": 1795655204180
+   "n": 137,
+   "vu": 1795672367848
   },
   "3171601350": {
    "n": 2,
@@ -49244,19 +49284,19 @@
  },
  "bilan": {
   "depuis": 1795668057336,
-  "passages": 57,
-  "nouvelles": 20,
+  "passages": 72,
+  "nouvelles": 24,
   "marque": 4,
   "etat": 1,
   "prix": 1,
-  "accessoire": 1,
+  "accessoire": 2,
   "lot": 0,
   "fausse": 0,
   "imitation": 0,
   "pro": 0,
   "vendeurSpecialise": 2,
-  "sansCote": 9,
-  "chere": 2,
+  "sansCote": 11,
+  "chere": 3,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,

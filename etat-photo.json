@@ -1,7 +1,5 @@
 {
  "vues": [
-  "10947779925",
-  "10858267486",
   "10947796853",
   "10942833893",
   "10944138542",
@@ -3999,7 +3997,9 @@
   "10974137362",
   "10974173898",
   "10974186252",
-  "10974185654"
+  "10974185654",
+  "10974201403",
+  "10974207203"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -5839,35 +5839,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:agfa clack|2@3076": {
-   "date": 1795491329524,
-   "mediane": 15,
-   "echantillon": 70,
-   "dispersion": 0.93,
-   "fourchette": [
-    5,
-    40
-   ],
-   "exemples": [
-    {
-     "id": 9572551033,
-     "prix": 15
-    },
-    {
-     "id": 10699293512,
-     "prix": 15
-    },
-    {
-     "id": 10721270798,
-     "prix": 15
-    },
-    {
-     "id": 10165544462,
-     "prix": 15
-    }
-   ],
-   "niveau": "modèle"
   },
   "modele:kodak 022 retinette|2@3076": {
    "date": 1795492853511,
@@ -27296,6 +27267,35 @@
    "echantillon": 2,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:olympus om 10 f 1 8|2@3076": {
+   "date": 1795663815639,
+   "mediane": 143,
+   "echantillon": 22,
+   "dispersion": 0.56,
+   "fourchette": [
+    80,
+    260
+   ],
+   "exemples": [
+    {
+     "id": 10921309597,
+     "prix": 150
+    },
+    {
+     "id": 8558166005,
+     "prix": 150
+    },
+    {
+     "id": 10489330617,
+     "prix": 135
+    },
+    {
+     "id": 10912912503,
+     "prix": 129
+    }
+   ],
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -44943,6 +44943,10 @@
    "n": 2,
    "vu": 1795516932284
   },
+  "3154787288": {
+   "n": 2,
+   "vu": 1795663814696
+  },
   "3154843235": {
    "n": 4,
    "vu": 1794738391534
@@ -49206,9 +49210,9 @@
  },
  "bilan": {
   "depuis": 1795660839766,
-  "passages": 41,
-  "nouvelles": 8,
-  "marque": 3,
+  "passages": 55,
+  "nouvelles": 10,
+  "marque": 4,
   "etat": 0,
   "prix": 0,
   "accessoire": 0,
@@ -49222,22 +49226,11 @@
   "description": 1,
   "scoreFaible": 0,
   "blocages": 0,
-  "alertes": 0
+  "alertes": 1
  },
  "panne": null,
  "panneDebut": null,
  "suivi": [
-  {
-   "id": 10885375592,
-   "titre": "Canon rebel XS camera",
-   "prix": 29,
-   "cote": 150,
-   "score": 68,
-   "lien": "https://www.vinted.fr/items/10885375592-canon-rebel-xs-camera",
-   "date": 1795114096531,
-   "statut": "retiree",
-   "verifieA": 1795117709513
-  },
   {
    "id": 10885445112,
    "titre": "Camera photos voigalander",
@@ -52526,6 +52519,16 @@
    "date": 1795648092372,
    "statut": "en vente",
    "verifieA": 1795651709412
+  },
+  {
+   "id": 10974201403,
+   "titre": "Appareil photo argentique Olympus OM-10 + Objectif Zuiko 50mm f/1.8 + Flash",
+   "prix": 80,
+   "cote": 143,
+   "score": 51,
+   "lien": "https://www.vinted.fr/items/10974201403-appareil-photo-argentique-olympus-om-10-objectif-zuiko-50mm-f18-flash",
+   "date": 1795663816375,
+   "statut": null
   }
  ],
  "dernierRecap": "2026-11-25"

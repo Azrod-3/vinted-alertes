@@ -1,6 +1,5 @@
 {
  "vues": [
-  "10945911545",
   "10945865353",
   "10944253943",
   "10945747944",
@@ -3999,7 +3998,8 @@
   "10973680566",
   "10973679606",
   "10971320001",
-  "10973676195"
+  "10973676195",
+  "10973698243"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -5869,52 +5869,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:mamiya rb67 220|1@3076": {
-   "date": 1795482183900,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:ricoh maquina|3@3075": {
-   "date": 1795482443729,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:pentax 120mi espio|2@3076": {
-   "date": 1795482697924,
-   "mediane": 69,
-   "echantillon": 3,
-   "dispersion": null,
-   "fourchette": [
-    60,
-    110
-   ],
-   "exemples": [
-    {
-     "id": 10947868674,
-     "prix": 69
-    },
-    {
-     "id": 10638648042,
-     "prix": 60
-    },
-    {
-     "id": 9069221618,
-     "prix": 110
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:praktica 1000 maquina|1@3076": {
-   "date": 1795482698712,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
   },
   "modele:agfa cinepresa custodia|2@3076": {
    "date": 1795483333419,
@@ -45763,8 +45717,8 @@
    "vu": 1794985820032
   },
   "3171555293": {
-   "n": 135,
-   "vu": 1795630344410
+   "n": 136,
+   "vu": 1795655204180
   },
   "3171601350": {
    "n": 2,
@@ -49241,8 +49195,8 @@
  },
  "bilan": {
   "depuis": 1795653611287,
-  "passages": 20,
-  "nouvelles": 11,
+  "passages": 35,
+  "nouvelles": 12,
   "marque": 4,
   "etat": 0,
   "prix": 0,
@@ -49250,7 +49204,7 @@
   "lot": 0,
   "fausse": 0,
   "imitation": 0,
-  "pro": 0,
+  "pro": 1,
   "vendeurSpecialise": 1,
   "sansCote": 4,
   "chere": 2,

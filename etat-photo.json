@@ -1,9 +1,5 @@
 {
  "vues": [
-  "10947786396",
-  "10947787518",
-  "10947745188",
-  "10947778698",
   "10947779925",
   "10858267486",
   "10947796853",
@@ -3999,7 +3995,11 @@
   "10974027419",
   "10974098684",
   "10974104302",
-  "10974121324"
+  "10974121324",
+  "10974137362",
+  "10974173898",
+  "10974186252",
+  "10974185654"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -27289,6 +27289,13 @@
    "echantillon": 1,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:panasonic dmc ls2 5mp|1@3075": {
+   "date": 1795662550271,
+   "mediane": null,
+   "echantillon": 2,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -33331,6 +33338,10 @@
   "65021795": {
    "n": 2,
    "vu": 1795374574540
+  },
+  "65027033": {
+   "n": 2,
+   "vu": 1795663434281
   },
   "65064392": {
    "n": 3,
@@ -49195,9 +49206,9 @@
  },
  "bilan": {
   "depuis": 1795660839766,
-  "passages": 26,
-  "nouvelles": 4,
-  "marque": 1,
+  "passages": 41,
+  "nouvelles": 8,
+  "marque": 3,
   "etat": 0,
   "prix": 0,
   "accessoire": 0,
@@ -49206,7 +49217,7 @@
   "imitation": 0,
   "pro": 0,
   "vendeurSpecialise": 1,
-  "sansCote": 1,
+  "sansCote": 3,
   "chere": 0,
   "description": 1,
   "scoreFaible": 0,

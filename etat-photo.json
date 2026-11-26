@@ -1,34 +1,5 @@
 {
  "vues": [
-  "10937448031",
-  "10950116884",
-  "10950092041",
-  "10950070552",
-  "10950031173",
-  "10950018403",
-  "10950011217",
-  "10950007345",
-  "10950008556",
-  "10950002106",
-  "10949997546",
-  "10949997660",
-  "10949961828",
-  "10949958269",
-  "10949960047",
-  "10949960154",
-  "10937147258",
-  "10949937525",
-  "10949930155",
-  "10949927335",
-  "10949853896",
-  "10949834404",
-  "10947931117",
-  "10949820885",
-  "10949812546",
-  "10949783381",
-  "10949102833",
-  "10949761275",
-  "10949794623",
   "10949738470",
   "10949766505",
   "10949742115",
@@ -3999,7 +3970,36 @@
   "10975369938",
   "10975372392",
   "10975370396",
-  "10975368162"
+  "10975368162",
+  "10975391216",
+  "10975395040",
+  "10975381453",
+  "10975378890",
+  "10975410717",
+  "10975400486",
+  "10975422750",
+  "10975420538",
+  "10975410667",
+  "10975419205",
+  "10975412312",
+  "10975432613",
+  "10975430270",
+  "10975441856",
+  "10975439183",
+  "10975455408",
+  "10975455326",
+  "10975461671",
+  "10975457104",
+  "10975471188",
+  "10975468279",
+  "10975465826",
+  "10975494643",
+  "10968020031",
+  "10975484311",
+  "10975482419",
+  "10975495014",
+  "10975492513",
+  "10975486035"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -4351,9 +4351,9 @@
    "coteTropBasse": 15
   },
   "marque:agfa@3076": {
-   "date": 1795590579096,
+   "date": 1795683330286,
    "mediane": null,
-   "echantillon": 78,
+   "echantillon": 75,
    "coteTropBasse": 15
   },
   "marque:pentax@3076": {
@@ -8158,33 +8158,34 @@
    "niveau": "modèle"
   },
   "modele:pentax optio|2@3075": {
-   "date": 1795517193321,
-   "mediane": 35,
+   "date": 1795683586757,
+   "mediane": 32,
    "echantillon": 76,
-   "dispersion": 0.66,
+   "dispersion": 0.57,
    "fourchette": [
-    10,
-    80
+    11,
+    72
    ],
    "exemples": [
     {
-     "id": 10949940802,
-     "prix": 35
+     "id": 10967094890,
+     "prix": 30
     },
     {
-     "id": 10831153615,
-     "prix": 35
+     "id": 10955553706,
+     "prix": 30
     },
     {
-     "id": 10691652175,
-     "prix": 35
+     "id": 10963469822,
+     "prix": 30
     },
     {
-     "id": 10883017844,
-     "prix": 35
+     "id": 10339060388,
+     "prix": 30
     }
    ],
-   "niveau": "modèle"
+   "niveau": "modèle",
+   "lissee": true
   },
   "modele:nikon s31 coolpix|2@3075": {
    "date": 1795517194091,
@@ -28609,6 +28610,164 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "modele:nikon 301 macchinetta|2@3076": {
+   "date": 1795683203120,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:agfa iso pak|2@3076": {
+   "date": 1795683330981,
+   "mediane": 9,
+   "echantillon": 34,
+   "dispersion": 0.67,
+   "fourchette": [
+    2.5,
+    22
+   ],
+   "exemples": [
+    {
+     "id": 10654523737,
+     "prix": 9
+    },
+    {
+     "id": 9920406952,
+     "prix": 9
+    },
+    {
+     "id": 10654648507,
+     "prix": 9
+    },
+    {
+     "id": 9906761267,
+     "prix": 9
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:minolta x700 accessori|2@3076": {
+   "date": 1795683457917,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:canon ae 1 complete|2@3076": {
+   "date": 1795683458926,
+   "mediane": 195,
+   "echantillon": 3,
+   "dispersion": null,
+   "fourchette": [
+    125,
+    275
+   ],
+   "exemples": [
+    {
+     "id": 9893146876,
+     "prix": 195
+    },
+    {
+     "id": 10975412312,
+     "prix": 125
+    },
+    {
+     "id": 9775451559,
+     "prix": 275
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:minolta macchinetta|3@3076": {
+   "date": 1795683587332,
+   "mediane": 50,
+   "echantillon": 17,
+   "dispersion": 0.7,
+   "fourchette": [
+    15,
+    100
+   ],
+   "exemples": [
+    {
+     "id": 10531714660,
+     "prix": 50
+    },
+    {
+     "id": 7129396231,
+     "prix": 50
+    },
+    {
+     "id": 7334409732,
+     "prix": 45
+    },
+    {
+     "id": 10020493532,
+     "prix": 60
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:samsung st600 megapixels|2@3075": {
+   "date": 1795683714178,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:canon 3000n camara|2@3076": {
+   "date": 1795683714978,
+   "mediane": 90,
+   "echantillon": 3,
+   "dispersion": null,
+   "fourchette": [
+    70,
+    150
+   ],
+   "exemples": [
+    {
+     "id": 10059694757,
+     "prix": 90
+    },
+    {
+     "id": 10975461671,
+     "prix": 70
+    },
+    {
+     "id": 6512260548,
+     "prix": 150
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:canon 3000n eos|2@3076": {
+   "date": 1795683842136,
+   "mediane": 60,
+   "echantillon": 55,
+   "dispersion": 0.92,
+   "fourchette": [
+    18,
+    180
+   ],
+   "exemples": [
+    {
+     "id": 10975471188,
+     "prix": 60
+    },
+    {
+     "id": 9473325133,
+     "prix": 60
+    },
+    {
+     "id": 10615759390,
+     "prix": 60
+    },
+    {
+     "id": 10432570921,
+     "prix": 60
+    }
+   ],
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -41889,8 +42048,8 @@
    "vu": 1795551670495
   },
   "253572933": {
-   "n": 24,
-   "vu": 1795514498783
+   "n": 25,
+   "vu": 1795683968336
   },
   "253638362": {
    "n": 4,
@@ -43453,8 +43612,8 @@
    "vu": 1794237042329
   },
   "284641871": {
-   "n": 15,
-   "vu": 1795648852905
+   "n": 16,
+   "vu": 1795683202373
   },
   "284663584": {
    "n": 2,
@@ -48329,8 +48488,8 @@
    "vu": 1794000186665
   },
   "3192552474": {
-   "n": 115,
-   "vu": 1795680638901
+   "n": 116,
+   "vu": 1795683841313
   },
   "3192609793": {
    "n": 3,
@@ -50583,38 +50742,27 @@
  },
  "bilan": {
   "depuis": 1795682493015,
-  "passages": 9,
-  "nouvelles": 28,
-  "marque": 0,
+  "passages": 24,
+  "nouvelles": 57,
+  "marque": 4,
   "etat": 1,
-  "prix": 1,
-  "accessoire": 0,
+  "prix": 2,
+  "accessoire": 1,
   "lot": 0,
   "fausse": 0,
   "imitation": 0,
   "pro": 0,
-  "vendeurSpecialise": 2,
-  "sansCote": 16,
-  "chere": 5,
+  "vendeurSpecialise": 4,
+  "sansCote": 31,
+  "chere": 10,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
-  "alertes": 3
+  "alertes": 4
  },
  "panne": null,
  "panneDebut": null,
  "suivi": [
-  {
-   "id": 10886816373,
-   "titre": "Canon Powershot SX500 IS",
-   "prix": 60,
-   "cote": 120,
-   "score": 57,
-   "lien": "https://www.vinted.fr/items/10886816373-canon-powershot-sx500-is",
-   "date": 1795120286955,
-   "statut": "retiree",
-   "verifieA": 1795123941054
-  },
   {
    "id": 10887292050,
    "titre": "Canon 50D",
@@ -53857,7 +54005,8 @@
    "score": 73,
    "lien": "https://www.vinted.fr/items/10975003153-canon-powershot-a630",
    "date": 1795679491387,
-   "statut": null
+   "statut": "retiree",
+   "verifieA": 1795683139297
   },
   {
    "id": 10975128701,
@@ -53897,6 +54046,16 @@
    "score": 60,
    "lien": "https://www.vinted.fr/items/10975368162-canon-ixus-105",
    "date": 1795683073564,
+   "statut": null
+  },
+  {
+   "id": 10975412312,
+   "titre": "Complete set Canon AE-1 spiegelreflexcamera vintage fototoestel camera",
+   "prix": 125,
+   "cote": 195,
+   "score": 55,
+   "lien": "https://www.vinted.fr/items/10975412312-complete-set-canon-ae-1-spiegelreflexcamera-vintage-fototoestel-camera",
+   "date": 1795683459597,
    "statut": null
   }
  ],

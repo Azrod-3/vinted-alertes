@@ -1,6 +1,5 @@
 {
  "vues": [
-  "10944880105",
   "10947705732",
   "10947699717",
   "10947715384",
@@ -3999,7 +3998,8 @@
   "10973868624",
   "10973921365",
   "10973940430",
-  "10973943360"
+  "10973943360",
+  "10973981331"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -5839,13 +5839,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:nikon fe2 corcho|1@3076": {
-   "date": 1795487523900,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
   },
   "modele:canon sx520 powershot|2@3075": {
    "date": 1795488412117,
@@ -27307,6 +27300,35 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "modele:olympus vr 340 16mp|2@3075": {
+   "date": 1795659763822,
+   "mediane": 85,
+   "echantillon": 7,
+   "dispersion": 0.34,
+   "fourchette": [
+    40,
+    170
+   ],
+   "exemples": [
+    {
+     "id": 9960863322,
+     "prix": 85
+    },
+    {
+     "id": 10652467458,
+     "prix": 84.9
+    },
+    {
+     "id": 9639405317,
+     "prix": 89
+    },
+    {
+     "id": 10973981331,
+     "prix": 60
+    }
+   ],
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -41415,8 +41437,8 @@
    "vu": 1793660426044
   },
   "269320857": {
-   "n": 4,
-   "vu": 1794796976655
+   "n": 5,
+   "vu": 1795659763193
   },
   "269321544": {
    "n": 2,
@@ -49213,8 +49235,8 @@
  },
  "bilan": {
   "depuis": 1795653611287,
-  "passages": 95,
-  "nouvelles": 27,
+  "passages": 110,
+  "nouvelles": 28,
   "marque": 5,
   "etat": 0,
   "prix": 1,
@@ -49225,7 +49247,7 @@
   "pro": 1,
   "vendeurSpecialise": 4,
   "sansCote": 8,
-  "chere": 5,
+  "chere": 6,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,

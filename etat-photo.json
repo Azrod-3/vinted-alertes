@@ -1,21 +1,5 @@
 {
  "vues": [
-  "10964081033",
-  "10964156113",
-  "10964168679",
-  "10963085057",
-  "10964116437",
-  "10964131904",
-  "10963891071",
-  "10964090289",
-  "10964066269",
-  "10963474783",
-  "10963934497",
-  "10963171528",
-  "10963321127",
-  "10963691194",
-  "10963960011",
-  "10963161265",
   "10962819823",
   "10964011096",
   "10950903436",
@@ -3999,7 +3983,23 @@
   "10985925067",
   "10985924232",
   "10985932374",
-  "10985939989"
+  "10985939989",
+  "10985942745",
+  "10985946757",
+  "10985949036",
+  "10985949813",
+  "10985950084",
+  "10977543966",
+  "10985962484",
+  "10985870320",
+  "10985956896",
+  "10985967766",
+  "10985969801",
+  "10985984208",
+  "10985983107",
+  "10985987260",
+  "10985987054",
+  "10980317932"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -5793,13 +5793,6 @@
    "dispersion": null,
    "niveau": "modèle"
   },
-  "modele:yashica 108 manuale|2@3076": {
-   "date": 1795589434648,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
   "modele:kodak etui instamatic|2@3076": {
    "date": 1795679105571,
    "mediane": 10,
@@ -5829,13 +5822,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:fujifilm 35 135|1@3075": {
-   "date": 1795590067731,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
   },
   "modele:fujifilm j10|2@3075": {
    "date": 1795590323259,
@@ -29119,6 +29105,71 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "modele:konica ef3d auto|1@3076": {
+   "date": 1795762398101,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:pentax ls1000 optio|2@3075": {
+   "date": 1795762651945,
+   "mediane": 45,
+   "echantillon": 4,
+   "dispersion": 0,
+   "fourchette": [
+    40,
+    48
+   ],
+   "exemples": [
+    {
+     "id": 10941337443,
+     "prix": 45
+    },
+    {
+     "id": 8592810613,
+     "prix": 44.9
+    },
+    {
+     "id": 10162891572,
+     "prix": 48
+    },
+    {
+     "id": 9986982001,
+     "prix": 40
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:canon 4000d eos|2@3075": {
+   "date": 1795763032331,
+   "mediane": 200,
+   "echantillon": 69,
+   "dispersion": 0.38,
+   "fourchette": [
+    100,
+    300
+   ],
+   "exemples": [
+    {
+     "id": 10809572287,
+     "prix": 200
+    },
+    {
+     "id": 10859398128,
+     "prix": 200
+    },
+    {
+     "id": 10924564074,
+     "prix": 200
+    },
+    {
+     "id": 10971874100,
+     "prix": 200
+    }
+   ],
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -35295,8 +35346,8 @@
    "vu": 1795371467218
   },
   "64727632": {
-   "n": 18,
-   "vu": 1795719198231
+   "n": 19,
+   "vu": 1795762778512
   },
   "64736296": {
    "n": 12,
@@ -40535,8 +40586,8 @@
    "vu": 1795646346218
   },
   "190758733": {
-   "n": 15,
-   "vu": 1795757453223
+   "n": 16,
+   "vu": 1795762524349
   },
   "190761423": {
    "n": 2,
@@ -41219,8 +41270,8 @@
    "vu": 1795705939819
   },
   "214080989": {
-   "n": 5,
-   "vu": 1795760113889
+   "n": 6,
+   "vu": 1795762271121
   },
   "214128070": {
    "n": 2,
@@ -43341,6 +43392,10 @@
   "264998958": {
    "n": 2,
    "vu": 1794424929858
+  },
+  "265017444": {
+   "n": 2,
+   "vu": 1795762397451
   },
   "265034655": {
    "n": 2,
@@ -51640,39 +51695,28 @@
   }
  },
  "bilan": {
-  "depuis": 1795755488295,
-  "passages": 105,
-  "nouvelles": 55,
-  "marque": 6,
+  "depuis": 1795762715391,
+  "passages": 6,
+  "nouvelles": 6,
+  "marque": 1,
   "etat": 1,
-  "prix": 3,
-  "accessoire": 2,
-  "lot": 1,
+  "prix": 0,
+  "accessoire": 0,
+  "lot": 0,
   "fausse": 0,
   "imitation": 0,
-  "pro": 5,
-  "vendeurSpecialise": 13,
-  "sansCote": 15,
-  "chere": 9,
+  "pro": 0,
+  "vendeurSpecialise": 1,
+  "sansCote": 2,
+  "chere": 0,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
-  "alertes": 0
+  "alertes": 1
  },
  "panne": null,
  "panneDebut": null,
  "suivi": [
-  {
-   "id": 10891285768,
-   "titre": "Câmara Nikon D5000 + Tripé e Acessórios (Lente com avaria)",
-   "prix": 80,
-   "cote": 205,
-   "score": 68,
-   "lien": "https://www.vinted.fr/items/10891285768-camara-nikon-d5000-tripe-e-acessorios-lente-com-avaria",
-   "date": 1795167403068,
-   "statut": "retiree",
-   "verifieA": 1795181352926
-  },
   {
    "id": 10891361378,
    "titre": "Canon zoom 518 super 8",
@@ -54961,6 +55005,16 @@
    "date": 1795733870734,
    "statut": "en vente",
    "verifieA": 1795737471968
+  },
+  {
+   "id": 10985987054,
+   "titre": "Canon EOS 4000d spiegelreflexcamera + 18-55 mm lens",
+   "prix": 110,
+   "cote": 200,
+   "score": 59,
+   "lien": "https://www.vinted.fr/items/10985987054-canon-eos-4000d-spiegelreflexcamera-18-55-mm-lens",
+   "date": 1795763032993,
+   "statut": null
   }
  ],
  "dernierRecap": "2026-11-26"

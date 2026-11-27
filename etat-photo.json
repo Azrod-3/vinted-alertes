@@ -1,15 +1,5 @@
 {
  "vues": [
-  "10964196041",
-  "10964131425",
-  "10964230923",
-  "10964131360",
-  "10964027486",
-  "10964105458",
-  "10964232783",
-  "10964186031",
-  "10963988716",
-  "10963298774",
   "10964081033",
   "10964156113",
   "10964168679",
@@ -3999,7 +3989,17 @@
   "10985867221",
   "10985876074",
   "10985874885",
-  "10985883831"
+  "10985883831",
+  "10985901466",
+  "10985898242",
+  "10985909575",
+  "10985907806",
+  "10985911804",
+  "10985918603",
+  "10985925067",
+  "10985924232",
+  "10985932374",
+  "10985939989"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -5791,64 +5791,6 @@
    "mediane": null,
    "echantillon": 2,
    "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:zeiss esposimetro|2@3076": {
-   "date": 1795588418686,
-   "mediane": 34,
-   "echantillon": 12,
-   "dispersion": 0.29,
-   "fourchette": [
-    20,
-    60
-   ],
-   "exemples": [
-    {
-     "id": 10868488671,
-     "prix": 35
-    },
-    {
-     "id": 10732131444,
-     "prix": 33
-    },
-    {
-     "id": 8393197092,
-     "prix": 35
-    },
-    {
-     "id": 10604807790,
-     "prix": 30
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:canon 105 prima|2@3076": {
-   "date": 1795589306620,
-   "mediane": 50,
-   "echantillon": 71,
-   "dispersion": 0.78,
-   "fourchette": [
-    15,
-    105
-   ],
-   "exemples": [
-    {
-     "id": 10962119505,
-     "prix": 50
-    },
-    {
-     "id": 10895455689,
-     "prix": 50
-    },
-    {
-     "id": 10949820885,
-     "prix": 50
-    },
-    {
-     "id": 10837415334,
-     "prix": 50
-    }
-   ],
    "niveau": "modèle"
   },
   "modele:yashica 108 manuale|2@3076": {
@@ -29119,6 +29061,64 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "modele:konica mini bayern|2@3076": {
+   "date": 1795761509820,
+   "mediane": 70,
+   "echantillon": 4,
+   "dispersion": 0.29,
+   "fourchette": [
+    49.99,
+    99
+   ],
+   "exemples": [
+    {
+     "id": 6740194212,
+     "prix": 80
+    },
+    {
+     "id": 9405618701,
+     "prix": 60
+    },
+    {
+     "id": 10985907806,
+     "prix": 49.99
+    },
+    {
+     "id": 9456384983,
+     "prix": 99
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:nikon s220 coolpix|2@3075": {
+   "date": 1795762142687,
+   "mediane": 70,
+   "echantillon": 58,
+   "dispersion": 0.36,
+   "fourchette": [
+    20,
+    120
+   ],
+   "exemples": [
+    {
+     "id": 10230446434,
+     "prix": 70
+    },
+    {
+     "id": 9572432152,
+     "prix": 70
+    },
+    {
+     "id": 10219748609,
+     "prix": 70
+    },
+    {
+     "id": 9226652675,
+     "prix": 70
+    }
+   ],
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -35147,8 +35147,8 @@
    "vu": 1794754042211
   },
   "62960703": {
-   "n": 9,
-   "vu": 1794976983063
+   "n": 10,
+   "vu": 1795762015652
   },
   "62977788": {
    "n": 15,
@@ -51641,19 +51641,19 @@
  },
  "bilan": {
   "depuis": 1795755488295,
-  "passages": 90,
-  "nouvelles": 45,
-  "marque": 3,
-  "etat": 0,
+  "passages": 105,
+  "nouvelles": 55,
+  "marque": 6,
+  "etat": 1,
   "prix": 3,
   "accessoire": 2,
-  "lot": 0,
+  "lot": 1,
   "fausse": 0,
   "imitation": 0,
   "pro": 5,
-  "vendeurSpecialise": 12,
-  "sansCote": 13,
-  "chere": 7,
+  "vendeurSpecialise": 13,
+  "sansCote": 15,
+  "chere": 9,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,

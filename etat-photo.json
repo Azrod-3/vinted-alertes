@@ -1,8 +1,5 @@
 {
  "vues": [
-  "10964799195",
-  "10964807876",
-  "10964796218",
   "10964762073",
   "10964785859",
   "10964774227",
@@ -3999,7 +3996,10 @@
   "10984928630",
   "10984928364",
   "10984966052",
-  "10984962830"
+  "10984962830",
+  "10984986105",
+  "10984988038",
+  "10985028681"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -29249,6 +29249,31 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "modele:praktica b200 spiegelreflexcamera|2@3076": {
+   "date": 1795741339914,
+   "mediane": 80,
+   "echantillon": 3,
+   "dispersion": null,
+   "fourchette": [
+    45,
+    129
+   ],
+   "exemples": [
+    {
+     "id": 10501276519,
+     "prix": 80
+    },
+    {
+     "id": 9605900055,
+     "prix": 45
+    },
+    {
+     "id": 10985028681,
+     "prix": 129
+    }
+   ],
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -46865,8 +46890,8 @@
    "vu": 1795370555829
   },
   "3146118201": {
-   "n": 2,
-   "vu": 1794783589326
+   "n": 3,
+   "vu": 1795740707639
   },
   "3146223604": {
    "n": 2,
@@ -51754,24 +51779,24 @@
   }
  },
  "bilan": {
-  "depuis": 1795733785474,
-  "passages": 103,
-  "nouvelles": 86,
-  "marque": 16,
-  "etat": 3,
-  "prix": 4,
-  "accessoire": 1,
-  "lot": 3,
+  "depuis": 1795741023344,
+  "passages": 5,
+  "nouvelles": 1,
+  "marque": 0,
+  "etat": 0,
+  "prix": 0,
+  "accessoire": 0,
+  "lot": 0,
   "fausse": 0,
   "imitation": 0,
-  "pro": 4,
-  "vendeurSpecialise": 8,
-  "sansCote": 93,
-  "chere": 53,
+  "pro": 0,
+  "vendeurSpecialise": 0,
+  "sansCote": 0,
+  "chere": 1,
   "description": 0,
   "scoreFaible": 0,
-  "blocages": 2,
-  "alertes": 1
+  "blocages": 0,
+  "alertes": 0
  },
  "panne": null,
  "panneDebut": null,

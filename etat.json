@@ -1,10 +1,5 @@
 {
  "vues": [
-  "10979472118",
-  "10979465470",
-  "10979467706",
-  "10979466840",
-  "10979466165",
   "10979461139",
   "10979466025",
   "10979466013",
@@ -3999,7 +3994,12 @@
   "10985472023",
   "10983559550",
   "10985484555",
-  "10985494951"
+  "10985494951",
+  "10985508563",
+  "10985516546",
+  "10985517100",
+  "10985527593",
+  "10985523734"
  ],
  "cotes": {
   "marque:fossil": {
@@ -4393,30 +4393,30 @@
    "coteTropBasse": 13
   },
   "marque:longines": {
-   "date": 1795649153716,
-   "mediane": 306,
-   "echantillon": 80,
-   "dispersion": 0.92,
+   "date": 1795751488481,
+   "mediane": 267,
+   "echantillon": 74,
+   "dispersion": 0.74,
    "fourchette": [
     105,
-    850
+    665
    ],
    "exemples": [
     {
-     "id": 10968379113,
-     "prix": 295
+     "id": 10737724078,
+     "prix": 250
     },
     {
-     "id": 10587075756,
-     "prix": 290
+     "id": 10876179299,
+     "prix": 250
     },
     {
-     "id": 10957974302,
-     "prix": 290
+     "id": 10963553864,
+     "prix": 250
     },
     {
-     "id": 10971550908,
-     "prix": 289.9
+     "id": 10977666709,
+     "prix": 250
     }
    ],
    "niveau": "marque",
@@ -5987,78 +5987,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:festina chrono bike|2": {
-   "date": 1795578426412,
-   "mediane": 140,
-   "echantillon": 68,
-   "dispersion": 0.43,
-   "fourchette": [
-    35,
-    250
-   ],
-   "exemples": [
-    {
-     "id": 9869437892,
-     "prix": 140
-    },
-    {
-     "id": 8986537373,
-     "prix": 140
-    },
-    {
-     "id": 10740825172,
-     "prix": 140
-    },
-    {
-     "id": 9751977175,
-     "prix": 140
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:swiss military hanowa alpine gold|2": {
-   "date": 1795578426846,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:invicta venom camo|3": {
-   "date": 1795578427518,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "marque:gruen": {
-   "date": 1795578428176,
-   "mediane": 165,
-   "echantillon": 46,
-   "dispersion": 1.06,
-   "fourchette": [
-    50,
-    450
-   ],
-   "exemples": [
-    {
-     "id": 10796230757,
-     "prix": 160
-    },
-    {
-     "id": 9814121264,
-     "prix": 170
-    },
-    {
-     "id": 5296841763,
-     "prix": 160
-    },
-    {
-     "id": 10865510144,
-     "prix": 159
-    }
-   ],
-   "niveau": "marque"
   },
   "modele:daniel wellington dapper york|2": {
    "date": 1795580536388,
@@ -22587,6 +22515,35 @@
     {
      "id": 9318240994,
      "prix": 10
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:lip gousset type|1": {
+   "date": 1795751231429,
+   "mediane": 35,
+   "echantillon": 4,
+   "dispersion": 0.29,
+   "fourchette": [
+    15,
+    45
+   ],
+   "exemples": [
+    {
+     "id": 10924456410,
+     "prix": 40
+    },
+    {
+     "id": 10985508563,
+     "prix": 29.99
+    },
+    {
+     "id": 10923865587,
+     "prix": 45
+    },
+    {
+     "id": 10140179242,
+     "prix": 15
     }
    ],
    "niveau": "modèle"
@@ -110670,8 +110627,8 @@
    "vu": 1793633350698
   },
   "293805007": {
-   "n": 2,
-   "vu": 1795578425732
+   "n": 3,
+   "vu": 1795751617365
   },
   "293812067": {
    "n": 33,
@@ -155840,9 +155797,9 @@
  },
  "bilan": {
   "depuis": 1795749039072,
-  "passages": 48,
-  "nouvelles": 9,
-  "marque": 5,
+  "passages": 69,
+  "nouvelles": 14,
+  "marque": 8,
   "etat": 0,
   "prix": 1,
   "accessoire": 0,
@@ -155852,7 +155809,7 @@
   "pro": 0,
   "vendeurSpecialise": 0,
   "sansCote": 0,
-  "chere": 2,
+  "chere": 4,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,

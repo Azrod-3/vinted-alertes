@@ -1,11 +1,5 @@
 {
  "vues": [
-  "10979371685",
-  "10979371347",
-  "10979369524",
-  "10979364191",
-  "10979370040",
-  "10979370419",
   "10979370111",
   "10979369031",
   "10979421277",
@@ -3999,7 +3993,13 @@
   "10985076200",
   "10985088698",
   "10985091439",
-  "10985095906"
+  "10985095906",
+  "10985107789",
+  "10985108832",
+  "10985109640",
+  "10985121002",
+  "10985127329",
+  "10985125165"
  ],
  "cotes": {
   "marque:fossil": {
@@ -5987,31 +5987,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:bulova uomo acciaio|2": {
-   "date": 1795570133964,
-   "mediane": 135,
-   "echantillon": 3,
-   "dispersion": null,
-   "fourchette": [
-    80,
-    230
-   ],
-   "exemples": [
-    {
-     "id": 10860389325,
-     "prix": 135
-    },
-    {
-     "id": 10906180481,
-     "prix": 80
-    },
-    {
-     "id": 10879349379,
-     "prix": 230
-    }
-   ],
-   "niveau": "modèle"
   },
   "modele:festina chrono bike|2": {
    "date": 1795578426412,
@@ -22536,6 +22511,13 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "modele:fossil ch2600ie relogio|2": {
+   "date": 1795742859991,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -31896,8 +31878,8 @@
    "vu": 1795709770019
   },
   "28514503": {
-   "n": 109,
-   "vu": 1795742600797
+   "n": 111,
+   "vu": 1795743245979
   },
   "28514664": {
    "n": 2,
@@ -155766,18 +155748,18 @@
  },
  "bilan": {
   "depuis": 1795741825557,
-  "passages": 22,
-  "nouvelles": 14,
-  "marque": 12,
+  "passages": 43,
+  "nouvelles": 20,
+  "marque": 16,
   "etat": 0,
   "prix": 0,
-  "accessoire": 0,
+  "accessoire": 1,
   "lot": 0,
   "fausse": 0,
   "imitation": 0,
   "pro": 0,
   "vendeurSpecialise": 0,
-  "sansCote": 0,
+  "sansCote": 1,
   "chere": 2,
   "description": 0,
   "scoreFaible": 0,

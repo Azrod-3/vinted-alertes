@@ -1,7 +1,5 @@
 {
  "vues": [
-  "10964732592",
-  "10964734112",
   "10964726604",
   "10964723085",
   "10964310569",
@@ -3999,7 +3997,9 @@
   "10985087773",
   "10985110519",
   "10985116352",
-  "10985122869"
+  "10985122869",
+  "10985130750",
+  "10985146929"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -6934,33 +6934,34 @@
    "niveau": "modèle"
   },
   "modele:panasonic tz10 lumix|2@3075": {
-   "date": 1795594792626,
-   "mediane": 90,
-   "echantillon": 40,
+   "date": 1795743623578,
+   "mediane": 89,
+   "echantillon": 39,
    "dispersion": 0.56,
    "fourchette": [
-    30,
-    200
+    35,
+    170
    ],
    "exemples": [
     {
-     "id": 9853478793,
-     "prix": 90
+     "id": 10590757653,
+     "prix": 89
     },
     {
      "id": 10477892746,
      "prix": 89.95
     },
     {
-     "id": 10590757653,
-     "prix": 89
+     "id": 9853478793,
+     "prix": 90
     },
     {
-     "id": 10215446335,
-     "prix": 95
+     "id": 10966671099,
+     "prix": 85
     }
    ],
-   "niveau": "modèle"
+   "niveau": "modèle",
+   "lissee": true
   },
   "modele:kodak m863 easyshare|2@3075": {
    "date": 1795594923597,
@@ -29332,6 +29333,31 @@
     {
      "id": 10365315677,
      "prix": 120
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:fujifilm x t30 iii|4@3075": {
+   "date": 1795743370232,
+   "mediane": 890,
+   "echantillon": 3,
+   "dispersion": null,
+   "fourchette": [
+    800,
+    999
+   ],
+   "exemples": [
+    {
+     "id": 10453991022,
+     "prix": 890
+    },
+    {
+     "id": 10985130750,
+     "prix": 800
+    },
+    {
+     "id": 10298597525,
+     "prix": 999
     }
    ],
    "niveau": "modèle"
@@ -51845,8 +51871,8 @@
  },
  "bilan": {
   "depuis": 1795741023344,
-  "passages": 35,
-  "nouvelles": 10,
+  "passages": 50,
+  "nouvelles": 12,
   "marque": 3,
   "etat": 0,
   "prix": 0,
@@ -51857,7 +51883,7 @@
   "pro": 0,
   "vendeurSpecialise": 0,
   "sansCote": 4,
-  "chere": 3,
+  "chere": 5,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,

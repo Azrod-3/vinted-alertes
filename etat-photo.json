@@ -1,9 +1,5 @@
 {
  "vues": [
-  "10964756381",
-  "10964745114",
-  "10964737329",
-  "10964695483",
   "10964732592",
   "10964734112",
   "10964726604",
@@ -3999,7 +3995,11 @@
   "10985021610",
   "10985061622",
   "10985068956",
-  "10985071472"
+  "10985071472",
+  "10985087773",
+  "10985110519",
+  "10985116352",
+  "10985122869"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -29306,6 +29306,35 @@
    "echantillon": 1,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:canon ixus retro|2@3075": {
+   "date": 1795743114859,
+   "mediane": 114,
+   "echantillon": 18,
+   "dispersion": 0.53,
+   "fourchette": [
+    30,
+    185
+   ],
+   "exemples": [
+    {
+     "id": 10985116352,
+     "prix": 114
+    },
+    {
+     "id": 10047252241,
+     "prix": 113
+    },
+    {
+     "id": 10847516290,
+     "prix": 119.95
+    },
+    {
+     "id": 10365315677,
+     "prix": 120
+    }
+   ],
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -51816,9 +51845,9 @@
  },
  "bilan": {
   "depuis": 1795741023344,
-  "passages": 20,
-  "nouvelles": 6,
-  "marque": 2,
+  "passages": 35,
+  "nouvelles": 10,
+  "marque": 3,
   "etat": 0,
   "prix": 0,
   "accessoire": 0,
@@ -51827,8 +51856,8 @@
   "imitation": 0,
   "pro": 0,
   "vendeurSpecialise": 0,
-  "sansCote": 2,
-  "chere": 2,
+  "sansCote": 4,
+  "chere": 3,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,

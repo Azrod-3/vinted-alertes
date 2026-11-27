@@ -1,35 +1,5 @@
 {
  "vues": [
-  "10963988335",
-  "10979559591",
-  "10979559961",
-  "10979558445",
-  "10979556523",
-  "10979606126",
-  "10979522699",
-  "10979603348",
-  "10979603190",
-  "10979602702",
-  "10979602213",
-  "10979600730",
-  "10979590836",
-  "10979589126",
-  "10979593028",
-  "10979587582",
-  "10979586127",
-  "10979583224",
-  "10979584584",
-  "10979579213",
-  "10979582783",
-  "10979581432",
-  "10979582097",
-  "10979581191",
-  "10979581356",
-  "10979449348",
-  "10979631069",
-  "10979634474",
-  "10979632539",
-  "10979629526",
   "10979632444",
   "10979631669",
   "10979630090",
@@ -3999,14 +3969,44 @@
   "10985774947",
   "10985774144",
   "10985773003",
-  "10985772045"
+  "10985772045",
+  "10982248127",
+  "10985780232",
+  "10985777844",
+  "10985786666",
+  "10985786802",
+  "10985785398",
+  "10985783628",
+  "10985783486",
+  "10985782742",
+  "10985782711",
+  "10985790772",
+  "10985790583",
+  "10985790151",
+  "10985795292",
+  "10985795691",
+  "10985793837",
+  "10985793522",
+  "10985802024",
+  "10985799920",
+  "10984323142",
+  "10985799427",
+  "10985799024",
+  "10985798918",
+  "10985806264",
+  "10985805823",
+  "10985802495",
+  "10985810859",
+  "10985810171",
+  "10985809331",
+  "10985808036"
  ],
  "cotes": {
   "marque:fossil": {
-   "date": 1795672039733,
+   "date": 1795759143305,
    "mediane": null,
-   "echantillon": 81,
-   "coteTropBasse": 28
+   "echantillon": 84,
+   "coteTropBasse": 34
   },
   "marque:festina": {
    "date": 1795702910452,
@@ -5987,62 +5987,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:nixon gunmetal grey|4": {
-   "date": 1795585840192,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:poljot sovietico piljot|2": {
-   "date": 1795586228045,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "marque:luch": {
-   "date": 1795586358125,
-   "mediane": null,
-   "echantillon": 50,
-   "coteTropBasse": 42
-  },
-  "modele:luch raro sovietico|2": {
-   "date": 1795586358904,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:lip dauphine|2": {
-   "date": 1795586620738,
-   "mediane": 120,
-   "echantillon": 60,
-   "dispersion": 0.27,
-   "fourchette": [
-    35,
-    220
-   ],
-   "exemples": [
-    {
-     "id": 10857614075,
-     "prix": 120
-    },
-    {
-     "id": 10840483158,
-     "prix": 120
-    },
-    {
-     "id": 8427421899,
-     "prix": 120
-    },
-    {
-     "id": 10531691998,
-     "prix": 120
-    }
-   ],
-   "niveau": "modèle"
   },
   "modele:citizen at1195 83e ecodrive|1": {
    "date": 1795586751100,
@@ -9199,9 +9143,9 @@
    "niveau": "modèle"
   },
   "marque:q q": {
-   "date": 1795619294111,
+   "date": 1795759274097,
    "mediane": null,
-   "echantillon": 63,
+   "echantillon": 56,
    "coteTropBasse": 10
   },
   "modele:q q horloge|4": {
@@ -22569,6 +22513,56 @@
    "echantillon": 1,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:jaeger lecoultre heraion chronograph|1": {
+   "date": 1795758630541,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:fossil fossiluhr|2": {
+   "date": 1795759143904,
+   "mediane": 23,
+   "echantillon": 6,
+   "dispersion": 1.16,
+   "fourchette": [
+    15,
+    60
+   ],
+   "exemples": [
+    {
+     "id": 10855622362,
+     "prix": 25
+    },
+    {
+     "id": 8186252606,
+     "prix": 20
+    },
+    {
+     "id": 10674551128,
+     "prix": 19
+    },
+    {
+     "id": 10548592438,
+     "prix": 15
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:citizen automatic uomo|2": {
+   "date": 1795759272761,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:q q trotteuse water|1": {
+   "date": 1795759274548,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -33557,8 +33551,8 @@
    "vu": 1795080657994
   },
   "32083736": {
-   "n": 33,
-   "vu": 1795713451180
+   "n": 34,
+   "vu": 1795758758240
   },
   "32085823": {
    "n": 3,
@@ -44369,8 +44363,8 @@
    "vu": 1794056406617
   },
   "52341802": {
-   "n": 5,
-   "vu": 1795595991010
+   "n": 6,
+   "vu": 1795758758240
   },
   "52348065": {
    "n": 7,
@@ -68069,8 +68063,8 @@
    "vu": 1795008668021
   },
   "117487053": {
-   "n": 330,
-   "vu": 1795758500417
+   "n": 337,
+   "vu": 1795759142635
   },
   "117513642": {
    "n": 19,
@@ -78901,8 +78895,8 @@
    "vu": 1793633350698
   },
   "165144271": {
-   "n": 31,
-   "vu": 1795659946255
+   "n": 32,
+   "vu": 1795759142634
   },
   "165175412": {
    "n": 30,
@@ -108305,8 +108299,8 @@
    "vu": 1795342404285
   },
   "287355226": {
-   "n": 2,
-   "vu": 1795621413964
+   "n": 3,
+   "vu": 1795759402506
   },
   "287370590": {
    "n": 15,
@@ -109217,8 +109211,8 @@
    "vu": 1795710822145
   },
   "289820495": {
-   "n": 40,
-   "vu": 1795734566931
+   "n": 41,
+   "vu": 1795758630087
   },
   "289837663": {
    "n": 80,
@@ -111909,8 +111903,8 @@
    "vu": 1793633350698
   },
   "306084483": {
-   "n": 3,
-   "vu": 1795238819717
+   "n": 4,
+   "vu": 1795758758240
   },
   "306105154": {
    "n": 6,
@@ -127133,8 +127127,8 @@
    "vu": 1795628335325
   },
   "3156705768": {
-   "n": 105,
-   "vu": 1795756696087
+   "n": 106,
+   "vu": 1795759014316
   },
   "3156711533": {
    "n": 15,
@@ -146693,8 +146687,8 @@
    "vu": 1794151651288
   },
   "3198779129": {
-   "n": 16,
-   "vu": 1795085213002
+   "n": 17,
+   "vu": 1795759271490
   },
   "3198787147": {
    "n": 30,
@@ -153685,8 +153679,8 @@
    "vu": 1794651937497
   },
   "3213928242": {
-   "n": 23,
-   "vu": 1795758500416
+   "n": 26,
+   "vu": 1795758886469
   },
   "3213930073": {
    "n": 2,
@@ -155822,20 +155816,20 @@
   }
  },
  "bilan": {
-  "depuis": 1795755806413,
-  "passages": 64,
-  "nouvelles": 66,
-  "marque": 47,
+  "depuis": 1795759445951,
+  "passages": 0,
+  "nouvelles": 0,
+  "marque": 0,
   "etat": 0,
-  "prix": 1,
-  "accessoire": 3,
+  "prix": 0,
+  "accessoire": 0,
   "lot": 0,
-  "fausse": 2,
+  "fausse": 0,
   "imitation": 0,
-  "pro": 1,
-  "vendeurSpecialise": 5,
+  "pro": 0,
+  "vendeurSpecialise": 0,
   "sansCote": 0,
-  "chere": 7,
+  "chere": 0,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
@@ -155844,17 +155838,6 @@
  "panne": null,
  "panneDebut": null,
  "suivi": [
-  {
-   "id": 10947126254,
-   "titre": "Orologio Festina F16362 Cronografo Rettangolare Nero Argento Elegante Vintage Br",
-   "prix": 25,
-   "cote": 113,
-   "score": 57,
-   "lien": "https://www.vinted.fr/items/10947126254-orologio-festina-f16362-cronografo-rettangolare-nero-argento-elegante-vintage-brillantini-uomo",
-   "date": 1795479868711,
-   "statut": "en vente",
-   "verifieA": 1795483474998
-  },
   {
    "id": 10947349066,
    "titre": "Tissot PR 50 1853 – Schweizer Uhr – Edelstahl – Saphirglas",
@@ -159130,7 +159113,8 @@
    "score": 72,
    "lien": "https://www.vinted.fr/items/10985587916-montre-fossil-everett",
    "date": 1795755805950,
-   "statut": null
+   "statut": "en vente",
+   "verifieA": 1795759445371
   },
   {
    "id": 10985623763,
@@ -159140,6 +159124,17 @@
    "score": 67,
    "lien": "https://www.vinted.fr/items/10985623763-montre-automatique-fossil",
    "date": 1795755806126,
+   "statut": "en vente",
+   "verifieA": 1795759445951
+  },
+  {
+   "id": 10985806264,
+   "titre": "Citizen Automatic Vintage Orologio Uomo Day Date",
+   "prix": 69,
+   "cote": 157,
+   "score": 59,
+   "lien": "https://www.vinted.fr/items/10985806264-citizen-automatic-vintage-orologio-uomo-day-date",
+   "date": 1795759274685,
    "statut": null
   }
  ],

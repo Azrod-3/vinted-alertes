@@ -1,12 +1,5 @@
 {
  "vues": [
-  "10964078140",
-  "10963369497",
-  "10964073481",
-  "10964271328",
-  "10963458066",
-  "10964230745",
-  "10964241972",
   "10964196041",
   "10964131425",
   "10964230923",
@@ -3999,7 +3992,14 @@
   "10985831144",
   "10985800979",
   "10985839488",
-  "10985847313"
+  "10985847313",
+  "10985853999",
+  "10985856763",
+  "10985859748",
+  "10985867221",
+  "10985876074",
+  "10985874885",
+  "10985883831"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -5791,42 +5791,6 @@
    "mediane": null,
    "echantillon": 2,
    "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:nikon f70 working|2@3076": {
-   "date": 1795587909529,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:nikon l120 coolpix|1@3075": {
-   "date": 1795588291468,
-   "mediane": 65,
-   "echantillon": 73,
-   "dispersion": 0.46,
-   "fourchette": [
-    22,
-    130
-   ],
-   "exemples": [
-    {
-     "id": 9590359074,
-     "prix": 65
-    },
-    {
-     "id": 9477832263,
-     "prix": 65
-    },
-    {
-     "id": 8385203127,
-     "prix": 68
-    },
-    {
-     "id": 10707541343,
-     "prix": 69
-    }
-   ],
    "niveau": "modèle"
   },
   "modele:zeiss esposimetro|2@3076": {
@@ -29126,6 +29090,35 @@
    "echantillon": 2,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:samsung wb35f|3@3075": {
+   "date": 1795760621733,
+   "mediane": 90,
+   "echantillon": 20,
+   "dispersion": 0.21,
+   "fourchette": [
+    60,
+    110
+   ],
+   "exemples": [
+    {
+     "id": 10606676136,
+     "prix": 90
+    },
+    {
+     "id": 8889085113,
+     "prix": 90
+    },
+    {
+     "id": 9507864186,
+     "prix": 90
+    },
+    {
+     "id": 9447601445,
+     "prix": 85
+    }
+   ],
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -30054,8 +30047,8 @@
    "vu": 1793972890395
   },
   "18003198": {
-   "n": 6,
-   "vu": 1795613944197
+   "n": 8,
+   "vu": 1795760494886
   },
   "18017880": {
    "n": 7,
@@ -49306,8 +49299,8 @@
    "vu": 1794176584444
   },
   "3192065507": {
-   "n": 21,
-   "vu": 1795613205011
+   "n": 22,
+   "vu": 1795761001518
   },
   "3192066076": {
    "n": 2,
@@ -51648,9 +51641,9 @@
  },
  "bilan": {
   "depuis": 1795755488295,
-  "passages": 75,
-  "nouvelles": 38,
-  "marque": 2,
+  "passages": 90,
+  "nouvelles": 45,
+  "marque": 3,
   "etat": 0,
   "prix": 3,
   "accessoire": 2,
@@ -51658,9 +51651,9 @@
   "fausse": 0,
   "imitation": 0,
   "pro": 5,
-  "vendeurSpecialise": 9,
-  "sansCote": 11,
-  "chere": 6,
+  "vendeurSpecialise": 12,
+  "sansCote": 13,
+  "chere": 7,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,

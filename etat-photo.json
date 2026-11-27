@@ -1,6 +1,5 @@
 {
  "vues": [
-  "10964693422",
   "10964279424",
   "10964684968",
   "10964694260",
@@ -3999,7 +3998,8 @@
   "10985367607",
   "10985366386",
   "10985369673",
-  "10985428619"
+  "10985428619",
+  "10985472132"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -5785,229 +5785,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:fujifilm x e1 charger|1@3075": {
-   "date": 1795577755169,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:fujifilm y2k retro|2@3075": {
-   "date": 1795577756146,
-   "mediane": 62,
-   "echantillon": 16,
-   "dispersion": 0.48,
-   "fourchette": [
-    19.99,
-    127
-   ],
-   "exemples": [
-    {
-     "id": 9542175068,
-     "prix": 59.99
-    },
-    {
-     "id": 10653830607,
-     "prix": 64.5
-    },
-    {
-     "id": 10902218177,
-     "prix": 65
-    },
-    {
-     "id": 10364266540,
-     "prix": 49.95
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:fujifilm camara|2@3075": {
-   "date": 1795577757065,
-   "mediane": 50,
-   "echantillon": 53,
-   "dispersion": 0.5,
-   "fourchette": [
-    15,
-    85
-   ],
-   "exemples": [
-    {
-     "id": 10882095870,
-     "prix": 50
-    },
-    {
-     "id": 10961251525,
-     "prix": 50
-    },
-    {
-     "id": 10880152366,
-     "prix": 50
-    },
-    {
-     "id": 10727724450,
-     "prix": 50
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:olympus sp 310 camedia|2@3075": {
-   "date": 1795577757603,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "marque:minox@3075": {
-   "date": 1795577758426,
-   "mediane": 68,
-   "echantillon": 18,
-   "dispersion": 1.26,
-   "fourchette": [
-    28,
-    180
-   ],
-   "exemples": [
-    {
-     "id": 8548634526,
-     "prix": 70
-    },
-    {
-     "id": 9771312644,
-     "prix": 65
-    },
-    {
-     "id": 10835831934,
-     "prix": 75
-    },
-    {
-     "id": 9390936898,
-     "prix": 60
-    }
-   ],
-   "niveau": "marque"
-  },
-  "modele:canon 1100d black|1@3075": {
-   "date": 1795577760059,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:sony vario tessar|1@3075": {
-   "date": 1795577761794,
-   "mediane": 60,
-   "echantillon": 4,
-   "dispersion": 0.33,
-   "fourchette": [
-    48,
-    90
-   ],
-   "exemples": [
-    {
-     "id": 10472187181,
-     "prix": 50
-    },
-    {
-     "id": 10483120838,
-     "prix": 70
-    },
-    {
-     "id": 10960946713,
-     "prix": 48
-    },
-    {
-     "id": 10506407743,
-     "prix": 90
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:canon 1100d eos|1@3075": {
-   "date": 1795577762541,
-   "mediane": 125,
-   "echantillon": 79,
-   "dispersion": 0.4,
-   "fourchette": [
-    50,
-    230
-   ],
-   "exemples": [
-    {
-     "id": 10937591508,
-     "prix": 125
-    },
-    {
-     "id": 10864189533,
-     "prix": 125
-    },
-    {
-     "id": 10923523690,
-     "prix": 125
-    },
-    {
-     "id": 10665998874,
-     "prix": 125
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:fujifilm jx370 finepix|1@3075": {
-   "date": 1795577763112,
-   "mediane": 61,
-   "echantillon": 6,
-   "dispersion": 0.45,
-   "fourchette": [
-    26.5,
-    90
-   ],
-   "exemples": [
-    {
-     "id": 10528345448,
-     "prix": 67
-    },
-    {
-     "id": 10879453437,
-     "prix": 54.2
-    },
-    {
-     "id": 9499213926,
-     "prix": 69
-    },
-    {
-     "id": 10647055961,
-     "prix": 42
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:kodak dc3800 case|2@3075": {
-   "date": 1795577763968,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:fujifilm e510 5 2mp|1@3075": {
-   "date": 1795577765575,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:olympus c 220 8mb|1@3075": {
-   "date": 1795577766310,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:pentax pc 502 analogica|2@3076": {
-   "date": 1795577768007,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
   },
   "modele:nikon onetouch zoom|2@3076": {
    "date": 1795702036074,
@@ -51892,11 +51669,11 @@
  },
  "bilan": {
   "depuis": 1795748250682,
-  "passages": 26,
-  "nouvelles": 1,
+  "passages": 41,
+  "nouvelles": 2,
   "marque": 0,
   "etat": 0,
-  "prix": 0,
+  "prix": 1,
   "accessoire": 0,
   "lot": 0,
   "fausse": 0,

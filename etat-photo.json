@@ -1,10 +1,5 @@
 {
  "vues": [
-  "10965064364",
-  "10965058475",
-  "10965044243",
-  "10818218785",
-  "10965031035",
   "10964967472",
   "10964956949",
   "10964951006",
@@ -3999,7 +3994,12 @@
   "10984794619",
   "10984798012",
   "10975777964",
-  "10973402345"
+  "10973402345",
+  "10984818067",
+  "10984549009",
+  "10984822426",
+  "10984858515",
+  "10984856035"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -5785,64 +5785,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:pentax optio digitalkamera|2@3075": {
-   "date": 1795564758382,
-   "mediane": 40,
-   "echantillon": 36,
-   "dispersion": 0.7,
-   "fourchette": [
-    17,
-    90
-   ],
-   "exemples": [
-    {
-     "id": 10526675337,
-     "prix": 40
-    },
-    {
-     "id": 10052339973,
-     "prix": 39.9
-    },
-    {
-     "id": 10685117593,
-     "prix": 42
-    },
-    {
-     "id": 10715792429,
-     "prix": 45
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:fujifilm s5500 finepix|2@3075": {
-   "date": 1795565643945,
-   "mediane": 47,
-   "echantillon": 14,
-   "dispersion": 0.22,
-   "fourchette": [
-    20,
-    69
-   ],
-   "exemples": [
-    {
-     "id": 10830713208,
-     "prix": 48
-    },
-    {
-     "id": 9639367489,
-     "prix": 49
-    },
-    {
-     "id": 7836024896,
-     "prix": 45
-    },
-    {
-     "id": 9452126474,
-     "prix": 50
-    }
-   ],
-   "niveau": "modèle"
   },
   "modele:fujifilm x e1 charger|1@3075": {
    "date": 1795577755169,
@@ -29206,6 +29148,42 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "modele:fujifilm q1 compatta|2@3075": {
+   "date": 1795738296474,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:ricoh 500g|1@3076": {
+   "date": 1795738297191,
+   "mediane": 55,
+   "echantillon": 10,
+   "dispersion": 0.35,
+   "fourchette": [
+    30,
+    95
+   ],
+   "exemples": [
+    {
+     "id": 9795099933,
+     "prix": 59.9
+    },
+    {
+     "id": 10608427383,
+     "prix": 50
+    },
+    {
+     "id": 10969383957,
+     "prix": 50
+    },
+    {
+     "id": 10603537804,
+     "prix": 60
+    }
+   ],
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -35585,6 +35563,10 @@
    "n": 2,
    "vu": 1794398241618
   },
+  "66828570": {
+   "n": 2,
+   "vu": 1795738295731
+  },
   "66847346": {
    "n": 21,
    "vu": 1795646346220
@@ -39122,8 +39104,8 @@
    "vu": 1795192408953
   },
   "143430597": {
-   "n": 27,
-   "vu": 1795736139132
+   "n": 28,
+   "vu": 1795737663507
   },
   "143439353": {
    "n": 3,
@@ -51704,19 +51686,19 @@
  },
  "bilan": {
   "depuis": 1795733785474,
-  "passages": 58,
-  "nouvelles": 68,
-  "marque": 13,
+  "passages": 73,
+  "nouvelles": 73,
+  "marque": 14,
   "etat": 1,
   "prix": 4,
   "accessoire": 1,
   "lot": 3,
   "fausse": 0,
   "imitation": 0,
-  "pro": 3,
+  "pro": 4,
   "vendeurSpecialise": 4,
-  "sansCote": 88,
-  "chere": 50,
+  "sansCote": 90,
+  "chere": 51,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 2,

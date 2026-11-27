@@ -1,6 +1,5 @@
 {
  "vues": [
-  "10954007396",
   "10964693422",
   "10964279424",
   "10964684968",
@@ -3999,7 +3998,8 @@
   "10985304822",
   "10985367607",
   "10985366386",
-  "10985369673"
+  "10985369673",
+  "10985428619"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -29375,6 +29375,13 @@
    "echantillon": 2,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:sony a5100 cartes|3@3075": {
+   "date": 1795749329312,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -51885,8 +51892,8 @@
  },
  "bilan": {
   "depuis": 1795748250682,
-  "passages": 11,
-  "nouvelles": 0,
+  "passages": 26,
+  "nouvelles": 1,
   "marque": 0,
   "etat": 0,
   "prix": 0,
@@ -51896,7 +51903,7 @@
   "imitation": 0,
   "pro": 0,
   "vendeurSpecialise": 0,
-  "sansCote": 0,
+  "sansCote": 1,
   "chere": 0,
   "description": 0,
   "scoreFaible": 0,

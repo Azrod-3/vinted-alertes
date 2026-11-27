@@ -1,10 +1,5 @@
 {
  "vues": [
-  "10964762073",
-  "10964785859",
-  "10964774227",
-  "10964738612",
-  "10964756377",
   "10964756381",
   "10964745114",
   "10964737329",
@@ -3999,7 +3994,12 @@
   "10984962830",
   "10984986105",
   "10984988038",
-  "10985028681"
+  "10985028681",
+  "10985043387",
+  "10985021610",
+  "10985061622",
+  "10985068956",
+  "10985071472"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -29274,6 +29274,38 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "modele:nikon f 601 tamron|1@3076": {
+   "date": 1795741848074,
+   "mediane": 100,
+   "echantillon": 3,
+   "dispersion": null,
+   "fourchette": [
+    70,
+    120
+   ],
+   "exemples": [
+    {
+     "id": 8157892838,
+     "prix": 100
+    },
+    {
+     "id": 10725959569,
+     "prix": 120
+    },
+    {
+     "id": 10985021610,
+     "prix": 70
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:olympus ensemble omd|2@3075": {
+   "date": 1795742227852,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -36700,6 +36732,10 @@
   "78330417": {
    "n": 6,
    "vu": 1795297962777
+  },
+  "78385893": {
+   "n": 2,
+   "vu": 1795742227250
   },
   "78490260": {
    "n": 3,
@@ -51780,9 +51816,9 @@
  },
  "bilan": {
   "depuis": 1795741023344,
-  "passages": 5,
-  "nouvelles": 1,
-  "marque": 0,
+  "passages": 20,
+  "nouvelles": 6,
+  "marque": 2,
   "etat": 0,
   "prix": 0,
   "accessoire": 0,
@@ -51791,8 +51827,8 @@
   "imitation": 0,
   "pro": 0,
   "vendeurSpecialise": 0,
-  "sansCote": 0,
-  "chere": 1,
+  "sansCote": 2,
+  "chere": 2,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,

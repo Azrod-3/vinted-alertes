@@ -1,29 +1,5 @@
 {
  "vues": [
-  "10965967502",
-  "10965962575",
-  "10965951714",
-  "10965959197",
-  "10965977270",
-  "10965973556",
-  "10966014164",
-  "10956959873",
-  "10966001784",
-  "10966016019",
-  "10966052740",
-  "10966047308",
-  "10966034208",
-  "10966032486",
-  "10966028458",
-  "10966072253",
-  "10965498497",
-  "10964264183",
-  "10966065170",
-  "10957266283",
-  "10957391146",
-  "10966102993",
-  "10966097056",
-  "10966096055",
   "10966094536",
   "10964097115",
   "10966024721",
@@ -3999,7 +3975,31 @@
   "10986160797",
   "10986178309",
   "10986172833",
-  "10986186722"
+  "10986186722",
+  "10986196112",
+  "10986192231",
+  "10986204807",
+  "10986219118",
+  "10986217697",
+  "10986214191",
+  "10986218692",
+  "10986217910",
+  "10986233318",
+  "10986245042",
+  "10986245291",
+  "10986238297",
+  "10986235828",
+  "10986235836",
+  "10986245954",
+  "10986240759",
+  "10986236684",
+  "10986249965",
+  "10986257370",
+  "10986251339",
+  "10986248394",
+  "10986268530",
+  "10986269354",
+  "10986257911"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -4860,36 +4860,6 @@
     {
      "id": 10909479282,
      "prix": 99
-    }
-   ],
-   "niveau": "modèle",
-   "lissee": true
-  },
-  "modele:canon 1200d eos|2@3075": {
-   "date": 1795593637346,
-   "mediane": 154,
-   "echantillon": 81,
-   "dispersion": 0.45,
-   "fourchette": [
-    70,
-    300
-   ],
-   "exemples": [
-    {
-     "id": 10959589375,
-     "prix": 155
-    },
-    {
-     "id": 10946564068,
-     "prix": 150
-    },
-    {
-     "id": 10863378679,
-     "prix": 150
-    },
-    {
-     "id": 10943091443,
-     "prix": 150
     }
    ],
    "niveau": "modèle",
@@ -5883,96 +5853,6 @@
    "niveau": "modèle",
    "lissee": true
   },
-  "modele:nikon s51 coolpix|1@3075": {
-   "date": 1795593253663,
-   "mediane": 55,
-   "echantillon": 12,
-   "dispersion": 0.27,
-   "fourchette": [
-    35,
-    90
-   ],
-   "exemples": [
-    {
-     "id": 10752240280,
-     "prix": 55
-    },
-    {
-     "id": 10730364119,
-     "prix": 55
-    },
-    {
-     "id": 8018041559,
-     "prix": 55
-    },
-    {
-     "id": 10470959878,
-     "prix": 51
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:zenit helios 44m f 2|2@3076": {
-   "date": 1795593254791,
-   "mediane": 58,
-   "echantillon": 46,
-   "dispersion": 0.5,
-   "fourchette": [
-    30,
-    110
-   ],
-   "exemples": [
-    {
-     "id": 10470396779,
-     "prix": 60
-    },
-    {
-     "id": 9936891321,
-     "prix": 60
-    },
-    {
-     "id": 8808566115,
-     "prix": 55
-    },
-    {
-     "id": 8626310203,
-     "prix": 53
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:praktica praktika speicherkarte|2@3075": {
-   "date": 1795593382053,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:rollei speicherkarte|2@3075": {
-   "date": 1795593382953,
-   "mediane": 50,
-   "echantillon": 3,
-   "dispersion": null,
-   "fourchette": [
-    25,
-    67
-   ],
-   "exemples": [
-    {
-     "id": 9584449504,
-     "prix": 50
-    },
-    {
-     "id": 10522301740,
-     "prix": 67
-    },
-    {
-     "id": 10962413967,
-     "prix": 25
-    }
-   ],
-   "niveau": "modèle"
-  },
   "modele:pentax funzionante|2@3076": {
    "date": 1795680255600,
    "mediane": 45,
@@ -6032,60 +5912,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:nikon l35|1@3076": {
-   "date": 1795593891591,
-   "mediane": 150,
-   "echantillon": 20,
-   "dispersion": 0.8,
-   "fourchette": [
-    35,
-    400
-   ],
-   "exemples": [
-    {
-     "id": 10388696238,
-     "prix": 150
-    },
-    {
-     "id": 10690845939,
-     "prix": 150
-    },
-    {
-     "id": 10215747897,
-     "prix": 145
-    },
-    {
-     "id": 10445533160,
-     "prix": 120
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:minolta 404si 28 80|2@3076": {
-   "date": 1795594021921,
-   "mediane": 85,
-   "echantillon": 3,
-   "dispersion": null,
-   "fourchette": [
-    39,
-    120
-   ],
-   "exemples": [
-    {
-     "id": 9359028379,
-     "prix": 85
-    },
-    {
-     "id": 10962471874,
-     "prix": 120
-    },
-    {
-     "id": 9740739052,
-     "prix": 39
-    }
-   ],
-   "niveau": "modèle"
   },
   "modele:pentax k s2 561|2@3075": {
    "date": 1795594149506,
@@ -28973,6 +28799,121 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "modele:canon corpo|2@3075": {
+   "date": 1795766337027,
+   "mediane": 75,
+   "echantillon": 10,
+   "dispersion": 1.13,
+   "fourchette": [
+    49,
+    180
+   ],
+   "exemples": [
+    {
+     "id": 10978705718,
+     "prix": 70
+    },
+    {
+     "id": 10938912653,
+     "prix": 80
+    },
+    {
+     "id": 10860549939,
+     "prix": 70
+    },
+    {
+     "id": 9975121164,
+     "prix": 95
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:agfa xl5|1@3076": {
+   "date": 1795766337567,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:sony imprimante sont|2@3075": {
+   "date": 1795766592150,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:minolta weathermatic|2@3076": {
+   "date": 1795766592892,
+   "mediane": 40,
+   "echantillon": 40,
+   "dispersion": 0.63,
+   "fourchette": [
+    10,
+    100
+   ],
+   "exemples": [
+    {
+     "id": 10745479854,
+     "prix": 40
+    },
+    {
+     "id": 10792808983,
+     "prix": 40
+    },
+    {
+     "id": 10412563690,
+     "prix": 40
+    },
+    {
+     "id": 10973943360,
+     "prix": 35
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:sony view finder|2@3076": {
+   "date": 1795766720425,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:kodak makkina usa|4@3076": {
+   "date": 1795766721170,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:sony dsc p200 cyber|2@3075": {
+   "date": 1795766848126,
+   "mediane": 65,
+   "echantillon": 12,
+   "dispersion": 0.25,
+   "fourchette": [
+    45,
+    100
+   ],
+   "exemples": [
+    {
+     "id": 9455611964,
+     "prix": 65
+    },
+    {
+     "id": 7818573849,
+     "prix": 65
+    },
+    {
+     "id": 10986268530,
+     "prix": 70
+    },
+    {
+     "id": 8536857064,
+     "prix": 60
+    }
+   ],
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -29241,8 +29182,8 @@
    "vu": 1794763951351
   },
   "12381077": {
-   "n": 2,
-   "vu": 1795705030322
+   "n": 3,
+   "vu": 1795766335989
   },
   "12426797": {
    "n": 3,
@@ -29417,8 +29358,8 @@
    "vu": 1793707001383
   },
   "13937383": {
-   "n": 16,
-   "vu": 1795522594088
+   "n": 18,
+   "vu": 1795766847458
   },
   "13951278": {
    "n": 2,
@@ -40304,6 +40245,10 @@
    "n": 2,
    "vu": 1794844833600
   },
+  "187711526": {
+   "n": 2,
+   "vu": 1795766590311
+  },
   "187712163": {
    "n": 2,
    "vu": 1794891131047
@@ -43009,8 +42954,8 @@
    "vu": 1793705164191
   },
   "260825273": {
-   "n": 9,
-   "vu": 1795701855138
+   "n": 11,
+   "vu": 1795766590311
   },
   "260905267": {
    "n": 2,
@@ -46041,8 +45986,8 @@
    "vu": 1795368385815
   },
   "3136176900": {
-   "n": 2,
-   "vu": 1795760240225
+   "n": 3,
+   "vu": 1795766719744
   },
   "3136222934": {
    "n": 2,
@@ -51320,6 +51265,10 @@
    "n": 2,
    "vu": 1795395776736
   },
+  "3217016865": {
+   "n": 2,
+   "vu": 1795766590311
+  },
   "3217036931": {
    "n": 4,
    "vu": 1795478530424
@@ -51511,19 +51460,19 @@
  },
  "bilan": {
   "depuis": 1795762715391,
-  "passages": 51,
-  "nouvelles": 57,
-  "marque": 13,
+  "passages": 66,
+  "nouvelles": 81,
+  "marque": 18,
   "etat": 3,
-  "prix": 1,
-  "accessoire": 1,
+  "prix": 3,
+  "accessoire": 2,
   "lot": 0,
   "fausse": 0,
   "imitation": 0,
   "pro": 2,
-  "vendeurSpecialise": 6,
-  "sansCote": 23,
-  "chere": 7,
+  "vendeurSpecialise": 9,
+  "sansCote": 33,
+  "chere": 10,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
@@ -54829,7 +54778,8 @@
    "score": 59,
    "lien": "https://www.vinted.fr/items/10985987054-canon-eos-4000d-spiegelreflexcamera-18-55-mm-lens",
    "date": 1795763032993,
-   "statut": null
+   "statut": "retiree",
+   "verifieA": 1795766656601
   }
  ],
  "dernierRecap": "2026-11-26"

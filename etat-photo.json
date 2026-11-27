@@ -1,22 +1,5 @@
 {
  "vues": [
-  "10978067936",
-  "10978053973",
-  "10974204884",
-  "10978004567",
-  "10978047967",
-  "10977536795",
-  "10978035157",
-  "10977736637",
-  "10978033329",
-  "10977999519",
-  "10977872588",
-  "10978027021",
-  "10978017145",
-  "10978025309",
-  "10978000942",
-  "10977994586",
-  "10977985688",
   "10977993939",
   "10977972428",
   "10977982887",
@@ -3999,7 +3982,24 @@
   "10995959601",
   "10995970443",
   "10995981782",
-  "10996003088"
+  "10996003088",
+  "10996020182",
+  "10996018072",
+  "10996035238",
+  "10996033921",
+  "10996041516",
+  "10996038631",
+  "10996057096",
+  "10996049568",
+  "10996050338",
+  "10996056279",
+  "10996055375",
+  "10996067331",
+  "10996064110",
+  "10996072945",
+  "10995361503",
+  "10996091761",
+  "10996059024"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -6061,78 +6061,6 @@
   },
   "modele:canon appareille|2@3076": {
    "date": 1795733937407,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:sony dsc t200 camara|2@3075": {
-   "date": 1795649742986,
-   "mediane": 90,
-   "echantillon": 5,
-   "dispersion": 0.46,
-   "fourchette": [
-    55,
-    140
-   ],
-   "exemples": [
-    {
-     "id": 6658115458,
-     "prix": 90
-    },
-    {
-     "id": 10879402441,
-     "prix": 79
-    },
-    {
-     "id": 8102736205,
-     "prix": 120
-    },
-    {
-     "id": 10973303468,
-     "prix": 55
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:olympus c 60 camara|2@3075": {
-   "date": 1795649996297,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:olympus camara|2@3075": {
-   "date": 1795650379416,
-   "mediane": 50,
-   "echantillon": 49,
-   "dispersion": 0.58,
-   "fourchette": [
-    14,
-    79
-   ],
-   "exemples": [
-    {
-     "id": 10973356656,
-     "prix": 50
-    },
-    {
-     "id": 10972089009,
-     "prix": 50
-    },
-    {
-     "id": 10923716803,
-     "prix": 50
-    },
-    {
-     "id": 10946451811,
-     "prix": 50
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:canon l2|2@3076": {
-   "date": 1795650506307,
    "mediane": null,
    "echantillon": 1,
    "dispersion": null,
@@ -27949,6 +27877,20 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "modele:nikon one touch|4@3076": {
+   "date": 1795822680927,
+   "mediane": null,
+   "echantillon": 2,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:nikon mikol|3@3075": {
+   "date": 1795822807860,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -34576,6 +34518,10 @@
    "n": 2,
    "vu": 1795554586628
   },
+  "68419687": {
+   "n": 3,
+   "vu": 1795822934179
+  },
   "68440162": {
    "n": 3,
    "vu": 1794765118966
@@ -39117,8 +39063,8 @@
    "vu": 1795478530427
   },
   "175183368": {
-   "n": 2,
-   "vu": 1795622586461
+   "n": 3,
+   "vu": 1795822553663
   },
   "175456571": {
    "n": 3,
@@ -49960,6 +49906,10 @@
    "n": 2,
    "vu": 1794511494818
   },
+  "3208152449": {
+   "n": 2,
+   "vu": 1795822934180
+  },
   "3208175696": {
    "n": 2,
    "vu": 1795031734341
@@ -51007,10 +50957,10 @@
  },
  "bilan": {
   "depuis": 1795819695806,
-  "passages": 42,
-  "nouvelles": 58,
-  "marque": 10,
-  "etat": 2,
+  "passages": 57,
+  "nouvelles": 75,
+  "marque": 18,
+  "etat": 3,
   "prix": 0,
   "accessoire": 0,
   "lot": 0,
@@ -51018,8 +50968,8 @@
   "imitation": 2,
   "pro": 6,
   "vendeurSpecialise": 10,
-  "sansCote": 57,
-  "chere": 48,
+  "sansCote": 64,
+  "chere": 49,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 2,
@@ -51028,17 +50978,6 @@
  "panne": null,
  "panneDebut": null,
  "suivi": [
-  {
-   "id": 10901103540,
-   "titre": "Nikon vintage FM2",
-   "prix": 53,
-   "cote": 450,
-   "score": 94,
-   "lien": "https://www.vinted.fr/items/10901103540-nikon-vintage-fm2",
-   "date": 1795218178082,
-   "statut": "retiree",
-   "verifieA": 1795221790270
-  },
   {
    "id": 10901161415,
    "titre": "Nikon Coolpix S6300",

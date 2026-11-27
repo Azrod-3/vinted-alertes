@@ -1,15 +1,5 @@
 {
  "vues": [
-  "10962819823",
-  "10964011096",
-  "10950903436",
-  "10964047732",
-  "10963756405",
-  "10964027943",
-  "10965821008",
-  "10965817039",
-  "10965817573",
-  "10965811932",
   "10965804434",
   "10938602132",
   "10965809983",
@@ -3999,7 +3989,17 @@
   "10985983107",
   "10985987260",
   "10985987054",
-  "10980317932"
+  "10980317932",
+  "10985993000",
+  "10985996158",
+  "10962220126",
+  "10986017705",
+  "10986015461",
+  "10986026616",
+  "10986025729",
+  "10986024320",
+  "10986040642",
+  "10986040747"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -5822,172 +5822,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:fujifilm j10|2@3075": {
-   "date": 1795590323259,
-   "mediane": 60,
-   "echantillon": 21,
-   "dispersion": 0.33,
-   "fourchette": [
-    19.95,
-    90
-   ],
-   "exemples": [
-    {
-     "id": 9930543319,
-     "prix": 60
-    },
-    {
-     "id": 9477198466,
-     "prix": 60
-    },
-    {
-     "id": 10883483698,
-     "prix": 65
-    },
-    {
-     "id": 10910876683,
-     "prix": 65
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:fujifilm f 4 fuji|2@3075": {
-   "date": 1795590577262,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:nikon s3000 camara|2@3075": {
-   "date": 1795590578122,
-   "mediane": null,
-   "echantillon": 2,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:agfa isolette foto|2@3076": {
-   "date": 1795590579644,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:kodak soffietto|1@3076": {
-   "date": 1795590580685,
-   "mediane": 48,
-   "echantillon": 49,
-   "dispersion": 0.63,
-   "fourchette": [
-    20,
-    100
-   ],
-   "exemples": [
-    {
-     "id": 10804505604,
-     "prix": 48
-    },
-    {
-     "id": 10120577137,
-     "prix": 50
-    },
-    {
-     "id": 10594860436,
-     "prix": 50
-    },
-    {
-     "id": 10594160546,
-     "prix": 50
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:pentax 160 espio|1@3076": {
-   "date": 1795590708647,
-   "mediane": 55,
-   "echantillon": 31,
-   "dispersion": 0.55,
-   "fourchette": [
-    15,
-    120
-   ],
-   "exemples": [
-    {
-     "id": 10771495434,
-     "prix": 55
-    },
-    {
-     "id": 10453325108,
-     "prix": 55
-    },
-    {
-     "id": 10184307879,
-     "prix": 56.9
-    },
-    {
-     "id": 8709376860,
-     "prix": 50
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:pentax espio|1@3076": {
-   "date": 1795590835852,
-   "mediane": 40,
-   "echantillon": 85,
-   "dispersion": 0.75,
-   "fourchette": [
-    10,
-    105
-   ],
-   "exemples": [
-    {
-     "id": 10865364243,
-     "prix": 40
-    },
-    {
-     "id": 10926350474,
-     "prix": 40
-    },
-    {
-     "id": 10845648569,
-     "prix": 40
-    },
-    {
-     "id": 10959947091,
-     "prix": 39
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:canon 3000 eos|2@3076": {
-   "date": 1795590962998,
-   "mediane": 47,
-   "echantillon": 68,
-   "dispersion": 0.54,
-   "fourchette": [
-    15,
-    120
-   ],
-   "exemples": [
-    {
-     "id": 8395078845,
-     "prix": 48
-    },
-    {
-     "id": 10939010168,
-     "prix": 45
-    },
-    {
-     "id": 10684464094,
-     "prix": 45
-    },
-    {
-     "id": 10780972728,
-     "prix": 45
-    }
-   ],
-   "niveau": "modèle"
   },
   "modele:canon ae 1|2@3076": {
    "date": 1795717016144,
@@ -29170,6 +29004,35 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "modele:canon av 1|2@3076": {
+   "date": 1795763414654,
+   "mediane": 90,
+   "echantillon": 67,
+   "dispersion": 0.31,
+   "fourchette": [
+    29.99,
+    150
+   ],
+   "exemples": [
+    {
+     "id": 10962220126,
+     "prix": 90
+    },
+    {
+     "id": 10921656691,
+     "prix": 90
+    },
+    {
+     "id": 9759846510,
+     "prix": 90
+    },
+    {
+     "id": 10386264541,
+     "prix": 90
+    }
+   ],
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -43542,8 +43405,8 @@
    "vu": 1794057007251
   },
   "267565333": {
-   "n": 2,
-   "vu": 1795591470471
+   "n": 3,
+   "vu": 1795763413765
   },
   "267586528": {
    "n": 2,
@@ -51696,19 +51559,19 @@
  },
  "bilan": {
   "depuis": 1795762715391,
-  "passages": 6,
-  "nouvelles": 6,
-  "marque": 1,
-  "etat": 1,
-  "prix": 0,
+  "passages": 21,
+  "nouvelles": 16,
+  "marque": 3,
+  "etat": 2,
+  "prix": 1,
   "accessoire": 0,
   "lot": 0,
   "fausse": 0,
   "imitation": 0,
   "pro": 0,
   "vendeurSpecialise": 1,
-  "sansCote": 2,
-  "chere": 0,
+  "sansCote": 7,
+  "chere": 1,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,

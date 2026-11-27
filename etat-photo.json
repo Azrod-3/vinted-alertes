@@ -1,8 +1,5 @@
 {
  "vues": [
-  "10964714384",
-  "10964691360",
-  "10964682459",
   "10954007396",
   "10964693422",
   "10964279424",
@@ -3999,7 +3996,10 @@
   "10985146929",
   "10985238244",
   "10985251402",
-  "10985304822"
+  "10985304822",
+  "10985367607",
+  "10985366386",
+  "10985369673"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -29368,6 +29368,13 @@
    "echantillon": 1,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:fujifilm toestel|2@3075": {
+   "date": 1795748187146,
+   "mediane": null,
+   "echantillon": 2,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -51877,10 +51884,10 @@
   }
  },
  "bilan": {
-  "depuis": 1795741023344,
-  "passages": 110,
-  "nouvelles": 15,
-  "marque": 3,
+  "depuis": 1795748250682,
+  "passages": 11,
+  "nouvelles": 0,
+  "marque": 0,
   "etat": 0,
   "prix": 0,
   "accessoire": 0,
@@ -51889,8 +51896,8 @@
   "imitation": 0,
   "pro": 0,
   "vendeurSpecialise": 0,
-  "sansCote": 7,
-  "chere": 5,
+  "sansCote": 0,
+  "chere": 0,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,

@@ -1,12 +1,5 @@
 {
  "vues": [
-  "10977941497",
-  "10977955184",
-  "10977943498",
-  "10972070708",
-  "10977936609",
-  "10977617919",
-  "10977927365",
   "10977896942",
   "10977918473",
   "10977758688",
@@ -3999,7 +3992,14 @@
   "10996141565",
   "10996139863",
   "10996181387",
-  "10996189382"
+  "10996189382",
+  "10996200977",
+  "10996204091",
+  "10996200940",
+  "10996227108",
+  "10996219163",
+  "10996239954",
+  "10996231950"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -6061,107 +6061,6 @@
   },
   "modele:canon appareille|2@3076": {
    "date": 1795733937407,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:canon 175 camara|1@3075": {
-   "date": 1795651773216,
-   "mediane": null,
-   "echantillon": 2,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:sony dsc w180 camara|2@3075": {
-   "date": 1795651774087,
-   "mediane": 80,
-   "echantillon": 4,
-   "dispersion": 0,
-   "fourchette": [
-    78,
-    80
-   ],
-   "exemples": [
-    {
-     "id": 6293245682,
-     "prix": 80
-    },
-    {
-     "id": 10666292575,
-     "prix": 80
-    },
-    {
-     "id": 9989586030,
-     "prix": 79.95
-    },
-    {
-     "id": 10121251312,
-     "prix": 78
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:canon 500n camara|2@3076": {
-   "date": 1795651901185,
-   "mediane": 70,
-   "echantillon": 23,
-   "dispersion": 0.57,
-   "fourchette": [
-    20,
-    125
-   ],
-   "exemples": [
-    {
-     "id": 9641366429,
-     "prix": 70
-    },
-    {
-     "id": 7207035292,
-     "prix": 70
-    },
-    {
-     "id": 8070182705,
-     "prix": 70
-    },
-    {
-     "id": 6721767280,
-     "prix": 65
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:minolta xe 5|2@3076": {
-   "date": 1795651901902,
-   "mediane": 105,
-   "echantillon": 14,
-   "dispersion": 0.52,
-   "fourchette": [
-    55,
-    175
-   ],
-   "exemples": [
-    {
-     "id": 9753639232,
-     "prix": 110
-    },
-    {
-     "id": 9710240826,
-     "prix": 100
-    },
-    {
-     "id": 6607957009,
-     "prix": 110
-    },
-    {
-     "id": 7620540053,
-     "prix": 110
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:canon 114xl|3@3076": {
-   "date": 1795652409210,
    "mediane": null,
    "echantillon": 1,
    "dispersion": null,
@@ -27927,6 +27826,84 @@
    "echantillon": 1,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:kodak antica|2@3076": {
+   "date": 1795824456566,
+   "mediane": 80,
+   "echantillon": 27,
+   "dispersion": 0.63,
+   "fourchette": [
+    20,
+    155
+   ],
+   "exemples": [
+    {
+     "id": 10939785247,
+     "prix": 80
+    },
+    {
+     "id": 8518951535,
+     "prix": 80
+    },
+    {
+     "id": 10750253950,
+     "prix": 79.9
+    },
+    {
+     "id": 10879004249,
+     "prix": 89.9
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:pentax 738 espio|1@3076": {
+   "date": 1795824709640,
+   "mediane": 50,
+   "echantillon": 39,
+   "dispersion": 0.5,
+   "fourchette": [
+    18,
+    100
+   ],
+   "exemples": [
+    {
+     "id": 10273097741,
+     "prix": 50
+    },
+    {
+     "id": 10019828847,
+     "prix": 50
+    },
+    {
+     "id": 7064032767,
+     "prix": 50
+    },
+    {
+     "id": 8553892744,
+     "prix": 50
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:fujifilm l30 finepix|1@3075": {
+   "date": 1795824836489,
+   "mediane": null,
+   "echantillon": 2,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "marque:konica@3075": {
+   "date": 1795824837476,
+   "mediane": null,
+   "echantillon": 30,
+   "coteTropBasse": 20
+  },
+  "modele:konica e500 minolta|2@3075": {
+   "date": 1795824838229,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -47903,8 +47880,8 @@
    "vu": 1795348302588
   },
   "3182504454": {
-   "n": 7,
-   "vu": 1795820895878
+   "n": 8,
+   "vu": 1795824455804
   },
   "3182510679": {
    "n": 2,
@@ -50993,19 +50970,19 @@
  },
  "bilan": {
   "depuis": 1795819695806,
-  "passages": 72,
-  "nouvelles": 82,
+  "passages": 87,
+  "nouvelles": 89,
   "marque": 18,
   "etat": 3,
-  "prix": 1,
+  "prix": 2,
   "accessoire": 0,
   "lot": 0,
   "fausse": 0,
   "imitation": 2,
-  "pro": 6,
+  "pro": 7,
   "vendeurSpecialise": 12,
-  "sansCote": 67,
-  "chere": 50,
+  "sansCote": 70,
+  "chere": 52,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 2,

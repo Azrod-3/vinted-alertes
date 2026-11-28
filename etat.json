@@ -1,12 +1,5 @@
 {
  "vues": [
-  "10990623660",
-  "10990626343",
-  "10990619055",
-  "10990597693",
-  "10990616715",
-  "10990612601",
-  "10990461151",
   "10990612919",
   "10990657314",
   "10990654788",
@@ -3999,7 +3992,14 @@
   "10997206084",
   "10997215848",
   "10997213369",
-  "10997160976"
+  "10997160976",
+  "10997224222",
+  "10997239533",
+  "10997254566",
+  "10997249507",
+  "10997259807",
+  "10997258189",
+  "10997269248"
  ],
  "cotes": {
   "marque:fossil": {
@@ -22018,6 +22018,35 @@
     {
      "id": 7485651759,
      "prix": 30
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:rodania stainless steel|1": {
+   "date": 1795838840027,
+   "mediane": 150,
+   "echantillon": 5,
+   "dispersion": 0.6,
+   "fourchette": [
+    52,
+    150
+   ],
+   "exemples": [
+    {
+     "id": 8729981787,
+     "prix": 150
+    },
+    {
+     "id": 6301222647,
+     "prix": 150
+    },
+    {
+     "id": 2547510306,
+     "prix": 150
+    },
+    {
+     "id": 6406541864,
+     "prix": 60
     }
    ],
    "niveau": "modèle"
@@ -76857,8 +76886,8 @@
    "vu": 1795522904312
   },
   "155244653": {
-   "n": 162,
-   "vu": 1795759917882
+   "n": 164,
+   "vu": 1795839098308
   },
   "155245233": {
    "n": 3,
@@ -114481,8 +114510,8 @@
    "vu": 1793633350698
   },
   "311626155": {
-   "n": 7,
-   "vu": 1795838195049
+   "n": 11,
+   "vu": 1795838969866
   },
   "311627196": {
    "n": 18,
@@ -157015,38 +157044,27 @@
  },
  "bilan": {
   "depuis": 1795836131455,
-  "passages": 50,
-  "nouvelles": 29,
-  "marque": 22,
+  "passages": 71,
+  "nouvelles": 36,
+  "marque": 26,
   "etat": 0,
-  "prix": 0,
+  "prix": 1,
   "accessoire": 0,
   "lot": 0,
   "fausse": 1,
   "imitation": 0,
   "pro": 1,
-  "vendeurSpecialise": 3,
+  "vendeurSpecialise": 4,
   "sansCote": 0,
   "chere": 2,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
-  "alertes": 0
+  "alertes": 1
  },
  "panne": null,
  "panneDebut": null,
  "suivi": [
-  {
-   "id": 10949882130,
-   "titre": "Vostok",
-   "prix": 60,
-   "cote": 150,
-   "score": 67,
-   "lien": "https://www.vinted.fr/items/10949882130-vostok",
-   "date": 1795591555110,
-   "statut": "retiree",
-   "verifieA": 1795595167403
-  },
   {
    "id": 10962382173,
    "titre": "Montre ancienne Timex quartz homme",
@@ -160335,6 +160353,16 @@
    "date": 1795828655463,
    "statut": "en vente",
    "verifieA": 1795832263725
+  },
+  {
+   "id": 10997249507,
+   "titre": "Montre Rodania Stainless steel",
+   "prix": 30,
+   "cote": 150,
+   "score": 67,
+   "lien": "https://www.vinted.fr/items/10997249507-montre-rodania-stainless-steel",
+   "date": 1795838840610,
+   "statut": null
   }
  ],
  "dernierRecap": "2026-11-25"

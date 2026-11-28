@@ -1,12 +1,5 @@
 {
  "vues": [
-  "10977993939",
-  "10977972428",
-  "10977982887",
-  "10977970741",
-  "10972135014",
-  "10977961728",
-  "10977836348",
   "10977941497",
   "10977955184",
   "10977943498",
@@ -3999,7 +3992,14 @@
   "10996072945",
   "10995361503",
   "10996091761",
-  "10996059024"
+  "10996059024",
+  "10996109555",
+  "10989597697",
+  "10996131846",
+  "10996141565",
+  "10996139863",
+  "10996181387",
+  "10996189382"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -6061,13 +6061,6 @@
   },
   "modele:canon appareille|2@3076": {
    "date": 1795733937407,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:olympus professionnel|2@3075": {
-   "date": 1795651140532,
    "mediane": null,
    "echantillon": 1,
    "dispersion": null,
@@ -27891,6 +27884,49 @@
    "echantillon": 1,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:minolta x 300s f3 5 4 8|2@3076": {
+   "date": 1795823821316,
+   "mediane": null,
+   "echantillon": 0,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:kodak analogkamera|2@3076": {
+   "date": 1795824200874,
+   "mediane": 16,
+   "echantillon": 22,
+   "dispersion": 0.63,
+   "fourchette": [
+    5,
+    45
+   ],
+   "exemples": [
+    {
+     "id": 9614301570,
+     "prix": 17
+    },
+    {
+     "id": 10119561373,
+     "prix": 15
+    },
+    {
+     "id": 9632715778,
+     "prix": 15
+    },
+    {
+     "id": 10399449684,
+     "prix": 18
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:sony dsc w40 6mp|1@3075": {
+   "date": 1795824327621,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -30583,8 +30619,8 @@
    "vu": 1794141245456
   },
   "32844556": {
-   "n": 3,
-   "vu": 1795559423085
+   "n": 5,
+   "vu": 1795824326987
   },
   "32871909": {
    "n": 9,
@@ -32591,8 +32627,8 @@
    "vu": 1794153862503
   },
   "51262197": {
-   "n": 50,
-   "vu": 1795789347064
+   "n": 51,
+   "vu": 1795823441150
   },
   "51264911": {
    "n": 2,
@@ -39063,8 +39099,8 @@
    "vu": 1795478530427
   },
   "175183368": {
-   "n": 3,
-   "vu": 1795822553663
+   "n": 4,
+   "vu": 1795823441150
   },
   "175456571": {
    "n": 3,
@@ -45947,8 +45983,8 @@
    "vu": 1795345162955
   },
   "3146809999": {
-   "n": 7,
-   "vu": 1795733760925
+   "n": 8,
+   "vu": 1795823694225
   },
   "3146884423": {
    "n": 10,
@@ -50957,19 +50993,19 @@
  },
  "bilan": {
   "depuis": 1795819695806,
-  "passages": 57,
-  "nouvelles": 75,
+  "passages": 72,
+  "nouvelles": 82,
   "marque": 18,
   "etat": 3,
-  "prix": 0,
+  "prix": 1,
   "accessoire": 0,
   "lot": 0,
   "fausse": 0,
   "imitation": 2,
   "pro": 6,
-  "vendeurSpecialise": 10,
-  "sansCote": 64,
-  "chere": 49,
+  "vendeurSpecialise": 12,
+  "sansCote": 67,
+  "chere": 50,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 2,
@@ -50978,28 +51014,6 @@
  "panne": null,
  "panneDebut": null,
  "suivi": [
-  {
-   "id": 10901161415,
-   "titre": "Nikon Coolpix S6300",
-   "prix": 50,
-   "cote": 123,
-   "score": 61,
-   "lien": "https://www.vinted.fr/items/10901161415-nikon-coolpix-s6300",
-   "date": 1795218685186,
-   "statut": "en vente",
-   "verifieA": 1795222297075
-  },
-  {
-   "id": 10901190262,
-   "titre": "Appareil photo Mamiya - Z.E. Avec objectif Pentor supplémentaire 1/35",
-   "prix": 40,
-   "cote": null,
-   "score": 20,
-   "lien": "https://www.vinted.fr/items/10901190262-appareil-photo-mamiya-ze-avec-objectif-pentor-supplementaire-135",
-   "date": 1795219065554,
-   "statut": "en vente",
-   "verifieA": 1795222675837
-  },
   {
    "id": 10902238739,
    "titre": "Kodak AZ528",
@@ -54121,7 +54135,8 @@
    "score": 20,
    "lien": "https://www.vinted.fr/items/10993601412-macchina-fotografica-vintage",
    "date": 1795819932883,
-   "statut": null
+   "statut": "en vente",
+   "verifieA": 1795823568064
   }
  ],
  "dernierRecap": "2026-11-27"

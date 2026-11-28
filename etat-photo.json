@@ -1,8 +1,5 @@
 {
  "vues": [
-  "10977615863",
-  "10975759782",
-  "10977787621",
   "10977739878",
   "10977626616",
   "10977714195",
@@ -3999,7 +3996,10 @@
   "10996528158",
   "10996568849",
   "10996588908",
-  "10996662068"
+  "10996662068",
+  "10996682988",
+  "10996680049",
+  "10996690979"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -5930,10 +5930,11 @@
    "lissee": true
   },
   "marque:sony@3076": {
-   "date": 1795734024616,
+   "date": 1795830412113,
    "mediane": null,
-   "echantillon": 55,
-   "coteTropBasse": 48
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "marque"
   },
   "modele:nikon camara coolpix|2@3075": {
    "date": 1795799213594,
@@ -27891,6 +27892,42 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "modele:canon l 1 ixus|1@3076": {
+   "date": 1795830285335,
+   "mediane": 20,
+   "echantillon": 37,
+   "dispersion": 0.6,
+   "fourchette": [
+    5,
+    45
+   ],
+   "exemples": [
+    {
+     "id": 9153375556,
+     "prix": 20
+    },
+    {
+     "id": 8185408383,
+     "prix": 20
+    },
+    {
+     "id": 9775432174,
+     "prix": 20
+    },
+    {
+     "id": 9312588246,
+     "prix": 20
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:sony ericsson camara externa|1@3076": {
+   "date": 1795830412884,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -35891,8 +35928,8 @@
    "vu": 1794489163889
   },
   "83942705": {
-   "n": 4,
-   "vu": 1795830029162
+   "n": 5,
+   "vu": 1795830284542
   },
   "83954787": {
    "n": 65,
@@ -50961,8 +50998,8 @@
  },
  "bilan": {
   "depuis": 1795826929273,
-  "passages": 49,
-  "nouvelles": 6,
+  "passages": 64,
+  "nouvelles": 9,
   "marque": 1,
   "etat": 1,
   "prix": 0,
@@ -50972,8 +51009,8 @@
   "imitation": 0,
   "pro": 0,
   "vendeurSpecialise": 1,
-  "sansCote": 1,
-  "chere": 2,
+  "sansCote": 3,
+  "chere": 3,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,

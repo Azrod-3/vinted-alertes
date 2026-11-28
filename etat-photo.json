@@ -1,9 +1,5 @@
 {
  "vues": [
-  "10978517347",
-  "10978506631",
-  "10978496081",
-  "10978490561",
   "10978483320",
   "10978479706",
   "10978474367",
@@ -3999,34 +3995,38 @@
   "10997445143",
   "10997478721",
   "10997488149",
-  "10997497917"
+  "10997497917",
+  "10997510861",
+  "10997527385",
+  "10997537471",
+  "10997540211"
  ],
  "cotes": {
   "marque:sony@3075": {
-   "date": 1795755171007,
-   "mediane": 67,
-   "echantillon": 86,
-   "dispersion": 0.87,
+   "date": 1795844493260,
+   "mediane": 66,
+   "echantillon": 82,
+   "dispersion": 0.74,
    "fourchette": [
     20,
-    189.99
+    160
    ],
    "exemples": [
     {
-     "id": 10970775403,
-     "prix": 68
-    },
-    {
-     "id": 10985655854,
+     "id": 10988302178,
      "prix": 65
     },
     {
-     "id": 10982232902,
+     "id": 10988429220,
      "prix": 65
     },
     {
      "id": 10952382886,
      "prix": 65
+    },
+    {
+     "id": 10864668042,
+     "prix": 68
     }
    ],
    "niveau": "marque",
@@ -6035,42 +6035,6 @@
    "mediane": null,
    "echantillon": 1,
    "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:canon cineprese anni|2@3076": {
-   "date": 1795671987183,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:pentax 80v espio|2@3076": {
-   "date": 1795671988900,
-   "mediane": 47,
-   "echantillon": 18,
-   "dispersion": 0.64,
-   "fourchette": [
-    20,
-    85
-   ],
-   "exemples": [
-    {
-     "id": 9169467865,
-     "prix": 45
-    },
-    {
-     "id": 6922571809,
-     "prix": 49
-    },
-    {
-     "id": 6869465989,
-     "prix": 40
-    },
-    {
-     "id": 10974558979,
-     "prix": 35
-    }
-   ],
    "niveau": "modèle"
   },
   "modele:fujica st701|2@3076": {
@@ -27884,6 +27848,35 @@
     }
    ],
    "niveau": "modèle"
+  },
+  "modele:fujifilm fujica|2@3076": {
+   "date": 1795845251674,
+   "mediane": 40,
+   "echantillon": 62,
+   "dispersion": 0.93,
+   "fourchette": [
+    15,
+    120
+   ],
+   "exemples": [
+    {
+     "id": 9857992478,
+     "prix": 40
+    },
+    {
+     "id": 9298253950,
+     "prix": 40
+    },
+    {
+     "id": 10336052168,
+     "prix": 40
+    },
+    {
+     "id": 10637852082,
+     "prix": 40
+    }
+   ],
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -30360,8 +30353,8 @@
    "vu": 1794170000048
   },
   "31315561": {
-   "n": 2,
-   "vu": 1795751480712
+   "n": 3,
+   "vu": 1795844492402
   },
   "31330990": {
    "n": 11,
@@ -47284,8 +47277,8 @@
    "vu": 1794985820032
   },
   "3171555293": {
-   "n": 149,
-   "vu": 1795844238208
+   "n": 150,
+   "vu": 1795845124656
   },
   "3171601350": {
    "n": 2,
@@ -50962,19 +50955,19 @@
  },
  "bilan": {
   "depuis": 1795841387151,
-  "passages": 46,
-  "nouvelles": 10,
+  "passages": 61,
+  "nouvelles": 14,
   "marque": 0,
   "etat": 1,
   "prix": 1,
-  "accessoire": 0,
+  "accessoire": 1,
   "lot": 0,
   "fausse": 0,
   "imitation": 0,
   "pro": 2,
   "vendeurSpecialise": 0,
-  "sansCote": 5,
-  "chere": 1,
+  "sansCote": 7,
+  "chere": 2,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,

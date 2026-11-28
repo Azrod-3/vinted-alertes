@@ -1,7 +1,5 @@
 {
  "vues": [
-  "10977679554",
-  "10977749169",
   "10977615863",
   "10975759782",
   "10977787621",
@@ -3999,7 +3997,9 @@
   "10996437612",
   "10996514681",
   "10996528158",
-  "10996568849"
+  "10996568849",
+  "10996588908",
+  "10996662068"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -6064,35 +6064,6 @@
    "mediane": null,
    "echantillon": 1,
    "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:praktica digitalkamera luxmedia|1@3075": {
-   "date": 1795656724427,
-   "mediane": 49,
-   "echantillon": 4,
-   "dispersion": 0,
-   "fourchette": [
-    15,
-    75
-   ],
-   "exemples": [
-    {
-     "id": 10012789756,
-     "prix": 49
-    },
-    {
-     "id": 9136891086,
-     "prix": 49
-    },
-    {
-     "id": 9001907723,
-     "prix": 75
-    },
-    {
-     "id": 10973799413,
-     "prix": 15
-    }
-   ],
    "niveau": "modèle"
   },
   "modele:praktica maquina|2@3076": {
@@ -27891,6 +27862,35 @@
    "echantillon": 1,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:samsung s760|1@3075": {
+   "date": 1795830029945,
+   "mediane": 36,
+   "echantillon": 25,
+   "dispersion": 0.42,
+   "fourchette": [
+    10,
+    50
+   ],
+   "exemples": [
+    {
+     "id": 9924184591,
+     "prix": 36
+    },
+    {
+     "id": 10402781276,
+     "prix": 36
+    },
+    {
+     "id": 10994553551,
+     "prix": 35
+    },
+    {
+     "id": 10030146963,
+     "prix": 35
+    }
+   ],
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -35891,8 +35891,8 @@
    "vu": 1794489163889
   },
   "83942705": {
-   "n": 3,
-   "vu": 1795802694852
+   "n": 4,
+   "vu": 1795830029162
   },
   "83954787": {
    "n": 65,
@@ -37763,8 +37763,8 @@
    "vu": 1795001016543
   },
   "134476699": {
-   "n": 7,
-   "vu": 1795718302411
+   "n": 8,
+   "vu": 1795829145613
   },
   "134496208": {
    "n": 8,
@@ -50961,8 +50961,8 @@
  },
  "bilan": {
   "depuis": 1795826929273,
-  "passages": 34,
-  "nouvelles": 4,
+  "passages": 49,
+  "nouvelles": 6,
   "marque": 1,
   "etat": 1,
   "prix": 0,
@@ -50971,9 +50971,9 @@
   "fausse": 0,
   "imitation": 0,
   "pro": 0,
-  "vendeurSpecialise": 0,
+  "vendeurSpecialise": 1,
   "sansCote": 1,
-  "chere": 1,
+  "chere": 2,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,

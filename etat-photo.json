@@ -1,7 +1,5 @@
 {
  "vues": [
-  "10977726736",
-  "10977823666",
   "10977679554",
   "10977749169",
   "10977615863",
@@ -3999,7 +3997,9 @@
   "10996395858",
   "10996408588",
   "10996437612",
-  "10996514681"
+  "10996514681",
+  "10996528158",
+  "10996568849"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -6063,42 +6063,6 @@
    "date": 1795733937407,
    "mediane": null,
    "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:agfa iso rapid|1@3076": {
-   "date": 1795656090849,
-   "mediane": 13,
-   "echantillon": 75,
-   "dispersion": 0.69,
-   "fourchette": [
-    5,
-    30
-   ],
-   "exemples": [
-    {
-     "id": 9630283453,
-     "prix": 13
-    },
-    {
-     "id": 10118561680,
-     "prix": 13
-    },
-    {
-     "id": 9910766799,
-     "prix": 13
-    },
-    {
-     "id": 6756923391,
-     "prix": 12.5
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:canon 100 f 3 5 4 5|1@3076": {
-   "date": 1795656091499,
-   "mediane": null,
-   "echantillon": 0,
    "dispersion": null,
    "niveau": "modèle"
   },
@@ -27919,6 +27883,13 @@
      "prix": 72
     }
    ],
+   "niveau": "modèle"
+  },
+  "modele:fujifilm t3 contax|1@3076": {
+   "date": 1795828891021,
+   "mediane": null,
+   "echantillon": 1,
+   "dispersion": null,
    "niveau": "modèle"
   }
  },
@@ -50990,10 +50961,10 @@
  },
  "bilan": {
   "depuis": 1795826929273,
-  "passages": 19,
-  "nouvelles": 2,
+  "passages": 34,
+  "nouvelles": 4,
   "marque": 1,
-  "etat": 0,
+  "etat": 1,
   "prix": 0,
   "accessoire": 0,
   "lot": 0,
@@ -51002,7 +50973,7 @@
   "pro": 0,
   "vendeurSpecialise": 0,
   "sansCote": 1,
-  "chere": 0,
+  "chere": 1,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,

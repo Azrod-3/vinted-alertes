@@ -1,36 +1,5 @@
 {
  "vues": [
-  "10978708581",
-  "10978706107",
-  "10978700010",
-  "10978698383",
-  "10978696184",
-  "10978721002",
-  "10978675203",
-  "10978712239",
-  "10976072708",
-  "10978744118",
-  "10978718400",
-  "10978758044",
-  "10978754228",
-  "10978733741",
-  "10978774237",
-  "10978772299",
-  "10978769306",
-  "10978769208",
-  "10978767752",
-  "10978733319",
-  "10978476993",
-  "10978479911",
-  "10978482954",
-  "10978795684",
-  "10978787955",
-  "10978806744",
-  "10978791121",
-  "10978835448",
-  "10978829831",
-  "10978813206",
-  "10978833557",
   "10978822177",
   "10976042125",
   "10978854923",
@@ -3999,7 +3968,38 @@
   "10998313751",
   "10998319508",
   "10998317157",
-  "10998317417"
+  "10998317417",
+  "10998337569",
+  "10998336905",
+  "10998341466",
+  "10998360025",
+  "10998350148",
+  "10998379518",
+  "10998376531",
+  "10998380204",
+  "10998017562",
+  "10998398435",
+  "10998415629",
+  "10998411879",
+  "10998407606",
+  "10998403847",
+  "10998402612",
+  "10998419212",
+  "10998418609",
+  "10998432025",
+  "10998429133",
+  "10998419575",
+  "10998437811",
+  "10998436845",
+  "10998450047",
+  "10998445102",
+  "10998471215",
+  "10998458211",
+  "10998455764",
+  "10998453189",
+  "10998468415",
+  "10998466321",
+  "10998457162"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -4914,36 +4914,6 @@
     {
      "id": 10883912725,
      "prix": 20
-    }
-   ],
-   "niveau": "modèle",
-   "lissee": true
-  },
-  "modele:pentax optio|2@3075": {
-   "date": 1795683586757,
-   "mediane": 32,
-   "echantillon": 76,
-   "dispersion": 0.57,
-   "fourchette": [
-    11,
-    72
-   ],
-   "exemples": [
-    {
-     "id": 10967094890,
-     "prix": 30
-    },
-    {
-     "id": 10955553706,
-     "prix": 30
-    },
-    {
-     "id": 10963469822,
-     "prix": 30
-    },
-    {
-     "id": 10339060388,
-     "prix": 30
     }
    ],
    "niveau": "modèle",
@@ -6036,200 +6006,6 @@
    ],
    "niveau": "modèle",
    "lissee": true
-  },
-  "modele:canon ack e15 100d|4@3075": {
-   "date": 1795683071949,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:canon 105 ixus|2@3075": {
-   "date": 1795683072850,
-   "mediane": 150,
-   "echantillon": 29,
-   "dispersion": 0.3,
-   "fourchette": [
-    80,
-    250
-   ],
-   "exemples": [
-    {
-     "id": 10959923456,
-     "prix": 150
-    },
-    {
-     "id": 10724418059,
-     "prix": 150
-    },
-    {
-     "id": 10811764598,
-     "prix": 150
-    },
-    {
-     "id": 10900832034,
-     "prix": 150
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:nikon 301 macchinetta|2@3076": {
-   "date": 1795683203120,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:agfa iso pak|2@3076": {
-   "date": 1795683330981,
-   "mediane": 9,
-   "echantillon": 34,
-   "dispersion": 0.67,
-   "fourchette": [
-    2.5,
-    22
-   ],
-   "exemples": [
-    {
-     "id": 10654523737,
-     "prix": 9
-    },
-    {
-     "id": 9920406952,
-     "prix": 9
-    },
-    {
-     "id": 10654648507,
-     "prix": 9
-    },
-    {
-     "id": 9906761267,
-     "prix": 9
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:minolta x700 accessori|2@3076": {
-   "date": 1795683457917,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:canon ae 1 complete|2@3076": {
-   "date": 1795683458926,
-   "mediane": 195,
-   "echantillon": 3,
-   "dispersion": null,
-   "fourchette": [
-    125,
-    275
-   ],
-   "exemples": [
-    {
-     "id": 9893146876,
-     "prix": 195
-    },
-    {
-     "id": 10975412312,
-     "prix": 125
-    },
-    {
-     "id": 9775451559,
-     "prix": 275
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:minolta macchinetta|3@3076": {
-   "date": 1795683587332,
-   "mediane": 50,
-   "echantillon": 17,
-   "dispersion": 0.7,
-   "fourchette": [
-    15,
-    100
-   ],
-   "exemples": [
-    {
-     "id": 10531714660,
-     "prix": 50
-    },
-    {
-     "id": 7129396231,
-     "prix": 50
-    },
-    {
-     "id": 7334409732,
-     "prix": 45
-    },
-    {
-     "id": 10020493532,
-     "prix": 60
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:samsung st600 megapixels|2@3075": {
-   "date": 1795683714178,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:canon 3000n camara|2@3076": {
-   "date": 1795683714978,
-   "mediane": 90,
-   "echantillon": 3,
-   "dispersion": null,
-   "fourchette": [
-    70,
-    150
-   ],
-   "exemples": [
-    {
-     "id": 10059694757,
-     "prix": 90
-    },
-    {
-     "id": 10975461671,
-     "prix": 70
-    },
-    {
-     "id": 6512260548,
-     "prix": 150
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:canon 3000n eos|2@3076": {
-   "date": 1795683842136,
-   "mediane": 60,
-   "echantillon": 55,
-   "dispersion": 0.92,
-   "fourchette": [
-    18,
-    180
-   ],
-   "exemples": [
-    {
-     "id": 10975471188,
-     "prix": 60
-    },
-    {
-     "id": 9473325133,
-     "prix": 60
-    },
-    {
-     "id": 10615759390,
-     "prix": 60
-    },
-    {
-     "id": 10432570921,
-     "prix": 60
-    }
-   ],
-   "niveau": "modèle"
   },
   "modele:fujifilm x t30 objektiv|2@3075": {
    "date": 1795684224327,
@@ -13348,12 +13124,12 @@
    "niveau": "modèle"
   },
   "modele:canon 1100d eos|2@3075": {
-   "date": 1795719711914,
+   "date": 1795856450217,
    "mediane": 120,
-   "echantillon": 78,
+   "echantillon": 82,
    "dispersion": 0.42,
    "fourchette": [
-    70,
+    48,
     230
    ],
    "exemples": [
@@ -13362,19 +13138,20 @@
      "prix": 120
     },
     {
-     "id": 10957034640,
+     "id": 10445576168,
+     "prix": 120
+    },
+    {
+     "id": 8149752601,
      "prix": 120
     },
     {
      "id": 10929567629,
      "prix": 120
-    },
-    {
-     "id": 10445576168,
-     "prix": 120
     }
    ],
-   "niveau": "modèle"
+   "niveau": "modèle",
+   "lissee": true
   },
   "modele:canon sx30is|2@3075": {
    "date": 1795719841009,
@@ -27527,6 +27304,132 @@
    "echantillon": 1,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:canon t50 camara|1@3076": {
+   "date": 1795855943119,
+   "mediane": 70,
+   "echantillon": 5,
+   "dispersion": 0.36,
+   "fourchette": [
+    25,
+    115
+   ],
+   "exemples": [
+    {
+     "id": 8423809019,
+     "prix": 70
+    },
+    {
+     "id": 5606558178,
+     "prix": 75
+    },
+    {
+     "id": 5953802685,
+     "prix": 49.99
+    },
+    {
+     "id": 10998350148,
+     "prix": 25
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:canon canonet|1@3076": {
+   "date": 1795856196368,
+   "mediane": 60,
+   "echantillon": 73,
+   "dispersion": 0.98,
+   "fourchette": [
+    20,
+    165
+   ],
+   "exemples": [
+    {
+     "id": 10990610059,
+     "prix": 60
+    },
+    {
+     "id": 10586459995,
+     "prix": 60
+    },
+    {
+     "id": 10302668825,
+     "prix": 60
+    },
+    {
+     "id": 10529390678,
+     "prix": 60
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:pentax zoom iqzoom|3@3076": {
+   "date": 1795856450908,
+   "mediane": null,
+   "echantillon": 2,
+   "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:fujifilm s2500hd camara|2@3075": {
+   "date": 1795856577956,
+   "mediane": 80,
+   "echantillon": 5,
+   "dispersion": 0.13,
+   "fourchette": [
+    65,
+    120
+   ],
+   "exemples": [
+    {
+     "id": 5435917636,
+     "prix": 80
+    },
+    {
+     "id": 6059705333,
+     "prix": 80
+    },
+    {
+     "id": 8464154145,
+     "prix": 70
+    },
+    {
+     "id": 10998436845,
+     "prix": 65
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:canon 630 eos|2@3076": {
+   "date": 1795856578857,
+   "mediane": 70,
+   "echantillon": 3,
+   "dispersion": null,
+   "fourchette": [
+    70,
+    90
+   ],
+   "exemples": [
+    {
+     "id": 10998445102,
+     "prix": 70
+    },
+    {
+     "id": 9267337800,
+     "prix": 70
+    },
+    {
+     "id": 10864546071,
+     "prix": 90
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:fujifilm accessori|2@3075": {
+   "date": 1795856705973,
+   "mediane": null,
+   "echantillon": 2,
+   "dispersion": null,
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -27623,8 +27526,8 @@
    "vu": 1793801095309
   },
   "2032214": {
-   "n": 2,
-   "vu": 1795513283640
+   "n": 3,
+   "vu": 1795856705095
   },
   "7209756": {
    "n": 2,
@@ -28443,8 +28346,8 @@
    "vu": 1795718559663
   },
   "17835424": {
-   "n": 8,
-   "vu": 1794559468752
+   "n": 9,
+   "vu": 1795856577260
   },
   "17848411": {
    "n": 3,
@@ -30881,6 +30784,10 @@
   "39280665": {
    "n": 2,
    "vu": 1794150506586
+  },
+  "39371795": {
+   "n": 2,
+   "vu": 1795856195542
   },
   "39422210": {
    "n": 24,
@@ -37603,8 +37510,8 @@
    "vu": 1795038805558
   },
   "141811294": {
-   "n": 18,
-   "vu": 1795255500385
+   "n": 19,
+   "vu": 1795856705095
   },
   "141821600": {
    "n": 3,
@@ -39891,8 +39798,8 @@
    "vu": 1795705939819
   },
   "214080989": {
-   "n": 18,
-   "vu": 1795854146921
+   "n": 19,
+   "vu": 1795855816384
   },
   "214128070": {
    "n": 2,
@@ -45967,8 +45874,8 @@
    "vu": 1795436952606
   },
   "3152545653": {
-   "n": 14,
-   "vu": 1795819673218
+   "n": 15,
+   "vu": 1795856323160
   },
   "3152567873": {
    "n": 4,
@@ -50620,24 +50527,24 @@
   }
  },
  "bilan": {
-  "depuis": 1795848606269,
-  "passages": 112,
-  "nouvelles": 171,
-  "marque": 30,
-  "etat": 3,
-  "prix": 4,
-  "accessoire": 3,
-  "lot": 3,
-  "fausse": 1,
+  "depuis": 1795855816385,
+  "passages": 14,
+  "nouvelles": 28,
+  "marque": 5,
+  "etat": 0,
+  "prix": 1,
+  "accessoire": 1,
+  "lot": 2,
+  "fausse": 0,
   "imitation": 0,
-  "pro": 7,
-  "vendeurSpecialise": 19,
-  "sansCote": 71,
-  "chere": 28,
+  "pro": 1,
+  "vendeurSpecialise": 1,
+  "sansCote": 11,
+  "chere": 6,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
-  "alertes": 2
+  "alertes": 0
  },
  "panne": null,
  "panneDebut": null,
@@ -53752,7 +53659,8 @@
    "score": 73,
    "lien": "https://www.vinted.fr/items/10997983051-nikon-d3100-reflex-obiettivo-18-55mm-vr-2-batterie-e-caricabatterie",
    "date": 1795852615710,
-   "statut": null
+   "statut": "en vente",
+   "verifieA": 1795856260051
   },
   {
    "id": 10998032937,

@@ -1,13 +1,5 @@
 {
  "vues": [
-  "10978280230",
-  "10978283641",
-  "10978276342",
-  "10978261477",
-  "10978244753",
-  "10978215481",
-  "10978212722",
-  "10978214355",
   "10976548786",
   "10978190419",
   "10978201205",
@@ -3999,7 +3991,15 @@
   "10997630661",
   "10997656331",
   "10997673337",
-  "10997668141"
+  "10997668141",
+  "10997685867",
+  "10997688060",
+  "10997688642",
+  "10997712673",
+  "10997709683",
+  "10997707494",
+  "10990300621",
+  "10997721957"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -6032,71 +6032,6 @@
   },
   "modele:canon appareille|2@3076": {
    "date": 1795733937407,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:konica analogica pop|2@3076": {
-   "date": 1795675543604,
-   "mediane": 40,
-   "echantillon": 19,
-   "dispersion": 0.5,
-   "fourchette": [
-    10,
-    70
-   ],
-   "exemples": [
-    {
-     "id": 10974733443,
-     "prix": 40
-    },
-    {
-     "id": 10289176530,
-     "prix": 40
-    },
-    {
-     "id": 6663500645,
-     "prix": 40
-    },
-    {
-     "id": 9870471699,
-     "prix": 45
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:agfa 1035 optima|2@3076": {
-   "date": 1795675924463,
-   "mediane": 80,
-   "echantillon": 11,
-   "dispersion": 0.94,
-   "fourchette": [
-    25,
-    150
-   ],
-   "exemples": [
-    {
-     "id": 10974751690,
-     "prix": 80
-    },
-    {
-     "id": 10498228422,
-     "prix": 80
-    },
-    {
-     "id": 10680472589,
-     "prix": 79
-    },
-    {
-     "id": 9906557111,
-     "prix": 90
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:canon 185 macchinetta|3@3075": {
-   "date": 1795676177555,
    "mediane": null,
    "echantillon": 1,
    "dispersion": null,
@@ -27838,6 +27773,35 @@
     {
      "id": 9662961088,
      "prix": 100
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:agfa isomat rapid|1@3076": {
+   "date": 1795848923605,
+   "mediane": 15,
+   "echantillon": 34,
+   "dispersion": 0.67,
+   "fourchette": [
+    5.99,
+    35
+   ],
+   "exemples": [
+    {
+     "id": 9552855656,
+     "prix": 15
+    },
+    {
+     "id": 9671648935,
+     "prix": 15
+    },
+    {
+     "id": 9252524709,
+     "prix": 15
+    },
+    {
+     "id": 9933664723,
+     "prix": 15
     }
    ],
    "niveau": "modèle"
@@ -50922,20 +50886,20 @@
   }
  },
  "bilan": {
-  "depuis": 1795841387151,
-  "passages": 106,
-  "nouvelles": 33,
-  "marque": 4,
-  "etat": 2,
-  "prix": 2,
-  "accessoire": 1,
+  "depuis": 1795848606269,
+  "passages": 7,
+  "nouvelles": 5,
+  "marque": 1,
+  "etat": 0,
+  "prix": 0,
+  "accessoire": 0,
   "lot": 0,
-  "fausse": 1,
+  "fausse": 0,
   "imitation": 0,
-  "pro": 5,
-  "vendeurSpecialise": 4,
-  "sansCote": 11,
-  "chere": 3,
+  "pro": 1,
+  "vendeurSpecialise": 0,
+  "sansCote": 2,
+  "chere": 1,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,

@@ -1,8 +1,5 @@
 {
  "vues": [
-  "10977739878",
-  "10977626616",
-  "10977714195",
   "10977718842",
   "10977679544",
   "10977254565",
@@ -3999,7 +3996,10 @@
   "10996662068",
   "10996682988",
   "10996680049",
-  "10996690979"
+  "10996690979",
+  "10996747467",
+  "10996762546",
+  "10996796154"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -6065,35 +6065,6 @@
    "mediane": null,
    "echantillon": 1,
    "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:praktica maquina|2@3076": {
-   "date": 1795659129541,
-   "mediane": 50,
-   "echantillon": 13,
-   "dispersion": 1.3,
-   "fourchette": [
-    18,
-    135
-   ],
-   "exemples": [
-    {
-     "id": 7387943201,
-     "prix": 50
-    },
-    {
-     "id": 8106904254,
-     "prix": 60
-    },
-    {
-     "id": 10875381420,
-     "prix": 35
-    },
-    {
-     "id": 10973940430,
-     "prix": 25
-    }
-   ],
    "niveau": "modèle"
   },
   "modele:olympus vr 340 16mp|2@3075": {
@@ -50520,8 +50491,8 @@
    "vu": 1794670538669
   },
   "3213636002": {
-   "n": 8,
-   "vu": 1795283551319
+   "n": 9,
+   "vu": 1795831425776
   },
   "3213699815": {
    "n": 4,
@@ -50998,9 +50969,9 @@
  },
  "bilan": {
   "depuis": 1795826929273,
-  "passages": 64,
-  "nouvelles": 9,
-  "marque": 1,
+  "passages": 79,
+  "nouvelles": 12,
+  "marque": 3,
   "etat": 1,
   "prix": 0,
   "accessoire": 0,
@@ -51009,7 +50980,7 @@
   "imitation": 0,
   "pro": 0,
   "vendeurSpecialise": 1,
-  "sansCote": 3,
+  "sansCote": 4,
   "chere": 3,
   "description": 0,
   "scoreFaible": 0,

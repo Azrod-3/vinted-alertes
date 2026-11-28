@@ -1,7 +1,5 @@
 {
  "vues": [
-  "10977833869",
-  "10977820995",
   "10977726736",
   "10977823666",
   "10977679554",
@@ -3999,7 +3997,9 @@
   "10996383386",
   "10996401649",
   "10996395858",
-  "10996408588"
+  "10996408588",
+  "10996437612",
+  "10996514681"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -6064,35 +6064,6 @@
    "mediane": null,
    "echantillon": 1,
    "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:canon 1000 camara|1@3076": {
-   "date": 1795654823984,
-   "mediane": 45,
-   "echantillon": 6,
-   "dispersion": 0.67,
-   "fourchette": [
-    18,
-    100
-   ],
-   "exemples": [
-    {
-     "id": 10955801806,
-     "prix": 50
-    },
-    {
-     "id": 10257863938,
-     "prix": 40
-    },
-    {
-     "id": 10973676195,
-     "prix": 30
-    },
-    {
-     "id": 5919676434,
-     "prix": 60
-    }
-   ],
    "niveau": "modèle"
   },
   "modele:agfa iso rapid|1@3076": {
@@ -51019,9 +50990,9 @@
  },
  "bilan": {
   "depuis": 1795826929273,
-  "passages": 4,
-  "nouvelles": 0,
-  "marque": 0,
+  "passages": 19,
+  "nouvelles": 2,
+  "marque": 1,
   "etat": 0,
   "prix": 0,
   "accessoire": 0,
@@ -51030,7 +51001,7 @@
   "imitation": 0,
   "pro": 0,
   "vendeurSpecialise": 0,
-  "sansCote": 0,
+  "sansCote": 1,
   "chere": 0,
   "description": 0,
   "scoreFaible": 0,

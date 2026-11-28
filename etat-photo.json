@@ -1,9 +1,5 @@
 {
  "vues": [
-  "10977603183",
-  "10977342066",
-  "10977582655",
-  "10977595954",
   "10977536401",
   "10977587281",
   "10977548964",
@@ -3999,7 +3995,11 @@
   "10997041831",
   "10997048567",
   "10997059058",
-  "10997080503"
+  "10997080503",
+  "10997281739",
+  "10997267031",
+  "10997302988",
+  "10989977673"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -5045,36 +5045,6 @@
    "niveau": "modèle",
    "lissee": true
   },
-  "modele:nikon s3000 coolpix|2@3075": {
-   "date": 1795666919987,
-   "mediane": 70,
-   "echantillon": 71,
-   "dispersion": 0.46,
-   "fourchette": [
-    20,
-    139
-   ],
-   "exemples": [
-    {
-     "id": 10974231483,
-     "prix": 70
-    },
-    {
-     "id": 10941795697,
-     "prix": 70
-    },
-    {
-     "id": 10521687652,
-     "prix": 70
-    },
-    {
-     "id": 8326492986,
-     "prix": 70
-    }
-   ],
-   "niveau": "modèle",
-   "lissee": true
-  },
   "modele:nikon w100 coolpix|2@3075": {
    "date": 1795712640582,
    "mediane": 79,
@@ -6065,35 +6035,6 @@
    "mediane": null,
    "echantillon": 1,
    "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:canon 1200 eos|2@3075": {
-   "date": 1795666917683,
-   "mediane": 200,
-   "echantillon": 40,
-   "dispersion": 0.5,
-   "fourchette": [
-    99,
-    380
-   ],
-   "exemples": [
-    {
-     "id": 10720908033,
-     "prix": 200
-    },
-    {
-     "id": 9783593103,
-     "prix": 200
-    },
-    {
-     "id": 8709398909,
-     "prix": 200
-    },
-    {
-     "id": 5379452240,
-     "prix": 200
-    }
-   ],
    "niveau": "modèle"
   },
   "modele:olympus c 2020 camedia|2@3075": {
@@ -27904,6 +27845,35 @@
     {
      "id": 10436267645,
      "prix": 90
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:fujifilm s2950 finepix|2@3075": {
+   "date": 1795840185451,
+   "mediane": 60,
+   "echantillon": 51,
+   "dispersion": 0.33,
+   "fourchette": [
+    30,
+    120
+   ],
+   "exemples": [
+    {
+     "id": 10977626616,
+     "prix": 60
+    },
+    {
+     "id": 10273310236,
+     "prix": 60
+    },
+    {
+     "id": 6054444130,
+     "prix": 60
+    },
+    {
+     "id": 8847455657,
+     "prix": 60
     }
    ],
    "niveau": "modèle"
@@ -50981,9 +50951,9 @@
  },
  "bilan": {
   "depuis": 1795834147554,
-  "passages": 55,
-  "nouvelles": 9,
-  "marque": 4,
+  "passages": 71,
+  "nouvelles": 13,
+  "marque": 5,
   "etat": 0,
   "prix": 1,
   "accessoire": 0,
@@ -50992,8 +50962,8 @@
   "imitation": 0,
   "pro": 0,
   "vendeurSpecialise": 0,
-  "sansCote": 1,
-  "chere": 3,
+  "sansCote": 3,
+  "chere": 4,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
@@ -51002,17 +50972,6 @@
  "panne": null,
  "panneDebut": null,
  "suivi": [
-  {
-   "id": 10902238739,
-   "titre": "Kodak AZ528",
-   "prix": 120,
-   "cote": 190,
-   "score": 56,
-   "lien": "https://www.vinted.fr/items/10902238739-kodak-az528",
-   "date": 1795233628729,
-   "statut": "en vente",
-   "verifieA": 1795237231517
-  },
   {
    "id": 10902666740,
    "titre": "Voigtländer Kamera",

@@ -1,8 +1,5 @@
 {
  "vues": [
-  "10978329029",
-  "10978307407",
-  "10978289917",
   "10978280230",
   "10978283641",
   "10978276342",
@@ -3999,7 +3996,10 @@
   "10997603339",
   "10997620743",
   "10997619942",
-  "10997630661"
+  "10997630661",
+  "10997656331",
+  "10997673337",
+  "10997668141"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -6032,42 +6032,6 @@
   },
   "modele:canon appareille|2@3076": {
    "date": 1795733937407,
-   "mediane": null,
-   "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:minolta af35|2@3076": {
-   "date": 1795674904759,
-   "mediane": 33,
-   "echantillon": 28,
-   "dispersion": 0.57,
-   "fourchette": [
-    15,
-    80
-   ],
-   "exemples": [
-    {
-     "id": 10866636675,
-     "prix": 33
-    },
-    {
-     "id": 10416001303,
-     "prix": 33
-    },
-    {
-     "id": 10689917989,
-     "prix": 31
-    },
-    {
-     "id": 5873749653,
-     "prix": 35
-    }
-   ],
-   "niveau": "modèle"
-  },
-  "modele:canon cannon ixus|1@3075": {
-   "date": 1795675284560,
    "mediane": null,
    "echantillon": 1,
    "dispersion": null,
@@ -27847,6 +27811,35 @@
    "mediane": null,
    "echantillon": 0,
    "dispersion": null,
+   "niveau": "modèle"
+  },
+  "modele:canon a2200 powershot|2@3075": {
+   "date": 1795848036141,
+   "mediane": 108,
+   "echantillon": 22,
+   "dispersion": 0.27,
+   "fourchette": [
+    60,
+    160
+   ],
+   "exemples": [
+    {
+     "id": 8304783975,
+     "prix": 110
+    },
+    {
+     "id": 10050313014,
+     "prix": 105
+    },
+    {
+     "id": 9919871287,
+     "prix": 115
+    },
+    {
+     "id": 9662961088,
+     "prix": 100
+    }
+   ],
    "niveau": "modèle"
   }
  },
@@ -50930,9 +50923,9 @@
  },
  "bilan": {
   "depuis": 1795841387151,
-  "passages": 91,
-  "nouvelles": 30,
-  "marque": 3,
+  "passages": 106,
+  "nouvelles": 33,
+  "marque": 4,
   "etat": 2,
   "prix": 2,
   "accessoire": 1,
@@ -50941,8 +50934,8 @@
   "imitation": 0,
   "pro": 5,
   "vendeurSpecialise": 4,
-  "sansCote": 10,
-  "chere": 2,
+  "sansCote": 11,
+  "chere": 3,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,
@@ -50951,17 +50944,6 @@
  "panne": null,
  "panneDebut": null,
  "suivi": [
-  {
-   "id": 10902666740,
-   "titre": "Voigtländer Kamera",
-   "prix": 60,
-   "cote": null,
-   "score": 22,
-   "lien": "https://www.vinted.fr/items/10902666740-voigtlander-kamera",
-   "date": 1795243116472,
-   "statut": "en vente",
-   "verifieA": 1795255844821
-  },
   {
    "id": 10904071339,
    "titre": "Nikon Nikkormat FT2 vintage – Reflex analogica 35 mm – Made in Japan",

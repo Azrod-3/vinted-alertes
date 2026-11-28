@@ -1,10 +1,5 @@
 {
  "vues": [
-  "10977637199",
-  "10977168669",
-  "10977560767",
-  "10977613518",
-  "10977424438",
   "10976467467",
   "10977603183",
   "10977342066",
@@ -3999,7 +3994,12 @@
   "10996951236",
   "10996972989",
   "10996993111",
-  "10996989413"
+  "10996989413",
+  "10997020518",
+  "10997037381",
+  "10997041831",
+  "10997048567",
+  "10997059058"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -6064,13 +6064,6 @@
    "date": 1795733937407,
    "mediane": null,
    "echantillon": 1,
-   "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:panasonic dmc ls2 5mp|1@3075": {
-   "date": 1795662550271,
-   "mediane": null,
-   "echantillon": 2,
    "dispersion": null,
    "niveau": "modèle"
   },
@@ -27856,6 +27849,93 @@
    "echantillon": 1,
    "dispersion": null,
    "niveau": "modèle"
+  },
+  "modele:agfa 100 maquina|1@3076": {
+   "date": 1795835223981,
+   "mediane": 19,
+   "echantillon": 4,
+   "dispersion": 0.38,
+   "fourchette": [
+    10,
+    30
+   ],
+   "exemples": [
+    {
+     "id": 9050802854,
+     "prix": 22
+    },
+    {
+     "id": 10997037381,
+     "prix": 15
+    },
+    {
+     "id": 10901185088,
+     "prix": 10
+    },
+    {
+     "id": 10704455561,
+     "prix": 30
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:canon 5x powershot|2@3075": {
+   "date": 1795835351102,
+   "mediane": 90,
+   "echantillon": 11,
+   "dispersion": 0.44,
+   "fourchette": [
+    55,
+    149.9
+   ],
+   "exemples": [
+    {
+     "id": 10206966662,
+     "prix": 90
+    },
+    {
+     "id": 8745661415,
+     "prix": 90
+    },
+    {
+     "id": 10253019111,
+     "prix": 89.95
+    },
+    {
+     "id": 10997041831,
+     "prix": 85
+    }
+   ],
+   "niveau": "modèle"
+  },
+  "modele:nikon a10 16 1|2@3075": {
+   "date": 1795835477869,
+   "mediane": 80,
+   "echantillon": 6,
+   "dispersion": 0.32,
+   "fourchette": [
+    55,
+    90
+   ],
+   "exemples": [
+    {
+     "id": 10397334023,
+     "prix": 80
+    },
+    {
+     "id": 10115186155,
+     "prix": 80
+    },
+    {
+     "id": 10890355447,
+     "prix": 89.99
+    },
+    {
+     "id": 10436267645,
+     "prix": 90
+    }
+   ],
+   "niveau": "modèle"
   }
  },
  "vendeurs": {
@@ -46460,8 +46540,8 @@
    "vu": 1794606919342
   },
   "3155244578": {
-   "n": 27,
-   "vu": 1795834336698
+   "n": 28,
+   "vu": 1795835604103
   },
   "3155274971": {
    "n": 2,
@@ -50930,9 +51010,9 @@
  },
  "bilan": {
   "depuis": 1795834147554,
-  "passages": 10,
-  "nouvelles": 3,
-  "marque": 3,
+  "passages": 25,
+  "nouvelles": 8,
+  "marque": 4,
   "etat": 0,
   "prix": 0,
   "accessoire": 0,
@@ -50941,8 +51021,8 @@
   "imitation": 0,
   "pro": 0,
   "vendeurSpecialise": 0,
-  "sansCote": 0,
-  "chere": 0,
+  "sansCote": 1,
+  "chere": 3,
   "description": 0,
   "scoreFaible": 0,
   "blocages": 0,

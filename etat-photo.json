@@ -1,6 +1,5 @@
 {
  "vues": [
-  "10976467467",
   "10977603183",
   "10977342066",
   "10977582655",
@@ -3999,7 +3998,8 @@
   "10997037381",
   "10997041831",
   "10997048567",
-  "10997059058"
+  "10997059058",
+  "10997080503"
  ],
  "cotes": {
   "marque:sony@3075": {
@@ -6065,35 +6065,6 @@
    "mediane": null,
    "echantillon": 1,
    "dispersion": null,
-   "niveau": "modèle"
-  },
-  "modele:olympus om 10 f 1 8|2@3076": {
-   "date": 1795663815639,
-   "mediane": 143,
-   "echantillon": 22,
-   "dispersion": 0.56,
-   "fourchette": [
-    80,
-    260
-   ],
-   "exemples": [
-    {
-     "id": 10921309597,
-     "prix": 150
-    },
-    {
-     "id": 8558166005,
-     "prix": 150
-    },
-    {
-     "id": 10489330617,
-     "prix": 135
-    },
-    {
-     "id": 10912912503,
-     "prix": 129
-    }
-   ],
    "niveau": "modèle"
   },
   "modele:canon 1200 eos|2@3075": {
@@ -51010,11 +50981,11 @@
  },
  "bilan": {
   "depuis": 1795834147554,
-  "passages": 25,
-  "nouvelles": 8,
+  "passages": 40,
+  "nouvelles": 9,
   "marque": 4,
   "etat": 0,
-  "prix": 0,
+  "prix": 1,
   "accessoire": 0,
   "lot": 0,
   "fausse": 0,
